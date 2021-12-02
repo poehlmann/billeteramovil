@@ -1,0 +1,42 @@
+{
+  "@context" : "http://schema.org",
+  "@type" : "SoftwareApplication",
+  "name" : "SOLI BILLETERA MÓVIL TE PERMITE PAGAR CON TU CELULAR",
+  "image" : "https://www.solipagosbcp.com.bo/assets/img/soli-billetera-movil-app.png",
+  "author" : {
+    "@type" : "Organization",
+    "name" : "Banco de Crédito de Bolivia S.A."
+  },
+  "publisher" : {
+    "@type" : "Organization",
+    "name" : "Soli"
+  },
+  "downloadUrl" : [ "https://play.google.com/store/apps/details?id=com.bcp.bo.wallet&referrer=utm_source%3Dp%25C3%25A1gina_web%26utm_medium%3Dp%25C3%25A1gina_web%26utm_term%3Dp%25C3%25A1gina_web%26utm_content%3Dp%25C3%25A1gina_web%26utm_campaign%3Dp%25C3%25A1gina_web", "https://apps.apple.com/es/app/soli-pagos-bcp/id1135987447" ],
+  "screenshot" : "https://www.solipagosbcp.com.bo/assets/img/datos.png",
+  "offers": {
+    "@type": "Offer",
+    "availability": "https://play.google.com/store/apps/details?id=com.bcp.bo.wallet&referrer=utm_source%3Dp%25C3%25A1gina_web%26utm_medium%3Dp%25C3%25A1gina_web%26utm_term%3Dp%25C3%25A1gina_web%26utm_content%3Dp%25C3%25A1gina_web%26utm_campaign%3Dp%25C3%25A1gina_web",
+    "price":"0",
+    "priceCurrency":"USD"
+  },
+  "applicationCategory":"Finance",
+  "operatingSystem": ["Android","iOS"],
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Bruno Poehlmann"
+    },
+    "reviewBody": "Bruno buenas noches Agradecemos tu valoración y nos sentimos felices de que la app sea útil para ti. Disfruta de la libertad digital que SOLI te brinda 😎"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4",
+    "bestRating": "5",
+    "ratingCount": "646"
+  }
+}

@@ -1,0 +1,49 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/assets/js/ayuda.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/blog.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/blog_script.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/bootstrap.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/entry.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/jquery.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/js_principal.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/lite-youtube.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/menu.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/preloader/preloader.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/promociones_script.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/script.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/smart-app-banner.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/theme-vendors.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/theme.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/video_youtube.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/vendors/jquery.min.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/vendors/owlcarousel/dist/owl.carousel.min.js" />
+        <item url="file://$PROJECT_DIR$/sw.min.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/assets/js/ayuda.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/blog.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/blog_script.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/bootstrap.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/entry.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/jquery.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/js_principal.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/lite-youtube.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/menu.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/preloader/preloader.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/promociones_script.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/script.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/smart-app-banner.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/theme-vendors.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/theme.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/video_youtube.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/vendors/jquery.min.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/vendors/owlcarousel/dist/owl.carousel.min.js" />
+      <root url="file://$PROJECT_DIR$/sw.min.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
