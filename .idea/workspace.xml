@@ -17,8 +17,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="comercios">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/css_principal.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/css_principal.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,19 +62,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\solipagos\assets\js" />
-      <recent name="C:\xampp\htdocs\solipagos\assets\css" />
-      <recent name="C:\xampp\htdocs\solipagos\assets\img" />
-      <recent name="C:\xampp\htdocs\solipagos" />
-      <recent name="C:\xampp\htdocs\solipagos\solipromociones" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\solipagos\ayuda" />
       <recent name="C:\xampp\htdocs\solipagos\assets\css" />
       <recent name="C:\xampp\htdocs\solipagos\billeteramovil" />
       <recent name="C:\xampp\htdocs\solipagos\assets\img" />
       <recent name="C:\xampp\htdocs\solipagos\assets\video" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\solipagos\assets\js" />
+      <recent name="C:\xampp\htdocs\solipagos\assets\css" />
+      <recent name="C:\xampp\htdocs\solipagos\assets\img" />
+      <recent name="C:\xampp\htdocs\solipagos" />
+      <recent name="C:\xampp\htdocs\solipagos\solipromociones" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.demo.html">
@@ -279,13 +281,6 @@
       <workItem from="1638215779000" duration="3885000" />
       <workItem from="1638281066775" duration="25036000" />
       <workItem from="1638450824308" duration="8467000" />
-    </task>
-    <task id="LOCAL-00247" summary="22/09/2021">
-      <created>1632366805203</created>
-      <option name="number" value="00247" />
-      <option name="presentableId" value="LOCAL-00247" />
-      <option name="project" value="LOCAL" />
-      <updated>1632366805204</updated>
     </task>
     <task id="LOCAL-00248" summary="pagina de prueba">
       <created>1632368086365</created>
@@ -623,7 +618,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638479979372</updated>
     </task>
-    <option name="localTasksCounter" value="296" />
+    <task id="LOCAL-00296" summary="soliaguinaldo">
+      <created>1638480438405</created>
+      <option name="number" value="00296" />
+      <option name="presentableId" value="LOCAL-00296" />
+      <option name="project" value="LOCAL" />
+      <updated>1638480438405</updated>
+    </task>
+    <option name="localTasksCounter" value="297" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -707,11 +709,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1632242785836" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1638479980707">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1638480439581">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630452293117" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1638479980707" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1638480439581" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.3.1536.824@0.0.1920.1040" timestamp="1636476463424" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1638479782914">
       <screen x="0" y="0" width="1920" height="1040" />

@@ -2409,7 +2409,7 @@ h5{font-size:1.25rem;}
     height: 100%;
     list-style: none;
     margin: 0;
-    padding: 30px 5%;
+    padding: 55px 5%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -2423,55 +2423,55 @@ h5{font-size:1.25rem;}
     margin: 0;
     width: 20%;
     height: 0;
-    padding: 0px 0px 17%;
+    padding: 0 0 17%;
     perspective: 700px;
 }
 .card-object {
-    color: #FFF;
+    color: #fff;
     display: block;
     float: left;
     position: absolute;
     top: 6%;
     left: 6%;
-    width: 88%;
-    height: 88%;
+    width: 85%;
+    height: 100%;
     transform-style: preserve-3d;
 }
 .card-object.card-1 .front {
-    background: #222 url(../img/paga-servicios.jpg?raw=1) 90% 35%;
-    background-size: 115%;
+    background: url(../img/recarga-tu-soli-qr.png?raw=1) no-repeat;
+    background-size: 100%;
 }
 .card-object.card-1 .back .img-wrapper {
-    background: transparent url(../img/paga-servicios.jpg?raw=1) 70% 45%;
-    background-size: 160%;
+    background: transparent url(../img/recarga-tu-soli-qr.png?raw=1) 60% 55%;
+    background-size: 110%;
 }
 .card-object.card-1 .back .avatar {
-    background: transparent url(../img/paga-servicios.jpg?raw=1) 40% 20%;
-    background-size: 130% 130%;
+    background: transparent url(../img/recarga-tu-soli-qr.png?raw=1) 40% 20%;
+    background-size: 106% 105%;
 }
 .card-object.card-2 .front {
-    background: #222 url(../img/paga-servicios.jpg?raw=1) 50% 90% no-repeat;
-    background-size: 105%;
+    background:url(../img/recarga-tu-soli-transferencia.png?raw=1) no-repeat;
+    background-size: 100%;
 }
 .card-object.card-2 .back .img-wrapper {
-    background: transparent url(../img/paga-servicios.jpg?raw=1) 70% 50%;
-    background-size: 140%;
+    background: transparent url(../img/recarga-tu-soli-transferencia.png?raw=1) 60% 55%;
+    background-size: 110%;
 }
 .card-object.card-2 .back .avatar {
-    background: transparent url(../img/paga-servicios.jpg?raw=1) 50% 50% no-repeat;
-    background-size: 140% 140%;
+    background: transparent url(../img/recarga-tu-soli-transferencia.png?raw=1) 50% 50% no-repeat;
+    background-size: 106% 105%;
 }
 .card-object.card-3 .front {
-    background: #222 url(../img/paga-servicios.jpg?raw=1) 80% 100% no-repeat;
-    background-size: 108%;
+    background: url(../img/recarga-tu-soli-agente-bcp.png?raw=1) no-repeat;
+    background-size: 100%;
 }
 .card-object.card-3 .back .img-wrapper {
-    background: transparent url(../img/paga-servicios.jpg?raw=1) 90% 40% no-repeat;
-    background-size: 115%;
+    background: transparent url(../img/recarga-tu-soli-agente-bcp.png?raw=1) 60% 55% no-repeat;
+    background-size: 110%;
 }
 .card-object.card-3 .back .avatar {
-    background: #fff url(../img/paga-servicios.jpg?raw=1) 0 50% no-repeat;
-    background-size: 120% 120%;
+    background: #fff url(../img/recarga-tu-soli-agente-bcp.png?raw=1) 0 50% no-repeat;
+    background-size: 106% 105%;
 }
 .card-object.flip-in.card-1, .card-object.flip-in.card-3 {
     animation: flip-2-hor-top-fwd 0.8s cubic-bezier(0.680,-0.55,0.265,1.550) both;
@@ -2507,25 +2507,25 @@ h5{font-size:1.25rem;}
     background-position: 50% 50%;
 }
 .face.front::before {
-    position: absolute;
-    top: -1px;
-    right: -1px;
-    bottom: -1px;
-    left: -1px;
+    top: 3px;
+    right: 15px;
+    bottom: 17px;
+    left: 4px;
     content: "";
-    background: linear-gradient(45deg,rgba(0,0,0,0.95) 0%,rgba(0,0,0,0.5) 40%,rgba(0,0,0,0.1) 100%) no-repeat;
-    opacity: .7;
-    z-index: 20;
+    background: linear-gradient(45deg,rgba(0,0,0,.95) 0,rgba(0,0,0,.5) 40%,rgba(0,0,0,.1) 100%) no-repeat;
+    border-radius: 15%;
+    opacity: 0;
     transition: opacity .2s ease;
 }
 .face.front::after {
     position: absolute;
-    top: 7%;
+    top: 1%;
     right: 7%;
-    bottom: 7%;
-    left: 7%;
-    border: 1px solid rgba(255,255,255,0.35);
+    bottom: 6%;
+    left: 1%;
+    border: 1px solid rgba(255,255,255,.35);
     z-index: 100;
+    border-radius: 14%;
     content: "";
 }
 .face.front .title-wrapper {
@@ -2547,7 +2547,7 @@ h5{font-size:1.25rem;}
     position: relative;
     width: 100%;
     text-transform: uppercase;
-    font-size: 2vw;
+    font-size: 1.3vw;
     line-height: 1;
     opacity: .8;
     transition: opacity .2s ease;
