@@ -18,6 +18,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="comercios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -722,12 +725,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.3.1536.824@0.0.1920.1040" timestamp="1632345178317" />
-    <state x="57" y="49" width="1790" height="863" key="find.popup" timestamp="1638455390659">
+    <state x="57" y="49" width="1790" height="863" key="find.popup" timestamp="1638476224842">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="232" y="88" width="1459" height="863" key="find.popup/-1920.0.1536.832/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630447016178" />
     <state x="232" y="88" width="1459" height="863" key="find.popup/-1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1630470878774" />
-    <state x="57" y="49" width="1790" height="863" key="find.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1638455390659" />
+    <state x="57" y="49" width="1790" height="863" key="find.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1638476224842" />
     <state x="344" y="156" width="1459" height="783" key="find.popup/0.0.1920.1040/-1920.3.1536.824@0.0.1920.1040" timestamp="1636467848832" />
     <state x="539" y="183" width="840" height="857" key="search.everywhere.popup" timestamp="1636406384215">
       <screen x="0" y="0" width="1920" height="1040" />
