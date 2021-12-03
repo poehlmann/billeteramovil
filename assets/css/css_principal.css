@@ -1998,9 +1998,6 @@ body #section-1 a {
     }
 }
 @media only screen and (min-width: 1920px) {
-    body {
-        font-size: 22px;
-    }
     #section-1 {
         height: 100vh !important;
     }
@@ -2010,9 +2007,6 @@ body #section-1 a {
     }
 }
 @media only screen and (max-width: 1919px) {
-    body {
-        font-size: 20px;
-    }
     #section-1 {
         height: 43em;
     }
@@ -2212,6 +2206,12 @@ h5{font-size:1.25rem;}
     p{orphans:3;widows:3;}
 }
 .bg-elipse{background:url(http://localhost/opcion6/themes/lifetrakr/images/backgrounds/elipse-bg-three.png) no-repeat;background-position:center;}
+.feature h5:hover{
+    color: #f6d90b !important;
+    border-color: #f6d90b;
+    transition: .3s;
+}
+
 .feature .feature-item .icon{margin-bottom:15px;}
 .feature .feature-item .icon i{font-size:48px;color:#7d71d3;}
 .feature .feature-item .content h5{text-transform:inherit;font-weight:600;margin-bottom:15px;color: #2d5fc8;}
@@ -2230,7 +2230,18 @@ h5{font-size:1.25rem;}
     }
 }
 .feature .app-screen{margin:20px 0 !important;}
-.feature .app-screen img{max-height:400px;}
+
+.feature .app-screen img{
+    max-height:400px;
+    padding: 50px;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.feature .app-screen img:hover{
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 
 @media (min-width:576px){
     .container{max-width:540px;}
