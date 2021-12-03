@@ -17,19 +17,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="comercios">
-      <change afterPath="$PROJECT_DIR$/assets/css/soliaguinaldo_style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/soliaguinaldo_script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solipromociones/soliaguinaldo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/solisocios_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/solisocios_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/solisocios_style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/solisocios_style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/soliaguinaldo_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/soliaguinaldo_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/soliaguinaldo_style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/soliaguinaldo_style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solipromociones/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/web.config" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -290,14 +280,7 @@
       <workItem from="1638215779000" duration="3885000" />
       <workItem from="1638281066775" duration="25036000" />
       <workItem from="1638450824308" duration="8467000" />
-      <workItem from="1638535132494" duration="19370000" />
-    </task>
-    <task id="LOCAL-00251" summary="centro de ayuda finalizacion">
-      <created>1633709940247</created>
-      <option name="number" value="00251" />
-      <option name="presentableId" value="LOCAL-00251" />
-      <option name="project" value="LOCAL" />
-      <updated>1633709940248</updated>
+      <workItem from="1638535132494" duration="20092000" />
     </task>
     <task id="LOCAL-00252" summary="centro de ayuda finalizacion">
       <created>1633710352528</created>
@@ -635,7 +618,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638503166788</updated>
     </task>
-    <option name="localTasksCounter" value="300" />
+    <task id="LOCAL-00300" summary="soliaguinaldo pagina">
+      <created>1638569327070</created>
+      <option name="number" value="00300" />
+      <option name="presentableId" value="LOCAL-00300" />
+      <option name="project" value="LOCAL" />
+      <updated>1638569327070</updated>
+    </task>
+    <option name="localTasksCounter" value="301" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -664,7 +654,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="perfomance" />
     <MESSAGE value="download app" />
     <MESSAGE value="smart banner" />
     <MESSAGE value="blog" />
@@ -689,7 +678,8 @@
     <MESSAGE value="chatbot" />
     <MESSAGE value="cambios web principal" />
     <MESSAGE value="soliaguinaldo" />
-    <option name="LAST_COMMIT_MESSAGE" value="soliaguinaldo" />
+    <MESSAGE value="soliaguinaldo pagina" />
+    <option name="LAST_COMMIT_MESSAGE" value="soliaguinaldo pagina" />
   </component>
   <component name="WindowStateProjectService">
     <state x="715" y="344" key="#Notifications" timestamp="1630935496240">
@@ -723,11 +713,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1632242785836" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1638503167857">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1638569328544">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630452293117" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1638503167857" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1638569328544" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.3.1536.824@0.0.1920.1040" timestamp="1636476463424" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1638479782914">
       <screen x="0" y="0" width="1920" height="1040" />

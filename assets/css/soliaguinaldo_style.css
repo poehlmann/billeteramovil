@@ -4,8 +4,8 @@
     /*background: linear-gradient(-45deg, #1a2034 0%, #23233c 100%);*/
     color:white;
     background-image: url(../img/SoliAguinaldo-fondo.jpg);
-    /*background-position: center center;*/
-    /*height: 100vh;*/
+    background-position: center center;
+    height: 100vh;
 }
 .h1{
     color:#003dc9;
@@ -40,6 +40,7 @@ h4{
 .fondo_banner2{
     background-image: url(../img/SoliAguinaldo-fondo.jpg);
     background-color: #3b60bd ;
+    height: 100vh;
 }
 .banner2_solisocios{
     width: 100%;
