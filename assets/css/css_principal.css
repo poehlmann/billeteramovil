@@ -2214,16 +2214,19 @@ h5{font-size:1.25rem;}
 .bg-elipse{background:url(http://localhost/opcion6/themes/lifetrakr/images/backgrounds/elipse-bg-three.png) no-repeat;background-position:center;}
 .feature .feature-item .icon{margin-bottom:15px;}
 .feature .feature-item .icon i{font-size:48px;color:#7d71d3;}
-.feature .feature-item .content h5{text-transform:uppercase;font-weight:600;margin-bottom:15px;color: #2d5fc8;}
+.feature .feature-item .content h5{text-transform:inherit;font-weight:600;margin-bottom:15px;color: #2d5fc8;}
 .feature .feature-item:not(:last-child){margin-bottom:60px;}
 @media (max-width: 768px){
 
     #container {
         left: 38%;
     }
-    .feature .feature-item{margin-bottom:60px;}
+    .feature .feature-item{margin-bottom:0px !important;}
     .special_size{
         width: 59%!important;
+    }
+    .feature .feature-item:not(:last-child){
+        margin-bottom: 0px !important;
     }
 }
 .feature .app-screen{margin:20px 0 !important;}
@@ -2269,48 +2272,95 @@ h5{font-size:1.25rem;}
 
 
 /* CSS */
-.button-53 {
-    background-color: #3DD1E7;
-    border: 0 solid #E5E7EB;
-    box-sizing: border-box;
-    color: #000000;
-    display: flex;
-    font-size: 1rem;
-    font-weight: 700;
-    justify-content: center;
-    line-height: 1.75rem;
-    padding: .75rem 1.65rem;
-    position: relative;
-    text-align: center;
-    text-decoration: none #000000 solid;
-    text-decoration-thickness: auto;
-    width: 100%;
-    max-width: 460px;
-    position: relative;
-    cursor: pointer;
-    transform: rotate(-2deg);
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-}
+/* CSS */
+.button-82-pushable {
+        position: relative;
+        border: none;
+        background: transparent;
+        padding: 0;
+        cursor: pointer;
+        outline-offset: 4px;
+        transition: filter 250ms;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+    }
 
-.button-53:focus {
-    outline: 0;
-}
-
-.button-53:after {
-    content: '';
+.button-82-shadow {
     position: absolute;
-    border: 1px solid #000000;
-    bottom: 4px;
-    left: 4px;
-    width: calc(100% - 1px);
-    height: calc(100% - 1px);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: hsl(0deg 0% 0% / 0.25);
+    will-change: transform;
+    transform: translateY(2px);
+    transition:
+            transform
+            600ms
+            cubic-bezier(.3, .7, .4, 1);
 }
 
-.button-53:hover:after {
-    bottom: 2px;
-    left: 2px;
+.button-82-edge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: linear-gradient(to left,hsl(191deg 78% 23%) 0,hsl(191deg 58% 49%) 8%,hsl(191deg 88% 36%) 92%,hsl(191deg 44% 10%) 100%);
+}
+
+.button-82-front {
+    display: block;
+    position: relative;
+    padding: 12px 27px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    color: white;
+    background: hsl(191deg 100% 50%);
+    will-change: transform;
+    transform: translateY(-4px);
+    transition: transform 600ms cubic-bezier(.3, .7, .4, 1);
+}
+
+@media (min-width: 768px) {
+    .button-82-front {
+        font-size: 1.25rem;
+        padding: 12px 42px;
+    }
+}
+
+.button-82-pushable:hover {
+    filter: brightness(110%);
+}
+
+.button-82-pushable:hover .button-82-front {
+    transform: translateY(-6px);
+    transition: transform 250ms cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-82-pushable:active .button-82-front {
+    transform: translateY(-2px);
+    transition: transform 34ms;
+}
+
+.button-82-pushable:hover .button-82-shadow {
+    transform: translateY(4px);
+    transition:
+            transform
+            250ms
+            cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-82-pushable:active .button-82-shadow {
+    transform: translateY(1px);
+    transition: transform 34ms;
+}
+
+.button-82-pushable:focus:not(:focus-visible) {
+    outline: none;
 }
 
 @media (min-width: 768px) {
@@ -2335,14 +2385,14 @@ h5{font-size:1.25rem;}
     text-decoration: none;
     color: #FFF;
     text-shadow: 0 1px 2px rgba(0,0,0,0.75);
-    background: #5e0d0c;
+    background: #ff0015;
     outline: none;
     border-radius: 15px;
-    border: 1px solid #4c0300;
+    border: 1px solid #a23227;
     box-shadow:
             inset 1px 1px 0px rgba(255,255,255,0.25), /* highlight */
             inset 0 0 6px #a23227, /* inner glow */
-            inset 0 80px 80px -40px #ac3223, /* gradient */
+            inset 0 80px 80px -40px #a23227, /* gradient */
             1px 1px 3px rgba(0,0,0,0.75); /* shadow */
 
     position: relative;
@@ -2733,22 +2783,104 @@ h5{font-size:1.25rem;}
         height: 100%;
         list-style: none;
         margin: 0;
-        padding: 27px 2%;
+        padding: 0 0;
         display: flex;
-        justify-content: space-evenly;
         flex-wrap: nowrap;
-        flex-direction: row;
+        flex-direction: column;
+        align-items: center;
     }
     .card-wrapper {
         display: block;
         float: left;
         position: relative;
         margin: 0;
-        width: 100%;
-        height: 0;
-        padding: 0 0 28%;
+        width: 30vh;
+        height: 28vh;
+        padding: 0 0 0;
         perspective: 700px;
     }
+    .face.front::after{
+        position: absolute;
+        top: -1%;
+        right: 6%;
+        bottom: 14%;
+        left: 1%;
+        border: 1px solid rgba(255,255,255,.35);
+        z-index: 100;
+        border-radius: 14%;
+        content: "";
+    }
+    .face.front .title-wrapper{
+        bottom: 11%;
+        left: 10%;
+        right: 10%;
+        overflow: hidden;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+        z-index: 100;
+        transform: translateY(0);
+        transition: transform .28s ease;
+    }
+    .face.front .title-wrapper .title{
+        font-size: 5.3vw;
+    }
+    .info-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        top: 30%;
+        padding: 0% 2% 0%;
+        align-content: flex-start;
+    }
+    .info-title{
+        font-size: 5vw;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+    .info-content-item{
+        font-size: 3.75vw;
+        line-height: 1;
+        text-align: center;
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        text-transform: inherit;
+        color: #324fc3;
+    }
+    .info-content-item span{
+        display: block;
+        font-weight: 700;
+        font-size: 4.1vw;
+        margin-top: 2px;
+        text-transform: none;
+        color: #222;
+    }
+    .avatar{
+        display:none;
+    }
+    .card-object.card-3 .back .img-wrapper{
+        background: url(../img/recarga-tu-soli-agente-bcp.png?raw=1) 60% 50% no-repeat;
+        background-size: 110%;
+    }
+    .img-wrapper{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 26%;
+        z-index: 10;
+    }
+    .h2, h2 {
+        font-size: 23px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
 }
 
 #string {
