@@ -25,6 +25,7 @@
       <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-recursos4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-recursos4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solipromociones/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solipromociones/soliaguinaldo.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/soliaguinaldo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -288,14 +289,7 @@
       <workItem from="1638535132494" duration="20589000" />
       <workItem from="1638667654591" duration="599000" />
       <workItem from="1638795846433" duration="2345000" />
-      <workItem from="1638839386522" duration="360000" />
-    </task>
-    <task id="LOCAL-00254" summary="centro de ayuda refinacion">
-      <created>1634074687736</created>
-      <option name="number" value="00254" />
-      <option name="presentableId" value="LOCAL-00254" />
-      <option name="project" value="LOCAL" />
-      <updated>1634074687736</updated>
+      <workItem from="1638839386522" duration="661000" />
     </task>
     <task id="LOCAL-00255" summary="centro ayuda">
       <created>1634140066054</created>
@@ -633,7 +627,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638796207598</updated>
     </task>
-    <option name="localTasksCounter" value="303" />
+    <task id="LOCAL-00303" summary="soliaguinaldo">
+      <created>1638840043960</created>
+      <option name="number" value="00303" />
+      <option name="presentableId" value="LOCAL-00303" />
+      <option name="project" value="LOCAL" />
+      <updated>1638840043960</updated>
+    </task>
+    <option name="localTasksCounter" value="304" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
