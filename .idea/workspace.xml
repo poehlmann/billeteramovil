@@ -18,6 +18,13 @@
   <component name="ChangeListManager">
     <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="comercios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-recursos1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-recursos1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-recursos2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-recursos2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-recursos3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-recursos3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-recursos4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-recursos4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solipromociones/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,14 +287,8 @@
       <workItem from="1638450824308" duration="8467000" />
       <workItem from="1638535132494" duration="20589000" />
       <workItem from="1638667654591" duration="599000" />
-      <workItem from="1638795846433" duration="305000" />
-    </task>
-    <task id="LOCAL-00253" summary="centro de ayuda refinacion">
-      <created>1634074558135</created>
-      <option name="number" value="00253" />
-      <option name="presentableId" value="LOCAL-00253" />
-      <option name="project" value="LOCAL" />
-      <updated>1634074558136</updated>
+      <workItem from="1638795846433" duration="2345000" />
+      <workItem from="1638839386522" duration="360000" />
     </task>
     <task id="LOCAL-00254" summary="centro de ayuda refinacion">
       <created>1634074687736</created>
@@ -625,7 +626,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638572411082</updated>
     </task>
-    <option name="localTasksCounter" value="302" />
+    <task id="LOCAL-00302" summary="soliaguinaldo">
+      <created>1638796207598</created>
+      <option name="number" value="00302" />
+      <option name="presentableId" value="LOCAL-00302" />
+      <option name="project" value="LOCAL" />
+      <updated>1638796207598</updated>
+    </task>
+    <option name="localTasksCounter" value="303" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -677,9 +685,9 @@
     <MESSAGE value="actualizacion de informacion solisocios" />
     <MESSAGE value="chatbot" />
     <MESSAGE value="cambios web principal" />
-    <MESSAGE value="soliaguinaldo" />
     <MESSAGE value="soliaguinaldo pagina" />
-    <option name="LAST_COMMIT_MESSAGE" value="soliaguinaldo pagina" />
+    <MESSAGE value="soliaguinaldo" />
+    <option name="LAST_COMMIT_MESSAGE" value="soliaguinaldo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="715" y="344" key="#Notifications" timestamp="1630935496240">
@@ -690,10 +698,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="698" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1638558433829" />
-    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1630519705494">
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1638796129263">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1630519705494" />
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1638796129263" />
     <state x="0" y="400" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1638504837789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -713,11 +721,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1632242785836" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1638572412266">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1638796209403">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630452293117" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1638572412266" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1638796209403" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.3.1536.824@0.0.1920.1040" timestamp="1636476463424" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1638479782914">
       <screen x="0" y="0" width="1920" height="1040" />
