@@ -2789,6 +2789,12 @@ h5{font-size:1.25rem;}
 }
 
 @media (max-width: 768px) {
+    .modal.in .modal-dialog {
+        transform: translate(0,12vh);
+    }
+    #soli-ubicacion h3 {
+        font-size: 18px;
+    }
     .cards-wrapper {
         position: relative;
         height: 100%;
