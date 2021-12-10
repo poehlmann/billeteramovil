@@ -2,7 +2,7 @@ self.addEventListener('install', function(event) {
 // Instalar de inmediato
     if (self.skipWaiting) { self.skipWaiting(); }
     event.waitUntil(
-        caches.open('SOLI_CACHE_v4').then(function(cache) {
+        caches.open('SOLI_CACHE_v1.1').then(function(cache) {
             return cache.addAll([
                 './',
                 'index.html',
@@ -98,7 +98,7 @@ self.addEventListener('fetch', function(event) {
     );
 });
 // Elimina archivos de cache viejos
-var cacheWhitelist = ['SOLI_CACHE_v4'];
+var cacheWhitelist = ['SOLI_CACHE_v1.1'];
 caches.keys().then(function(cacheNames) {
     return Promise.all(
         cacheNames.map(function(cacheName) {
