@@ -20,7 +20,26 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/css_principal.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/css_principal.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/5bs.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/5bs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-fondo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/SoliAguinaldo-fondo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-premios.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-premios.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-premios2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-premios2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-premios3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-premios3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-premios4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-premios4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-recursos1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-recursos1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-recursos2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-recursos2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-recursos3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-recursos3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-recursos4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-recursos4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Solimegate.gif" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/Solimegate.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/js_principal.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/js_principal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/js_principal.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/js_principal.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solipromociones/soliaguinaldo.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/soliaguinaldo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -286,14 +305,7 @@
       <workItem from="1638795846433" duration="2345000" />
       <workItem from="1638839386522" duration="1047000" />
       <workItem from="1638973801979" duration="5707000" />
-      <workItem from="1639051200439" duration="5845000" />
-    </task>
-    <task id="LOCAL-00258" summary="actualizacion">
-      <created>1635974992173</created>
-      <option name="number" value="00258" />
-      <option name="presentableId" value="LOCAL-00258" />
-      <option name="project" value="LOCAL" />
-      <updated>1635974992173</updated>
+      <workItem from="1639051200439" duration="15742000" />
     </task>
     <task id="LOCAL-00259" summary="llajta comunicacion">
       <created>1636036146896</created>
@@ -631,7 +643,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638995575529</updated>
     </task>
-    <option name="localTasksCounter" value="307" />
+    <task id="LOCAL-00307" summary="soliaguinaldo final">
+      <created>1639066283594</created>
+      <option name="number" value="00307" />
+      <option name="presentableId" value="LOCAL-00307" />
+      <option name="project" value="LOCAL" />
+      <updated>1639066283594</updated>
+    </task>
+    <option name="localTasksCounter" value="308" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -660,7 +679,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="smart banner" />
     <MESSAGE value="blog" />
     <MESSAGE value="pruebas smart banner" />
     <MESSAGE value="solimegate v2" />
@@ -685,7 +703,8 @@
     <MESSAGE value="soliaguinaldo pagina" />
     <MESSAGE value="soliaguinaldo" />
     <MESSAGE value="seo soliaguinaldo" />
-    <option name="LAST_COMMIT_MESSAGE" value="seo soliaguinaldo" />
+    <MESSAGE value="soliaguinaldo final" />
+    <option name="LAST_COMMIT_MESSAGE" value="soliaguinaldo final" />
   </component>
   <component name="WindowStateProjectService">
     <state x="715" y="344" key="#Notifications" timestamp="1630935496240">
@@ -719,11 +738,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1632242785836" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1638995579273">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1639066285299">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630452293117" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1638995579273" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1639066285299" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.3.1536.824@0.0.1920.1040" timestamp="1636476463424" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1638479782914">
       <screen x="0" y="0" width="1920" height="1040" />

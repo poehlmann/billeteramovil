@@ -1,4 +1,93 @@
 $(document).ready(function() {
+
+    var date = new Date(); // Create Date object for a reference point
+    if(date.getDate() == 25 && date.getMonth() == 11 ) { // Check the time like above
+        Swal.fire({
+            html: `<ul class="lightrope">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+                    <img alt="navidad con soli" class="mt-50" src="./assets/img/navidad-y-año-nuevo1.png"> `,
+            width: 800,
+            imageWidth: 500,
+            imageHeight: 400,
+            heightAuto: true,
+            showConfirmButton: false,
+            allowOutsideClick: true,
+            allowEscapeKey: true,
+            timer: 8000,
+            imageUrl: ``,
+            background: `rgba(255, 255, 255, 0) center no-repeat `,
+            backdrop: `
+                        rgb(0 0 0 / 73%)
+                        url("https://i.gifer.com/2eSd.gif")
+                        center top
+                        repeat
+                      `
+        })
+    }
+    if(date.getDate() == 1 && date.getMonth() == 0 ) {
+        Swal.fire({
+            html: `<img alt="año nuevo con soli" src="./assets/img/navidad-y-año-nuevo2.png"> `,
+            width: 800,
+            imageWidth: 500,
+            imageHeight: 400,
+            heightAuto: true,
+            showConfirmButton: false,
+            allowOutsideClick: true,
+            allowEscapeKey: true,
+            timer: 8000,
+            imageUrl: ``,
+            background: `rgba(255, 255, 255, 0) center no-repeat `,
+            backdrop: `
+            rgb(0 0 0 / 73%)
+            url("https://i.gifer.com/6ob.gif")
+            center top
+            repeat
+          `
+        })
+    }
+
     $(".fondo-solimegate-solisocios-parte1").click(function() {
         window.location = $(this).find("a").attr("href");
         return false;
