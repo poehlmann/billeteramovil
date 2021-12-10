@@ -2205,7 +2205,7 @@ h5{font-size:1.25rem;}
     img{page-break-inside:avoid;}
     p{orphans:3;widows:3;}
 }
-.bg-elipse{background:url(http://localhost/opcion6/themes/lifetrakr/images/backgrounds/elipse-bg-three.png) no-repeat;background-position:center;}
+.bg-elipse{background:url(../img/elipse-bg-three.png) no-repeat;background-position:center;}
 .feature h5:hover{
     color: #f6d90b !important;
     border-color: #f6d90b;
