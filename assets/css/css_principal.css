@@ -2078,7 +2078,7 @@ body #section-1 a {
         padding-top: 11em;
     }
     #section-1 .content-slider .slider .banner .banner-inner-wrapper img{
-        width: 77%;
+        width: 100%;
     }
 }
 @media only screen and (max-width: 768px) {
