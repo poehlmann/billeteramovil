@@ -16,7 +16,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="comercios" />
+    <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="comercios">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-recursos1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-recursos1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-recursos2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-recursos2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-recursos3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-recursos3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-recursos4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-recursos4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solipromociones/soliaguinaldo.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/soliaguinaldo.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -282,13 +292,13 @@
       <workItem from="1638839386522" duration="1047000" />
       <workItem from="1638973801979" duration="5707000" />
       <workItem from="1639051200439" duration="18773000" />
-    </task>
-    <task id="LOCAL-00264" summary="seo">
-      <created>1636056840801</created>
-      <option name="number" value="00264" />
-      <option name="presentableId" value="LOCAL-00264" />
-      <option name="project" value="LOCAL" />
-      <updated>1636056840801</updated>
+      <workItem from="1639110445870" duration="159000" />
+      <workItem from="1639153318042" duration="19000" />
+      <workItem from="1639166583804" duration="5000" />
+      <workItem from="1639766351214" duration="745000" />
+      <workItem from="1640090660666" duration="918000" />
+      <workItem from="1640274736377" duration="1797000" />
+      <workItem from="1640349010642" duration="2525000" />
     </task>
     <task id="LOCAL-00265" summary="seo">
       <created>1636061902123</created>
@@ -626,7 +636,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639108533021</updated>
     </task>
-    <option name="localTasksCounter" value="313" />
+    <task id="LOCAL-00313" summary="despliegue">
+      <created>1639110583079</created>
+      <option name="number" value="00313" />
+      <option name="presentableId" value="LOCAL-00313" />
+      <option name="project" value="LOCAL" />
+      <updated>1639110583079</updated>
+    </task>
+    <option name="localTasksCounter" value="314" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -655,7 +672,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="pruebas smart banner" />
     <MESSAGE value="solimegate v2" />
     <MESSAGE value="solimegate-solisocios portada" />
     <MESSAGE value="version movil principal solimegate solisocios" />
@@ -680,13 +696,10 @@
     <MESSAGE value="seo soliaguinaldo" />
     <MESSAGE value="soliaguinaldo final" />
     <MESSAGE value="soliaguinaldo despliegue" />
-    <option name="LAST_COMMIT_MESSAGE" value="soliaguinaldo despliegue" />
+    <MESSAGE value="despliegue" />
+    <option name="LAST_COMMIT_MESSAGE" value="despliegue" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="715" y="344" key="#Notifications" timestamp="1630935496240">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="715" y="344" key="#Notifications/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1630935496240" />
     <state x="698" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1638558433829">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -718,16 +731,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1632242785836" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1639108534264">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1639110590922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630452293117" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1639108534264" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1639110590922" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.3.1536.824@0.0.1920.1040" timestamp="1636476463424" />
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1638479782914">
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1640145865410">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1638479782914" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1640145865410" />
     <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1636052295346" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1638479782914">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -740,8 +752,6 @@
     <state x="57" y="49" width="1790" height="863" key="find.popup" timestamp="1639052960052">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="232" y="88" width="1459" height="863" key="find.popup/-1920.0.1536.832/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630447016178" />
-    <state x="232" y="88" width="1459" height="863" key="find.popup/-1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1630470878774" />
     <state x="57" y="49" width="1790" height="863" key="find.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1639052960052" />
     <state x="344" y="156" width="1459" height="783" key="find.popup/0.0.1920.1040/-1920.3.1536.824@0.0.1920.1040" timestamp="1636467848832" />
     <state x="539" y="183" width="840" height="857" key="search.everywhere.popup" timestamp="1638568986177">

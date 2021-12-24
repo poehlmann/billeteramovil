@@ -68,7 +68,7 @@ body.open-menu > .over-menu {visibility: visible;opacity: 1;}
 body.open-menu .menu-container {right: 0 !important;}
 header .desk-menu .menu-container .menu li.back{display:none;}
 header,header::before{-webkit-transition:all .3s ease;-moz-transition:all .3s ease;-ms-transition:all .3s ease;-o-transition:all .3s ease;transition:all .3s ease;width:100%;}
-header{float:left;position:fixed;z-index:10;}
+header{float:left;position:fixed;z-index:20;}
 header::before{transform-origin:0;background:#0f3754;position:absolute;content:'';top:0;right:0;height:0;}
 header .desk-menu,section{position:relative;width:100%;}
 header .desk-menu .logo{position:absolute;float:left;}
@@ -1887,7 +1887,7 @@ body #section-1 a {
     background: #fff;
 }
 #section-1 .content-slider .slider .banner .banner-inner-wrapper img{
-    width: 35%;
+    width: 33%;
 }
 #section-1 .content-slider .slider .banner .banner-inner-wrapper .learn-more-button {
     padding-bottom: 5em;
@@ -2075,7 +2075,7 @@ body #section-1 a {
         font-size: 4.5em;
     }
     #section-1 .content-slider .slider .banner .banner-inner-wrapper {
-        padding-top: 11em;
+        padding-top: 3em;
     }
     #section-1 .content-slider .slider .banner .banner-inner-wrapper img{
         width: 100%;
