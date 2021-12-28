@@ -98,9 +98,9 @@ header .desk-menu .menu-container .menu>li.menu-item-has-children>a{padding:19px
 header .desk-menu .menu-container .menu>li.menu-item-has-children>a::after,header .desk-menu .menu-container .menu>li.menu-item-has-children>a::before{-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-ms-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;transition:all .3s ease-in-out;background-color:#fff;position:absolute;content:'';height:1px;width:7px;top:26px;}
 header .desk-menu .menu-container .menu>li.menu-item-has-children>a::before{-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);right:10px;}
 header .desk-menu .menu-container .menu>li.menu-item-has-children>a::after{-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-ms-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg);right:6px;}
-header .desk-menu .menu-container .menu>li.menu-item-has-children .sub-menu{-webkit-transition:all .1s ease-in-out;-moz-transition:all .1s ease-in-out;-ms-transition:all .1s ease-in-out;-o-transition:all .1s ease-in-out;transition:all .1s ease-in-out;-webkit-overflow-scrolling:touch;min-width:130px;position:absolute;list-style:none;padding:0;float:left;left:0;width:100%;display:none;background:#2fddff75;backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);border-radius:0;border:1px solid rgba(255,255,255,.18);}
+header .desk-menu .menu-container .menu>li.menu-item-has-children .sub-menu{-webkit-transition:all .1s ease-in-out;-moz-transition:all .1s ease-in-out;-ms-transition:all .1s ease-in-out;-o-transition:all .1s ease-in-out;transition:all .1s ease-in-out;-webkit-overflow-scrolling:touch;min-width:130px;position:absolute;list-style:none;padding:0;float:left;left:0;width:100%;display:none;background:#00d0ff;backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);border-radius:0;border:1px solid rgba(255,255,255,.18);}
 header .desk-menu .menu-container .menu>li.menu-item-has-children .sub-menu li{width:100%;}
-header .desk-menu .menu-container .menu>li.menu-item-has-children .sub-menu li>a{color:#003557;}
+header .desk-menu .menu-container .menu>li.menu-item-has-children .sub-menu li>a{color:#003557; font-size: inherit}
 header .desk-menu .menu-container .menu>li.menu-item-has-children .sub-menu li:hover>a{color:#4ab6d4;background-color:#eeeff1;}
 header .desk-menu .menu-container .menu>li.menu-item-has-children .sub-menu li:hover>a::before{-webkit-transform:rotate(142deg);-moz-transform:rotate(142deg);-ms-transform:rotate(142deg);-o-transform:rotate(142deg);transform:rotate(142deg);top:23px;background:#3b60bd;}
 header .desk-menu .menu-container .menu>li.menu-item-has-children .sub-menu li:hover>a::after{-webkit-transform:rotate(42deg);-moz-transform:rotate(42deg);-ms-transform:rotate(42deg);-o-transform:rotate(42deg);transform:rotate(42deg);right:11px;}
@@ -1949,6 +1949,7 @@ body #section-1 a {
     color: #f6eac5;
     font-weight: 400;
     cursor: pointer;
+    font-size: initial;
     transition: all .3s;
 }
 #section-1 .content-slider nav .controls label .progressbar {
@@ -2011,7 +2012,7 @@ body #section-1 a {
         height: 43em;
     }
     #section-1 .content-slider .slider .banner .banner-inner-wrapper {
-        padding-top: 8em;
+        /*padding-top: 8em;*/
     }
 }
 @media only screen and (max-width: 1680px) {
@@ -2025,7 +2026,7 @@ body #section-1 a {
         height: 40em;
     }
     #section-1 .content-slider .slider .banner .banner-inner-wrapper {
-        padding-top: 9em;
+        /*padding-top: 9em;*/
     }
 }
 @media only screen and (max-width: 1366px) {
@@ -2041,10 +2042,10 @@ body #section-1 a {
         bottom: -0.2em;
     }
     #section-1 .content-slider .slider .banner .banner-inner-wrapper {
-        padding-top: 7em;
+        /*padding-top: 7em;*/
     }
     #section-1 .content-slider .slider .banner .banner-inner-wrapper .line {
-        margin: 2em auto;
+        margin: 1em auto;
     }
 }
 @media only screen and (max-width: 1024px) {
@@ -2056,6 +2057,9 @@ body #section-1 a {
     }
     #section-1 .content-slider nav .controls {
         width: 80%;
+    }
+    #section-1 .content-slider .slider .banner .banner-inner-wrapper img{
+        width: 100%;
     }
 }
 @media only screen and (max-width: 860px) {
@@ -2386,28 +2390,25 @@ h5{font-size:1.25rem;}
 
 .button-christmas {
     display: inline-block;
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    box-sizing:border-box;
-    min-width:100px;
-    padding: 15px 16px;
-    font-size: 26px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    min-width: 55px;
+    /* max-height: 70vh; */
+    /* max-width: 100vh; */
+    padding: 5px 15px;
+    font-size: 20px;
     line-height: 26px;
     text-decoration: none;
-    color: #FFF;
-    text-shadow: 0 1px 2px rgba(0,0,0,0.75);
+    color: #fff;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 75%);
     background: #ff0015;
-    outline: none;
+    outline: 0;
     border-radius: 15px;
     border: 1px solid #a23227;
-    box-shadow:
-            inset 1px 1px 0px rgba(255,255,255,0.25), /* highlight */
-            inset 0 0 6px #a23227, /* inner glow */
-            inset 0 80px 80px -40px #a23227, /* gradient */
-            1px 1px 3px rgba(0,0,0,0.75); /* shadow */
-
+    box-shadow: inset 1px 1px 0 rgb(255 255 255 / 25%), inset 0 0 6px #a23227, inset 0 80px 80px -40px #a23227, 1px 1px 3px rgb(0 0 0 / 75%);
     position: relative;
-    overflow: visible; /* IE9 & 10 */
+    overflow: visible;
     -webkit-transition: 500ms linear;
     -moz-transition: 500ms linear;
     -o-transition: 500ms linear;

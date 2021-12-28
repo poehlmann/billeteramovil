@@ -18,7 +18,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="comercios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.min.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,14 +295,7 @@
       <workItem from="1640349010642" duration="4211000" />
       <workItem from="1640407900413" duration="2437000" />
       <workItem from="1640437682563" duration="407000" />
-      <workItem from="1640695492376" duration="1649000" />
-    </task>
-    <task id="LOCAL-00267" summary="seo">
-      <created>1636067590887</created>
-      <option name="number" value="00267" />
-      <option name="presentableId" value="LOCAL-00267" />
-      <option name="project" value="LOCAL" />
-      <updated>1636067590887</updated>
+      <workItem from="1640695492376" duration="4758000" />
     </task>
     <task id="LOCAL-00268" summary="seo">
       <created>1636068191338</created>
@@ -639,7 +633,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640356233340</updated>
     </task>
-    <option name="localTasksCounter" value="316" />
+    <task id="LOCAL-00316" summary="arreglando errores">
+      <created>1640707370630</created>
+      <option name="number" value="00316" />
+      <option name="presentableId" value="LOCAL-00316" />
+      <option name="project" value="LOCAL" />
+      <updated>1640707370630</updated>
+    </task>
+    <option name="localTasksCounter" value="317" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -668,7 +669,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="solimegate-solisocios portada" />
     <MESSAGE value="version movil principal solimegate solisocios" />
     <MESSAGE value="22/09/2021" />
     <MESSAGE value="pagina de prueba" />
@@ -693,7 +693,8 @@
     <MESSAGE value="soliaguinaldo despliegue" />
     <MESSAGE value="despliegue" />
     <MESSAGE value="soliaguinaldo modificacion" />
-    <option name="LAST_COMMIT_MESSAGE" value="soliaguinaldo modificacion" />
+    <MESSAGE value="arreglando errores" />
+    <option name="LAST_COMMIT_MESSAGE" value="arreglando errores" />
   </component>
   <component name="WindowStateProjectService">
     <state x="698" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1638558433829">
@@ -727,10 +728,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1632242785836" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1640356235266">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1640707497600">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1640356235266" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1640707497600" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.3.1536.824@0.0.1920.1040" timestamp="1636476463424" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1640145865410">
       <screen x="0" y="0" width="1920" height="1040" />
