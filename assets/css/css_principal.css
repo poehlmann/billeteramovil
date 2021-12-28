@@ -2076,7 +2076,7 @@ body #section-1 a {
     }
     #section-1 .content-slider .slider .banner .banner-inner-wrapper {
         padding-top: 3em;
-    }
+    }.card
     #section-1 .content-slider .slider .banner .banner-inner-wrapper img{
         width: 100%;
     }
@@ -2128,8 +2128,6 @@ body #section-1 a {
 
 .card {
     margin: 30px auto;
-    width: 50vh;
-    height: 160px;
     border-radius: 40px;
     box-shadow: 5px 5px 30px 7px rgb(0 0 0 / 25%), -5px -5px 30px 7px rgb(0 0 0 / 22%);
     cursor: pointer;
