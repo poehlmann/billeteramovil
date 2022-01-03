@@ -1,102 +1,102 @@
 $(document).ready(function() {
 
-    var date = new Date(); // Create Date object for a reference point
-    if(date.getDate() == 25 && date.getMonth() == 11 ) { // Check the time like above
-        Swal.fire({
-            html: `<ul class="lightrope">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-                    <img alt="navidad con soli" class="mt-50" src="./assets/img/navidad-y-año-nuevo1.png"> `,
-            width: 800,
-            imageWidth: 500,
-            imageHeight: 400,
-            heightAuto: true,
-            showConfirmButton: false,
-            allowOutsideClick: true,
-            allowEscapeKey: true,
-            timer: 8000,
-            imageUrl: ``,
-            background: `rgba(255, 255, 255, 0) center no-repeat `,
-            backdrop: `
-                        rgb(0 0 0 / 73%)
-                        url("https://i.gifer.com/2eSd.gif")
-                        center top
-                        repeat
-                      `
-        })
-    }
-    if(date.getDate() == 1 && date.getMonth() == 0 ) {
-        Swal.fire({
-            html: `<img alt="año nuevo con soli" src="./assets/img/navidad-y-año-nuevo2.png"> `,
-            width: 800,
-            imageWidth: 500,
-            imageHeight: 400,
-            heightAuto: true,
-            showConfirmButton: false,
-            allowOutsideClick: true,
-            allowEscapeKey: true,
-            timer: 8000,
-            imageUrl: ``,
-            background: `rgba(255, 255, 255, 0) center no-repeat `,
-            backdrop: `
-            rgb(0 0 0 / 73%)
-            url("https://i.gifer.com/6ob.gif")
-            center top
-            repeat
-          `
-        })
-    }
+    // var date = new Date(); // Create Date object for a reference point
+    // if(date.getDate() == 25 && date.getMonth() == 11 ) { // Check the time like above
+    //     Swal.fire({
+    //         html: `<ul class="lightrope">
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //             <li></li>
+    //         </ul>
+    //                 <img alt="navidad con soli" class="mt-50" src="./assets/img/navidad-y-año-nuevo1.png"> `,
+    //         width: 800,
+    //         imageWidth: 500,
+    //         imageHeight: 400,
+    //         heightAuto: true,
+    //         showConfirmButton: false,
+    //         allowOutsideClick: true,
+    //         allowEscapeKey: true,
+    //         timer: 8000,
+    //         imageUrl: ``,
+    //         background: `rgba(255, 255, 255, 0) center no-repeat `,
+    //         backdrop: `
+    //                     rgb(0 0 0 / 73%)
+    //                     url("https://i.gifer.com/2eSd.gif")
+    //                     center top
+    //                     repeat
+    //                   `
+    //     })
+    // }
+    // if(date.getDate() == 1 && date.getMonth() == 0 ) {
+    //     Swal.fire({
+    //         html: `<img alt="año nuevo con soli" src="./assets/img/navidad-y-año-nuevo2.png"> `,
+    //         width: 800,
+    //         imageWidth: 500,
+    //         imageHeight: 400,
+    //         heightAuto: true,
+    //         showConfirmButton: false,
+    //         allowOutsideClick: true,
+    //         allowEscapeKey: true,
+    //         timer: 8000,
+    //         imageUrl: ``,
+    //         background: `rgba(255, 255, 255, 0) center no-repeat `,
+    //         backdrop: `
+    //         rgb(0 0 0 / 73%)
+    //         url("https://i.gifer.com/6ob.gif")
+    //         center top
+    //         repeat
+    //       `
+    //     })
+    // }
 
-    $(".fondo-solimegate-solisocios-parte1").click(function() {
-        window.location = $(this).find("a").attr("href");
-        return false;
-    });
-
-    $(".fondo-solimegate-solisocios-parte2").click(function() {
-        window.location = $(this).find("a").attr("href");
-        return false;
-    });
+    // $(".fondo-solimegate-solisocios-parte1").click(function() {
+    //     window.location = $(this).find("a").attr("href");
+    //     return false;
+    // });
+    //
+    // $(".fondo-solimegate-solisocios-parte2").click(function() {
+    //     window.location = $(this).find("a").attr("href");
+    //     return false;
+    // });
 
     var force="";
     if( navigator.userAgent.match(/Android/i)){
@@ -247,6 +247,7 @@ $(document).ready(function() {
             element.classList.add("active_phone");
         });
     }
+
     var link = "https://www.google.com/maps/d/embed?mid=1N7kFRvFaoxGDcAfa1UP2Ea5ZhRuAzObv&z=6"
     var iframe = document.createElement('iframe');
     iframe.width="100%";
@@ -261,26 +262,26 @@ $(document).ready(function() {
     iframe_tutorial.setAttribute("src", link_tutorial);
     document.getElementById("videotutorialsoli").appendChild(iframe_tutorial);
 
-    var link_comercio_qr = "con_qr.html"
-    var iframe_comercio_qr= document.createElement('iframe');
-    iframe_comercio_qr.width="100%";
-    iframe_comercio_qr.height="400px";
-    iframe_comercio_qr.setAttribute("src", link_comercio_qr);
-    document.getElementById("comercio_qr").appendChild(iframe_comercio_qr);
+    // var link_comercio_qr = "con_qr.html"
+    // var iframe_comercio_qr= document.createElement('iframe');
+    // iframe_comercio_qr.width="100%";
+    // iframe_comercio_qr.height="400px";
+    // iframe_comercio_qr.setAttribute("src", link_comercio_qr);
+    // document.getElementById("comercio_qr").appendChild(iframe_comercio_qr);
 
-    var link_comercio_nfc = "con_pos.html"
-    var iframe_comercio_nfc = document.createElement('iframe');
-    iframe_comercio_nfc.width="100%";
-    iframe_comercio_nfc.height="400px";
-    iframe_comercio_nfc.setAttribute("src", link_comercio_nfc);
-    document.getElementById("comercio_nfc").appendChild(iframe_comercio_nfc);
+    // var link_comercio_nfc = "con_pos.html"
+    // var iframe_comercio_nfc = document.createElement('iframe');
+    // iframe_comercio_nfc.width="100%";
+    // iframe_comercio_nfc.height="400px";
+    // iframe_comercio_nfc.setAttribute("src", link_comercio_nfc);
+    // document.getElementById("comercio_nfc").appendChild(iframe_comercio_nfc);
 
-    var link_agentes = "agentes_bcp.html"
-    var iframe_agentes = document.createElement('iframe');
-    iframe_agentes.width="100%";
-    iframe_agentes.height="400px";
-    iframe_agentes.setAttribute("src", link_agentes);
-    document.getElementById("agentes").appendChild(iframe_agentes);
+    // var link_agentes = "agentes_bcp.html"
+    // var iframe_agentes = document.createElement('iframe');
+    // iframe_agentes.width="100%";
+    // iframe_agentes.height="400px";
+    // iframe_agentes.setAttribute("src", link_agentes);
+    // document.getElementById("agentes").appendChild(iframe_agentes);
 
     if(window.location.href.indexOf('#puntos-soli') != -1) {
         $("#puntos-soli").modal();
@@ -441,19 +442,19 @@ function openCard($card) {
         });
 
 }
-var c = document.getElementById('container');
-var box = document.getElementById('box');
-
-window.addEventListener('devicemotion', function(e) {
-    console.log(e);
-    var ps = document.querySelectorAll('p');
-    ps[0] = 'a'+e.rotationRate.aplha;
-    ps[1] = 'b'+e.rotationRate.beta;
-    ps[2] = 'g'+e.rotationRate.gamma;
-    ps[3].textContent = e.accelerationIncludingGravity.x;
-    ps[4].textContent = e.accelerationIncludingGravity.y;
-    ps[5].textContent = e.accelerationIncludingGravity.z;
-});
+// var c = document.getElementById('container');
+// var box = document.getElementById('box');
+//
+// window.addEventListener('devicemotion', function(e) {
+//     console.log(e);
+//     var ps = document.querySelectorAll('p');
+//     ps[0] = 'a'+e.rotationRate.aplha;
+//     ps[1] = 'b'+e.rotationRate.beta;
+//     ps[2] = 'g'+e.rotationRate.gamma;
+//     ps[3].textContent = e.accelerationIncludingGravity.x;
+//     ps[4].textContent = e.accelerationIncludingGravity.y;
+//     ps[5].textContent = e.accelerationIncludingGravity.z;
+// });
 /*
 c.animate([
   {transform: 'rotateY(-40deg) rotateZ(60deg)'},

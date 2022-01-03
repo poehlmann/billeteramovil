@@ -1906,22 +1906,22 @@ body #section-1 a {
     border-color: #f6d90b;
     transition: .3s;
 }
-#section-1 .content-slider .slider #top-banner-1 {
-    background: url('https://checkboxes-demo.webdevs.co.ua/images/mogo/banner-1.png') no-repeat center center;
-    background-size: cover;
-}
-#section-1 .content-slider .slider #top-banner-2 {
-    background: url('https://checkboxes-demo.webdevs.co.ua/images/mogo/banner-2.png') no-repeat center center;
-    background-size: cover;
-}
-#section-1 .content-slider .slider #top-banner-3 {
-    background: url('https://checkboxes-demo.webdevs.co.ua/images/mogo/banner-3.png') no-repeat center center;
-    background-size: cover;
-}
-#section-1 .content-slider .slider #top-banner-4 {
-    background: url('https://checkboxes-demo.webdevs.co.ua/images/mogo/banner-4.png') no-repeat center center;
-    background-size: cover;
-}
+/*#section-1 .content-slider .slider #top-banner-1 {*/
+/*    background: url('../img/SoliAguinaldo-web-fondo.jpg') no-repeat center center;*/
+/*    background-size: cover;*/
+/*}*/
+/*#section-1 .content-slider .slider #top-banner-2 {*/
+/*    background: url('../img/SoliAguinaldo-web-fondo.jpg') no-repeat center center;*/
+/*    background-size: cover;*/
+/*}*/
+/*#section-1 .content-slider .slider #top-banner-3 {*/
+/*    background: url('../img/SoliAguinaldo-web-fondo.jpg') no-repeat center center;*/
+/*    background-size: cover;*/
+/*}*/
+/*#section-1 .content-slider .slider #top-banner-4 {*/
+/*    background: url('../img/SoliAguinaldo-web-fondo.jpg') no-repeat center center;*/
+/*    background-size: cover;*/
+/*}*/
 #section-1 .content-slider nav {
     position: absolute;
     bottom: 0.5em;
