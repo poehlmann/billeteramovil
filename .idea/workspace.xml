@@ -18,6 +18,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="comercios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/js_principal.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/js_principal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/js_principal.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/js_principal.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +57,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -296,14 +298,9 @@
       <workItem from="1640437682563" duration="407000" />
       <workItem from="1640695492376" duration="5585000" />
       <workItem from="1641222932671" duration="3056000" />
-      <workItem from="1641305181696" duration="1217000" />
-    </task>
-    <task id="LOCAL-00270" summary="seo">
-      <created>1636069286901</created>
-      <option name="number" value="00270" />
-      <option name="presentableId" value="LOCAL-00270" />
-      <option name="project" value="LOCAL" />
-      <updated>1636069286901</updated>
+      <workItem from="1641305181696" duration="3356000" />
+      <workItem from="1641386912963" duration="814000" />
+      <workItem from="1641393208704" duration="564000" />
     </task>
     <task id="LOCAL-00271" summary="seo">
       <created>1636077922102</created>
@@ -641,7 +638,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641224935236</updated>
     </task>
-    <option name="localTasksCounter" value="319" />
+    <task id="LOCAL-00319" summary="chat soli">
+      <created>1641343626146</created>
+      <option name="number" value="00319" />
+      <option name="presentableId" value="LOCAL-00319" />
+      <option name="project" value="LOCAL" />
+      <updated>1641343626147</updated>
+    </task>
+    <option name="localTasksCounter" value="320" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -670,7 +674,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="22/09/2021" />
     <MESSAGE value="pagina de prueba" />
     <MESSAGE value="centro de ayuda" />
     <MESSAGE value="centro de ayuda finalizacion" />
@@ -695,9 +698,14 @@
     <MESSAGE value="soliaguinaldo modificacion" />
     <MESSAGE value="arreglando errores" />
     <MESSAGE value="correcion" />
-    <option name="LAST_COMMIT_MESSAGE" value="correcion" />
+    <MESSAGE value="chat soli" />
+    <option name="LAST_COMMIT_MESSAGE" value="chat soli" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Deployment" timestamp="1641345103758">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Deployment/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1641345103758" />
     <state x="698" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1638558433829">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -725,10 +733,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="773" y="240" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1639105821263" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1641224937088">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1641393397773">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1641224937088" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1641393397773" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1641393405599">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1641393405599" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.3.1536.824@0.0.1920.1040" timestamp="1636476463424" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1640145865410">
       <screen x="0" y="0" width="1920" height="1040" />
