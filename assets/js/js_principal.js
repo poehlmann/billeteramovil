@@ -1,11 +1,12 @@
 $(document).ready(function() {
-    !function(e,t){if(!e.$Letstalk){var n=e.$Letstalk={};n.enqueue=function(){var e=arguments;return new Promise(function(t,n){u.stack.push({args:e,resolve:t,reject:n}),u.times.push(+new Date)})},n.init=function(){return n.enqueue("init",arguments)},n.on=function(){return n.enqueue("on",arguments)},n.executeAppMethod=function(){return n.enqueue("executeAppMethod",arguments)},n.isAvailable=function(){return n.enqueue("isAvailable",arguments)},n.launch=function(){return n.enqueue("launch",arguments)},n.listApps=function(){return n.enqueue("listApps",arguments)},n.remove=function(){return n.enqueue("remove",arguments)};var u=n._={stack:[],times:[+new Date]};t.body?r():e.attachEvent?e.attachEvent("onload",r):e.addEventListener("load",r,!1)}function r(){a=!1,s=t.createElement("script"),s.type="text/javascript",s.src="https://static.letsta.lk/launcher/launcher.js",s.async=!0,s.defer=!0,k=document.getElementsByTagName("script")[0],k.parentNode.insertBefore(s,k)}}(window,document);
-    window.LetstalkSettings = {
-        organization: 'bcp-qa'
-    };
-    window.$Letstalk.on('ready', function() {
-        window.$Letstalk.launch('chat-pub-soli-qa');
-    })
+    // !function(e,t){if(!e.$Letstalk){var n=e.$Letstalk={};n.enqueue=function(){var e=arguments;return new Promise(function(t,n){u.stack.push({args:e,resolve:t,reject:n}),u.times.push(+new Date)})},n.init=function(){return n.enqueue("init",arguments)},n.on=function(){return n.enqueue("on",arguments)},n.executeAppMethod=function(){return n.enqueue("executeAppMethod",arguments)},n.isAvailable=function(){return n.enqueue("isAvailable",arguments)},n.launch=function(){return n.enqueue("launch",arguments)},n.listApps=function(){return n.enqueue("listApps",arguments)},n.remove=function(){return n.enqueue("remove",arguments)};var u=n._={stack:[],times:[+new Date]};t.body?r():e.attachEvent?e.attachEvent("onload",r):e.addEventListener("load",r,!1)}function r(){a=!1,s=t.createElement("script"),s.type="text/javascript",s.src="https://static.letsta.lk/launcher/launcher.js",s.async=!0,s.defer=!0,k=document.getElementsByTagName("script")[0],k.parentNode.insertBefore(s,k)}}(window,document);
+    // window.LetstalkSettings = {
+    //     organization: 'bcp-qa'
+    // };
+    // window.$Letstalk.on('ready', function() {
+    //     window.$Letstalk.launch('chat-pub-soli-qa');
+    // })
+
     // var date = new Date(); // Create Date object for a reference point
     // if(date.getDate() == 25 && date.getMonth() == 11 ) { // Check the time like above
     //     Swal.fire({
@@ -140,119 +141,119 @@ $(document).ready(function() {
         force: force
     });
 
-    $('#owl-banner').owlCarousel({
-        items : 1,
-        loop:true,
-        autoplay:true,
-        autoplayTimeout:20000,
-        lazyLoad:true,
-        autoplayHoverPause:true,
-        animateOut: 'fadeOut',
-        animateIn: 'fadeIn',
-    });
-
-    $('#owl-comercios').owlCarousel({
-        items : 3,
-        loop:true,
-        autoplay:true,
-        autoplayTimeout:3000,
-        lazyLoad:true,
-        // autoplayHoverPause:true,
-        animateOut: 'fadeOut',
-        animateIn: 'fadeIn',
-    });
+    // $('#owl-banner').owlCarousel({
+    //     items : 1,
+    //     loop:true,
+    //     autoplay:true,
+    //     autoplayTimeout:20000,
+    //     lazyLoad:true,
+    //     autoplayHoverPause:true,
+    //     animateOut: 'fadeOut',
+    //     animateIn: 'fadeIn',
+    // });
+    //
+    // $('#owl-comercios').owlCarousel({
+    //     items : 3,
+    //     loop:true,
+    //     autoplay:true,
+    //     autoplayTimeout:3000,
+    //     lazyLoad:true,
+    //     // autoplayHoverPause:true,
+    //     animateOut: 'fadeOut',
+    //     animateIn: 'fadeIn',
+    // });
     
-    if( document.getElementById("owl-demo") !==null) {
-        var owl = $("#owl-demo");
-        owl.owlCarousel({
-            items: 1,
-            singleItem: true,
-            loop: true,
-            autoplay: true,
-            autoPlay: 3500
-        })
-
-        owl.on('changed.owl.carousel', function (e) {
-            var element = document.getElementById("phone"+e.relatedTarget.relative(e.relatedTarget.current()));
-            if (document.querySelector('.customNavigation .active_phone') !== null) {
-                document.querySelector('.customNavigation .active_phone').classList.remove('active_phone');
-            }
-            element.classList.add("active_phone");
-        })
-
-        $('.phone0').click(function () {
-            owl.trigger('to.owl.carousel', 0);
-            owl.trigger('stop.owl.autoplay');
-            var element = document.getElementById("phone0");
-            if (document.querySelector('.customNavigation .active_phone') !== null) {
-                document.querySelector('.customNavigation .active_phone').classList.remove('active_phone');
-            }
-            element.classList.add("active_phone");
-        });
-        $('.phone1').click(function () {
-            owl.trigger('to.owl.carousel', 1);
-            owl.trigger('stop.owl.autoplay');
-            var element = document.getElementById("phone1");
-            if (document.querySelector('.customNavigation .active_phone') !== null) {
-                document.querySelector('.customNavigation .active_phone').classList.remove('active_phone');
-            }
-            element.classList.add("active_phone");
-        });
-        $('.phone2').click(function () {
-            owl.trigger('to.owl.carousel', 2);
-            owl.trigger('stop.owl.autoplay');
-            var element = document.getElementById("phone2");
-            if (document.querySelector('.customNavigation .active_phone') !== null) {
-                document.querySelector('.customNavigation .active_phone').classList.remove('active_phone');
-            }
-            element.classList.add("active_phone");
-        });
-        $('.phone3').click(function () {
-            owl.trigger('to.owl.carousel', 3);
-            owl.trigger('stop.owl.autoplay');
-            var element = document.getElementById("phone3");
-            if (document.querySelector('.customNavigation .active_phone') !== null) {
-                document.querySelector('.customNavigation .active_phone').classList.remove('active_phone');
-            }
-            element.classList.add("active_phone");
-        });
-        $('.phone4').click(function () {
-            owl.trigger('to.owl.carousel', 4);
-            owl.trigger('stop.owl.autoplay');
-            var element = document.getElementById("phone4");
-            if (document.querySelector('.customNavigation .active_phone') !== null) {
-                document.querySelector('.customNavigation .active_phone').classList.remove('active_phone');
-            }
-            element.classList.add("active_phone");
-        });
-        $('.phone5').click(function () {
-            owl.trigger('to.owl.carousel', 5);
-            owl.trigger('stop.owl.autoplay');
-            var element = document.getElementById("phone5");
-            if (document.querySelector('.customNavigation .active_phone') !== null) {
-                document.querySelector('.customNavigation .active_phone').classList.remove('active_phone');
-            }
-            element.classList.add("active_phone");
-        });
-        $('.phone6').click(function () {
-            owl.trigger('to.owl.carousel', 6);
-            owl.trigger('stop.owl.autoplay');
-            var element = document.getElementById("phone6");
-            if (document.querySelector('.customNavigation .active_phone') !== null) {
-                document.querySelector('.customNavigation .active_phone').classList.remove('active_phone');
-            }
-            element.classList.add("active_phone");
-        });
-        $('.phone7').click(function () {
-            owl.trigger('to.owl.carousel', 7);
-            owl.trigger('stop.owl.autoplay');
-            var element = document.getElementById("phone7");
-            if (document.querySelector('.customNavigation .active_phone') !== null) {
-                document.querySelector('.customNavigation .active_phone').classList.remove('active_phone');
-            }
-            element.classList.add("active_phone");
-        });
-    }
+    // if( document.getElementById("owl-demo") !==null) {
+    //     var owl = $("#owl-demo");
+    //     owl.owlCarousel({
+    //         items: 1,
+    //         singleItem: true,
+    //         loop: true,
+    //         autoplay: true,
+    //         autoPlay: 3500
+    //     })
+    //
+    //     owl.on('changed.owl.carousel', function (e) {
+    //         var element = document.getElementById("phone"+e.relatedTarget.relative(e.relatedTarget.current()));
+    //         if (document.querySelector('.customNavigation .active_phone') !== null) {
+    //             document.querySelector('.customNavigation .active_phone').classList.remove('active_phone');
+    //         }
+    //         element.classList.add("active_phone");
+    //     })
+    //
+    //     $('.phone0').click(function () {
+    //         owl.trigger('to.owl.carousel', 0);
+    //         owl.trigger('stop.owl.autoplay');
+    //         var element = document.getElementById("phone0");
+    //         if (document.querySelector('.customNavigation .active_phone') !== null) {
+    //             document.querySelector('.customNavigation .active_phone').classList.remove('active_phone');
+    //         }
+    //         element.classList.add("active_phone");
+    //     });
+    //     $('.phone1').click(function () {
+    //         owl.trigger('to.owl.carousel', 1);
+    //         owl.trigger('stop.owl.autoplay');
+    //         var element = document.getElementById("phone1");
+    //         if (document.querySelector('.customNavigation .active_phone') !== null) {
+    //             document.querySelector('.customNavigation .active_phone').classList.remove('active_phone');
+    //         }
+    //         element.classList.add("active_phone");
+    //     });
+    //     $('.phone2').click(function () {
+    //         owl.trigger('to.owl.carousel', 2);
+    //         owl.trigger('stop.owl.autoplay');
+    //         var element = document.getElementById("phone2");
+    //         if (document.querySelector('.customNavigation .active_phone') !== null) {
+    //             document.querySelector('.customNavigation .active_phone').classList.remove('active_phone');
+    //         }
+    //         element.classList.add("active_phone");
+    //     });
+    //     $('.phone3').click(function () {
+    //         owl.trigger('to.owl.carousel', 3);
+    //         owl.trigger('stop.owl.autoplay');
+    //         var element = document.getElementById("phone3");
+    //         if (document.querySelector('.customNavigation .active_phone') !== null) {
+    //             document.querySelector('.customNavigation .active_phone').classList.remove('active_phone');
+    //         }
+    //         element.classList.add("active_phone");
+    //     });
+    //     $('.phone4').click(function () {
+    //         owl.trigger('to.owl.carousel', 4);
+    //         owl.trigger('stop.owl.autoplay');
+    //         var element = document.getElementById("phone4");
+    //         if (document.querySelector('.customNavigation .active_phone') !== null) {
+    //             document.querySelector('.customNavigation .active_phone').classList.remove('active_phone');
+    //         }
+    //         element.classList.add("active_phone");
+    //     });
+    //     $('.phone5').click(function () {
+    //         owl.trigger('to.owl.carousel', 5);
+    //         owl.trigger('stop.owl.autoplay');
+    //         var element = document.getElementById("phone5");
+    //         if (document.querySelector('.customNavigation .active_phone') !== null) {
+    //             document.querySelector('.customNavigation .active_phone').classList.remove('active_phone');
+    //         }
+    //         element.classList.add("active_phone");
+    //     });
+    //     $('.phone6').click(function () {
+    //         owl.trigger('to.owl.carousel', 6);
+    //         owl.trigger('stop.owl.autoplay');
+    //         var element = document.getElementById("phone6");
+    //         if (document.querySelector('.customNavigation .active_phone') !== null) {
+    //             document.querySelector('.customNavigation .active_phone').classList.remove('active_phone');
+    //         }
+    //         element.classList.add("active_phone");
+    //     });
+    //     $('.phone7').click(function () {
+    //         owl.trigger('to.owl.carousel', 7);
+    //         owl.trigger('stop.owl.autoplay');
+    //         var element = document.getElementById("phone7");
+    //         if (document.querySelector('.customNavigation .active_phone') !== null) {
+    //             document.querySelector('.customNavigation .active_phone').classList.remove('active_phone');
+    //         }
+    //         element.classList.add("active_phone");
+    //     });
+    // }
 
     var link = "https://www.google.com/maps/d/embed?mid=1N7kFRvFaoxGDcAfa1UP2Ea5ZhRuAzObv&z=6"
     var iframe = document.createElement('iframe');
@@ -314,26 +315,26 @@ function scrollFunction() {
     }
 }
 //animation phone fin
-function initparticles() {
-    confetti();
-}
+// function initparticles() {
+//     confetti();
+// }
+//
+// function confetti() {
+//     $.each($(".particletext.confetti"), function(){
+//         var confetticount = ($(this).width()/50)*10;
+//         for(var i = 0; i <= confetticount; i++) {
+//             $(this).append('<span class="particle c' + $.rnd(1,2) + '" style="top:' + $.rnd(10,50) + '%; left:' + $.rnd(0,100) + '%;width:' + $.rnd(6,8) + 'px; height:' + $.rnd(3,4) + 'px;animation-delay: ' + ($.rnd(0,30)/10) + 's;"></span>');
+//         }
+//     });
+// }
 
-function confetti() {
-    $.each($(".particletext.confetti"), function(){
-        var confetticount = ($(this).width()/50)*10;
-        for(var i = 0; i <= confetticount; i++) {
-            $(this).append('<span class="particle c' + $.rnd(1,2) + '" style="top:' + $.rnd(10,50) + '%; left:' + $.rnd(0,100) + '%;width:' + $.rnd(6,8) + 'px; height:' + $.rnd(3,4) + 'px;animation-delay: ' + ($.rnd(0,30)/10) + 's;"></span>');
-        }
-    });
-}
-
-jQuery.rnd = function(m,n) {
-    m = parseInt(m);
-    n = parseInt(n);
-    return Math.floor( Math.random() * (n - m + 1) ) + m;
-}
-
-initparticles();
+// jQuery.rnd = function(m,n) {
+//     m = parseInt(m);
+//     n = parseInt(n);
+//     return Math.floor( Math.random() * (n - m + 1) ) + m;
+// }
+//
+// initparticles();
 
 function generateLink() {
     let number = "+591"+document.form_main.number.value;
@@ -474,85 +475,85 @@ c.animate([
 //*/
 
 
-
-(function() {
-    function ready(fn) {
-        if (document.readyState != 'loading'){
-            fn();
-        } else {
-            document.addEventListener('DOMContentLoaded', fn);
-        }
-    }
-
-    function makeSnow(el) {
-        var ctx = el.getContext('2d');
-        var width = 0;
-        var height = 0;
-        var particles = [];
-
-        var Particle = function() {
-            this.x = this.y = this.dx = this.dy = 0;
-            this.reset();
-        }
-
-        Particle.prototype.reset = function() {
-            this.y = Math.random() * height;
-            this.x = Math.random() * width;
-            this.dx = (Math.random() * 1) - 0.5;
-            this.dy = (Math.random() * 0.5) + 0.5;
-        }
-
-        function createParticles(count) {
-            if (count != particles.length) {
-                particles = [];
-                for (var i = 0; i < count; i++) {
-                    particles.push(new Particle());
-                }
-            }
-        }
-
-        function onResize() {
-            width = window.innerWidth;
-            height = window.innerHeight;
-            el.width = width;
-            el.height = height;
-
-            createParticles((width * height) / 10000);
-        }
-
-        function updateParticles() {
-            ctx.clearRect(0, 0, width, height);
-            ctx.fillStyle = '#f6f9fa';
-
-            particles.forEach(function(particle) {
-                particle.y += particle.dy;
-                particle.x += particle.dx;
-
-                if (particle.y > height) {
-                    particle.y = 0;
-                }
-
-                if (particle.x > width) {
-                    particle.reset();
-                    particle.y = 0;
-                }
-
-                ctx.beginPath();
-                ctx.arc(particle.x, particle.y, 5, 0, Math.PI * 2, false);
-                ctx.fill();
-            });
-
-            window.requestAnimationFrame(updateParticles);
-        }
-
-        onResize();
-        updateParticles();
-
-        window.addEventListener('resize', onResize);
-    }
-
-    ready(function() {
-        var canvas = document.getElementById('snow');
-        makeSnow(canvas);
-    });
-})();
+//
+// (function() {
+//     function ready(fn) {
+//         if (document.readyState != 'loading'){
+//             fn();
+//         } else {
+//             document.addEventListener('DOMContentLoaded', fn);
+//         }
+//     }
+//
+//     function makeSnow(el) {
+//         var ctx = el.getContext('2d');
+//         var width = 0;
+//         var height = 0;
+//         var particles = [];
+//
+//         var Particle = function() {
+//             this.x = this.y = this.dx = this.dy = 0;
+//             this.reset();
+//         }
+//
+//         Particle.prototype.reset = function() {
+//             this.y = Math.random() * height;
+//             this.x = Math.random() * width;
+//             this.dx = (Math.random() * 1) - 0.5;
+//             this.dy = (Math.random() * 0.5) + 0.5;
+//         }
+//
+//         function createParticles(count) {
+//             if (count != particles.length) {
+//                 particles = [];
+//                 for (var i = 0; i < count; i++) {
+//                     particles.push(new Particle());
+//                 }
+//             }
+//         }
+//
+//         function onResize() {
+//             width = window.innerWidth;
+//             height = window.innerHeight;
+//             el.width = width;
+//             el.height = height;
+//
+//             createParticles((width * height) / 10000);
+//         }
+//
+//         function updateParticles() {
+//             ctx.clearRect(0, 0, width, height);
+//             ctx.fillStyle = '#f6f9fa';
+//
+//             particles.forEach(function(particle) {
+//                 particle.y += particle.dy;
+//                 particle.x += particle.dx;
+//
+//                 if (particle.y > height) {
+//                     particle.y = 0;
+//                 }
+//
+//                 if (particle.x > width) {
+//                     particle.reset();
+//                     particle.y = 0;
+//                 }
+//
+//                 ctx.beginPath();
+//                 ctx.arc(particle.x, particle.y, 5, 0, Math.PI * 2, false);
+//                 ctx.fill();
+//             });
+//
+//             window.requestAnimationFrame(updateParticles);
+//         }
+//
+//         onResize();
+//         updateParticles();
+//
+//         window.addEventListener('resize', onResize);
+//     }
+//
+//     ready(function() {
+//         var canvas = document.getElementById('snow');
+//         makeSnow(canvas);
+//     });
+// })();

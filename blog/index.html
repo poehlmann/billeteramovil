@@ -31,7 +31,7 @@
             'gtm.start':
                 new Date().getTime(), event: 'gtm.js'
         });
-        var f = d.getElementsByTagName(s)[0],
+        var f = d.getElementsPorTagName(s)[0],
             j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
         j.async = true;
         j.src =
@@ -68,6 +68,9 @@
     <meta name="msapplication-TileColor" content="#0fa8d5">
     <meta name="msapplication-TileImage" content="../assets/img/ms-icon-144x144.png">
     <meta name="theme-color" content="#0fa8d5">
+
+    <script async src="https://cse.google.com/cse.js?cx=e6faf75aaf79381f3"></script>
+
     <!-- Head Libs -->
 </head>
 <body>
@@ -162,12 +165,20 @@
             </div>
         </div>
     </header>
-    <section class="banner-blog">
-        <div class="banner-title-blog">
-            <h1>El blog de <img src="../assets/img/logo-soli-transparente.png" width="180" height="180" alt="Soli" title="Soli"/></h1>
-            <p class="text-white text-center">Inclusión financiera con una billetera móvil</p>
+
+    <div class="page-hero-section bg-image hero-mini" style="background-image: url(../assets/img/hero_mini.svg);">
+        <div class="hero-caption">
+            <div class="container fg-white h-100">
+                <div class="row justify-content-center align-items-center text-center h-100">
+                    <div class="col-lg-6">
+                        <h1 class="text-white mb-4 mt-120 fw-medium">El blog de <img src="../assets/img/logo-soli-transparente.png" width="150" height="150" alt="Soli" title="Soli"/></h1>
+                        <p class="text-white text-center">Inclusión financiera con una billetera móvil</p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
+
     <section>
         <div class="divisor"></div>
         <div class="row mt-30 mb-30">
@@ -183,136 +194,353 @@
     </section>
     <section>
         <div class="row pd-20" >
-            <div class="col-md-6 text-center mt-10">
-                <img class="border-img" src="../assets/img/guia_redsocial.jpeg">
+            <div class="col-md-12 text-center mt-10">
+                <img class="border-img" src="../assets/img/Comercios-webop3.jpg">
             </div>
-            <div class="col-md-6 mt-50">
-                <p class="tag">Inclusion financiera</p>
+            <div class="col-md-offset-3 col-md-6 mt-50">
+                <div class="entry-meta mb-2">
+                    <div class="meta-item entry-author">
+                        <div class="icon">
+                            <span class="mai-person"></span>
+                        </div>
+                        Por <a href="#">Soli</a>
+                    </div>
+                    <div class="meta-item">
+                        <div class="icon">
+                            <span class="mai-pricetags"></span>
+                        </div>
+                        Categoría:
+                        <a href="#">Prensa</a>
+                    </div>
+                </div>
                 <h2 class="heading" style="font-weight: bold;">Soli, la nueva billetera Boliviana</h2>
-                <p>texto</p>
-                <a target="_blank" href="#" type="button" class="btn_cta mt-10">Leer mas ></a>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima quo officia tenetur hic facere animi doloremque adipisci, fugiat ratione corrupti eius amet exercitationem dolorem inventore eum et placeat, sunt ducimus.</p>
+                <a href="#" class="btn btn-primary">Continuar leyendo</a>
             </div>
         </div>
     </section>
-    <section class="wrapper">
-        <div class="row">
-            <div class="col-md-offset-1 col-md-8">
-                <div class="container-fostrap">
-<!--                    <div class="content">-->
-<!--                        <div class="container">-->
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-4 col-md-4">
-                                    <div class="card">
-                                        <a class="img-card" href="http://www.fostrap.com/2016/03/bootstrap-3-carousel-fade-effect.html">
-                                            <img src="../assets/img/guia_redsocial.jpg" />
-                                        </a>
-                                        <div class="card-content">
-                                            <h4 class="card-title">
-                                                <a href="http://www.fostrap.com/2016/03/bootstrap-3-carousel-fade-effect.html"> Soli Blog 1
-                                                </a>
-                                            </h4>
-                                            <p class="">
-                                                Lorem ipsum...
-                                            </p>
-                                        </div>
-                                        <div class="card-read-more ">
-                                            <a href="#" class="leer_mas btn btn-link btn-block mt-10">
-                                                Leer más
-                                            </a>
-                                            <div class="footer-social-icon mt-10" style="width: 100%;display: flex;align-items: baseline;margin-left: 10px">
-                                                <span style="color:black">Comparte en: </span>
-                                                <a style="margin-left:10px" href="https://www.facebook.com/share.php?u={{url}}&title={{title}}" target="blank"><i class="fab fa-facebook-f facebook-bg"></i></a>
-                                                <a href="https://twitter.com/intent/tweet?status={{title}}+{{url}}"><i class="fab fa-twitter twitter-bg"></i></a>
-                                                <a href="whatsapp://send?text=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.%20url" target="_blank"><i class="fab fa-whatsapp whatsapp-bg"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
+
+    <div class="page-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 py-3">
+                    <article class="blog-entry">
+                        <div class="entry-header">
+                            <div class="post-thumbnail">
+                                <img src="../assets/img/recarga-celular.jpg" alt="">
+                            </div>
+                            <div class="post-date">
+                                <h3>20</h3>
+                                <span>Enero</span>
+                            </div>
+                        </div>
+                        <div class="post-title"><a href="#">Duis feugiat neque sed dolor cursus, sed lacinia nisl pretium</a></div>
+                        <div class="entry-meta mb-2">
+                            <div class="meta-item entry-author">
+                                <div class="icon">
+                                    <span class="mai-person"></span>
                                 </div>
-                                <div class="col-xs-12 col-sm-4 col-md-4">
-                                    <div class="card">
-                                        <a class="img-card" href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html">
-                                            <img src="../assets/img/guia_redsocial.jpg" />
-                                        </a>
-                                        <div class="card-content">
-                                            <h4 class="card-title">
-                                                <a href="http://www.fostrap.com/2016/02/awesome-material-design-responsive-menu.html"> Soli Blog 2
-                                                </a>
-                                            </h4>
-                                            <p class="">
-                                                Lorem ipsum...
-                                            </p>
-                                        </div>
-                                        <div class="card-read-more">
-                                            <a href="#" class="leer_mas btn btn-link btn-block mt-10">
-                                                Leer más
-                                            </a>
-                                            <div class="footer-social-icon mt-10" style="width: 100%;display: flex;align-items: baseline;margin-left: 10px">
-                                                <span style="color:black">Comparte en: </span>
-                                                <a style="margin-left:10px" href="https://www.facebook.com/share.php?u={{url}}&title={{title}}" target="blank"><i class="fab fa-facebook-f facebook-bg"></i></a>
-                                                <a href="https://twitter.com/intent/tweet?status={{title}}+{{url}}"><i class="fab fa-twitter twitter-bg"></i></a>
-                                                <a href="whatsapp://send?text=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.%20url" target="_blank"><i class="fab fa-whatsapp whatsapp-bg"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
+                                Por <a href="#">Soli</a>
+                            </div>
+                            <div class="meta-item">
+                                <div class="icon">
+                                    <span class="mai-pricetags"></span>
                                 </div>
-                                <div class="col-xs-12 col-sm-4 col-md-4">
-                                    <div class="card">
-                                        <a class="img-card" href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html">
-                                            <img src="../assets/img/guia_redsocial.jpg" />
-                                        </a>
-                                        <div class="card-content">
-                                            <h4 class="card-title">
-                                                <a href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html">Soli Blog 3
-                                                </a>
-                                            </h4>
-                                            <p class="">
-                                                Lorem ipsum...
-                                            </p>
-                                        </div>
-                                        <div class="card-read-more">
-                                            <a href="#" class="leer_mas btn btn-link btn-block mt-10">
-                                                Leer más
-                                            </a>
-                                            <div class="footer-social-icon mt-10" style="width: 100%;display: flex;align-items: baseline;margin-left: 10px">
-                                                <span style="color:black">Comparte en: </span>
-                                                <a style="margin-left:10px" href="https://www.facebook.com/share.php?u={{url}}&title={{title}}" target="blank"><i class="fab fa-facebook-f facebook-bg"></i></a>
-                                                <a href="https://twitter.com/intent/tweet?status={{title}}+{{url}}"><i class="fab fa-twitter twitter-bg"></i></a>
-                                                <a href="whatsapp://send?text=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.%20url" target="_blank"><i class="fab fa-whatsapp whatsapp-bg"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
+                                Categoría:
+                                <a href="#">Prensa</a>
+                            </div>
+<!--                            <div class="meta-item">-->
+<!--                                <div class="icon">-->
+<!--                                    <span class="mai-chatbubble-ellipses"></span>-->
+<!--                                </div>-->
+<!--                                <a href="#">24 Comments</a>-->
+<!--                            </div>-->
+                        </div>
+                        <div class="entry-content">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima quo officia tenetur hic facere animi doloremque adipisci, fugiat ratione corrupti eius amet exercitationem dolorem inventore eum et placeat, sunt ducimus.</p>
+                        </div>
+                        <a href="#" class="btn btn-primary">Continuar leyendo</a>
+                    </article>
+
+                    <article class="blog-entry">
+                        <div class="entry-header">
+                            <div class="post-thumbnail">
+                                <img src="../assets/img/paga-servicios.jpg" alt="">
+                            </div>
+                            <div class="post-date">
+                                <h3>20</h3>
+                                <span>Enero</span>
+                            </div>
+                        </div>
+                        <div class="post-title"><a href="#">Duis feugiat neque sed dolor cursus, sed lacinia nisl pretium</a></div>
+                        <div class="entry-meta mb-2">
+                            <div class="meta-item entry-author">
+                                <div class="icon">
+                                    <span class="mai-person"></span>
+                                </div>
+                                Por <a href="#">Soli</a>
+                            </div>
+                            <div class="meta-item">
+                                <div class="icon">
+                                    <span class="mai-pricetags"></span>
+                                </div>
+                                Categoría:
+                                <a href="#">Inclusión financiera</a>,
+                                <a href="#">Prensa</a>
+                            </div>
+<!--                            <div class="meta-item">-->
+<!--                                <div class="icon">-->
+<!--                                    <span class="mai-chatbubble-ellipses"></span>-->
+<!--                                </div>-->
+<!--                                <a href="#">24 Comments</a>-->
+<!--                            </div>-->
+                        </div>
+                        <div class="entry-content">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima quo officia tenetur hic facere animi doloremque adipisci, fugiat ratione corrupti eius amet exercitationem dolorem inventore eum et placeat, sunt ducimus.</p>
+                        </div>
+                        <a href="#" class="btn btn-primary">Continuar leyendo</a>
+                    </article>
+
+                    <article class="blog-entry">
+                        <div class="entry-header">
+                            <div class="post-thumbnail">
+                                <img src="../assets/img/comprar-por-internet.jpg" alt="">
+                            </div>
+                            <div class="post-date">
+                                <h3>06</h3>
+                                <span>Enero</span>
+                            </div>
+                        </div>
+                        <div class="post-title"><a href="#">Duis feugiat neque sed dolor cursus, sed lacinia nisl pretium</a></div>
+                        <div class="entry-meta mb-2">
+                            <div class="meta-item entry-author">
+                                <div class="icon">
+                                    <span class="mai-person"></span>
+                                </div>
+                                Por <a href="#">Soli</a>
+                            </div>
+                            <div class="meta-item">
+                                <div class="icon">
+                                    <span class="mai-pricetags"></span>
+                                </div>
+                                Categoría:
+                                <a href="#">Billetera móvil</a>,
+                                <a href="#">Prensa</a>
+                            </div>
+<!--                            <div class="meta-item">-->
+<!--                                <div class="icon">-->
+<!--                                    <span class="mai-chatbubble-ellipses"></span>-->
+<!--                                </div>-->
+<!--                                <a href="#">0 Comments</a>-->
+<!--                            </div>-->
+                        </div>
+                        <div class="entry-content">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima quo officia tenetur hic facere animi doloremque adipisci, fugiat ratione corrupti eius amet exercitationem dolorem inventore eum et placeat, sunt ducimus.</p>
+                        </div>
+                        <a href="#" class="btn btn-primary">Continuar leyendo</a>
+                    </article>
+                </div>
+                <!-- Sidebar -->
+                <div class="col-lg-4 py-3">
+                    <div class="widget-wrap">
+                        <h3 class="widget-title">¿Tienes alguna duda?</h3>
+                        <div class="page-header"></div>
+                        <div class="gcse-search"></div>
+                    </div>
+
+                    <div class="widget-wrap">
+                        <h3 class="widget-title">Categorias</h3>
+                        <ul class="categories">
+                            <li><a href="#">Inclusión financiera <span>1</span></a></li>
+                            <li><a href="#">Billetera móvil <span>2</span></a></li>
+                            <li><a href="#">Finanzas en fácil <span>1</span></a></li>
+                            <li><a href="#">Prensa <span>1</span></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="widget-wrap">
+                        <h3 class="widget-title">Blog Reciente</h3>
+                        <div class="blog-widget">
+                            <div class="blog-img">
+                                <img src="../assets/img/recarga-celular.jpg" alt="">
+                            </div>
+                            <div class="entry-footer">
+                                <div class="blog-title mb-2"><a href="#">Duis feugiat neque sed dolor cursus, sed lacinia nisl pretium</a></div>
+                                <div class="meta">
+                                    <a href="#"><span class="icon-calendar"></span> Enero 12, 2022</a>
+                                    <a href="#"><span class="icon-person"></span> Soli</a>
                                 </div>
                             </div>
+                        </div>
+                        <div class="blog-widget">
+                            <div class="blog-img">
+                                <img src="../assets/img/comprar-por-internet.jpg" alt="">
+                            </div>
+                            <div class="entry-footer">
+                                <div class="blog-title mb-2"><a href="#">Duis feugiat neque sed dolor cursus, sed lacinia nisl pretium</a></div>
+                                <div class="meta">
+                                    <a href="#"><span class="icon-calendar"></span> Enero 12, 2022</a>
+                                    <a href="#"><span class="icon-person"></span> Soli</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-widget">
+                            <div class="blog-img">
+                                <img src="../assets/img/paga-servicios.jpg" alt="">
+                            </div>
+                            <div class="entry-footer">
+                                <div class="blog-title mb-2"><a href="#">Duis feugiat neque sed dolor cursus, sed lacinia nisl pretium</a></div>
+                                <div class="meta">
+                                    <a href="#"><span class="icon-calendar"></span> Enero 12, 2022</a>
+                                    <a href="#"><span class="icon-person"></span> Soli</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+<!--                    <div class="widget-wrap">-->
+<!--                        <h3 class="widget-title">Tag Cloud</h3>-->
+<!--                        <div class="tag-clouds">-->
+<!--                            <a href="#" class="tag-cloud-link">dish</a>-->
+<!--                            <a href="#" class="tag-cloud-link">menu</a>-->
+<!--                            <a href="#" class="tag-cloud-link">food</a>-->
+<!--                            <a href="#" class="tag-cloud-link">sweet</a>-->
+<!--                            <a href="#" class="tag-cloud-link">tasty</a>-->
+<!--                            <a href="#" class="tag-cloud-link">delicious</a>-->
+<!--                            <a href="#" class="tag-cloud-link">desserts</a>-->
+<!--                            <a href="#" class="tag-cloud-link">drinks</a>-->
 <!--                        </div>-->
 <!--                    </div>-->
-                </div>
-            </div>
-            <div class="col-md-3 mt-10 hide_phone">
 
-                <div class="footer-social-icon divisor-vertical" style="width: 100%;">
-                    <span style="color: #3b60bd;">SÍGUENOS</span>
-                    <a href="https://www.facebook.com/SoliAplicacion" target="_blank"><i class="fab fa-facebook-f facebook-bg"></i></a>
-                    <a href="https://www.instagram.com/soli_bcp/" target="_blank"><i class="fab fa-instagram instagram-bg"></i></a>
-                    <a href="https://www.youtube.com/channel/UCXjadMc1P0jJvP2eNkPd4Hg/videos" target="_blank"><i class="fab fa-youtube youtube-bg"></i></a>
-
-                <span class="mt-30" style="color: #3b60bd;">DESCARGA</span>
-                <p>
-                    <a id="descarga_android_blog" target="_blank" href="https://play.google.com/store/apps/details?id=com.bcp.bo.wallet&referrer=utm_source%3Dp%25C3%25A1gina_web%26utm_medium%3Dp%25C3%25A1gina_web%26utm_term%3Dp%25C3%25A1gina_web%26utm_content%3Dp%25C3%25A1gina_web%26utm_campaign%3Dp%25C3%25A1gina_web">
-                        <img loading="lazy" class="btn-banner" src="../assets/img/soli-06.svg" alt="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store" title="Soli Pagos BCP es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store">
-                    </a>
-                </p>
-                <p>
-                    <a id="descarga_iphone_blog" target="_blank" href="https://apps.apple.com/es/app/soli-pagos-bcp/id1135987447">
-                        <img loading="lazy" class="btn-banner" src="../assets/img/soli-04.svg" alt="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store" title="Soli Pagos BCP es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store">
-                    </a>
-                </p>
-                </div>
+                    <div class="widget-wrap">
+                        <h3 class="widget-title">¿Qué es el Blog Soli?</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus voluptate quod mollitia delectus aut, sunt placeat nam vero culpa sapiente consectetur similique, inventore eos fugit cupiditate numquam!</p>
+                    </div>
+                </div> <!-- end sidebar -->
             </div>
         </div>
-    </section>
-    <section>
-        <div style="background-image: url('../assets/img/banner_queessoli.svg');height: 500px"></div>
-    </section>
+    </div>
+
+
+    <!--    <section class="wrapper">-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-offset-1 col-md-8">-->
+<!--                <div class="container-fostrap">-->
+<!--&lt;!&ndash;                    <div class="content">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="container">&ndash;&gt;-->
+<!--                            <div class="row">-->
+<!--                                <div class="col-xs-12 col-sm-4 col-md-4">-->
+<!--                                    <div class="card">-->
+<!--                                        <a class="img-card" href="http://www.fostrap.com/2016/03/bootstrap-3-carousel-fade-effect.html">-->
+<!--                                            <img src="../assets/img/guia_redsocial.jpg" />-->
+<!--                                        </a>-->
+<!--                                        <div class="card-content">-->
+<!--                                            <h4 class="card-title">-->
+<!--                                                <a href="http://www.fostrap.com/2016/03/bootstrap-3-carousel-fade-effect.html"> Soli Blog 1-->
+<!--                                                </a>-->
+<!--                                            </h4>-->
+<!--                                            <p class="">-->
+<!--                                                Lorem ipsum...-->
+<!--                                            </p>-->
+<!--                                        </div>-->
+<!--                                        <div class="card-read-more ">-->
+<!--                                            <a href="#" class="leer_mas btn btn-link btn-block mt-10">-->
+<!--                                                Leer más-->
+<!--                                            </a>-->
+<!--                                            <div class="footer-social-icon mt-10" style="width: 100%;display: flex;align-items: baseline;margin-left: 10px">-->
+<!--                                                <span style="color:black">Comparte en: </span>-->
+<!--                                                <a style="margin-left:10px" href="https://www.facebook.com/share.php?u={{url}}&title={{title}}" target="blank"><i class="fab fa-facebook-f facebook-bg"></i></a>-->
+<!--                                                <a href="https://twitter.com/intent/tweet?status={{title}}+{{url}}"><i class="fab fa-twitter twitter-bg"></i></a>-->
+<!--                                                <a href="whatsapp://send?text=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.%20url" target="_blank"><i class="fab fa-whatsapp whatsapp-bg"></i></a>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="col-xs-12 col-sm-4 col-md-4">-->
+<!--                                    <div class="card">-->
+<!--                                        <a class="img-card" href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html">-->
+<!--                                            <img src="../assets/img/guia_redsocial.jpg" />-->
+<!--                                        </a>-->
+<!--                                        <div class="card-content">-->
+<!--                                            <h4 class="card-title">-->
+<!--                                                <a href="http://www.fostrap.com/2016/02/awesome-material-design-responsive-menu.html"> Soli Blog 2-->
+<!--                                                </a>-->
+<!--                                            </h4>-->
+<!--                                            <p class="">-->
+<!--                                                Lorem ipsum...-->
+<!--                                            </p>-->
+<!--                                        </div>-->
+<!--                                        <div class="card-read-more">-->
+<!--                                            <a href="#" class="leer_mas btn btn-link btn-block mt-10">-->
+<!--                                                Leer más-->
+<!--                                            </a>-->
+<!--                                            <div class="footer-social-icon mt-10" style="width: 100%;display: flex;align-items: baseline;margin-left: 10px">-->
+<!--                                                <span style="color:black">Comparte en: </span>-->
+<!--                                                <a style="margin-left:10px" href="https://www.facebook.com/share.php?u={{url}}&title={{title}}" target="blank"><i class="fab fa-facebook-f facebook-bg"></i></a>-->
+<!--                                                <a href="https://twitter.com/intent/tweet?status={{title}}+{{url}}"><i class="fab fa-twitter twitter-bg"></i></a>-->
+<!--                                                <a href="whatsapp://send?text=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.%20url" target="_blank"><i class="fab fa-whatsapp whatsapp-bg"></i></a>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="col-xs-12 col-sm-4 col-md-4">-->
+<!--                                    <div class="card">-->
+<!--                                        <a class="img-card" href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html">-->
+<!--                                            <img src="../assets/img/guia_redsocial.jpg" />-->
+<!--                                        </a>-->
+<!--                                        <div class="card-content">-->
+<!--                                            <h4 class="card-title">-->
+<!--                                                <a href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html">Soli Blog 3-->
+<!--                                                </a>-->
+<!--                                            </h4>-->
+<!--                                            <p class="">-->
+<!--                                                Lorem ipsum...-->
+<!--                                            </p>-->
+<!--                                        </div>-->
+<!--                                        <div class="card-read-more">-->
+<!--                                            <a href="#" class="leer_mas btn btn-link btn-block mt-10">-->
+<!--                                                Leer más-->
+<!--                                            </a>-->
+<!--                                            <div class="footer-social-icon mt-10" style="width: 100%;display: flex;align-items: baseline;margin-left: 10px">-->
+<!--                                                <span style="color:black">Comparte en: </span>-->
+<!--                                                <a style="margin-left:10px" href="https://www.facebook.com/share.php?u={{url}}&title={{title}}" target="blank"><i class="fab fa-facebook-f facebook-bg"></i></a>-->
+<!--                                                <a href="https://twitter.com/intent/tweet?status={{title}}+{{url}}"><i class="fab fa-twitter twitter-bg"></i></a>-->
+<!--                                                <a href="whatsapp://send?text=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.%20url" target="_blank"><i class="fab fa-whatsapp whatsapp-bg"></i></a>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-md-3 mt-10 hide_phone">-->
+
+<!--                <div class="footer-social-icon divisor-vertical" style="width: 100%;">-->
+<!--                    <span style="color: #3b60bd;">SÍGUENOS</span>-->
+<!--                    <a href="https://www.facebook.com/SoliAplicacion" target="_blank"><i class="fab fa-facebook-f facebook-bg"></i></a>-->
+<!--                    <a href="https://www.instagram.com/soli_bcp/" target="_blank"><i class="fab fa-instagram instagram-bg"></i></a>-->
+<!--                    <a href="https://www.youtube.com/channel/UCXjadMc1P0jJvP2eNkPd4Hg/videos" target="_blank"><i class="fab fa-youtube youtube-bg"></i></a>-->
+
+<!--                <span class="mt-30" style="color: #3b60bd;">DESCARGA</span>-->
+<!--                <p>-->
+<!--                    <a id="descarga_android_blog" target="_blank" href="https://play.google.com/store/apps/details?id=com.bcp.bo.wallet&referrer=utm_source%3Dp%25C3%25A1gina_web%26utm_medium%3Dp%25C3%25A1gina_web%26utm_term%3Dp%25C3%25A1gina_web%26utm_content%3Dp%25C3%25A1gina_web%26utm_campaign%3Dp%25C3%25A1gina_web">-->
+<!--                        <img loading="lazy" class="btn-banner" src="../assets/img/soli-06.svg" alt="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store" title="Soli Pagos BCP es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store">-->
+<!--                    </a>-->
+<!--                </p>-->
+<!--                <p>-->
+<!--                    <a id="descarga_iphone_blog" target="_blank" href="https://apps.apple.com/es/app/soli-pagos-bcp/id1135987447">-->
+<!--                        <img loading="lazy" class="btn-banner" src="../assets/img/soli-04.svg" alt="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store" title="Soli Pagos BCP es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store">-->
+<!--                    </a>-->
+<!--                </p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
+<!--    <section>-->
+<!--        <div style="background-image: url('../assets/img/banner_queessoli.svg');height: 500px"></div>-->
+<!--    </section>-->
     <footer class="footer-section">
         <div class="container">
             <div class="footer-content pt-3">
@@ -387,7 +615,7 @@
                 <div class="row">
                     <div class="col-xl-8 col-lg-8 text-center text-lg-left">
                         <div class="copyright-text">
-                            <p>Copyright &copy; 2021, Esta entidad esta supervisada por la Autoridad de Supervisión del Sistema Financiero ASFI. Banco de Crédito de Bolivia S.A.</p>
+                            <p>Copyright &copy; 2022, Esta entidad esta supervisada por la Autoridad de Supervisión del Sistema Financiero ASFI. Banco de Crédito de Bolivia S.A.</p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-3 d-none d-lg-block text-right">

@@ -7,6 +7,7 @@
         <item url="file://$PROJECT_DIR$/assets/js/blog_script.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/bootstrap.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/entry.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/ganaconsoli_script.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/jquery.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/js_principal.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/lite-youtube.min.js" />
@@ -30,6 +31,7 @@
       <root url="file://$PROJECT_DIR$/assets/js/blog_script.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/bootstrap.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/entry.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/ganaconsoli_script.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/jquery.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/js_principal.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/lite-youtube.min.js" />

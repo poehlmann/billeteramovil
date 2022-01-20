@@ -17,7 +17,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="comercios">
+      <change afterPath="$PROJECT_DIR$/assets/css/ganaconsoli_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/maicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/maicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/maicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/maicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/hero_mini.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/ganaconsoli_script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendors/animate/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendors/wow/wow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solipromociones/ganaconsoli.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/blog_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/blog_style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog_style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/js_principal.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/js_principal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/js_principal.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/js_principal.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/cambiar-y-recuperar-contrasenas.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/cambiar-y-recuperar-contrasenas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/comercios.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/comercios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/comisiones.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/comisiones.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/depositar.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/depositar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/funcionalidades-y-transferencia.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/funcionalidades-y-transferencia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/pagos-de-servicios.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/pagos-de-servicios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/pagos-sin-contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/pagos-sin-contacto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/retiros-de-dinero.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/retiros-de-dinero.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/soy-nuevo-en-soli.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/soy-nuevo-en-soli.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/tarjetas-de-regalo.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/tarjetas-de-regalo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billeteramovil/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/billeteramovil/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/inclusion_financiera.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/inclusion_financiera.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comercios/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/comercios/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soli.html" beforeDir="false" afterPath="$PROJECT_DIR$/soli.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soli/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/soli/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solipromociones/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solipromociones/soliaguinaldo.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/soliaguinaldo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solipromociones/solimegate.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/solimegate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solipromociones/solisocios.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/solisocios.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +90,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -59,19 +99,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\solipagos\assets\img" />
-      <recent name="C:\xampp\htdocs\solipagos\assets\js" />
-      <recent name="C:\xampp\htdocs\solipagos\assets\css" />
-      <recent name="C:\xampp\htdocs\solipagos" />
-      <recent name="C:\xampp\htdocs\solipagos\solipromociones" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\solipagos\ayuda" />
       <recent name="C:\xampp\htdocs\solipagos\assets\css" />
       <recent name="C:\xampp\htdocs\solipagos\billeteramovil" />
       <recent name="C:\xampp\htdocs\solipagos\assets\img" />
       <recent name="C:\xampp\htdocs\solipagos\assets\video" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\solipagos\assets\css" />
+      <recent name="C:\xampp\htdocs\solipagos\solipromociones" />
+      <recent name="C:\xampp\htdocs\solipagos\assets\vendors" />
+      <recent name="C:\xampp\htdocs\solipagos\assets\fonts" />
+      <recent name="C:\xampp\htdocs\solipagos\assets\img" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.demo.html">
@@ -300,13 +340,10 @@
       <workItem from="1641393208704" duration="1775000" />
       <workItem from="1641527660607" duration="793000" />
       <workItem from="1641567639489" duration="2281000" />
-    </task>
-    <task id="LOCAL-00274" summary="seo">
-      <created>1636081428556</created>
-      <option name="number" value="00274" />
-      <option name="presentableId" value="LOCAL-00274" />
-      <option name="project" value="LOCAL" />
-      <updated>1636081428557</updated>
+      <workItem from="1641909873366" duration="7900000" />
+      <workItem from="1642013785702" duration="1376000" />
+      <workItem from="1642519001967" duration="15031000" />
+      <workItem from="1642598514163" duration="15978000" />
     </task>
     <task id="LOCAL-00275" summary="seo">
       <created>1636122868234</created>
@@ -644,7 +681,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641567968098</updated>
     </task>
-    <option name="localTasksCounter" value="323" />
+    <task id="LOCAL-00323" summary="chatbot">
+      <created>1641910027867</created>
+      <option name="number" value="00323" />
+      <option name="presentableId" value="LOCAL-00323" />
+      <option name="project" value="LOCAL" />
+      <updated>1641910027867</updated>
+    </task>
+    <option name="localTasksCounter" value="324" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -686,7 +730,6 @@
     <MESSAGE value="seo" />
     <MESSAGE value="chat" />
     <MESSAGE value="actualizacion de informacion solisocios" />
-    <MESSAGE value="chatbot" />
     <MESSAGE value="cambios web principal" />
     <MESSAGE value="soliaguinaldo pagina" />
     <MESSAGE value="soliaguinaldo" />
@@ -698,7 +741,8 @@
     <MESSAGE value="arreglando errores" />
     <MESSAGE value="chat soli" />
     <MESSAGE value="correcion" />
-    <option name="LAST_COMMIT_MESSAGE" value="correcion" />
+    <MESSAGE value="chatbot" />
+    <option name="LAST_COMMIT_MESSAGE" value="chatbot" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Deployment" timestamp="1641345103758">
@@ -720,14 +764,10 @@
     <state x="92" y="92" width="1736" height="856" maximized="true" key="DiffContextDialog" timestamp="1639106146900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1634300470844">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1641944274322">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1634300470844" />
-    <state x="778" y="243" key="NewPhpClassDialog" timestamp="1633466834295">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="778" y="243" key="NewPhpClassDialog/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1633466834295" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1641944274322" />
     <state x="773" y="240" key="RollbackChangesDialog" timestamp="1639105821263">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -736,28 +776,40 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1641393397773" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1641567971813">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1641910032624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1641567971813" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1641910032624" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.3.1536.824@0.0.1920.1040" timestamp="1636476463424" />
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1640145865410">
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1642599550087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1640145865410" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1642599550087" />
     <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1636052295346" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1638479782914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1638479782914" />
-    <state x="57" y="49" width="1790" height="863" key="find.popup" timestamp="1641224856036">
+    <state x="58" y="49" width="1790" height="863" key="find.popup" timestamp="1642650005757">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="57" y="49" width="1790" height="863" key="find.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1641224856036" />
+    <state x="58" y="49" width="1790" height="863" key="find.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1642650005757" />
     <state x="344" y="156" width="1459" height="783" key="find.popup/0.0.1920.1040/-1920.3.1536.824@0.0.1920.1040" timestamp="1636467848832" />
-    <state x="539" y="183" width="840" height="857" key="search.everywhere.popup" timestamp="1641638770132">
+    <state x="539" y="183" width="840" height="857" key="search.everywhere.popup" timestamp="1642651063518">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="183" width="840" height="857" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1641638770132" />
+    <state x="539" y="183" width="840" height="857" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1642651063518" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/assets/js/ganaconsoli_script.js</url>
+          <line>303</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
