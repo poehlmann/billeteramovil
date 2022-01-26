@@ -35,7 +35,6 @@ body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overfl
 /*body{max-width:100vw;}*/
 .h2,.h3,h1,h2,h3{color:#394360;}
 a{text-decoration:none!important;outline:0;}
-ul{margin:0!important;padding:0!important;}
 .background_principal .font_promocion{font-size:44px;}
 .background_principal{background-image:url(../img/solisocios-bcp-fondo.jpg);background-repeat:no-repeat;background-size:cover;height:100vh;background-position:center center;z-index:1;}
 .background_principal img{width:45vh !important; display: initial !important;}

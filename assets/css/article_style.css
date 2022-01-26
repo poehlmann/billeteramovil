@@ -1,6 +1,13 @@
 /** * Base Variables */
 /** * Mixins */
 /** * Base Settings/Overwrite Normalize */
+ul {
+    margin-top: 0 !important;
+    margin-bottom: 10px!important;
+    color: #4c4e4e;
+    font-weight: 300;
+    animation: fade-in .8s ease-in-out both .5s;
+}
 .banner-blog h1 {
     font-weight: bold;
     font-size: 50px;
@@ -23,8 +30,11 @@ h1 {
 }
 p {
     margin: 0;
-    color: #a9b1b3;
+    color: #4c4e4e;
 }
+
+a{color:#4ab6d4 !important;}
+a:hover{color:#23527c !important;text-decoration:underline !important;}
 
 figure {
     margin: 0;
