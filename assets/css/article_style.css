@@ -124,10 +124,11 @@ body {
 }
 .post__container {
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: flex-start;
     padding: 2em;
     overflow-y: auto;
+    flex-wrap: wrap;
 }
 .post__category {
     position: relative;
@@ -138,6 +139,7 @@ body {
     letter-spacing: .3em;
     overflow: hidden;
     justify-content: space-between;
+    flex-direction: column;
 }
 .post__category:before {
     content: "";
