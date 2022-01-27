@@ -17,12 +17,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="comercios">
+      <change afterPath="$PROJECT_DIR$/soli/recarga_tu_billetera_soli.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/article_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/article_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/article_style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/article_style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/blog_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/blog_style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog_style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/adios-al-efectivo/7-habitos-para-decirle adios-al-uso-de-dinero-en-efectivo.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/adios-al-efectivo/7-habitos-para-decirle adios-al-uso-de-dinero-en-efectivo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/screen soli.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/blog_script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/blog_script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/blog_script.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/blog_script.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/adios-al-efectivo/7-habitos-para-decirle adios-al-uso-de-dinero-en-efectivo.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/adios-al-efectivo/7-habitos-para-decirle-adios-al-uso-de-dinero-en-efectivo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -311,14 +317,8 @@
       <workItem from="1642598514163" duration="17239000" />
       <workItem from="1642682086163" duration="3234000" />
       <workItem from="1643129289445" duration="599000" />
-      <workItem from="1643220529194" duration="5218000" />
-    </task>
-    <task id="LOCAL-00280" summary="mapa">
-      <created>1636404965973</created>
-      <option name="number" value="00280" />
-      <option name="presentableId" value="LOCAL-00280" />
-      <option name="project" value="LOCAL" />
-      <updated>1636404965974</updated>
+      <workItem from="1643220529194" duration="10505000" />
+      <workItem from="1643296270807" duration="8436000" />
     </task>
     <task id="LOCAL-00281" summary="mapa">
       <created>1636410132007</created>
@@ -656,7 +656,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643224863933</updated>
     </task>
-    <option name="localTasksCounter" value="329" />
+    <task id="LOCAL-00329" summary="blog">
+      <created>1643226374578</created>
+      <option name="number" value="00329" />
+      <option name="presentableId" value="LOCAL-00329" />
+      <option name="project" value="LOCAL" />
+      <updated>1643226374578</updated>
+    </task>
+    <option name="localTasksCounter" value="330" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -744,11 +751,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1641393397773" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1643224871958">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1643226375870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1478" y="200" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@-1920.0.1536.824" timestamp="1642656509685" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1643224871958" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1643226375870" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.3.1536.824@0.0.1920.1040" timestamp="1636476463424" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1643224820479">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -759,10 +766,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1638479782914" />
-    <state x="58" y="49" width="1790" height="863" key="find.popup" timestamp="1643226021388">
+    <state x="58" y="49" width="1790" height="863" key="find.popup" timestamp="1643310027744">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="58" y="49" width="1790" height="863" key="find.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1643226021388" />
+    <state x="58" y="49" width="1790" height="863" key="find.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1643310027744" />
     <state x="344" y="156" width="1459" height="783" key="find.popup/0.0.1920.1040/-1920.3.1536.824@0.0.1920.1040" timestamp="1636467848832" />
     <state x="539" y="183" width="840" height="857" key="search.everywhere.popup" timestamp="1642651063518">
       <screen x="0" y="0" width="1920" height="1040" />

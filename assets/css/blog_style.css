@@ -573,8 +573,6 @@ h1{font-size:50px;}
 .fa-minus:before{content:"\f068";}
 .fa-plus:before{content:"\f067";}
 .fa-youtube:before{content:"\f167";}
-.fab{font-family:'Font Awesome 5 Brands';}
-.fa{font-family:'Font Awesome 5 Free';font-weight:400;}
 .fa{font-weight:900;}
 /*! CSS Used from: ../css/menu.min.css */
 
@@ -838,31 +836,19 @@ iframe#_hjRemoteVarsFrame{display:none!important;width:1px!important;height:1px!
 }
 
 .slider__item--1 {
-    background-image: url("../img/soli-recargas.jpg");
+    background-image: url("../img/cashin_qr_1.jpeg");
     background-size: contain;
 }
 .slider__item--2 {
-    background-image: url("../img/soli-recargas2.jpg");
+    background-image: url("../img/cashin_qr_2.jpeg");
     background-size: cover;
 }
 .slider__item--3 {
-    background-image: url("../img/soli-recargas3.jpg");
+    background-image: url("../img/cashin_qr_3.jpeg");
     background-size: cover;
 }
 .slider__item--4 {
-    background-image: url("../img/soli-recargas4.jpg");
-    background-size: cover;
-}
-.slider__item--5 {
-    background-image: url("../img/soli-recargas5.jpg");
-    background-size: cover;
-}
-.slider__item--6 {
-    background-image: url("../img/soli-recargas6.jpg");
-    background-size: cover;
-}
-.slider__item--7 {
-    background-image: url("../img/soli-recargas-creado.jpg");
+    background-image: url("../img/cashin_qr_4.jpeg");
     background-size: cover;
 }
 
@@ -1429,10 +1415,9 @@ a:before, a:after, a > span:before, a > span:after {
     transition: transform .5s ease;
 }
 .border-img{
-    border-start-start-radius: 50px;
-    border-end-end-radius: 50px;
+    border-radius: 4px;
     width: 60%;
-    height: 360px;
+    height: auto;
 }
 .banner-blog{
     background: rgb(74,182,212);background: linear-gradient(270deg, rgba(74,182,212,1) 5%, rgba(59,96,189,1) 50%, rgba(74,182,212,1) 95%);
@@ -1558,6 +1543,35 @@ p{margin-top:0;margin-bottom:1rem;font-size: 16px;
 .categories li:not(:last-child)::after{content:'';position:absolute;top:15px;left:-19px;width:1px;height:100%;background-color:#cac7cf;z-index:-2;}
 .categories li a{font-weight:500;color:#526bf5;}
 .categories li span{float:right;}
+
+.entry-meta a{color:#4ab6d4 !important;}
+.entry-meta a:hover{color:#23527c !important;text-decoration:underline !important;}
+
+
+.hide { display: none; }
+
+
+.button {
+    transition: all .2s ease-in-out;
+    -webkit-appearance: none;
+    border-radius: 100px;
+    font-family: inherit;
+    appearance: none;
+    background: none;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 20px;
+    outline: none;
+    opacity: 0.4;
+    border: none;
+    color: #515151;
+}
+
+.button:hover,
+.button.active {
+    opacity: 1;
+}
 
 @font-face {
     font-family: 'maicons';
@@ -4206,3 +4220,519 @@ p{margin-top:0;margin-bottom:1rem;font-size: 16px;
 .btn-primary:hover{color:#fff;background-color:#0069d9;border-color:#0062cc;}
 .btn-primary:focus{color:#fff;background-color:#0069d9;border-color:#0062cc;box-shadow:0 0 0 0.2rem rgba(38, 143, 255, 0.5);}
 .btn-primary:disabled{color:#fff;background-color:#007bff;border-color:#007bff;}
+
+
+
+/* CSS */
+/* CSS */
+.button-82-pushable {
+    position: relative;
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    transition: filter 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-82-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: hsl(0deg 0% 0% / 0.25);
+    will-change: transform;
+    transform: translateY(2px);
+    transition:
+            transform
+            600ms
+            cubic-bezier(.3, .7, .4, 1);
+}
+
+.button-82-edge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: linear-gradient(to left,hsl(191deg 78% 23%) 0,hsl(191deg 58% 49%) 8%,hsl(191deg 88% 36%) 92%,hsl(191deg 44% 10%) 100%);
+}
+
+.button-82-front {
+    display: block;
+    position: relative;
+    padding: 12px 27px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    color: white;
+    background: hsl(191deg 100% 50%);
+    will-change: transform;
+    transform: translateY(-4px);
+    transition: transform 600ms cubic-bezier(.3, .7, .4, 1);
+}
+
+@media (min-width: 768px) {
+    .button-82-front {
+        font-size: 1.25rem;
+        padding: 12px 42px;
+    }
+}
+
+.button-82-pushable:hover {
+    filter: brightness(110%);
+}
+
+.button-82-pushable:hover .button-82-front {
+    transform: translateY(-6px);
+    transition: transform 250ms cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-82-pushable:active .button-82-front {
+    transform: translateY(-2px);
+    transition: transform 34ms;
+}
+
+.button-82-pushable:hover .button-82-shadow {
+    transform: translateY(4px);
+    transition:
+            transform
+            250ms
+            cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-82-pushable:active .button-82-shadow {
+    transform: translateY(1px);
+    transition: transform 34ms;
+}
+
+.button-82-pushable:focus:not(:focus-visible) {
+    outline: none;
+}
+
+
+/*tarjetas de como recargar Soli*/
+.cards-wrapper {
+    position: relative;
+    height: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 55px 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.card-wrapper {
+    display: block;
+    float: left;
+    position: relative;
+    margin: 0;
+    width: 20%;
+    height: 0;
+    padding: 0 0 17%;
+    perspective: 700px;
+}
+.card-object {
+    color: #fff;
+    display: block;
+    float: left;
+    position: absolute;
+    top: 6%;
+    left: 6%;
+    width: 85%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+.card-object.card-1 .front {
+    background: url(../img/recarga-tu-soli-qr.png?raw=1) no-repeat;
+    background-size: 100%;
+}
+.card-object.card-1 .back .img-wrapper {
+    background: transparent url(../img/recarga-tu-soli-qr.png?raw=1) 60% 55%;
+    background-size: 110%;
+}
+.card-object.card-1 .back .avatar {
+    background: transparent url(../img/recarga-tu-soli-qr.png?raw=1) 40% 20%;
+    background-size: 106% 105%;
+}
+.card-object.card-2 .front {
+    background:url(../img/recarga-tu-soli-transferencia.png?raw=1) no-repeat;
+    background-size: 100%;
+}
+.card-object.card-2 .back .img-wrapper {
+    background: transparent url(../img/recarga-tu-soli-transferencia.png?raw=1) 60% 55%;
+    background-size: 110%;
+}
+.card-object.card-2 .back .avatar {
+    background: transparent url(../img/recarga-tu-soli-transferencia.png?raw=1) 50% 50% no-repeat;
+    background-size: 106% 105%;
+}
+.card-object.card-3 .front {
+    background: url(../img/recarga-tu-soli-agente-bcp.png?raw=1) no-repeat;
+    background-size: 100%;
+}
+.card-object.card-3 .back .img-wrapper {
+    background: transparent url(../img/recarga-tu-soli-agente-bcp.png?raw=1) 60% 55% no-repeat;
+    background-size: 110%;
+}
+.card-object.card-3 .back .avatar {
+    background: #fff url(../img/recarga-tu-soli-agente-bcp.png?raw=1) 0 50% no-repeat;
+    background-size: 106% 105%;
+}
+.card-object.flip-in.card-1, .card-object.flip-in.card-3 {
+    animation: flip-2-hor-top-fwd 0.8s cubic-bezier(0.680,-0.55,0.265,1.550) both;
+}
+.card-object.flip-in.card-2 {
+    animation: flip-2-hor-bottom-fwd 0.8s cubic-bezier(0.680,-0.55,0.265,1.550) both;
+}
+.card-object.flip-out.card-1, .card-object.flip-out.card-3 {
+    animation: flip-2-hor-top-fwd 0.8s cubic-bezier(0.680,-0.55,0.265,1.550) reverse both;
+}
+.card-object.flip-out.card-2 {
+    animation: flip-2-hor-bottom-fwd 0.8s cubic-bezier(0.680,-0.55,0.265,1.550) reverse both;
+}
+.card-object-hf .back {
+    transform: rotateX(180deg);
+}
+.face {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+.face.front {
+    z-index: 20;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.face.front::before {
+    top: 3px;
+    right: 15px;
+    bottom: 17px;
+    left: 4px;
+    content: "";
+    background: linear-gradient(45deg,rgba(0,0,0,.95) 0,rgba(0,0,0,.5) 40%,rgba(0,0,0,.1) 100%) no-repeat;
+    border-radius: 15%;
+    opacity: 0;
+    transition: opacity .2s ease;
+}
+.face.front::after {
+    position: absolute;
+    top: 1%;
+    right: 7%;
+    bottom: 6%;
+    left: 1%;
+    border: 1px solid rgba(255,255,255,.35);
+    z-index: 100;
+    border-radius: 14%;
+    content: "";
+}
+.face.front .title-wrapper {
+    position: absolute;
+    bottom: 3%;
+    left: 25%;
+    right: 25%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    z-index: 100;
+    transform: translateY(0);
+    transition: transform .28s ease;
+}
+.face.front .title-wrapper .title {
+    position: relative;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 1.3vw;
+    line-height: 1;
+    opacity: .8;
+    transition: opacity .2s ease;
+}
+.face.front .title-wrapper .title::after {
+    display: block;
+    margin: 7% auto 8% auto;
+    width: 100%;
+    height: 1px;
+    content: "";
+    background-color: #fff;
+    opacity: .5;
+    transform: scale(0);
+    transition: transform .15s;
+}
+.face.front .title-wrapper .subtitle {
+    font-size: .9vw;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: opacity .15s;
+}
+.face.front:hover::before {
+    opacity: .9;
+}
+.face.front:hover .title-wrapper {
+    transform: translateY(-50%);
+}
+.face.front:hover .title-wrapper .title {
+    opacity: 1;
+}
+.face.front:hover .title-wrapper .title::after {
+    transform: scale(1);
+    opacity: .5;
+    transition-delay: .15s;
+    transition-duration: .2s;
+}
+.face.front:hover .title-wrapper .subtitle {
+    opacity: .7;
+    transition-delay: .2s;
+    transition-duration: .2s;
+}
+.face.back {
+    color: #222;
+    background: #fff;
+    z-index: 10;
+}
+.img-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 38%;
+    z-index: 10;
+}
+.img-wrapper::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(14,6,70,0.6);
+    opacity: .7;
+}
+.avatar {
+    position: absolute;
+    left: 50%;
+    height: 68%;
+    width: 25.84%;
+    display: block;
+    border-radius: 50%;
+    margin-top: 25.08%;
+    margin-left: -12.92%;
+    background-color: #fff;
+    border: 3px solid #FFF;
+    z-index: 20;
+}
+.info-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 50.92%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 4% 15% 15%;
+}
+.info-title {
+    font-size: 1.5vw;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+.info-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 8% 0 0;
+    margin: 8% 0 0;
+    border-top: 1px solid #e0e0e0;
+    flex-direction: column;
+}
+.info-content-item {
+    font-size: .75vw;
+    line-height: 1;
+    text-align: center;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    color: #324fc3;
+}
+.info-content-item span {
+    display: block;
+    font-weight: bold;
+    font-size: 1.1vw;
+    margin-top: 7px;
+    text-transform: none;
+    color: #222;
+}
+.info {
+    position: absolute;
+    bottom: 30px;
+    left: 5%;
+    right: 5%;
+    font-size: 1em;
+    text-align: center;
+}
+.info a {
+    color: #8c0f8c;
+    text-decoration: none;
+}
+.info a:hover {
+    text-decoration: underline;
+}
+@keyframes flip-2-hor-top-fwd {
+    0% {
+        transform: translateY(0) translateZ(0) rotateX(0);
+        transform-origin: 50% 0%;
+    }
+    100% {
+        transform: translateY(-100%) translateZ(100px) rotateX(-180deg);
+        transform-origin: 50% 100%;
+    }
+}
+@keyframes flip-2-hor-bottom-fwd {
+    0% {
+        transform: translateY(0) translateZ(0) rotateX(0);
+        transform-origin: 50% 100%;
+    }
+    100% {
+        transform: translateY(100%) translateZ(100px) rotateX(180deg);
+        transform-origin: 50% 0%;
+    }
+}
+
+@media (max-width: 768px) {
+    .modal.in .modal-dialog {
+        transform: translate(0,12vh);
+    }
+    #soli-ubicacion h3 {
+        font-size: 18px;
+    }
+    .cards-wrapper {
+        position: relative;
+        height: 100%;
+        list-style: none;
+        margin: 0;
+        padding: 0 0;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-wrapper {
+        display: block;
+        float: left;
+        position: relative;
+        margin: 0;
+        width: 30vh;
+        height: 28vh;
+        padding: 0 0 0;
+        perspective: 700px;
+    }
+    .face.front::after{
+        position: absolute;
+        top: -1%;
+        right: 6%;
+        bottom: 14%;
+        left: 1%;
+        border: 1px solid rgba(255,255,255,.35);
+        z-index: 100;
+        border-radius: 14%;
+        content: "";
+    }
+    .face.front .title-wrapper{
+        bottom: 11%;
+        left: 10%;
+        right: 10%;
+        overflow: hidden;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+        z-index: 100;
+        transform: translateY(0);
+        transition: transform .28s ease;
+    }
+    .face.front .title-wrapper .title{
+        font-size: 5.3vw;
+    }
+    .info-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        top: 30%;
+        padding: 0% 2% 0%;
+        align-content: flex-start;
+    }
+    .info-title{
+        font-size: 5vw;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+    .info-content-item{
+        font-size: 3.75vw;
+        line-height: 1;
+        text-align: center;
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        text-transform: inherit;
+        color: #324fc3;
+    }
+    .info-content-item span{
+        display: block;
+        font-weight: 700;
+        font-size: 4.1vw;
+        margin-top: 2px;
+        text-transform: none;
+        color: #222;
+    }
+    .avatar{
+        display:none;
+    }
+    .card-object.card-3 .back .img-wrapper{
+        background: url(../img/recarga-tu-soli-agente-bcp.png?raw=1) 60% 50% no-repeat;
+        background-size: 110%;
+    }
+    .img-wrapper{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 26%;
+        z-index: 10;
+    }
+    .h2, h2 {
+        font-size: 23px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
