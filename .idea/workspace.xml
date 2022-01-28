@@ -16,7 +16,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="comercios" />
+    <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="comercios">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/blog_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/blog_style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog_style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/blog_script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/blog_script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/blog_script.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/blog_script.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soli/recarga_tu_billetera_soli.html" beforeDir="false" afterPath="$PROJECT_DIR$/soli/recarga_tu_billetera_soli.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -306,14 +313,7 @@
       <workItem from="1643129289445" duration="599000" />
       <workItem from="1643220529194" duration="10505000" />
       <workItem from="1643296270807" duration="12317000" />
-      <workItem from="1643373205394" duration="1019000" />
-    </task>
-    <task id="LOCAL-00283" summary="seo">
-      <created>1636422037527</created>
-      <option name="number" value="00283" />
-      <option name="presentableId" value="LOCAL-00283" />
-      <option name="project" value="LOCAL" />
-      <updated>1636422037527</updated>
+      <workItem from="1643373205394" duration="4340000" />
     </task>
     <task id="LOCAL-00284" summary="seo">
       <created>1636468047615</created>
@@ -651,7 +651,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643375680948</updated>
     </task>
-    <option name="localTasksCounter" value="332" />
+    <task id="LOCAL-00332" summary="blog">
+      <created>1643375871789</created>
+      <option name="number" value="00332" />
+      <option name="presentableId" value="LOCAL-00332" />
+      <option name="project" value="LOCAL" />
+      <updated>1643375871790</updated>
+    </task>
+    <option name="localTasksCounter" value="333" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -739,11 +746,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1641393397773" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1643317403323">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1643375873819">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1478" y="200" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@-1920.0.1536.824" timestamp="1642656509685" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1643317403323" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1643375873819" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.3.1536.824@0.0.1920.1040" timestamp="1636476463424" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1643224820479">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -754,15 +761,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1638479782914" />
-    <state x="58" y="49" width="1790" height="863" key="find.popup" timestamp="1643341138283">
+    <state x="58" y="49" width="1790" height="863" key="find.popup" timestamp="1643379006300">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="58" y="49" width="1790" height="863" key="find.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1643341138283" />
+    <state x="58" y="49" width="1790" height="863" key="find.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1643379006300" />
     <state x="344" y="156" width="1459" height="783" key="find.popup/0.0.1920.1040/-1920.3.1536.824@0.0.1920.1040" timestamp="1636467848832" />
-    <state x="539" y="183" width="840" height="857" key="search.everywhere.popup" timestamp="1643342633594">
+    <state x="539" y="183" width="840" height="857" key="search.everywhere.popup" timestamp="1643378718971">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="183" width="840" height="857" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1643342633594" />
+    <state x="539" y="183" width="840" height="857" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1643378718971" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
