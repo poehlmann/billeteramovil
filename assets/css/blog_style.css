@@ -1487,10 +1487,9 @@ a:before, a:after, a > span:before, a > span:after {
 .page-hero-section{position:relative;height:100vh;}
 .page-hero-section .hero-caption{height:100%;}
 .page-section{position:relative;padding-bottom:100px;}
-.page-section:not(.fg-white) h3{color:#6b6872;}
+.page-section:not(.fg-white) h3{ color: #3C60BE;font-weight: bold;}
 .bg-image{background-size:cover;background-position:bottom;background-repeat:no-repeat;}
 .hero-mini{height:462px;}
-.page-section:not(.fg-white) h3{color:#6b6872;}
 .h-100{height:100%!important;}
 .fw-medium{font-weight:500!important;}
 p{margin-top:0;margin-bottom:1rem;font-size: 16px;
@@ -1508,10 +1507,10 @@ p{margin-top:0;margin-bottom:1rem;font-size: 16px;
 .entry-header .post-date{position:absolute;left:24px;bottom:-16px;width:68px;height:65px;text-align:center;background:linear-gradient(to bottom right, #3D58F3, #5cabc9);color:#fff;border-radius:4px;box-shadow:0 2px 6px rgba(95, 90, 104, 0.342);}
 .entry-header .post-date h3{margin-bottom:-4px;color:inherit;font-weight:400;}
 .entry-header .post-date span{font-size:12px;}
-.blog-entry .post-title{display:block;font-size:24px;margin-bottom:8px;}
-.blog-entry .post-title a{color:#5F5A68;font-weight:500;transition:color .2s ease;}
+.blog-entry .post-title{display:block;font-size:28px;margin-bottom:8px;}
+.blog-entry .post-title a{color: #3C60BE;font-weight:500;transition:color .2s ease;}
 .blog-entry .post-title a:hover{color:#3852e7;}
-.entry-meta{position:relative;display:block;padding-left:0;list-style:none;}
+.entry-meta{position:relative;display:block;padding-left:0;list-style:none;line-height: 2}
 .meta-item{display:inline-block;margin-right:12px;font-size:14px;}
 .meta-item .icon{display:inline-block;vertical-align:middle;margin-right:4px;width:22px;height:22px;line-height:22px;text-align:center;font-size:14px;background:linear-gradient(to bottom right, #3D58F3, #5480bd);color:#fff;border-radius:50%;}
 @media (min-width: 992px){
@@ -1528,7 +1527,7 @@ p{margin-top:0;margin-bottom:1rem;font-size: 16px;
 .categories li a{font-weight:500;color:#526bf5;}
 .categories li span{float:right;}
 .blog-widget{display:-ms-flexbox;display:flex;flex-direction:row;padding:16px 0 16px 0;margin-bottom:16px;border-bottom:1px solid #E4E1EB;}
-.blog-widget .blog-img{flex:1 0 auto;margin-right:12px;width:100px;height:80px;overflow:hidden;}
+.blog-widget .blog-img{flex:1 0 auto;margin-right:12px;width: 50%;height:80px;overflow:hidden;}
 .blog-widget .blog-img img{width:100%;height:100%;}
 .blog-title{font-size:16px;font-weight:500;line-height:normal;}
 .blog-widget .meta{font-size:12px;font-weight:500;}
@@ -4216,7 +4215,7 @@ p{margin-top:0;margin-bottom:1rem;font-size: 16px;
 .btn:hover{color:#212529;text-decoration:none;}
 .btn:focus{outline:0;box-shadow:0 0 0 0.2rem rgba(0, 123, 255, 0.25);}
 .btn:disabled{opacity:0.65;}
-.btn-primary{color:#fff;background-color:#007bff;border-color:#007bff;}
+.btn-primary{color:#fff;background-color:#3C60BE;border-color:#3C60BE;}
 .btn-primary:hover{color:#fff;background-color:#0069d9;border-color:#0062cc;}
 .btn-primary:focus{color:#fff;background-color:#0069d9;border-color:#0062cc;box-shadow:0 0 0 0.2rem rgba(38, 143, 255, 0.5);}
 .btn-primary:disabled{color:#fff;background-color:#007bff;border-color:#007bff;}
@@ -4735,4 +4734,8 @@ p{margin-top:0;margin-bottom:1rem;font-size: 16px;
         padding-right: 20px;
     }
 
+}
+
+.gsc-search-button-v2 {
+    background-color: #57BCDC !important;
 }

@@ -100,7 +100,7 @@ body {
 .post > *:first-child {
     position: relative;
     height: 14em;
-    background-color: #000;
+    /*background-color: #000;*/
 }
 @media (min-width: 30em) {
     .post > *:first-child {
@@ -180,6 +180,11 @@ body {
 }
 .post__header {
     overflow: hidden;
+    font-size: 45px;
+    font-weight: bold;
+    color: #3C60BE;
+    margin-bottom: 50px;
+    margin-top: 40px;
 }
 .post__header span {
     display: inline-block;
