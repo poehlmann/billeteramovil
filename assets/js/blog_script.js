@@ -93,14 +93,16 @@ if( document.getElementById("owl-demo") !==null) {
         singleItem: true,
         loop: true,
         autoplay: true,
-        autoPlay: 3500
+        autoPlay: 2500
     })
 
     owl.on('changed.owl.carousel', function (e) {
-        var element = document.getElementById("phone"+e.relatedTarget.relative(e.relatedTarget.current()));
+        var punteroQR = e.relatedTarget.relative(e.relatedTarget.current());
+        var element = document.getElementById("phone"+punteroQR);
         if (document.querySelector('.customNavigation .active_phone') !== null) {
             document.querySelector('.customNavigation .active_phone').classList.remove('active_phone');
         }
+        console.log("1",e.relatedTarget.relative(e.relatedTarget.current()));
         element.classList.add("active_phone");
     })
 
@@ -140,4 +142,105 @@ if( document.getElementById("owl-demo") !==null) {
         }
         element.classList.add("active_phone");
     });
+}
+
+//scroll to element phone just in phone
+function scrollFunction() {
+    let e = document.getElementById("phone_expo");
+    if( detectMob()){
+        e.scrollIntoView({
+            block: 'start',
+            behavior: 'smooth',
+            inline: 'start'
+        });
+    }
+}
+
+if( document.getElementById("owl-demo2") !==null) {
+    var owl2 = $("#owl-demo2");
+    owl2.owlCarousel({
+        items: 1,
+        singleItem: true,
+        loop: true,
+        autoplay: true,
+        autoPlay: 2500
+    })
+
+    owl2.on('changed.owl.carousel', function (e) {
+        var puntero = e.relatedTarget.relative(e.relatedTarget.current())+4;
+        if(puntero == 3){
+            puntero = 4
+        }
+        var element = document.getElementById("phone"+(puntero));
+        if (document.querySelector('.customNavigation2 .active_phone') !== null) {
+            document.querySelector('.customNavigation2 .active_phone').classList.remove('active_phone');
+        }
+        console.log("2",puntero);
+        element.classList.add("active_phone");
+    })
+
+    $('.phone4').click(function () {
+        owl2.trigger('to.owl.carousel', 0);
+        owl2.trigger('stop.owl.autoplay');
+        var element = document.getElementById("phone4");
+        if (document.querySelector('.customNavigation2 .active_phone') !== null) {
+            document.querySelector('.customNavigation2 .active_phone').classList.remove('active_phone');
+        }
+        element.classList.add("active_phone");
+    });
+    $('.phone5').click(function () {
+        owl2.trigger('to.owl.carousel', 1);
+        owl2.trigger('stop.owl.autoplay');
+        var element = document.getElementById("phone5");
+        if (document.querySelector('.customNavigation2 .active_phone') !== null) {
+            document.querySelector('.customNavigation2 .active_phone').classList.remove('active_phone');
+        }
+        element.classList.add("active_phone");
+    });
+    $('.phone6').click(function () {
+        owl2.trigger('to.owl.carousel', 2);
+        owl2.trigger('stop.owl.autoplay');
+        var element = document.getElementById("phone6");
+        if (document.querySelector('.customNavigation2 .active_phone') !== null) {
+            document.querySelector('.customNavigation2 .active_phone').classList.remove('active_phone');
+        }
+        element.classList.add("active_phone");
+    });
+    $('.phone7').click(function () {
+        owl2.trigger('to.owl.carousel', 3);
+        owl2.trigger('stop.owl.autoplay');
+        var element = document.getElementById("phone7");
+        if (document.querySelector('.customNavigation2 .active_phone') !== null) {
+            document.querySelector('.customNavigation2 .active_phone').classList.remove('active_phone');
+        }
+        element.classList.add("active_phone");
+    });
+}
+//scroll to element phone just in phone
+function scrollFunction2() {
+    let e = document.getElementById("phone_expo2");
+    if( detectMob()){
+        e.scrollIntoView({
+            block: 'start',
+            behavior: 'smooth',
+            inline: 'start'
+        });
+    }
+}
+
+function detectMob() {
+    return ( ( window.innerWidth <= 997 )  );
+}
+//scroll to element phone just in phone
+function scrollFunction(value) {
+    let e = document.getElementById("phone_expo");
+    if( detectMob()){
+        e.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+}
+function scrollFunction_down() {
+    let e = document.getElementById("phone_expo");
+    if( detectMob()){
+        e.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
 }

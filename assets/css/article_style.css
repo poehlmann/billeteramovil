@@ -1,11 +1,12 @@
 /** * Base Variables */
 /** * Mixins */
 /** * Base Settings/Overwrite Normalize */
-ul {
+.ul_article {
     margin-top: 0 !important;
     margin-bottom: 10px!important;
     color: #4c4e4e;
     font-weight: 300;
+    font-size: 27px;
     animation: fade-in .8s ease-in-out both .5s;
 }
 .banner-blog h1 {
@@ -35,6 +36,24 @@ p {
 
 .post__content a{color:#4ab6d4 !important;}
 .post__content a:hover{color:#23527c !important;text-decoration:underline !important;}
+.post__content img{
+    border-radius: 5%;
+    max-width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.post__text img{
+    border-radius: 5%;
+    max-width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+@media (max-width: 991px) {
+    .post__content img, .post__text img {
+        border-radius: 5%;
+        max-width: 100%;
+    }
+}
 
 figure {
     margin: 0;
@@ -185,6 +204,7 @@ body {
     color: #3C60BE;
     margin-bottom: 50px;
     margin-top: 40px;
+    text-align: left;
 }
 .post__header span {
     display: inline-block;
@@ -201,6 +221,7 @@ body {
 }
 .post__text {
     font-weight: 300;
+    text-align: left;
     animation: fade-in 0.8s ease-in-out both 0.5s;
 }
 .post__link {

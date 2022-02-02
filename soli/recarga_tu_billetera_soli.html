@@ -165,7 +165,7 @@
             <div class="container fg-white h-100">
                 <div class="row justify-content-center align-items-center text-center h-100">
                     <div class="col-lg-6">
-                        <h1 class="text-white mb-4 mt-120 fw-medium">Recarga tu billetera <img src="../assets/img/logo-soli-transparente.png" width="150" height="150" alt="Soli" title="Soli"/></h1>
+                        <h1 class="text-white mb-4 mt-120 fw-medium">Recarga tu billetera <br><img src="../assets/img/logo-soli-transparente.png" width="150" height="150" alt="Soli" title="Soli"/></h1>
                     </div>
                 </div>
             </div>
@@ -173,24 +173,14 @@
     </div>
 
     <section>
-        <div class="row ">
-            <div class="col-md-offset-2 col-md-8 col-sm-12 text-center wow fadeInUp" >
-                <h2 class="font-weight-bold mb-25">Descubre donde cargar y retirar dinero a tu Soli</h2>
-                <button href="#soli-ubicacion" class="button-82-pushable mb-25" role="button" data-toggle="modal" data-target="#soli-ubicacion">
-                    <span class="button-82-shadow"></span>
-                    <span class="button-82-edge"></span>
-                    <span class="button-82-front text">Puntos Soli</span>
-                </button>
-                <!--                    <a href="#soli-ubicacion" type="button" data-toggle="modal" data-target="#soli-ubicacion" class="btn_cta btn_cta_exp mb-25">Puntos Soli</a>-->
-            </div>
-        </div>
+        <div class="font-size-40 font-weight-bold text-center">Te presentamos 2 increíbles formas de recargar tu Soli</div>
         <div class="cards-wrapper mb-25 " >
             <div class="card-wrapper wow fadeInUp">
-                <div class="card-1 card-object card-object-hf"><a class="face front" href="#">
+                <div class="card-1 card-object card-object-hf"><a class="face front" href="#QR">
                     <div class="title-wrapper">
                         <div class="title">QR</div>
                         <!--                            <div class="subtitle">felis hairyus</div>-->
-                    </div></a><a class="face back" href="#">
+                    </div></a><a class="face back" href="#QR">
                     <div class="img-wrapper">
                         <div class="avatar"></div>
                     </div>
@@ -201,14 +191,15 @@
                             <li class="info-content-item">Escanea desde una cuenta bancaria</li>
                             <li class="info-content-item"><span>Y listo!!! Así de fácil</span></li>
                         </ul>
-                    </div></a></div>
+                    </div></a>
+                </div>
             </div>
             <div class="card-wrapper wow fadeInUp">
-                <div class="card-3 card-object card-object-hf"><a class="face front" href="#">
+                <div class="card-3 card-object card-object-hf"><a class="face front" href="#AGENTE">
                     <div class="title-wrapper">
                         <div class="title">AGENTE BCP</div>
                         <!--                            <div class="subtitle">felix pumus</div>-->
-                    </div></a><a class="face back" href="#">
+                    </div></a><a class="face back" href="#AGENTE">
                     <div class="img-wrapper">
                         <div class="avatar"></div>
                     </div>
@@ -224,10 +215,10 @@
         </div>
     </section>
 
-    <section>
+    <section id="QR">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h2  class="font-size-30 font-weight-bold">Sigue estos pasos para recibir dinero por QR</h2>
+                <h2  class="font-size-40 font-weight-bold">Por transferencia QR, es ¡así de fácil!</h2>
             </div>
         </div>
         <div class="row">
@@ -249,11 +240,59 @@
             </div>
             <div class="col-md-6">
                 <div class="customNavigation"  data-localscroll="true">
-                    <button id="phone0" class="btn_phone phone0" ><div class="div_wrap" onclick="scrollFunction()"><img loading="lazy" class="lazyload" width="90" height="85" alt="Soli app store,play store " data-src="../assets/img/1.png" /><h3>Ingresa a tu app Soli y selecciona el QR</h3></div></button>
-                    <button id="phone1" class="btn_phone phone1" ><div class="div_wrap" onclick="scrollFunction()"><img loading="lazy" class="lazyload" width="90" height="85" alt="crear Soli" data-src="../assets/img/2.png" /><h3>Selecciona "Generar QR para cobrar"</h3></div></button>
-                    <button id="phone2" class="btn_phone phone2" ><div class="div_wrap" onclick="scrollFunction()"><img loading="lazy" class="lazyload" width="90" height="85" alt="ingresar tus datos personales Soli" data-src="../assets/img/3.png" /><h3>Y listo!!! La otra persona puede transferirte escaneando el QR</h3></div></button>
-                    <button id="phone3" class="btn_phone phone3" ><div class="div_wrap" onclick="scrollFunction()"><img loading="lazy" class="lazyload" width="90" height="85" alt="verificar tu celular Soli" data-src="../assets/img/4.png" /><h3>ó puedes enviarselo por whatsapp</h3></div></button>
+                    <button id="phone0" class="btn_phone phone0 active_phone" ><div class="div_wrap" onclick="scrollFunction()"><img loading="lazy" class="lazyload" width="90" height="85" alt="Soli app store,play store " data-src="../assets/img/1.png" /><h3>Ingresa a tu app Soli y <b>presiona el botón QR</b></h3></div></button>
+                    <button id="phone1" class="btn_phone phone1" ><div class="div_wrap" onclick="scrollFunction()"><img loading="lazy" class="lazyload" width="90" height="85" alt="crear Soli" data-src="../assets/img/2.png" /><h3><b>Selecciona “Genera QR para cobrar”</b> y listo ¡así de fácil!</h3></div></button>
+                    <button id="phone2" class="btn_phone phone2" ><div class="div_wrap" onclick="scrollFunction()"><img loading="lazy" class="lazyload" width="90" height="85" alt="ingresar tus datos personales Soli" data-src="../assets/img/3.png" /><h3>Pide a tu amigo <b>“Escanear el QR”</b></h3></div></button>
+                    <button id="phone3" class="btn_phone phone3" ><div class="div_wrap" onclick="scrollFunction()"><img loading="lazy" class="lazyload" width="90" height="85" alt="verificar tu celular Soli" data-src="../assets/img/4.png" /><h3>Ó puedes <b>compartirlo a través de Whatsapp</b> o cualquier Red Social</h3></div></button>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="AGENTE">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2  class="font-size-40 font-weight-bold">A través de un Soli Negocio o Agente BCP, es ¡así de fácil!</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-offset-2 col-md-4" id="device2">
+                <div class="dm-width">
+                    <div id="phone_expo2" class="dm-device">
+                        <div class="device">
+                            <div class="screen">
+                                <div id="owl-demo2" class="slider owl-carousel">
+                                    <div class=" slider__item slider__item--5"></div>
+                                    <div class=" slider__item slider__item--6"></div>
+                                    <div class=" slider__item slider__item--7"></div>
+                                    <div class=" slider__item slider__item--8"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="customNavigation2"  data-localscroll="true">
+                    <button id="phone4" class="btn_phone phone4 active_phone" ><div class="div_wrap" onclick="scrollFunction2()"><img loading="lazy" class="lazyload" width="90" height="85" alt="Soli app store,play store " data-src="../assets/img/1.png" /><h3><b>Ingresa</b> a tu app Soli</b></h3></div></button>
+                    <button id="phone5" class="btn_phone phone5" ><div class="div_wrap" onclick="scrollFunction2()"><img loading="lazy" class="lazyload" width="90" height="85" alt="crear Soli" data-src="../assets/img/2.png" /><h3>Presiona <b>“Ubica un Soli Negocio o Agente BCP”</b> </h3></div></button>
+                    <button id="phone6" class="btn_phone phone6" ><div class="div_wrap" onclick="scrollFunction2()"><img loading="lazy" class="lazyload" width="90" height="85" alt="ingresar tus datos personales Soli" data-src="../assets/img/3.png" /><h3><b>Ubica el Soli Negocio o Agente BCP</b> más cercano</h3></div></button>
+                    <button id="phone7" class="btn_phone phone7" ><div class="div_wrap" onclick="scrollFunction2()"><img loading="lazy" class="lazyload" width="90" height="85" alt="verificar tu celular Soli" data-src="../assets/img/4.png" /><h3><b>Sigue las instrucciones</b> y listo ¡así de fácil!</h3></div></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="row ">
+            <div class="col-md-offset-2 col-md-8 col-sm-12 text-center wow fadeInUp" >
+                <h2 class="font-size-40 font-weight-bold mb-25">Encuentra tu Solinegocio ó Agente BCP más cercano</h2>
+                <button href="#soli-ubicacion" class="button-82-pushable mb-25" role="button" data-toggle="modal" data-target="#soli-ubicacion">
+                    <span class="button-82-shadow"></span>
+                    <span class="button-82-edge"></span>
+                    <span class="button-82-front text">Puntos Soli</span>
+                </button>
+                <!--                    <a href="#soli-ubicacion" type="button" data-toggle="modal" data-target="#soli-ubicacion" class="btn_cta btn_cta_exp mb-25">Puntos Soli</a>-->
             </div>
         </div>
     </section>
@@ -263,7 +302,7 @@
             <div class="col-md-offset-1 col-md-10 col-sm-11" >
                 <div class="mb_parallax_container2 mb_parallax">
                     <div class="mb_parallax_overlay">
-                        <h2 class="mb-50 font-weight-bold text-center">Tutoriales de Recarga Soli</h2>
+                        <h2 class="mb-50 font-weight-bold text-center font-size-40">Tutoriales de Recarga Soli</h2>
                         <div id="playlist">
                             <div id="video-dis" class="lazyload">
 
@@ -389,7 +428,6 @@
         </div>
     </section>
 
-
     <div id="soli-ubicacion" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
@@ -397,7 +435,8 @@
                     <h2 class="font-weight-bold modal-title" >Encuentra tu punto más cercano para recargar tu SOLI</h2>
                 </div>
                 <div class="row text-center flex-nowrap">
-                    <div class="col-md-3" style="left: 35%;"><img loading="lazy" title="Punto de Soli" class="lazyload img-fluid" width="50%" height="auto" data-src="../assets/img/soli.svg" alt="punto de soli"><h3>Soli</h3></div>
+                    <div class="col-md-offset-3 col-md-3"><img loading="lazy" title="Punto de Soli" class="lazyload img-fluid" width="70" height="auto" data-src="../assets/img/soli.svg" alt="punto de soli"><h3>Soli</h3></div>
+                    <div class="col-md-3"><img loading="lazy" title="Punto de agente bcp" class="lazyload img-fluid" width="70" height="auto" data-src="../assets/img/agencia.svg" alt="punto de agente bcp"><h3>Agente BCP</h3></div>
                 </div>
                 <div class="modal-body map-responsive" id="soli_agentes_bcp_atm">
                 </div>
