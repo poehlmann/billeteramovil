@@ -31,6 +31,7 @@ h1 {
 }
 p {
     margin: 0;
+    font-size: 29px;
     color: #4c4e4e;
 }
 
@@ -42,6 +43,9 @@ p {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+.post__content h2{
+    font-weight: bold;
+}
 .post__text img{
     border-radius: 5%;
     max-width: 50%;
@@ -49,6 +53,9 @@ p {
     margin-bottom: 50px;
 }
 @media (max-width: 991px) {
+    p {
+        font-size: 22px;
+    }
     .post__content img, .post__text img {
         border-radius: 5%;
         max-width: 100%;
@@ -61,8 +68,7 @@ figure {
 /** * Text Selection */
 ::selection {
     color: #fff;
-    background-color: black;
-    color:yellow;
+    background-color: #4ab6d4;
     text-shadow: none;
 }
 /** * Body */
