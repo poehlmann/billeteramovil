@@ -18,16 +18,35 @@
   <component name="ChangeListManager">
     <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="comercios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/article_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/article_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/article_style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/article_style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/blog_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/blog_style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog_style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/blog_script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/blog_script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/blog_script.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/blog_script.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/cambiar-y-recuperar-contrasenas.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/cambiar-y-recuperar-contrasenas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/comercios.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/comercios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/comisiones.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/comisiones.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/depositar.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/depositar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/funcionalidades-y-transferencia.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/funcionalidades-y-transferencia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/pagos-de-servicios.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/pagos-de-servicios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/pagos-sin-contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/pagos-sin-contacto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/retiros-de-dinero.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/retiros-de-dinero.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/soy-nuevo-en-soli.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/soy-nuevo-en-soli.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/tarjetas-de-regalo.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/tarjetas-de-regalo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billeteramovil/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/billeteramovil/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/adios-al-efectivo/5-habitos-para-decirle-adios-al-uso-de-dinero-en-efectivo.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/adios-al-efectivo/5-habitos-para-decirle-adios-al-uso-de-dinero-en-efectivo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/adios-al-efectivo/dinero-electronico-efectivo-y-virtual-cuales-son-sus-diferencias.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/adios-al-efectivo/dinero-electronico-efectivo-y-virtual-cuales-son-sus-diferencias.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/negocios-digitales/diferencias-entre-cuentas-de-caja-de-ahorros-cuentas-corrientes-billeteras-moviles.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/negocios-digitales/diferencias-entre-cuentas-de-caja-de-ahorros-cuentas-corrientes-billeteras-moviles.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/negocios-digitales/los-codigos-qr-una-alternativa-de-pago-que-facilitan-tu-vida.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/negocios-digitales/los-codigos-qr-una-alternativa-de-pago-que-facilitan-tu-vida.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/negocios-digitales/pago-con-celular-aliados-billetera-movil.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/negocios-digitales/pago-con-celular-aliados-billetera-movil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/plantilla_articulo.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/plantilla_articulo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comercios/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/comercios/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soli.html" beforeDir="false" afterPath="$PROJECT_DIR$/soli.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soli/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/soli/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soli/recarga_tu_billetera_soli.html" beforeDir="false" afterPath="$PROJECT_DIR$/soli/recarga_tu_billetera_soli.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solipromociones/ganaconsoli.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/ganaconsoli.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solipromociones/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solipromociones/soliaguinaldo.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/soliaguinaldo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solipromociones/solimegate.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/solimegate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solipromociones/solisocios.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/solisocios.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -322,14 +341,7 @@
       <workItem from="1643498145117" duration="6454000" />
       <workItem from="1643672658437" duration="1153000" />
       <workItem from="1643719554541" duration="31266000" />
-      <workItem from="1643894569380" duration="2021000" />
-    </task>
-    <task id="LOCAL-00287" summary="seo">
-      <created>1636501858907</created>
-      <option name="number" value="00287" />
-      <option name="presentableId" value="LOCAL-00287" />
-      <option name="project" value="LOCAL" />
-      <updated>1636501858907</updated>
+      <workItem from="1643894569380" duration="3438000" />
     </task>
     <task id="LOCAL-00288" summary="chat">
       <created>1637696208729</created>
@@ -667,7 +679,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643844556949</updated>
     </task>
-    <option name="localTasksCounter" value="336" />
+    <task id="LOCAL-00336" summary="blog">
+      <created>1643907976095</created>
+      <option name="number" value="00336" />
+      <option name="presentableId" value="LOCAL-00336" />
+      <option name="project" value="LOCAL" />
+      <updated>1643907976095</updated>
+    </task>
+    <option name="localTasksCounter" value="337" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -718,10 +737,10 @@
     <MESSAGE value="chatbot" />
     <MESSAGE value="gana con soli" />
     <MESSAGE value="habiltiar chatbot" />
-    <MESSAGE value="blog" />
     <MESSAGE value="cashin" />
     <MESSAGE value="articulos" />
-    <option name="LAST_COMMIT_MESSAGE" value="articulos" />
+    <MESSAGE value="blog" />
+    <option name="LAST_COMMIT_MESSAGE" value="blog" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Deployment" timestamp="1641345103758">
@@ -755,11 +774,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1641393397773" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1643844558252">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1643907978008">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1478" y="200" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@-1920.0.1536.824" timestamp="1642656509685" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1643844558252" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1643907978008" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.3.1536.824@0.0.1920.1040" timestamp="1636476463424" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1643224820479">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -770,15 +790,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1638479782914" />
-    <state x="57" y="46" width="1790" height="863" key="find.popup" timestamp="1643906303898">
+    <state x="57" y="46" width="1790" height="863" key="find.popup" timestamp="1643910204860">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="57" y="46" width="1790" height="863" key="find.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1643906303898" />
+    <state x="57" y="46" width="1790" height="863" key="find.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1643910204860" />
     <state x="344" y="156" width="1459" height="783" key="find.popup/0.0.1920.1040/-1920.3.1536.824@0.0.1920.1040" timestamp="1636467848832" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1643810218803">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1643908187422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1643810218803" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1643908187422" />
     <state x="539" y="183" width="840" height="857" key="search.everywhere.popup" timestamp="1643852598347">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
