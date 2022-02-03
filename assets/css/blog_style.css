@@ -1601,7 +1601,7 @@ a:before, a:after, a > span:before, a > span:after {
 .bg-centroayuda{background-image:url(../img/soli-ad.jpg);background-repeat:no-repeat;background-size:cover;background-position:center center;    height: 450px;}
 .h-100{height:100%!important;}
 .fw-medium{font-weight:500!important;}
-p{margin-top:0;margin-bottom:1rem;font-size: 27px;line-height: 1.7;}
+p{margin-top:0;margin-bottom:1rem;font-size: 22px;line-height: 1.7;}
 @media print{
     p{orphans:3;widows:3;}
 }
@@ -4838,8 +4838,8 @@ p{margin-top:0;margin-bottom:1rem;font-size: 27px;line-height: 1.7;}
     }
     .h2, h2 {
         font-size: 23px;
-        padding-left: 20px;
-        padding-right: 20px;
+        /*padding-left: 20px;*/
+        /*padding-right: 20px;*/
     }
 
 }

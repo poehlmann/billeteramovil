@@ -6,7 +6,7 @@
     margin-bottom: 10px!important;
     color: #4c4e4e;
     font-weight: 300;
-    font-size: 27px;
+    font-size: 22px;
     animation: fade-in .8s ease-in-out both .5s;
 }
 .banner-blog h1 {
@@ -31,7 +31,7 @@ h1 {
 }
 p {
     margin: 0;
-    font-size: 29px;
+    font-size: 23px;
     color: #4c4e4e;
 }
 
@@ -54,7 +54,7 @@ p {
 }
 @media (max-width: 991px) {
     p {
-        font-size: 22px;
+        font-size: 20px;
     }
     .post__content img, .post__text img {
         border-radius: 5%;

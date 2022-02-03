@@ -59,6 +59,16 @@ $('.negocios_digitales').click( function() {
 
 // Active tag
 $('.button').click(function(){
+    if($('#articles').children(':visible').length == 0) {
+        Swal.fire({
+            title: 'Estamos trabajando!',
+            text: '¡Muy pronto tendremos novedades!',
+            imageUrl: 'https://i.gifer.com/Ao.gif',
+            imageWidth: 400,
+            imageHeight: 400,
+            imageAlt: 'Soli articulos',
+        })
+    }
     $('.button').removeClass('active');
     $(this).addClass('active');
 })
