@@ -17,40 +17,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="comercios">
+      <change afterPath="$PROJECT_DIR$/assets/css/beneficios_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/beneficios_script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beneficios/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/1home-soli.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/1home-soli.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/3qr-soli-copia.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/3qr-soli-copia.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/5home2-0bs-soli.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/5home2-0bs-soli.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/6geo1-soli.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/6geo1-soli.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/7geo2-soli.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/7geo2-soli.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/8home-soli.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/8home-soli.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/Art1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/Art1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/Art2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/Art2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/Art3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/Art3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/Art4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/Art4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/Art5.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/Art5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/INFOGRAFIA-BLOG-desktop.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/INFOGRAFIA-BLOG-desktop.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/INFOGRAFIA-BLOG-mobile.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/INFOGRAFIA-BLOG-mobile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/cashin_qr_3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/cashin_qr_3.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/centro-ayuda.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/centro-ayuda.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/servicio_afp_soli.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/servicio_afp_soli.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/soli-meme---problemas-del-dinero-en-efectivo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/soli-meme---problemas-del-dinero-en-efectivo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/soli-meme-olvidaste-dinero-para-trufi-o-minibus.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/soli-meme-olvidaste-dinero-para-trufi-o-minibus.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/soli-meme-olvidastebilletera-en-restaurante.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/soli-meme-olvidastebilletera-en-restaurante.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/soli-meme-pago-nfc-bolivia-soli.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/soli-meme-pago-nfc-bolivia-soli.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/soli-meme-pago-p2pi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/soli-meme-pago-p2pi.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/soli-meme-pago-transferencias-bancarias.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/soli-meme-pago-transferencias-bancarias.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/soli-meme-pagoqr.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/soli-meme-pagoqr.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/soli-meme-pagoqrconhelados.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/soli-meme-pagoqrconhelados.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/soli-meme-pagoqrsinefectivo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/soli-meme-pagoqrsinefectivo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/soli-memes-blog-pago-nfc-billetera-movil.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/soli-memes-blog-pago-nfc-billetera-movil.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/solimemes-blog-dinero-en-tu-celular.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/solimemes-blog-dinero-en-tu-celular.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/solimemes-blog-verdad-cuentas-corrientes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/solimemes-blog-verdad-cuentas-corrientes.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/solimemes-blog-verdad-de-cuentas-de-ahorro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/solimemes-blog-verdad-de-cuentas-de-ahorro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/sw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sw.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/sw.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/blog_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/blog_style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog_style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/adios-al-efectivo/5-habitos-para-decirle-adios-al-uso-de-dinero-en-efectivo.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/adios-al-efectivo/5-habitos-para-decirle-adios-al-uso-de-dinero-en-efectivo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/adios-al-efectivo/dinero-electronico-efectivo-y-virtual-cuales-son-sus-diferencias.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/adios-al-efectivo/dinero-electronico-efectivo-y-virtual-cuales-son-sus-diferencias.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/negocios-digitales/diferencias-entre-cuentas-de-caja-de-ahorros-cuentas-corrientes-billeteras-moviles.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/negocios-digitales/diferencias-entre-cuentas-de-caja-de-ahorros-cuentas-corrientes-billeteras-moviles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/negocios-digitales/los-codigos-qr-una-alternativa-de-pago-que-facilitan-tu-vida.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/negocios-digitales/los-codigos-qr-una-alternativa-de-pago-que-facilitan-tu-vida.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/negocios-digitales/pago-con-celular-aliados-billetera-movil.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/negocios-digitales/pago-con-celular-aliados-billetera-movil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +42,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -83,7 +62,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/beneficios" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -92,19 +71,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\solipagos\assets\img" />
-      <recent name="C:\xampp\htdocs\solipagos\blog" />
-      <recent name="C:\xampp\htdocs\solipagos\assets\css" />
-      <recent name="C:\xampp\htdocs\solipagos\solipromociones" />
-      <recent name="C:\xampp\htdocs\solipagos\assets\vendors" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\solipagos\assets\img" />
       <recent name="C:\xampp\htdocs\solipagos\ayuda" />
       <recent name="C:\xampp\htdocs\solipagos\assets\css" />
       <recent name="C:\xampp\htdocs\solipagos\billeteramovil" />
       <recent name="C:\xampp\htdocs\solipagos\assets\video" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\solipagos\beneficios" />
+      <recent name="C:\xampp\htdocs\solipagos\assets\img" />
+      <recent name="C:\xampp\htdocs\solipagos\blog" />
+      <recent name="C:\xampp\htdocs\solipagos\assets\css" />
+      <recent name="C:\xampp\htdocs\solipagos\solipromociones" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.demo.html">
@@ -348,14 +327,15 @@
       <workItem from="1643894569380" duration="6056000" />
       <workItem from="1643941858306" duration="1329000" />
       <workItem from="1643977530133" duration="5356000" />
-      <workItem from="1644242841623" duration="314000" />
-    </task>
-    <task id="LOCAL-00291" summary="cambios web principal">
-      <created>1638384335359</created>
-      <option name="number" value="00291" />
-      <option name="presentableId" value="LOCAL-00291" />
-      <option name="project" value="LOCAL" />
-      <updated>1638384335359</updated>
+      <workItem from="1644242841623" duration="3779000" />
+      <workItem from="1644344851878" duration="2988000" />
+      <workItem from="1644413468588" duration="1202000" />
+      <workItem from="1644535290047" duration="903000" />
+      <workItem from="1644583804155" duration="599000" />
+      <workItem from="1644852958361" duration="1807000" />
+      <workItem from="1645018195589" duration="8483000" />
+      <workItem from="1645104585006" duration="3797000" />
+      <workItem from="1645199795762" duration="1774000" />
     </task>
     <task id="LOCAL-00292" summary="soliaguinaldo">
       <created>1638455776265</created>
@@ -693,7 +673,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643990788831</updated>
     </task>
-    <option name="localTasksCounter" value="340" />
+    <task id="LOCAL-00340" summary="blog despliegue">
+      <created>1644243851016</created>
+      <option name="number" value="00340" />
+      <option name="presentableId" value="LOCAL-00340" />
+      <option name="project" value="LOCAL" />
+      <updated>1644243851017</updated>
+    </task>
+    <option name="localTasksCounter" value="341" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -722,7 +709,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="SEO centro de ayuda" />
     <MESSAGE value="paso 8 en pagina principal" />
     <MESSAGE value="actualizacion" />
     <MESSAGE value="llajta comunicacion" />
@@ -747,7 +733,8 @@
     <MESSAGE value="cashin" />
     <MESSAGE value="articulos" />
     <MESSAGE value="blog" />
-    <option name="LAST_COMMIT_MESSAGE" value="blog" />
+    <MESSAGE value="blog despliegue" />
+    <option name="LAST_COMMIT_MESSAGE" value="blog despliegue" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Deployment" timestamp="1641345103758">
@@ -781,36 +768,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1641393397773" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1643990790186">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1644243852412">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1478" y="200" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@-1920.0.1536.824" timestamp="1642656509685" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1643990790186" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1644243852412" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1643928165080" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.3.1536.824@0.0.1920.1040" timestamp="1636476463424" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1643224820479">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1643224820479" />
-    <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1636052295346" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1638479782914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1638479782914" />
-    <state x="57" y="46" width="1790" height="863" key="find.popup" timestamp="1643979322461">
+    <state x="57" y="46" width="1790" height="863" key="find.popup" timestamp="1645201501488">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="57" y="46" width="1790" height="863" key="find.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1643979322461" />
+    <state x="57" y="46" width="1790" height="863" key="find.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1645201501488" />
     <state x="1977" y="46" width="1790" height="863" key="find.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1643928027082" />
-    <state x="344" y="156" width="1459" height="783" key="find.popup/0.0.1920.1040/-1920.3.1536.824@0.0.1920.1040" timestamp="1636467848832" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1643908187422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1643908187422" />
-    <state x="539" y="183" width="840" height="857" key="search.everywhere.popup" timestamp="1643979311211">
+    <state x="539" y="183" width="840" height="857" key="search.everywhere.popup" timestamp="1645201541740">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="183" width="840" height="857" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1643979311211" />
+    <state x="539" y="183" width="840" height="857" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1645201541740" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

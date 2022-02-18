@@ -1451,6 +1451,9 @@ h2.heading {
 }
 /*red social*/
 /* container */
+.fa-linkedin-in:before{content:"\f0e1"}
+.whatsapp-bg{background: #0a66c2}
+
 .fa-whatsapp:before{content:"\f232"}
 .whatsapp-bg{background: #1bd741}
 
@@ -4733,6 +4736,7 @@ p{margin-top:0;margin-bottom:1rem;font-size: 22px;line-height: 1.7;}
 }
 
 @media (max-width: 768px) {
+    .mt-md-0{margin-top:1.5rem!important;}
     .modal.in .modal-dialog {
         transform: translate(0,12vh);
     }
