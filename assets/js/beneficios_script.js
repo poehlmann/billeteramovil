@@ -4,6 +4,15 @@ function filterSelection(para) {
     var card = document.getElementsByClassName("imgDiv");
     if (para == "all") {
         para = "";
+    }else if(para == "lp"){
+        $('.map_prime').removeClass('hidden');
+        $(this).addClass('show');
+
+        $('.map_ketal').addClass('hidden');
+
+    }else if(para == "cbba"){
+        $('.map_ketal').removeClass('hidden');
+        $(this).addClass('show');
     }
     //     cards.forEach((card) => {
     //       card.classList.remove("show");
@@ -55,3 +64,4 @@ $('.button_filter').click(function(){
     $('.button_filter').removeClass('active');
     $(this).addClass('active');
 })
+
