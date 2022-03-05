@@ -1,46 +1,6 @@
-//  JQUERY SEARCH FILTER - Credits: //codepen.io/alexerlandsson/pen/ZbyRoO
-// --------------------------
-// 1) Add [data-search] to search input
-// 2) Add [data-filter-item] to the items that should be filtered
-// 3) Add [data-filter-name="SEARCH TERM"] to the filter-items (lowercase)
+$(document).ready(function () {
+    window.scrollTo(0,0);
 
-$('[data-search]').on('keyup', function () {
-    var searchVal = $(this).val();
-    console.log("search",searchVal);
-    var filterItems = $('[data-filter-item]');
-    console.log("items",filterItems);
-    if (searchVal != '') {
-        filterItems.addClass('hidden');
-        $('[data-filter-item][data-filter-name*="' + searchVal.toLowerCase() + '"]').removeClass('hidden');
-    } else {
-        filterItems.removeClass('hidden');
-    }
-});
-
-// $("button.btn-link").click(function(e,i){
-//     if(i){
-//         var hash = i.ancora ? i.hash : i;
-//     }else{
-//         var hash = this.href.match(/#.+/)[0];
-//     }
-//
-//     $(hash + '.collapse').collapse('show');
-//
-//     if(i) hash = i.ancora || hash;
-//
-//     $('html, body').animate({ scrollTop: $(hash).offset().top - 200 }, 500);
-// });
-//
-// $(document).ready(function(){
-//     var hash = location.hash;
-//     var params = hash;
-//     if(!$(hash).hasClass('collapse')){
-//         hash = "#"+$(hash).closest(".collapse").attr("id");
-//         params = {hash: "#"+$(hash).closest(".collapse").attr("id"), ancora: params};
-//     }
-//     if(hash) $("button.btn-link[href$='"+hash+"']").trigger("click", params);
-// });
-$(document).ready(function() {
     jQuery(function () {
         var url = window.location.href;
         var element="";
@@ -77,7 +37,119 @@ $(document).ready(function() {
             jQuery(this).closest("a").addClass("active");
         })
     });
+
+    function detectMob() {
+        return ( ( window.innerWidth <= 997 )  );
+    }
+    //scroll to element phone just in phone
+    function scrollFunction() {
+        let e = document.getElementById("phone_expo");
+        if( detectMob()){
+            e.scrollIntoView({
+                block: 'start',
+                behavior: 'smooth',
+                inline: 'start'
+            });
+        }
+    }
+
+    if( document.getElementById("owl-tutorial") !==null) {
+        var owl = $("#owl-tutorial");
+        owl.owlCarousel({
+            items: 1,
+            singleItem: true,
+            loop: true,
+            autoplay: true,
+            autoPlay: 3500
+        })
+
+        owl.on('changed.owl.carousel', function (e) {
+            var element = document.getElementById("phone"+e.relatedTarget.relative(e.relatedTarget.current()));
+            if (document.querySelector('.customNavigation .active_phone') !== null) {
+                document.querySelector('.customNavigation .active_phone').classList.remove('active_phone');
+            }
+            element.classList.add("active_phone");
+        })
+
+        $('.phone0').click(function () {
+            owl.trigger('to.owl.carousel', 0);
+            owl.trigger('stop.owl.autoplay');
+            var element = document.getElementById("phone0");
+            if (document.querySelector('.customNavigation .active_phone') !== null) {
+                document.querySelector('.customNavigation .active_phone').classList.remove('active_phone');
+            }
+            element.classList.add("active_phone");
+        });
+        $('.phone1').click(function () {
+            owl.trigger('to.owl.carousel', 1);
+            owl.trigger('stop.owl.autoplay');
+            var element = document.getElementById("phone1");
+            if (document.querySelector('.customNavigation .active_phone') !== null) {
+                document.querySelector('.customNavigation .active_phone').classList.remove('active_phone');
+            }
+            element.classList.add("active_phone");
+        });
+        $('.phone2').click(function () {
+            owl.trigger('to.owl.carousel', 2);
+            owl.trigger('stop.owl.autoplay');
+            var element = document.getElementById("phone2");
+            if (document.querySelector('.customNavigation .active_phone') !== null) {
+                document.querySelector('.customNavigation .active_phone').classList.remove('active_phone');
+            }
+            element.classList.add("active_phone");
+        });
+        $('.phone3').click(function () {
+            owl.trigger('to.owl.carousel', 3);
+            owl.trigger('stop.owl.autoplay');
+            var element = document.getElementById("phone3");
+            if (document.querySelector('.customNavigation .active_phone') !== null) {
+                document.querySelector('.customNavigation .active_phone').classList.remove('active_phone');
+            }
+            element.classList.add("active_phone");
+        });
+        $('.phone4').click(function () {
+            owl.trigger('to.owl.carousel', 4);
+            owl.trigger('stop.owl.autoplay');
+            var element = document.getElementById("phone4");
+            if (document.querySelector('.customNavigation .active_phone') !== null) {
+                document.querySelector('.customNavigation .active_phone').classList.remove('active_phone');
+            }
+            element.classList.add("active_phone");
+        });
+        $('.phone5').click(function () {
+            owl.trigger('to.owl.carousel', 5);
+            owl.trigger('stop.owl.autoplay');
+            var element = document.getElementById("phone5");
+            if (document.querySelector('.customNavigation .active_phone') !== null) {
+                document.querySelector('.customNavigation .active_phone').classList.remove('active_phone');
+            }
+            element.classList.add("active_phone");
+        });
+        $('.phone6').click(function () {
+            owl.trigger('to.owl.carousel', 6);
+            owl.trigger('stop.owl.autoplay');
+            var element = document.getElementById("phone6");
+            if (document.querySelector('.customNavigation .active_phone') !== null) {
+                document.querySelector('.customNavigation .active_phone').classList.remove('active_phone');
+            }
+            element.classList.add("active_phone");
+        });
+        $('.phone7').click(function () {
+            owl.trigger('to.owl.carousel', 7);
+            owl.trigger('stop.owl.autoplay');
+            var element = document.getElementById("phone7");
+            if (document.querySelector('.customNavigation .active_phone') !== null) {
+                document.querySelector('.customNavigation .active_phone').classList.remove('active_phone');
+            }
+            element.classList.add("active_phone");
+        });
+    }
+
+    var link_tutorial = 'https://www.youtube.com/embed/A5-9HGZuuwU';
+    var iframe_tutorial = document.createElement('iframe');
+    iframe_tutorial.width="100%";
+    iframe_tutorial.height="480px";
+    iframe_tutorial.setAttribute("src", link_tutorial);
+    document.getElementById("videotutorialsoli").appendChild(iframe_tutorial);
 });
-$(document).ready(function () {
-    window.scrollTo(0,0);
-});
+

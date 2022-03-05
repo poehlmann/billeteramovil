@@ -63,7 +63,7 @@ function scrollFunction_down() {
         e.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
 }
-//animation phone fin
+
 
 $(document).ready(function(){
     $(window).scroll(function(){
@@ -85,7 +85,7 @@ $(document).ready(function(){
     jQuery(function () {
         var url = window.location.href;
         if (document.querySelector('.tab-head li a.active') !== null) {
-            document.querySelector('.tab-head li a.active').classList.remove('active');
+            // document.querySelector('.tab-head li a.active').classList.remove('active');
         }
         jQuery(".tab-head li a").each(function (index,value) {
             if (url == (value.href)) {
@@ -96,3 +96,5 @@ $(document).ready(function(){
     });
 
 });
+
+

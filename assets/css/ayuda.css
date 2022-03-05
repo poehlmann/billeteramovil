@@ -822,12 +822,12 @@ iframe#_hjRemoteVarsFrame{display:none!important;width:1px!important;height:1px!
     border-radius: 28px;
 }
 
-.slider {
-    height: 100%;
-}
-.slider div {
-    height: 100%;
-}
+/*.slider {*/
+/*    height: 100%;*/
+/*}*/
+/*.slider div {*/
+/*    height: 100%;*/
+/*}*/
 
 .slider__item {
     font-size: 100px;
@@ -863,6 +863,10 @@ iframe#_hjRemoteVarsFrame{display:none!important;width:1px!important;height:1px!
 }
 .slider__item--7 {
     background-image: url("../img/soli-recargas-creado.jpg");
+    background-size: cover;
+}
+.slider__item--8 {
+    background-image: url("../img/pasos-recargas-creado.jpg");
     background-size: cover;
 }
 #owl-banner{
@@ -1725,4 +1729,28 @@ border-top: 0;
     top: 50%;
     text-align: center;
     transform: translate(-50%,-50%);
+}
+.page-hero-section{position:relative;height:100vh;}
+.page-hero-section .hero-caption{height:100%;}
+.page-section{position:relative;padding-bottom:100px;}
+.page-section:not(.fg-white) h3{ color: #3C60BE;font-weight: bold;}
+.bg-image{background-size:cover;background-position:bottom;background-repeat:no-repeat;}
+.hero-mini{height:462px;}
+.bg-centroayuda{background-image:url(../img/soli-ad.jpg);background-repeat:no-repeat;background-size:cover;background-position:center center;    height: 450px;}
+.h-100{height:100%!important;}
+.fw-medium{font-weight:500!important;}
+p{margin-top:0;margin-bottom:1rem;font-size: 22px;line-height: 1.7;}
+@media print{
+    p{orphans:3;widows:3;}
+}
+.active_phone{
+    background-color: #3b60bd !important;
+    color: #fff !important;
+    width: 80% !important;
+}
+
+@media (max-width: 991px) {
+    .active_phone {
+        width: 100% !important;
+    }
 }

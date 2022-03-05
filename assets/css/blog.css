@@ -6,9 +6,6 @@
     color: #000000;
     background: #f0f8ff00;
 }
-body{
-    background-color: #013c5c !important;
-}
 /*index 2*/
 .padding_h1{
     padding-top: 120px;
@@ -266,8 +263,9 @@ a img {
 }
 
 .tabs-blog > ul li a.active {
-    background-color: #fff;
-    color: #28a4b6;
+    background-color: #f5f5f5;
+    color: #000000;
+    font-weight: 800;
 }
 
 .tabs-blog > ul li a:hover:not(.active) {
@@ -387,6 +385,7 @@ a img {
 
 .tabs-blog section.active {
     display: block;
+    background-color: #f5f5f5;
 }
 
 .tabs-blog section.active-content > * {
