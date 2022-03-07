@@ -72,13 +72,24 @@ $('.button_filter').click(function(){
 
 $('.ketal_detail').click(function() {
     Swal.fire({
-        title: '<strong>Paga menos con Soli en hipermercados Ketal</strong>',
+        title: '<strong>Paga menos con Soli en Ketal</strong>',
         icon: 'info',
         html:
             'Beneficio: descuento del 5%<br>\n' +
             'Monto máximo de descuento: Bs 1.000<br>\n' +
-            'Hipermercados habilitados: (Le pregunto a Cinthia)<br>\n' +
-            'Días de promoción: (Lun a dom todo el día)<br>',
+            'Supermercados habilitados: 1.\tIrpavi: Av. Rafael Pabón mega Center P.B. (Atención al Cliente)\n' +
+            '2.\tArce: Av. Arce esq. Macario Pinilla. (Atención al Cliente)\n' +
+            '3.\tAchumani: Av. Alexander entre las calles 14 y 15 N+ 108. (Atención al Cliente)\n' +
+            '4.\tMiraflores: Av. Busch esq. Villalobos. (Atcnci6n a\\ Cliente)\n' +
+            '5.\tCalacoto: Av. Ballivián esq. Calle 15. (Atención al Cliente)\n' +
+            '6.\tSan Pedro: Almirante Grau N° 329. (Atención al Cliente)\n' +
+            '7.\tObrajes. Calle 16 de Obrajes esq. 14 de septiembre № 460. (Express)\n' +
+            '8.\tEstación Central: Final Teleférico Línea Naranja. (Express)\n' +
+            '9.\tPlaza España: Plaza España esq. Méndez Artos. (Express)\n' +
+            '10.\tSatélite: Av. Panorámica Ed. Teleférico Amarillo P.B. (Express)\n' +
+            '11.\tSan Miguel: Calle 21 de Calacoto esq. Av. Montenegro. (Express)\n' +
+            '12.\tFaro Murillo: Teleférico Morado Pza. Palenque P.B. (Express)<br>\n' +
+            'Días de promoción: (Lun a dom)<br>',
         showCloseButton: true,
         showCancelButton: false,
         focusConfirm: true,
@@ -91,10 +102,11 @@ $('.prime_detail').click(function() {
         icon: 'info',
         html:
             'Beneficio: Entradas 2X1<br>\n' +
-            'Tickets por usuario: Hasta 2 entradas<br>\n' +
+            'Cantidad maxima: Hasta 2 entradas<br>\n' +
             'Cines habilitados: Prime Cinema, Hupermall - Cochabamba<br>\n' +
             'Días de promoción: (Lun a dom todo el día)<br>\n' +
-            'Películas habilitadas: Sólo películas 2D',
+            'Películas habilitadas: Sólo películas 2D'+
+            'Compras: Solo en cajas de Prime Cinemas',
         showCloseButton: true,
         showCancelButton: false,
         focusConfirm: true,
