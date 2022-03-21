@@ -102,10 +102,10 @@ $('.prime_detail').click(function() {
         icon: 'info',
         html:
             'Beneficio: Entradas 2X1<br>\n' +
-            'Cantidad maxima: Hasta 2 entradas<br>\n' +
-            'Cines habilitados: Prime Cinema, Hupermall - Cochabamba<br>\n' +
-            'Días de promoción: (Lun a dom todo el día)<br>\n' +
-            'Películas habilitadas: Sólo películas 2D'+
+            'Cantidad maxima: Puedes acceder hasta dos promos 2x1 por Soli<br>\n' +
+            'Cines habilitados: Prime Cinema (Hupermall - Cochabamba)<br>\n' +
+            'Días de promoción: Todos los días martes<br>\n' +
+            'Películas habilitadas: Sólo películas 2D<br>\n'+
             'Compras: Solo en cajas de Prime Cinemas',
         showCloseButton: true,
         showCancelButton: false,

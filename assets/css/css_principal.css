@@ -1998,7 +1998,12 @@ p{
     .desktopshow {
         display:none; }
 }
-
+@media screen and (max-width: 991px) {
+    .mobileshow {
+        display:block; }
+    .desktopshow {
+        display:none; }
+}
 
    /* CSS */
 .button-29 {
