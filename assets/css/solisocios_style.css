@@ -9,7 +9,7 @@
 }
 
 .header-soliamigo{
-    height: 100vh;
+    height: auto;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -75,12 +75,29 @@ h4{
 .mt-20vh {
     margin-top: 10vh;
 }
+.centrar_elemento{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+}
+@media (min-width: 992px){
+    .centrar_elemento{
+        position: sticky;
+    }
+    .top-desktop{
+        margin-top: 90px;
+    }
+}
 @media (max-width: 991px){
+    .centrar_elemento{
+        position: inherit;
+    }
     .mt-20vh {
         margin-top: 20vh;
     }
     .banner2_amigo {
-        height: 48vh;
+        height: 90vh;
         margin-top: 20px;
     }
     .logo_amigos {
@@ -90,7 +107,7 @@ h4{
         width: 70%;
     }
     .header-soliamigo{
-        height: 100vh;
+        height: auto;
         background-image: url(../img/Radiografia-Soli-web-fondo-mobile1.png);
     }
     .ganar_solisocios{
@@ -124,11 +141,13 @@ h4{
 .container_friend {
     background-color: #fff;
     display: flex;
-    width: 100%;
+    /*width: 100%;*/
     height: 120px;
     position: relative;
     border-radius: 6px;
     transition: 0.3s ease-in-out;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .container_friend:hover {
     transform: scale(1.04);
@@ -153,10 +172,11 @@ h4{
     overflow: hidden;
     cursor: pointer;
     justify-content: space-between;
-    white-space: nowrap;
+    line-height: normal;
     transition: 0.3s;
     border-radius: 6px;
 }
+
 .right-side:hover {
     background-color: #f9f7f9;
 }
