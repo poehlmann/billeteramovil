@@ -113,3 +113,25 @@ $('.prime_detail').click(function() {
         confirmButtonText: 'Genial!'
     })
 });
+$('.entel_detail').click(function() {
+    Swal.fire({
+        title: '<strong> Soli ilimitado con Entel</strong>',
+        icon: 'info',
+        html:
+            '<div class="text-align-left"><strong>Beneficio:</strong>\n' +
+            'Para acceder al beneficio, se deberá activar los datos móviles correspondientes a la línea Entel en su teléfono celular (dispositivo móvil), entrar a la aplicación SOLI, una vez que este entre en la aplicación, el consumo de MB que demande la aplicación no será cobrada o debitada de la línea afiliada, dando un uso libre a todas las funcionalidades que tiene la aplicación.' +
+            '<br><br><strong>Requisitos de participación:</strong><br><br>' +
+            '<ul>' +
+            '<li>Ser cliente activo de la empresa de telecomunicación ENTEL, para el servicio de telefonía celular en su modalidad pre-pago o post-pago.</li>\n' +
+            '<li>Ser afiliado o afiliarse a la billetera móvil “Soli”, la billetera móvil deberá estar necesariamente vinculada al dispositivo móvil registrado para el servicio de telefonía celular prestado por ENTEL.\n</li>' +
+            '</ul>\n' +
+            '<br><strong>Restricciones: </strong>\n' +
+            'En caso de que el servicio de telefonía celular prestado en favor del cliente y que este vinculado con la billetera móvil, se encuentre bloqueado, cancelado o no operativo por cualquier razón el participante quedará automáticamente fuera de la promoción.\n' +
+            'Se aclara que en caso de que la persona y/o línea se desafilien de la billetera móvil Soli Pagos BCP,  el participante quedará automáticamente excluido de la promoción.\n<br>' +
+            '<br><strong>Duración:</strong> Del 24 de marzo del 2022 al 23 de junio del 2022</div>',
+        showCloseButton: true,
+        showCancelButton: false,
+        focusConfirm: true,
+        confirmButtonText: 'Genial!'
+    })
+});
