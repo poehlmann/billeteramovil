@@ -43,7 +43,7 @@
     color:#66056c;
 }
 .h1_amigos{
-    /*color:#ffffff;*/
+    color:#ffffff;
 }
 h4{
     font-size: 20px !important;
@@ -70,14 +70,14 @@ h4{
     cursor: pointer;
 }
 .btn--primary {
-    background: #6335b0;
+    background: #31aa9b;
     color: #fff;
     box-shadow: 0 0 10px 2px rgb(0 0 0 / 10%);
     border-radius: 2px;
     padding: 12px 36px;
 }
 .btn--primary:hover {
-    background: #6c7ff2;
+    background: #31cb29;
 }
 .btn--primary:active {
     background: #7f8ff4;
@@ -86,6 +86,9 @@ h4{
 .btn--inside {
     margin-left: -31px;
     top: -7px;
+}
+.image_logo_solicarga{
+    width: 70%;
 }
 .form__field {
     width: 70%;
@@ -168,6 +171,15 @@ h4{
     }
 }
 @media (max-width: 991px){
+    .fp-scrollable .fp-section, .fp-scrollable .fp-slide{
+       height: auto !important;
+    }
+    .form__field {
+        font-size: 2rem;
+    }
+    .btn--inside{
+        margin-left: 0;
+    }
     .banner_solicarga{
         margin-top: 0;
         height: 50vh;

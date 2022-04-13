@@ -374,7 +374,7 @@ $('#cashback_soli').click(function(){
     }
     else{
         Swal.fire({
-            title: '<div style="font-size:2.5rem;">¡¡¡Soli te devuelve <strong>'+ valor*0.08 +' Bs</strong>!!!</div>',
+            title: '<div style="font-size:2.5rem;">¡¡¡Soli te devuelve <br><strong style="font-size: xx-large">'+ valor*0.08 +' Bs</strong>!!!</div>',
             width: 600,
             padding: '3em',
             color: '#ffffff',
