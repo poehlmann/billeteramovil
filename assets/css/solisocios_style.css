@@ -24,11 +24,26 @@
     /*background-position: center center;*/
     /*height: 100vh;*/
 }
+.fondo_solicarga{
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(../img/fondo-solicarga.png);
+}
+.header-solicarga{
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(../img/entel_solicarga_web.png);
+}
+
 .h1{
     color:#66056c;
 }
 .h1_amigos{
-    color:#ffffff;
+    /*color:#ffffff;*/
 }
 h4{
     font-size: 20px !important;
@@ -59,7 +74,15 @@ h4{
     background-position: center center;
     background-image: url("../img/referido-reglas.png");
 }
-
+.banner_solicarga{
+    margin-top: 40px;
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../img/solicarga-reglas.png");
+}
 .logo_solisocios{
     width: 25%;
 }
@@ -90,6 +113,23 @@ h4{
     }
 }
 @media (max-width: 991px){
+    .banner_solicarga{
+        margin-top: 0;
+        height: 50vh;
+        background-image: url("../img/solicarga-reglas-movil.png");
+    }
+    .logo_entel, .logo_soli{
+        width: fit-content;
+    }
+    .h1_amigos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-solicarga{
+        background-size: contain;
+        background-image: url(../img/entel_solicarga_movil.png);
+    }
     .centrar_banner_movil{
         position: absolute;
         top: 25vh;
