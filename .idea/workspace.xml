@@ -16,7 +16,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="comercios" />
+    <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="comercios">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solipromociones/solicarga.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/solicarga.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -351,14 +354,7 @@
       <workItem from="1649435484451" duration="1862000" />
       <workItem from="1649704672123" duration="3698000" />
       <workItem from="1649778324323" duration="7888000" />
-      <workItem from="1649853934215" duration="5490000" />
-    </task>
-    <task id="LOCAL-00307" summary="soliaguinaldo final">
-      <created>1639066283594</created>
-      <option name="number" value="00307" />
-      <option name="presentableId" value="LOCAL-00307" />
-      <option name="project" value="LOCAL" />
-      <updated>1639066283594</updated>
+      <workItem from="1649853934215" duration="6763000" />
     </task>
     <task id="LOCAL-00308" summary="soliaguinaldo despliegue">
       <created>1639105938644</created>
@@ -696,7 +692,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649870982644</updated>
     </task>
-    <option name="localTasksCounter" value="356" />
+    <task id="LOCAL-00356" summary="solicarga">
+      <created>1649871805309</created>
+      <option name="number" value="00356" />
+      <option name="presentableId" value="LOCAL-00356" />
+      <option name="project" value="LOCAL" />
+      <updated>1649871805309</updated>
+    </task>
+    <option name="localTasksCounter" value="357" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -765,11 +768,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1641393397773" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1649871015217">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1649871807208">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1478" y="200" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@-1920.0.1536.824" timestamp="1642656509685" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1649871015217" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1649871807208" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1643928165080" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1647461578953">
       <screen x="0" y="0" width="1920" height="1040" />
