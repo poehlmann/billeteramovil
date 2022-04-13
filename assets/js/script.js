@@ -359,47 +359,35 @@ if(document.body.contains(document.getElementById("bottom-cta-bg"))) {
     var starField = new StarField('bottom-cta-bg').render(333, 3);
 }
 
+$('#cashback_soli').click(function(){
+    valor = document.getElementById("monto_soli").value;
+    if(valor<5){
 
-//carton dance
-// Pure CSS dance animation (no graphics included)
-
-// Designed by Gustavo Viselner
-// https://dribbble.com/shots/3979515-It-s-not-unusual
-
-// Thanks for Una Kravets for Sass Pixel Art technique
-// https://una.im/sass-pixel-art/
-
-// Making time ~ 7 hours
-
-// Some Js for audio toggle
-
-var music = document.getElementById("music");
-var isPlaying = false;
-music.volume = 0.2;
-function togglePlay() {
-    if (isPlaying) {
-        music.pause()
-    } else {
-        music.play();
+            Swal.fire({
+                title: '¡RECUERDA! <br> El monto mínimo de recarga debe ser de 5 Bs',
+                text: '',
+                imageUrl: 'https://i.gifer.com/7VE.gif',
+                imageWidth: 400,
+                imageHeight: 400,
+                imageAlt: 'Solicarga regla',
+            })
     }
-};
-music.onplaying = function() {
-    isPlaying = true;
-    document.getElementById("music-animation").classList.add('on')
-};
-music.onpause = function() {
-    isPlaying = false;
-    document.getElementById("music-animation").classList.remove('on')
-};
-
-var button = document.getElementById("toggle");
-button.addEventListener('click', function() {
-    if (button.getAttribute("data-text-swap") == button.innerHTML) {
-        button.innerHTML = button.getAttribute("data-text-original");
-    } else {
-        button.setAttribute("data-text-original", button.innerHTML);
-        button.innerHTML = button.getAttribute("data-text-swap");
+    else{
+        Swal.fire({
+            title: '<div style="font-size:2.5rem;">¡¡¡Soli te devuelve <strong>'+ valor*0.08 +' Bs</strong>!!!</div>',
+            width: 600,
+            padding: '3em',
+            color: '#ffffff',
+            confirmButtonText:'¡Gracias!',
+            background: 'rgba(91,7,143,1)  url(https://i.gifer.com/6ob.gif)',
+            backdrop: `
+            rgba(255, 255, 255, 0)
+            url("https://i.gifer.com/6ob.gif")
+            center left
+            repeat
+          `
+        })
     }
-}, false);
 
-//end carton dance
+})
+

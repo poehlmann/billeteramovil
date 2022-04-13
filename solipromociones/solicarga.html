@@ -52,6 +52,9 @@
     <link rel="stylesheet" href="../assets/css/solisocios_style.min.css">
     <link rel="stylesheet" href="../assets/css/menu.min.css"/>
     <link rel="stylesheet" href="../assets/css/footer.min.css"/>
+    <link href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-minimal/minimal.css" rel="stylesheet">
+
+    <link href="https://unpkg.com/fullpage.js/dist/fullpage.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="../assets/vendors/animate/animate.css">
     <!--Iconos-->
@@ -170,197 +173,217 @@
             </div>
         </div>
     </header>
-    <section  class="fondo_solicarga">
-        <a id="descarga_android_solicarga" target="_blank" href="https://play.google.com/store/apps/details?id=com.bcp.bo.wallet&referrer=utm_source%3Dp%25C3%25A1gina_web%26utm_medium%3Dp%25C3%25A1gina_web%26utm_term%3Dp%25C3%25A1gina_web%26utm_content%3Dp%25C3%25A1gina_web%26utm_campaign%3Dp%25C3%25A1gina_web">
-            <div class="header-solicarga wow zoomIn"  data-wow-duration="2s"></div>
-        </a>
-    </section>
-<!--    <section  >-->
-<!--        <div class="text-center" id="titulo" >-->
-<!--            <div class="row">-->
-<!--                <div class="col-md-offset-3 col-md-6 wow zoomIn" data-wow-duration="5s" >-->
-<!--                    &lt;!&ndash;                <img src="https://i.gifer.com/1pMW.gif">&ndash;&gt;-->
-<!--                    <h1 class="h1_amigos mb-4 mt-4 text-center bariol_regular_bold_title" style="line-height: 50px !important;font-size: 5vh;">🤳 Recarga tu línea telefónica 📲<br><img class="logo_entel" alt="entel recarga con soli" src="../assets/img/Logotipo-Entel-solicarga-negativo.png"> y <img class="logo_soli" alt="soli recarga con entel" src="../assets/img/logo-soli-transparente-solicarga-negativo.png" > <br>🤑 te devuelve el <strong style="color:#00ffe5;">8%</strong> del monto 💸</h1>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </section>-->
-    <section>
-        <div class="row" style="text-align: center">
-            <div class="col-md-12 wow zoomIn" data-wow-duration="5s">
-                <img src="../assets/img/seccion-solicarga.png" alt="solicarga" />
-            </div>
-        </div>
-    </section>
-    <section class="fondo_banner1_amigo">
-        <div class="row">
-            <div class="col-md-12 wow zoomIn" data-wow-duration="5s">
-                <div class="banner_solicarga"> </div>
-            </div>
-        </div>
-    </section>
 
-    <div class="container">
-        <div class="col-md-12" style="float: none;" id="preguntas">
-            <div class="container">
+    <div id="fullpage">
+        <div class="section">
+            <section  class="fondo_solicarga">
+            <a id="descarga_android_solicarga" target="_blank" href="https://play.google.com/store/apps/details?id=com.bcp.bo.wallet&referrer=utm_source%3Dp%25C3%25A1gina_web%26utm_medium%3Dp%25C3%25A1gina_web%26utm_term%3Dp%25C3%25A1gina_web%26utm_content%3Dp%25C3%25A1gina_web%26utm_campaign%3Dp%25C3%25A1gina_web">
+                <div class="header-solicarga wow zoomIn"  data-wow-duration="2s"></div>
+            </a>
+        </section>
+        </div>
+        <div class="section">
+            <section class="text-center" >
+                <div class="row mb-30 mt-30">
+                    <div class="col-md-12">
+                        <h1 class="h1_amigos mb-4 mt-4 text-center bariol_regular_bold_title" style="line-height: 50px !important;font-size: 5vh;">
+                            🤳 Averigua cuánto 📲 te devolveriamos <br><br>
+                            🤑 por recargar💸</h1>
+                    </div>
+                </div>
+                <div class="row mb-30 mt-30">
+                    <div class="col-md-12">
+                        <div class="container_carga">
+                            <div class="container__item">
+                                <form class="form">
+                                    <input type="email" class="form__field" id="monto_soli" placeholder="Monto de recarga" />
+                                    <button type="button" id="cashback_soli" class="btn btn--primary btn--inside uppercase">Devolución</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-30 mt-30">
+                    <div class="col-md-12">
+                        <img src="../assets/img/seccion-solicarga.png" alt="solicarga" />
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="section">
+            <section class="fondo_banner1_amigo">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 class="title font-weight-bold font-weight-bold titulo text-center font-size-30">Preguntas Frecuentes</h2>
+                        <div class="banner_solicarga"> </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="lqd-column col-md-10 col-md-offset-1">
-                        <div class="accordion accordion-lg accordion-active-has-fill accordion-body-bordered accordion-expander-left" id="accordion-0" role="tablist">
-                            <div class="accordion-item panel active">
-                                <div class="accordion-heading" role="tab" id="accordion-10-heading-0">
-                                    <h3 class="accordion-title font-size-18">
-                                        <a class="" data-toggle="collapse" data-parent="#accordion-10" href="#accordion-10-panel-0" aria-expanded="true" aria-controls="accordion-10-panel-0">
-                                            ¿Cómo funciona Soli Invita a tus amigos?
-                                            <span class="accordion-expander">
+            </section>
+        </div>
+        <div class="section">
+            <section>
+                <div class="container">
+                    <div class="col-md-12" style="float: none;" id="preguntas">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h2 class="title font-weight-bold font-weight-bold titulo text-center font-size-30">Preguntas Frecuentes</h2>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="lqd-column col-md-10 col-md-offset-1">
+                                    <div class="accordion accordion-lg accordion-active-has-fill accordion-body-bordered accordion-expander-left" id="accordion-0" role="tablist">
+                                        <div class="accordion-item panel active">
+                                            <div class="accordion-heading" role="tab" id="accordion-10-heading-0">
+                                                <h3 class="accordion-title font-size-18">
+                                                    <a class="" data-toggle="collapse" data-parent="#accordion-10" href="#accordion-10-panel-0" aria-expanded="true" aria-controls="accordion-10-panel-0">
+                                                        ¿Cómo funciona Soli Invita a tus amigos?
+                                                        <span class="accordion-expander">
                                             <i class="fa fa-plus"></i>
                                             <i class="fa fa-minus"></i>
                                         </span>
-                                        </a>
-                                    </h3>
-                                </div>
-                                <div id="accordion-10-panel-0" class="accordion-collapse collapse in" role="tabpanel" aria-labelledby="accordion-10-heading-0">
-                                    <div class="accordion-content">
-                                        <p>Rol de referenciador</p>
-                                        <p>Gana Bs. 7 por cada amigo que se registre por primera vez a Soli con tu código. (Afiliados por primera y única vez. Afiliación validada por cédula de identidad).</p>
-                                        <p>Pasos:</p>
-                                        <ul>
-                                            <li>Ingresa a Soli, selecciona el banner y comparte tu código(*)</li>
-                                            <li>Envíalo por WhatsApp a tu amigo.</li>
-                                            <li>Tu amigo descarga Soli y crea su cuenta por primera vez con tu código. ¡Ganaste!</li>
-                                            <li>Recuerda que el abono de los premios a tu Soli te llega en unos días.</li>
-                                        </ul>
-                                        <span>(*) Obtén la última versión disponible de SOLI en la Play Store.</span>
-                                        <p>Rol referido</p>
-                                        <p>Gana Bs. 10 al hacer tu primer pago con Soli!</p>
-                                        <p>Pasos:</p>
-                                        <ul>
-                                            <li>Descarga Soli de la Playstore.</li>
-                                            <li>Regístrate por primera vez a Soli con el código de tu Soli amigo. Ingresa tu código antes de crear tu contraseña (*)</li>
-                                            <li>Agrega dinero a tu billetera y haz tu primer pago con Soli! Recuerda que puedes comprar crédito, enviar dinero a otro Soli, pagar tus servicios y mucho más!</li>
-                                            <li>Gana Bs. 10 ¿Qué estas esperando para disfrutar de la experiencia Soli?! #asídefacil</li>
-                                            <li>Recuerda que el abono de los premios a tu Soli te llega en unos días…Que lo disfrutes!!</li>
-                                        </ul>
-                                        <span>
+                                                    </a>
+                                                </h3>
+                                            </div>
+                                            <div id="accordion-10-panel-0" class="accordion-collapse collapse in" role="tabpanel" aria-labelledby="accordion-10-heading-0">
+                                                <div class="accordion-content">
+                                                    <p>Rol de referenciador</p>
+                                                    <p>Gana Bs. 7 por cada amigo que se registre por primera vez a Soli con tu código. (Afiliados por primera y única vez. Afiliación validada por cédula de identidad).</p>
+                                                    <p>Pasos:</p>
+                                                    <ul>
+                                                        <li>Ingresa a Soli, selecciona el banner y comparte tu código(*)</li>
+                                                        <li>Envíalo por WhatsApp a tu amigo.</li>
+                                                        <li>Tu amigo descarga Soli y crea su cuenta por primera vez con tu código. ¡Ganaste!</li>
+                                                        <li>Recuerda que el abono de los premios a tu Soli te llega en unos días.</li>
+                                                    </ul>
+                                                    <span>(*) Obtén la última versión disponible de SOLI en la Play Store.</span>
+                                                    <p>Rol referido</p>
+                                                    <p>Gana Bs. 10 al hacer tu primer pago con Soli!</p>
+                                                    <p>Pasos:</p>
+                                                    <ul>
+                                                        <li>Descarga Soli de la Playstore.</li>
+                                                        <li>Regístrate por primera vez a Soli con el código de tu Soli amigo. Ingresa tu código antes de crear tu contraseña (*)</li>
+                                                        <li>Agrega dinero a tu billetera y haz tu primer pago con Soli! Recuerda que puedes comprar crédito, enviar dinero a otro Soli, pagar tus servicios y mucho más!</li>
+                                                        <li>Gana Bs. 10 ¿Qué estas esperando para disfrutar de la experiencia Soli?! #asídefacil</li>
+                                                        <li>Recuerda que el abono de los premios a tu Soli te llega en unos días…Que lo disfrutes!!</li>
+                                                    </ul>
+                                                    <span>
                                         (*) En caso de iniciar y no completar el proceso de registro a Soli durante la Promoción Empresarial, el referido quedará fuera de participación automáticamente.  O si el referido llegase a completar su registro en Soli durante la Promoción Empresarial, y no llegase a registrar el código de su referenciador Soli Amigo, quedará fuera de participación automáticamente.
                                     </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="lqd-column col-md-10 col-md-offset-1">
+                                    <div class="accordion accordion-lg accordion-active-has-fill accordion-body-bordered accordion-expander-left" id="accordion-10" role="tablist">
+                                        <div class="accordion-item panel">
+                                            <div class="accordion-heading" role="tab" id="accordion-10-heading-1">
+                                                <h3 class="accordion-title font-size-18">
+                                                    <a class="" data-toggle="collapse" data-parent="#accordion-10" href="#accordion-10-collapse-1" aria-expanded="false" aria-controls="accordion-10-collapse-1">
+                                                        Periodo de Duración
+                                                        <span class="accordion-expander">
+                                            <i class="fa fa-plus"></i>
+                                            <i class="fa fa-minus"></i>
+                                        </span>
+                                                    </a>
+                                                </h3>
+                                            </div>
+                                            <div id="accordion-10-collapse-1" class="accordion-collapse collapse" role="tabpanel" aria-labelledby="accordion-10-heading-1">
+                                                <div class="accordion-content">
+                                                    <p>Tendrás la oportunidad de participar durante 3 meses a partir de la Autorización de la Autoridad de Fiscalización del Juego AJ. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item panel">
+                                            <div class="accordion-heading" role="tab" id="accordion-10-heading-2">
+                                                <h3 class="accordion-title font-size-18">
+                                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion-10" href="#accordion-10-collapse-2" aria-expanded="false" aria-controls="accordion-10-collapse-2">
+                                                        ¿Quiénes pueden ser referenciadores?
+                                                        <span class="accordion-expander">
+                                            <i class="fa fa-plus"></i>
+                                            <i class="fa fa-minus"></i>
+                                        </span>
+                                                    </a>
+                                                </h3>
+                                            </div>
+                                            <div id="accordion-10-collapse-2" class="accordion-collapse collapse" role="tabpanel" aria-labelledby="accordion-10-heading-2">
+                                                <div class="accordion-content">
+                                                    <p>Los participantes REFERENCIADORES y REFERIDOS podrán ser personas naturales que cumplan los siguientes requisitos: </p>
+                                                    <ul>
+                                                        <li>Estar afiliado o afiliarse a Soli Pagos BCP en un dispositivo con sistema operativo Android.</li>
+                                                        <li>Actualizar SOLI a la última versión disponible en la Play Store.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item panel">
+                                            <div class="accordion-heading" role="tab" id="accordion-10-heading-4">
+                                                <h3 class="accordion-title font-size-18">
+                                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion-10" href="#accordion-10-collapse-4" aria-expanded="false" aria-controls="accordion-10-collapse-4">
+                                                        ¿Cuántos premios puedo ganar con Soli invita a tus amigos?
+                                                        <span class="accordion-expander">
+                                            <i class="fa fa-plus"></i>
+                                            <i class="fa fa-minus"></i>
+                                        </span>
+                                                    </a>
+                                                </h3>
+                                            </div>
+                                            <div id="accordion-10-collapse-4" class="accordion-collapse collapse" role="tabpanel" aria-labelledby="accordion-10-heading-4">
+                                                <div class="accordion-content">
+                                                    <p>Como referenciador podrás ganar hasta 20 premios de Bs. 7 cada uno, que deberán corresponder a 20 personas naturales referidos que se registren correctamente a Soli Pagos BCP por primera vez y que cumplan con todas las condiciones de la presente promoción empresarial, durante el periodo que dure la misma.</p>
+                                                    <p>Como referido podrás ganar Bs. 10 por una primera y única vez. Luego podrás participar como referenciador y ganar hasta 20 premios de Bs. 7.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item panel">
+                                            <div class="accordion-heading" role="tab" id="accordion-10-heading-5">
+                                                <h3 class="accordion-title font-size-18">
+                                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion-10" href="#accordion-10-collapse-5" aria-expanded="false" aria-controls="accordion-10-collapse-5">
+                                                        Una vez que fui Referido, ¿Puedo ser Referenciador?
+                                                        <span class="accordion-expander">
+                                            <i class="fa fa-plus"></i>
+                                            <i class="fa fa-minus"></i>
+                                        </span>
+                                                    </a>
+                                                </h3>
+                                            </div>
+                                            <div id="accordion-10-collapse-5" class="accordion-collapse collapse" role="tabpanel" aria-labelledby="accordion-10-heading-5">
+                                                <div class="accordion-content">
+                                                    <p>¡Así es! Si te invitaron, ahora te toca invitar y tendrás la oportunidad de ganar hasta 20 premios de Bs. 7 cada uno.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item panel">
+                                            <div class="accordion-heading" role="tab" id="accordion-10-heading-6">
+                                                <h3 class="accordion-title font-size-18">
+                                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion-10" href="#accordion-10-collapse-6" aria-expanded="false" aria-controls="accordion-10-collapse-6">
+                                                        ¿Cómo recibiré mi premio?
+                                                        <span class="accordion-expander">
+                                            <i class="fa fa-plus"></i>
+                                            <i class="fa fa-minus"></i>
+                                        </span>
+                                                    </a>
+                                                </h3>
+                                            </div>
+                                            <div id="accordion-10-collapse-6" class="accordion-collapse collapse" role="tabpanel" aria-labelledby="accordion-10-heading-6">
+                                                <div class="accordion-content">
+                                                    <p>Los premios serán abonados directamente en tu billetera móvil Soli. Recuerda que el abono te llega en unos días. ¡Que lo disfrutes!</p>
+                                                    <strong>Importante:</strong>
+                                                    <p>Promoción valida solo para afiliados con un dispositivo con sistema operativo Android. Más información: www.bcp.com.bo</p>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="lqd-column col-md-10 col-md-offset-1">
-                        <div class="accordion accordion-lg accordion-active-has-fill accordion-body-bordered accordion-expander-left" id="accordion-10" role="tablist">
-                            <div class="accordion-item panel">
-                                <div class="accordion-heading" role="tab" id="accordion-10-heading-1">
-                                    <h3 class="accordion-title font-size-18">
-                                        <a class="" data-toggle="collapse" data-parent="#accordion-10" href="#accordion-10-collapse-1" aria-expanded="false" aria-controls="accordion-10-collapse-1">
-                                            Periodo de Duración
-                                            <span class="accordion-expander">
-                                            <i class="fa fa-plus"></i>
-                                            <i class="fa fa-minus"></i>
-                                        </span>
-                                        </a>
-                                    </h3>
-                                </div>
-                                <div id="accordion-10-collapse-1" class="accordion-collapse collapse" role="tabpanel" aria-labelledby="accordion-10-heading-1">
-                                    <div class="accordion-content">
-                                        <p>Tendrás la oportunidad de participar durante 3 meses a partir de la Autorización de la Autoridad de Fiscalización del Juego AJ. </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item panel">
-                                <div class="accordion-heading" role="tab" id="accordion-10-heading-2">
-                                    <h3 class="accordion-title font-size-18">
-                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion-10" href="#accordion-10-collapse-2" aria-expanded="false" aria-controls="accordion-10-collapse-2">
-                                            ¿Quiénes pueden ser referenciadores?
-                                            <span class="accordion-expander">
-                                            <i class="fa fa-plus"></i>
-                                            <i class="fa fa-minus"></i>
-                                        </span>
-                                        </a>
-                                    </h3>
-                                </div>
-                                <div id="accordion-10-collapse-2" class="accordion-collapse collapse" role="tabpanel" aria-labelledby="accordion-10-heading-2">
-                                    <div class="accordion-content">
-                                        <p>Los participantes REFERENCIADORES y REFERIDOS podrán ser personas naturales que cumplan los siguientes requisitos: </p>
-                                        <ul>
-                                            <li>Estar afiliado o afiliarse a Soli Pagos BCP en un dispositivo con sistema operativo Android.</li>
-                                            <li>Actualizar SOLI a la última versión disponible en la Play Store.</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item panel">
-                                <div class="accordion-heading" role="tab" id="accordion-10-heading-4">
-                                    <h3 class="accordion-title font-size-18">
-                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion-10" href="#accordion-10-collapse-4" aria-expanded="false" aria-controls="accordion-10-collapse-4">
-                                            ¿Cuántos premios puedo ganar con Soli invita a tus amigos?
-                                            <span class="accordion-expander">
-                                            <i class="fa fa-plus"></i>
-                                            <i class="fa fa-minus"></i>
-                                        </span>
-                                        </a>
-                                    </h3>
-                                </div>
-                                <div id="accordion-10-collapse-4" class="accordion-collapse collapse" role="tabpanel" aria-labelledby="accordion-10-heading-4">
-                                    <div class="accordion-content">
-                                        <p>Como referenciador podrás ganar hasta 20 premios de Bs. 7 cada uno, que deberán corresponder a 20 personas naturales referidos que se registren correctamente a Soli Pagos BCP por primera vez y que cumplan con todas las condiciones de la presente promoción empresarial, durante el periodo que dure la misma.</p>
-                                        <p>Como referido podrás ganar Bs. 10 por una primera y única vez. Luego podrás participar como referenciador y ganar hasta 20 premios de Bs. 7.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item panel">
-                                <div class="accordion-heading" role="tab" id="accordion-10-heading-5">
-                                    <h3 class="accordion-title font-size-18">
-                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion-10" href="#accordion-10-collapse-5" aria-expanded="false" aria-controls="accordion-10-collapse-5">
-                                            Una vez que fui Referido, ¿Puedo ser Referenciador?
-                                            <span class="accordion-expander">
-                                            <i class="fa fa-plus"></i>
-                                            <i class="fa fa-minus"></i>
-                                        </span>
-                                        </a>
-                                    </h3>
-                                </div>
-                                <div id="accordion-10-collapse-5" class="accordion-collapse collapse" role="tabpanel" aria-labelledby="accordion-10-heading-5">
-                                    <div class="accordion-content">
-                                        <p>¡Así es! Si te invitaron, ahora te toca invitar y tendrás la oportunidad de ganar hasta 20 premios de Bs. 7 cada uno.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item panel">
-                                <div class="accordion-heading" role="tab" id="accordion-10-heading-6">
-                                    <h3 class="accordion-title font-size-18">
-                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion-10" href="#accordion-10-collapse-6" aria-expanded="false" aria-controls="accordion-10-collapse-6">
-                                            ¿Cómo recibiré mi premio?
-                                            <span class="accordion-expander">
-                                            <i class="fa fa-plus"></i>
-                                            <i class="fa fa-minus"></i>
-                                        </span>
-                                        </a>
-                                    </h3>
-                                </div>
-                                <div id="accordion-10-collapse-6" class="accordion-collapse collapse" role="tabpanel" aria-labelledby="accordion-10-heading-6">
-                                    <div class="accordion-content">
-                                        <p>Los premios serán abonados directamente en tu billetera móvil Soli. Recuerda que el abono te llega en unos días. ¡Que lo disfrutes!</p>
-                                        <strong>Importante:</strong>
-                                        <p>Promoción valida solo para afiliados con un dispositivo con sistema operativo Android. Más información: www.bcp.com.bo</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </section>
         </div>
     </div>
-
 
     <footer class="footer-section">
         <div class="container">
@@ -465,9 +488,11 @@
 <!--<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>-->
 <script src="../assets/js/script.min.js"></script>
 <script src="../assets/js/menu.min.js" ></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+<script src="https://unpkg.com/fullpage.js/dist/fullpage.min.js"></script>
 <script src="../assets/vendors/wow/wow.min.js"></script>
 <script>
-    new WOW().init();
+   new WOW().init();
 
     wow = new WOW(
         {
@@ -479,6 +504,8 @@
         }
     )
     wow.init();
+
+   new fullpage('#fullpage', {navigation: true,});
 </script>
 <!--<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>-->
 </body>
