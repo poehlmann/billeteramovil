@@ -17,10 +17,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="comercios">
-      <change afterPath="$PROJECT_DIR$/legales/LEGAL-SOLICARGA.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/seccion-solicarga.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/seccion-solicarga.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solipromociones/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solipromociones/solicarga-entel.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/solicarga-entel.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -360,14 +358,8 @@
       <workItem from="1649895394453" duration="448000" />
       <workItem from="1650031557460" duration="438000" />
       <workItem from="1650117298329" duration="332000" />
-      <workItem from="1650286182228" duration="2109000" />
-    </task>
-    <task id="LOCAL-00313" summary="despliegue">
-      <created>1639110583079</created>
-      <option name="number" value="00313" />
-      <option name="presentableId" value="LOCAL-00313" />
-      <option name="project" value="LOCAL" />
-      <updated>1639110583079</updated>
+      <workItem from="1650286182228" duration="6114000" />
+      <workItem from="1650372093550" duration="5468000" />
     </task>
     <task id="LOCAL-00314" summary="soliaguinaldo modificacion">
       <created>1640354880433</created>
@@ -705,7 +697,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649895683509</updated>
     </task>
-    <option name="localTasksCounter" value="362" />
+    <task id="LOCAL-00362" summary="seo">
+      <created>1650321961032</created>
+      <option name="number" value="00362" />
+      <option name="presentableId" value="LOCAL-00362" />
+      <option name="project" value="LOCAL" />
+      <updated>1650321961033</updated>
+    </task>
+    <option name="localTasksCounter" value="363" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -734,7 +733,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="soliaguinaldo pagina" />
     <MESSAGE value="soliaguinaldo" />
     <MESSAGE value="seo soliaguinaldo" />
     <MESSAGE value="soliaguinaldo final" />
@@ -759,7 +757,8 @@
     <MESSAGE value="beneficio entel" />
     <MESSAGE value="preguntas frecuentes referenciador" />
     <MESSAGE value="solicarga" />
-    <option name="LAST_COMMIT_MESSAGE" value="solicarga" />
+    <MESSAGE value="seo" />
+    <option name="LAST_COMMIT_MESSAGE" value="seo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1650031647185">
@@ -770,11 +769,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1650294229096" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1649895821019">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1650321962362">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1478" y="200" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@-1920.0.1536.824" timestamp="1642656509685" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1649895821019" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1650321962362" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1643928165080" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1647461578953">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -784,19 +783,19 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1645630514141" />
-    <state x="260" y="73" width="1406" height="863" key="find.popup" timestamp="1649878515067">
+    <state x="260" y="73" width="1406" height="863" key="find.popup" timestamp="1650324320817">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="260" y="73" width="1406" height="863" key="find.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1649878515067" />
+    <state x="260" y="73" width="1406" height="863" key="find.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1650324320817" />
     <state x="1977" y="46" width="1790" height="863" key="find.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1643928027082" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1645208987565">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1645208987565" />
-    <state x="539" y="183" width="840" height="857" key="search.everywhere.popup" timestamp="1649883538523">
+    <state x="539" y="183" width="840" height="857" key="search.everywhere.popup" timestamp="1650321134336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="183" width="840" height="857" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1649883538523" />
+    <state x="539" y="183" width="840" height="857" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1650321134336" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
