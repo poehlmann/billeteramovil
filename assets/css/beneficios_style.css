@@ -8,7 +8,26 @@
     justify-content: space-evenly;
     margin: 0 auto;
 }
-
+.btn_cta_ubicacion{
+    display: inline-block;
+    box-shadow: none;
+    appearance: none;
+    border: 0;
+    outline: 0;
+    background-color: #000;
+    border-color: #ffffff;
+    line-height: 42px;
+    padding: 0 30px;
+    font-size: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all .5s;
+    transition-timing-function: cubic-bezier(.2,3,.4,1);
+    user-select: none;
+    color: #e4e4e4;
+    font-weight: 700;
+    border: 2px solid;
+}
 .img-container {
     /* background-color: rgb(251, 251, 251); */
     width: 90%;

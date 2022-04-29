@@ -5,19 +5,6 @@ function filterSelection(para) {
     var card = document.getElementsByClassName("imgDiv");
     if (para == "all") {
         para = "";
-        $('.map_prime').addClass('hidden');
-        $('.map_ketal').addClass('hidden');
-    }else if(para == "lp"){
-        $('.map_prime').removeClass('show');
-        $('.map_prime').addClass('hidden');
-        $('.map_ketal').removeClass('hidden');
-        $('.map_ketal').addClass('show');
-
-    }else if(para == "cbba"){
-        $('.map_ketal').removeClass('show');
-        $('.map_ketal').addClass('hidden');
-        $('.map_prime').removeClass('hidden');
-        $('.map_prime').addClass('show');
     }
     //     cards.forEach((card) => {
     //       card.classList.remove("show");
@@ -135,3 +122,48 @@ $('.entel_detail').click(function() {
         confirmButtonText: 'Genial!'
     })
 });
+$('.tia_detail').click(function() {
+    Swal.fire({
+        title: '<strong> Supermercados Tía</strong>',
+        html:
+            '<div class="text-align-left"><strong>Beneficio:</strong>\n' +
+            'Para acceder al beneficio primeramente debes contar con el dinero de tu compra en Soli, aproxímate a las cajas y muestra tu cupón desde la seccion "Canjea ahora", presenta tu carnet de identidad y ¡listo! Así de fácil' +
+            '<br><br><strong>Requisitos de participación:</strong><br><br>' +
+            '<ul>' +
+            '<li>Ser afiliado o afiliarse a la billetera móvil “Soli”.\n</li>' +
+            '<li>Contar con su carnet de identidad</li>'+
+            '<li>Tener saldo suficiente para su compra con Soli</li>'+
+            '</ul>\n' +
+            '<br><strong>Duración:</strong> Del 27 de Abril del 2022 al 31 de julio del 2022</div>',
+        showCloseButton: true,
+        showCancelButton: false,
+        focusConfirm: true,
+        confirmButtonText: 'Genial!'
+    })
+});
+
+$('#cinemas_prime_ubicacion').click(function(){
+    Swal.fire({
+        title: '<strong>Ubicaciones de Cinemas Prime</strong>',
+        html:
+            '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13569.38685236641!2d-66.1539595827821!3d-17.374292398234008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93e3741a5339497f%3A0x993746e7d464e6bf!2sPrime%20Cinemas!5e0!3m2!1ses!2sbo!4v1646350155931!5m2!1ses!2sbo" width="1700" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+        showCloseButton: true,
+        showCancelButton: false,
+        focusConfirm: true,
+        confirmButtonText: 'Genial!'
+    })
+
+})
+
+$('#supermercado_tia_ubicacion').click(function(){
+    Swal.fire({
+        title: '<strong>Ubicaciones de Supermercados Tía</strong>',
+        html:
+            '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30394.824127670945!2d-63.17381028777671!3d-17.7750986802404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93f1e9005ae600ed%3A0x7ed50636df318d48!2sSupermercado%20T%C3%ADa!5e0!3m2!1ses!2sbo!4v1651241342404!5m2!1ses!2sbo" width="1700" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+        showCloseButton: true,
+        showCancelButton: false,
+        focusConfirm: true,
+        confirmButtonText: 'Genial!'
+    })
+
+})
