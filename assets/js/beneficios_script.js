@@ -122,6 +122,41 @@ $('.entel_detail').click(function() {
         confirmButtonText: 'Genial!'
     })
 });
+
+$('.chavez_detail').click(function() {
+    Swal.fire({
+        title: '<strong>Soli beneficio en Farmacias Chávez</strong>',
+        icon: 'info',
+        html:
+            '<div class="text-align-left"><strong>Beneficio:</strong>\n' +
+            'Descuento del 7% Aplicable sobre el monto total del consumo, válido en la compra de medicamentos y sucedáneos.' +
+            '<br><br><strong>Requisitos de participación:</strong><br><br>' +
+            '<ul>' +
+            '<li>Si eres usuario nuevo en Soli y hacer uso de la tarjeta de descuento deberás esperar hasta 10 días hábiles desde la fecha de afiliación a la billetera móvil.</li>\n' +
+            '<li>Para acceder al descuento es obligación del participante presentar su documento de identidad en el momento de hacer el pago de su consumo.\n</li>' +
+            '<ul><li>Atención remota vía WhatsApp a los números:.\n</li>' +
+            '<li>591 69203074.\n</li>' +
+            '<li>591 69203075.\n</li>' +
+            '<li>Modalidad de acceso: Presencial y Remota.\n</li>' +
+            '</ul>\n' +
+            '</ul>\n' +
+            '<br><strong>Restricciones: </strong>\n<br>' +
+            'solo los días viernes.\n<br>' +
+            'Solo para dispositivos con sistema operativo Android.\n<br>' +
+            'Sólo podrán participar aquellos que cuenten con documento de identidad vigente.\n<br>' +
+            'Se excluyen las fórmulas infantiles, pañales y productos oncológicos los días viernes.\n<br>' +
+            'No acumulable en otras ofertas y promociones en Farmacias Chávez.\n<br>' +
+            'El descuento es intransferible a terceras personas.\n<br>' +
+
+
+            '<br><strong>Duración:</strong> Del 13 de mayo del 2022 al 26 de agosto de 2022.</div>',
+        showCloseButton: true,
+        showCancelButton: false,
+        focusConfirm: true,
+        confirmButtonText: 'Genial!'
+    })
+});
+
 $('.tia_detail').click(function() {
     Swal.fire({
         title: '<strong> Supermercados Tía</strong>',

@@ -18,7 +18,43 @@
   <component name="ChangeListManager">
     <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="comercios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/beneficios_script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/beneficios_script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/beneficios_script.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/beneficios_script.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/cambiar-y-recuperar-contrasenas.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/cambiar-y-recuperar-contrasenas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/comercios.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/comercios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/comisiones.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/comisiones.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/depositar.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/depositar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/funcionalidades-y-transferencia.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/funcionalidades-y-transferencia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/pagos-de-servicios.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/pagos-de-servicios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/pagos-sin-contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/pagos-sin-contacto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/retiros-de-dinero.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/retiros-de-dinero.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/soy-nuevo-en-soli.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/soy-nuevo-en-soli.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/tarjetas-de-regalo.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/tarjetas-de-regalo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beneficios/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/beneficios/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billeteramovil/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/billeteramovil/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/adios-al-efectivo/5-habitos-para-decirle-adios-al-uso-de-dinero-en-efectivo.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/adios-al-efectivo/5-habitos-para-decirle-adios-al-uso-de-dinero-en-efectivo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/adios-al-efectivo/dinero-electronico-efectivo-y-virtual-cuales-son-sus-diferencias.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/adios-al-efectivo/dinero-electronico-efectivo-y-virtual-cuales-son-sus-diferencias.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/negocios-digitales/diferencias-entre-cuentas-de-caja-de-ahorros-cuentas-corrientes-billeteras-moviles.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/negocios-digitales/diferencias-entre-cuentas-de-caja-de-ahorros-cuentas-corrientes-billeteras-moviles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/negocios-digitales/los-codigos-qr-una-alternativa-de-pago-que-facilitan-tu-vida.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/negocios-digitales/los-codigos-qr-una-alternativa-de-pago-que-facilitan-tu-vida.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/negocios-digitales/pago-con-celular-aliados-billetera-movil.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/negocios-digitales/pago-con-celular-aliados-billetera-movil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/plantilla_articulo.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/plantilla_articulo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comercios/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/solinegocios/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/politica-privacidad.html" beforeDir="false" afterPath="$PROJECT_DIR$/politica-privacidad.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soli.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soli/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/soli/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soli/recarga_tu_billetera_soli.html" beforeDir="false" afterPath="$PROJECT_DIR$/soli/recarga_tu_billetera_soli.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solipromociones/ganaconsoli.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/ganaconsoli.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solipromociones/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solipromociones/soli_invita_a_tus_amigos.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/soli_invita_a_tus_amigos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solipromociones/soliaguinaldo.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/soliaguinaldo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solipromociones/solicarga-entel.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/solicarga-entel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solipromociones/solimegate.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/solimegate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solipromociones/solisocios.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/solisocios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sw.min.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -369,14 +405,10 @@
       <workItem from="1651232683176" duration="14101000" />
       <workItem from="1651402636320" duration="1761000" />
       <workItem from="1651487337529" duration="2861000" />
-      <workItem from="1651582403861" duration="2361000" />
-    </task>
-    <task id="LOCAL-00319" summary="chat soli">
-      <created>1641343626146</created>
-      <option name="number" value="00319" />
-      <option name="presentableId" value="LOCAL-00319" />
-      <option name="project" value="LOCAL" />
-      <updated>1641343626147</updated>
+      <workItem from="1651582403861" duration="13869000" />
+      <workItem from="1652126346617" duration="656000" />
+      <workItem from="1652194326165" duration="29000" />
+      <workItem from="1652362443708" duration="6494000" />
     </task>
     <task id="LOCAL-00320" summary="chat soli">
       <created>1641393784754</created>
@@ -714,7 +746,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651586642942</updated>
     </task>
-    <option name="localTasksCounter" value="368" />
+    <task id="LOCAL-00368" summary="soporte">
+      <created>1651591886388</created>
+      <option name="number" value="00368" />
+      <option name="presentableId" value="LOCAL-00368" />
+      <option name="project" value="LOCAL" />
+      <updated>1651591886389</updated>
+    </task>
+    <option name="localTasksCounter" value="369" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -779,10 +818,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1650294229096" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1651586645404">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1651600327816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1651586645404" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1651600327816" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1643928165080" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1647461578953">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -792,19 +831,19 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1645630514141" />
-    <state x="260" y="72" width="1406" height="863" key="find.popup" timestamp="1651243076165">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2148" y="111" width="1406" height="863" key="find.popup" timestamp="1652383475365">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="260" y="72" width="1406" height="863" key="find.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1651243076165" />
+    <state x="2148" y="111" width="1406" height="863" key="find.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1652383475365" />
     <state x="1977" y="46" width="1790" height="863" key="find.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1643928027082" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1650997763018">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1650997763018" />
-    <state x="539" y="183" width="840" height="857" key="search.everywhere.popup" timestamp="1651250758977">
+    <state x="539" y="183" width="840" height="857" key="search.everywhere.popup" timestamp="1652367884135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="183" width="840" height="857" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1651250758977" />
+    <state x="539" y="183" width="840" height="857" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1652367884135" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
