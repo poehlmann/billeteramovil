@@ -35,6 +35,15 @@
     <meta name="apple-itunes-app" content="app-id=1135987447">
     <meta name="google-play-app" content="app-id=com.bcp.bo.wallet">
 
+    <!-- para llamadas -->
+    <link rel="stylesheet" href="assets/css/c2c.css">
+    <!-- <link rel="icon" href="favicon.png"> -->
+
+    <script src="assets/js/ac_webrtc.min.js"></script>
+    <script src="assets/js/audio_player.js"></script>
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/c2c.js"></script>
+    <!-- fin llamadas -->
 
     <link rel="preload" href="assets/css/css_principal.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
@@ -52,6 +61,8 @@
 
 
     <link rel="stylesheet" href="assets/vendors/animate/animate.css">
+
+    
 
     <link rel="canonical" href="https://www.solipagosbcp.com.bo"/>
     <!--Iconos-->
@@ -88,7 +99,70 @@
     <!--Google Bot-->
 </head>
 
-<body>
+<body onload="c2c_init()">
+    <!-- <img src="logo-audio-codes.svg" alt="AudioCodes" width="450" height="70"> -->
+    <div id="cwTest" class="cwTest">
+        <div id="main_div">
+            <!-- <h2 data-test-id="text-404">.</h2> -->
+            <!-- <p>.</p>
+            <p>.</p> -->
+            <!-- Click to call widget -->
+
+            <!-- div to display internet speed and test call quality score -->
+            <div id="c2c_quality_info_div">
+                <span id="c2c_connection_span"></span><br>
+                <span id="c2c_quality_span"></span>
+            </div>
+
+            <!-- Two buttons with SVG icons: test call and call -->
+            <div id="c2c_widget" style="margin-right: -60px;">
+
+                <!-- Test call button to check phone to SBC line quality -->
+                <button id="c2c_test_btn" title="Click to test connection quality">
+                    <svg id="c2c_test_svg">
+                        <!-- Used free SVG phone icon. Thanks to www.freeicons.io -->
+                        <g fill="none" fill-rule="evenodd">
+                            <path d="M-1-1h24v24H-1z" />
+                            <path
+                                d="M21.61 17.99l-9.08-9.08c.93-2.34.45-5.1-1.44-7-2.3-2.3-5.88-2.51-8.43-.65L6.5 5.11 5.08 6.52 1.25 2.69C-.61 5.23-.4 8.82 1.9 11.11c1.86 1.86 4.57 2.35 6.89 1.48l9.11 9.11c.39.39 1.02.39 1.41 0l2.3-2.3c.4-.38.4-1.01 0-1.41zm-3 1.6l-9.46-9.46c-.61.45-1.29.72-2 .82-1.36.2-2.79-.21-3.83-1.25C2.37 8.76 1.93 7.5 2 6.26l3.09 3.09 4.24-4.24-3.09-3.09c1.24-.07 2.49.37 3.44 1.31a4.469 4.469 0 011.24 3.96 4.35 4.35 0 01-.88 1.96l9.45 9.45-.88.89z"
+                                fill="#1D1D1D" />
+                        </g>
+                    </svg>
+                    <span>linea</span>
+                </button>
+
+
+                &nbsp;
+                <!-- In the span can be set optional "Call to ..." text -->
+                <span></span>
+
+                <!-- Call button -->
+                <button id="c2c_call_btn" title="Click to call us on the phone">
+                    <!-- Used free SVG phone icon. Thanks to fontawesome.com -->
+                    <svg id="c2c_call_svg" fill="#006DF0" viewBox="0 0 512 512">
+                        <path
+                            d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z" />
+                    </svg>
+                    <span> </span>
+                </button>
+
+                <!-- The div used for phone messages -->
+                <!-- <div id="c2c_message"></div> -->
+                <div id="c2c-cw-modal" class="cw-modal">
+                    <div class="cw-modal-content">
+                        <span class="cw-modal-close">&times;</span>
+                        <div id="c2c_message"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Video controls for WebRTC. Invisible for audio call -->
+    <video id="c2c_local_video" style="display: none;" playsinline></video>
+    <video id="c2c_remote_video" style="display: none;" autoplay playsinline></video>
+
+    <!-- end of click to call widget -->
 
 <noscript>
     <iframe loading="lazy" src="https://www.googletagmanager.com/ns.html?id=GTM-M5CPZ24" height="0" width="0" style="display:none;visibility:hidden"></iframe>
@@ -136,9 +210,9 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li class="menu-item ">
+                                        <!-- <li class="menu-item ">
                                             <a href="beneficios/">Beneficios</a>
-                                        </li>
+                                        </li> -->
                                         <li class="menu-item ">
                                             <a href="solipromociones/">SoliPromociones</a>
                                         </li>
@@ -674,7 +748,7 @@
     </section>
 
 
-    <section id="soporte" class="section section--sac">
+    <!-- <section id="soporte" class="section section--sac">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -701,7 +775,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
     <div id="soli-ubicacion" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
@@ -743,9 +817,12 @@
                             </div>
                             <div class="footer-social-icon" style="width: 100%;">
                                 <span>Síguenos - Soli</span>
-                                <a href="https://www.facebook.com/SoliAplicacion" rel="noreferrer" target="_blank"><i class="fab fa-facebook-f facebook-bg"></i> Facebook</a>
-                                <a href="https://www.instagram.com/soli_bcp/" rel="noreferrer" target="_blank"><i class="fab fa-instagram instagram-bg"></i> Instagram</a>
-                                <a href="https://www.youtube.com/channel/UCXjadMc1P0jJvP2eNkPd4Hg/videos" rel="noreferrer" target="_blank"><i class="fab fa-youtube youtube-bg"></i> Youtube</a>
+                                <!-- <a href="https://www.facebook.com/SoliAplicacion" rel="noreferrer" target="_blank"><i class="fab fa-facebook-f facebook-bg">Facebook</a> -->
+                                <a href="https://www.facebook.com/SoliAplicacion" rel="noreferrer" target="_blank"><img src="assets/img/LogoFacebook.png" style="width:34px;padding-top: 4px;" alt=""> Facebook</a>
+                                <a href="https://www.instagram.com/soli_bcp/" rel="noreferrer" target="_blank"><img src="assets/img/LogoInstagram.png"style="width:34px;padding-top: 4px;" alt=""> Instagram</a>
+                                <a href="https://www.youtube.com/channel/UCXjadMc1P0jJvP2eNkPd4Hg/videos" rel="noreferrer" target="_blank"><img src="assets/img/LogoYouTube.png"style="width:34px;padding-top: 4px;" alt=""> Youtube</a>
+                                <a href="https://wa.me/59162400657" rel="noreferrer" target="_blank"><img src="assets/img/LogoWhatsapp.png"style="width:34px;padding-top: 4px;" alt=""> Whatsapp</a>
+                                <a href="https://www.tiktok.com/@soli_bcp" rel="noreferrer" target="_blank"><img src="assets/img/LogoTikTok.png"style="width:34px;padding-top: 4px;" alt="">TikTok</a>
                             </div>
                         </div>
                     </div>
@@ -825,7 +902,26 @@
     </footer>
 
 </div>
+<script>
+    var cwmodal = document.getElementById("c2c-cw-modal");
+    var cwspan = document.getElementsByClassName("cw-modal-close")[0];
 
+    $("#c2c_call_btn").click(function () {
+        cwmodal.style.display = "block";
+        setTimeout('DipNoneModal()', 8000);
+    });
+    cwspan.onclick = function () {
+        cwmodal.style.display = "none";
+    }
+    window.onclick = function (event) {
+        if (event.target == cwmodal) {
+            cwmodal.style.display = "none";
+        }
+    }
+    function DipNoneModal() {
+        cwmodal.style.display = "none";
+    }
+</script>
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script async src="assets/js/menu.min.js"></script>
@@ -844,6 +940,7 @@
     )
     wow.init();
 </script>
+
 <script async src="assets/vendors/lazysizes.min.js"></script>
 <script defer src="assets/js/smart-app-banner.min.js"></script>
 <script defer src="assets/js/js_principal.js"></script>
