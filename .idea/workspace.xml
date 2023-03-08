@@ -17,9 +17,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="comercios">
+      <change afterPath="$PROJECT_DIR$/seguridad/fraudes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seguridad/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seguridad/protegete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/js_principal.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/js_principal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/js_principal.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/js_principal.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/retiros-de-dinero.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/retiros-de-dinero.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solipromociones/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/web.config" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,39 +47,41 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1srfK8DBI34M6Zw4zyCOq0HUUNZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="NewWatcherDialog.advanced.open" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../contratoslegal" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/solipagos&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\solipagos" />
+      <recent name="C:\xampp\htdocs\solipagos\legales" />
+      <recent name="C:\xampp\htdocs\solipagos\beneficios" />
+      <recent name="C:\xampp\htdocs\solipagos\solipromociones" />
+      <recent name="C:\xampp\htdocs\solipagos\assets\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\solipagos\assets\img" />
       <recent name="C:\xampp\htdocs\solipagos\ayuda" />
       <recent name="C:\xampp\htdocs\solipagos\assets\css" />
       <recent name="C:\xampp\htdocs\solipagos\billeteramovil" />
       <recent name="C:\xampp\htdocs\solipagos\assets\video" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\solipagos\legales" />
-      <recent name="C:\xampp\htdocs\solipagos\beneficios" />
-      <recent name="C:\xampp\htdocs\solipagos\solipromociones" />
-      <recent name="C:\xampp\htdocs\solipagos\assets\img" />
-      <recent name="C:\xampp\htdocs\solipagos\blog" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.demo.html">
@@ -378,13 +386,23 @@
       <workItem from="1652468163978" duration="1000" />
       <workItem from="1652705562766" duration="2173000" />
       <workItem from="1653321505832" duration="8000" />
-    </task>
-    <task id="LOCAL-00321" summary="correcion">
-      <created>1641529456949</created>
-      <option name="number" value="00321" />
-      <option name="presentableId" value="LOCAL-00321" />
-      <option name="project" value="LOCAL" />
-      <updated>1641529456950</updated>
+      <workItem from="1653504650586" duration="639000" />
+      <workItem from="1653952211203" duration="103000" />
+      <workItem from="1657296518814" duration="1141000" />
+      <workItem from="1657313143876" duration="1000" />
+      <workItem from="1657315965809" duration="5000" />
+      <workItem from="1657577766265" duration="180000" />
+      <workItem from="1657694290443" duration="6000" />
+      <workItem from="1658439207349" duration="599000" />
+      <workItem from="1658495507152" duration="4095000" />
+      <workItem from="1658940884258" duration="18000" />
+      <workItem from="1659126385648" duration="3000" />
+      <workItem from="1659192277445" duration="671000" />
+      <workItem from="1664548996016" duration="616000" />
+      <workItem from="1673618471155" duration="5171000" />
+      <workItem from="1677175740044" duration="1177000" />
+      <workItem from="1677853984035" duration="3991000" />
+      <workItem from="1678130171513" duration="1000" />
     </task>
     <task id="LOCAL-00322" summary="correcion">
       <created>1641567968098</created>
@@ -722,7 +740,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652390350752</updated>
     </task>
-    <option name="localTasksCounter" value="370" />
+    <task id="LOCAL-00370" summary="chatbot">
+      <created>1653504687156</created>
+      <option name="number" value="00370" />
+      <option name="presentableId" value="LOCAL-00370" />
+      <option name="project" value="LOCAL" />
+      <updated>1653504687156</updated>
+    </task>
+    <option name="localTasksCounter" value="371" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -748,13 +773,11 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="soliaguinaldo modificacion" />
     <MESSAGE value="arreglando errores" />
     <MESSAGE value="chat soli" />
-    <MESSAGE value="chatbot" />
     <MESSAGE value="gana con soli" />
     <MESSAGE value="habiltiar chatbot" />
     <MESSAGE value="cashin" />
@@ -776,43 +799,8 @@
     <MESSAGE value="despliegue" />
     <MESSAGE value="soporte" />
     <MESSAGE value="farmacia chavez" />
-    <option name="LAST_COMMIT_MESSAGE" value="farmacia chavez" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1650492759304">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1650492759304" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1650294229096">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1650294229096" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1652390357729">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1652390357729" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1643928165080" />
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1647461578953">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1647461578953" />
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1645630514141">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1645630514141" />
-    <state x="2148" y="111" width="1406" height="863" key="find.popup" timestamp="1652383475365">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2148" y="111" width="1406" height="863" key="find.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1652383475365" />
-    <state x="1977" y="46" width="1790" height="863" key="find.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1643928027082" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1650997763018">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1650997763018" />
-    <state x="539" y="183" width="840" height="857" key="search.everywhere.popup" timestamp="1652367884135">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="539" y="183" width="840" height="857" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1652367884135" />
+    <MESSAGE value="chatbot" />
+    <option name="LAST_COMMIT_MESSAGE" value="chatbot" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
