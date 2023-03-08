@@ -31,19 +31,70 @@ $(document).ready(function() {
     }
     
 
-    !function(e,t){if(!e.$Letstalk){var n=e.$Letstalk={};n.enqueue=function(){var e=arguments;return new Promise(function(t,n){u.stack.push({args:e,resolve:t,reject:n}),u.times.push(+new Date)})},n.init=function(){return n.enqueue("init",arguments)},n.on=function(){return n.enqueue("on",arguments)},n.executeAppMethod=function(){return n.enqueue("executeAppMethod",arguments)},n.isAvailable=function(){return n.enqueue("isAvailable",arguments)},n.launch=function(){return n.enqueue("launch",arguments)},n.listApps=function(){return n.enqueue("listApps",arguments)},n.remove=function(){return n.enqueue("remove",arguments)};var u=n._={stack:[],times:[+new Date]};t.body?r():e.attachEvent?e.attachEvent("onload",r):e.addEventListener("load",r,!1)}function r(){a=!1,s=t.createElement("script"),s.type="text/javascript",s.src="https://static.letsta.lk/launcher/launcher.js",s.async=!0,s.defer=!0,k=document.getElementsByTagName("script")[0],k.parentNode.insertBefore(s,k)}}(window,document);
+    // function createLauncherPanel() {
+    //     var div = document.createElement("div");
+    //     div.setAttribute("class", "launcher-panel");
+    //     div.classList.add("hidden");
+    //     div.appendChild(createLauncherLink(div));
+    //
+    //     document.getElementsByTagName("body")[0].appendChild(div);
+    //
+    //     return div;
+    // }
+    //
+    // function createLauncherLink(container) {
+    //     var link = document.createElement("link");
+    //
+    //     link.setAttribute("rel", "import");
+    //     link.setAttribute("href", "path_to_my_launcher_page.html");
+    //
+    //     link.onload = function () {
+    //         container.appendChild(link.import.querySelector('.launcher-main-container'));
+    //     };
+    //
+    //     return link;
+    // }
+    //
+    // createLauncherPanel();
 
-    window.LetstalkSettings = {
-
-        organization: 'bcp-qa'
-
-    };
-
-    window.$Letstalk.on('ready', function() {
-
-        window.$Letstalk.launch('chat-pub-soli-qa');
-
-    })
+    // module.exports = loginWithChrome
+    // !function (e, t) {
+    //     if (!e.$Letstalk) {
+    //         var n = e.$Letstalk = {};
+    //         n.enqueue = function () {
+    //             var e = arguments;
+    //             return new Promise(function (t, n) {
+    //                 u.stack.push({args: e, resolve: t, reject: n}), u.times.push(+new Date)
+    //             })
+    //         }, n.init = function () {
+    //             return n.enqueue("init", arguments)
+    //         }, n.on = function () {
+    //             return n.enqueue("on", arguments)
+    //         }, n.executeAppMethod = function () {
+    //             return n.enqueue("executeAppMethod", arguments)
+    //         }, n.isAvailable = function () {
+    //             return n.enqueue("isAvailable", arguments)
+    //         }, n.launch = function () {
+    //             return n.enqueue("launch", arguments)
+    //         }, n.listApps = function () {
+    //             return n.enqueue("listApps", arguments)
+    //         }, n.remove = function () {
+    //             return n.enqueue("remove", arguments)
+    //         };
+    //         var u = n._ = {stack: [], times: [+new Date]};
+    //         t.body ? r() : e.attachEvent ? e.attachEvent("onload", r) : e.addEventListener("load", r, !1)
+    //     }
+    //
+    //     function r() {
+    //         a = !1, s = t.createElement("script"), s.type = "text/javascript", s.src = "https://static.letsta.lk/launcher/launcher.js", s.async = !0, s.defer = !0, k = document.getElementsByTagName("script")[0], k.parentNode.insertBefore(s, k)
+    //     }
+    // }(window, document);
+    // window.LetstalkSettings = {
+    //     organization: 'bcp-qa'
+    // };
+    // window.$Letstalk.on('ready', function () {
+    //     window.$Letstalk.launch('chat-pub-soli-qa');
+    // })
 
     // var date = new Date(); // Create Date object for a reference point
     // if(date.getDate() == 25 && date.getMonth() == 11 ) { // Check the time like above

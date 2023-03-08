@@ -115,7 +115,7 @@ $('.entel_detail').click(function() {
             '<br><strong>Restricciones: </strong>\n' +
             'En caso de que el servicio de telefonía celular prestado en favor del cliente y que este vinculado con la billetera móvil, se encuentre bloqueado, cancelado o no operativo por cualquier razón el participante quedará automáticamente fuera de la promoción.\n' +
             'Se aclara que en caso de que la persona y/o línea se desafilien de la billetera móvil Soli Pagos BCP,  el participante quedará automáticamente excluido de la promoción.\n<br>' +
-            '<br><strong>Duración:</strong> Del 24 de marzo del 2022 al 23 de junio del 2022</div>',
+            '<br><strong>Duración:</strong> Del 24 de marzo del 2022 al 30 de noviembre del 2022</div>',
         showCloseButton: true,
         showCancelButton: false,
         focusConfirm: true,
