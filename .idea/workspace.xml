@@ -17,15 +17,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="comercios">
-      <change afterPath="$PROJECT_DIR$/seguridad/fraudes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seguridad/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seguridad/protegete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/js_principal.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/js_principal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/ayuda.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/ayuda.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/blog.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/cambiar-y-recuperar-contrasenas.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/cambiar-y-recuperar-contrasenas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/comercios.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/comercios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/comisiones.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/comisiones.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/depositar.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/depositar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/funcionalidades-y-transferencia.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/funcionalidades-y-transferencia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/pagos-de-servicios.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/pagos-de-servicios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/pagos-sin-contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/pagos-sin-contacto.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ayuda/retiros-de-dinero.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/retiros-de-dinero.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/soy-nuevo-en-soli.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/soy-nuevo-en-soli.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/tarjetas-de-regalo.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/tarjetas-de-regalo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beneficios/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/beneficios/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billeteramovil/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/billeteramovil/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/adios-al-efectivo/5-habitos-para-decirle-adios-al-uso-de-dinero-en-efectivo.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/adios-al-efectivo/5-habitos-para-decirle-adios-al-uso-de-dinero-en-efectivo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/adios-al-efectivo/dinero-electronico-efectivo-y-virtual-cuales-son-sus-diferencias.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/adios-al-efectivo/dinero-electronico-efectivo-y-virtual-cuales-son-sus-diferencias.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/negocios-digitales/diferencias-entre-cuentas-de-caja-de-ahorros-cuentas-corrientes-billeteras-moviles.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/negocios-digitales/diferencias-entre-cuentas-de-caja-de-ahorros-cuentas-corrientes-billeteras-moviles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/negocios-digitales/los-codigos-qr-una-alternativa-de-pago-que-facilitan-tu-vida.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/negocios-digitales/los-codigos-qr-una-alternativa-de-pago-que-facilitan-tu-vida.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/negocios-digitales/pago-con-celular-aliados-billetera-movil.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/negocios-digitales/pago-con-celular-aliados-billetera-movil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/plantilla_articulo.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/plantilla_articulo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comercios/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/comercios/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/politica-privacidad.html" beforeDir="false" afterPath="$PROJECT_DIR$/politica-privacidad.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seguridad/fraudes.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/fraudes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seguridad/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seguridad/protegete.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/protegete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soli.html" beforeDir="false" afterPath="$PROJECT_DIR$/soli.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soli/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/soli/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soli/recarga_tu_billetera_soli.html" beforeDir="false" afterPath="$PROJECT_DIR$/soli/recarga_tu_billetera_soli.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solinegocios/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/solinegocios/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solipromociones/ganaconsoli.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/ganaconsoli.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solipromociones/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solipromociones/soli_invita_a_tus_amigos.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/soli_invita_a_tus_amigos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solipromociones/soliaguinaldo.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/soliaguinaldo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solipromociones/solicarga-entel.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/solicarga-entel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solipromociones/solimegate.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/solimegate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solipromociones/solisocios.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/solisocios.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +72,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -60,21 +93,24 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/solipagos&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/solipagos/seguridad&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\solipagos\seguridad" />
       <recent name="C:\xampp\htdocs\solipagos" />
       <recent name="C:\xampp\htdocs\solipagos\legales" />
       <recent name="C:\xampp\htdocs\solipagos\beneficios" />
       <recent name="C:\xampp\htdocs\solipagos\solipromociones" />
-      <recent name="C:\xampp\htdocs\solipagos\assets\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\solipagos\assets\img" />
@@ -403,13 +439,11 @@
       <workItem from="1677175740044" duration="1177000" />
       <workItem from="1677853984035" duration="3991000" />
       <workItem from="1678130171513" duration="1000" />
-    </task>
-    <task id="LOCAL-00322" summary="correcion">
-      <created>1641567968098</created>
-      <option name="number" value="00322" />
-      <option name="presentableId" value="LOCAL-00322" />
-      <option name="project" value="LOCAL" />
-      <updated>1641567968098</updated>
+      <workItem from="1678300157908" duration="3010000" />
+      <workItem from="1678817307308" duration="9936000" />
+      <workItem from="1678844352368" duration="3341000" />
+      <workItem from="1678899707970" duration="606000" />
+      <workItem from="1678901295536" duration="772000" />
     </task>
     <task id="LOCAL-00323" summary="chatbot">
       <created>1641910027867</created>
@@ -747,7 +781,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653504687156</updated>
     </task>
-    <option name="localTasksCounter" value="371" />
+    <task id="LOCAL-00371" summary="comercios">
+      <created>1678300292864</created>
+      <option name="number" value="00371" />
+      <option name="presentableId" value="LOCAL-00371" />
+      <option name="project" value="LOCAL" />
+      <updated>1678300292864</updated>
+    </task>
+    <option name="localTasksCounter" value="372" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -775,7 +816,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="soliaguinaldo modificacion" />
     <MESSAGE value="arreglando errores" />
     <MESSAGE value="chat soli" />
     <MESSAGE value="gana con soli" />
@@ -800,7 +840,8 @@
     <MESSAGE value="soporte" />
     <MESSAGE value="farmacia chavez" />
     <MESSAGE value="chatbot" />
-    <option name="LAST_COMMIT_MESSAGE" value="chatbot" />
+    <MESSAGE value="comercios" />
+    <option name="LAST_COMMIT_MESSAGE" value="comercios" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -812,5 +853,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
