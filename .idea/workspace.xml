@@ -16,20 +16,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="adicion de la pagina de seguridad en Soli">
-      <change afterPath="$PROJECT_DIR$/assets/img/soli-yapa-web-soli.jpg" afterDir="false" />
+    <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="mejoras en css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/ayuda.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/ayuda.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/ayuda.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/ayuda.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/blog.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/menu.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/menu.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/seguridad.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/seguridad.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/seguridad.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/seguridad.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seguridad/robo.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/robo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solipromociones/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/pagos-de-servicios.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/pagos-de-servicios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billeteramovil/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/billeteramovil/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seguridad/fraudes.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/fraudes.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -418,14 +409,7 @@
       <workItem from="1679010297706" duration="214000" />
       <workItem from="1679320898779" duration="543000" />
       <workItem from="1679999902648" duration="1199000" />
-      <workItem from="1680190208710" duration="5500000" />
-    </task>
-    <task id="LOCAL-00326" summary="habiltiar chatbot">
-      <created>1642687122827</created>
-      <option name="number" value="00326" />
-      <option name="presentableId" value="LOCAL-00326" />
-      <option name="project" value="LOCAL" />
-      <updated>1642687122828</updated>
+      <workItem from="1680190208710" duration="7403000" />
     </task>
     <task id="LOCAL-00327" summary="habiltiar chatbot">
       <created>1642712088726</created>
@@ -763,7 +747,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678903492266</updated>
     </task>
-    <option name="localTasksCounter" value="375" />
+    <task id="LOCAL-00375" summary="mejoras en css">
+      <created>1680201346933</created>
+      <option name="number" value="00375" />
+      <option name="presentableId" value="LOCAL-00375" />
+      <option name="project" value="LOCAL" />
+      <updated>1680201346933</updated>
+    </task>
+    <option name="localTasksCounter" value="376" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -791,7 +782,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="chat soli" />
     <MESSAGE value="gana con soli" />
     <MESSAGE value="habiltiar chatbot" />
     <MESSAGE value="cashin" />
@@ -816,7 +806,8 @@
     <MESSAGE value="chatbot" />
     <MESSAGE value="comercios" />
     <MESSAGE value="adicion de la pagina de seguridad en Soli" />
-    <option name="LAST_COMMIT_MESSAGE" value="adicion de la pagina de seguridad en Soli" />
+    <MESSAGE value="mejoras en css" />
+    <option name="LAST_COMMIT_MESSAGE" value="mejoras en css" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
