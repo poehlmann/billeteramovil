@@ -1850,6 +1850,3 @@ a{text-decoration:none!important;outline:0;}
 a{color:#56BBF9;}
 /*! CSS Used fontfaces */
 @font-face{font-family:'Bariol Regular';font-style:normal;font-weight:400;src:local('Bariol Regular'),url(http://localhost/solipagos/assets/fonts/bariol_regular-webfont.woff) format('woff');}
-li {
-    font-size: 35px;
-}

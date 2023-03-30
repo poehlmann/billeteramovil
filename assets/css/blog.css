@@ -152,12 +152,12 @@ h1 {
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 35px;
     color:#013c5c;
 }
 h3 {
     margin-top: 0;
-    font-size: 25px;
+    font-size: 35px;
     color: #06aad1;
     margin-bottom: 0;
 }
@@ -299,7 +299,7 @@ a img {
 
 .tabs-blog section p,ul {
     color: #515151;
-    font-size: 35px;
+    /*font-size: 35px;*/
 }
 
 .tabs-blog section > * {
@@ -397,7 +397,9 @@ a img {
     opacity: 1;
     transform: translateY(0);
 }
-
+.text-left >ul {
+    font-size: 20px;
+}
 @media (max-width: 575px){
     .padding_h1{
         padding-top: 10px !important;
@@ -407,6 +409,7 @@ a img {
     }
     .tabs-blog >ul {
         width: 85%;
+
     }
     .tabs-blog {
         display: flex;
@@ -595,7 +598,7 @@ input:checked ~ .tab-content {
     font-size: 45px;
 }
 #tabs-section p{
-    font-size: 35px;
+    font-size: 20px;
     /*padding: 0px 200px 0px 100px;*/
 }
 @media (max-width: 991px){
@@ -640,7 +643,7 @@ input:checked ~ .tab-content {
 .social-box .box .box-btn a{
     text-decoration: none;
     color: #4183D7;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .fa{
@@ -664,7 +667,4 @@ input:checked ~ .tab-content {
 }
 #tabs-section h2{
     margin-top: auto;
-}
-li{
-    margin-left: 70px;
 }

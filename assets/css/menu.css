@@ -516,7 +516,7 @@ header.small .desk-menu .box-menu ul li a {
         transition: all 0.3s ease;
         display: block;
         position: absolute;
-        top: 54px;
+        top: 30px;
         bottom: 0;
         margin: auto;
         width: 40px;
@@ -765,7 +765,7 @@ header.small .desk-menu .box-menu ul li a {
         display: block;
     }
     header.small .hamburger-menu {
-        top: 54px;
+        top: 30px;
     }
     header.small .hamburger-menu span {
         color: #ffffff;
@@ -818,7 +818,7 @@ header.small .desk-menu .box-menu ul li a {
         height: 57px;
     }
     header .hamburger-menu {
-        top: 55px;
+        top: 30px;
         right: 0;
     }
     header .hamburger-menu .bar, header .hamburger-menu .bar::after, header .hamburger-menu .bar::before {

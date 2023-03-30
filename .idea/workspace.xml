@@ -17,8 +17,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="adicion de la pagina de seguridad en Soli">
+      <change afterPath="$PROJECT_DIR$/assets/img/soli-yapa-web-soli.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seguridad/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/ayuda.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/ayuda.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/ayuda.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/ayuda.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/blog.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/menu.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/menu.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/seguridad.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/seguridad.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/seguridad.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/seguridad.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seguridad/robo.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/robo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solipromociones/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,29 +59,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/solipagos/seguridad&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/xampp/htdocs/solipagos/assets/img",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\solipagos\assets\img" />
       <recent name="C:\xampp\htdocs\solipagos\seguridad" />
       <recent name="C:\xampp\htdocs\solipagos" />
       <recent name="C:\xampp\htdocs\solipagos\legales" />
       <recent name="C:\xampp\htdocs\solipagos\beneficios" />
-      <recent name="C:\xampp\htdocs\solipagos\solipromociones" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\solipagos\assets\img" />
@@ -403,14 +414,11 @@
       <workItem from="1678817307308" duration="9936000" />
       <workItem from="1678844352368" duration="3341000" />
       <workItem from="1678899707970" duration="606000" />
-      <workItem from="1678901295536" duration="2137000" />
-    </task>
-    <task id="LOCAL-00325" summary="gana con soli">
-      <created>1642656508412</created>
-      <option name="number" value="00325" />
-      <option name="presentableId" value="LOCAL-00325" />
-      <option name="project" value="LOCAL" />
-      <updated>1642656508412</updated>
+      <workItem from="1678901295536" duration="4004000" />
+      <workItem from="1679010297706" duration="214000" />
+      <workItem from="1679320898779" duration="543000" />
+      <workItem from="1679999902648" duration="1199000" />
+      <workItem from="1680190208710" duration="5500000" />
     </task>
     <task id="LOCAL-00326" summary="habiltiar chatbot">
       <created>1642687122827</created>
@@ -748,7 +756,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678903072744</updated>
     </task>
-    <option name="localTasksCounter" value="374" />
+    <task id="LOCAL-00374" summary="adicion de la pagina de seguridad en Soli">
+      <created>1678903492266</created>
+      <option name="number" value="00374" />
+      <option name="presentableId" value="LOCAL-00374" />
+      <option name="project" value="LOCAL" />
+      <updated>1678903492266</updated>
+    </task>
+    <option name="localTasksCounter" value="375" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
