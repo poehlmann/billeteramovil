@@ -207,8 +207,8 @@ $(document).ready(function() {
             android: 'Google Play'
         },
         price: {
-            ios: 'Soli es 100% gratis',
-            android: 'Soli es 100% gratis'
+            ios: '',
+            android: ''
         },
         // url:'https://onelink.to/xurcbr',
         hideOnInstall: true,
