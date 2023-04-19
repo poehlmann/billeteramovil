@@ -200,23 +200,23 @@ $jscomp.polyfill("Object.assign", function (a) {
                 }, hide: function () {
                     r.classList.remove("smartbanner-show");
                     document.getElementById("wrap").style.marginTop = "0px";
-                    document.getElementById('menu-cel').style.marginTop='0px';
+                    // document.getElementById('menu-cel').style.marginTop='0px';
                     if ("function" === typeof this.options.close) return this.options.close()
                 }, show: function () {
                     r.classList.add("smartbanner-show");
                     document.getElementById("wrap").style.marginTop = "80px";
-                    document.getElementById('menu-cel').style.marginTop='80px';
+                    // document.getElementById('menu-cel').style.marginTop='80px';
                     if ("function" === typeof this.options.show) return this.options.show()
                 }, close: function () {
                     this.hide();
                     document.getElementById("wrap").style.marginTop = "0px";
-                    document.getElementById('menu-cel').style.marginTop='0px';
+                    // document.getElementById('menu-cel').style.marginTop='0px';
                     f.set(this.appId + "-smartbanner-closed", "true", {path: "/", expires: new Date(Number(new Date) + 864E5 * this.options.daysHidden)});
                     if ("function" === typeof this.options.close) return this.options.close()
                 }, install: function () {
                     this.hide();
                     document.getElementById("wrap").style.marginTop = "0px";
-                    document.getElementById('menu-cel').style.marginTop='0px';
+                    // document.getElementById('menu-cel').style.marginTop='0px';
                     f.set(this.appId + "-smartbanner-installed", "true", {path: "/", expires: new Date(Number(new Date) + 864E5 * this.options.daysReminder)});
                     if ("function" === typeof this.options.close) return this.options.close()
                 }, parseAppId: function () {

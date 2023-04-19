@@ -6,8 +6,11 @@
         var sc = $(window).scrollTop();
         if (sc > 40) {
             $('#header-sroll').addClass('small');
+            document.getElementById("logo-menu").src="assets/img/logo.png";
         }else {
             $('#header-sroll').removeClass('small');
+            document.getElementById("logo-menu").src="assets/img/Logo.Yape.webp";
+
         }
     }
 

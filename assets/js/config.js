@@ -62,7 +62,7 @@ let c2c_soundConfig = {
     },
     downloadSounds: [
         // test_call_sound Can be specified as mp3 instead of tone sequence.
-        // { test_call_sound: 'flowing_stream' }
+        // { test_call_sound: 'lowing_stream' }
     ],
     play: {
         outgoingCallProgress: { name: 'ringingTone', loop: true, volume: 0.2 },

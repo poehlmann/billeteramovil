@@ -2,34 +2,16 @@ $(document).ready(function() {
     var client_list = $('.app-active');
     if(client_list.length){
         client_list.owlCarousel({
-            slidesToShow: 1,
-            slidesToScroll: 1,
+            items: 1,
+            singleItem: true,
             loop: true,
-            autoplay:false,
-            speed: 3000,
-            smartSpeed:2000,
+            autoplay: true,
             dots: false,
             nav  : false,
-            navText : ["<i class='fas fa-arrow-left'></i>","<i class='fas fa-arrow-right'></i>"],
-            autoplayHoverPause: true,
-            responsiveClass:true,
-            responsive : {
-                0 : {
-                    items: 1
-                },
-                768 : {
-                    items: 2
-                },
-                992 : {
-                    items: 2
-                },
-                1200:{
-                    items: 4
-                }
-            }
+            autoPlay: 5000
         });
     }
-    
+
 
     // function createLauncherPanel() {
     //     var div = document.createElement("div");

@@ -15,7 +15,8 @@
     <meta name="AUTHOR" content="Banco de Crédito de Bolivia S.A.">
     <meta name="REPLY-TO" content="otorrico@bcp.com.bo">
     <LINK rev="made" href="mailto:otorrico@bcp.com.bo">
-    <meta name="DESCRIPTION" content="Tu nueva cuenta en (Bs.) con tu número de celular. Crea tu cuenta en 3 min. Agrega dinero en 2 min. Transfiere en 1 min. Cuenta digital creada para los bolivianos que necesiten más que una cuenta de ahorros. Descarga Soli Pagos BCP">
+    <meta name="DESCRIPTION"
+          content="Tu nueva cuenta en (Bs.) con tu número de celular. Crea tu cuenta en 3 min. Agrega dinero en 2 min. Transfiere en 1 min. Cuenta digital creada para los bolivianos que necesiten más que una cuenta de ahorros. Descarga Soli Pagos BCP">
     <meta name="Resource-type" content="app">
     <meta name="DateCreated" content="Wed, 8 February 2017 00:00:00 GMT-4">
     <meta name="Revisit-after" content="7 days">
@@ -24,7 +25,8 @@
     <meta property="og:locale" content="es_ES"/>
     <meta property="og:type" content="website"/>
     <meta property="og:title" content="Soli | Agrega dinero y úsalo | Cuenta digital en Bs."/>
-    <meta property="og:description" content="Cuenta digital creada para los bolivianos que necesiten más que una cuenta de ahorros. Respaldada por el BCP. Servicio através de una aplicación (app)"/>
+    <meta property="og:description"
+          content="Cuenta digital creada para los bolivianos que necesiten más que una cuenta de ahorros. Respaldada por el BCP. Servicio através de una aplicación (app)"/>
     <meta property="og:url" content="https://www.solipagosbcp.com.bo"/>
     <meta property="og:site_name" content="Soli | App Billetera móvil"/>
     <meta property="og:image" content="assets/img/imagen_red_social.jpeg"/>
@@ -45,24 +47,27 @@
     <script src="assets/js/c2c.js"></script>
     <!-- fin llamadas -->
 
-    <link rel="preload" href="assets/css/css_principal.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="assets/css/css_principal.min.css" as="style"
+          onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
         <link rel="stylesheet" href="assets/css/css_principal.min.css">
     </noscript>
-    <link rel="preload" as="image" href="assets/img/logo%20solisocios.png" imagesrcset="assets/img/logo%20solisocios.png 400w" imagesizes="50vw"/>
-    <link rel="preload" href="assets/vendors/owlcarousel/dist/assets/owl.carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" as="image" href="assets/img/logo%20solisocios.png"
+          imagesrcset="assets/img/logo%20solisocios.png 400w" imagesizes="50vw"/>
+    <link rel="preload" href="assets/vendors/owlcarousel/dist/assets/owl.carousel.min.css" as="style"
+          onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
         <link rel="stylesheet" href="assets/vendors/owlcarousel/dist/assets/owl.carousel.min.css">
     </noscript>
-    <link rel="preload" href="assets/css/smart-app-banner.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="assets/css/smart-app-banner.min.css" as="style"
+          onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
         <link rel="stylesheet" href="assets/css/smart-app-banner.min.css">
     </noscript>
-
+    <link rel="stylesheet" href="assets/css/menu.css">
 
     <link rel="stylesheet" href="assets/vendors/animate/animate.css">
 
-    
 
     <link rel="canonical" href="https://www.solipagosbcp.com.bo"/>
     <!--Iconos-->
@@ -74,8 +79,8 @@
     <link rel="apple-touch-icon" sizes="120x120" href="assets/img/apple-icon-120x120.png">
     <link rel="apple-touch-icon" sizes="144x144" href="assets/img/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="assets/img/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/logo-alterno.png">
-    <link rel="android-touch-icon" href="assets/img/logo-alterno.png"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/Logo.Yape.webp">
+    <link rel="android-touch-icon" href="assets/img/Logo.Yape.webp"/>
     <link rel="icon" type="image/png" sizes="192x192" href="assets/img/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon-96x96.png">
@@ -100,97 +105,92 @@
 </head>
 
 <body onload="c2c_init()">
-    <!-- <img src="logo-audio-codes.svg" alt="AudioCodes" width="450" height="70"> -->
-    <div id="cwTest" class="cwTest">
-        <div id="main_div">
-            <!-- <h2 data-test-id="text-404">.</h2> -->
-            <!-- <p>.</p>
-            <p>.</p> -->
-            <!-- Click to call widget -->
+<!-- <img src="logo-audio-codes.svg" alt="AudioCodes" width="450" height="70"> -->
+<div id="cwTest" class="cwTest">
+    <div id="main_div">
+        <!-- <h2 data-test-id="text-404">.</h2> -->
+        <!-- <p>.</p>
+        <p>.</p> -->
+        <!-- Click to call widget -->
 
-            <!-- div to display internet speed and test call quality score -->
-            <div id="c2c_quality_info_div">
-                <span id="c2c_connection_span"></span><br>
-                <span id="c2c_quality_span"></span>
-            </div>
+        <!-- div to display internet speed and test call quality score -->
+        <div id="c2c_quality_info_div">
+            <span id="c2c_connection_span"></span><br>
+            <span id="c2c_quality_span"></span>
+        </div>
 
-            <!-- Two buttons with SVG icons: test call and call -->
-            <div id="c2c_widget" style="margin-right: -60px;">
+        <!-- Two buttons with SVG icons: test call and call -->
+        <div id="c2c_widget" style="margin-right: -60px;">
 
-                <!-- Test call button to check phone to SBC line quality -->
-                <button id="c2c_test_btn" title="Click to test connection quality">
-                    <svg id="c2c_test_svg">
-                        <!-- Used free SVG phone icon. Thanks to www.freeicons.io -->
-                        <g fill="none" fill-rule="evenodd">
-                            <path d="M-1-1h24v24H-1z" />
-                            <path
-                                d="M21.61 17.99l-9.08-9.08c.93-2.34.45-5.1-1.44-7-2.3-2.3-5.88-2.51-8.43-.65L6.5 5.11 5.08 6.52 1.25 2.69C-.61 5.23-.4 8.82 1.9 11.11c1.86 1.86 4.57 2.35 6.89 1.48l9.11 9.11c.39.39 1.02.39 1.41 0l2.3-2.3c.4-.38.4-1.01 0-1.41zm-3 1.6l-9.46-9.46c-.61.45-1.29.72-2 .82-1.36.2-2.79-.21-3.83-1.25C2.37 8.76 1.93 7.5 2 6.26l3.09 3.09 4.24-4.24-3.09-3.09c1.24-.07 2.49.37 3.44 1.31a4.469 4.469 0 011.24 3.96 4.35 4.35 0 01-.88 1.96l9.45 9.45-.88.89z"
-                                fill="#1D1D1D" />
-                        </g>
-                    </svg>
-                    <span>linea</span>
-                </button>
-
-
-                &nbsp;
-                <!-- In the span can be set optional "Call to ..." text -->
-                <span></span>
-
-                <!-- Call button -->
-                <button id="c2c_call_btn" title="Click to call us on the phone">
-                    <!-- Used free SVG phone icon. Thanks to fontawesome.com -->
-                    <svg id="c2c_call_svg" fill="#006DF0" viewBox="0 0 512 512">
+            <!-- Test call button to check phone to SBC line quality -->
+            <button id="c2c_test_btn" title="Click to test connection quality">
+                <svg id="c2c_test_svg">
+                    <!-- Used free SVG phone icon. Thanks to www.freeicons.io -->
+                    <g fill="none" fill-rule="evenodd">
+                        <path d="M-1-1h24v24H-1z"/>
                         <path
-                            d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z" />
-                    </svg>
-                    <span> </span>
-                </button>
+                                d="M21.61 17.99l-9.08-9.08c.93-2.34.45-5.1-1.44-7-2.3-2.3-5.88-2.51-8.43-.65L6.5 5.11 5.08 6.52 1.25 2.69C-.61 5.23-.4 8.82 1.9 11.11c1.86 1.86 4.57 2.35 6.89 1.48l9.11 9.11c.39.39 1.02.39 1.41 0l2.3-2.3c.4-.38.4-1.01 0-1.41zm-3 1.6l-9.46-9.46c-.61.45-1.29.72-2 .82-1.36.2-2.79-.21-3.83-1.25C2.37 8.76 1.93 7.5 2 6.26l3.09 3.09 4.24-4.24-3.09-3.09c1.24-.07 2.49.37 3.44 1.31a4.469 4.469 0 011.24 3.96 4.35 4.35 0 01-.88 1.96l9.45 9.45-.88.89z"
+                                fill="#1D1D1D"/>
+                    </g>
+                </svg>
+                <span>linea</span>
+            </button>
 
-                <!-- The div used for phone messages -->
-                <!-- <div id="c2c_message"></div> -->
-                <div id="c2c-cw-modal" class="cw-modal">
-                    <div class="cw-modal-content">
-                        <span class="cw-modal-close">&times;</span>
-                        <div id="c2c_message"></div>
-                    </div>
+
+            &nbsp;
+            <!-- In the span can be set optional "Call to ..." text -->
+            <span></span>
+
+            <!-- Call button -->
+            <button id="c2c_call_btn" title="Click to call us on the phone">
+                <!-- Used free SVG phone icon. Thanks to fontawesome.com -->
+                <svg id="c2c_call_svg" fill="#006DF0" viewBox="0 0 512 512">
+                    <path
+                            d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"/>
+                </svg>
+                <span> </span>
+            </button>
+
+            <!-- The div used for phone messages -->
+            <!-- <div id="c2c_message"></div> -->
+            <div id="c2c-cw-modal" class="cw-modal">
+                <div class="cw-modal-content">
+                    <span class="cw-modal-close">&times;</span>
+                    <div id="c2c_message"></div>
                 </div>
             </div>
-
         </div>
-    </div>
-    <!-- Video controls for WebRTC. Invisible for audio call -->
-    <video id="c2c_local_video" style="display: none;" playsinline></video>
-    <video id="c2c_remote_video" style="display: none;" autoplay playsinline></video>
 
-    <!-- end of click to call widget -->
+    </div>
+</div>
+<!-- Video controls for WebRTC. Invisible for audio call -->
+<video id="c2c_local_video" style="display: none;" playsinline></video>
+<video id="c2c_remote_video" style="display: none;" autoplay playsinline></video>
+
+<!-- end of click to call widget -->
 
 <noscript>
-    <iframe loading="lazy" src="https://www.googletagmanager.com/ns.html?id=GTM-M5CPZ24" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    <iframe loading="lazy" src="https://www.googletagmanager.com/ns.html?id=GTM-M5CPZ24" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
 </noscript>
 
 <div id="wrap">
     <header class="header font_dosis" id="header-sroll">
         <div class="">
             <div class="row">
-                <div class="col-xs-offset-1 col-xs-11 col-sm-12 col-md-12 col-lg-offset-1 col-lg-10">
+                <div class="col-xs-12 col-sm-12 col-md-12  col-lg-12">
                     <div class="desk-menu">
                         <div class="logo">
                             <div class="logo-adn">
-                                <a rel="noreferrer" title="Soli - Billetera Movil" href="https://www.solipagosbcp.com.bo">Soli</a>
+                                <img id="logo-menu" class="logo-menu" alt="logo" src="assets/img/Logo.Yape.webp">
                             </div>
+
                         </div>
                         <nav class="box-menu">
                             <div id="menu-cel" class="menu-container">
-                                <div class="menu-head">
-                                    <a href="https://www.solipagosbcp.com.bo/" class="e1">
-                                        <img loading="lazy" class="lazyload" data-src="assets/img/logo_plus.png" width="70" height="70" alt="Soli" title="Soli">
-                                    </a>
-                                    <a href="https://www.solipagosbcp.com.bo" target="_self" class="client">
-                                            <span>
-                                                Bienvenido a Soli
-                                            <i class="icon-user"></i></span>
-                                    </a>
-                                </div>
+<!--                                <div class="menu-head">-->
+<!--                                    <span>Yape<i class="icon-user"></i></span>-->
+<!--                                </div>-->
                                 <div class="menu-header-container">
                                     <ul id="cd-primary-nav" class="menu main_nav">
                                         <li class="menu-item">
@@ -229,7 +229,11 @@
                                             <a href="#">Descarga Soli</a>
                                             <ul class="sub-menu">
                                                 <li class="menu-item">
-                                                    <a href="https://onelink.to/xurcbr" target="_blank" rel="noreferrer"><img loading="lazy" class="lazyload" data-src="assets/img/qr-code.svg" width="150" height="150" alt="QR Soli" title="QR Soli"/></a>
+                                                    <a href="https://onelink.to/xurcbr" target="_blank"
+                                                       rel="noreferrer"><img loading="lazy" class="lazyload"
+                                                                             data-src="assets/img/qr-code.svg"
+                                                                             width="150" height="150" alt="QR Soli"
+                                                                             title="QR Soli"/></a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -248,21 +252,22 @@
         </div>
     </header>
 
-    <div class="page-hero-section bg-image hero-mini desktopshow" style="background-image: url(assets/img/Radiografia-Soli-web-fondo.jpg);">
+    <div class="page-hero-section bg-image hero-mini desktopshow">
         <div class="hero-caption">
             <div class="h-100">
-                <div class="row justify-content-center align-items-center text-center" style="    padding-top: 8vh;">
-                    <div class="col-lg-12 col-md-12">
-                        <!--                            <h1 class="pl-4 pr-4 bariol_italic_regular_title texto_primario"><q>La billetera móvil para manejar <br> tu dinero en Bolivianos y<b> sin comisión</b></q></h1>-->
-                        <div class="pl-4 pr-4 texto_primario wow fadeInUp" data-wow-duration="2s">DESCUBRE TODO LO QUE <br> PUEDES HACER CON SOLI</div>
-                        <!--                            <h2 class="font-weight-bold ">DESCUBRE TODO LO QUE <br> PUEDES HACER CON SOLI</h2>-->
-                        <p class="text-white pl-4 pr-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">Un mundo de beneficios en la palma de tu mano</p>
-                    </div>
-                </div>
+                <!--                <div class="row justify-content-center align-items-center text-center" style="padding-top: 8vh;">-->
+                <!--                    <div class="col-lg-12 col-md-12">-->
+                <!--                        &lt;!&ndash;                            <h1 class="pl-4 pr-4 bariol_italic_regular_title texto_primario"><q>La billetera móvil para manejar <br> tu dinero en Bolivianos y<b> sin comisión</b></q></h1>&ndash;&gt;-->
+                <!--                        <div class="pl-4 pr-4 texto_primario wow fadeInUp" data-wow-duration="2s">DESCUBRE TODO LO QUE <br> PUEDES HACER CON SOLI</div>-->
+                <!--                        &lt;!&ndash;                            <h2 class="font-weight-bold ">DESCUBRE TODO LO QUE <br> PUEDES HACER CON SOLI</h2>&ndash;&gt;-->
+                <!--                        <p class="text-white pl-4 pr-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">Un mundo de beneficios en la palma de tu mano</p>-->
+                <!--                    </div>-->
+                <!--                </div>-->
                 <div class="row justify-content-center align-items-center text-center">
                     <div class="col-lg-12 col-md-12">
-                        <a target="_blank" rel="noreferrer" href="https://play.google.com/store/apps/details?id=com.bcp.bo.wallet&referrer=utm_source%3Dp%25C3%25A1gina_web%26utm_medium%3Dp%25C3%25A1gina_web%26utm_term%3Dp%25C3%25A1gina_web%26utm_content%3Dp%25C3%25A1gina_web%26utm_campaign%3Dp%25C3%25A1gina_web">
-                            <img src="assets/img/Radiografia-Soli-web.png" class="wow fadeIn" data-wow-delay="1s" data-wow-duration="2s" width="60%" height="auto" alt="Soli" title="Soli"/>
+                        <a target="_blank" rel="noreferrer"
+                           href="https://play.google.com/store/apps/details?id=com.bcp.bo.wallet&referrer=utm_source%3Dp%25C3%25A1gina_web%26utm_medium%3Dp%25C3%25A1gina_web%26utm_term%3Dp%25C3%25A1gina_web%26utm_content%3Dp%25C3%25A1gina_web%26utm_campaign%3Dp%25C3%25A1gina_web">
+                            <img src="assets/img/Radiografia-Soli-web.png" style="margin-top: 18vh;padding-left: 30px;padding-right: 30px;" alt="Soli" title="Soli"/>
                         </a>
                     </div>
                 </div>
@@ -274,29 +279,29 @@
         <div class="applic-apps section-padding2 ">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-xs-12" style="background-image: url(assets/img/Radiografia-Soli-web-fondo-mobile1.png);background-size: cover;background-repeat: no-repeat;height: 96vh;">
-                        <div class="single-cases-info text-center" style="margin-top: 7vh;">
-                            <h2 class="font-weight-bold wow fadeInUp" data-wow-duration="2s">DESCUBRE TODO LO QUE <br> PUEDES HACER CON SOLI</h2>
-                            <p class="text-white wow fadeInUp" data-wow-duration="2s">Un mundo de beneficios en la palma de tu mano</p>
-                        </div>
-                        <div class="app-active owl-carousel" style="top:-75px">
+                    <div class="background-yape col-xs-12">
+                        <!--                        <div class="single-cases-info text-center" style="padding-top: 8vh;">-->
+                        <!--                            <h2 class="font-weight-bold wow fadeInUp" data-wow-duration="2s">DESCUBRE TODO LO QUE <br> PUEDES HACER CON SOLI</h2>-->
+                        <!--                            <p class="text-white wow fadeInUp" data-wow-duration="2s">Un mundo de beneficios en la palma de tu mano</p>-->
+                        <!--                        </div>-->
+                        <div class="app-active owl-carousel">
                             <div class="single-cases-img">
-                                <img src="assets/img/Radiografia-Soli-web-mobile1.png" alt="" >
+                                <img src="assets/img/Radiografia-Soli-web-mobile1.png" alt="">
                             </div>
                             <div class="single-cases-img">
-                                <img src="assets/img/Radiografia-Soli-web-mobile2.png" alt="" >
+                                <img src="assets/img/Radiografia-Soli-web-mobile2.png" alt="">
                             </div>
                             <div class="single-cases-img">
-                                <img src="assets/img/Radiografia-Soli-web-mobile3.png" alt="" >
+                                <img src="assets/img/Radiografia-Soli-web-mobile3.png" alt="">
                             </div>
                             <div class="single-cases-img">
-                                <img src="assets/img/Radiografia-Soli-web-mobile4.png" alt="" >
+                                <img src="assets/img/Radiografia-Soli-web-mobile4.png" alt="">
                             </div>
                             <div class="single-cases-img">
-                                <img src="assets/img/Radiografia-Soli-web-mobile5.png" alt="" >
+                                <img src="assets/img/Radiografia-Soli-web-mobile5.png" alt="">
                             </div>
                             <div class="single-cases-img">
-                                <img src="assets/img/Radiografia-Soli-web-mobile6.png" alt="" >
+                                <img src="assets/img/Radiografia-Soli-web-mobile6.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -305,139 +310,127 @@
         </div>
     </section>
 
-    <section class=" mt-50">
+    <section class="pt-4 bg-gray">
         <div class="row text-center">
-            <div class="col-md-offset-2 col-md-5 col-xs-offset-1 col-xs-10" >
-                <div class="mb-30 wow fadeInLeft" data-wow-duration="2s">
-                    <h1 class="mb-4 font-weight-bold" style="line-height: 45px;">¿Qué es Soli?</h1>
-                    <p class="font-size-20">Soli es una (app) de una billetera móvil para los Bolivianos que les permite digitalizar su dinero para hacer pagos y transacciones <a href="https://www.bcp.com.bo/Tarifario/Tarifario_Soli_Pagos_BCP" target="_blank">sin comisión.</a></p>
-                    <a href="./soli" type="button" class="btn_cta mb-20 mt-30 ">Conoce Soli</a>
+            <div class="col-lg-12">
+                <div class="mb-30">
+                    <h2 class="mb-4 font-weight-bold" style="line-height: 45px;">¿Qué es Yape?</h2>
+                    <p >Yape es una billetera móvil para los Bolivianos que les permite
+                        digitalizar su dinero para hacer pagos y transacciones
+                        <a href="https://www.bcp.com.bo/Tarifario/Tarifario_Soli_Pagos_BCP" target="_blank">sin comisión.</a>
+                    </p>
+                    <a href="./soli" type="button" class="btn_cta mb-20 mt-30 ">Conoce más aquí</a>
                 </div>
             </div>
-            <div class="col-md-4 wow fadeInRight" data-wow-duration="2s">
-                <video class="video_megate" poster="./assets/img/animacion1.png" width="70%" style="pointer-events: none;" autoplay loop playsinline muted preload="auto">
-                    <source src="./assets/video/que_es_soli.webm" type='video/webm' />
+        </div>
+        <div class="row text-center">
+            <div class="col-lg-12" >
+                <video poster="./assets/img/animacion1.png" width="400px"
+                       style="pointer-events: none;" autoplay loop playsinline muted preload="auto">
+                    <source src="./assets/video/que_es_soli.webm" type='video/webm'/>
                 </video>
             </div>
         </div>
     </section>
-    <section class="hide_phone">
-        <div class="row mb-50 mt-50 wow fadeIn" data-wow-duration="2s">
-            <div class="col-md-offset-2 col-md-8 col-sm-12 text-center" >
-                <h2 class="mb-4 font-weight-bold" style="line-height: 45px;">Déjanos tu número de celular para invitarte a que te unas a Soli</h2>
-                <form name="form_main">
-                    <input  class="input-whatsapp-link-soli mb-20" type="text" name="number" id="number" utocomplete="off"> <br>
-                    <button type="button" class="btn_cta" onclick="generateLink()">Enviar</button>
-                </form>
-            </div>
-        </div>
-    </section>
+    <!--    <section class="hide_phone">-->
+    <!--        <div class="row mb-50 mt-50 wow fadeIn" data-wow-duration="2s">-->
+    <!--            <div class="col-md-offset-2 col-md-8 col-sm-12 text-center" >-->
+    <!--                <h2 class="mb-4 font-weight-bold" style="line-height: 45px;">Déjanos tu número de celular para invitarte a que te unas a Soli</h2>-->
+    <!--                <form name="form_main">-->
+    <!--                    <input  class="input-whatsapp-link-soli mb-20" type="text" name="number" id="number" utocomplete="off"> <br>-->
+    <!--                    <button type="button" class="btn_cta" onclick="generateLink()">Enviar</button>-->
+    <!--                </form>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </section>-->
     <section>
         <div class="row mb-50 mt-50">
-            <div class="col-md-offset-2 col-md-8 col-xs-12 col-sm-12 text-center button_grid">
-                <h2 class="font-weight-bold mb-25 wow fadeInDown" data-wow-duration="2s">RECARGA TU BILLETERA SOLI</h2>
-                <button href="#soli-ubicacion" class="button-82-pushable mb-25 wow fadeInLeft" data-wow-duration="2s" role="button" data-toggle="modal" data-target="#soli-ubicacion">
-                    <span class="button-82-shadow"></span>
-                    <span class="button-82-edge-alternative"></span>
-                    <span class="button-82-front-alternative text">Puntos Soli</span>
-                </button>
-                <button onclick=" window.location = 'soli/recarga_tu_billetera_soli.html'" class="button-82-pushable mb-25 wow fadeInRight" data-wow-duration="2s" role="button">
-                    <span class="button-82-shadow"></span>
-                    <span class="button-82-edge"></span>
-                    <span class="button-82-front text">¿Cómo recargo?</span>
-                </button>
-                <!--                    <a href="#soli-ubicacion" type="button" data-toggle="modal" data-target="#soli-ubicacion" class="btn_cta btn_cta_exp mb-25">Puntos Soli</a>-->
+            <div class="col-md-12 col-xs-12 col-sm-12 text-center">
+                <h2 class="font-weight-bold">Recarga tu billetera Yape</h2>
             </div>
         </div>
-        <div class="cards-wrapper mb-100 wow fadeIn" data-wow-duration="2s" data-wow-delay=".5">
-            <div class="card-wrapper">
-                <div class="card-1 card-object card-object-hf"><a class="face front" href="#">
-                    <div class="title-wrapper">
-                        <div class="title">QR</div>
-                        <!--                            <div class="subtitle">felis hairyus</div>-->
-                    </div>
-                </a><a class="face back" href="#">
-                    <div class="img-wrapper">
-                        <div class="avatar"></div>
-                    </div>
-                    <div class="info-wrapper">
-                        <div class="info-title">QR</div>
-                        <ul class="info-content">
-                            <li class="info-content-item">Genera el QR</li>
-                            <li class="info-content-item">Escanea desde una cuenta bancaria</li>
-                            <li class="info-content-item"><span>Y listo!!! Así de fácil</span></li>
-                        </ul>
-                    </div>
-                </a></div>
+        <div class="row">
+            <div class="col-md-6 col-xs-12 button_recarga_yape_l">
+                <div class="cta "><a href="#soli-ubicacion" type="button" class="btn_cta mb-30 mt-30 " role="button" data-toggle="modal" data-target="#soli-ubicacion">Mapa de puntos Yape</a></div>
             </div>
-            <div class="card-wrapper wow fadeIn" data-wow-duration="2s" data-wow-delay="1.5">
-                <div class="card-2 card-object card-object-hf">
-                    <a class="face front" href="#">
-                        <div class="title-wrapper">
-                            <div class="title">AGENCIA BCP</div>
-                            <!--                            <div class="subtitle">felis catus</div>-->
-                        </div>
-                    </a>
-                    <a class="face back" href="#">
-                        <div class="img-wrapper">
-                            <div class="avatar"></div>
-                        </div>
-                        <div class="info-wrapper">
-                            <div class="info-title">AGENCIA BCP</div>
-                            <ul class="info-content">
-                                <li class="info-content-item">Busca la agencia más cercana</li>
-                                <li class="info-content-item">Indícale tu número celular en Soli al cajero</li>
-                                <li class="info-content-item"><span>Y listo!!! Así de fácil</span></li>
-                            </ul>
-                        </div>
-                    </a>
+            <div class="col-md-6 col-xs-12 button_recarga_yape_r">
+                <div class="cta "><a href="soli/recarga_tu_billetera_soli.html" type="button" class="btn_cta mb-30 mt-30 ">¿Cómo recargo mi Yape?</a></div>
+            </div>
+        </div>
+        <div class="row cards-wrapper mt-50 mb-50">
+            <div class="col-md-3 col-xs-12 col-sm-12 text-center">
+                <div class="card-wrapper" style="display: flex;justify-content: flex-end;">
+                    <div class="card-1 card-object card-object-hf flip-in">
+                        <a class="face back" href="#">
+                            <div class="img-wrapper">
+
+                            </div>
+                            <div class="info-wrapper">
+                                <div class="info-title">QR</div>
+                                <ul class="info-content">
+                                    <li class="info-content-item">Genera el QR</li>
+                                    <li class="info-content-item">Escanea desde una cuenta bancaria</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div class="card-wrapper wow fadeIn" data-wow-duration="2s" data-wow-delay="2.5">
-                <div class="card-3 card-object card-object-hf"><a class="face front" href="#">
-                    <div class="title-wrapper">
-                        <div class="title">AGENTE BCP</div>
-                        <!--                            <div class="subtitle">felix pumus</div>-->
+            <div class="col-md-3 col-xs-12 col-sm-12 text-center">
+                <div class="card-wrapper">
+                    <div class="card-2 card-object card-object-hf flip-in">
+                        <a class="face back" href="#">
+                            <div class="img-wrapper">
+
+                            </div>
+                            <div class="info-wrapper">
+                                <div class="info-title">AGENCIA BCP</div>
+                                <ul class="info-content">
+                                    <li class="info-content-item">Busca la agencia más cercana</li>
+                                    <li class="info-content-item">Indícale tu número celular en Soli al cajero</li>
+                                </ul>
+                            </div>
+                        </a>
                     </div>
-                </a><a class="face back" href="#">
-                    <div class="img-wrapper">
-                        <div class="avatar"></div>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-12 col-sm-12" >
+                <div class="card-wrapper" style="display: flex;justify-content: flex-start;">
+                    <div class="card-3 card-object card-object-hf flip-in">
+                        <a class="face back" href="#">
+                            <div class="img-wrapper"></div>
+                            <div class="info-wrapper">
+                                <div class="info-title">AGENTE BCP</div>
+                                <ul class="info-content">
+                                    <li class="info-content-item">Busca el agente mas cercano</li>
+                                    <li class="info-content-item">Indicale tu numero celular en Soli al cajero</li>
+                                </ul>
+                            </div>
+                        </a>
                     </div>
-                    <div class="info-wrapper">
-                        <div class="info-title">AGENTE BCP</div>
-                        <ul class="info-content">
-                            <li class="info-content-item">Busca el agente mas cercano</li>
-                            <li class="info-content-item">Indicale tu numero celular en Soli al cajero</li>
-                            <li class="info-content-item"><span>Y listo!!! Así de fácil</span></li>
-                        </ul>
-                    </div>
-                </a></div>
+                </div>
             </div>
         </div>
-
-
     </section>
 
-    <section class="bg-centroayuda wow fadeIn" data-wow-duration="2s">
-                <div class="container container-centroayuda">
-                    <div class="col-md-12 mt-50 text-white">
-                        <div class="font-size-40 bariol_italic_bold_title "><b>¿Tienes dudas sobre Soli? </b></div>
-                    </div>
-                    <div class="col-md-12 mt-30 text-white">
-                        <div class="font-size-30 bariol_regular_paragraph">Ingresa a nuestro "Centro de Ayuda"</div>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="cta mb-20"><a href="ayuda/" type="button" class="btn_cta mb-20 mt-30 ">Conoce más</a></div>
-                    </div>
-                </div>
-            </section>
+    <section class="bg-centroayuda">
+        <div class="container container-centroayuda">
+            <div class="col-md-12 mt-50">
+                <h4 class="yaperos__title d-flex flex-column">¿Tienes dudas sobre Yape?<span class="count">Ingresa a nuestro "Centro de Ayuda"</span></h4>
+            </div>
+            <div class="col-md-12">
+                <div class="cta mb-20"><a href="ayuda/" type="button" class="btn_cta mb-20 mt-30 ">Conoce más</a></div>
+            </div>
+        </div>
+    </section>
 
-    <section class="section feature mt-50" id="transacciones">
+    <section class="section feature mt-50 pt-4 bg-gray" id="transacciones">
         <h2 class="font-weight-bold text-center mb-10">Conoce el mundo de beneficios que tienes con Soli</h2>
-        <div class="row bg-elipse mb-50 wow fadeInUp">
-            <div class="col-lg-4 align-self-center text-center text-lg-right">
+        <div class="row bg-elipse mb-50">
+            <div class="col-lg-offset-3 col-lg-2 col-md-offset-2  col-md-2  col-xs-10 align-self-center text-center text-lg-right">
                 <!-- Feature Item -->
-                <a href="ayuda/tarjetas-de-regalo.html" target="_self" title="centro de ayuda tarjetas de regalo con Soli">
+                <a href="ayuda/pagos-sin-contacto.html#que-es-un-pago-qr" target="_self"
+                   title="centro de ayuda paga y recibe qr con Soli">
                     <div class="feature-item">
                         <!-- Icon -->
                         <div class="icon">
@@ -445,15 +438,18 @@
                         </div>
                         <!-- Content -->
                         <div class="content">
-                            <img loading="lazy" class="lazyload pa-10" data-src="assets/img/soli-compra-internet.png" width="75" height="auto" alt="compra gift cards con soli" title="compra gift cards con soli">
-                            <h3>Compra por <b>internet</b></h3>
-                            <!--                                <p>(Varias opciones de Gift cards)</p>-->
+                            <img loading="lazy" class="lazyload pa-10" data-src="assets/img/soli-pago-qr.png" width="75"
+                                 height="auto" alt="recibe y cobra dinero con qr usando soli"
+                                 title="recibe y cobra dinero con qr usando soli">
+                            <h3>Paga y cobra con <b>QR</b></h3>
+                            <!--                                <p>(En miles de comercios)</p>-->
                         </div>
                     </div>
                 </a>
 
                 <!-- Feature Item -->
-                <a href="ayuda/pagos-de-servicios.html" target="_self" title="centro de ayuda paga tus servicios basicos con Soli">
+                <a href="ayuda/pagos-de-servicios.html" target="_self"
+                   title="centro de ayuda paga tus servicios basicos con Soli">
                     <div class="feature-item mb-0">
                         <!-- Icon -->
                         <div class="icon">
@@ -462,7 +458,9 @@
                         <!-- Content -->
 
                         <div class="content">
-                            <img loading="lazy" class="lazyload pa-10" data-src="assets/img/soli-pago-servicios.png" width="75" height="auto" alt="paga tus servicios basicos con soli" title="paga tus servicios basicos con soli">
+                            <img loading="lazy" class="lazyload pa-10" data-src="assets/img/soli-pago-servicios.png"
+                                 width="75" height="auto" alt="paga tus servicios basicos con soli"
+                                 title="paga tus servicios basicos con soli">
                             <h3>Paga tus <b>servicios básicos</b></h3>
                             <!--                                <p>(Desde casa y en pocos pasos)</p>-->
                         </div>
@@ -470,10 +468,11 @@
                 </a>
 
             </div>
-            <div class="col-lg-4 text-center">
+            <div class="col-lg-2 col-md-2 col-xs-offset-1 col-xs-10 text-center">
                 <!-- Feature Item -->
                 <!--                   -->
-                <a href="ayuda/pagos-de-servicios.html" target="_self" title="centro de ayuda recarga credito a tu linea telefonica con soli">
+                <a href="ayuda/pagos-de-servicios.html" target="_self"
+                   title="centro de ayuda recarga credito a tu linea telefonica con soli">
                     <div class="feature-item">
                         <!-- Icon -->
                         <div class="icon">
@@ -481,7 +480,9 @@
                         </div>
                         <!-- Content -->
                         <div class="content">
-                            <img loading="lazy" class="lazyload pa-10" data-src="assets/img/soli-recarga-credito.png" width="75" height="auto" alt="recarga tu linea de telefono con soli" title="recarga tu linea de telefono con soli">
+                            <img loading="lazy" class="lazyload pa-10" data-src="assets/img/soli-recarga-credito.png"
+                                 width="75" height="auto" alt="recarga tu linea de telefono con soli"
+                                 title="recarga tu linea de telefono con soli">
                             <h3><b>Recarga crédito</b> a tu celular</h3>
                             <!--                                <p>(A todas las telefónicas del país)</p>-->
                         </div>
@@ -489,28 +490,15 @@
                 </a>
                 <div class="app-screen">
                     <a href="soli/" target="_self" title="que es soli">
-                        <img loading="lazy" class="lazyload img-fluid" data-src="assets/img/ms-icon-310x310.png" alt="que es soli" title="que es soli" width="20%" height="auto">
+                        <img loading="lazy" class="lazyload img-fluid" data-src="assets/img/logo.png"
+                             alt="que es soli" title="que es soli" width="20%" height="auto">
                     </a>
                 </div>
-                <!-- Feature Item -->
-                <a href="ayuda/pagos-sin-contacto.html#que-es-un-pago-qr" target="_self" title="centro de ayuda paga y recibe qr con Soli">
-                    <div class="feature-item">
-                        <!-- Icon -->
-                        <div class="icon">
-                            <i class="ti-brush-alt"></i>
-                        </div>
-                        <!-- Content -->
-                        <div class="content">
-                            <img loading="lazy" class="lazyload pa-10" data-src="assets/img/soli-pago-qr.png" width="75" height="auto" alt="recibe y cobra dinero con qr usando soli" title="recibe y cobra dinero con qr usando soli">
-                            <h3>Paga y cobra con <b>QR</b></h3>
-                            <!--                                <p>(En miles de comercios)</p>-->
-                        </div>
-                    </div>
-                </a>
             </div>
-            <div class="col-lg-4 text-center text-lg-left align-self-center">
+            <div class="col-lg-2 col-md-2 col-xs-offset-1 col-xs-10 text-center text-lg-left align-self-center">
                 <!-- Feature Item -->
-                <a href="ayuda/pagos-sin-contacto.html" target="_self" title="centro de ayuda pagos sin contacto NFC con Soli">
+                <a href="ayuda/pagos-sin-contacto.html" target="_self"
+                   title="centro de ayuda pagos sin contacto NFC con Soli">
                     <div class="feature-item">
                         <!-- Icon -->
                         <div class="icon">
@@ -518,14 +506,17 @@
                         </div>
                         <!-- Content -->
                         <div class="content">
-                            <img loading="lazy" class="lazyload pa-10" data-src="assets/img/soli-paga-nfc.png" width="75" height="auto" alt="paga sin contacto (nfc) con soli" title="paga sin contacto (nfc) con soli">
+                            <img loading="lazy" class="lazyload pa-10" data-src="assets/img/soli-paga-nfc.png"
+                                 width="75" height="auto" alt="paga sin contacto (nfc) con soli"
+                                 title="paga sin contacto (nfc) con soli">
                             <h3>Pago <b>sin contacto</b> (NFC)</h3>
                             <!--                                <p>(Más seguro y fácil)</p>-->
                         </div>
                     </div>
                 </a>
                 <!-- Feature Item -->
-                <!----> <a href="ayuda/funcionalidades-y-transferencia.html" target="_self" title="centro de ayuda para enviar y recibir dinero">
+                <!----> <a href="ayuda/funcionalidades-y-transferencia.html" target="_self"
+                           title="centro de ayuda para enviar y recibir dinero">
                 <div class="feature-item">
                     <!-- Icon -->
                     <div class="icon">
@@ -533,7 +524,9 @@
                     </div>
                     <!-- Content -->
                     <div class="content">
-                        <img loading="lazy" class="lazyload pa-10" data-src="assets/img/soli-envia-recibe-dinero.png" width="75" height="auto" alt="envia y recibe dinero de otros bancos y entre solis" title="envia y recibe dinero de otros bancos y entre solis">
+                        <img loading="lazy" class="lazyload pa-10" data-src="assets/img/soli-envia-recibe-dinero.png"
+                             width="75" height="auto" alt="envia y recibe dinero de otros bancos y entre solis"
+                             title="envia y recibe dinero de otros bancos y entre solis">
                         <h3><b>Recibe y envía</b> dinero</h3>
                         <!--                            <p>(Entre Solis y con otros bancos)</p>-->
                     </div>
@@ -545,7 +538,7 @@
 
     <section class="wow fadeIn" data-wow-duration="2s">
         <div class="row mb-50 mt-50">
-            <div class="col-md-offset-1 col-md-10 col-sm-11">
+            <div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1">
                 <div class="mb_parallax_container2 mb_parallax">
                     <div class="mb_parallax_overlay">
                         <h2 class="mb-50 font-weight-bold text-center">Tutoriales Soli</h2>
@@ -554,7 +547,8 @@
 
                                 <!--                                    <lite-youtube videoid="IqXaJJ4ENwY"></lite-youtube>-->
                                 <!--&lt;!&ndash;                                    <iframe loading="lazy" id="display-frame" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>&ndash;&gt;-->
-                                <iframe loading="lazy" id="display-frame" src="" title="reproductor soli" allowfullscreen></iframe>
+                                <iframe loading="lazy" id="display-frame" src="" title="reproductor soli"
+                                        allowfullscreen></iframe>
                             </div>
                             <div id="v-list" class="video-li">
                                 <div id="vli-info">
@@ -562,7 +556,8 @@
                                         <div id="li-titles">
                                             <div class="title-youtube">Tour funciones Soli</div>
                                             <div class="sub-title">
-                                                <a href="https://www.youtube.com/channel/UCD7RHHe-SuFiTWEsC0S1dLg" class="channel">Soli</a>
+                                                <a href="https://www.youtube.com/channel/UCD7RHHe-SuFiTWEsC0S1dLg"
+                                                   class="channel">Soli</a>
                                                 -
                                                 <span id="video-count">1 / 2</span>
                                             </div>
@@ -573,84 +568,120 @@
                                     <div class="video-con active-con" video="https://www.youtube.com/embed/IqXaJJ4ENwY">
                                         <div class="index title">0</div>
                                         <div class="thumb">
-                                            <img loading="lazy" class="lazyload" data-src="assets/img/youtube-soli1.jpg" height="50" width="50" title="Soli | ¿Cómo agregar tu tarjeta de débito BCP a la billetera móvil Soli ?" alt="Soli | ¿Cómo agregar tu tarjeta de débito BCP a la billetera móvil Soli ?">
+                                            <img loading="lazy" class="lazyload" data-src="assets/img/youtube-soli1.jpg"
+                                                 height="50" width="50"
+                                                 title="Soli | ¿Cómo agregar tu tarjeta de débito BCP a la billetera móvil Soli ?"
+                                                 alt="Soli | ¿Cómo agregar tu tarjeta de débito BCP a la billetera móvil Soli ?">
                                         </div>
                                         <div class="v-titles">
-                                            <div class="title-youtube">Soli | ¿Cómo agregar tu tarjeta de débito BCP a la billetera móvil Soli ?💳</div>
+                                            <div class="title-youtube">Soli | ¿Cómo agregar tu tarjeta de débito BCP a
+                                                la billetera móvil Soli ?💳
+                                            </div>
                                             <div class="sub-title">
-                                                <a href="https://www.youtube.com/channel/UCD7RHHe-SuFiTWEsC0S1dLg" class="channel" target="_blank" rel="noreferrer">Soli</a>
+                                                <a href="https://www.youtube.com/channel/UCD7RHHe-SuFiTWEsC0S1dLg"
+                                                   class="channel" target="_blank" rel="noreferrer">Soli</a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="video-con" video="https://www.youtube.com/embed/OiCZXtnCMyA">
                                         <div class="index title">0</div>
                                         <div class="thumb">
-                                            <img loading="lazy" class="lazyload" data-src="assets/img/youtube-soli2.jpg" height="50" width="50" title="Soli | ¿Cómo retirar tu dinero en efectivo de Soli?" alt="Soli | ¿Cómo retirar tu dinero en efectivo de Soli?">
+                                            <img loading="lazy" class="lazyload" data-src="assets/img/youtube-soli2.jpg"
+                                                 height="50" width="50"
+                                                 title="Soli | ¿Cómo retirar tu dinero en efectivo de Soli?"
+                                                 alt="Soli | ¿Cómo retirar tu dinero en efectivo de Soli?">
                                         </div>
                                         <div class="v-titles">
-                                            <div class="title-youtube">Soli | ¿Cómo retirar tu dinero en efectivo de Soli? 🤔</div>
+                                            <div class="title-youtube">Soli | ¿Cómo retirar tu dinero en efectivo de
+                                                Soli? 🤔
+                                            </div>
                                             <div class="sub-title">
-                                                <a href="https://www.youtube.com/channel/UCD7RHHe-SuFiTWEsC0S1dLg" class="channel" target="_blank" rel="noreferrer">Soli</a>
+                                                <a href="https://www.youtube.com/channel/UCD7RHHe-SuFiTWEsC0S1dLg"
+                                                   class="channel" target="_blank" rel="noreferrer">Soli</a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="video-con" video="https://www.youtube.com/embed/FetnBskRaFg">
                                         <div class="index title">0</div>
                                         <div class="thumb">
-                                            <img loading="lazy" class="lazyload" data-src="assets/img/youtube-soli3.jpg" width="50" height="50" title="Soli | Paga servicios básicos" alt="Soli | Paga servicios básicos">
+                                            <img loading="lazy" class="lazyload" data-src="assets/img/youtube-soli3.jpg"
+                                                 width="50" height="50" title="Soli | Paga servicios básicos"
+                                                 alt="Soli | Paga servicios básicos">
                                         </div>
                                         <div class="v-titles">
                                             <div class="title-youtube">Soli | Paga servicios básicos 💦💡⛽️📲💸</div>
                                             <div class="sub-title">
-                                                <a href="https://www.youtube.com/channel/UCD7RHHe-SuFiTWEsC0S1dLg" class="channel" target="_blank" rel="noreferrer">Soli</a>
+                                                <a href="https://www.youtube.com/channel/UCD7RHHe-SuFiTWEsC0S1dLg"
+                                                   class="channel" target="_blank" rel="noreferrer">Soli</a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="video-con" video="https://www.youtube.com/embed/lcGx8iLSThQ">
                                         <div class="index title">0</div>
                                         <div class="thumb">
-                                            <img loading="lazy" class="lazyload" data-src="assets/img/youtube-soli4.jpg" height="50" width="50" title="Soli | ¿Cómo enviar y recibir dinero con/sin QR o número de cuentas con Soli?" alt="Soli | ¿Cómo enviar y recibir dinero con/sin QR o número de cuentas con Soli?">
+                                            <img loading="lazy" class="lazyload" data-src="assets/img/youtube-soli4.jpg"
+                                                 height="50" width="50"
+                                                 title="Soli | ¿Cómo enviar y recibir dinero con/sin QR o número de cuentas con Soli?"
+                                                 alt="Soli | ¿Cómo enviar y recibir dinero con/sin QR o número de cuentas con Soli?">
                                         </div>
                                         <div class="v-titles">
-                                            <div class="title-youtube">Soli | ¿Cómo enviar y recibir dinero con/sin QR o número de cuentas con Soli?🚨🚫🔢🏦</div>
+                                            <div class="title-youtube">Soli | ¿Cómo enviar y recibir dinero con/sin QR o
+                                                número de cuentas con Soli?🚨🚫🔢🏦
+                                            </div>
                                             <div class="sub-title">
-                                                <a href="https://www.youtube.com/channel/UCD7RHHe-SuFiTWEsC0S1dLg" class="channel" target="_blank" rel="noreferrer">Soli</a>
+                                                <a href="https://www.youtube.com/channel/UCD7RHHe-SuFiTWEsC0S1dLg"
+                                                   class="channel" target="_blank" rel="noreferrer">Soli</a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="video-con" video="https://www.youtube.com/embed/A5-9HGZuuwU">
                                         <div class="index title">0</div>
                                         <div class="thumb">
-                                            <img loading="lazy" class="lazyload" data-src="assets/img/youtube-soli5.jpg" width="50" height="50" title="Soli | Recarga dinero a tu billetera móvil Soli" alt="Soli | Recarga dinero a tu billetera móvil Soli">
+                                            <img loading="lazy" class="lazyload" data-src="assets/img/youtube-soli5.jpg"
+                                                 width="50" height="50"
+                                                 title="Soli | Recarga dinero a tu billetera móvil Soli"
+                                                 alt="Soli | Recarga dinero a tu billetera móvil Soli">
                                         </div>
                                         <div class="v-titles">
-                                            <div class="title-youtube">Soli | Recarga dinero a tu billetera móvil Soli💵🤳🏼</div>
+                                            <div class="title-youtube">Soli | Recarga dinero a tu billetera móvil
+                                                Soli💵🤳🏼
+                                            </div>
                                             <div class="sub-title">
-                                                <a href="https://www.youtube.com/channel/UCD7RHHe-SuFiTWEsC0S1dLg" class="channel" target="_blank" rel="noreferrer">Soli</a>
+                                                <a href="https://www.youtube.com/channel/UCD7RHHe-SuFiTWEsC0S1dLg"
+                                                   class="channel" target="_blank" rel="noreferrer">Soli</a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="video-con" video="https://www.youtube.com/embed/cf7AZrso8YI">
                                         <div class="index title">0</div>
                                         <div class="thumb">
-                                            <img loading="lazy" class="lazyload" data-src="assets/img/youtube-soli6.jpg" height="50" width="50" title="Soli| ¿Cómo crear tu cuenta Soli?" alt="Soli | ¿Cómo crear tu cuenta Soli?">
+                                            <img loading="lazy" class="lazyload" data-src="assets/img/youtube-soli6.jpg"
+                                                 height="50" width="50" title="Soli| ¿Cómo crear tu cuenta Soli?"
+                                                 alt="Soli | ¿Cómo crear tu cuenta Soli?">
                                         </div>
                                         <div class="v-titles">
                                             <div class="title-youtube">Soli | ¿Cómo crear tu cuenta Soli? 🤔</div>
                                             <div class="sub-title">
-                                                <a href="https://www.youtube.com/channel/UCD7RHHe-SuFiTWEsC0S1dLg" class="channel" target="_blank" rel="noreferrer">Soli</a>
+                                                <a href="https://www.youtube.com/channel/UCD7RHHe-SuFiTWEsC0S1dLg"
+                                                   class="channel" target="_blank" rel="noreferrer">Soli</a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="video-con" video="https://www.youtube.com/embed/sju9XsN6Hb0">
                                         <div class="index title">0</div>
                                         <div class="thumb">
-                                            <img loading="lazy" class="lazyload" data-src="assets/img/youtube-soli7.jpg" width="50" height="50" title="Soli | Pagos y cobros por QR en Bolivia (2022)" alt="Soli | Pagos y cobros por QR en Bolivia (2022)">
+                                            <img loading="lazy" class="lazyload" data-src="assets/img/youtube-soli7.jpg"
+                                                 width="50" height="50"
+                                                 title="Soli | Pagos y cobros por QR en Bolivia (2022)"
+                                                 alt="Soli | Pagos y cobros por QR en Bolivia (2022)">
                                         </div>
                                         <div class="v-titles">
-                                            <div class="title-youtube">Soli | Pagos y cobros por QR en Bolivia (2022)💵📲</div>
+                                            <div class="title-youtube">Soli | Pagos y cobros por QR en Bolivia
+                                                (2022)💵📲
+                                            </div>
                                             <div class="sub-title">
-                                                <a href="https://www.youtube.com/channel/UCD7RHHe-SuFiTWEsC0S1dLg" class="channel" target="_blank" rel="noreferrer">Soli</a>
+                                                <a href="https://www.youtube.com/channel/UCD7RHHe-SuFiTWEsC0S1dLg"
+                                                   class="channel" target="_blank" rel="noreferrer">Soli</a>
                                             </div>
                                         </div>
                                     </div>
@@ -663,7 +694,7 @@
         </div>
     </section>
 
-    <section id="features" class="features mb-50 wow fadeInUp">
+    <section id="features" class="features bg-gray pb-50">
         <div class="container mb-50">
 
             <div class="section-title aos-init aos-animate mb-50 mt-50" data-aos="fade-up">
@@ -675,7 +706,8 @@
 
                     <div class="icon-box aos-init aos-animate" data-aos="zoom-in" data-aos-delay="50">
                         <a href="soli/" title="todo acerca de soli pagos bcp">
-                            <img loading="lazy" class="lazyload" alt="todo acerca de soli" title="todo acerca de soli" data-src="assets/img/que-es-soli.png" height="auto" width="auto">
+                            <img loading="lazy" class="lazyload" alt="todo acerca de soli" title="todo acerca de soli"
+                                 data-src="assets/img/que-es-soli.png" height="auto" width="auto">
                             <h3>¿Qué es Soli?</h3>
                             <!--                                <p>Todo acerca de nosotros</p>-->
                         </a>
@@ -686,18 +718,23 @@
 
                     <div class="icon-box aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
                         <a href="ayuda/" title="centro de ayuda de soli para resolver tus dudas">
-                            <img loading="lazy" class="lazyload" alt="resuelve tus dudas en nuestro centro de ayuda soli" title="resuelve tus dudas en nuestro centro de ayuda soli" data-src="assets/img/centro-ayuda.png" height="auto" width="auto">
+                            <img loading="lazy" class="lazyload"
+                                 alt="resuelve tus dudas en nuestro centro de ayuda soli"
+                                 title="resuelve tus dudas en nuestro centro de ayuda soli"
+                                 data-src="assets/img/centro-ayuda.png" height="auto" width="auto">
                             <h3>Centro de Ayuda</h3>
                             <!--                                <p>¿Tienes dudas?</p>-->
                         </a>
                     </div>
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-3 mt-4 mt-md-0">
+                <div class="col-lg-3  col-md-4 mt-4 mt-md-0">
 
                     <div class="icon-box aos-init aos-animate" data-aos="zoom-in" data-aos-delay="150">
                         <a href="billeteramovil/">
-                            <img loading="lazy" class="lazyload" alt="guia de billetera movil soli" title="guia de billetera movil soli" data-src="assets/img/guia-billetera.png" height="auto" width="auto">
+                            <img loading="lazy" class="lazyload" alt="guia de billetera movil soli"
+                                 title="guia de billetera movil soli" data-src="assets/img/guia-billetera.png"
+                                 height="auto" width="auto">
                             <h3>Guía Billetera Móvil</h3>
                             <!--                                <p>La nueva forma de pago</p>-->
                         </a>
@@ -710,7 +747,9 @@
 
                     <div class="icon-box aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
                         <a href="solipromociones/">
-                            <img loading="lazy" class="lazyload" alt="conoce todas las promociones de soli" title="conoce todas las promociones de soli" data-src="assets/img/soli-promociones.png" height="auto" width="auto">
+                            <img loading="lazy" class="lazyload" alt="conoce todas las promociones de soli"
+                                 title="conoce todas las promociones de soli" data-src="assets/img/soli-promociones.png"
+                                 height="auto" width="auto">
                             <h3>SoliPromociones</h3>
                             <!--                                <p>Conoce las promociones de Soli</p>-->
                         </a>
@@ -721,7 +760,9 @@
 
                     <div class="icon-box aos-init aos-animate" data-aos="zoom-in" data-aos-delay="250">
                         <a href="solinegocios/">
-                            <img loading="lazy" class="lazyload" alt="despega tu negocio con soli" title="despega tu negocio con soli" data-src="assets/img/soli-negocios.png" height="auto" width="auto">
+                            <img loading="lazy" class="lazyload" alt="despega tu negocio con soli"
+                                 title="despega tu negocio con soli" data-src="assets/img/soli-negocios.png"
+                                 height="auto" width="auto">
                             <h3>SoliNegocios</h3>
                             <!--                                <p>Despega tu negocio</p>-->
                         </a>
@@ -733,22 +774,24 @@
         </div>
     </section>
 
-    <section class="bg-comercios wow fadeIn" data-wow-duration="2s">
-        <div class="container">
-            <div class="col-md-12 mt-50 text-white">
-                <div class="font-size-40 bariol_italic_bold_title "><b>¿Tienes un negocio y necesitas cobrar con QR? </b></div>
-            </div>
-            <div class="col-md-12 mt-30 text-white">
-                <div class="font-size-30 bariol_regular_paragraph">Únete a la transformación digital con Soli</div>
-            </div>
-            <div class="col-md-12 text-white ">
-                <div class="font-size-30 bariol_regular_paragraph">Sin apertura de cuenta de ahorros</div>
-            </div>
-            <div class="col-md-12">
-                <div class="cta mb-20"><a href="solinegocios/" type="button" class="btn_cta mb-20 mt-30 ">Conoce más</a></div>
-            </div>
-        </div>
-    </section>
+<!--    <section class="bg-comercios wow fadeIn" data-wow-duration="2s">-->
+<!--        <div class="container">-->
+<!--            <div class="col-md-12 mt-50 text-white">-->
+<!--                <div class="font-size-40 bariol_italic_bold_title "><b>¿Tienes un negocio y necesitas cobrar con-->
+<!--                    QR? </b></div>-->
+<!--            </div>-->
+<!--            <div class="col-md-12 mt-30 text-white">-->
+<!--                <div class="font-size-30  ">Únete a la transformación digital con Soli</div>-->
+<!--            </div>-->
+<!--            <div class="col-md-12 text-white ">-->
+<!--                <div class="font-size-30  ">Sin apertura de cuenta de ahorros</div>-->
+<!--            </div>-->
+<!--            <div class="col-md-12">-->
+<!--                <div class="cta mb-20"><a href="solinegocios/" type="button" class="btn_cta mb-20 mt-30 ">Conoce más</a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
 
 
     <!-- <section id="soporte" class="section section--sac">
@@ -785,16 +828,25 @@
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header text-center">
-                    <h2 class="font-weight-bold modal-title">Encuentra tu punto más cercano y empieza a recargar tu SOLI o retirar dinero</h2>
+                    <h2 class="font-weight-bold modal-title">Encuentra tu punto más cercano y empieza a recargar tu SOLI
+                        o retirar dinero</h2>
                 </div>
                 <div class="row text-center flex-nowrap">
-                    <div class="col-md-3"><img loading="lazy" title="Punto de Soli" class="lazyload img-fluid" width="50%" height="auto" data-src="assets/img/soli.svg" alt="punto de soli">
+                    <div class="col-md-3"><img loading="lazy" title="Punto de Soli" class="lazyload img-fluid"
+                                               width="50%" height="auto" data-src="assets/img/soli.svg"
+                                               alt="punto de soli">
                         <h3>Soli</h3></div>
-                    <div class="col-md-3"><img loading="lazy" title="Punto de agencia bcp" class="lazyload img-fluid" width="50%" height="auto" data-src="assets/img/agencia.svg" alt="punto de agencia bcp">
+                    <div class="col-md-3"><img loading="lazy" title="Punto de agencia bcp" class="lazyload img-fluid"
+                                               width="50%" height="auto" data-src="assets/img/agencia.svg"
+                                               alt="punto de agencia bcp">
                         <h3>Agencia BCP</h3></div>
-                    <div class="col-md-3"><img loading="lazy" title="Punto de agente bcp" class="lazyload img-fluid special_size" width="55%" height="auto" data-src="assets/img/agente.svg" alt="punto de agente bcp">
+                    <div class="col-md-3"><img loading="lazy" title="Punto de agente bcp"
+                                               class="lazyload img-fluid special_size" width="55%" height="auto"
+                                               data-src="assets/img/agente.svg" alt="punto de agente bcp">
                         <h3>Agente BCP</h3></div>
-                    <div class="col-md-3"><img loading="lazy" title="Punto de atm bcp" class="lazyload img-fluid" width="50%" height="auto" data-src="assets/img/atm.svg" alt="punto de atm bcp">
+                    <div class="col-md-3"><img loading="lazy" title="Punto de atm bcp" class="lazyload img-fluid"
+                                               width="50%" height="auto" data-src="assets/img/atm.svg"
+                                               alt="punto de atm bcp">
                         <h3>ATM BCP</h3></div>
                 </div>
                 <div class="modal-body map-responsive" id="soli_agentes_bcp_atm">
@@ -810,26 +862,40 @@
         <div class="container">
             <div class="footer-content pt-3">
                 <div class="row">
-                    <div class="col-xl-4 col-lg-4 ">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
                         <div class="footer-widget">
                             <div class="footer-logo">
-                                <a href="index.html"><img loading="lazy" class="lazyload img-fluid" width="70" height="70" data-src="assets/img/logo_plus.png" title="logo Soli" alt="logo Soli"></a>
+                                <a href="index.html"><img loading="lazy" class="lazyload img-fluid" width="70"
+                                                          height="70" data-src="assets/img/Logo.Yape.webp"
+                                                          title="logo Soli" alt="logo Soli"></a>
                             </div>
                             <div class="footer-text">
-                                <p>Soli es una (app) de una billetera móvil para los Bolivianos que les permite digitalizar su dinero para hacer pagos y transacciones sin comisión.</p>
+                                <p>Soli es una (app) de una billetera móvil para los Bolivianos que les permite
+                                    digitalizar su dinero para hacer pagos y transacciones sin comisión.</p>
                             </div>
                             <div class="footer-social-icon" style="width: 100%;">
                                 <span>Síguenos - Soli</span>
                                 <!-- <a href="https://www.facebook.com/SoliAplicacion" rel="noreferrer" target="_blank"><i class="fab fa-facebook-f facebook-bg">Facebook</a> -->
-                                <a href="https://www.facebook.com/SoliAplicacion" rel="noreferrer" target="_blank"><img src="assets/img/LogoFacebook.png" style="width:34px;padding-top: 4px;" alt=""> Facebook</a>
-                                <a href="https://www.instagram.com/soli_bcp/" rel="noreferrer" target="_blank"><img src="assets/img/LogoInstagram.png"style="width:34px;padding-top: 4px;" alt=""> Instagram</a>
-                                <a href="https://www.youtube.com/channel/UCXjadMc1P0jJvP2eNkPd4Hg/videos" rel="noreferrer" target="_blank"><img src="assets/img/LogoYouTube.png"style="width:34px;padding-top: 4px;" alt=""> Youtube</a>
-                                <a href="https://wa.me/59162400657" rel="noreferrer" target="_blank"><img src="assets/img/LogoWhatsapp.png"style="width:34px;padding-top: 4px;" alt=""> Whatsapp</a>
-                                <a href="https://www.tiktok.com/@soli_bcp" rel="noreferrer" target="_blank"><img src="assets/img/LogoTikTok.png"style="width:34px;padding-top: 4px;" alt="">TikTok</a>
+                                <a href="https://www.facebook.com/SoliAplicacion" rel="noreferrer" target="_blank">
+                                    <img src="assets/img/LogoFacebook.png" class="icons_social_footer"  alt="">
+                                </a>
+                                <a href="https://www.instagram.com/soli_bcp/" rel="noreferrer" target="_blank">
+                                    <img src="assets/img/LogoInstagram.png" class="icons_social_footer" alt="">
+                                </a>
+                                <a href="https://www.youtube.com/channel/UCXjadMc1P0jJvP2eNkPd4Hg/videos"
+                                   rel="noreferrer" target="_blank">
+                                    <img src="assets/img/LogoYouTube.png" class="icons_social_footer" alt="">
+                                </a>
+                                <a href="https://wa.me/59162400657" rel="noreferrer" target="_blank">
+                                    <img class="icons_social_footer" src="assets/img/LogoWhatsapp.png" alt="">
+                                </a>
+                                <a href="https://www.tiktok.com/@soli_bcp" rel="noreferrer" target="_blank">
+                                    <img class="icons_social_footer" src="assets/img/LogoTikTok.png"  alt="">
+                                </a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-2 col-lg-2 col-md-3 ">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
                         <div class="footer-widget">
                             <div class="footer-widget-heading">
                                 <h3>Conócenos</h3>
@@ -846,7 +912,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-4 ">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
                         <div class="footer-widget">
                             <div class="footer-widget-heading">
                                 <h3>¿Necesitas ayuda?</h3>
@@ -861,19 +927,26 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-xl-3 col-lg-3 col-md-5 ">
+                    <div class="col-lg-1 col-md-3 col-sm-3 col-xs-3">
                         <div class="footer-widget">
                             <div class="footer-widget-heading">
                                 <h3>¿Estás listo?¡Vamos!</h3>
                             </div>
                             <div class="footer-text footer-button mb-25">
                                 <p>
-                                    <a id="descarga_android_soliprincipal_banner1" target="_blank" rel="noreferrer" href="https://play.google.com/store/apps/details?id=com.bcp.bo.wallet&referrer=utm_source%3Dp%25C3%25A1gina_web%26utm_medium%3Dp%25C3%25A1gina_web%26utm_term%3Dp%25C3%25A1gina_web%26utm_content%3Dp%25C3%25A1gina_web%26utm_campaign%3Dp%25C3%25A1gina_web">
-                                        <img loading="lazy" width="170" height="50" class="lazyload btn-banner" data-src="assets/img/soli-05.svg" alt="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store" title="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store">
+                                    <a id="descarga_android_soliprincipal_banner1" target="_blank" rel="noreferrer"
+                                       href="https://play.google.com/store/apps/details?id=com.bcp.bo.wallet&referrer=utm_source%3Dp%25C3%25A1gina_web%26utm_medium%3Dp%25C3%25A1gina_web%26utm_term%3Dp%25C3%25A1gina_web%26utm_content%3Dp%25C3%25A1gina_web%26utm_campaign%3Dp%25C3%25A1gina_web">
+                                        <img loading="lazy" width="170" height="50" class="lazyload btn-banner"
+                                             data-src="assets/img/soli-05.svg"
+                                             alt="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store"
+                                             title="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store">
                                     </a>
-                                    <a id="descarga_iphone_soliprincipal_banner1" target="_blank" rel="noreferrer" href="https://apps.apple.com/es/app/soli-pagos-bcp/id1135987447">
-                                        <img loading="lazy" width="170" height="50" class="lazyload btn-banner" data-src="assets/img/soli-02.svg" alt="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store" title="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store">
+                                    <a id="descarga_iphone_soliprincipal_banner1" target="_blank" rel="noreferrer"
+                                       href="https://apps.apple.com/es/app/soli-pagos-bcp/id1135987447">
+                                        <img loading="lazy" width="170" height="50" class="lazyload btn-banner"
+                                             data-src="assets/img/soli-02.svg"
+                                             alt="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store"
+                                             title="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store">
                                     </a>
                                 </p>
                             </div>
@@ -887,14 +960,18 @@
                 <div class="row">
                     <div class="col-xl-8 col-lg-8 text-center text-lg-left">
                         <div class="copyright-text">
-                            <p>Copyright &copy; 2022, <a href="https://www.asfi.gob.bo/" target="_blank">Esta Entidad es Supervisada por ASFI – Banco de Crédito de Bolivia S.A.</a><br>Banco de Crédito de Bolivia S.A. Av. Hernando Siles N° 5555, edificio “Torre Empresarial ESIMSA”, en la zona de Obrajes de la ciudad de La Paz
+                            <p>Copyright &copy; 2022, <a href="https://www.asfi.gob.bo/" target="_blank">Esta Entidad es
+                                Supervisada por ASFI – Banco de Crédito de Bolivia S.A.</a><br>Banco de Crédito de
+                                Bolivia S.A. Av. Hernando Siles N° 5555, edificio “Torre Empresarial ESIMSA”, en la zona
+                                de Obrajes de la ciudad de La Paz
                             </p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-3 d-none d-lg-block text-right">
                         <div class="footer-menu">
                             <ul>
-                                <li><a href="https://www2.bcp.com.bo/BilleteraBCP/TerminosCondiciones.html" target="_blank">Términos y Condiciones</a></li>
+                                <li><a href="https://www2.bcp.com.bo/BilleteraBCP/TerminosCondiciones.html"
+                                       target="_blank">Términos y Condiciones</a></li>
                                 <!--                                    <li><a href="#">Políticas de Privacidad</a></li>-->
                             </ul>
                         </div>
@@ -921,6 +998,7 @@
             cwmodal.style.display = "none";
         }
     }
+
     function DipNoneModal() {
         cwmodal.style.display = "none";
     }

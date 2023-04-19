@@ -7,6 +7,8 @@
         <item url="file://$PROJECT_DIR$/assets/js/blog.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/blog_script.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/bootstrap.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/config.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/config.min.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/entry.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/ganaconsoli_script.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/jquery.min.js" />
@@ -22,7 +24,6 @@
         <item url="file://$PROJECT_DIR$/assets/js/theme.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/video_youtube.min.js" />
         <item url="file://$PROJECT_DIR$/assets/vendors/owlcarousel/dist/owl.carousel.min.js" />
-        <item url="file://$PROJECT_DIR$/sw.min.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
@@ -31,6 +32,8 @@
       <root url="file://$PROJECT_DIR$/assets/js/blog.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/blog_script.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/bootstrap.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/config.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/config.min.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/entry.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/ganaconsoli_script.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/jquery.min.js" />
@@ -46,8 +49,8 @@
       <root url="file://$PROJECT_DIR$/assets/js/theme.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/video_youtube.min.js" />
       <root url="file://$PROJECT_DIR$/assets/vendors/owlcarousel/dist/owl.carousel.min.js" />
-      <root url="file://$PROJECT_DIR$/sw.min.js" />
     </CLASSES>
+    <JAVADOC />
     <SOURCES />
   </library>
 </component>
