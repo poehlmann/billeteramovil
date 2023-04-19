@@ -1,4 +1,9 @@
 $(document).ready(function() {
+    const copyrightFooter = `<p>Yape Bolivia © ${new Date().getFullYear()}. <a href="https://www.asfi.gob.bo/" target="_blank">Esta Entidad es
+                                Supervisada por ASFI – Banco de Crédito de Bolivia S.A.</a><br>Banco de Crédito de
+                                Bolivia S.A. Av. Hernando Siles N° 5555, edificio “Torre Empresarial ESIMSA”, en la zona
+                                de Obrajes de la ciudad de La Paz</p>`;
+    document.getElementById('copyrightyear').innerHTML = copyrightFooter;
     var client_list = $('.app-active');
     if(client_list.length){
         client_list.owlCarousel({

@@ -1210,7 +1210,7 @@ border-top: 0;
     text-align: center;
     transform: translate(-50%,-50%);
 }
-.page-hero-section{position:relative;height:100vh;}
+.page-hero-section{position:relative;}
 .page-hero-section .hero-caption{height:100%;}
 .page-section{position:relative;padding-bottom:100px;}
 .page-section:not(.fg-white) h3{ color: #3C60BE;font-weight: bold;}

@@ -87,35 +87,32 @@
 }
 .footer-widget-heading h3 {
     color: #fff;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     margin-bottom: 40px;
     position: relative;
 }
-.footer-widget-heading h3::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -15px;
-    height: 2px;
-    width: 50px;
-    background: #06aad1;
-}
+/*.footer-widget-heading h3::before {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    bottom: -15px;*/
+/*    height: 2px;*/
+/*    width: 50px;*/
+/*    background: #06aad1;*/
+/*}*/
 .footer-widget ul li {
     display: inline-block;
-    /*float: left;*/
+    font-size: 14px;
     width: 100%;
     margin-bottom: 5px;
+    color: #ffffff;
 }
 .footer-widget ul li a:hover{
-    color: #06aad1;
+    color: #10cbb4;
 }
 .footer-widget ul li a {
-    color: #aba0a0;
-    /*text-transform: capitalize;*/
-}
-.footer-widget ul li {
-    color: #aba0a0;
+    color: #ffffff;
     /*text-transform: capitalize;*/
 }
 .subscribe-form {
@@ -150,6 +147,7 @@
     margin: 0;
     font-size: 9px;
     color: #878787;
+    line-height: 15px;
 }
 .copyright-text p a{
     color: #06aad1;
