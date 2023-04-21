@@ -1260,6 +1260,11 @@ iframe#_hjRemoteVarsFrame{display:none!important;width:1px!important;height:1px!
     margin-top: 0px;
     margin-bottom: 0px;
 }
+.indent-element-section{
+    display: grid;
+    align-items: center;
+    justify-items: stretch;
+}
 
 .mb--50{
 margin-top: -50px;

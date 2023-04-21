@@ -1,16 +1,60 @@
 (function($) {
     var size;
+    // Obtenga la URL actual, como: http: // localhost: 8083 / myproj / view / my.jsp
+    let curWwwPath=window.document.location.href;
+    // Obtenga el directorio después de la dirección de host, como: myproj / view / my.jsp
+    let pathName=window.document.location.pathname;
+    let pos=curWwwPath.indexOf(pathName);
+    let localhostPaht=curWwwPath.substring(0,pos);
+    // Obtenga el nombre del proyecto con "/", como: / myproj
+    let projectName=pathName.substring(0,pathName.substring(1).indexOf('/')+1);
+    // obtuve http: // localhost: 8083 / myproj
+    let realPath=localhostPaht+projectName;
 
+    function changeUrlMenu(){
+        document.getElementById("descarga_android").src=realPath+"/assets/img/soli-05.svg";
+        document.getElementById("descarga_ios").src=realPath+"/assets/img/soli-02.svg";
+        document.getElementById("footer-facebook").src=realPath+"/assets/img/LogoFacebook.png";
+        document.getElementById("footer-instagram").src=realPath+"/assets/img/LogoInstagram.png";
+        document.getElementById("footer-youtube").src=realPath+"/assets/img/LogoYouTube.png";
+        document.getElementById("footer-whatsapp").src=realPath+"/assets/img/LogoWhatsapp.png";
+        document.getElementById("footer-tiktok").src=realPath+"/assets/img/LogoTikTok.png";
+        document.getElementById("footer-logo").src=realPath+"/assets/img/Logo.Yape.webp";
+
+        if($("#logo-menu-secundary").length == 0) {
+            document.getElementById("logo-menu").src=realPath+"/assets/img/Logo.Yape.webp";
+        }else{
+            document.getElementById("logo-menu-secundary").src=realPath+"/assets/img/logo.png";
+        }
+
+        document.getElementById("menu_inicio").href = realPath+"/index.html";
+        document.getElementById("menu_yape").href = realPath+"/yape/";
+        document.getElementById("menu_ayuda").href = realPath+"/ayuda";
+        document.getElementById("menu_billetera").href = realPath+"/billeteramovil/";
+        document.getElementById("menu_seguridad").href = realPath+"/seguridad/";
+        document.getElementById("menu_promociones").href = realPath+"/solipromociones/";
+        document.getElementById("menu_blog").href = realPath+"/blog/";
+        document.getElementById("menu_negocio").href = realPath+"/solinegocios/";
+
+        document.getElementById("footer_inicio").href = realPath+"/index.html";
+        document.getElementById("footer_yape").href = realPath+"/yape/";
+        document.getElementById("footer_ayuda").href = realPath+"/ayuda";
+        document.getElementById("footer_billetera").href = realPath+"/billeteramovil/";
+        // document.getElementById("footer_seguridad").href = realPath+"/seguridad/";
+        document.getElementById("footer_promociones").href = realPath+"/solipromociones/";
+        document.getElementById("footer_blog").href = realPath+"/blog/";
+        document.getElementById("footer_negocio").href = realPath+"/solinegocios/";
+    }
+    changeUrlMenu();
     //SMALLER HEADER WHEN SCROLL PAGE
     function smallerMenu() {
         var sc = $(window).scrollTop();
         if (sc > 40) {
             $('#header-sroll').addClass('small');
-            document.getElementById("logo-menu").src="assets/img/logo.png";
+            document.getElementById("logo-menu").src=realPath+"/assets/img/logo.png";
         }else {
             $('#header-sroll').removeClass('small');
-            document.getElementById("logo-menu").src="assets/img/Logo.Yape.webp";
-
+            document.getElementById("logo-menu").src=realPath+"/assets/img/Logo.Yape.webp";
         }
     }
 
@@ -87,7 +131,9 @@
     });
 
     $(window).scroll(function(){
-        smallerMenu();
+        if($("#logo-menu-secundary").length == 0) {
+            smallerMenu();
+        }
     });
 
     $(window).resize(function(){

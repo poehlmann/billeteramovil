@@ -10484,8 +10484,8 @@ jQuery(document).ready(function ($) {
 
 jQuery(document).ready(function() {
 
-  if(window.location.href.indexOf('#puntos-soli') != -1) {
-    jQuery('#puntos-soli').modal('show');
+  if(window.location.href.indexOf('#puntos-yape') != -1) {
+    jQuery('#puntos-yape').modal('show');
   }
 });
 

@@ -80,7 +80,7 @@ $(document).ready(function() {
     //     organization: 'bcp-qa'
     // };
     // window.$Letstalk.on('ready', function () {
-    //     window.$Letstalk.launch('chat-pub-soli-qa');
+    //     window.$Letstalk.launch('chat-pub-yape-qa');
     // })
 
     // var date = new Date(); // Create Date object for a reference point
@@ -130,7 +130,7 @@ $(document).ready(function() {
     //             <li></li>
     //             <li></li>
     //         </ul>
-    //                 <img alt="navidad con soli" class="mt-50" src="./assets/img/navidad-y-año-nuevo1.png"> `,
+    //                 <img alt="navidad con yape" class="mt-50" src="./assets/img/navidad-y-año-nuevo1.png"> `,
     //         width: 800,
     //         imageWidth: 500,
     //         imageHeight: 400,
@@ -151,7 +151,7 @@ $(document).ready(function() {
     // }
     // if(date.getDate() == 1 && date.getMonth() == 0 ) {
     //     Swal.fire({
-    //         html: `<img alt="año nuevo con soli" src="./assets/img/navidad-y-año-nuevo2.png"> `,
+    //         html: `<img alt="año nuevo con yape" src="./assets/img/navidad-y-año-nuevo2.png"> `,
     //         width: 800,
     //         imageWidth: 500,
     //         imageHeight: 400,
@@ -217,8 +217,8 @@ $(document).ready(function() {
         force: force
     });
 
-    if(window.location.href.indexOf('#puntos-soli') != -1) {
-        $("#puntos-soli").modal();
+    if(window.location.href.indexOf('#puntos-yape') != -1) {
+        $("#puntos-yape").modal();
     }
 
     if ('serviceWorker' in navigator) {

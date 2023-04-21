@@ -17779,8 +17779,8 @@ ol.breadcrumb.text-darker a:hover {
   /*}*/
   .row-bg{
     filter: brightness(35%);
-    /*background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("../../assets/img/soli-billetera-movil-mobile.jpg") !important;*/
-    /*background-image: url("../../assets/img/soli-billetera-movil-mobile.jpg") !important;*/
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("../../assets/img/yape-billetera-movil-mobile.jpg") !important;*/
+    /*background-image: url("../../assets/img/yape-billetera-movil-mobile.jpg") !important;*/
     display: inline-block; width: 100%; height: 100%; position: absolute; top: 0; left: 0; background-size: inherit; background-position: inherit; background-attachment: inherit; background-repeat: no-repeat;
   }
 }
