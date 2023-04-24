@@ -606,7 +606,7 @@ h2 {
     .store-r:before {
         content: "";
     }
-    a, a h2, a h2:active, a h2:focus, a h2:visited, a:active, a:focus, a:visited, li a, p a {
+    a h2, a h2:active, a h2:focus, a h2:visited, a:active, a:focus, p a {
         font-weight: 700;
     }
     .primary-700 {
@@ -1135,6 +1135,8 @@ img{max-width:100%;height:auto;}
 .mt-60{margin-top:60px!important;}
 .pt-70{padding-top:70px!important;}
 .pb-70{padding-bottom:70px!important;}
+.pt-64{padding-top:64px!important;}
+.pb-64{padding-bottom:64px!important;}
 .mb-70{margin-bottom:70px!important;}
 .text-right{text-align:right!important;}
 .text-center{text-align:center!important;}
@@ -1273,6 +1275,9 @@ margin-top: -50px;
 width: 75%;
 }
 .width-50{
+    width: 50%;
+}
+.width-65{
     width: 50%;
 }
 .width-inherit{
@@ -1672,7 +1677,10 @@ button.close{padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance
         flex-direction: column;
     }
 }
-.bg-elipse{background:url(../img/elipse-bg-three.png) no-repeat;background-position:center;padding-left: 95px;padding-right: 65px;    padding-bottom: 50px;}
+.bg-elipse{
+    background:url(../img/elipse-bg-three.png) no-repeat;
+    background-position:center;
+    }
 .feature h5:hover{
     color: #f6d90b !important;
     border-color: #f6d90b;

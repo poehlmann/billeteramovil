@@ -109,6 +109,10 @@ header .desk-menu .logo {
     position: static;
     float: left;
     margin-left: 3%;
+    margin-top: 5px;
+    margin-right: 1rem;
+    padding-bottom: 0.16rem;
+    padding-top: 0.3125rem;
 }
 header .desk-menu .logo-adn {
     -webkit-transition: all 0.3s ease-in-out;
@@ -467,7 +471,6 @@ header .hamburger-menu {
     display: none;
 }
 header.small::before {
-    box-shadow: 0 5px 25px 0 rgba(46, 61, 73, .2);
     height: 100%;
 }
 header.small .desk-menu .menu-container .menu > li.menu-item-has-children > a::before, header.small .desk-menu .menu-container .menu > li.menu-item-has-children > a::after {
@@ -520,12 +523,35 @@ header .desk-menu .menu-container .menu>li,header .desk-menu .menu-container .me
 header .desk-menu .menu-container .menu>li a{position:relative;font-size:0.9rem;padding:19px 8px;font-weight:700;display:block;color:#FFFFFF;}
 header .desk-menu .menu-container .menu>li .btn_cta{padding: 0px 20px !important; margin-top: 10px;}
 .small .desk-menu .menu-header-container .menu>li a{color:#2c2044;}
-.small .desk-menu .menu-header-container .menu>li a:hover{color:#10CBB4FF;}
+.small .desk-menu .menu-header-container .menu>li a:hover{
+    border-bottom: solid 4px #10CBB4FF;
+}
 header .desk-menu .menu-container .menu>li.menu-item-has-children>a{padding:19px 20px 19px 8px;position:relative;}
-header .desk-menu .menu-container .menu>li.menu-item-has-children>a::after,header .desk-menu .menu-container .menu>li.menu-item-has-children>a::before{-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-ms-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;transition:all .3s ease-in-out;background-color:#fff;position:absolute;content:'';height:1px;width:7px;top:26px;}
+header .desk-menu .menu-container .menu>li.menu-item-has-children>a::after,header .desk-menu .menu-container .menu>li.menu-item-has-children>a::before{-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-ms-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;transition:all .3s ease-in-out;background-color:#fff;position:absolute;content:'';height:1px;width:7px;top:28px;}
 header .desk-menu .menu-container .menu>li.menu-item-has-children>a::before{-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);right:10px;}
 header .desk-menu .menu-container .menu>li.menu-item-has-children>a::after{-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-ms-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg);right:6px;}
-header .desk-menu .menu-container .menu>li.menu-item-has-children .sub-menu{-webkit-transition:all .1s ease-in-out;-moz-transition:all .1s ease-in-out;-ms-transition:all .1s ease-in-out;-o-transition:all .1s ease-in-out;transition:all .1s ease-in-out;-webkit-overflow-scrolling:touch;min-width:130px;position:absolute;list-style:none;padding:0;float:left;left:0;width:100%;display:none;background:#10cbb4;backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);border-radius:0;border:1px solid rgba(255,255,255,.18);}
+header .desk-menu .menu-container .menu>li.menu-item-has-children .sub-menu{
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+    -webkit-overflow-scrolling: touch;
+    min-width: 130px;
+    position: absolute;
+    list-style: none;
+    float: left;
+    left: 0;
+    width: 100%;
+    display: none;
+    border: 1px solid rgba(255,255,255,.18);
+    background: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 0;
+    top: 75px;
+    z-index: 999999991;
+}
 header .desk-menu .menu-container .menu>li.menu-item-has-children .sub-menu li{width:100%;}
 header .desk-menu .menu-container .menu>li.menu-item-has-children .sub-menu li>a{color:#2c2044; font-size: inherit}
 header .desk-menu .menu-container .menu>li.menu-item-has-children .sub-menu li:hover>a{color:#10cbb4;background-color:#eeeff1;}

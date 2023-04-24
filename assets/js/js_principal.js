@@ -1,21 +1,20 @@
 $(document).ready(function() {
-    const copyrightFooter = `<p>Yape Bolivia © ${new Date().getFullYear()}. <a href="https://www.asfi.gob.bo/" target="_blank">Esta Entidad es
+    document.getElementById('copyrightyear').innerHTML =  `<p>Yape Bolivia © ${new Date().getFullYear()}. <a href="https://www.asfi.gob.bo/" target="_blank">Esta Entidad es
                                 Supervisada por ASFI – Banco de Crédito de Bolivia S.A.</a><br>Banco de Crédito de
                                 Bolivia S.A. Av. Hernando Siles N° 5555, edificio “Torre Empresarial ESIMSA”, en la zona
                                 de Obrajes de la ciudad de La Paz</p>`;
-    document.getElementById('copyrightyear').innerHTML = copyrightFooter;
-    var client_list = $('.app-active');
-    if(client_list.length){
-        client_list.owlCarousel({
-            items: 1,
-            singleItem: true,
-            loop: true,
-            autoplay: true,
-            dots: false,
-            nav  : false,
-            autoPlay: 5000
-        });
-    }
+    // var client_list = $('.app-active');
+    // if(client_list.length){
+    //     client_list.owlCarousel({
+    //         items: 1,
+    //         singleItem: true,
+    //         loop: true,
+    //         autoplay: true,
+    //         dots: false,
+    //         nav  : false,
+    //         autoPlay: 5000
+    //     });
+    // }
 
 
     // function createLauncherPanel() {
@@ -181,41 +180,41 @@ $(document).ready(function() {
     //     return false;
     // });
 
-    var force="";
-    if( navigator.userAgent.match(/Android/i)){
-        force='android';
-    }else if(navigator.userAgent.match(/webOS/i)|| navigator.userAgent.match(/iPhone/i)|| navigator.userAgent.match(/iPad/i)|| navigator.userAgent.match(/iPod/i)){
-        force='ios';
-    }else{
-        // force='android';
-        document.getElementById("wrap").style.setProperty("margin-top", "0px", "important");
-        document.getElementById('menu-cel').style.setProperty("margin-top", "0px", "important");
-    }
-    var n = document.querySelector('.smartbanner');
-    if (n) {
-        n.parentNode.removeChild(n);
-    }
-    new SmartBanner({
-        aysHidden: 0,   // days to hide banner after close button is clicked (defaults to 15)
-        daysReminder: 0, // days to hide banner after "VIEW" button is clicked (defaults to 90)
-        appStoreLanguage: 'es', // language code for the App Store (defaults to user's browser language)
-        title: 'Descarga la app Soli',
-        author: 'No necesitas ser cliente del BCP',
-        button: '¡Descarga!',
-        store: {
-            ios: 'App Store',
-            android: 'Google Play'
-        },
-        price: {
-            ios: '',
-            android: ''
-        },
-        // url:'https://onelink.to/xurcbr',
-        hideOnInstall: true,
-        appendToSelector: 'head',
-        layer: false,
-        force: force
-    });
+    // var force="";
+    // if( navigator.userAgent.match(/Android/i)){
+    //     force='android';
+    // }else if(navigator.userAgent.match(/webOS/i)|| navigator.userAgent.match(/iPhone/i)|| navigator.userAgent.match(/iPad/i)|| navigator.userAgent.match(/iPod/i)){
+    //     force='ios';
+    // }else{
+    //     // force='android';
+    //     document.getElementById("wrap").style.setProperty("margin-top", "0px", "important");
+    //     document.getElementById('menu-cel').style.setProperty("margin-top", "0px", "important");
+    // }
+    // var n = document.querySelector('.smartbanner');
+    // if (n) {
+    //     n.parentNode.removeChild(n);
+    // }
+    // new SmartBanner({
+    //     aysHidden: 0,   // days to hide banner after close button is clicked (defaults to 15)
+    //     daysReminder: 0, // days to hide banner after "VIEW" button is clicked (defaults to 90)
+    //     appStoreLanguage: 'es', // language code for the App Store (defaults to user's browser language)
+    //     title: 'Descarga la app Soli',
+    //     author: 'No necesitas ser cliente del BCP',
+    //     button: '¡Descarga!',
+    //     store: {
+    //         ios: 'App Store',
+    //         android: 'Google Play'
+    //     },
+    //     price: {
+    //         ios: '',
+    //         android: ''
+    //     },
+    //     // url:'https://onelink.to/xurcbr',
+    //     hideOnInstall: true,
+    //     appendToSelector: 'head',
+    //     layer: false,
+    //     force: force
+    // });
 
     if(window.location.href.indexOf('#puntos-yape') != -1) {
         $("#puntos-yape").modal();
@@ -242,22 +241,23 @@ function scrollFunction() {
     }
 }
 
-function generateLink() {
-    let number = "+591"+document.form_main.number.value;
-    var yourMessage = 'Bienvenido a tu nueva libertad financiera con Soli usa este enlace para descargar la app movil: https://bit.ly/2Y7g4YU';
-    var message = yourMessage.split(' ').join('%20');
-    let url = 'https://web.whatsapp.com/send?phone=' + number + '&text=%20' + message;
-    if(navigator.userAgent.match(/webOS/i)|| navigator.userAgent.match(/iPhone/i)|| navigator.userAgent.match(/iPad/i)|| navigator.userAgent.match(/iPod/i)) {
-        window.location.assign(url, '_blank');
-    }else{
-        window.open(url, '_blank');
-    }
-    return console.log('https://api.whatsapp.com/send?phone=' + number + '&text=%20' + message)
-}
+// function generateLink() {
+//     let number = "+591"+document.form_main.number.value;
+//     var yourMessage = 'Bienvenido a tu nueva libertad financiera con Soli usa este enlace para descargar la app movil: https://bit.ly/2Y7g4YU';
+//     var message = yourMessage.split(' ').join('%20');
+//     let url = 'https://web.whatsapp.com/send?phone=' + number + '&text=%20' + message;
+//     if(navigator.userAgent.match(/webOS/i)|| navigator.userAgent.match(/iPhone/i)|| navigator.userAgent.match(/iPad/i)|| navigator.userAgent.match(/iPod/i)) {
+//         window.location.assign(url, '_blank');
+//     }else{
+//         window.open(url, '_blank');
+//     }
+//     return console.log('https://api.whatsapp.com/send?phone=' + number + '&text=%20' + message)
+// }
 if (window.navigator.geolocation) {
     // console.log(window.navigator.geolocation);
+    console.log("ubicacion",$("soli_agentes_bcp_atm").length );
     navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
-
+    
     function successCallback(datos) {
         // console.log(datos);
         var YOUR_LAT = datos.coords.latitude;
@@ -281,18 +281,18 @@ if (window.navigator.geolocation) {
 
 ///// Section-1 CSS-Slider /////
 // Auto Switching Images for CSS-Slider
-function bannerSwitcher() {
-    next = $('.sec-1-input').filter(':checked').next('.sec-1-input');
-    if (next.length) next.prop('checked', true);
-    else $('.sec-1-input').first().prop('checked', true);
-}
+// function bannerSwitcher() {
+//     next = $('.sec-1-input').filter(':checked').next('.sec-1-input');
+//     if (next.length) next.prop('checked', true);
+//     else $('.sec-1-input').first().prop('checked', true);
+// }
+//
+// var bannerTimer = setInterval(bannerSwitcher, 5000);
 
-var bannerTimer = setInterval(bannerSwitcher, 5000);
-
-$('nav .controls label').click(function() {
-    clearInterval(bannerTimer);
-    bannerTimer = setInterval(bannerSwitcher, 5000)
-});
+// $('nav .controls label').click(function() {
+//     clearInterval(bannerTimer);
+//     bannerTimer = setInterval(bannerSwitcher, 5000)
+// });
 
 
 ///// Anchor Smooth Scroll /////
@@ -306,52 +306,52 @@ $('nav .controls label').click(function() {
 //     return false;
 //   });
 
-
-var $cards = $('.card-object'),
-    $faceButtons = $('.face');
-
-$faceButtons.on('click', flipCard);
-
-function flipCard(event) {
-    event.preventDefault();
-
-    var $btnFace = $(this),
-        $card = $btnFace.parent('.card-object');
-
-    if( $card.hasClass('flip-in') ) {
-        closeCards();
-    } else {
-        closeCards();
-        openCard($card);
-    }
-
-}
-
-function closeCards() {
-    $cards.each( function() {
-        $(this)
-            .filter('.flip-in')
-            .removeClass('flip-in')
-            .queue( function() {
-                // Force reflow hack
-                var reflow = this.offsetHeight;
-                $(this)
-                    .addClass('flip-out')
-                    .dequeue();
-            })
-
-    });
-}
-
-function openCard($card) {
-    $card
-        .removeClass('flip-out')
-        .queue( function() {
-            // Force reflow hack
-            var reflow = this.offsetHeight;
-            $(this)
-                .addClass('flip-in')
-                .dequeue();
-        });
-
-}
+//
+// var $cards = $('.card-object'),
+//     $faceButtons = $('.face');
+//
+// $faceButtons.on('click', flipCard);
+//
+// function flipCard(event) {
+//     event.preventDefault();
+//
+//     var $btnFace = $(this),
+//         $card = $btnFace.parent('.card-object');
+//
+//     if( $card.hasClass('flip-in') ) {
+//         closeCards();
+//     } else {
+//         closeCards();
+//         openCard($card);
+//     }
+//
+// }
+//
+// function closeCards() {
+//     $cards.each( function() {
+//         $(this)
+//             .filter('.flip-in')
+//             .removeClass('flip-in')
+//             .queue( function() {
+//                 // Force reflow hack
+//                 var reflow = this.offsetHeight;
+//                 $(this)
+//                     .addClass('flip-out')
+//                     .dequeue();
+//             })
+//
+//     });
+// }
+//
+// function openCard($card) {
+//     $card
+//         .removeClass('flip-out')
+//         .queue( function() {
+//             // Force reflow hack
+//             var reflow = this.offsetHeight;
+//             $(this)
+//                 .addClass('flip-in')
+//                 .dequeue();
+//         });
+//
+// }

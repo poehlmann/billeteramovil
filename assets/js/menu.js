@@ -1,4 +1,5 @@
 (function($) {
+
     var size;
     // Obtenga la URL actual, como: http: // localhost: 8083 / myproj / view / my.jsp
     let curWwwPath=window.document.location.href;
@@ -14,20 +15,20 @@
     function changeUrlMenu(){
         document.getElementById("descarga_android").src=realPath+"/assets/img/soli-05.svg";
         document.getElementById("descarga_ios").src=realPath+"/assets/img/soli-02.svg";
-        document.getElementById("footer-facebook").src=realPath+"/assets/img/LogoFacebook.png";
-        document.getElementById("footer-instagram").src=realPath+"/assets/img/LogoInstagram.png";
-        document.getElementById("footer-youtube").src=realPath+"/assets/img/LogoYouTube.png";
-        document.getElementById("footer-whatsapp").src=realPath+"/assets/img/LogoWhatsapp.png";
-        document.getElementById("footer-tiktok").src=realPath+"/assets/img/LogoTikTok.png";
-        document.getElementById("footer-logo").src=realPath+"/assets/img/Logo.Yape.webp";
+        document.getElementById("footer-facebook").src=realPath+"/assets/img/ic_social_facebook_b.svg";
+        document.getElementById("footer-instagram").src=realPath+"/assets/img/ic_social_instagram_b.svg";
+        document.getElementById("footer-youtube").src=realPath+"/assets/img/ic_social_youtube_b.svg";
+        document.getElementById("footer-whatsapp").src=realPath+"/assets/img/ic_social_whatsapp_b.svg";
+        document.getElementById("footer-tiktok").src=realPath+"/assets/img/ic_social_tiktok_b.svg";
+        document.getElementById("footer-logo").src=realPath+"/assets/img/Logo_Bolivia_footer.svg";
 
         if($("#logo-menu-secundary").length == 0) {
-            document.getElementById("logo-menu").src=realPath+"/assets/img/Logo.Yape.webp";
+            document.getElementById("logo-menu").src=realPath+"/assets/img/Logo_Bolivia_2.svg";
         }else{
             document.getElementById("logo-menu-secundary").src=realPath+"/assets/img/logo.png";
         }
 
-        document.getElementById("menu_inicio").href = realPath+"/index.html";
+        // document.getElementById("menu_inicio").href = realPath+"/";
         document.getElementById("menu_yape").href = realPath+"/yape/";
         document.getElementById("menu_ayuda").href = realPath+"/ayuda";
         document.getElementById("menu_billetera").href = realPath+"/billeteramovil/";
@@ -65,7 +66,7 @@
             $('body').removeClass('open-menu');
             $('.hamburger-menu .bar').removeClass('animate');
         }
-    };
+    }
 
     // ESC BUTTON ACTION
     $(document).keyup(function(e) {
