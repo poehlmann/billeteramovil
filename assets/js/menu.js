@@ -28,7 +28,7 @@
             document.getElementById("logo-menu-secundary").src=realPath+"/assets/img/Logo_Bolivia_3.svg";
         }
 
-        // document.getElementById("menu_inicio").href = realPath+"/";
+        document.getElementById("menu_inicio").href = realPath+"/";
         document.getElementById("menu_yape").href = realPath+"/yape/";
         document.getElementById("menu_ayuda").href = realPath+"/ayuda";
         document.getElementById("menu_billetera").href = realPath+"/billeteramovil/";
