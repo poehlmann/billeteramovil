@@ -25,7 +25,7 @@
         if($("#logo-menu-secundary").length == 0) {
             document.getElementById("logo-menu").src=realPath+"/assets/img/Logo_Bolivia_2.svg";
         }else{
-            document.getElementById("logo-menu-secundary").src=realPath+"/assets/img/logo.png";
+            document.getElementById("logo-menu-secundary").src=realPath+"/assets/img/Logo_Bolivia_3.svg";
         }
 
         // document.getElementById("menu_inicio").href = realPath+"/";
@@ -52,10 +52,10 @@
         var sc = $(window).scrollTop();
         if (sc > 40) {
             $('#header-sroll').addClass('small');
-            document.getElementById("logo-menu").src=realPath+"/assets/img/logo.png";
+            document.getElementById("logo-menu").src=realPath+"/assets/img/Logo_Bolivia_3.svg";
         }else {
             $('#header-sroll').removeClass('small');
-            document.getElementById("logo-menu").src=realPath+"/assets/img/Logo.Yape.webp";
+            document.getElementById("logo-menu").src=realPath+"/assets/img/Logo_Bolivia_2.svg";
         }
     }
 

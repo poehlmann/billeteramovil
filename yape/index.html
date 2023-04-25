@@ -213,34 +213,50 @@
             </div>
         </header>
 
-        <section class="page-hero-section" style="padding-top: 15vh;">
+        <section class="page-hero-section" style="padding-top: 15vh; background-image: url('../assets/img/hero_back_yape.svg');background-size: cover;background-position: center center;">
             <div class="container">
-                <div class="row mb-50">
-                    <div class="col-md-6 col-lg-6 text-white indent-element-section">
-                        <h1 class="text-white font-weight-bold">¿Qué es Yape?</h1>
-                        <p class="text-justify text-white">
-                            <b>Yape</b> es una app de billetera móvil para los bolivianos, que permite digitalizar tu
-                            dinero para realizar transacciones como pagos y cobros sin comisión.<br>
-                            Ahora puedes administrar tu dinero en moneda nacional sin necesidad de tener una cuenta
-                            bancaria en Bolivia.
+                <div class="row mb-50 mt-100">
+                    <div class="col-md-6 col-lg-6 text-white indent-element-section ">
+                        <h1 class="text-white font-weight-bold" style="font-weight: 500;font-size: 14px;line-height: 18px;letter-spacing: 0.1px;">¿Qué es Yape?</h1>
+                        <p class="text-justify text-white" style="font-weight: 700;font-size: 48px;line-height: 56px;">
+                            <b>Con Yape,</b><br>¡todo es más fácil!
                         </p>
-                        <div class="text-center">
+                        <div class="">
                             <a href="https://play.google.com/store/apps/details?id=com.bcp.bo.wallet&referrer=utm_source%3Dp%25C3%25A1gina_web%26utm_medium%3Dp%25C3%25A1gina_web%26utm_term%3Dp%25C3%25A1gina_web%26utm_content%3Dp%25C3%25A1gina_web%26utm_campaign%3Dp%25C3%25A1gina_web"
-                                type="button" class="btn_cta mb-20 mt-30 ">¡Obtener Yape!</a>
+                                type="button" class="btn_cta mb-20 mt-30 ">Descargar Yape</a>
                         </div>
                     </div>
-                    <div class="lqd-column col-md-6">
-                        <img src="../assets/img/yape_phone.png" alt="Yape" title="Yape"/>
-                    </div>
+<!--                    <div class="lqd-column col-md-6">-->
+<!--                        <img src="../assets/img/yape_phone.png" alt="Yape" title="Yape"/>-->
+<!--                    </div>-->
                 </div>
             </div>
         </section>
+        <section class="pt-64 pb-64 bg-gray">
+            <div class="row text-center">
+                <div class="col-lg-offset-2 col-lg-5 col-md-offset-2 col-md-4 indent-element-section">
+                    <div class="">
+                        <h2 class="mb-4 font-weight-bold" style="line-height: 45px;">¿Qué es Yape billetera móvil?</h2>
+                        <p >Yape es una billetera móvil para los Bolivianos, que permite
+                            digitalizar tu dinero para realizar transacciones como pagos y cobros sin comisión.
+                            <br><br>
+                            Ahora puedes administrar tu dinero en moneda nacional sin necesidad de tener una cuenta bancaria en Bolivia
+<!--                            <a href="https://www.bcp.com.bo/Tarifario/Tarifario_Yape_Pagos_BCP" target="_blank">sin comisión.</a>-->
+                        </p>
+                        <a href="./yape" type="button" class="btn_cta mb-20 mt-30 ">Conoce Yape</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4" >
+                    <img src="../assets/img/yape_phone.png" alt="Yape" title="Yape"/>
+                </div>
+            </div>
 
+        </section>
         <section>
             <div class="container">
                 <h2 class="text-center font-weight-bold mt-50">¿Qué puedo hacer con<br>la App Yape?</h2>
                 <div class="row ">
-                <div class="col-md-6" id="device">
+                <div class="col-md-offset-2 col-md-4" id="device">
                     <div class="dm-width">
                         <div id="phone_expo" class="dm-device">
                             <div class="device">
@@ -257,39 +273,44 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" style="display: flex;align-items: center;">
                     <div class="" data-localscroll="true">
                         <a class="btn_phone phone1">
-                            <div class="" onclick="scrollFunction_down()"><img alt="Pago QR Yape" src="../assets/img/qr.png" />
-                                <div>TRANSFERENCIAS POR QR<br>
-                                    <p class="">Escanea para enviar dinero o Genera para recibir dinero</p>
+                            <div class="" onclick="scrollFunction_down()" style="display: inline-flex;align-content: flex-end;align-items: flex-start;    margin-top: 26px;border-bottom-style: solid;border-bottom-width: 0.5px;border-bottom-color: #F6F4FB;padding-bottom: 26px;">
+                                <img style="margin-right: 15px;" alt="Pago QR Yape" src="../assets/img/qr.png" />
+                                <div><div style="font-weight: 500;font-size: 20px;line-height: 24px;">Transferencia por QR</div>
+                                    <p class="" style="font-size: 16px;line-height: 24px;">Escanea para enviar dinero o Genera para recibir dinero</p>
                                 </div>
                             </div>
                         </a>
                         <a class="btn_phone phone2">
-                            <div class="" onclick="scrollFunction_down()"><img alt="Transferencias interbancarias a nivel nacional Yape" src="../assets/img/transfer.png" />
-                                <div>TRANSFERENCIAS INTERBANCARIAS<br>
-                                    <p class="">Realiza transacciones de dinero a otros Bancos a nivel nacional.</p>
+                            <div class="" onclick="scrollFunction_down()" style="display: inline-flex;align-content: flex-end;align-items: flex-start;margin-top: 26px;border-bottom-style: solid;border-bottom-width: 0.5px;border-bottom-color: #F6F4FB;padding-bottom: 26px;">
+                                <img style="margin-right: 15px;" alt="Transferencias interbancarias a nivel nacional Yape" src="../assets/img/transfer.png" />
+                                <div><div style="font-weight: 500;font-size: 20px;line-height: 24px;">Transferencias interbancarias</div>
+                                    <p class="" style="font-size: 16px;line-height: 24px;">Realiza transacciones de dinero a otros Bancos a nivel nacional.</p>
                                 </div>
                             </div>
                         </a>
                         <a class="btn_phone phone3">
-                            <div class="" onclick="scrollFunction_down()"><img alt="Pago de servicios básicos por Yape (agua)" src="../assets/img/shop.png" />
-                                <div>COMPRAS EN COMERCIOS FÍSICOS Y DIGITALES<br>
-                                    <p class="">Realiza pagos en comercios que cuenten con QR, NFC o maquina POS (Pasatarjetas)</p>
+                            <div class="" onclick="scrollFunction_down()" style="display: inline-flex;align-content: flex-end;align-items: flex-start;margin-top: 26px;border-bottom-style: solid;border-bottom-width: 0.5px;border-bottom-color: #F6F4FB;padding-bottom: 26px;">
+                                <img style="margin-right: 15px;" alt="Pago de servicios básicos por Yape (agua)" src="../assets/img/shop.png" />
+                                <div><div style="font-weight: 500;font-size: 20px;line-height: 24px;">Compras en comercios físicos y digitales</div>
+                                    <p class="" style="font-size: 16px;line-height: 24px;">Realiza pagos en comercios que cuenten con QR, NFC o máquina POS (Pasatarjetas)</p>
                                 </div></div>
                         </a>
                         <a class="btn_phone phone4">
-                            <div class="" onclick="scrollFunction_down()"><img alt="compras por soli en tiendas fisicas y digitales" src="../assets/img/service.png" />
-                                <div>PAGOS DE SERVICIOS BÁSICOS POR INTERNET<br>
-                                    <p class="">Factura de luz, teléfono, pago de agua, internet, cuenta de gas, entre muchos más.</p>
+                            <div class="" onclick="scrollFunction_down()" style="display: inline-flex;align-content: flex-end;align-items: flex-start;margin-top: 26px;border-bottom-style: solid;border-bottom-width: 0.5px;border-bottom-color: #F6F4FB;padding-bottom: 26px;">
+                                <img style="margin-right: 15px;" alt="compras por soli en tiendas fisicas y digitales" src="../assets/img/service.png" />
+                                <div><div style="font-weight: 500;font-size: 20px;line-height: 24px;">Pagos de servicios básicos por internet</div>
+                                    <p class="" style="font-size: 16px;line-height: 24px;">Factura de luz, teléfono, pago de agua, internet, cuenta de gas, entre muchos más.</p>
                                 </div>
                             </div>
                         </a>
                         <a class="btn_phone phone5">
-                            <div class="" onclick="scrollFunction_down()"><img alt="Recarga de crédito por celular" src="../assets/img/phone.png" />
-                                <div>RECARGA DE CRÉDITO PARA CELULAR<br>
-                                    <p class="">Abona crédito a las distintas líneas a nivel nacional (tigo, entel o viva)</p>
+                            <div class="" onclick="scrollFunction_down()" style="display: inline-flex;align-content: flex-end;align-items: flex-start;margin-top: 26px;border-bottom-style: solid;border-bottom-width: 0.5px;border-bottom-color: #F6F4FB;padding-bottom: 26px;">
+                                <img style="margin-right: 15px;" alt="Recarga de crédito por celular" src="../assets/img/phone.png" />
+                                <div><div style="font-weight: 500;font-size: 20px;line-height: 24px;">Recarga de crédito para celular</div>
+                                    <p class="" style="font-size: 16px;line-height: 24px;">Abona crédito a las distintas líneas a nivel nacional (tigo, entel o viva)</p>
                                 </div>
                             </div>
                         </a>
@@ -303,8 +324,8 @@
             <div class="container">
                 <div class="row mt-50 mb-50">
                     <div class="col-md-6 col-lg-6 section_soli-white indent-element-section">
-                        <h2>¿Cuáles son las ventajas de tener la billetera móvil Yape?</h2>
-                        <ul class="mt-30">
+                        <h2 class="text-center font-weight-bold">¿Cuáles son las ventajas de tener la billetera móvil Yape?</h2>
+                        <ul class="mt-30 checklist">
                             <li>
                                 <p>Transferencia entre Yape's: Traspasa dinero a otra persona de forma fácil e
                                     instantánea.</p>
@@ -323,10 +344,8 @@
                             <a href="https://play.google.com/store/apps/details?id=com.bcp.bo.wallet&referrer=utm_source%3Dp%25C3%25A1gina_web%26utm_medium%3Dp%25C3%25A1gina_web%26utm_term%3Dp%25C3%25A1gina_web%26utm_content%3Dp%25C3%25A1gina_web%26utm_campaign%3Dp%25C3%25A1gina_web" type="button" class="btn_cta mb-20 mt-30 ">¡Usa Yape ahora!</a>
                         </div>
                     </div>
-                    <div class="lqd-column col-md-6  col-lg-6">
-                        <video title="Envio de dinero de una cuenta a otra por Yape" class="video_megate" poster="../assets/img/animacion2.png" width="100%" style="pointer-events: none;" autoplay loop playsinline muted preload="auto">
-                            <source src="../assets/video/beneficios_soli.webm" type='video/webm' />
-                        </video>
+                    <div class="lqd-column col-md-offset-1 col-md-5  col-lg-6">
+                        <img src="../assets/img/yape_ACH.svg" alt="yape ach">
                     </div>
                 </div>
             </div>
@@ -461,7 +480,7 @@
             <div class="copyright-area">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xl-8 col-lg-8 text-lg-left">
+                        <div class="col-xl-8 col-lg-8 text-center">
                             <div id="copyrightyear" class="copyright-text"></div>
                         </div>
                         <div class="col-xl-3 col-lg-3 d-none d-lg-block text-right">

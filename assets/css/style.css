@@ -383,7 +383,7 @@
 
 .device {
     position: absolute;
-    top: 0;
+    top: 15%;
     bottom: 0;
     left: 0;
     right: 0;
@@ -392,7 +392,7 @@
     -webkit-background-size: 100% 100%;
     z-index: 2;
     background-repeat: no-repeat;
-    background-image: url(../img/seguridad_soli.png);
+    /*background-image: url(../img/seguridad_soli.png);*/
     background-size: cover;
     background-position: center center;
 }
@@ -400,14 +400,12 @@
 .screen {
     overflow: hidden;
     z-index: 1;
-    position: absolute;
     top: 83px;
     bottom: 101px;
     left: 45px;
     right: 74px;
-    background-color: #6492c3;
-
     width: 72%;
+    height: 72%;
     border-radius: 28px;
 }
 
@@ -427,23 +425,23 @@
 }
 
 .slider__item--1 {
-    background-image: url("../img/transferencia-qr.jpg");
+    background-image: url("../img/transferencia-qr.svg");
     background-size: contain;
 }
 .slider__item--2 {
-    background-image: url("../img/transferencias-interbancarias.jpg");
+    background-image: url("../img/transferencias-interbancarias.svg");
     background-size: cover;
 }
 .slider__item--3 {
-    background-image: url("../img/compras-digitales.jpg");
+    background-image: url("../img/compras-digitales.svg");
     background-size: cover;
 }
 .slider__item--4 {
-    background-image: url("../img/pago-servicios.jpg");
+    background-image: url("../img/pago-servicios.svg");
     background-size: cover;
 }
 .slider__item--5 {
-    background-image: url("../img/recarga-credito.jpg");
+    background-image: url("../img/recarga-credito.svg");
     background-size: cover;
 }
 .customNavigation{
