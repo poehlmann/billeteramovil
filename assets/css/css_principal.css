@@ -1795,7 +1795,7 @@ button.close{padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance
     height: 190px;
     border-radius: 30px;
     background: #742384;
-    box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #fff;
+    /*box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #fff;*/
     align-content: center;
     justify-content: center;
     align-items: center;
@@ -1803,6 +1803,7 @@ button.close{padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance
 }
 .card_recarga img{
     max-width: 130px;
+    width: 100%;
     padding: 10px;
 }
 .card_recarga span{
