@@ -13,8 +13,12 @@
     let realPath=localhostPaht+projectName;
 
     function changeUrlMenu(){
-        document.getElementById("descarga_android").src=realPath+"/assets/img/soli-05.svg";
-        document.getElementById("descarga_ios").src=realPath+"/assets/img/soli-02.svg";
+        if($("#descarga_android").length != 0) {
+            document.getElementById("descarga_android").src = realPath + "/assets/img/soli-05.svg";
+        }
+        if($("#descarga_ios").length != 0) {
+            document.getElementById("descarga_ios").src = realPath + "/assets/img/soli-02.svg";
+        }
         document.getElementById("footer-facebook").src=realPath+"/assets/img/ic_social_facebook_b.svg";
         document.getElementById("footer-instagram").src=realPath+"/assets/img/ic_social_instagram_b.svg";
         document.getElementById("footer-youtube").src=realPath+"/assets/img/ic_social_youtube_b.svg";

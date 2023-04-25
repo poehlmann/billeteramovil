@@ -46,12 +46,12 @@
     <!-- End Google Tag Manager -->
     <!--Estilos-->
     <link rel="canonical" href="https://www.solipagosbcp.com.bo/solinegocios/">
-    <link rel="stylesheet" href="../assets/vendors/font-awesome/css/all.min.css">
-    <link rel="stylesheet" href="../assets/css/theme-vendors.min.css" />
-    <link rel="stylesheet" href="../assets/css/theme.min.css" />
-    <link rel="stylesheet" href="../assets/css/themes/original.min.css" />
-    <link rel="stylesheet" href="../assets/css/font_bariol.min.css" />
-    <link rel="stylesheet" href="../assets/css/style.min.css">
+<!--    <link rel="stylesheet" href="../assets/vendors/font-awesome/css/all.min.css">-->
+<!--    <link rel="stylesheet" href="../assets/css/theme-vendors.min.css" />-->
+<!--    <link rel="stylesheet" href="../assets/css/theme.min.css" />-->
+<!--    <link rel="stylesheet" href="../assets/css/themes/original.min.css" />-->
+<!--    <link rel="stylesheet" href="../assets/css/style.min.css">-->
+    <link rel="preload" href="../assets/css/css_principal.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/css/css_principal.min.css"></noscript>
     <link rel="stylesheet" href="../assets/css/menu.min.css" />
     <link rel="stylesheet" href="../assets/css/footer.min.css" />
 
@@ -160,73 +160,52 @@
 
 
     <div id="wrap">
-        <header class="header font_dosis" id="header-sroll">
+        <header class="header font_dosis small" id="header-sroll">
             <div class="">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12  col-lg-12">
+                    <div class="col-xs-12 col-sm-12 col-md-offset-2 col-md-10  col-lg-12">
                         <div class="desk-menu">
                             <div class="logo">
                                 <div class="logo-adn">
-                                    <a title="Soli - Billetera Movil" href="https://www.solipagosbcp.com.bo">
-                                    </a>
+                                    <a id="menu_inicio" href=""><img id="logo-menu-secundary" class="logo-menu" alt="logo" src=""></a>
                                 </div>
                             </div>
                             <nav class="box-menu">
-                                <div class="menu-container">
-                                    <div class="menu-head">
-                                        <span>Yape<i class="icon-user"></i></span>
-                                    </div>
+                                <div id="menu-cel" class="menu-container">
+                                    <!--                                <div class="menu-head">-->
+                                    <!--                                    <span>Yape<i class="icon-user"></i></span>-->
+                                    <!--                                </div>-->
                                     <div class="menu-header-container">
                                         <ul id="cd-primary-nav" class="menu main_nav">
-                                            <li class="menu-item">
-                                                <a href="../">INICIO</a>
-                                            </li>
                                             <li class="menu-item ">
-                                                <a href="../yape/">¿Qué es Soli?</a>
+                                                <a id="menu_yape" href="">¿Qué es Yape?</a>
                                             </li>
                                             <li class="menu-item menu-item-has-children">
-                                                <a href="#">Centro de Ayuda</a>
+                                                <a  href="#">Centro de Ayuda</a>
                                                 <ul class="sub-menu">
                                                     <li class="menu-item">
-                                                        <a href="../ayuda/">Centro de ayuda</a>
+                                                        <a id="menu_ayuda" href="">Centro de ayuda</a>
                                                     </li>
                                                     <li class="menu-item">
-                                                        <a href="../billeteramovil/">Guía Billetera Móvil</a>
+                                                        <a id="menu_billetera" href="">Guía Billetera Móvil</a>
                                                     </li>
                                                     <li class="menu-item">
-                                                        <a href="../seguridad/">Seguridad en Soli</a>
+                                                        <a id="menu_seguridad" href="">Seguridad en Yape</a>
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <!-- <li class="menu-item"><a href="../beneficios/">Beneficios</a></li> -->
                                             <li class="menu-item ">
-                                                <a href="../solipromociones/">SoliPromociones</a>
-                                                <!--                                            <ul class="sub-menu">-->
-                                                <!--                                                <li class="menu-item">-->
-                                                <!--                                                    <a href="../solipromociones/solimegate.html">SoliMegate</a>-->
-                                                <!--                                                </li>-->
-                                                <!--                                                <li class="menu-item">-->
-                                                <!--                                                    <a href="../solipromociones/solisocios.html">SoliSocios</a>-->
-                                                <!--                                                </li>-->
-                                                <!--                                            </ul>-->
+                                                <a id="menu_promociones" href="">YapePromociones</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="../blog/">Blog</a>
+                                                <a id="menu_blog" href="">Blog</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="../YapeNegocios/">SoliNegocios</a>
+                                                <a id="menu_negocio" href="">Yape Negocios</a>
                                             </li>
-                                            <li class="menu-item menu-item-has-children">
-                                                <a href="#">Descarga Soli</a>
-                                                <ul class="sub-menu">
-                                                    <li class="menu-item">
-                                                        <a href="http://onelink.to/xurcbr" target="_blank"><img
-                                                                src="../assets/img/qr-code.png" width="150" height="150"
-                                                                alt="QR Soli" /></a>
-                                                    </li>
-                                                </ul>
+                                            <li class="menu-item">
+                                                <a href="https://onelink.to/xurcbr" type="button" class="btn_cta ">¡Descarga!</a>
                                             </li>
-
                                             <li class="line"></li>
                                         </ul>
                                     </div>
@@ -240,508 +219,250 @@
                 </div>
             </div>
         </header>
-        <div class=" carousel-nav-floated carousel-nav-center carousel-dots-style3">
-            <div class="carousel-items row mx-0"
-                data-lqd-flickity='{"cellAlign":"center","prevNextButtons":true,"buttonsAppendTo":"self","pageDots":true,"groupCells":true, "autoPlay":4000}'>
-                <div class="carousel-item col-xs-12 px-0 mb-4">
-                    <section class="bg-cover vc_row py-5 mb-60 bg-position bg-phone-1"
-                        data-row-bg="../assets/img/Comercios-webop1.jpg">
-                        <span class="row-bg-loader"></span>
-                        <div class="container pt-25 mt-100 mb-150">
-                            <div class="row d-flex flex-wrap align-items-center centrar">
-                                <div class="lqd-column col-md-6 col-sm-7 mt-0">
-                                    <div class="ld-fancy-heading">
-                                        <h2 class="text-white font-size-60 line-height-60">
-                                            <span class="ld-fh-txt bariol_regular_bold_title title-phone ">¿Tienes un
-                                                <br> restaurante?</span>
-                                        </h2>
-                                    </div>
-                                    <p class="color-dark-blue line-height-40 font-phone" data-fittext="true"
-                                        data-fittext-options='{"maxFontSize":"40","minFontSize":"30"}'
-                                        data-split-text="true" data-split-options='{ "type": "lines" }'
-                                        data-text-rotator="true">
-                                        <b>Cobra sin comisión con Soli</b>
-                                    <div class="cta mb-20 text-align-phone"><a id="formulario_soli_4"
-                                            href="#formulario-solicitud" type="button" class="btn_cta mb-20 mt-30 ">Tu
-                                            negocio con Soli</a></div>
-                                    </p>
-                                    <div class="btn-down text-align-phone"><span
-                                            class=" up-45 text-white txt2-banner bariol_italic_bold_paragraph ">Descarga
-                                            y crea tu billetera Soli</span><br>
-                                        <a target="_blank" id="descarga_android_comercios_1"
-                                            href="https://play.google.com/store/apps/details?id=com.bcp.bo.wallet&referrer=utm_source%3Dp%25C3%25A1gina_web%26utm_medium%3Dp%25C3%25A1gina_web%26utm_term%3Dp%25C3%25A1gina_web%26utm_content%3Dp%25C3%25A1gina_web%26utm_campaign%3Dp%25C3%25A1gina_web">
-                                            <img loading="lazy" class="download_desktop btn-banner"
-                                                src="../assets/img/soli-05.svg"
-                                                alt="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store"
-                                                title="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store">
-                                            <img loading="lazy" class="download_phone btn-banner"
-                                                src="../assets/img/soliapp-07.svg"
-                                                alt="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store"
-                                                title="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store">
-                                        </a>
-                                        <a target="_blank" id="descarga_iphone_comercios_1"
-                                            href="https://apps.apple.com/es/app/soli-pagos-bcp/id1135987447">
-                                            <img loading="lazy" class="download_desktop btn-banner"
-                                                src="../assets/img/soli-02.svg"
-                                                alt="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store"
-                                                title="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store">
-                                            <img loading="lazy" class="download_phone btn-banner"
-                                                src="../assets/img/soliapp-08.svg"
-                                                alt="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store"
-                                                title="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store"></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="carousel-item col-xs-12 px-0 mb-4">
-                    <section class=" bg-cover vc_row py-5 mb-60 bg-position bg-phone-2"
-                        data-row-bg="../assets/img/Comercios-webop4.jpg">
-                        <span class="row-bg-loader"></span>
-                        <div class="container pt-25 mt-100 mb-150">
-                            <div class="row d-flex flex-wrap align-items-center centrar">
-                                <div class="lqd-column col-md-6 col-sm-7 mt-0">
-                                    <div class="ld-fancy-heading">
-                                        <h2 class="text-white font-size-60 line-height-60">
-                                            <span class="ld-fh-txt bariol_regular_bold_title title-phone">¿Tienes
-                                                una<br> farmacia?</span>
-                                        </h2>
-                                    </div>
-                                    <p class="color-dark-blue line-height-40 font-phone" data-fittext="true"
-                                        data-fittext-options='{"maxFontSize":"40","minFontSize":"30"}'
-                                        data-split-text="true" data-split-options='{ "type": "lines" }'
-                                        data-text-rotator="true">
-                                        <b>Cobra sin comisión con Soli</b>
-                                    <div class="cta mb-20 text-align-phone"><a id="formulario_soli_5"
-                                            href="#formulario-solicitud" type="button" class="btn_cta mb-20 mt-30 ">Tu
-                                            negocio con Soli</a></div>
-                                    </p>
-                                    <div class="btn-down text-align-phone"><span
-                                            class=" up-45 text-white txt2-banner bariol_italic_bold_paragraph ">Descarga
-                                            y crea tu billetera Soli</span><br>
-                                        <a target="_blank" id="descarga_android_comercios_2"
-                                            href="https://play.google.com/store/apps/details?id=com.bcp.bo.wallet&referrer=utm_source%3Dp%25C3%25A1gina_web%26utm_medium%3Dp%25C3%25A1gina_web%26utm_term%3Dp%25C3%25A1gina_web%26utm_content%3Dp%25C3%25A1gina_web%26utm_campaign%3Dp%25C3%25A1gina_web">
-                                            <img loading="lazy" class="download_desktop btn-banner"
-                                                src="../assets/img/soli-05.svg"
-                                                alt="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store"
-                                                title="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store">
-                                            <img loading="lazy" class="download_phone btn-banner"
-                                                src="../assets/img/soliapp-07.svg"
-                                                alt="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store"
-                                                title="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store">
-                                        </a>
-                                        <a target="_blank" id="descarga_iphone_comercios_2"
-                                            href="https://apps.apple.com/es/app/soli-pagos-bcp/id1135987447">
-                                            <img loading="lazy" class="download_desktop btn-banner"
-                                                src="../assets/img/soli-02.svg"
-                                                alt="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store"
-                                                title="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store">
-                                            <img loading="lazy" class="download_phone btn-banner"
-                                                src="../assets/img/soliapp-08.svg"
-                                                alt="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store"
-                                                title="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store"></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="carousel-item col-xs-12 px-0 mb-4">
-                    <section class="bg-cover vc_row py-5 mb-60 bg-position bg-phone-3"
-                        data-row-bg="../assets/img/Comercios-webop2.jpg">
-                        <span class="row-bg-loader"></span>
-                        <div class="container pt-25 mt-100 mb-150">
-                            <div class="row d-flex flex-wrap align-items-center centrar">
-                                <div class="lqd-column col-md-6 col-sm-7 mt-0">
-                                    <div class="ld-fancy-heading">
-                                        <h2 class="text-white font-size-60 line-height-60">
-                                            <span class="ld-fh-txt bariol_regular_bold_title title-phone">¿Tienes
-                                                una<br> tienda?</span>
-                                        </h2>
-                                    </div>
-                                    <p class="color-dark-blue line-height-40 font-phone" data-fittext="true"
-                                        data-fittext-options='{"maxFontSize":"40","minFontSize":"30"}'
-                                        data-split-text="true" data-split-options='{ "type": "lines" }'
-                                        data-text-rotator="true">
-                                        <b>Cobra sin comisión con Soli</b>
-                                    <div class="cta mb-20 text-align-phone"><a id="formulario_soli_6"
-                                            href="#formulario-solicitud" type="button" class="btn_cta mb-20 mt-30 ">Tu
-                                            negocio con Soli</a></div>
-                                    </p>
-                                    <div class="btn-down text-align-phone"><span
-                                            class=" up-45 text-white txt2-banner bariol_italic_bold_paragraph ">Descarga
-                                            y crea tu billetera Soli</span><br>
-                                        <a target="_blank" id="descarga_android_comercios_3"
-                                            href="https://play.google.com/store/apps/details?id=com.bcp.bo.wallet&referrer=utm_source%3Dp%25C3%25A1gina_web%26utm_medium%3Dp%25C3%25A1gina_web%26utm_term%3Dp%25C3%25A1gina_web%26utm_content%3Dp%25C3%25A1gina_web%26utm_campaign%3Dp%25C3%25A1gina_web">
-                                            <img loading="lazy" class="download_desktop btn-banner"
-                                                src="../assets/img/soli-05.svg"
-                                                alt="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store"
-                                                title="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store">
-                                            <img loading="lazy" class="download_phone btn-banner"
-                                                src="../assets/img/soliapp-07.svg"
-                                                alt="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store"
-                                                title="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store">
-                                        </a>
-                                        <a target="_blank" id="descarga_iphone_comercios_3"
-                                            href="https://apps.apple.com/es/app/soli-pagos-bcp/id1135987447">
-                                            <img loading="lazy" class="download_desktop btn-banner"
-                                                src="../assets/img/soli-02.svg"
-                                                alt="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store"
-                                                title="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store">
-                                            <img loading="lazy" class="download_phone btn-banner"
-                                                src="../assets/img/soliapp-08.svg"
-                                                alt="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store"
-                                                title="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store"></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="carousel-item col-xs-12 px-0 mb-4">
-                    <section class="bg-cover vc_row py-5 mb-60 bg-position bg-phone-4"
-                        data-row-bg="../assets/img/Comercios-webop3.jpg">
-                        <span class="row-bg-loader"></span>
-                        <div class="container pt-25 mt-100 mb-150">
-                            <div class="row d-flex flex-wrap align-items-center centrar">
-                                <div class="lqd-column  col-md-6 col-sm-7 mt-0">
-                                    <div class="ld-fancy-heading">
-                                        <h2 class="text-white font-size-60 line-height-60">
-                                            <span class="ld-fh-txt bariol_regular_bold_title title-phone">¿Tienes un<br>
-                                                eCommerce?</span>
-                                        </h2>
-                                    </div>
-                                    <p class="color-dark-blue line-height-40 font-phone" data-fittext="true"
-                                        data-fittext-options='{"maxFontSize":"40","minFontSize":"30"}'
-                                        data-split-text="true" data-split-options='{ "type": "lines" }'
-                                        data-text-rotator="true">
-                                        <b>Cobra sin comisión con Soli</b>
-                                    <div class="cta mb-20 text-align-phone"><a id="formulario_soli_7"
-                                            href="#formulario-solicitud" type="button" class="btn_cta mb-20 mt-30 ">Tu
-                                            negocio con Soli</a></div>
-                                    </p>
-                                    <div class="btn-down text-align-phone"><span
-                                            class=" up-45 text-white txt2-banner bariol_italic_bold_paragraph ">Descarga
-                                            y crea tu billetera Soli</span><br>
-                                        <a target="_blank"
-                                            href="https://play.google.com/store/apps/details?id=com.bcp.bo.wallet&referrer=utm_source%3Dp%25C3%25A1gina_web%26utm_medium%3Dp%25C3%25A1gina_web%26utm_term%3Dp%25C3%25A1gina_web%26utm_content%3Dp%25C3%25A1gina_web%26utm_campaign%3Dp%25C3%25A1gina_web">
-                                            <img loading="lazy" class="download_desktop btn-banner"
-                                                src="../assets/img/soli-05.svg"
-                                                alt="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store"
-                                                title="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store">
-                                            <img loading="lazy" class="download_phone btn-banner"
-                                                src="../assets/img/soliapp-07.svg"
-                                                alt="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store"
-                                                title="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store">
-                                        </a>
-                                        <a target="_blank" id="descarga_iphone_comercios_4"
-                                            href="https://apps.apple.com/es/app/soli-pagos-bcp/id1135987447">
-                                            <img loading="lazy" class="download_desktop btn-banner"
-                                                src="../assets/img/soli-02.svg"
-                                                alt="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store"
-                                                title="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store">
-                                            <img loading="lazy" class="download_phone btn-banner"
-                                                src="../assets/img/soliapp-08.svg"
-                                                alt="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store"
-                                                title="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store"></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-        </div>
 
-        <div class="header-comercios bg-cover bg-phone text-align-phone" style="margin-top: -125px;">
-            <div class="inner-header">
-                <div class="row">
-                    <div class="div_title_comercial">
-                        <h1 class="title_comercial">Potencia la experiencia <br> digital de tus clientes <br> recibiendo
-                            pagos con código QR</h1>
-                    </div>
-                    <div class="col-sm-offset-6 col-md-6 mt-130 section-desktop">
-                        <div class="font-size-30 line-height-40">Únete a la red de <br>Soliemprendedores y Solinegocios
-                        </div>
-                        <a href="#formulario-solicitud" type="button" class="btn_cta mb-20 mt-30 ">¡Empieza ahora!</a>
-                        <ul class="mb-150 text-white line-height-40 font-size-24 ">
-                            <li class="">Digitaliza los cobros de tu negocio con pagos por QR.</li>
-                            <li class="">Transacciones 100% seguras, inmediatas y transparentes.</li>
-                            <li class="">Pagos y cobros sin comisión.</li>
-                            <li class="">No necesitas tener cuenta en el BCP.</li>
-                        </ul>
-                    </div>
-
-                    <div class="col-md-6 mt-130 section-phone">
-                        <a id="formulario_soli_1" href="#formulario-solicitud" type="button"
-                            class="btn_cta mb-20 mt-30 ">¡Empieza ahora!</a>
-                        <div class="font-style-italic font-size-30 mt-100 phone-small-1 line-height-40">¿Estás listo
-                            para digitalizar los pagos en tu negocio?</div>
-                        <div class="font-size-20 mt-20 line-height-40 color-dark-yellow phone-small-2">Únete a la red de
-                            Soliemprendedores y Solinegocios</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="text-center mt-10 mb-30 row">
-                <div class="col-md-12 col-lg-12 ">
-                    <h2 class="font-weight-bold color-dark-blue">¿Quiénes son Soliemprendedores y Solinegocios?</h2>
-                    <div class="table">
-                        <div class="tr">
-                            <div class="td"><img src="../assets/img/soli-tienda-barrio.png"
-                                    alt="Pago por Soli en tiendas de barrio"
-                                    title="Pago por Soli en tiendas de barrio" /></div>
-                            <div class="td"><img src="../assets/img/soli-restaurantes.png"
-                                    alt="Pago por Soli en restaurante" title="Pago por Soli en restaurante" /></div>
-                            <div class="td"><img src="../assets/img/soli-puestos-mercados.png"
-                                    alt="Pago por Soli en mercados" title="Pago por Soli en mercados" /></div>
-                            <div class="td"><img src="../assets/img/soli-tienda-ropa.png"
-                                    alt="Pago por Soli en E-commerce" title="Pago por Soli en E-commerce" /></div>
-                            <div class="td"><img src="../assets/img/soli-ferreterias.png"
-                                    alt="Pago por Soli en Tiendas de electrónicos"
-                                    title="Pago por Soli en Tiendas de electrónicos" /></div>
-                        </div>
-                        <div class="tr">
-                            <div class="td">Tienda de Barrios</div>
-                            <div class="td">Restaurantes</div>
-                            <div class="td">Puestos de Mercado</div>
-                            <div class="td">Tienda de Ropa</div>
-                            <div class="td">Tiendas de electrónicos</div>
+        <section class="page-hero-section" style="padding-top: 20vh;background-image: url(../assets/img/yape_banner_negocios.svg);background-size: cover;background-position: center center;background-repeat: no-repeat;background-origin: content-box;">
+            <div class="container">
+                <div class="row mb-50 mt-100">
+                    <div class="col-md-6 col-lg-6 text-white indent-element-section ">
+                        <h1 class="text-white font-weight-bold" style="font-weight: 500;font-size: 14px;line-height: 18px;letter-spacing: 0.1px;">Yape Negocios</h1>
+                        <p class="text-justify text-white" style="font-weight: 700;font-size: 48px;line-height: 56px;">
+                            <b>Con Yape,</b><br>¡todo es más fácil!
+                        </p>
+                        <div class="">
+                            <a href="https://play.google.com/store/apps/details?id=com.bcp.bo.wallet&referrer=utm_source%3Dp%25C3%25A1gina_web%26utm_medium%3Dp%25C3%25A1gina_web%26utm_term%3Dp%25C3%25A1gina_web%26utm_content%3Dp%25C3%25A1gina_web%26utm_campaign%3Dp%25C3%25A1gina_web"
+                               type="button" class="btn_cta mb-20 mt-30 ">Descargar Yape</a>
                         </div>
                     </div>
-                    <p class="font-style-italic font-size-30">
-                        Buscamos negocios Bolivianos y emprendedores innovadores
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <section class="bg-emprendedor ">
-            <div class="container font-phone">
-                <div class="row" data-custom-animations="true"
-                    data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1200","delay":"150","easing":"easeOutQuint","direction":"backward","initValues":{"translateX":46,"opacity":0},"animations":{"translateX":0,"opacity":1}}'>
-                    <div class="col-md-7 col-lg-7 mb-50">
-                        <h2 class="color-dark-blue line-height-50 font-phone">Requisitos para <br>
-                            <div class="font-phone font-weight-bold font-size-60 title-phone">Soliemprendedores o
-                                Solinegocios</div>
-                        </h2>
-                        <ul class=" line-height-40 ml-4">
-                            <li class="">Smartphone con línea activa de <b>Viva, Entel o Tigo</b></li>
-                            <li class="">Acceso a <b>internet.</b></li>
-                            <li class=""><b>Descargar</b> tu billetera móvil Soli y <b>crear tu cuenta.</b></li>
-                        </ul>
-                        <div class="text-center mb-150">
-                            <a id="descarga_soli_app"
-                                href="https://play.google.com/store/apps/details?id=com.bcp.bo.wallet&referrer=utm_source%3Dp%25C3%25A1gina_web%26utm_medium%3Dp%25C3%25A1gina_web%26utm_term%3Dp%25C3%25A1gina_web%26utm_content%3Dp%25C3%25A1gina_web%26utm_campaign%3Dp%25C3%25A1gina_web"
-                                type="button" class="btn_cta mb-20 mt-30 ">¡Crea tu cuenta Soli!</a>
-                        </div>
-                    </div>
+                    <!--                    <div class="lqd-column col-md-6">-->
+                    <!--                        <img src="../assets/img/yape_phone.png" alt="Yape" title="Yape"/>-->
+                    <!--                    </div>-->
                 </div>
             </div>
         </section>
-
-        <section class="vc_row">
+        <section class="pt-64 bg-gray">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-offset-2 col-md-9 text-center ">
-                        <h2><q><b>Soli,</b> la aplicación ideal para <br> <b>tu negocio virtual y/o físico</b></q></h2>
+                    <div class="col-md-offset-1 col-md-4" >
+                        <img src="../assets/img/yape_girl3.svg" alt="Yape" title="Yape"/>
+                    </div>
+                    <div class=" col-md-6 ">
+                        <h2 class="font-weight-bold yape-texto-purpura">Potencia la experiencia digital de tus clientes recibiendo pagos con código QR</h2>
+                        <p><strong>Únete a la red de Yape Emprendedores y Yape Negocios</strong></p>
+                        <a href="./yape" type="button" class="btn_cta mb-20  ">Empieza ahora</a>
+                        <ul>
+                            <li>Digitaliza los cobros de tu negocio con pagos por QR</li>
+                            <li>Transacciones 100% seguras, inmediatas y transparentes</li>
+                            <li>Pagos y cobros sin comisión</li>
+                            <li>No necesitas tener cuenta en el BCP</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
 
-        <div id="bottom-cta-bg" class="row-stars text-center">
-            <canvas id="canvas2d"></canvas>
-            <div class="col-md-12">
-                <h2 class="text-white font-weight-bold ltr-sp--015" data-fittext="false"
-                    data-fittext-options='{"maxFontSize":"55","minFontSize":"25"}' data-split-text="false"
-                    data-split-options='{ "type": "lines" }' data-text-rotator="false">¡Pagos y transferencias sin
-                    comisiones!</h2>
-            </div>
-            <div class="col-md-12">
-                <p class="text-white ltr-sp--025 line-height-40" data-fittext="false"
-                    data-fittext-options='{"maxFontSize":"30","minFontSize":"20"}' data-split-text="false"
-                    data-split-options='{ "type": "lines" }' data-text-rotator="false">
-                    <b>Todas las transacciones a través de Soli, son gratuitas</b>
-                    <br>
-                    <b>Innova en tu negocio recibiendo pagos digitales con QR</b>
-                </p>
-            </div>
-            <div class="cta mb-20 text-align-phone"><a id="formulario_soli_2" href="#formulario-solicitud" type="button"
-                    class="btn_cta mb-20 mt-30 ">Tu negocio con Soli</a></div>
-        </div>
-
-        <section class="bg-security">
-            <div class="row " data-custom-animations="true"
-                data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1200","delay":"150","easing":"easeOutQuint","direction":"forward","initValues":{"translateX":-46,"opacity":0},"animations":{"translateX":0,"opacity":1}}'>
-                <div class="col-md-offset-6 col-md-5 col-lg-offset-6 col-lg-5">
-                    <h2 class="text-white font-weight-bold font-size-60 line-height-60 title-phone">
-                        ¿Qué seguridad brinda Soli a un negocio o una tienda online en Bolivia?
-                    </h2>
-                    <p class="text-white line-height-40 text-justify font-size-24">
-                        Todas las transacciones viajan encriptadas y con los más altos estándares de seguridad. Soli
-                        procesa todas las transacciones con un token embebido, garantizando la seguridad, simplicidad y
-                        confianza en tus movimientos
-                    </p>
-                    <div class="text-center mb-50">
-                        <a id="formulario_soli_3" href="#formulario-solicitud" type="button"
-                            class="btn_cta mb-20 mt-30 phone-small-font">Recibe pagos con Soli</a>
-                    </div>
-                    <div class="darkened-image"></div>
-                </div>
-            </div>
-        </section>
-
-
-        <section class="vc_row">
+        <section class="pt-64 pb-64">
             <div class="container">
-                <div class="row d-flex flex-wrap align-items-center">
-                    <div class="lqd-column col-md-6 pr-md-7 mb-50 mt-50 text-center" data-custom-animations="true"
-                        data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1200","delay":"150","easing":"easeOutQuint","direction":"forward","initValues":{"translateX":-46,"opacity":0},"animations":{"translateX":0,"opacity":1}}'>
-                        <div class="fancy-title mb-30">
-                            <h3 class="mb-4 font-weight-bold color-dark-blue title-phone">Detrás de los buenos negocios
-                                está Soli</h3>
-                            <p class="font-size-20 lh-16 font-size-phone">Ayudamos a empresarios, comerciantes,
-                                vendedores y emprendedores a facilitar los pagos de sus clientes y a digitalizar sus
-                                sistemas de cobro de simple, segura y gratuita.</p>
+                <div class="row text-center">
+                    <div class="col-md-offset-1 col-md-10 " >
+                        <h2 class="font-weight-bold yape-texto-purpura mb-50">¿Quiénes son Yape emprendedores y Yape negocios?</h2>
+                        <div class="mb-50">
+                            <img src="../assets/img/yape_tienda_barrio.svg" >
+                            <img src="../assets/img/yape_restaurantes.svg" >
+                            <img src="../assets/img/yape_puestos_mercado.svg" >
+                            <img src="../assets/img/yape_tiendas_ropa.svg" >
+                            <img src="../assets/img/yape_tiendas_electronicos.svg" >
+                        </div>
+                        <p class="yape-texto-purpura">Buscamos negocios Bolivianos y emprendedores innovadores</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-64 pb-64 bg-gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-offset-1 col-md-6 indent-element-section" >
+                        <h2 class="font-weight-bold yape-texto-purpura mb-30">Requisitos para Yape emprendedores y Yape Negocios</h2>
+                        <ul style="padding-left: 20px;">
+                            <li class="mb-20">Smartphone con línea de Viva, Entel o Tipo</li>
+                            <li class="mb-20">Acceso a internet</li>
+                            <li class="mb-20">Descargar tu billetera móvil de Yape y crear tu cuenta</li>
+                        </ul>
+                        <a href="./yape" type="button" class="btn_cta mb-20 ">Crea tu cuenta Yape</a>
+                    </div>
+                    <div class=" col-md-4 ">
+                        <img src="../assets/img/yape_yapido_emprendimiento.svg" alt="Yape" title="Yape"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-64 pb-64">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12 " >
+                        <img src="../assets/img/Logo_Bolivia_3.svg" alt="yape negocio" style="width: 60px;" class="mb-20">
+                        <h2 class="yape-texto-purpura">Yape, la aplicación ideal<br><strong>para tu negocio virtual y/o físico</strong></h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-hero-section pt-64 pb-64" style="background-image: url(../assets/img/yape_background.png);background-size: cover;background-position: center center;background-repeat: no-repeat;background-origin: content-box;">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12 text-white ">
+                        <h2 class="text-white font-weight-bold mb-50" style="font-weight: 700;line-height: 56px;">¡Pagos y transferencias sin comisiones!</h2>
+                        <p class="text-justify text-white" style="font-weight: 500;font-size: 14px;line-height: 18px;letter-spacing: 0.1px;">
+                           Todas las transacciones a través de Yape, son gratuitas<br>Innova en tu negocio recibiendo pagos digitales con QR
+                        </p>
+                        <div class="">
+                            <a href="https://play.google.com/store/apps/details?id=com.bcp.bo.wallet&referrer=utm_source%3Dp%25C3%25A1gina_web%26utm_medium%3Dp%25C3%25A1gina_web%26utm_term%3Dp%25C3%25A1gina_web%26utm_content%3Dp%25C3%25A1gina_web%26utm_campaign%3Dp%25C3%25A1gina_web"
+                               type="button" class="btn_cta mb-20 mt-30 ">Tu negocio con Yape</a>
                         </div>
                     </div>
-                    <div class="lqd-column col-md-6 updown">
-                        <figure>
-                            <img loading="lazy" src="../assets/img/soli1comercios.png" alt="soli, compras en Bolivia"
-                                title="soli, compras en Bolivia">
-                        </figure>
-                    </div>
+                    <!--                    <div class="lqd-column col-md-6">-->
+                    <!--                        <img src="../assets/img/yape_phone.png" alt="Yape" title="Yape"/>-->
+                    <!--                    </div>-->
                 </div>
             </div>
         </section>
 
-        <section class="vc_row pb-70">
+        <section class="pt-64 pb-64 bg-gray">
             <div class="container">
-                <div class="row d-flex flex-wrap align-items-center holder">
-                    <div class="lqd-column col-md-6 col-xs-12 text-center updown">
-                        <figure>
-                            <img loading="lazy" src="../assets/img/soli2comercios.png" style="width: 100%;"
-                                alt="emprendedor boliviano administra su dinero en su billetera móvil Soli"
-                                title="emprendedor boliviano administra su dinero en su billetera móvil Soli">
-                        </figure>
+                <div class="row">
+                    <div class="col-md-offset-1 col-md-4 indent-element-section" >
+                        <img src="../assets/img/yape_girl4.svg" alt="Yape" title="Yape"/>
                     </div>
-                    <div class="lqd-column col-md-5 col-md-offset-1 pr-md-7 mb-50 mt-50 text-center"
-                        data-custom-animations="true"
-                        data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1200","delay":"150","easing":"easeOutQuint","direction":"forward","initValues":{"translateX":-46,"opacity":0},"animations":{"translateX":0,"opacity":1}}'>
-                        <div class="fancy-title mb-30">
-                            <h3 class="mb-4 font-weight-bold color-dark-blue title-phone">Detrás de la transformación
-                                digital, está Soli</h3>
-                            <p class="font-size-20 lh-16 font-size-phone">Queremos ayudarte a crear una experiencia
-                                digital en pagos para que puedas recaudar tu dinero de manera simple, segura y gratuita.
-                            </p>
-                        </div>
+                    <div class="  col-md-6  ">
+                        <h2 class="font-weight-bold yape-texto-purpura mb-30">¿Qué seguridad brinda Yape a un negocio o una tienda online en Bolivia?</h2>
+                        <p class="text-justify">Todas las transacciones viajan encriptadas y con los más altos estándares de seguridad. Yape procesa todas las transacciones con un token embebido, garantizando la seguridad, simplicidad y confianza en tus movimientos</p>
+                        <a href="./yape" type="button" class="btn_cta mb-20 ">Recibe pagos con Yape</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="formulario-solicitud" class="text-center">
-            <iframe
-                src="https://docs.google.com/forms/d/e/1FAIpQLSdQQHtYjjmV4l86WEMVcp-Jc-KRI2kn3MWK3TDnX3qDeHi89Q/viewform?embedded=true"
-                width="640" height="1780" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <section class="pt-64 ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-offset-1 col-md-5 indent-element-section" >
+                        <h2 class="font-weight-bold yape-texto-purpura mb-30">Detrás de los buenos negocios esta Yape</h2>
+                        <p class="text-justify">Ayudamos a empresarios, comerciantes, vendedores y emprendedores a facilitar los pagos de sus clientes y a digitalizar sus sistemas de cobro de manera simple, segura y gratuita</p>
+                    </div>
+                    <div class="col-md-offset-1 col-md-4 ">
+                        <img src="../assets/img/yape_card.svg" alt="Yape" title="Yape"/>
+                    </div>
+                </div>
+            </div>
         </section>
+
+        <section class=" pb-64">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-offset-1 col-md-4 " >
+                        <img src="../assets/img/yape_girl_yapito.svg" alt="Yape" title="Yape"/>
+                    </div>
+                    <div class=" col-md-offset-1 col-md-5 indent-element-section">
+                        <h2 class="font-weight-bold yape-texto-purpura mb-30">Detrás de la transformación digital, está Yape</h2>
+                        <p class="text-justify">Queremos ayudarte a crear una experiencia digital en pagos para que puedas recaudar tu dinero de manera simple, segura y gratuita</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!--        <section id="formulario-solicitud" class="text-center">-->
+<!--            <iframe-->
+<!--                src="https://docs.google.com/forms/d/e/1FAIpQLSdQQHtYjjmV4l86WEMVcp-Jc-KRI2kn3MWK3TDnX3qDeHi89Q/viewform?embedded=true"-->
+<!--                width="640" height="1780" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>-->
+<!--        </section>-->
 
         <footer class="footer-section">
             <div class="container">
                 <div class="footer-content pt-3">
                     <div class="row">
-                        <div class="col-xl-4 col-lg-4 ">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
                             <div class="footer-widget">
                                 <div class="footer-logo">
-                                    <a href="../index.php"><img loading="lazy" width="25%"
-                                                                src="../assets/img/logo_plus.png" class="img-fluid" alt="logo"></a>
+                                    <a href="index.html"><img id="footer-logo" loading="lazy" class="lazyload img-fluid" width="70" height="70" src="" title="logo Yape" alt="logo Yape"></a>
                                 </div>
-                                <div class="footer-text">
-                                    <p>Soli es una (app) de una billetera móvil para los Bolivianos que les permite
-                                        digitalizar su dinero para hacer pagos y transacciones sin comisión.</p>
-                                </div>
-                                <div class="footer-social-icon" style="width: 100%;">
-                                    <span>Síguenos - Soli</span>
-                                    <a href="https://www.facebook.com/SoliAplicacion" target="_blank"><img
-                                            src="../assets/img/LogoFacebook.png" style="width:34px;" alt=""> </a>
-                                    <a href="https://www.instagram.com/soli_bcp/" target="_blank"><img
-                                            src="../assets/img/LogoInstagram.png" style="width:34px;" alt=""></a>
+                                <!--                            <div class="footer-text">-->
+                                <!--                                <p>Yape es una (app) de una billetera móvil para los Bolivianos que les permite-->
+                                <!--                                    digitalizar su dinero para hacer pagos y transacciones sin comisión.</p>-->
+                                <!--                            </div>-->
+                                <di class="footer-social-icon" style="width: 100%;">
+                                    <span>Síguenos - Yape</span>
+                                    <!-- <a href="https://www.facebook.com/YapeAplicacion" rel="noreferrer" target="_blank"><i class="fab fa-facebook-f facebook-bg">Facebook</a> -->
+                                    <a href="https://www.facebook.com/YapeAplicacion" rel="noreferrer" target="_blank">
+                                        <img id="footer-facebook" src="" class="icons_social_footer"  alt="">
+                                    </a>
+                                    <a href="https://www.instagram.com/soli_bcp/" rel="noreferrer" target="_blank">
+                                        <img id="footer-instagram" src="" class="icons_social_footer" alt="">
+                                    </a>
                                     <a href="https://www.youtube.com/channel/UCXjadMc1P0jJvP2eNkPd4Hg/videos"
-                                        target="_blank"><img src="../assets/img/LogoYouTube.png" style="width:34px;"
-                                            alt=""></a>
-                                    <a href="https://wa.me/59162400657" target="_blank"><img
-                                            src="../assets/img/LogoWhatsapp.png" style="width:34px;" alt=""></a>
-                                    <a href="https://www.tiktok.com/@soli_bcp" target="_blank"><img
-                                            src="../assets/img/LogoTikTok.png" style="width:34px;" alt=""></a>
-                                </div>
+                                       rel="noreferrer" target="_blank">
+                                        <img id="footer-youtube" src="" class="icons_social_footer" alt="">
+                                    </a>
+                                    <a href="https://wa.me/59162400657" rel="noreferrer" target="_blank">
+                                        <img id="footer-whatsapp" class="icons_social_footer" src="" alt="">
+                                    </a>
+                                    <a href="https://www.tiktok.com/@soli_bcp" rel="noreferrer" target="_blank">
+                                        <img id="footer-tiktok" class="icons_social_footer" src=""  alt="">
+                                    </a>
+                                </di>
                             </div>
                         </div>
-                        <div class="col-xl-2 col-lg-2 col-md-4 ">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
                             <div class="footer-widget">
                                 <div class="footer-widget-heading">
                                     <h3>Conócenos</h3>
                                 </div>
                                 <ul class="list-footer">
-                                    <li><a href="../">Página principal</a></li>
-                                    <li><a href="../yape/">¿Qué es Soli?</a></li>
-                                    <li><a href="../ayuda/">Centro de ayuda</a></li>
-                                    <li><a href="../billeteramovil/">Guía Billetera Móvil</a></li>
-                                    <li><a href="../solipromociones/">SoliPromociones</a></li>
-                                    <li><a href="../blog/">Entra al blog</a></li>
-                                    <li><a href="../YapeNegocios/">SoliNegocios</a></li>
+                                    <li><a id="footer_inicio" href="">Página principal</a></li>
+                                    <li><a id="footer_yape" href="">¿Qué es Yape?</a></li>
+                                    <li><a id="footer_ayuda" href="">Centro de ayuda</a></li>
+                                    <li><a id="footer_billetera" href="">Guía Billetera Móvil</a></li>
+                                    <li><a id="footer_promociones" href="">Promociones</a></li>
+                                    <li><a id="footer_blog" href="">Blog</a></li>
+                                    <li><a id="footer_negocio" href="">Negocios</a></li>
 
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-3 col-md-4 ">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
                             <div class="footer-widget">
                                 <div class="footer-widget-heading">
                                     <h3>¿Necesitas ayuda?</h3>
                                 </div>
                                 <div class="footer-text mb-25">
-                                    <p>
                                     <ul class="list-footer">
                                         <li><b>La Paz</b> <br>211 4141</li>
                                         <li><b>Santa Cruz</b> <br>311 4141</li>
                                         <li><b>Cochabamba</b> <br>411 4141</li>
                                         <li><b>Resto de Departamentos</b> <br>211 4141</li>
                                     </ul>
-                                    </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-3 col-md-5 ">
+                        <div class="col-lg-1 col-md-3 col-sm-3 col-xs-3">
                             <div class="footer-widget">
                                 <div class="footer-widget-heading">
-                                    <h3>¿Estás listo?¡Vamos!</h3>
+                                    <h3>¿Estás listo? ¡Vamos!</h3>
                                 </div>
                                 <div class="footer-text footer-button mb-25">
                                     <p>
-                                        <a id="descarga_android_soliprincipal_banner1" target="_blank"
-                                            href="https://play.google.com/store/apps/details?id=com.bcp.bo.wallet&referrer=utm_source%3Dp%25C3%25A1gina_web%26utm_medium%3Dp%25C3%25A1gina_web%26utm_term%3Dp%25C3%25A1gina_web%26utm_content%3Dp%25C3%25A1gina_web%26utm_campaign%3Dp%25C3%25A1gina_web">
-                                            <img width="70%" loading="lazy" class="download_desktop btn-banner"
-                                                src="../assets/img/soli-05.svg"
-                                                alt="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store"
-                                                title="Soli Pagos BCP es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store">
-                                            <img width="70%" loading="lazy" class="download_phone btn-banner"
-                                                src="../assets/img/soliapp-07.svg"
-                                                alt="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store"
-                                                title="Soli Pagos BCP es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store">
+                                        <a id="descarga_android_soliprincipal_banner1" target="_blank" rel="noreferrer"
+                                           href="https://play.google.com/store/apps/details?id=com.bcp.bo.wallet&referrer=utm_source%3Dp%25C3%25A1gina_web%26utm_medium%3Dp%25C3%25A1gina_web%26utm_term%3Dp%25C3%25A1gina_web%26utm_content%3Dp%25C3%25A1gina_web%26utm_campaign%3Dp%25C3%25A1gina_web">
+                                            <img id="descarga_android" loading="lazy" width="170" height="50" class="lazyload btn-banner"
+                                                 src=""
+                                                 alt="Yape es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store"
+                                                 title="Yape es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store">
                                         </a>
-                                        <a id="descarga_iphone_soliprincipal_banner1" target="_blank"
-                                            href="https://apps.apple.com/es/app/soli-pagos-bcp/id1135987447">
-                                            <img width="70%" loading="lazy" class="download_desktop btn-banner"
-                                                src="../assets/img/soli-02.svg"
-                                                alt="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store"
-                                                title="Soli Pagos BCP es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store">
-                                            <img width="70%" loading="lazy" class="download_phone btn-banner"
-                                                src="../assets/img/soliapp-08.svg"
-                                                alt="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store"
-                                                title="Soli Pagos BCP es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store"></a>
+                                        <a id="descarga_iphone_soliprincipal_banner1" target="_blank" rel="noreferrer"
+                                           href="https://apps.apple.com/es/app/soli-pagos-bcp/id1135987447">
+                                            <img id="descarga_ios" loading="lazy" width="170" height="50" class="lazyload btn-banner"
+                                                 src=""
+                                                 alt="Yape es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store"
+                                                 title="Yape es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store">
+                                        </a>
                                     </p>
                                 </div>
                             </div>
@@ -752,20 +473,14 @@
             <div class="copyright-area">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xl-8 col-lg-8 text-center text-lg-left">
-                            <div class="copyright-text">
-                                <p>Copyright &copy; 2022, <a href="https://www.asfi.gob.bo/" target="_blank">Esta
-                                        Entidad es Supervisada por ASFI – Banco de Crédito de Bolivia S.A.</a><br>Banco
-                                    de Crédito de Bolivia S.A. Av. Hernando Siles N° 5555, edificio “Torre Empresarial
-                                    ESIMSA”, en la zona de Obrajes de la ciudad de La Paz
-                                </p>
-                            </div>
+                        <div class="col-xl-8 col-lg-8 text-center">
+                            <div id="copyrightyear" class="copyright-text"></div>
                         </div>
                         <div class="col-xl-3 col-lg-3 d-none d-lg-block text-right">
                             <div class="footer-menu">
                                 <ul>
                                     <li><a href="https://www2.bcp.com.bo/BilleteraBCP/TerminosCondiciones.html"
-                                            target="_blank">Términos y Condiciones</a></li>
+                                           target="_blank">Términos y Condiciones</a></li>
                                     <!--                                    <li><a href="#">Políticas de Privacidad</a></li>-->
                                 </ul>
                             </div>
@@ -776,12 +491,13 @@
         </footer>
     </div>
     <script src="../assets/js/jquery.min.js"></script>
-    <script src="../assets/vendors/owlcarousel/dist/owl.carousel.min.js"></script>
-    <script src="../assets/js/theme-vendors.min.js"></script>
-    <script src="../assets/js/theme.min.js"></script>
+<!--    <script src="../assets/vendors/owlcarousel/dist/owl.carousel.min.js"></script>-->
+<!--    <script src="../assets/js/theme-vendors.min.js"></script>-->
+<!--    <script src="../assets/js/theme.min.js"></script>-->
     <!--<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>-->
-    <script src="../assets/js/menu.min.js"></script>
-    <script src="../assets/js/script.min.js"></script>
+    <script src="../assets/js/menu.js"></script>
+    <script src="../assets/js/js_principal.js"></script>
+<!--    <script src="../assets/js/script.min.js"></script>-->
     <script>
         var cwmodal = document.getElementById("c2c-cw-modal");
         var cwspan = document.getElementsByClassName("cw-modal-close")[0];
