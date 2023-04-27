@@ -25,40 +25,6 @@ body {
 /*  background-position: 50% 50%;*/
 /*}*/
 
-/*BOTON DESCARGA YA - INICIO*/
-.btn-cta-wrapper{
-  position: fixed;
-}
-.btn_cta {
-  display: inline-block;
-  box-shadow: none;
-  appearance: none;
-  border: 0;
-  outline: 0;
-  background-color: #09bdde;
-  height: 45px;
-  line-height: 42px;
-  padding: 0 30px;
-  font-size: 20px;
-  border-radius: 30px;
-  color: #000000;
-  cursor: pointer;
-  transition: all 0.5s;
-  transition-timing-function: cubic-bezier(0.2, 3, 0.4, 1);
-  user-select: none;
-  color: #ffffff;
-  font-weight: bold;
-}
-.btn_cta:hover {
-  transform: scale(1.1, 1.1);
-}
-.btn_cta:active {
-  transform: scale(1.05, 1.05);
-}
-
-/*BOTON DESCARGA YA - FIN*/
-
-
 /*DESPEJA DUDAS - INICIO*/
 
 .accordion-expander-left.accordion-active-has-fill .accordion-title a{

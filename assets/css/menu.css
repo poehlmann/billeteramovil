@@ -522,7 +522,7 @@ header .desk-menu .menu-container .menu-head .client i{position:absolute;font-si
 
 header .desk-menu .menu-container .menu>li,header .desk-menu .menu-container .menu>li.menu-item-has-children .sub-menu li{-webkit-transition:all .33s ease;-moz-transition:all .33s ease;-ms-transition:all .33s ease;-o-transition:all .33s ease;transition:all .33s ease;}
 header .desk-menu .menu-container .menu>li a{position:relative;font-size:0.9rem;padding:19px 8px;font-weight:700;display:block;color:#FFFFFF;}
-header .desk-menu .menu-container .menu>li .btn_cta{padding: 0px 20px !important; margin-top: 10px;}
+header .desk-menu .menu-container .menu>li .btn_cta{padding: 0 20px !important; margin-top: 10px;}
 .small .desk-menu .menu-header-container .menu>li a{color:#2c2044;}
 .small .desk-menu .menu-header-container .menu>li a:hover{
     border-bottom: solid 4px #10CBB4FF;
@@ -550,7 +550,7 @@ header .desk-menu .menu-container .menu>li.menu-item-has-children .sub-menu{
     border-radius: 8px;
     padding: 15px;
     margin-bottom: 0;
-    top: 75px;
+    top: 64px;
     z-index: 999999991;
 }
 header .desk-menu .menu-container .menu>li.menu-item-has-children .sub-menu li{width:100%;}

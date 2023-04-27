@@ -163,6 +163,9 @@ h2 {
         cursor: pointer;
         display: list-item;
     }
+    ol{
+        line-height: 30px;
+    }
     h1, h2, h3, h4, h5 {
         color: #002a8d;
         font-family: Flexo-Bold, helvetica, arial, sans-serif;
@@ -180,7 +183,7 @@ h2 {
         font-size: 1.25rem;
     }
     h4 {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
     h5 {
         font-size: 1.25rem;
@@ -1053,6 +1056,9 @@ h2 {
 .background_principal .font_promocion{font-size:44px;}
 .image-top{
     top:15vh;
+}
+.list-hidden{
+    list-style: none;
 }
 .background_principal{background-image:url(../img/que-es-soli2.jpg);background-repeat:no-repeat;background-size:cover;height:100vh;background-position:center center;z-index:1;}
 /*.background_principal img{width:45vh !important; display: initial !important;}*/

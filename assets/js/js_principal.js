@@ -253,32 +253,61 @@ function scrollFunction() {
 //     }
 //     return console.log('https://api.whatsapp.com/send?phone=' + number + '&text=%20' + message)
 // }
-if (window.navigator.geolocation) {
-    // console.log(window.navigator.geolocation);
-    console.log("ubicacion",$("soli_agentes_bcp_atm").length );
-    navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
-    
-    function successCallback(datos) {
-        // console.log(datos);
-        var YOUR_LAT = datos.coords.latitude;
-        var YOUR_LON = datos.coords.longitude
-        var iframe_agentes = document.createElement('iframe');
-        iframe_agentes.width="100%";
-        iframe_agentes.height="400px";
-        iframe_agentes.setAttribute("src", 'https://www.google.com/maps/d/embed?hl=es&mid=1pMd3NZdrUhqfGps3qEePFRPeVEcXgn6u&ll='+YOUR_LAT+'%2C'+YOUR_LON+'&z=13');
-        document.getElementById("soli_agentes_bcp_atm").appendChild(iframe_agentes);
+if($("#soli_agentes_bcp_atm").length != 0) {
+    if (window.navigator.geolocation) {
+        // console.log(window.navigator.geolocation);
 
-    }
+        navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
 
-    function errorCallback(error) {
-        var iframe_agentes = document.createElement('iframe');
-        iframe_agentes.width="100%";
-        iframe_agentes.height="400px";
-        iframe_agentes.setAttribute("src", 'https://www.google.com/maps/d/embed?hl=es&mid=1pMd3NZdrUhqfGps3qEePFRPeVEcXgn6u');
-        document.getElementById("soli_agentes_bcp_atm").appendChild(iframe_agentes);
+        function successCallback(datos) {
+            // console.log(datos);
+            var YOUR_LAT = datos.coords.latitude;
+            var YOUR_LON = datos.coords.longitude
+            var iframe_agentes = document.createElement('iframe');
+            iframe_agentes.width = "100%";
+            iframe_agentes.height = "400px";
+            iframe_agentes.setAttribute("src", 'https://www.google.com/maps/d/embed?hl=es&mid=1pMd3NZdrUhqfGps3qEePFRPeVEcXgn6u&ll=' + YOUR_LAT + '%2C' + YOUR_LON + '&z=13');
+            document.getElementById("soli_agentes_bcp_atm").appendChild(iframe_agentes);
+
+        }
+
+        function errorCallback(error) {
+            var iframe_agentes = document.createElement('iframe');
+            iframe_agentes.width = "100%";
+            iframe_agentes.height = "400px";
+            iframe_agentes.setAttribute("src", 'https://www.google.com/maps/d/embed?hl=es&mid=1pMd3NZdrUhqfGps3qEePFRPeVEcXgn6u');
+            document.getElementById("soli_agentes_bcp_atm").appendChild(iframe_agentes);
+        }
     }
 }
 
+if($("#soli_agentes_bcp_atm").length != 0) {
+    if (window.navigator.geolocation) {
+        // console.log(window.navigator.geolocation);
+
+        navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
+
+        function successCallback(datos) {
+            // console.log(datos);
+            var YOUR_LAT = datos.coords.latitude;
+            var YOUR_LON = datos.coords.longitude
+            var iframe_agentes = document.createElement('iframe');
+            iframe_agentes.width = "100%";
+            iframe_agentes.height = "400px";
+            iframe_agentes.setAttribute("src", 'https://www.google.com/maps/d/embed?hl=es&mid=1pMd3NZdrUhqfGps3qEePFRPeVEcXgn6u&ll=' + YOUR_LAT + '%2C' + YOUR_LON + '&z=13');
+            document.getElementById("soli_agentes_bcp_atm").appendChild(iframe_agentes);
+
+        }
+
+        function errorCallback(error) {
+            var iframe_agentes = document.createElement('iframe');
+            iframe_agentes.width = "100%";
+            iframe_agentes.height = "400px";
+            iframe_agentes.setAttribute("src", 'https://www.google.com/maps/d/embed?hl=es&mid=1pMd3NZdrUhqfGps3qEePFRPeVEcXgn6u');
+            document.getElementById("soli_agentes_bcp_atm").appendChild(iframe_agentes);
+        }
+    }
+}
 ///// Section-1 CSS-Slider /////
 // Auto Switching Images for CSS-Slider
 // function bannerSwitcher() {
