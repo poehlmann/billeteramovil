@@ -1258,7 +1258,7 @@ a.channel:hover{text-decoration:underline;}
     /*#playlist{width:95vw;height:60vh;}*/
 }
 .icons_social_footer{
-    width:20px;padding-top: 4px;
+    width:30px;padding-top: 4px;
 }
 @media only screen and (max-width:950px){
     .footer-social-icon{

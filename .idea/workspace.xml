@@ -16,16 +16,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="cambios en yapepromociones">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/js_principal.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/js_principal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/js_principal.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/js_principal.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/menu.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/menu.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="cambios pagina principal modo movil" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -434,14 +425,7 @@
       <workItem from="1681777924417" duration="5420000" />
       <workItem from="1681919078698" duration="15595000" />
       <workItem from="1682015956628" duration="27290000" />
-      <workItem from="1682352954981" duration="60718000" />
-    </task>
-    <task id="LOCAL-00343" summary="beneficios">
-      <created>1645799097868</created>
-      <option name="number" value="00343" />
-      <option name="presentableId" value="LOCAL-00343" />
-      <option name="project" value="LOCAL" />
-      <updated>1645799097868</updated>
+      <workItem from="1682352954981" duration="61081000" />
     </task>
     <task id="LOCAL-00344" summary="correcion">
       <created>1646462647608</created>
@@ -779,7 +763,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682623883741</updated>
     </task>
-    <option name="localTasksCounter" value="392" />
+    <task id="LOCAL-00392" summary="cambios pagina principal modo movil">
+      <created>1682638827290</created>
+      <option name="number" value="00392" />
+      <option name="presentableId" value="LOCAL-00392" />
+      <option name="project" value="LOCAL" />
+      <updated>1682638827291</updated>
+    </task>
+    <option name="localTasksCounter" value="393" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -807,7 +798,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="cashin" />
     <MESSAGE value="articulos" />
     <MESSAGE value="blog" />
     <MESSAGE value="blog despliegue" />
@@ -832,7 +822,8 @@
     <MESSAGE value="mejoras en css" />
     <MESSAGE value="cambio del home de soli a yape, colores, imagen, tipoografia" />
     <MESSAGE value="cambios en yapepromociones" />
-    <option name="LAST_COMMIT_MESSAGE" value="cambios en yapepromociones" />
+    <MESSAGE value="cambios pagina principal modo movil" />
+    <option name="LAST_COMMIT_MESSAGE" value="cambios pagina principal modo movil" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
