@@ -18,11 +18,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="cambio del home de soli a yape, colores, imagen, tipoografia">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/footer.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/footer.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YapeNegocios/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/YapeNegocios/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/yape/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -432,14 +431,7 @@
       <workItem from="1681777924417" duration="5420000" />
       <workItem from="1681919078698" duration="15595000" />
       <workItem from="1682015956628" duration="27290000" />
-      <workItem from="1682352954981" duration="46476000" />
-    </task>
-    <task id="LOCAL-00340" summary="blog despliegue">
-      <created>1644243851016</created>
-      <option name="number" value="00340" />
-      <option name="presentableId" value="LOCAL-00340" />
-      <option name="project" value="LOCAL" />
-      <updated>1644243851017</updated>
+      <workItem from="1682352954981" duration="47615000" />
     </task>
     <task id="LOCAL-00341" summary="beneficios">
       <created>1645201758921</created>
@@ -777,7 +769,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682569423819</updated>
     </task>
-    <option name="localTasksCounter" value="389" />
+    <task id="LOCAL-00389" summary="cambio del home de soli a yape, colores, imagen, tipoografia">
+      <created>1682610527543</created>
+      <option name="number" value="00389" />
+      <option name="presentableId" value="LOCAL-00389" />
+      <option name="project" value="LOCAL" />
+      <updated>1682610527544</updated>
+    </task>
+    <option name="localTasksCounter" value="390" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
