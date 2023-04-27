@@ -47,15 +47,15 @@
 
     <!--Estilos-->
     <link rel="canonical" href="https://www.solipagosbcp.com.bo/solipromociones/">
-    <link rel="stylesheet" href="../assets/vendors/font-awesome/css/all.min.css">
-    <link rel="stylesheet" href="../assets/css/theme-vendors.min.css" />
-    <link rel="stylesheet" href="../assets/css/theme.min.css" />
-    <link rel="stylesheet" href="../assets/css/themes/original.min.css" />
-    <link rel="stylesheet" href="../assets/css/font_bariol.min.css" />
+<!--    <link rel="stylesheet" href="../assets/vendors/font-awesome/css/all.min.css">-->
+<!--    <link rel="stylesheet" href="../assets/css/theme-vendors.min.css" />-->
+<!--    <link rel="stylesheet" href="../assets/css/theme.min.css" />-->
+<!--    <link rel="stylesheet" href="../assets/css/themes/original.min.css" />-->
+<!--    <link rel="stylesheet" href="../assets/css/font_bariol.min.css" />-->
     <link rel="stylesheet" href="../assets/css/promociones_style.min.css">
     <link rel="stylesheet" href="../assets/css/menu.min.css" />
     <link rel="stylesheet" href="../assets/css/footer.min.css" />
-
+    <link rel="stylesheet" href="../assets/css/css_principal.css" />
     <!-- para llamadas -->
     <link rel="stylesheet" href="../assets/css/c2c.css">
     <!-- <link rel="icon" href="../../favicon.png">  logo en la url -->
@@ -161,76 +161,52 @@
 
 
     <div id="wrap">
-        <header class="header font_dosis" id="header-sroll">
+        <header class="header font_dosis small" id="header-sroll">
             <div class="">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12  col-lg-12">
+                    <div class="col-xs-12 col-sm-12 col-md-offset-2 col-md-10  col-lg-12">
                         <div class="desk-menu">
                             <div class="logo">
                                 <div class="logo-adn">
-                                    <a title="Soli - Billetera Movil" href="https://www.solipagosbcp.com.bo">
-                                    </a>
+                                    <a id="menu_inicio" href=""><img id="logo-menu-secundary" class="logo-menu" alt="logo" src=""></a>
                                 </div>
                             </div>
                             <nav class="box-menu">
-                                <div class="menu-container">
-                                    <div class="menu-head">
-                                        <span>Yape<i class="icon-user"></i></span>
-                                    </div>
+                                <div id="menu-cel" class="menu-container">
+                                    <!--                                <div class="menu-head">-->
+                                    <!--                                    <span>Yape<i class="icon-user"></i></span>-->
+                                    <!--                                </div>-->
                                     <div class="menu-header-container">
                                         <ul id="cd-primary-nav" class="menu main_nav">
-                                            <li class="menu-item">
-                                                <a href="../">INICIO</a>
+                                            <li class="menu-item ">
+                                                <a id="menu_yape" href="">¿Qué es Yape?</a>
+                                            </li>
+                                            <li class="menu-item menu-item-has-children">
+                                                <a  href="#">Centro de Ayuda</a>
+                                                <ul class="sub-menu">
+                                                    <li class="menu-item">
+                                                        <a id="menu_ayuda" href="">Centro de ayuda</a>
+                                                    </li>
+                                                    <li class="menu-item">
+                                                        <a id="menu_billetera" href="">Guía Billetera Móvil</a>
+                                                    </li>
+                                                    <li class="menu-item">
+                                                        <a id="menu_seguridad" href="">Seguridad en Yape</a>
+                                                    </li>
+                                                </ul>
                                             </li>
                                             <li class="menu-item ">
-                                                <a href="../yape/">¿Qué es Soli?</a>
-                                            </li>
-                                            <li class="menu-item menu-item-has-children">
-                                                <a href="#">Centro de Ayuda</a>
-                                                <ul class="sub-menu">
-                                                    <li class="menu-item">
-                                                        <a href="../ayuda/">Centro de ayuda</a>
-                                                    </li>
-                                                    <li class="menu-item">
-                                                        <a href="../billeteramovil/">Guía Billetera Móvil</a>
-                                                    </li>
-                                                    <li class="menu-item">
-                                                        <a href="../seguridad/">Seguridad en Soli</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-
-                                            <!-- <li class="menu-item">
-                                                <a href="../beneficios/">Beneficios</a>
-                                            </li> -->
-                                            <li class="menu-item">
-                                                <a href="../solipromociones/">SoliPromociones</a>
-                                                <!--                                            <ul class="sub-menu">-->
-                                                <!--                                                <li class="menu-item">-->
-                                                <!--                                                    <a href="../solipromociones/solimegate.html">SoliMegate</a>-->
-                                                <!--                                                </li>-->
-                                                <!--                                                <li class="menu-item">-->
-                                                <!--                                                    <a href="../solipromociones/solisocios.html">SoliSocios</a>-->
-                                                <!--                                                </li>-->
-                                                <!--                                            </ul>-->
+                                                <a id="menu_promociones" href="">YapePromociones</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="../blog/">Blog</a>
+                                                <a id="menu_blog" href="">Blog</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="../YapeNegocios/">SoliNegocios</a>
+                                                <a id="menu_negocio" href="">Yape Negocios</a>
                                             </li>
-                                            <li class="menu-item menu-item-has-children">
-                                                <a href="#">Descarga Soli</a>
-                                                <ul class="sub-menu">
-                                                    <li class="menu-item">
-                                                        <a href="http://onelink.to/xurcbr" target="_blank"><img
-                                                                src="../assets/img/qr-code.png" width="150" height="150"
-                                                                alt="QR Soli" /></a>
-                                                    </li>
-                                                </ul>
+                                            <li class="menu-item">
+                                                <a href="https://onelink.to/xurcbr" type="button" class="btn_cta ">¡Descarga!</a>
                                             </li>
-
                                             <li class="line"></li>
                                         </ul>
                                     </div>
@@ -248,242 +224,48 @@
         <section class="wrapper">
             <div class="container-fostrap background_solipromociones">
                 <div class="textcontainer">
-                    <h1><span class="particletext confetti bariol_regular_bold_title text-white">SoliPromociones</span>
-                    </h1>
+                    <h1 class="yape-texto-purpura">Yape Promos</h1>
                 </div>
                 <div class="content">
                     <div class="container">
                         <!-- <div class="row" style="display: flex;justify-content: center;"> -->
                         <div class="row">
-                            <div class="col-xs-12 col-sm-2">
-                            </div>
-                            <div class="col-xs-12 col-sm-4">
-                                <div class="card">
-                                    <a class="img-card" href="#">
+                            <div class="col-md-6">
+                                <div class="card_promocion">
+                                    <a class="img-card_promocion" href="#">
                                         <img src="../assets/img/soli-yapa-web-soli.jpg" alt="promocion soli yapa">
                                     </a>
                                     <div class="card-content text-center">
-                                        <span class=" btn_status label ld_sf_response-success">Vigente</span>
-                                        <h4 class="card-title mt-2">
-                                            <a href="#" style="font-size: 45px;">Soli Aguinaldo</a>
-                                        </h4>
-                                        <p class="" style="font-size: 14px;">
+                                        <h2 class="card-title mb-25 mt-25">
+                                            <a href="#" >Soli Aguinaldo</a>
+                                        </h2>
+                                        <p class="p_promocion" >
                                             Válido desde las 00:00 horas del día 28 de Febrero del 2023, hasta las
                                             23:59 horas del día 28 de abril del 2023.
                                         </p>
-                                    </div>
-                                    <div class="card-read-more">
-                                        <a href="https://www.bcp.com.bo/Promocion/Soliv10" class="btn_card btn-link btn-block text-center" download="">
-                                            Ver bases legales
-                                        </a>
+                                        <a  href="https://www.bcp.com.bo/Promocion/Soliv10" type="button" class="btn_cta mb-20 mt-30 ">Ver bases legales</a>
                                     </div>
                                 </div>
                             </div>
-
-                            <!-- <div class="col-xs-12 col-sm-3"> -->
-                            <!-- <div class="card">
-                                <a class="img-card" href="solicarga-entel.html">
-                                    <img src="../assets/img/promo-solicarga.png" alt="promocion SoliCarga" />
-                                </a>
-                                <div class="card-content text-center">
-                                    <span class=" btn_status label ld_sf_response-success">Vigente</span>
-                                    <h4 class="card-title mt-2">
-                                        <a href="solicarga-entel.html">SoliCarga</a>
-                                    </h4>
-                                    <p class="">
-                                        Válida desde las 00:00 horas del día 21 de abril del 2022, hasta las 23:59
-
-                                        horas del día 18 de enero de 2023. <BR></BR>
-                                    </p>
-                                </div>
-                                <div class="card-read-more">
-                                    <a href="../legales/LEGAL-SOLICARGA.pdf"
-                                        class="btn_card btn-link btn-block text-center" download>
-                                        Ver bases legales
-                                    </a>
-                                </div>
-                            </div> -->
-                            <!-- </div> -->
-
-                            <!-- <div class="row" style="display: flex;justify-content: center;"> -->
-                            <div class="col-xs-12 col-sm-4">
-                                <div class="card">
-                                    <a class="img-card" href="#">
+                            <div class="col-md-6">
+                                <div class="card_promocion">
+                                    <a class="img-card_promocion" href="#">
                                         <img src="../assets/img/soli-invita.jpg" alt="promocion gana con Soli">
                                     </a>
                                     <div class="card-content text-center">
-                                        <span class=" btn_status label ld_sf_response-success">Vigente</span>
-                                        <h4 class="card-title mt-2">
-                                            <a href="#" style="font-size: 45px;">Soli Referidos</a>
-                                        </h4>
-                                        <p class="" style="font-size: 14px;">
+                                        <h2 class="card-title mb-25 mt-25">
+                                            <a href="#" >Soli Referidos</a>
+                                        </h2>
+                                        <p class="p_promocion" >
                                             Válido desde las 00:00 horas del día 05 de diciembre del 2022, hasta las
                                             23:59 horas del día 8 de junio del 2023.
                                         </p>
-                                    </div>
-                                    <div class="card-read-more">
-                                        <a href="https://www.bcp.com.bo/Promocion/Soliv" class="btn_card btn-link btn-block text-center" download="">
-                                            Ver bases legales
-                                        </a>
+                                        <a href="https://www.bcp.com.bo/Promocion/Soliv" type="button" class="btn_cta mb-20 mt-30 ">Ver bases legales</a>
                                     </div>
                                 </div>
                                 <!-- </div> -->
                             </div>
                         </div>
-<!--                        <div class="row">-->
-<!--                            <div class="col-xs-12 col-sm-4">-->
-
-<!--                            </div>-->
-<!--                           -->
-<!--                            &lt;!&ndash; <div class="col-xs-12 col-sm-3"> &ndash;&gt;-->
-<!--                                &lt;!&ndash; <div class="card">-->
-<!--                                    <a class="img-card" href="solicarga-entel.html">-->
-<!--                                        <img src="../assets/img/promo-solicarga.png" alt="promocion SoliCarga" />-->
-<!--                                    </a>-->
-<!--                                    <div class="card-content text-center">-->
-<!--                                        <span class=" btn_status label ld_sf_response-success">Vigente</span>-->
-<!--                                        <h4 class="card-title mt-2">-->
-<!--                                            <a href="solicarga-entel.html">SoliCarga</a>-->
-<!--                                        </h4>-->
-<!--                                        <p class="">-->
-<!--                                            Válida desde las 00:00 horas del día 21 de abril del 2022, hasta las 23:59-->
-<!--                                            horas del día 18 de enero de 2023. <BR></BR>-->
-<!--                                        </p>-->
-<!--                                    </div>-->
-<!--                                    <div class="card-read-more">-->
-<!--                                        <a href="../legales/LEGAL-SOLICARGA.pdf"-->
-<!--                                            class="btn_card btn-link btn-block text-center" download>-->
-<!--                                            Ver bases legales-->
-<!--                                        </a>-->
-<!--                                    </div>-->
-<!--                                </div> &ndash;&gt;-->
-<!--                            &lt;!&ndash; </div> &ndash;&gt;-->
-
-<!--                            &lt;!&ndash; <div class="row" style="display: flex;justify-content: center;"> &ndash;&gt;-->
-<!--                            <div class="col-xs-12 col-sm-4">-->
-<!--                                <div class="card">-->
-<!--                                    <a class="img-card" href="#">-->
-<!--                                        <img src="../assets/img/yape-invita.jpg" alt="promocion gana con Soli" />-->
-<!--                                    </a>-->
-<!--                                    <div class="card-content text-center">-->
-<!--                                        <span class=" btn_status label ld_sf_response-success">Vigente</span>-->
-<!--                                        <h4 class="card-title mt-2">-->
-<!--                                            <a href="#">Soli Referidos </a>-->
-<!--                                        </h4>-->
-<!--                                        <p class="">-->
-<!--                                            Válido desde las 00:00 horas del día 05 de diciembre del 2022, hasta las-->
-<!--                                            23:59 horas del día 10 de marzo del 2023.-->
-<!--                                        </p>-->
-<!--                                    </div>-->
-<!--                                    <div class="card-read-more">-->
-<!--                                        <a href="../legales/Legal Referidos.pdf"-->
-<!--                                            class="btn_card btn-link btn-block text-center" download>-->
-<!--                                            Ver bases legales-->
-<!--                                        </a>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                                &lt;!&ndash; </div> &ndash;&gt;-->
-<!--                            </div>-->
-<!--                        </div>-->
-                        <!-- <div class="row">
-                            <div class="col-xs-12 col-sm-3">
-                                <div class="card">
-                                    <a class="img-card" href="ganaconsoli.html">
-                                        <img src="../assets/img/promo-clases.jpg" alt="promocion gana con Soli" />
-                                    </a>
-                                    <div class="card-content text-center">
-                                        <span class=" btn_status label ld_sf_response-error">Caducó</span>
-                                        <h4 class="card-title mt-2">
-                                            <a href="ganaconsoli.html">Gana con Soli</a>
-                                        </h4>
-                                        <p class="">
-                                            Válida desde las 00:00 horas del día 16 de Diciembre de 2021, hasta las
-                                            23:59 horas del día 04 de Marzo de 2022.
-                                        </p>
-                                    </div>
-                                    <div class="card-read-more">
-                                        <a href="https://www.bcp.com.bo/Promocion/Soliv3"
-                                            class="btn_card btn-link btn-block text-center">
-                                            Ver bases legales
-                                        </a>
-                                    </div>
-                                </div>
-                            </div> 
-                            <div class="col-xs-12 col-sm-3">
-                                <div class="card">
-                                    <a class="img-card" href="solimegate.html">
-                                        <img src="../assets/img/solimegate-solipromociones.jpg"
-                                            alt="promocion solimegate" />
-                                    </a>
-                                    <div class="card-content text-center">
-                                        <span class=" btn_status label ld_sf_response-error">Caducó</span>
-                                        <h4 class="card-title mt-2">
-                                            <a href="solimegate.html"> SoliMegate v2
-                                            </a>
-                                        </h4>
-
-                                        <p class="">
-                                            Válida desde las 00:00 horas del día 22 de septiembre de 2021, hasta las
-                                            23:59 horas del día 08 Febrero del 2022 .
-                                        </p>
-                                    </div>
-                                    <div class="card-read-more text-center">
-                                        <a href="https://bcp.com.bo/Promocion/Soliv2"
-                                            class="btn_card btn-link btn-block">
-                                            Ver bases legales
-                                        </a>
-                                    </div>
-                                </div>
-                            </div> 
-                            <div class="col-xs-12 col-sm-3">
-                                <div class="card">
-                                    <a class="img-card" href="soliaguinaldo.html">
-                                        <img src="../assets/img/promo-soliaguinaldo.jpg"
-                                            alt="promocion soliaguinaldo" />
-                                    </a>
-                                    <div class="card-content text-center">
-                                        <span class="btn_status label ld_sf_response-error">Caducó</span>
-                                        <h4 class="card-title mt-2">
-                                            <a href="soliaguinaldo.html">SoliAguinaldo</a>
-                                        </h4>
-                                        <p class="">
-                                            Válida desde las 00:00 horas del día 4 de Diciembre de 2021, hasta las 23:59
-                                            horas del día 31 de Diciembre de 2021.
-                                        </p>
-                                    </div>
-                                    <div class="card-read-more">
-                                        <a href="https://www.bcp.com.bo/Promocion/Soliv3"
-                                            class="btn_card btn-link btn-block text-center">
-                                            Ver bases legales
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-3">
-                                <div class="card">
-                                    <a class="img-card" href="solisocios.html">
-                                        <img src="../assets/img/solisocios-solipromociones.jpg"
-                                            alt="promocion solisocios" />
-                                    </a>
-                                    <div class="card-content text-center">
-                                        <span class="btn_status label ld_sf_response-error">Caducó</span>
-                                        <h4 class="card-title mt-2">
-                                            <a href="solisocios.html">SoliSocios</a>
-                                        </h4>
-                                        <p class="">
-                                            Válida desde las 00:00 horas del día 10 de Agosto de 2021, hasta las 23:59
-                                            horas del día 28 de Noviembre de 2021.
-                                        </p>
-                                    </div>
-                                    <div class="card-read-more">
-                                        <a href="https://www.bcp.com.bo/promocion/solis"
-                                            class="btn_card btn-link btn-block text-center">
-                                            Ver bases legales
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>-->
                     </div>
                 </div>
             </div>
@@ -491,106 +273,92 @@
 
         <footer class="footer-section">
             <div class="container">
-                <div class="footer-content pt-3">
+                <div class="footer-content pt-48">
                     <div class="row">
-                        <div class="col-xl-4 col-lg-4 ">
-                            <div class="footer-widget">
+                        <div class="col-lg-4 col-md-3 col-sm-3 col-xs-3">
+                            <div class="footer-widget indent-footer-red-social">
                                 <div class="footer-logo">
-                                    <a href="../index.php"><img loading="lazy" width="25%"
-                                                                src="../assets/img/logo_plus.png" class="img-fluid" alt="logo"></a>
+                                    <a href="index.html"><img id="footer-logo" loading="lazy" class="lazyload img-fluid" width="70" height="70" src="" title="logo Yape" alt="logo Yape"></a>
                                 </div>
-                                <div class="footer-text">
-                                    <p>Soli es una (app) de una billetera móvil para los Bolivianos que les permite
-                                        digitalizar su dinero para hacer pagos y transacciones sin comisión.</p>
-                                </div>
-                                <div class="footer-social-icon" style="width: 100%;">
-                                    <span>Síguenos - Soli</span>
-                                    <!-- <a href="https://www.facebook.com/SoliAplicacion" target="_blank"><i
-                                            class="fab fa-facebook-f facebook-bg"></i></a> -->
-                                    <a href="https://www.facebook.com/SoliAplicacion" target="_blank">
-                                        <img src="../assets/img/LogoFacebook.png" style="width:34px;" alt=""> </a>
-                                    <!-- <a href="https://www.instagram.com/soli_bcp/" target="_blank"><i
-                                            class="fab fa-instagram instagram-bg"></i></a>  -->
-                                    <a href="https://www.instagram.com/soli_bcp/" target="_blank">
-                                        <img src="../assets/img/LogoInstagram.png" style="width:34px;" alt="">
+                                <!--                            <div class="footer-text">-->
+                                <!--                                <p>Yape es una (app) de una billetera móvil para los Bolivianos que les permite-->
+                                <!--                                    digitalizar su dinero para hacer pagos y transacciones sin comisión.</p>-->
+                                <!--                            </div>-->
+                                <di class="footer-social-icon" style="width: 100%;">
+                                    <span>Síguenos - Yape</span>
+                                    <!-- <a href="https://www.facebook.com/YapeAplicacion" rel="noreferrer" target="_blank"><i class="fab fa-facebook-f facebook-bg">Facebook</a> -->
+                                    <a href="https://www.facebook.com/YapeAplicacion" rel="noreferrer" target="_blank">
+                                        <img id="footer-facebook" src="" class="icons_social_footer"  alt="">
                                     </a>
-                                    <!-- <a href="https://www.youtube.com/channel/UCXjadMc1P0jJvP2eNkPd4Hg/videos"
-                                        target="_blank"><i class="fab fa-youtube youtube-bg"></i></a>  -->
+                                    <a href="https://www.instagram.com/soli_bcp/" rel="noreferrer" target="_blank">
+                                        <img id="footer-instagram" src="" class="icons_social_footer" alt="">
+                                    </a>
                                     <a href="https://www.youtube.com/channel/UCXjadMc1P0jJvP2eNkPd4Hg/videos"
-                                        target="_blank"><img src="../assets/img/LogoYouTube.png" style="width:34px;"
-                                            alt="">
+                                       rel="noreferrer" target="_blank">
+                                        <img id="footer-youtube" src="" class="icons_social_footer" alt="">
                                     </a>
-                                    <a href="https://wa.me/59162400657" target="_blank"><img
-                                            src="../assets/img/LogoWhatsapp.png" style="width:34px;" alt="">
+                                    <a href="https://wa.me/59162400657" rel="noreferrer" target="_blank">
+                                        <img id="footer-whatsapp" class="icons_social_footer" src="" alt="">
                                     </a>
-                                    <a href="https://www.tiktok.com/@soli_bcp" target="_blank"><img
-                                            src="../assets/img/LogoTikTok.png" style="width:34px;" alt="">
+                                    <a href="https://www.tiktok.com/@soli_bcp" rel="noreferrer" target="_blank">
+                                        <img id="footer-tiktok" class="icons_social_footer" src=""  alt="">
                                     </a>
-                                </div>
+                                </di>
                             </div>
                         </div>
-                        <div class="col-xl-2 col-lg-2 col-md-4 ">
+                        <div class="col-lg-2 col-md-3 col-sm-3 col-xs-3">
                             <div class="footer-widget">
                                 <div class="footer-widget-heading">
                                     <h3>Conócenos</h3>
                                 </div>
                                 <ul class="list-footer">
-                                    <li><a href="../">Página principal</a></li>
-                                    <li><a href="../yape/">¿Qué es Soli?</a></li>
-                                    <li><a href="../ayuda/">Centro de ayuda</a></li>
-                                    <li><a href="../billeteramovil/">Guía Billetera Móvil</a></li>
-                                    <li><a href="../solipromociones/">SoliPromociones</a></li>
-                                    <li><a href="../blog/">Entra al blog</a></li>
-                                    <li><a href="../YapeNegocios/">SoliNegocios</a></li>
+                                    <li><a id="footer_inicio" href="">Página principal</a></li>
+                                    <li><a id="footer_yape" href="">¿Qué es Yape?</a></li>
+                                    <li><a id="footer_ayuda" href="">Centro de ayuda</a></li>
+                                    <li><a id="footer_billetera" href="">Guía Billetera Móvil</a></li>
+                                    <li><a id="footer_promociones" href="">Promociones</a></li>
+                                    <li><a id="footer_blog" href="">Blog</a></li>
+                                    <li><a id="footer_negocio" href="">Negocios</a></li>
 
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-3 col-md-4 ">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
                             <div class="footer-widget">
                                 <div class="footer-widget-heading">
                                     <h3>¿Necesitas ayuda?</h3>
                                 </div>
                                 <div class="footer-text mb-25">
-                                    <p>
                                     <ul class="list-footer">
-                                        <li><b>La Paz</b> <br>211 4141</li>
-                                        <li><b>Santa Cruz</b> <br>311 4141</li>
-                                        <li><b>Cochabamba</b> <br>411 4141</li>
-                                        <li><b>Resto de Departamentos</b> <br>211 4141</li>
+                                        <li class="mb-20">La Paz<br>211 4141</li>
+                                        <li class="mb-20">Santa Cruz <br>311 4141</li>
+                                        <li class="mb-20">Cochabamba <br>411 4141</li>
+                                        <li class="mb-20">Resto de Departamentos <br>211 4141</li>
                                     </ul>
-                                    </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-3 col-md-5 ">
+                        <div class="col-lg-1 col-md-3 col-sm-3 col-xs-3">
                             <div class="footer-widget">
                                 <div class="footer-widget-heading">
-                                    <h3>¿Estás listo?¡Vamos!</h3>
+                                    <h3>¿Estás listo? ¡Vamos!</h3>
                                 </div>
                                 <div class="footer-text footer-button mb-25">
                                     <p>
-                                        <a id="descarga_android_soliprincipal_banner1" target="_blank"
-                                            href="https://play.google.com/store/apps/details?id=com.bcp.bo.wallet&referrer=utm_source%3Dp%25C3%25A1gina_web%26utm_medium%3Dp%25C3%25A1gina_web%26utm_term%3Dp%25C3%25A1gina_web%26utm_content%3Dp%25C3%25A1gina_web%26utm_campaign%3Dp%25C3%25A1gina_web">
-                                            <img width="70%" loading="lazy" class="download_desktop btn-banner"
-                                                src="../assets/img/soli-05.svg"
-                                                alt="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store"
-                                                title="Soli Pagos BCP es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store">
-                                            <img width="70%" loading="lazy" class="download_phone btn-banner"
-                                                src="../assets/img/soliapp-07.svg"
-                                                alt="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store"
-                                                title="Soli Pagos BCP es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store">
+                                        <a id="descarga_android_soliprincipal_banner1" target="_blank" rel="noreferrer"
+                                           href="https://play.google.com/store/apps/details?id=com.bcp.bo.wallet&referrer=utm_source%3Dp%25C3%25A1gina_web%26utm_medium%3Dp%25C3%25A1gina_web%26utm_term%3Dp%25C3%25A1gina_web%26utm_content%3Dp%25C3%25A1gina_web%26utm_campaign%3Dp%25C3%25A1gina_web">
+                                            <img id="descarga_android" loading="lazy" width="170" height="50" class="lazyload btn-banner"
+                                                 src=""
+                                                 alt="Yape es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store"
+                                                 title="Yape es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la play store">
                                         </a>
-                                        <a id="descarga_iphone_soliprincipal_banner1" target="_blank"
-                                            href="https://apps.apple.com/es/app/soli-pagos-bcp/id1135987447">
-                                            <img width="70%" loading="lazy" class="download_desktop btn-banner"
-                                                src="../assets/img/soli-02.svg"
-                                                alt="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store"
-                                                title="Soli Pagos BCP es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store">
-                                            <img width="70%" loading="lazy" class="download_phone btn-banner"
-                                                src="../assets/img/soliapp-08.svg"
-                                                alt="Soli es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store"
-                                                title="Soli Pagos BCP es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store"></a>
+                                        <a id="descarga_iphone_soliprincipal_banner1" target="_blank" rel="noreferrer"
+                                           href="https://apps.apple.com/es/app/soli-pagos-bcp/id1135987447">
+                                            <img id="descarga_ios" loading="lazy" width="170" height="50" class="lazyload btn-banner"
+                                                 src=""
+                                                 alt="Yape es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store"
+                                                 title="Yape es una billetera móvil que te permite abrir una cuenta con tu número celular en tan solo 30 segundos desde la app store">
+                                        </a>
                                     </p>
                                 </div>
                             </div>
@@ -601,20 +369,14 @@
             <div class="copyright-area">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xl-8 col-lg-8 text-center text-lg-left">
-                            <div class="copyright-text">
-                                <p>Copyright &copy; 2022, <a href="https://www.asfi.gob.bo/" target="_blank">Esta
-                                        Entidad es Supervisada por ASFI – Banco de Crédito de Bolivia S.A.</a><br>Banco
-                                    de Crédito de Bolivia S.A. Av. Hernando Siles N° 5555, edificio “Torre Empresarial
-                                    ESIMSA”, en la zona de Obrajes de la ciudad de La Paz
-                                </p>
-                            </div>
+                        <div class="col-xl-8 col-lg-8 text-center">
+                            <div id="copyrightyear" class="copyright-text"></div>
                         </div>
                         <div class="col-xl-3 col-lg-3 d-none d-lg-block text-right">
                             <div class="footer-menu">
                                 <ul>
                                     <li><a href="https://www2.bcp.com.bo/BilleteraBCP/TerminosCondiciones.html"
-                                            target="_blank">Términos y Condiciones</a></li>
+                                           target="_blank">Términos y Condiciones</a></li>
                                     <!--                                    <li><a href="#">Políticas de Privacidad</a></li>-->
                                 </ul>
                             </div>
@@ -625,11 +387,12 @@
         </footer>
     </div>
     <script src="../assets/js/jquery.min.js"></script>
-    <script src="../assets/js/theme-vendors.min.js"></script>
-    <script src="../assets/js/theme.min.js"></script>
+<!--    <script src="../assets/js/theme-vendors.min.js"></script>-->
+<!--    <script src="../assets/js/theme.min.js"></script>-->
     <!--<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>-->
-    <script src="../assets/js/script.min.js"></script>
+<!--    <script src="../assets/js/script.min.js"></script>-->
     <script src="../assets/js/promociones_script.min.js"></script>
+    <script src="../assets/js/js_principal.js"></script>
     <script src="../assets/js/menu.min.js"></script>
     <script>
         var cwmodal = document.getElementById("c2c-cw-modal");
