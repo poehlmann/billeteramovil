@@ -16,11 +16,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="cambio del home de soli a yape, colores, imagen, tipoografia">
+    <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="cambios en yapepromociones">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/promociones_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/promociones_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/promociones_style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/promociones_style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solipromociones/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/js_principal.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/js_principal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/js_principal.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/js_principal.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/menu.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/menu.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -430,14 +434,7 @@
       <workItem from="1681777924417" duration="5420000" />
       <workItem from="1681919078698" duration="15595000" />
       <workItem from="1682015956628" duration="27290000" />
-      <workItem from="1682352954981" duration="51374000" />
-    </task>
-    <task id="LOCAL-00342" summary="beneficios">
-      <created>1645798294598</created>
-      <option name="number" value="00342" />
-      <option name="presentableId" value="LOCAL-00342" />
-      <option name="project" value="LOCAL" />
-      <updated>1645798294599</updated>
+      <workItem from="1682352954981" duration="60718000" />
     </task>
     <task id="LOCAL-00343" summary="beneficios">
       <created>1645799097868</created>
@@ -775,7 +772,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682611500856</updated>
     </task>
-    <option name="localTasksCounter" value="391" />
+    <task id="LOCAL-00391" summary="cambios en yapepromociones">
+      <created>1682623883741</created>
+      <option name="number" value="00391" />
+      <option name="presentableId" value="LOCAL-00391" />
+      <option name="project" value="LOCAL" />
+      <updated>1682623883741</updated>
+    </task>
+    <option name="localTasksCounter" value="392" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -803,7 +807,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="habiltiar chatbot" />
     <MESSAGE value="cashin" />
     <MESSAGE value="articulos" />
     <MESSAGE value="blog" />
@@ -828,7 +831,8 @@
     <MESSAGE value="adicion de la pagina de seguridad en Soli" />
     <MESSAGE value="mejoras en css" />
     <MESSAGE value="cambio del home de soli a yape, colores, imagen, tipoografia" />
-    <option name="LAST_COMMIT_MESSAGE" value="cambio del home de soli a yape, colores, imagen, tipoografia" />
+    <MESSAGE value="cambios en yapepromociones" />
+    <option name="LAST_COMMIT_MESSAGE" value="cambios en yapepromociones" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

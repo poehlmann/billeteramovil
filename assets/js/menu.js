@@ -26,10 +26,12 @@
         document.getElementById("footer-tiktok").src=realPath+"/assets/img/ic_social_tiktok_b.svg";
         document.getElementById("footer-logo").src=realPath+"/assets/img/Logo_Bolivia_footer.svg";
 
-        if($("#logo-menu-secundary").length == 0) {
-            document.getElementById("logo-menu").src=realPath+"/assets/img/Logo_Bolivia_2.svg";
-        }else{
-            document.getElementById("logo-menu-secundary").src=realPath+"/assets/img/Logo_Bolivia_3.svg";
+        if($("#header").hasClass("cell") == 0) {
+            if ($("#logo-menu-secundary").length == 0) {
+                document.getElementById("logo-menu").src = realPath + "/assets/img/Logo_Bolivia_2.svg";
+            } else {
+                document.getElementById("logo-menu-secundary").src = realPath + "/assets/img/Logo_Bolivia_3.svg";
+            }
         }
 
         document.getElementById("menu_inicio").href = realPath+"/";
@@ -49,6 +51,20 @@
         document.getElementById("footer_promociones").href = realPath+"/solipromociones/";
         document.getElementById("footer_blog").href = realPath+"/blog/";
         document.getElementById("footer_negocio").href = realPath+"/YapeNegocios/";
+
+        //ahora verificaremos si es movil
+        let e = document.getElementById("phone_expo");
+        if( navigator.userAgent.match(/Android/i)
+            || navigator.userAgent.match(/webOS/i)
+            || navigator.userAgent.match(/iPhone/i)
+            || navigator.userAgent.match(/iPad/i)
+            || navigator.userAgent.match(/iPod/i)
+            || navigator.userAgent.match(/BlackBerry/i)
+            || navigator.userAgent.match(/Windows Phone/i)){
+            // document.getElementById("logo-menu-secundary").src=realPath+"/assets/img/Logo_Bolivia_3.svg";
+            document.getElementById("header-sroll").classList.add("small");
+        }
+
     }
     changeUrlMenu();
     //SMALLER HEADER WHEN SCROLL PAGE
@@ -59,8 +75,10 @@
             document.getElementById("logo-menu").src=realPath+"/assets/img/Logo_Bolivia_3.svg";
         }else {
             $('#header-sroll').removeClass('small');
+            console.log("removi el elemento");
             document.getElementById("logo-menu").src=realPath+"/assets/img/Logo_Bolivia_2.svg";
         }
+        windowSize();
     }
 
     // VERIFY WINDOW SIZE
@@ -69,6 +87,10 @@
         if (size >= 991) {
             $('body').removeClass('open-menu');
             $('.hamburger-menu .bar').removeClass('animate');
+        }else{
+            document.getElementById("header-sroll").className = "header small cell";
+            console.log("no esta agregando la clase",realPath+"/assets/img/Logo_Bolivia_3.svg");
+            document.getElementById("logo-menu").src=realPath+"/assets/img/Logo_Bolivia_3.svg";
         }
     }
 
