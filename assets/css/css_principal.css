@@ -1144,6 +1144,7 @@ img{max-width:100%;height:auto;}
 .pb-70{padding-bottom:70px!important;}
 .pt-64{padding-top:64px!important;}
 .pb-64{padding-bottom:64px!important;}
+.pt-48{padding-top:48px!important;}
 .mb-70{margin-bottom:70px!important;}
 .text-right{text-align:right!important;}
 .text-center{text-align:center!important;}
@@ -1205,7 +1206,7 @@ img{max-width:100%;height:auto;}
     .btn-down{display:block;text-align:center;}
 }
 .btn_cta_exp{height:auto!important;line-height:initial!important;padding:20px!important;}
-.btn_cta{width: fit-content;display:inline-block;box-shadow:none;appearance:none;border:0;outline:0;background-color: #10cbb4;line-height:42px;padding:0 30px;font-size:20px;border-radius:8px!important;cursor:pointer;transition:all .5s;transition-timing-function:cubic-bezier(.2,3,.4,1);user-select:none;color:#e4e4e4;font-weight:700;}
+.btn_cta{width: fit-content;display:inline-block;box-shadow:none;appearance:none;border:0;outline:0;background-color: #10cbb4;line-height:42px;padding:12px 24px;font-size:20px;border-radius:8px!important;cursor:pointer;transition:all .5s;transition-timing-function:cubic-bezier(.2,3,.4,1);user-select:none;color:#e4e4e4;font-weight:700;}
 .btn_cta:hover{transform:scale(1.1,1.1);color: white !important;}
 .btn_cta:active{transform:scale(1.05,1.05);}
 .bg-comercios{background-image:url(../img/Comercios-soli-pagos-bcp.jpg);background-repeat:no-repeat;background-size:cover;background-position:center center;}
@@ -1299,6 +1300,20 @@ iframe#_hjRemoteVarsFrame{display:none!important;width:1px!important;height:1px!
     display: grid;
     align-items: center;
     justify-items: end;
+}
+.indent-rigth-services{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-end;
+}
+.indent-left-services{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
 }
 .mb--50{
 margin-top: -50px;
@@ -1725,6 +1740,7 @@ button.close{padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance
 .feature .feature-item .icon{margin-bottom:15px;}
 .feature .feature-item .icon i{font-size:48px;color:#7d71d3;}
 .feature .feature-item .content h5{text-transform:inherit;font-weight:600;margin-bottom:15px;color: #2d5fc8;}
+.feature .feature-item .content h3{margin-top:15px}
 .feature .feature-item:not(:last-child){margin-bottom:60px;}
 @media (max-width: 768px){
     #container {
@@ -1738,18 +1754,10 @@ button.close{padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance
         margin-bottom: 0px !important;
     }
 }
-
-.feature .app-screen img{
-    max-height:400px;
-    padding: 50px;
-    transition: transform .2s; /* Animation */
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-}
-.feature .app-screen img:hover{
-    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
+.feature .app-screen{margin:20px 0!important;}
+.feature .app-screen img{max-height:400px;padding:50px;transition:transform .2s;width:200px;height:200px;margin:0 auto;}
+.feature .app-screen img:hover{transform:scale(1.5);}
+.pa-10{padding:10px;}
 
 @media (min-width:576px){
     .container{max-width:540px;}

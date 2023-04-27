@@ -43,6 +43,7 @@
 }
 .footer-logo {
     margin-bottom: 3px;
+    margin-right: 30px;
 }
 .footer-logo img {
     max-width: 200px;
@@ -84,6 +85,14 @@
 }
 .youtube-bg{
     background: #ff1c00;
+}
+.indent-footer-red-social{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
 }
 .footer-widget-heading h3 {
     color: #fff;
