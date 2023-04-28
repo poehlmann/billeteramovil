@@ -16,7 +16,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="cambios pagina principal modo movil" />
+    <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="cambios pagina principal modo movil">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YapeNegocios/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/YapeNegocios/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/blog.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/promociones_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/promociones_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billeteramovil/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/billeteramovil/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seguridad/fraudes.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/fraudes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seguridad/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seguridad/proteccion.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/proteccion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seguridad/robo.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/robo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seguridad/seguridad.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/seguridad.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solipromociones/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/solipromociones/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/yape/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -425,14 +441,7 @@
       <workItem from="1681777924417" duration="5420000" />
       <workItem from="1681919078698" duration="15595000" />
       <workItem from="1682015956628" duration="27290000" />
-      <workItem from="1682352954981" duration="61081000" />
-    </task>
-    <task id="LOCAL-00344" summary="correcion">
-      <created>1646462647608</created>
-      <option name="number" value="00344" />
-      <option name="presentableId" value="LOCAL-00344" />
-      <option name="project" value="LOCAL" />
-      <updated>1646462647609</updated>
+      <workItem from="1682352954981" duration="70018000" />
     </task>
     <task id="LOCAL-00345" summary="beneficios">
       <created>1646463747780</created>
@@ -770,7 +779,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682638827291</updated>
     </task>
-    <option name="localTasksCounter" value="393" />
+    <task id="LOCAL-00393" summary="cambios pagina principal modo movil">
+      <created>1682639209881</created>
+      <option name="number" value="00393" />
+      <option name="presentableId" value="LOCAL-00393" />
+      <option name="project" value="LOCAL" />
+      <updated>1682639209881</updated>
+    </task>
+    <option name="localTasksCounter" value="394" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

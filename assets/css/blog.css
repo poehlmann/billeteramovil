@@ -493,10 +493,10 @@ input:checked ~ .tab-content {
 .banner-contact-blog {
     color: #fff;
     position: inherit;
-    left: 50%;
-    top: 50%;
-    text-align: center;
-    transform: translate(-50%,-50%);
+    /*left: 50%;*/
+    /*top: 50%;*/
+    /*text-align: center;*/
+    /*transform: translate(-50%,-50%);*/
 }
 #tabs-section h2{
     margin-top: auto;

@@ -868,7 +868,7 @@ h1.heading {
 
 .img-card_promocion img{
   width: 100%;
-  border-radius: 8px 8px 0px 0px;
+  border-radius: 8px 8px 0 0;
   height: 200px;
   object-fit:cover;
   transition: all .25s ease;
