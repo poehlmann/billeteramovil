@@ -1650,9 +1650,8 @@ button.close{padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance
 }
 
 .active_phone{
-    background-color: #3b60bd !important;
+    /*background-color: #3b60bd !important;*/
     color: #fff !important;
-    width: 80% !important;
 }
 
 .map-responsive{
@@ -1973,7 +1972,7 @@ button.close{padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance
 .background-yape{
     background-color: #742384;}
 .page-hero-section .hero-caption{height:100%;}
-.page-section{position:relative;padding-bottom:100px;}
+.page-section{position:relative;}
 .page-section:not(.fg-white) h3{ color: #3C60BE;font-weight: bold;}
 .bg-image{background-size:cover;background-position:bottom;background-repeat:no-repeat;}
 .hero-mini{height:100vh;}

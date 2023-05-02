@@ -112,7 +112,7 @@ header .desk-menu .logo {
     margin-left: 3%;
     margin-top: 5px;
     margin-right: 1rem;
-    padding-bottom: 0.78rem;
+    /*padding-bottom: 0.78rem;*/
     padding-top: 0.3125rem;
 }
 header .desk-menu .logo-adn {
@@ -521,7 +521,7 @@ header .desk-menu .menu-container .menu-head .client span{text-transform:upperca
 header .desk-menu .menu-container .menu-head .client i{position:absolute;font-size:30px;right:0;top:0;}
 
 header .desk-menu .menu-container .menu>li,header .desk-menu .menu-container .menu>li.menu-item-has-children .sub-menu li{-webkit-transition:all .33s ease;-moz-transition:all .33s ease;-ms-transition:all .33s ease;-o-transition:all .33s ease;transition:all .33s ease;}
-header .desk-menu .menu-container .menu>li a{position:relative;font-size:0.9rem;padding:19px 8px;font-weight:700;display:block;color:#FFFFFF;}
+header .desk-menu .menu-container .menu>li a{position:relative;font-size:0.9rem;padding:17px 8px;font-weight:700;display:block;color:#FFFFFF;}
 header .desk-menu .menu-container .menu>li .btn_cta{padding: 0 20px !important; margin-top: 10px;}
 .small .desk-menu .menu-header-container .menu>li a{color:#2c2044;}
 .small .desk-menu .menu-header-container .menu>li a:hover{
