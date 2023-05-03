@@ -43,6 +43,9 @@
         document.getElementById("menu_blog").href = realPath+"/blog/";
         document.getElementById("menu_negocio").href = realPath+"/YapeNegocios/";
 
+        document.getElementById("submenu_arrow").src = realPath+"/assets/img/yape_arrowmenu.svg";
+
+
         document.getElementById("footer_inicio").href = realPath+"/index.html";
         document.getElementById("footer_yape").href = realPath+"/yape/";
         document.getElementById("footer_ayuda").href = realPath+"/ayuda";
@@ -52,18 +55,18 @@
         document.getElementById("footer_blog").href = realPath+"/blog/";
         document.getElementById("footer_negocio").href = realPath+"/YapeNegocios/";
 
-        //ahora verificaremos si es movil
-        let e = document.getElementById("phone_expo");
-        if( navigator.userAgent.match(/Android/i)
-            || navigator.userAgent.match(/webOS/i)
-            || navigator.userAgent.match(/iPhone/i)
-            || navigator.userAgent.match(/iPad/i)
-            || navigator.userAgent.match(/iPod/i)
-            || navigator.userAgent.match(/BlackBerry/i)
-            || navigator.userAgent.match(/Windows Phone/i)){
-            // document.getElementById("logo-menu-secundary").src=realPath+"/assets/img/Logo_Bolivia_3.svg";
-            document.getElementById("header-sroll").classList.add("small");
-        }
+        // //ahora verificaremos si es movil
+        // let e = document.getElementById("phone_expo");
+        // if( navigator.userAgent.match(/Android/i)
+        //     || navigator.userAgent.match(/webOS/i)
+        //     || navigator.userAgent.match(/iPhone/i)
+        //     || navigator.userAgent.match(/iPad/i)
+        //     || navigator.userAgent.match(/iPod/i)
+        //     || navigator.userAgent.match(/BlackBerry/i)
+        //     || navigator.userAgent.match(/Windows Phone/i)){
+        //     // document.getElementById("logo-menu-secundary").src=realPath+"/assets/img/Logo_Bolivia_3.svg";
+        //     document.getElementById("header-sroll").classList.add("small");
+        // }
 
     }
     changeUrlMenu();
@@ -75,7 +78,7 @@
             document.getElementById("logo-menu").src=realPath+"/assets/img/Logo_Bolivia_3.svg";
         }else {
             $('#header-sroll').removeClass('small');
-            console.log("removi el elemento");
+            // console.log("removi el elemento");
             document.getElementById("logo-menu").src=realPath+"/assets/img/Logo_Bolivia_2.svg";
         }
         windowSize();
@@ -155,6 +158,7 @@
 
     $(document).ready(function(){
         windowSize();
+        setNavigation();
     });
 
     $(window).scroll(function(){
@@ -166,5 +170,25 @@
     $(window).resize(function(){
         windowSize();
     });
+
+    //link active
+    // $(function () {
+    //
+    // });
+
+    function setNavigation() {
+        var currenturl  = window.location.href
+        var path = window.location.pathname;
+        path = path.replace(/\/$/, "");
+        path = decodeURIComponent(path);
+        console.log("path",currenturl);
+        $("nav a").each(function () {
+            var href = $(this).attr('href');
+            console.log("href",href);
+            if (currenturl.substring(0, href.length) == href) {
+                $(this).closest('li').addClass('active');
+            }
+        });
+    }
 
 })(jQuery);

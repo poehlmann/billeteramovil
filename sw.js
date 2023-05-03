@@ -10,7 +10,7 @@ self.addEventListener('install', function(event) {
                 'assets/css/css_principal.min.css',
                 'assets/js/jquery.min.js',
                 'assets/js/bootstrap.min.js',
-                'assets/js/menu.min.js',
+                'assets/js/menu.min.js'
 
                 // 'assets/vendors/lazysizes.min.js',
                 // 'assets/vendors/owlcarousel/dist/owl.carousel.min.js',
