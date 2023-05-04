@@ -501,3 +501,27 @@ input:checked ~ .tab-content {
 #tabs-section h2{
     margin-top: auto;
 }
+
+@media screen and (max-width:992px){
+    .tabs-blog section {
+        width: 80%;
+        padding: 0 0;
+        margin-top: 30px;
+    }
+}
+@media (min-width: 992px){
+
+}
+@media (max-width:767px){
+
+}
+
+@media (max-width:768px){
+
+}
+@media (max-width:640px){
+
+}
+@media (max-width:480px){
+
+}

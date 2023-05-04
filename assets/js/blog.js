@@ -52,7 +52,7 @@ function detectMob() {
 }
 //scroll to element phone just in phone
 function scrollFunction(value) {
-    let e = document.getElementById("phone_expo");
+    let e = document.getElementById("como-crear-cuenta-soli");
     if( detectMob()){
         e.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }

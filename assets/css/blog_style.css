@@ -1,32 +1,8 @@
 .hide_phone{margin-top:8px;}
-@media (max-width:767px){
-    .hide_phone{display:none;}
-}
 
-@media (max-width:768px){
-    .celular-banner{height:250px;}
-    .txt2-banner{font-size:16px!important;line-height:18px!important;}
-    .titulo{font-size:28px!important;line-height:32px!important;}
-    .btn-down{font-size:18px;}
-    .btn-banner{height:41px;}
-}
-@media (max-width:640px){
-    .celular-banner{height:200px;}
-    .centrar{width:90%;margin-left:5%;margin-right:5%;}
-}
-@media (max-width:480px){
-    .celular-banner{height:150px;}
-    .centrar{width:100%;margin-left:0;margin-right:0;}
-    .btn-down{display:block;text-align:center;}
-}
 .btn_cta_exp{height:auto!important;line-height:initial!important;padding:20px!important;}
 .bg-comercios{background-image:url(../img/Comercios-soli-pagos-bcp.jpg);background-repeat:no-repeat;background-size:cover;background-position:center center;}
-@media screen and (max-width:992px){
-    .bg-comercios{background-position:81%;background-image:linear-gradient(rgb(0 0 0/50%),rgb(0 0 0/50%)),url(../img/Comercios-soli-pagos-bcp.jpg);}
-}
-@media (min-width: 992px){
-    .blog-entry{padding-left:16px;padding-right:16px;}
-}
+
 
 .button {
     transition: all .2s ease-in-out;
@@ -118,3 +94,55 @@ display: none;
 .btn-primary:hover{color:#fff;background-color:#0069d9;border-color:#0062cc;}
 .btn-primary:focus{color:#fff;background-color:#0069d9;border-color:#0062cc;box-shadow:0 0 0 0.2rem rgba(38, 143, 255, 0.5);}
 .btn-primary:disabled{color:#fff;background-color:#007bff;border-color:#007bff;}
+.section_banner_blog{
+    background-image: url(../img/yape_pantalla_saldo.png);
+    background-size: contain;
+    background-position: 80% 20%;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+}
+
+@media screen and (max-width:992px){
+
+    .bg-comercios{background-position:81%;background-image:linear-gradient(rgb(0 0 0/50%),rgb(0 0 0/50%)),url(../img/Comercios-soli-pagos-bcp.jpg);}
+    .article-description{
+        margin-top: 30px;
+    }
+    .post-date span{
+        font-size: 14px;
+    }
+    .post-title{
+        font-size: 24px;
+    }
+    .section_banner_blog{
+        background-position: 80% 0%;
+        height: 60vh;
+        display: grid;
+        justify-items: end;
+        align-items: end;
+        justify-content: center;
+    }
+}
+@media (min-width: 992px){
+    .blog-entry{padding-left:16px;padding-right:16px;}
+}
+@media (max-width:767px){
+    .hide_phone{display:none;}
+}
+
+@media (max-width:768px){
+    .celular-banner{height:250px;}
+    .txt2-banner{font-size:16px!important;line-height:18px!important;}
+    .titulo{font-size:28px!important;line-height:32px!important;}
+    .btn-down{font-size:18px;}
+    .btn-banner{height:41px;}
+}
+@media (max-width:640px){
+    .celular-banner{height:200px;}
+    .centrar{width:90%;margin-left:5%;margin-right:5%;}
+}
+@media (max-width:480px){
+    .celular-banner{height:150px;}
+    .centrar{width:100%;margin-left:0;margin-right:0;}
+    .btn-down{display:block;text-align:center;}
+}

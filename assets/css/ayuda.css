@@ -2,18 +2,17 @@
 
 .dm-width {
     width: 400px;
-    margin: 0 auto;
+    margin: 90px auto;
 }
 
 .dm-device {
     position: relative;
     width: 100%;
-    padding-bottom:203.477897%;
+    /*padding-bottom:203.477897%;*/
     margin-bottom: 20px;
 }
 
 .device {
-    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
@@ -23,7 +22,7 @@
     -webkit-background-size: 100% 100%;
     z-index: 2;
     background-repeat: no-repeat;
-    background-image: url(../img/seguridad_soli.png);
+    /* background-image: url(../img/seguridad_soli.png); */
     background-size: cover;
     background-position: center center;
 }
@@ -31,15 +30,13 @@
 .screen {
     overflow: hidden;
     z-index: 1;
-    position: absolute;
-    top: 83px;
+     top: 83px;
     bottom: 101px;
     left: 45px;
-    right: 74px;
-    background-color: #6492c3;
-
+     right: 74px;
+    /* background-color: #6492c3; */
     width: 72%;
-    border-radius: 28px;
+/*!* border-radius: 28px;*/
 }
 
 /*.slider {*/
@@ -51,43 +48,49 @@
 
 .slider__item {
     font-size: 100px;
-    color: rgba(255,255,255,0.7);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    color: rgba(255,255,255,.7);
+    height: 595px;
 }
 
 .slider__item--1 {
-    background-image: url("../img/soli-recargas.jpg");
+    background-image: url("../img/yape_crea_cuenta_1.svg");
     background-size: contain;
 }
 .slider__item--2 {
-    background-image: url("../img/soli-recargas2.jpg");
-    background-size: cover;
+    background-image: url("../img/yape_crea_cuenta_2.svg");
+    background-size: contain;
 }
 .slider__item--3 {
-    background-image: url("../img/soli-recargas3.jpg");
-    background-size: cover;
+    background-image: url("../img/yape_crea_cuenta_3.svg");
+    background-size: contain;
 }
 .slider__item--4 {
-    background-image: url("../img/soli-recargas4.jpg");
-    background-size: cover;
+    background-image: url("../img/yape_crea_cuenta_4.svg");
+    background-size: contain;
 }
 .slider__item--5 {
-    background-image: url("../img/soli-recargas5.jpg");
-    background-size: cover;
+    background-image: url("../img/yape_crea_cuenta_5.svg");
+    background-size: contain;
 }
 .slider__item--6 {
-    background-image: url("../img/soli-recargas6.jpg");
-    background-size: cover;
+    background-image: url("../img/yape_crea_cuenta_6.svg");
+    background-size: contain;
 }
 .slider__item--7 {
-    background-image: url("../img/soli-recargas-creado.jpg");
-    background-size: cover;
+    background-image: url("../img/yape_crea_cuenta_7.svg");
+    background-size: contain;
 }
 .slider__item--8 {
-    background-image: url("../img/pasos-recargas-creado.jpg");
-    background-size: cover;
+    background-image: url("../img/yape_crea_cuenta_8.svg");
+    background-size: contain;
+}
+.slider__item--9 {
+    background-image: url("../img/yape_crea_cuenta_9.svg");
+    background-size: contain;
+}
+.slider__item--10 {
+    background-image: url("../img/yape_crea_cuenta_10.svg");
+    background-size: contain;
 }
 #owl-banner{
     height: 100vh;
@@ -153,6 +156,9 @@
 }
 
 @media (max-width: 991px){
+    .slider__item {
+        height: 505px;
+    }
     .active_phone{
         width: 100% !important;
     }
@@ -164,7 +170,9 @@
     }
     .dm-width {
         width: 340px;
-        margin: 0 auto;
+        margin: 0;
+        position: relative;
+        left: 10px;
     }
     .mbt-carousel{
         margin-bottom: 50px;
@@ -176,7 +184,7 @@
     }
     .customNavigation{
         margin-left: 18%;
-        margin-bottom: 50px;
+        margin-bottom: 0 !important;
         margin-top: -20px;
     }
 }
@@ -465,7 +473,7 @@ a:focus, a:hover {
     padding: 15px;
     color: inherit;
     min-height: 100px;
-    border-radius: 4px;
+    border-radius: 8px;
     background-color: #fff;
     transition: 0.4s;
     box-shadow: 0 3px 5px rgb(0 0 0 / 30%);

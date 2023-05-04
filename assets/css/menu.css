@@ -1032,8 +1032,12 @@ header .desk-menu .menu-container .menu>li:hover.menu-item-has-children .sub-men
     }
     header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu.open-sub {
         left: 0;
+        transform: translate(0%,0%);
+        padding: 0 0 0 0;
+        max-width: 100%; 
+        width: 100%;
     }
-    /*header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu li.menu-item-has-children > a::before, header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu li.menu-item-has-children > a::after {*/
+/*header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu li.menu-item-has-children > a::before, header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu li.menu-item-has-children > a::after {*/
     /*    background-color: #ffffff;*/
     /*}*/
     /*header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu li.menu-item-has-children > a::before {*/
