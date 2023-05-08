@@ -159,6 +159,7 @@
     $(document).ready(function(){
         windowSize();
         setNavigation();
+        obtenerPais();
     });
 
     $(window).scroll(function(){
@@ -181,14 +182,19 @@
         var path = window.location.pathname;
         path = path.replace(/\/$/, "");
         path = decodeURIComponent(path);
-        console.log("path",currenturl);
         $("nav a").each(function () {
             var href = $(this).attr('href');
-            console.log("href",href);
             if (currenturl.substring(0, href.length) == href) {
                 $(this).closest('li').addClass('active');
             }
         });
+    }
+    function obtenerPais(){
+        $.get("https://ipinfo.io/?token=719fc6762c190c", function (response) {
+            $("#ip").html("IP: " + response.ip);
+            $("#address").html("pais: " + response.country);
+            $("#details").html(JSON.stringify(response, null, 4));
+        }, "jsonp");
     }
 
 })(jQuery);

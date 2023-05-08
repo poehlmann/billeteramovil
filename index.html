@@ -45,13 +45,13 @@
     <!-- fin llamadas -->
 
     <link rel="preload" href="assets/css/css_principal.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="assets/css/css_principal.min.css"></noscript>
-    <!--    <link rel="preload" as="image" href="assets/img/logo%20solisocios.png" imagesrcset="assets/img/logo%20solisocios.png 400w" imagesizes="50vw"/>-->
-    <!--    <link rel="preload" href="assets/vendors/owlcarousel/dist/assets/owl.carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">-->
-    <!--    <noscript><link rel="stylesheet" href="assets/vendors/owlcarousel/dist/assets/owl.carousel.min.css"></noscript>-->
-    <link rel="preload" href="assets/css/smart-app-banner.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="assets/css/smart-app-banner.min.css"></noscript>
     <link rel="stylesheet" href="assets/css/menu.css">
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/vendors/animate/animate.css">
+
+<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css">
 
     <link rel="canonical" href="https://www.solipagosbcp.com.bo"/>
     <!--Iconos-->
@@ -84,10 +84,10 @@
         j.src =
             'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
         f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-M5CPZ24');</script>
+    })(window, document, 'script', 'dataLayer', 'GTM-M5CPZ24');
+    </script>
     <!--Google Bot-->
 </head>
-
 <body onload="c2c_init()">
 <!-- <img src="logo-audio-codes.svg" alt="AudioCodes" width="450" height="70"> -->
 <div id="cwTest" class="cwTest">
@@ -159,7 +159,22 @@
 </noscript>
 
 <div id="wrap">
-
+    <!--    <hr/>-->
+    <!--    <div id="ip"></div>-->
+    <!--    <div id="address"></div>-->
+    <!--    <hr/>Full response: <pre id="details"></pre>-->
+<!--    <div class="row">-->
+<!--        <div class="col-md-12">-->
+<!--            <div class="alert alert-warning alert-dismissible" role="alert">-->
+<!--                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>-->
+<!--                <strong>Usted se encuentra en Yape Bolivia</strong>-->
+<!--                <select class="selectpicker" data-width="fit">-->
+<!--                    <option data-content='<span class="flag-icon flag-icon-bo"></span>'>English</option>-->
+<!--                    <option data-content='<span class="flag-icon flag-icon-pe"></span>'>Español</option>-->
+<!--                </select>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
     <header class="header" id="header-sroll">
         <div class="">
             <div class="row">
@@ -219,7 +234,9 @@
             </div>
         </div>
     </header>
+
     <div class="wrap_body">
+
         <div class="background-yape bg-image">
             <div class="hero-caption">
                 <div class="h-100">
@@ -312,7 +329,7 @@
         </section>
 
         <section class="section feature pt-64 pb-64 bg-gray" id="transacciones">
-    <!--        <h2 class="font-weight-bold text-center mb-10">Conoce el mundo de beneficios que tienes con Yape</h2>-->
+            <!--        <h2 class="font-weight-bold text-center mb-10">Conoce el mundo de beneficios que tienes con Yape</h2>-->
             <div class="row bg-elipse">
                 <div class="col-lg-4 indent-rigth-services text-center">
                     <!-- Feature Item -->
@@ -451,38 +468,38 @@
         </section>
 
         <div id="soli-ubicacion" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header text-center">
-                    <h2 class="font-weight-bold modal-title">Encuentra tu punto más cercano y empieza a recargar tu SOLI
-                        o retirar dinero</h2>
-                </div>
-                <div class="row text-center flex-nowrap">
-                    <div class="col-md-3"><img loading="lazy" title="Punto de Yape" class="lazyload img-fluid"
-                                               width="50%" height="auto" data-src="assets/img/soli.svg"
-                                               alt="punto de soli">
-                        <h3>Yape</h3></div>
-                    <div class="col-md-3"><img loading="lazy" title="Punto de agencia bcp" class="lazyload img-fluid"
-                                               width="50%" height="auto" data-src="assets/img/agencia.svg"
-                                               alt="punto de agencia bcp">
-                        <h3>Agencia BCP</h3></div>
-                    <div class="col-md-3"><img loading="lazy" title="Punto de agente bcp"
-                                               class="lazyload img-fluid special_size" width="55%" height="auto"
-                                               data-src="assets/img/agente.svg" alt="punto de agente bcp">
-                        <h3>Agente BCP</h3></div>
-                    <div class="col-md-3"><img loading="lazy" title="Punto de atm bcp" class="lazyload img-fluid"
-                                               width="50%" height="auto" data-src="assets/img/atm.svg"
-                                               alt="punto de atm bcp">
-                        <h3>ATM BCP</h3></div>
-                </div>
-                <div class="modal-body map-responsive" id="soli_agentes_bcp_atm">
-                </div>
-                <div class="modal-footer text-center">
-                    <button type="button" class="close btn_cta mb-20 mt-30" data-dismiss="modal">Cerrar</button>
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header text-center">
+                        <h2 class="font-weight-bold modal-title">Encuentra tu punto más cercano y empieza a recargar tu SOLI
+                            o retirar dinero</h2>
+                    </div>
+                    <div class="row text-center flex-nowrap">
+                        <div class="col-md-3"><img loading="lazy" title="Punto de Yape" class="lazyload img-fluid"
+                                                   width="50%" height="auto" data-src="assets/img/soli.svg"
+                                                   alt="punto de soli">
+                            <h3>Yape</h3></div>
+                        <div class="col-md-3"><img loading="lazy" title="Punto de agencia bcp" class="lazyload img-fluid"
+                                                   width="50%" height="auto" data-src="assets/img/agencia.svg"
+                                                   alt="punto de agencia bcp">
+                            <h3>Agencia BCP</h3></div>
+                        <div class="col-md-3"><img loading="lazy" title="Punto de agente bcp"
+                                                   class="lazyload img-fluid special_size" width="55%" height="auto"
+                                                   data-src="assets/img/agente.svg" alt="punto de agente bcp">
+                            <h3>Agente BCP</h3></div>
+                        <div class="col-md-3"><img loading="lazy" title="Punto de atm bcp" class="lazyload img-fluid"
+                                                   width="50%" height="auto" data-src="assets/img/atm.svg"
+                                                   alt="punto de atm bcp">
+                            <h3>ATM BCP</h3></div>
+                    </div>
+                    <div class="modal-body map-responsive" id="soli_agentes_bcp_atm">
+                    </div>
+                    <div class="modal-footer text-center">
+                        <button type="button" class="close btn_cta mb-20 mt-30" data-dismiss="modal">Cerrar</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </div>
     <footer class="footer-section">
         <div class="container">
@@ -601,14 +618,28 @@
 
 </div>
 <script  src="assets/js/jquery.min.js"></script>
-<script  src="assets/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>`
+<!--<script  src="assets/js/bootstrap.min.js"></script>-->
+<!--<script src="//unpkg.com/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>-->
 <script  src="assets/js/menu.js"></script>
 <!--<script defer src="assets/vendors/wow/wow.min.js"></script>-->
 <script  src="assets/vendors/lazysizes.min.js"></script>
-<script  src="assets/js/smart-app-banner.min.js"></script>
+<!--<script  src="assets/js/smart-app-banner.min.js"></script>-->
 <script  src="assets/js/js_principal.js"></script>
-<script  src="assets/vendors/owlcarousel/dist/owl.carousel.min.js"></script>
+<!--<script  src="assets/vendors/owlcarousel/dist/owl.carousel.min.js"></script>-->
+<!--<script src="https://code.jquery.com/jquery-1.11.2.js"></script>-->
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>-->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></script>-->
+<!--<script src="assets/js/jquery.flagstrap.js"></script>-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js"></script>
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
+
+
+
 <!--<script defer src="assets/js/video_youtube.js"></script>-->
+
 <script>
     // new WOW().init();
     //
@@ -644,7 +675,9 @@
         cwmodal.style.display = "none";
     }
 </script>
+
 <!--    <script src="https://cdn.jsdelivr.net/npm/sweetalert2"></script>-->
 
 </body>
+
 </html>
