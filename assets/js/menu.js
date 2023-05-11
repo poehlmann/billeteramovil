@@ -25,7 +25,7 @@
         document.getElementById("footer-whatsapp").src=realPath+"/assets/img/ic_social_whatsapp_b.svg";
         document.getElementById("footer-tiktok").src=realPath+"/assets/img/ic_social_tiktok_b.svg";
         document.getElementById("footer-logo").src=realPath+"/assets/img/Logo_Bolivia_footer.svg";
-
+        document.getElementById("footer-scrollup").src=realPath+"/assets/img/angle-up-white.svg";
         if($("#header").hasClass("cell") == 0) {
             if ($("#logo-menu-secundary").length == 0) {
                 document.getElementById("logo-menu").src = realPath + "/assets/img/Logo_Bolivia_2.svg";
