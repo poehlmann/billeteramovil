@@ -1,6 +1,12 @@
 $(document).ready(function() {
 
+    $('.scroll_top').on('click', function(e){
+        e.preventDefault()
 
+        $('html, body').animate({
+            scrollTop : $(this.hash).offset().top
+        }, 1500);
+    });
 
     if ($(".seleccion_pais").length) {
         $(document).on("click", ".dropdown-menu .dropdown-item", function (e) {

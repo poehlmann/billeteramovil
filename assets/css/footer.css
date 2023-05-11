@@ -5,6 +5,9 @@
 .footer-section {
     background: #742384;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .footer-cta {
     border-bottom: 1px solid #373636;
@@ -151,6 +154,21 @@
 .copyright-area{
     background: #3F0D4A;
     padding: 5px 0;
+    width: 100%;
+}
+.scroll_top{
+    background-color: #10cbb4;
+    border-radius: 50%;
+    padding: 10px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+}
+.scroll_top img{
+    width: 30px;
 }
 .copyright-text p {
     margin: 0;

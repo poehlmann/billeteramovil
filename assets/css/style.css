@@ -478,7 +478,27 @@ width: 130px;
 }
 }
 
-
+.title-functions{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+.title-functions:hover{
+    color:#10cbb4;
+    cursor: pointer;
+}
+.section-functions{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+.text-functions{
+    font-size: 16px;line-height: 24px;
+}
+.mr-15{
+    margin-right: 15px;
+}
 /*animation phone fin*/
 
 .holder {
