@@ -1292,7 +1292,7 @@ img{max-width:100%;height:auto;}
     .btn-down{display:block;text-align:center;}
 }
 .btn_cta_exp{height:auto!important;line-height:initial!important;padding:20px!important;}
-.btn_cta{width: fit-content;display:inline-block;box-shadow:none;appearance:none;border:0;outline:0;background-color: #10cbb4;line-height:42px;padding:12px 24px;font-size:20px;border-radius:8px!important;cursor:pointer;transition:all .5s;transition-timing-function:cubic-bezier(.2,3,.4,1);user-select:none;color: #ffffff;font-weight:700;}
+.btn_cta{width: fit-content;display:inline-block;box-shadow:none;appearance:none;border:0;outline:0;background-color: #10cbb4;line-height:42px;padding:12px 24px;font-size:20px;border-radius:8px!important;cursor:pointer;transition:all .5s;transition-timing-function:cubic-bezier(.2,3,.4,1);user-select:none;color: #ffffff !important;font-weight:700;}
 .btn_cta:hover{transform:scale(1.1,1.1);color: white !important;}
 .btn_cta:active{transform:scale(1.05,1.05);}
 .bg-comercios{background-image:url(../img/Comercios-soli-pagos-bcp.jpg);background-repeat:no-repeat;background-size:cover;background-position:center center;}

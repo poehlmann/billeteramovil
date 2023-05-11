@@ -52,16 +52,16 @@ function detectMob() {
 }
 //scroll to element phone just in phone
 function scrollFunction(value) {
-    let e = document.getElementById("como-crear-cuenta-soli");
-    if( detectMob()){
-        e.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }
+    let e = document.getElementById("phone_expo");
+    // if( detectMob()){
+        e.scrollIntoView({ behavior: 'smooth', block: 'start',inline: "start" });
+    // }
 }
 function scrollFunction_down() {
     let e = document.getElementById("phone_expo");
-    if( detectMob()){
-        e.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }
+    // if( detectMob()){
+        e.scrollIntoView({ behavior: 'smooth', block: 'start',inline:'start'});
+    // }
 }
 
 
@@ -72,6 +72,14 @@ $(document).ready(function(){
         } else {
             $('#scroll').fadeOut();
         }
+    });
+    $("#tabs-section ul a").on("click", function (e) {
+        // 1
+        e.preventDefault();
+        // 2
+        const href = $(this).attr("href");
+        // 3
+        $("html, body").animate({ scrollTop: $(href).offset().top -100}, 800);
     });
     $('#scroll').click(function(){
         let e = document.getElementById("blog_head");

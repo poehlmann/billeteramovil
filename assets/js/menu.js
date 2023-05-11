@@ -94,7 +94,9 @@
         }else{
             document.getElementById("header-sroll").className = "header small cell";
             // console.log("no esta agregando la clase",realPath+"/assets/img/Logo_Bolivia_3.svg");
-            document.getElementById("logo-menu").src=realPath+"/assets/img/Logo_Bolivia_3.svg";
+            if($("#logo-menu").length != 0) {
+                document.getElementById("logo-menu").src = realPath + "/assets/img/Logo_Bolivia_3.svg";
+            }
         }
     }
 

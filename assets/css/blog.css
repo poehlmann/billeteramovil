@@ -120,8 +120,8 @@
 }
 
 .tabs-blog > ul li a:hover:not(.active) {
-    color: #3b60bd  ;
-
+    color: #000;
+    background: #C2FFF7;
 }
 
 .tabs-blog > ul li a > span {
