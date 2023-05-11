@@ -43,15 +43,15 @@
     <script src="assets/js/config.js"></script>
     <script src="assets/js/c2c.js"></script>
     <!-- fin llamadas -->
-
-    <link rel="preload" href="assets/css/css_principal.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="assets/css/css_principal.min.css"></noscript>
-    <link rel="stylesheet" href="assets/css/menu.css">
+<!--    <link rel="stylesheet" href="assets/css/bootstrap.css">-->
+    <link rel="preload" href="assets/css/css_principal.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="assets/css/css_principal.min.css"></noscript>
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/vendors/animate/animate.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
 
 <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/css/bootstrap-select.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css">
+<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/css/bootstrap-select.min.css">-->
+<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css">-->
 
     <link rel="canonical" href="https://www.solipagosbcp.com.bo"/>
     <!--Iconos-->
@@ -175,11 +175,29 @@
 <!--            </div>-->
 <!--        </div>-->
 <!--    </div>-->
+<!--    <nav id="header" class="navbar navbar-fixed-top">-->
+<!--        <div id="header-container" class="container navbar-container">-->
+<!--            <div class="navbar-header">-->
+<!--                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">-->
+<!--                    <span class="sr-only">Toggle navigation</span>-->
+<!--                    <span class="icon-bar"></span>-->
+<!--                    <span class="icon-bar"></span>-->
+<!--                    <span class="icon-bar"></span>-->
+<!--                </button>-->
+<!--                <a id="brand" class="navbar-brand" href="#">Project name</a>-->
+<!--            </div>-->
+<!--            <div id="navbar" class="collapse navbar-collapse">-->
+<!--                <ul class="nav navbar-nav">-->
+<!--                    <li class="active"><a href="#">Home</a></li>-->
+<!--                    <li><a href="#about">About</a></li>-->
+<!--                    <li><a href="#contact">Contact</a></li>-->
+<!--                </ul>-->
+<!--            </div>&lt;!&ndash; /.nav-collapse &ndash;&gt;-->
+<!--        </div>&lt;!&ndash; /.container &ndash;&gt;-->
+<!--    </nav>&lt;!&ndash; /.navbar &ndash;&gt;-->
+
     <header class="header" id="header-sroll">
-        <div class="">
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-offset-2 col-md-10  col-lg-12">
-                    <div class="desk-menu">
+        <div class="desk-menu">
                         <div class="logo">
                             <div class="logo-adn">
                                 <a id="menu_inicio" href=""><img id="logo-menu" class="logo-menu" alt="logo" src=""></a>
@@ -210,6 +228,9 @@
                                             </ul>
                                         </li>
                                         <li class="menu-item ">
+                                            <a id="menu_beneficios" href="">Beneficios</a>
+                                        </li>
+                                        <li class="menu-item ">
                                             <a id="menu_promociones" href="">YapePromociones</a>
                                         </li>
                                         <li class="menu-item">
@@ -230,12 +251,9 @@
                             </div>
                         </nav>
                     </div>
-                </div>
-            </div>
-        </div>
     </header>
 
-    <div class="wrap_body">
+<!--    <div class="wrap_body">-->
 
         <div class="background-yape bg-image">
             <div class="hero-caption">
@@ -500,7 +518,7 @@
                 </div>
             </div>
         </div>
-    </div>
+<!--    </div>-->
     <footer class="footer-section">
         <div class="container">
             <div class="footer-content pt-48">
@@ -541,7 +559,7 @@
                             <div class="footer-widget-heading">
                                 <h3>Conócenos</h3>
                             </div>
-                            <ul class="list-footer">
+                            <ul class="list-footer lh-1">
                                 <li><a id="footer_inicio" href="">Página principal</a></li>
                                 <li><a id="footer_yape" href="">¿Qué es Yape?</a></li>
                                 <li><a id="footer_ayuda" href="">Centro de ayuda</a></li>
@@ -549,7 +567,7 @@
                                 <li><a id="footer_promociones" href="">Promociones</a></li>
                                 <li><a id="footer_blog" href="">Blog</a></li>
                                 <li><a id="footer_negocio" href="">Negocios</a></li>
-
+                                <li class="mt-25"><a href="https://www2.bcp.com.bo/BilleteraBCP/TerminosCondiciones.html" target="_blank">Términos & Condiciones</a></li>
                             </ul>
                         </div>
                     </div>
@@ -559,11 +577,11 @@
                                 <h3 class="footer_informacion">¿Necesitas ayuda?</h3>
                             </div>
                             <div class="footer-text mb-25">
-                                <ul class="list-footer">
-                                    <li class="mb-20">La Paz<br>211 4141</li>
-                                    <li class="mb-20">Santa Cruz <br>311 4141</li>
-                                    <li class="mb-20">Cochabamba <br>411 4141</li>
-                                    <li class="mb-20">Resto de Departamentos <br>211 4141</li>
+                                <ul class="list-footer ">
+                                    <li class="mb-20 ">La Paz<br>211 4141</li>
+                                    <li class="mb-20 ">Santa Cruz <br>311 4141</li>
+                                    <li class="mb-20 ">Cochabamba <br>411 4141</li>
+                                    <li class="mb-20 ">Resto de Departamentos <br>211 4141</li>
                                 </ul>
                             </div>
                         </div>
@@ -599,17 +617,8 @@
         <div class="copyright-area">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-8 col-lg-8 text-center">
+                    <div class="col-md-12 text-center">
                         <div id="copyrightyear" class="copyright-text"></div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 d-none d-lg-block text-right">
-                        <div class="footer-menu">
-                            <ul>
-                                <li><a href="https://www2.bcp.com.bo/BilleteraBCP/TerminosCondiciones.html"
-                                       target="_blank">Términos y Condiciones</a></li>
-                                <!--                                    <li><a href="#">Políticas de Privacidad</a></li>-->
-                            </ul>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -619,7 +628,7 @@
 </div>
 <script  src="assets/js/jquery.min.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>`
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>-->
 <!--<script  src="assets/js/bootstrap.min.js"></script>-->
 <!--<script src="//unpkg.com/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>-->
 <script  src="assets/js/menu.js"></script>
@@ -633,7 +642,7 @@
 <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></script>-->
 <!--<script src="assets/js/jquery.flagstrap.js"></script>-->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js"></script>-->
 <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
 
 

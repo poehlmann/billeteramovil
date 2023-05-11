@@ -42,6 +42,7 @@
         document.getElementById("menu_promociones").href = realPath+"/solipromociones/";
         document.getElementById("menu_blog").href = realPath+"/blog/";
         document.getElementById("menu_negocio").href = realPath+"/YapeNegocios/";
+        document.getElementById("menu_beneficios").href = realPath+"/beneficios/";
 
         document.getElementById("submenu_arrow").src = realPath+"/assets/img/yape_arrowmenu.svg";
 
@@ -92,7 +93,7 @@
             $('.hamburger-menu .bar').removeClass('animate');
         }else{
             document.getElementById("header-sroll").className = "header small cell";
-            console.log("no esta agregando la clase",realPath+"/assets/img/Logo_Bolivia_3.svg");
+            // console.log("no esta agregando la clase",realPath+"/assets/img/Logo_Bolivia_3.svg");
             document.getElementById("logo-menu").src=realPath+"/assets/img/Logo_Bolivia_3.svg";
         }
     }

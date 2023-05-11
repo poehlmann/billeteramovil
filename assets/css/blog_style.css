@@ -77,6 +77,11 @@
     background: #742384;
     color: #ffffff;
 }
+.post-thumbnail{
+    background-color: #742384;
+    border-radius: 40px;
+    padding: 18px;
+}
 .post-thumbnail img{
  border-radius: 32px;
 }
