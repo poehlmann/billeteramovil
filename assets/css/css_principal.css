@@ -115,7 +115,7 @@ h2 {
         text-decoration: none;
     }
     a:hover {
-        color: #0056b3;
+        color: #10cbb4;
     }
     a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
         color: inherit;
@@ -138,8 +138,8 @@ h2 {
         border-radius: 0;
     }
     button:focus {
-        outline: 1px dotted;
-        outline: 5px auto -webkit-focus-ring-color;
+        /*outline: 1px dotted;*/
+        /*outline: 5px auto -webkit-focus-ring-color;*/
     }
     button, input {
         font-family: inherit;

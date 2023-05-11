@@ -52,15 +52,15 @@ function detectMob() {
 }
 //scroll to element phone just in phone
 function scrollFunction(value) {
-    let e = document.getElementById("phone_expo");
+    // let e = document.getElementById("phone_expo");
     // if( detectMob()){
-        e.scrollIntoView({ behavior: 'smooth', block: 'start',inline: "start" });
+    //     e.scrollIntoView({ behavior: 'smooth', block: 'start',inline: "start" });
     // }
 }
 function scrollFunction_down() {
-    let e = document.getElementById("phone_expo");
+    // let e = document.getElementById("phone_expo");
     // if( detectMob()){
-        e.scrollIntoView({ behavior: 'smooth', block: 'start',inline:'start'});
+    //     e.scrollIntoView({ behavior: 'smooth', block: 'start',inline:'start'});
     // }
 }
 
@@ -81,14 +81,14 @@ $(document).ready(function(){
         // 3
         $("html, body").animate({ scrollTop: $(href).offset().top -100}, 800);
     });
-    $('#scroll').click(function(){
-        let e = document.getElementById("blog_head");
-        e.scrollIntoView({
-            block: 'start',
-            behavior: 'smooth',
-            inline: 'center'
-        });
-    });
+    // $('#scroll').click(function(){
+    //     let e = document.getElementById("blog_head");
+    //     e.scrollIntoView({
+    //         block: 'start',
+    //         behavior: 'smooth',
+    //         inline: 'center'
+    //     });
+    // });
 
     jQuery(function () {
         var url = window.location.href;

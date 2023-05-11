@@ -16,19 +16,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="afinacion de la pagina de inicio">
+    <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="afinacion de la pagina de guia billetera">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/ayuda.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/ayuda.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/ayuda.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/ayuda.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/blog.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/css_principal.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/css_principal.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/menu.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/menu.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/menu.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/yape_centro_ayuda_comisiones.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/yape_centro_ayuda_comisiones.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/yape_centro_ayuda_pago_sin_contacto.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/yape_centro_ayuda_pago_sin_contacto.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/blog.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/blog.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/blog.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/menu.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/menu.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/soy-nuevo-en-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/soy-nuevo-en-yape.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seguridad/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -440,14 +443,7 @@
       <workItem from="1682015956628" duration="27290000" />
       <workItem from="1682352954981" duration="151037000" />
       <workItem from="1683567888941" duration="14542000" />
-      <workItem from="1683716902462" duration="16698000" />
-    </task>
-    <task id="LOCAL-00351" summary="actualizacion referidos">
-      <created>1648590316820</created>
-      <option name="number" value="00351" />
-      <option name="presentableId" value="LOCAL-00351" />
-      <option name="project" value="LOCAL" />
-      <updated>1648590316820</updated>
+      <workItem from="1683716902462" duration="20673000" />
     </task>
     <task id="LOCAL-00352" summary="beneficio entel">
       <created>1648744830584</created>
@@ -785,7 +781,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683780209973</updated>
     </task>
-    <option name="localTasksCounter" value="400" />
+    <task id="LOCAL-00400" summary="afinacion de la pagina de guia billetera">
+      <created>1683785180708</created>
+      <option name="number" value="00400" />
+      <option name="presentableId" value="LOCAL-00400" />
+      <option name="project" value="LOCAL" />
+      <updated>1683785180708</updated>
+    </task>
+    <option name="localTasksCounter" value="401" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -814,7 +817,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="prime" />
     <MESSAGE value="actualizacion" />
     <MESSAGE value="referidos" />
     <MESSAGE value="actualizacion referidos" />
@@ -839,7 +841,8 @@
     <MESSAGE value="cambios en pagina beneficios" />
     <MESSAGE value="cambios en pagina blog con articulos" />
     <MESSAGE value="afinacion de la pagina de inicio" />
-    <option name="LAST_COMMIT_MESSAGE" value="afinacion de la pagina de inicio" />
+    <MESSAGE value="afinacion de la pagina de guia billetera" />
+    <option name="LAST_COMMIT_MESSAGE" value="afinacion de la pagina de guia billetera" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

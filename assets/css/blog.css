@@ -464,9 +464,11 @@ input:checked ~ .tab-content {
 }
 
 .social-box .box:hover{
-    box-shadow: 0 0 6px #4183D7;
+    /*box-shadow: 0 0 6px #4183D7;*/
 }
-
+.social-box .box .box-title h3:hover{
+    color: #10cbb4 ;
+}
 .social-box .box .box-text{
     margin:20px 0px;
     /*font-size: 15px;*/

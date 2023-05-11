@@ -499,10 +499,10 @@ a:focus, a:hover {
     color: #c1c3c6;
 }
 .card > a:focus, .card > a:hover {
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    /*box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);*/
 }
 .card > a:focus > .card-title, .card > a:hover > .card-title {
-    color: #007bff;
+    color: #1ee2ca;
 }
 .nav-link.active{
     margin-top: 10px !important;
