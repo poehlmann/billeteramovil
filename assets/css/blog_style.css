@@ -3,25 +3,29 @@
 .btn_cta_exp{height:auto!important;line-height:initial!important;padding:20px!important;}
 .bg-comercios{background-image:url(../img/Comercios-soli-pagos-bcp.jpg);background-repeat:no-repeat;background-size:cover;background-position:center center;}
 
-
+.overflow-menu{
+    overflow: auto;
+    white-space: nowrap;
+    width: 100%;
+}
 .button {
     transition: all .2s ease-in-out;
     -webkit-appearance: none;
     border-radius: 100px;
-    font-weight: 700;
+    /*font-weight: 700;*/
     font-size: 18px;
     cursor: pointer;
     outline: 0;
     /*opacity: .4;*/
-    color: #62587B;
+    color: #403556;
+    border: 1px solid #B9B4C4;
+    background: #F5F4F7;
     display: inline-flex;
     flex-direction: row;
     align-items: center;
-    padding: 13px 20px;
+    padding: 8px 12px;
+    margin-right: 8px;
     gap: 8px;
-    background: #F5F4F7;
-    border: 1px solid #D6D3DF;
-    height: 40px;
 }
 .post-date span{
     color: #742384;
@@ -108,7 +112,9 @@ display: none;
 }
 
 @media screen and (max-width:992px){
-
+    .overflow-menu{
+        margin-left: 20px;
+    }
     .bg-comercios{background-position:81%;background-image:linear-gradient(rgb(0 0 0/50%),rgb(0 0 0/50%)),url(../img/Comercios-soli-pagos-bcp.jpg);}
     .article-description{
         margin-top: 30px;

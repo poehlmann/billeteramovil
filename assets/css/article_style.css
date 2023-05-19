@@ -64,6 +64,16 @@ p {
     margin-bottom: 50px;
 }
 @media (max-width: 991px) {
+    .volver_atras{
+        margin-left: 0 !important;
+    }
+    .post__container{
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+    }
+    .title-hero{
+        font-size:48px;
+    }
     p {
         font-size: 20px;
     }
@@ -77,11 +87,6 @@ figure {
     margin: 0;
 }
 /** * Text Selection */
-::selection {
-    color: #fff;
-    background-color: #4ab6d4;
-    text-shadow: none;
-}
 /** * Body */
 body {
     /*font-family: 'Source Sans Pro', sans-serif;*/
@@ -127,10 +132,8 @@ body {
     /*border: 0.5em solid #fff;*/
 }
 .volver_atras{
-    padding-top: 13vh;
-    margin-left: 19%;
-    margin-bottom: 8%;
-
+    padding-top: 8vh;
+    margin-left: 121px;
 }
 .volver_atras a{
     color: white;

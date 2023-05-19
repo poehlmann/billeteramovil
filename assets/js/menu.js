@@ -1,5 +1,8 @@
 (function($) {
-
+    document.getElementById('copyrightyear').innerHTML =  `<p>Yape Bolivia © ${new Date().getFullYear()}. <a href="https://www.asfi.gob.bo/" target="_blank">Esta Entidad es
+                                Supervisada por ASFI – Banco de Crédito de Bolivia S.A.</a><br>Banco de Crédito de
+                                Bolivia S.A. Av. Hernando Siles Nº 5555, edificio “Torre Empresarial ESIMSA”, en la zona
+                                de Obrajes de la ciudad de La Paz</p>`;
     var size;
     // Obtenga la URL actual, como: http: // localhost: 8083 / myproj / view / my.jsp
     let curWwwPath=window.document.location.href;
@@ -37,7 +40,7 @@
         document.getElementById("menu_inicio").href = realPath+"/";
         document.getElementById("menu_yape").href = realPath+"/yape/";
         document.getElementById("menu_ayuda").href = realPath+"/ayuda";
-        document.getElementById("menu_billetera").href = realPath+"/billeteramovil/";
+        // document.getElementById("menu_billetera").href = realPath+"/billeteramovil/";
         document.getElementById("menu_seguridad").href = realPath+"/seguridad/";
         document.getElementById("menu_promociones").href = realPath+"/solipromociones/";
         document.getElementById("menu_blog").href = realPath+"/blog/";
@@ -50,7 +53,7 @@
         document.getElementById("footer_inicio").href = realPath+"/index.html";
         document.getElementById("footer_yape").href = realPath+"/yape/";
         document.getElementById("footer_ayuda").href = realPath+"/ayuda";
-        document.getElementById("footer_billetera").href = realPath+"/billeteramovil/";
+        // document.getElementById("footer_billetera").href = realPath+"/billeteramovil/";
         // document.getElementById("footer_seguridad").href = realPath+"/seguridad/";
         document.getElementById("footer_promociones").href = realPath+"/solipromociones/";
         document.getElementById("footer_blog").href = realPath+"/blog/";
@@ -79,8 +82,15 @@
             document.getElementById("logo-menu").src=realPath+"/assets/img/Logo_Bolivia_3.svg";
         }else {
             $('#header-sroll').removeClass('small');
-            // console.log("removi el elemento");
             document.getElementById("logo-menu").src=realPath+"/assets/img/Logo_Bolivia_2.svg";
+        }
+        if ($(this).scrollTop()>0)
+        {
+            $('#location-flag').hide(1000);
+        }
+        else
+        {
+            $('#location-flag').show(1000);
         }
         windowSize();
     }
@@ -113,12 +123,17 @@
 
     $('#cd-primary-nav > li').hover(function() {
         $whidt_item = $(this).width();
+        console.log("$whidt_item",$whidt_item);
         $whidt_item = $whidt_item-8;
-
+        console.log("$whidt_item-8",$whidt_item);
         $prevEl = $(this).prev('li');
+        console.log("$prevEl",$prevEl);
         $preWidth = $(this).prev('li').width();
+        console.log("$preWidth",$preWidth);
         var pos = $(this).position();
+        console.log("pos",pos);
         pos = pos.left+4;
+        console.log("pos+4",pos);
         $('header .desk-menu .menu-container .menu>li.line').css({
             width:  $whidt_item,
             left: pos,
@@ -137,7 +152,9 @@
     });
 
     $('header .desk-menu .menu-container .menu .menu-item-has-children ul').each(function(index) {
-        $(this).append('<li class="back"><a href="#">Volver</a></li>');
+        if($(".back").length == 0) {
+            $(this).append('<li class="back"><a href="#">Volver</a></li>');
+        }
     });
 
     // RESPONSIVE MENU NAVIGATION
@@ -163,6 +180,10 @@
         windowSize();
         setNavigation();
         obtenerPais();
+
+        $('select#country_page').change(function(){
+            window.location = $(this).val();
+        });
     });
 
     $(window).scroll(function(){
@@ -174,11 +195,6 @@
     $(window).resize(function(){
         windowSize();
     });
-
-    //link active
-    // $(function () {
-    //
-    // });
 
     function setNavigation() {
         var currenturl  = window.location.href
@@ -194,9 +210,13 @@
     }
     function obtenerPais(){
         $.get("https://ipinfo.io/?token=719fc6762c190c", function (response) {
-            $("#ip").html("IP: " + response.ip);
-            $("#address").html("pais: " + response.country);
-            $("#details").html(JSON.stringify(response, null, 4));
+            // $("#ip").html("IP: " + response.ip);
+            // $("#address").html("pais: " + response.country);
+            // $("#details").html(JSON.stringify(response, null, 4));
+            if(response.country=="PE") {
+                $("#text-flag").html("Estás en el sitio web de Yape Perú. Elige tu país o región para ver el contenido sobre tú ubicación.");
+                $("#button-flag").html("<a href=\"https://www.yape.com.pe/\"><span class=\"flag-icon flag-icon-pe me-1\"></span> <span>Perú</span></a>");
+            }
         }, "jsonp");
     }
 

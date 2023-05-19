@@ -494,7 +494,9 @@ width: 130px;
     justify-content: center;
 }
 .text-functions{
-    font-size: 16px;line-height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom:26px!important;
 }
 .mr-15{
     margin-right: 15px;
@@ -507,6 +509,9 @@ width: 130px;
 }
 .text-align-list{
     text-align: center;
+}
+.active_selection_phone{
+    color:#10cbb4 !important;
 }
 @media (max-width: 992px) {
     .text-align-list{

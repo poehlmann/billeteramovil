@@ -57,26 +57,14 @@
      <!-- para llamadas -->
      <link rel="stylesheet" href="../assets/css/c2c.css">
      <!-- <link rel="icon" href="../../favicon.png">  logo en la url -->
-     <script src="../assets/js/ac_webrtc.min.js"></script>
-     <script src="../assets/js/audio_player.js"></script>
-     <script src="../assets/js/config.js"></script>
-     <script src="../assets/js/c2c.js"></script>
+     <!--     <script src="../assets/js/ac_webrtc.min.js"></script>-->
+<!--     <script src="../assets/js/audio_player.js"></script>-->
+<!--     <script src="../assets/js/config.js"></script>-->
+<!--     <script src="../assets/js/c2c.js"></script>-->
      <!-- fin llamadas -->
 
     <!--Iconos-->
-    <link rel="apple-touch-icon" sizes="57x57" href="../assets/img/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="../assets/img/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="../assets/img/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="../assets/img/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="../assets/img/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="../assets/img/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="../assets/img/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="../assets/img/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="../assets/img/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
     <link rel="manifest" href="../assets/img/manifest.json">
     <meta name="msapplication-TileColor" content="#0fa8d5">
     <meta name="msapplication-TileImage" content="../assets/img/ms-icon-144x144.png">
@@ -86,71 +74,7 @@
 <!--    <script async src="../assets/vendors/modernizr.min.js"></script>-->
 </head>
 
-<body onload="c2c_init()" data-mobile-nav-trigger-alignment="right" data-mobile-nav-align="left" data-mobile-nav-style="modern"
-    data-mobile-nav-shceme="gray" data-mobile-header-scheme="gray" data-mobile-nav-breakpoint="1199">
-    <div id="cwTest" class="cwTest">
-        <div id="main_div">
-            <!-- <h2 data-test-id="text-404">.</h2> -->
-            <!-- <p>.</p>
-            <p>.</p> -->
-            <!-- Click to call widget -->
-
-            <!-- div to display internet speed and test call quality score -->
-            <div id="c2c_quality_info_div">
-                <span id="c2c_connection_span"></span><br>
-                <span id="c2c_quality_span"></span>
-            </div>
-
-            <!-- Two buttons with SVG icons: test call and call -->
-            <div id="c2c_widget" style="margin-right: -90px;">
-
-                <!-- Test call button to check phone to SBC line quality -->
-                <button id="c2c_test_btn" title="Click to test connection quality">
-                    <svg id="c2c_test_svg">
-                        <!-- Used free SVG phone icon. Thanks to www.freeicons.io -->
-                        <g fill="none" fill-rule="evenodd">
-                            <path d="M-1-1h24v24H-1z" />
-                            <path
-                                d="M21.61 17.99l-9.08-9.08c.93-2.34.45-5.1-1.44-7-2.3-2.3-5.88-2.51-8.43-.65L6.5 5.11 5.08 6.52 1.25 2.69C-.61 5.23-.4 8.82 1.9 11.11c1.86 1.86 4.57 2.35 6.89 1.48l9.11 9.11c.39.39 1.02.39 1.41 0l2.3-2.3c.4-.38.4-1.01 0-1.41zm-3 1.6l-9.46-9.46c-.61.45-1.29.72-2 .82-1.36.2-2.79-.21-3.83-1.25C2.37 8.76 1.93 7.5 2 6.26l3.09 3.09 4.24-4.24-3.09-3.09c1.24-.07 2.49.37 3.44 1.31a4.469 4.469 0 011.24 3.96 4.35 4.35 0 01-.88 1.96l9.45 9.45-.88.89z"
-                                fill="#1D1D1D" />
-                        </g>
-                    </svg>
-                    <span>linea</span>
-                </button>
-
-
-                &nbsp;
-                <!-- In the span can be set optional "Call to ..." text -->
-                <span></span>
-
-                <!-- Call button -->
-                <button id="c2c_call_btn" title="Click to call us on the phone">
-                    <!-- Used free SVG phone icon. Thanks to fontawesome.com -->
-                    <svg id="c2c_call_svg" fill="#006DF0" viewBox="0 0 512 512">
-                        <path
-                            d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z" />
-                    </svg>
-                    <span> </span>
-                </button>
-
-                <!-- The div used for phone messages -->
-                <!-- <div id="c2c_message"></div> -->
-                <div id="c2c-cw-modal" class="cw-modal">
-                    <div class="cw-modal-content">
-                        <span class="cw-modal-close">&times;</span>
-                        <div id="c2c_message"></div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <!-- Video controls for WebRTC. Invisible for audio call -->
-    <video id="c2c_local_video" style="display: none;" playsinline></video>
-    <video id="c2c_remote_video" style="display: none;" autoplay playsinline></video>
-
-    <!-- end of click to call widget -->
-    <!-- Google Tag Manager (noscript) -->
+<body>
     <noscript>
         <iframe src="//www.googletagmanager.com/ns.html?id=GTM-M5CPZ24" height="0" width="0"
             style="display:none;visibility:hidden"></iframe>
@@ -160,10 +84,8 @@
 
     <div id="wrap">
         <header class="header font_dosis small" id="header-sroll">
-            <div class="">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12  col-lg-12">
-                        <div class="desk-menu">
+            <div class="container">
+                <div class="desk-menu">
                             <div class="logo">
                                 <div class="logo-adn">
                                     <a id="menu_inicio" href=""><img id="logo-menu-secundary" class="logo-menu" alt="logo" src=""></a>
@@ -185,9 +107,9 @@
                                                     <li class="menu-item">
                                                         <a id="menu_ayuda" href="">Centro de ayuda </a>
                                                     </li>
-                                                    <li class="menu-item">
-                                                        <a id="menu_billetera" href="">Guía Billetera Móvil</a>
-                                                    </li>
+<!--                                                    <li class="menu-item">-->
+<!--                                                        <a id="menu_billetera" href="">Guía Billetera Móvil</a>-->
+<!--                                                    </li>-->
                                                     <li class="menu-item">
                                                         <a id="menu_seguridad" href="">Seguridad en Yape</a>
                                                     </li>
@@ -217,22 +139,20 @@
                                 </div>
                             </nav>
                         </div>
-                    </div>
-                </div>
             </div>
         </header>
 
-        <section class="page-hero-section" style="background-color: #742384;background-image: linear-gradient(to bottom,rgba(44,32,68,0) 0%,#2c2044 140%),url(../assets/img/yape_girl_kiosco.svg);background-size: inherit;background-position: 80% 20%;background-repeat: no-repeat;background-origin: content-box;padding-top: 12vh;">
-            <div class="container">
+        <section class="page-hero-section" style="background: #742384;background: linear-gradient(to bottom,#742384 0%,#2c2044 140%)" >
+            <div class="container" style="background-image: url(../assets/img/yape_girl_kiosco.svg);background-size: contain;background-position: 85% 20%;background-repeat: no-repeat;background-origin: content-box;padding-top: 5vh;">
                 <div class="row mb-50 mt-100">
-                    <div class="col-md-6 col-lg-6 text-white indent-element-section ">
+                    <div class="col-md-6 col-lg-6 text-white indent-element-section " style="justify-content: space-evenly;">
                         <h1 class="text-white font-weight-bold" style="font-weight: 500;font-size: 14px;line-height: 18px;letter-spacing: 0.1px;">Yape Negocios</h1>
                         <p class="text-justify text-white" style="font-weight: 700;font-size: 48px;line-height: 56px;">
-                            <b>Con Yape,</b><br>¡todo es más fácil!
+                            ¿Tienes un restaurante?<br>Cobra sin comisiones
                         </p>
                         <div class="">
                             <a href="https://play.google.com/store/apps/details?id=com.bcp.bo.wallet&referrer=utm_source%3Dp%25C3%25A1gina_web%26utm_medium%3Dp%25C3%25A1gina_web%26utm_term%3Dp%25C3%25A1gina_web%26utm_content%3Dp%25C3%25A1gina_web%26utm_campaign%3Dp%25C3%25A1gina_web"
-                               type="button" class="btn_cta mb-20 mt-30 ">Descargar Yape</a>
+                               type="button" class="btn_cta mb-20 mt-30 ">Quiero mi pack QR</a>
                         </div>
                     </div>
                     <!--                    <div class="lqd-column col-md-6">-->
@@ -245,7 +165,7 @@
         <section class="pt-64 bg-gray">
             <div class="container">
                 <div class="row holder">
-                    <div class="col-md-offset-1 col-md-4" >
+                    <div class="col-md-offset-1 col-md-4 text-center" >
                         <img src="../assets/img/yape_girl3.svg" alt="Yape" title="Yape"/>
                     </div>
                     <div class=" col-md-6 ">
@@ -253,10 +173,10 @@
                         <p class="mb-30"><strong>Únete a la red de Yape Emprendedores y Yape Negocios</strong></p>
                         <a href="./yape" type="button" class="btn_cta mb-30  ">Empieza ahora</a>
                         <ul style="padding-inline-start: 17px;">
-                            <li>Digitaliza los cobros de tu negocio con pagos por QR</li>
-                            <li>Transacciones 100% seguras, inmediatas y transparentes</li>
-                            <li>Pagos y cobros sin comisión</li>
-                            <li>No necesitas tener cuenta en el BCP</li>
+                            <li class="mb-10">Digitaliza los cobros de tu negocio con pagos por QR</li>
+                            <li class="mb-10">Transacciones 100% seguras, inmediatas y transparentes</li>
+                            <li class="mb-10">Pagos y cobros sin comisión</li>
+                            <li class="mb-10">No necesitas tener cuenta en el BCP</li>
                         </ul>
                     </div>
                 </div>
@@ -303,7 +223,7 @@
         <section class="pt-64 pb-64">
             <div class="container">
                 <div class="row text-center">
-                    <div class="col-md-12 " >
+                    <div class="col-md-12 col-xs-12" >
                         <img src="../assets/img/Logo_Bolivia_3.svg" alt="yape negocio" style="width: 60px;" class="mb-20">
                         <h2 class="yape-texto-purpura">Yape, la aplicación ideal<br><strong>para tu negocio virtual y/o físico</strong></h2>
                     </div>
@@ -311,11 +231,11 @@
             </div>
         </section>
 
-        <section class="page-hero-section pt-64 pb-64" style="background-image: url(../assets/img/yape_background.png);background-size: cover;background-position: center center;background-repeat: no-repeat;background-origin: content-box;">
+        <section class="page-hero-section pt-64 pb-64" style="background-image: url(../assets/img/yape_background.png);background-size: cover;background-position: center center;background-repeat: no-repeat;">
             <div class="container">
                 <div class="row text-center">
-                    <div class="col-md-12 text-white ">
-                        <h2 class="text-white font-weight-bold mb-50" style="font-weight: 700;line-height: 56px;">¡Pagos y transferencias sin comisiones!</h2>
+                    <div class="col-md-12 col-xs-12 text-white ">
+                        <h2 class="text-white font-weight-bold mb-25" style="font-weight: 700;line-height: 56px;">¡Pagos y transferencias sin comisiones!</h2>
                         <p class="text-justify text-white font-size-16" style="font-weight: 500;font-size: 14px;line-height: 18px;letter-spacing: 0.1px;">
                            Todas las transacciones a través de Yape, son gratuitas<br>Innova en tu negocio recibiendo pagos digitales con QR
                         </p>
@@ -360,7 +280,7 @@
             </div>
         </section>
 
-        <section class=" pb-64">
+        <section class=" pt-64 bg-gray">
             <div class="container">
                 <div class="row holder">
                     <div class="col-md-offset-1 col-md-4 " >
@@ -381,7 +301,7 @@
 <!--        </section>-->
 
         <footer class="footer-section">
-        <a href="#wrap" id="bottom" class="scroll_top up"><img id="footer-scrollup" src=""> </a>
+        <a href="#wrap" id="bottom" class="scroll_top up"><img id="footer-scrollup" src="" alt="Yape scroll up"> </a>
         <div class="container">
             <div class="footer-content pt-48">
                 <div class="row footer_cell_invert">
@@ -425,7 +345,7 @@
                                 <li><a id="footer_inicio" href="">Página principal</a></li>
                                 <li><a id="footer_yape" href="">¿Qué es Yape?</a></li>
                                 <li><a id="footer_ayuda" href="">Centro de ayuda</a></li>
-                                <li><a id="footer_billetera" href="">Guía Billetera Móvil</a></li>
+                                <!--<li><a id="footer_billetera" href="">Guía Billetera Móvil</a></li>-->
                                 <li><a id="footer_promociones" href="">Promociones</a></li>
                                 <li><a id="footer_blog" href="">Blog</a></li>
                                 <li><a id="footer_negocio" href="">Negocios</a></li>
@@ -433,13 +353,14 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                    <div class="col-lg-1 col-md-3 col-sm-12 col-xs-12">
                         <div class="footer-widget">
                             <div class="footer-widget-heading">
                                 <h3 class="footer_informacion">¿Necesitas ayuda?</h3>
                             </div>
-                            <div class="footer-text mb-25">
+                            <div class="footer-text ">
                                 <ul class="list-footer ">
+                                    <li class="mb-20 "><a href="https://www2.bcp.com.bo/BilleteraBCP/TerminosCondiciones.html" target="_blank">Términos & Condiciones</a></li>
                                     <li class="mb-20 ">La Paz<br>211 4141</li>
                                     <li class="mb-20 ">Santa Cruz <br>311 4141</li>
                                     <li class="mb-20 ">Cochabamba <br>411 4141</li>
@@ -448,12 +369,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-1 col-md-3 col-sm-3 col-xs-3">
+                    <div class="col-lg-1 col-md-3 col-sm-12 col-xs-12">
                         <div class="footer-widget">
                             <div class="footer-widget-heading">
                                 <h3>¿Estás listo? ¡Vamos!</h3>
                             </div>
-                            <div class="footer-text footer-button mb-25">
+                            <div class="footer-text footer-button">
                                 <p>
                                     <a id="descarga_android_soliprincipal_banner1" target="_blank" rel="noreferrer"
                                        href="https://play.google.com/store/apps/details?id=com.bcp.bo.wallet&referrer=utm_source%3Dp%25C3%25A1gina_web%26utm_medium%3Dp%25C3%25A1gina_web%26utm_term%3Dp%25C3%25A1gina_web%26utm_content%3Dp%25C3%25A1gina_web%26utm_campaign%3Dp%25C3%25A1gina_web">
@@ -478,7 +399,7 @@
         </div>
         <div class="copyright-area">
             <div class="container">
-                <div class="row">
+                <div class="row justify-content-center">
                     <div class="col-md-12 text-center">
                         <div id="copyrightyear" class="copyright-text"></div>
                     </div>
@@ -495,26 +416,26 @@
     <script src="../assets/js/menu.js"></script>
     <script src="../assets/js/js_principal.js"></script>
 <!--    <script src="../assets/js/script.min.js"></script>-->
-    <script>
-        var cwmodal = document.getElementById("c2c-cw-modal");
-        var cwspan = document.getElementsByClassName("cw-modal-close")[0];
+    <!--    <script>-->
+<!--        var cwmodal = document.getElementById("c2c-cw-modal");-->
+<!--        var cwspan = document.getElementsByClassName("cw-modal-close")[0];-->
 
-        $("#c2c_call_btn").click(function () {
-            cwmodal.style.display = "block";
-            setTimeout('DipNoneModal()', 8000);
-        });
-        cwspan.onclick = function () {
-            cwmodal.style.display = "none";
-        }
-        window.onclick = function (event) {
-            if (event.target == cwmodal) {
-                cwmodal.style.display = "none";
-            }
-        }
-        function DipNoneModal() {
-            cwmodal.style.display = "none";
-        }
-    </script>
+<!--        $("#c2c_call_btn").click(function () {-->
+<!--            cwmodal.style.display = "block";-->
+<!--            setTimeout('DipNoneModal()', 8000);-->
+<!--        });-->
+<!--        cwspan.onclick = function () {-->
+<!--            cwmodal.style.display = "none";-->
+<!--        }-->
+<!--        window.onclick = function (event) {-->
+<!--            if (event.target == cwmodal) {-->
+<!--                cwmodal.style.display = "none";-->
+<!--            }-->
+<!--        }-->
+<!--        function DipNoneModal() {-->
+<!--            cwmodal.style.display = "none";-->
+<!--        }-->
+<!--    </script>-->
     <!--<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>-->
 </body>
 

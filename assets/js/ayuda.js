@@ -150,6 +150,8 @@ $(document).ready(function () {
     iframe_tutorial.width="100%";
     iframe_tutorial.height="480px";
     iframe_tutorial.setAttribute("src", link_tutorial);
-    document.getElementById("videotutorialsoli").appendChild(iframe_tutorial);
+    if($("#videotutorialsoli").length != 0) {
+        document.getElementById("videotutorialsoli").appendChild(iframe_tutorial);
+    }
 });
 

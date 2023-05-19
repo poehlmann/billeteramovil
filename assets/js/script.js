@@ -44,24 +44,45 @@ $(document).ready(function() {
 
         $('.phone1').click(function () {
             owl.trigger('to.owl.carousel', 0);
-            owl.trigger('stop.owl.autoplay')
+            owl.trigger('stop.owl.autoplay');
+            if (document.querySelector('.section-functions a.active_selection_phone') !== null) {
+                document.querySelector('.section-functions a.active_selection_phone').classList.remove('active_selection_phone');
+            }
+            $(".phone1").addClass("active_selection_phone");
         });
         $('.phone2').click(function () {
             owl.trigger('to.owl.carousel', 1);
-            owl.trigger('stop.owl.autoplay')
+            owl.trigger('stop.owl.autoplay');
+            if (document.querySelector('.section-functions a.active_selection_phone') !== null) {
+                document.querySelector('.section-functions a.active_selection_phone').classList.remove('active_selection_phone');
+            }
+            $(".phone2").addClass("active_selection_phone");
         });
         $('.phone3').click(function () {
             owl.trigger('to.owl.carousel', 2);
-            owl.trigger('stop.owl.autoplay')
+            owl.trigger('stop.owl.autoplay');
+            if (document.querySelector('.section-functions a.active_selection_phone') !== null) {
+                document.querySelector('.section-functions a.active_selection_phone').classList.remove('active_selection_phone');
+            }
+            $(".phone3").addClass("active_selection_phone");
         });
         $('.phone4').click(function () {
             owl.trigger('to.owl.carousel', 3);
-            owl.trigger('stop.owl.autoplay')
+            owl.trigger('stop.owl.autoplay');
+            if (document.querySelector('.section-functions a.active_selection_phone') !== null) {
+                document.querySelector('.section-functions a.active_selection_phone').classList.remove('active_selection_phone');
+            }
+            $(".phone4").addClass("active_selection_phone");
         });
         $('.phone5').click(function () {
             owl.trigger('to.owl.carousel', 4);
-            owl.trigger('stop.owl.autoplay')
+            owl.trigger('stop.owl.autoplay');
+            if (document.querySelector('.section-functions a.active_selection_phone') !== null) {
+                document.querySelector('.section-functions a.active_selection_phone').classList.remove('active_selection_phone');
+            }
+            $(".phone5").addClass("active_selection_phone");
         });
+
     }
 });
 //scroll to element phone just in phone
