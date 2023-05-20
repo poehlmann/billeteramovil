@@ -1223,6 +1223,7 @@ img{max-width:100%;height:auto;}
 .font-size-20{font-size:20px!important;}
 .font-size-24{font-size:24px!important;}
 .font-size-30{font-size:30px!important;}
+.font-size-34{font-size:34px!important;}
 .font-size-40{font-size:40px!important;}
 .font-size-50{font-size:50px!important;}
 .font-size-90{font-size:90px!important;}
@@ -1252,6 +1253,7 @@ img{max-width:100%;height:auto;}
 .pt-64{padding-top:64px;}
 .pb-64{padding-bottom:64px;}
 .pt-48{padding-top:48px!important;}
+.pb-48{padding-bottom:48px !important;}
 .mb-70{margin-bottom:70px!important;}
 .text-right{text-align:right!important;}
 .text-center{text-align:center!important;}
@@ -1315,7 +1317,7 @@ img{max-width:100%;height:auto;}
 .btn_cta_exp{height:auto!important;line-height:initial!important;padding:20px!important;}
 .btn_cta{
     width: fit-content;
-    height: 56px;
+    height: auto;
     display: inline-block;
     box-shadow: none;
     appearance: none;
