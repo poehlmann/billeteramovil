@@ -1213,6 +1213,7 @@ img{max-width:100%;height:auto;}
 @media (max-width:767px){
     .hide_phone{display:none;}
 }
+
 .pt-10 {padding-top: 10px !important;}
 .pb-10 {padding-bottom: 10px !important;}
 .ml-20 {margin-left: 20px !important;}
@@ -1222,6 +1223,7 @@ img{max-width:100%;height:auto;}
 .font-size-18{font-size:18px!important;}
 .font-size-20{font-size:20px!important;}
 .font-size-24{font-size:24px!important;}
+.font-size-26{font-size:26px!important;}
 .font-size-30{font-size:30px!important;}
 .font-size-34{font-size:34px!important;}
 .font-size-40{font-size:40px!important;}

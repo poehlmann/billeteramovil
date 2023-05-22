@@ -15,6 +15,43 @@
     // obtuve http: // localhost: 8083 / myproj
     let realPath=localhostPaht+projectName;
 
+    $('.descarga_QR').click(function() {
+        if( navigator.userAgent.match(/Android/i)
+            || navigator.userAgent.match(/webOS/i)
+            || navigator.userAgent.match(/iPhone/i)
+            || navigator.userAgent.match(/iPad/i)
+            || navigator.userAgent.match(/iPod/i)
+            || navigator.userAgent.match(/BlackBerry/i)
+            || navigator.userAgent.match(/Windows Phone/i)){
+            // window.location.replace("https://onelink.to/xurcbr");
+            window.location.href = "https://onelink.to/xurcbr";
+        }else{
+            Swal.fire({
+                width: "30%",
+                html:
+                    '<div class="row">' +
+                    '<div class="col-md-6 indent-left-services">' +
+                    '<div style="text-align: left"><strong class="mb-20 yape-texto-purpura font-size-26">Escanea el código QR  y descarga Yape:</strong>\n' +
+                    '<ol class="font-size-16" style="padding-inline-start: 15px;margin-block-start: revert;">' +
+                    '<li>Apunta al código QR con la cámara de tu celular</li>' +
+                    '<li>Haz clic en el enlace generado para descargar e instalar la aplicación</li>' +
+                    '</ol>' +
+                    '</div>' +
+                    '</div>' +
+                    '<div class="col-md-6">' +
+                    '<img src="' + realPath + '/assets/img/yape_qr_redirect.svg" alt="QR de yape"> ' +
+                    '</div>' +
+                    '</div>',
+                showCloseButton: true,
+                showConfirmButton: false,
+                showCancelButton: false,
+                footer: '<strong class="font-size-14">Disponible en:</strong><img src="' + realPath + '/assets/img/yape_google_play_icon.svg"><img src="' + realPath + '/assets/img/yape_apple_icon.svg"><img src="' + realPath + '/assets/img/yape_huawei_icon.svg">'
+            })
+        }
+    });
+    function detectMob() {
+        return ( ( window.innerWidth <= 997 )  );
+    }
     function changeUrlMenu(){
         if($("#descarga_android").length != 0) {
             document.getElementById("descarga_android").src = realPath + "/assets/img/soli-05.svg";
@@ -123,17 +160,17 @@
 
     $('#cd-primary-nav > li').hover(function() {
         $whidt_item = $(this).width();
-        console.log("$whidt_item",$whidt_item);
+        // console.log("$whidt_item",$whidt_item);
         $whidt_item = $whidt_item-8;
-        console.log("$whidt_item-8",$whidt_item);
+        // console.log("$whidt_item-8",$whidt_item);
         $prevEl = $(this).prev('li');
-        console.log("$prevEl",$prevEl);
+        // console.log("$prevEl",$prevEl);
         $preWidth = $(this).prev('li').width();
-        console.log("$preWidth",$preWidth);
+        // console.log("$preWidth",$preWidth);
         var pos = $(this).position();
-        console.log("pos",pos);
+        // console.log("pos",pos);
         pos = pos.left+4;
-        console.log("pos+4",pos);
+        // console.log("pos+4",pos);
         $('header .desk-menu .menu-container .menu>li.line').css({
             width:  $whidt_item,
             left: pos,
