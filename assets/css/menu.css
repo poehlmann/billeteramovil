@@ -86,6 +86,10 @@ header .desk-menu {
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
+    top:15px;
+}
+.small .desk-menu{
+    top:0 !important;
 }
 header .desk-menu .logo {
     position: static;

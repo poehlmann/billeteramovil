@@ -1332,7 +1332,7 @@ img{max-width:100%;height:auto;}
     /*transition-timing-function: cubic-bezier(.2,3,.4,1);*/
     user-select: none;
     color: #ffffff !important;
-    font-weight: lighter;
+    font-weight: 700;
     font-size: 16px;
 }
 .btn_cta:hover{background-color: #00AD97;color: white !important;}
