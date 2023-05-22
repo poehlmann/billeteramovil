@@ -6,6 +6,34 @@ $(document).ready(function() {
             scrollTop : $(this.hash).offset().top
         }, 1500);
     });
+    var size;
+    // Obtenga la URL actual, como: http: // localhost: 8083 / myproj / view / my.jsp
+    let curWwwPath=window.document.location.href;
+    // Obtenga el directorio después de la dirección de host, como: myproj / view / my.jsp
+    let pathName=window.document.location.pathname;
+    let pos=curWwwPath.indexOf(pathName);
+    let localhostPaht=curWwwPath.substring(0,pos);
+    // Obtenga el nombre del proyecto con "/", como: / myproj
+    let projectName=pathName.substring(0,pathName.substring(1).indexOf('/')+1);
+    // obtuve http: // localhost: 8083 / myproj
+    let realPath=localhostPaht+projectName;
+    Swal.fire({
+        width: "30%",
+        html:
+            '<div class="row">' +
+            '<div class="col-md-6">' +
+            '<img src="' + realPath + '/assets/img/yape_yapido_emprendimiento.svg" alt="QR de yape"> ' +
+            '</div>' +
+            '<div class="col-md-6">' +
+            '<div style="text-align: left;margin-top: 25%;" class="indent-left-services"><strong class="mb-20 yape-texto-purpura font-size-26">Con Yape, obtendrás una experiencia mejorada</strong><br>' +
+            '<span class="font-size-16" style="margin-block-start: revert;">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</span>' +
+            '</div>' +
+            '</div>',
+        showCloseButton: true,
+        showConfirmButton: false,
+        showCancelButton: false,
+        // footer: '<strong class="font-size-14">Disponible en:</strong><img src="' + realPath + '/assets/img/yape_google_play_icon.svg"><img src="' + realPath + '/assets/img/yape_apple_icon.svg"><img src="' + realPath + '/assets/img/yape_huawei_icon.svg">'
+    })
 
     // var client_list = $('.app-active');
     // if(client_list.length){
