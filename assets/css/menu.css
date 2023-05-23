@@ -500,6 +500,11 @@ header .desk-menu .menu-container .menu>li .btn_cta{
     color: #ffffff !important;
 }
 @media (max-width: 991px) {
+    #location-flag{
+        background: #742384;
+        color: #ffff;
+        font-weight: 300;
+    }
     .indent-element-section{
         justify-items: inherit !important;
     }

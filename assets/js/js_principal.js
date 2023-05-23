@@ -18,7 +18,7 @@ $(document).ready(function() {
     // obtuve http: // localhost: 8083 / myproj
     let realPath=localhostPaht+projectName;
     Swal.fire({
-        width: "30%",
+        width: "70vh",
         html:
             '<div class="row">' +
             '<div class="col-md-6">' +
