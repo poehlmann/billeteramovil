@@ -258,35 +258,35 @@ header .desk-menu .menu-container .menu > li.menu-item-has-children > a {
     /*padding: 19px 20px 19px 8px;*/
     position: relative;
 }
-header .desk-menu .menu-container .menu > li.menu-item-has-children > a::before, header .desk-menu .menu-container .menu > li.menu-item-has-children > a::after {
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: #4e4e4e;
-    position: absolute;
-    content: '';
-    height: 1px;
-    width: 7px;
-    top: 26px;
-}
-header .desk-menu .menu-container .menu > li.menu-item-has-children > a::before {
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-    right: 10px;
-}
-header .desk-menu .menu-container .menu > li.menu-item-has-children > a::after {
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    right: 6px;
-}
+/*header .desk-menu .menu-container .menu > li.menu-item-has-children > a::before, header .desk-menu .menu-container .menu > li.menu-item-has-children > a::after {*/
+/*    -webkit-transition: all 0.3s ease-in-out;*/
+/*    -moz-transition: all 0.3s ease-in-out;*/
+/*    -ms-transition: all 0.3s ease-in-out;*/
+/*    -o-transition: all 0.3s ease-in-out;*/
+/*    transition: all 0.3s ease-in-out;*/
+/*    background-color: #4e4e4e;*/
+/*    position: absolute;*/
+/*    content: '';*/
+/*    height: 1px;*/
+/*    width: 7px;*/
+/*    top: 26px;*/
+/*}*/
+/*header .desk-menu .menu-container .menu > li.menu-item-has-children > a::before {*/
+/*    -webkit-transform: rotate(45deg);*/
+/*    -moz-transform: rotate(45deg);*/
+/*    -ms-transform: rotate(45deg);*/
+/*    -o-transform: rotate(45deg);*/
+/*    transform: rotate(45deg);*/
+/*    right: 10px;*/
+/*}*/
+/*header .desk-menu .menu-container .menu > li.menu-item-has-children > a::after {*/
+/*    -webkit-transform: rotate(-45deg);*/
+/*    -moz-transform: rotate(-45deg);*/
+/*    -ms-transform: rotate(-45deg);*/
+/*    -o-transform: rotate(-45deg);*/
+/*    transform: rotate(-45deg);*/
+/*    right: 6px;*/
+/*}*/
 header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu {
     /* box-shadow: 1px 2px 4px rgba(46,61,73,.2); */
     -webkit-transition: all .1s ease-in-out;
@@ -295,14 +295,14 @@ header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu {
     -o-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
     -webkit-overflow-scrolling: touch;
-    min-width: 140px;
+    /*min-width: 140px;*/
     position: absolute;
     list-style: none;
     background: #fff;
     padding: 0;
     display: table;
     left: 0;
-    width: 100%;
+    width: 140px;
     float: left;
     display: none;
     border-radius: 8px;
