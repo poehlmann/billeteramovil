@@ -236,7 +236,7 @@ $(document).ready(function() {
     //     appStoreLanguage: 'es', // language code for the App Store (defaults to user's browser language)
     //     title: 'Descarga la app Soli',
     //     author: 'No necesitas ser cliente del BCP',
-    //     button: '¡Descarga!',
+    //     button: '¡Regístrate!',
     //     store: {
     //         ios: 'App Store',
     //         android: 'Google Play'

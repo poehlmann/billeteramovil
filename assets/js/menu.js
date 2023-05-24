@@ -31,7 +31,7 @@
                 html:
                     '<div class="row">' +
                     '<div class="col-md-6 indent-left-services">' +
-                    '<div style="text-align: left"><strong class="mb-20 yape-texto-purpura font-size-26">Escanea el código QR  y descarga Yape:</strong>\n' +
+                    '<div style="text-align: left"><strong class="mb-20 yape-texto-purpura font-size-26">Escanea el código QR  e inscríbite a Yape:</strong>\n' +
                     '<ol class="font-size-16" style="padding-inline-start: 15px;margin-block-start: revert;">' +
                     '<li>Apunta al código QR con la cámara de tu celular</li>' +
                     '<li>Haz clic en el enlace generado para descargar e instalar la aplicación</li>' +
