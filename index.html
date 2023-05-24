@@ -44,6 +44,7 @@
 <!--    <script src="assets/js/c2c.js"></script>-->
     <!-- fin llamadas -->
     <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css">
     <link rel="preload" href="assets/css/css_principal.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="assets/css/css_principal.min.css"></noscript>
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/vendors/animate/animate.css">
@@ -51,7 +52,7 @@
     <link href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-minimal/minimal.css" rel="stylesheet">
 <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">-->
 <!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/css/bootstrap-select.min.css">-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css">
+
 
     <link rel="canonical" href="https://www.solipagosbcp.com.bo"/>
     <!--Iconos-->
@@ -147,24 +148,21 @@
 </noscript>
 
 <div id="wrap">
-<!--        <hr/>-->
-<!--        <div id="ip"></div>-->
-<!--        <div id="address"></div>-->
-<!--        <hr/>Detelle completo: <pre id="details"></pre>-->
-    <div id="location-flag" class="text-center pt-10 pb-10" role="alert">
+
+    <div id="location-flag" class="text-center pt-10 pb-10 smart-banner" role="alert">
         <strong class="font-size-14" id="text-flag">Estás en el sitio web de Yape Bolivia. Elige tu país o región para ver el contenido sobre tú ubicación.</strong>
         <div class="btn-group dropdown ml-20">
             <button id="button-flag" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="flag-icon flag-icon-bo"></span> <span> Bolivia</span> <span class="caret"></span>
+                <span class="flag-icon flag-bo"></span> <span> Bolivia</span> <span class="caret"></span>
             </button>
             <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="https://www.yape.com.bo/"><span class="flag-icon flag-icon-bo"></span> <span> Bolivia</span></a></li>
-                <li><a class="dropdown-item" href="https://www.yape.com.pe/"><span class="flag-icon flag-icon-pe"></span> <span> Perú</span></a></li>
+                <li><a class="dropdown-item" href="https://www.yape.com.bo/"><span class="flag-icon flag-bo"></span> <span> Bolivia</span></a></li>
+                <li><a class="dropdown-item" href="https://www.yape.com.pe/"><span class="flag-icon flag-pe"></span> <span> Perú</span></a></li>
             </ul>
         </div>
+        <a href="#" class="close">&times;</a>
     </div>
-
-    <header class="header" id="header-sroll">
+    <header class="header pagina_principal" id="header-sroll">
         <div class="container">
             <div class="desk-menu">
                 <div class="logo">
@@ -208,10 +206,10 @@
                                 <li class="menu-item">
                                     <a id="menu_negocio" href="">Yape Negocios</a>
                                 </li>
-                                <li class="menu-item">
+                                <li class="">
                                     <a href="#" type="button" class="btn_cta descarga_QR">¡Descarga!</a>
                                 </li>
-                                <li class="line"></li>
+
                             </ul>
                         </div>
                     </div>
@@ -256,8 +254,8 @@
                     <div class="mb-30">
                         <h2 class="mb-4 font-weight-bold" style="line-height: 45px;">¿Qué es Yape?</h2>
                         <p >Yape es una billetera móvil para los Bolivianos que les permite
-                            digitalizar su dinero para hacer pagos y transacciones
-                            <a href="https://www.bcp.com.bo/Tarifario/Tarifario_Yape_Pagos_BCP" target="_blank">sin comisión.</a>
+                            digitalizar su dinero para hacer pagos y transacciones<br>
+                            <a href="#" target="_blank">sin comisión.</a>
                         </p>
                         <a href="./yape" type="button" class="btn_cta mb-20 mt-30 ">Conoce Yape</a>
                     </div>
@@ -276,33 +274,72 @@
                         <h2 class="font-weight-bold">Recarga tu billetera Yape</h2>
                     </div>
                 </div>
-                <div class="row mt-30 justify-content-center section_1_2_inicio">
-                    <div class="col-md-6 col-xs-12 button_recarga_yape_l">
-                        <div class="cta "><a href="#soli-ubicacion" type="button" class="btn_cta mb-30 mt-30 " role="button" data-toggle="modal" data-target="#soli-ubicacion">Mapa de puntos Yape</a></div>
-                    </div>
-                    <div class="col-md-6 col-xs-12 button_recarga_yape_r">
-                        <div class="cta "><a href="yape/recarga_tu_billetera_soli.html" type="button" class="btn_cta mb-30 mt-30 btn_map">¿Cómo recargo mi Yape?</a></div>
-                    </div>
-                </div>
+
                 <div class="row mt-30 justify-content-center">
-                <div class="col-md-3 text-right">
-                    <div class="card_recarga ">
-                        <img src="assets/img/yape_qr.svg"/>
-                        <span>Genera el QR</span>
+                    <div class="col-md-3 text-right">
+                        <div class="card_recarga ">
+                            <img src="assets/img/yape_qr.svg">
+                            <span style="
+    font-size: 15px;
+    margin-bottom: 12px;
+">Genera tu QR Yape
+</span>
+                            <span style="
+    font-weight: 100;
+    font-size: 14px;
+">Comparte tu QR y enviate </span>
+                            <span style="
+    font-weight: 100;
+    font-size: 14px;
+">de cualquier otra cuenta de </span>
+                            <span style="
+    font-weight: 100;
+    font-size: 14px;
+"> banco o billetera.</span>
+
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-3 text-center">
-                    <div class="card_recarga">
-                        <img src="assets/img/yape_agencia.svg"/>
-                        <span>Agencia BCP</span>
+                    <div class="col-md-3 text-center">
+                        <div class="card_recarga">
+                            <img src="assets/img/yape_agencia.svg">
+                            <span style="
+    margin-bottom: 12px;
+">Agencia BCP</span>
+                            <span style="
+    font-weight: 100;
+    font-size: 14px;
+">Agrega dinero en las </span>
+                            <span style="
+    font-weight: 100;
+    font-size: 14px;
+">agencias BCP. </span><span style="
+    font-weight: 100;
+    font-size: 14px;
+">¡Ubícalos en el mapa!</span>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-3 text">
-                    <div class="card_recarga -left">
-                        <img src="assets/img/yape_agente.svg"/>
-                        <span>Agente BCP</span>
+                    <div class="col-md-3 text">
+                        <div class="card_recarga -left">
+                            <img src="assets/img/yape_agente.svg">
+                            <span style="
+    margin-bottom: 12px;
+">Agente BCP</span><span style="
+    font-weight: 100;
+    font-size: 14px;
+">Agrega dinero en los </span><span style="
+    font-weight: 100;
+    font-size: 14px;
+">agentes BCP afiliados. </span><span style="
+    font-weight: 100;
+    font-size: 14px;
+">¡Ubícalos en el mapa!</span>
+                        </div>
                     </div>
+                </div><div class="row mt-30 justify-content-center section_1_2_inicio">
+                <div class="col-md-12 col-xs-12 text-center">
+                    <div class="cta "><a href="#soli-ubicacion" type="button" class="btn_cta mb-30 mt-30 " role="button" data-toggle="modal" data-target="#soli-ubicacion">Ver Mapa</a></div>
                 </div>
+
             </div>
             </div>
         </section>
@@ -410,7 +447,7 @@
                     </div>
                     <div class="col-lg-4 indent-left-services text-center">
                     <!-- Feature Item -->
-                    <a href="ayuda/pagos-sin-contacto.html" target="_self"
+                    <a href="ayuda/retiros-de-dinero.html" target="_self"
                        title="centro de ayuda pagos sin contacto NFC con Yape">
                         <div class="feature-item mb-30">
                             <!-- Icon -->
@@ -422,7 +459,7 @@
                                 <img loading="lazy" class="lazyload" data-src="assets/img/yape-paga-nfc.svg"
                                      width="75" height="auto" alt="paga sin contacto (nfc) con soli"
                                      title="paga sin contacto (nfc) con soli">
-                                <h3 class="yape-texto-purpura">Pago sin contacto (NFC)</h3>
+                                <h3 class="yape-texto-purpura">Retirar dinero</h3>
                                 <!--                                <p>(Más seguro y fácil)</p>-->
                             </div>
                         </div>
@@ -469,23 +506,18 @@
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header text-center">
-                        <h2 class="font-weight-bold modal-title">Encuentra tu punto más cercano y empieza a recargar tu SOLI
-                            o retirar dinero</h2>
+                        <h2 class="font-weight-bold modal-title">Encuentra tu punto más cercano y empieza a recargar tu Yape o retirar dinero</h2>
                     </div>
                     <div class="row text-center flex-nowrap">
-                        <div class="col-md-3"><img loading="lazy" title="Punto de Yape" class="lazyload img-fluid"
-                                                   width="50%" height="auto" data-src="assets/img/soli.svg"
-                                                   alt="punto de soli">
-                            <h3>Yape</h3></div>
-                        <div class="col-md-3"><img loading="lazy" title="Punto de agencia bcp" class="lazyload img-fluid"
+                        <div class="col-md-4"><img loading="lazy" title="Punto de agencia bcp" class="lazyload img-fluid"
                                                    width="50%" height="auto" data-src="assets/img/agencia.svg"
                                                    alt="punto de agencia bcp">
                             <h3>Agencia BCP</h3></div>
-                        <div class="col-md-3"><img loading="lazy" title="Punto de agente bcp"
+                        <div class="col-md-4"><img loading="lazy" title="Punto de agente bcp"
                                                    class="lazyload img-fluid special_size" width="55%" height="auto"
                                                    data-src="assets/img/agente.svg" alt="punto de agente bcp">
                             <h3>Agente BCP</h3></div>
-                        <div class="col-md-3"><img loading="lazy" title="Punto de atm bcp" class="lazyload img-fluid"
+                        <div class="col-md-4"><img loading="lazy" title="Punto de atm bcp" class="lazyload img-fluid"
                                                    width="50%" height="auto" data-src="assets/img/atm.svg"
                                                    alt="punto de atm bcp">
                             <h3>ATM BCP</h3></div>

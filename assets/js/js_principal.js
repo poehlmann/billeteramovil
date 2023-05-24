@@ -17,23 +17,27 @@ $(document).ready(function() {
     let projectName=pathName.substring(0,pathName.substring(1).indexOf('/')+1);
     // obtuve http: // localhost: 8083 / myproj
     let realPath=localhostPaht+projectName;
-    Swal.fire({
-        width: "70vh",
-        html:
-            '<div class="row">' +
-            '<div class="col-md-6">' +
-            '<img src="' + realPath + '/assets/img/yape_yapido_emprendimiento.svg" alt="QR de yape"> ' +
-            '</div>' +
-            '<div class="col-md-6">' +
-            '<div style="text-align: left;margin-top: 25%;" class="indent-left-services"><strong class="mb-20 yape-texto-purpura font-size-26">Con Yape, obtendrás una experiencia mejorada</strong><br>' +
-            '<span class="font-size-16" style="margin-block-start: revert;">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</span>' +
-            '</div>' +
-            '</div>',
-        showCloseButton: true,
-        showConfirmButton: false,
-        showCancelButton: false,
-        // footer: '<strong class="font-size-14">Disponible en:</strong><img src="' + realPath + '/assets/img/yape_google_play_icon.svg"><img src="' + realPath + '/assets/img/yape_apple_icon.svg"><img src="' + realPath + '/assets/img/yape_huawei_icon.svg">'
-    })
+    console.log(realPath);
+    console.log(curWwwPath)
+    if(realPath+"/" == curWwwPath || realPath+"/index.html" == curWwwPath) {
+        Swal.fire({
+            width: "70vh",
+            html:
+                '<div class="row">' +
+                '<div class="col-md-6">' +
+                '<img src="' + realPath + '/assets/img/yape_yapido_emprendimiento.svg" alt="QR de yape"> ' +
+                '</div>' +
+                '<div class="col-md-6">' +
+                '<div style="text-align: left;margin-top: 25%;" class="indent-left-services"><strong class="mb-20 yape-texto-purpura font-size-26">Con Yape, obtendrás una experiencia mejorada</strong><br>' +
+                '<span class="font-size-16" style="margin-block-start: revert;">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</span>' +
+                '</div>' +
+                '</div>',
+            showCloseButton: true,
+            showConfirmButton: false,
+            showCancelButton: false,
+            // footer: '<strong class="font-size-14">Disponible en:</strong><img src="' + realPath + '/assets/img/yape_google_play_icon.svg"><img src="' + realPath + '/assets/img/yape_apple_icon.svg"><img src="' + realPath + '/assets/img/yape_huawei_icon.svg">'
+        })
+    }
 
     // var client_list = $('.app-active');
     // if(client_list.length){
@@ -299,7 +303,7 @@ if($("#soli_agentes_bcp_atm").length != 0) {
             var iframe_agentes = document.createElement('iframe');
             iframe_agentes.width = "100%";
             iframe_agentes.height = "400px";
-            iframe_agentes.setAttribute("src", 'https://www.google.com/maps/d/embed?hl=es&mid=1pMd3NZdrUhqfGps3qEePFRPeVEcXgn6u&ll=' + YOUR_LAT + '%2C' + YOUR_LON + '&z=13');
+            iframe_agentes.setAttribute("src", 'https://www.google.com/maps/d/embed?mid=1FuQemmqWJmxmQeaJcRAxpRFc-aiY-Bo&ehbc&ll=' + YOUR_LAT + '%2C' + YOUR_LON + '&z=13');
             document.getElementById("soli_agentes_bcp_atm").appendChild(iframe_agentes);
 
         }
@@ -308,7 +312,7 @@ if($("#soli_agentes_bcp_atm").length != 0) {
             var iframe_agentes = document.createElement('iframe');
             iframe_agentes.width = "100%";
             iframe_agentes.height = "400px";
-            iframe_agentes.setAttribute("src", 'https://www.google.com/maps/d/embed?hl=es&mid=1pMd3NZdrUhqfGps3qEePFRPeVEcXgn6u');
+            iframe_agentes.setAttribute("src", 'https://www.google.com/maps/d/embed?mid=1FuQemmqWJmxmQeaJcRAxpRFc-aiY-Bo&ehbc');
             document.getElementById("soli_agentes_bcp_atm").appendChild(iframe_agentes);
         }
     }

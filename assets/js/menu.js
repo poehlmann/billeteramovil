@@ -121,14 +121,6 @@
             $('#header-sroll').removeClass('small');
             document.getElementById("logo-menu").src=realPath+"/assets/img/Logo_Bolivia_2.svg";
         }
-        if ($(this).scrollTop()>0)
-        {
-            $('#location-flag').hide(1000);
-        }
-        else
-        {
-            $('#location-flag').show(1000);
-        }
         windowSize();
     }
 
@@ -158,25 +150,34 @@
         }
     });
 
-    $('#cd-primary-nav > li').hover(function() {
-        $whidt_item = $(this).width();
-        // console.log("$whidt_item",$whidt_item);
-        $whidt_item = $whidt_item-8;
-        // console.log("$whidt_item-8",$whidt_item);
-        $prevEl = $(this).prev('li');
-        // console.log("$prevEl",$prevEl);
-        $preWidth = $(this).prev('li').width();
-        // console.log("$preWidth",$preWidth);
-        var pos = $(this).position();
-        // console.log("pos",pos);
-        pos = pos.left+4;
-        // console.log("pos+4",pos);
-        $('header .desk-menu .menu-container .menu>li.line').css({
-            width:  $whidt_item,
-            left: pos,
-            opacity: 1
-        });
+    $(document).on('click', '.smart-banner .close', function (event) {
+        event.preventDefault();
+        var $banner = $('.smart-banner');
+        $banner.css('margin-top',0 - $banner.outerHeight())
+        $('header').css('top',0 );
+        $('.wrap_body').css('top',0 );
+        //set cookie
     });
+
+    // $('#cd-primary-nav > li').hover(function() {
+    //     $whidt_item = $(this).width();
+    //     // console.log("$whidt_item",$whidt_item);
+    //     $whidt_item = $whidt_item-8;
+    //     // console.log("$whidt_item-8",$whidt_item);
+    //     $prevEl = $(this).prev('li');
+    //     // console.log("$prevEl",$prevEl);
+    //     $preWidth = $(this).prev('li').width();
+    //     // console.log("$preWidth",$preWidth);
+    //     var pos = $(this).position();
+    //     // console.log("pos",pos);
+    //     pos = pos.left+4;
+    //     // console.log("pos+4",pos);
+    //     $('header .desk-menu .menu-container .menu>li.line').css({
+    //         width:  $whidt_item,
+    //         left: pos,
+    //         opacity: 1
+    //     });
+    // });
 
     // ANIMATE HAMBURGER MENU
     $('.hamburger-menu').on('click', function() {
