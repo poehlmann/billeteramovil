@@ -17,8 +17,6 @@ $(document).ready(function() {
     let projectName=pathName.substring(0,pathName.substring(1).indexOf('/')+1);
     // obtuve http: // localhost: 8083 / myproj
     let realPath=localhostPaht+projectName;
-    console.log(realPath);
-    console.log(curWwwPath)
     if(realPath+"/" == curWwwPath || realPath+"/index.html" == curWwwPath) {
         Swal.fire({
             width: "70vh",

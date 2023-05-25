@@ -115,10 +115,22 @@
     function smallerMenu() {
         var sc = $(window).scrollTop();
         if (sc > 40) {
-            $('#header-sroll').addClass('small');
+            // $('#header-sroll').addClass('small');
+            if ($("#header-sroll").length != 0) {
+                $('#header-sroll').addClass('small');
+            }
+            if ($("#header-home").length != 0) {
+                $('#header-home').addClass('small');
+            }
             document.getElementById("logo-menu").src=realPath+"/assets/img/Logo_Bolivia_3.svg";
         }else {
-            $('#header-sroll').removeClass('small');
+            // $('#header-sroll').removeClass('small');
+            if ($("#header-sroll").length != 0) {
+                $('#header-sroll').removeClass('small');
+            }
+            if ($("#header-home").length != 0) {
+                $('#header-home').removeClass('small');
+            }
             document.getElementById("logo-menu").src=realPath+"/assets/img/Logo_Bolivia_2.svg";
         }
         windowSize();
@@ -131,7 +143,13 @@
             $('body').removeClass('open-menu');
             $('.hamburger-menu .bar').removeClass('animate');
         }else{
-            document.getElementById("header-sroll").className = "header small cell";
+            // document.getElementById("header-sroll").className = "header small cell";
+            if ($("#header-sroll").length != 0) {
+                $('#header-sroll').addClass('small');
+            }
+            if ($("#header-home").length != 0) {
+                $('#header-home').addClass('small');
+            }
             // console.log("no esta agregando la clase",realPath+"/assets/img/Logo_Bolivia_3.svg");
             if($("#logo-menu").length != 0) {
                 document.getElementById("logo-menu").src = realPath + "/assets/img/Logo_Bolivia_3.svg";
