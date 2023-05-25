@@ -109,7 +109,7 @@ header .desk-menu {
     z-index: 11;
     background: #ffffff;
     width: 100%;
-    height: 5vh;
+    /*height: 5vh;*/
     display: flex;
     border-bottom: solid 0.1px #dfdfdf;
     justify-content: center;
@@ -903,6 +903,14 @@ header .desk-menu .menu-container .menu>li .btn_cta{
         top: 22px;
     }
 }
+@media (max-width:640px){
+    .pagina_principal {
+        top: 12vh !important;
+    }
+    .smart-banner{
+        height: 12vh !important;
+    }
+}
 @media (max-width: 481px) {
     header .desk-menu .logo-adn a {
         width: 100px;
@@ -928,6 +936,12 @@ header .desk-menu .menu-container .menu>li .btn_cta{
     }
 }
 @media (max-height: 550px) {
+    .pagina_principal {
+        top: 12vh;
+    }
+    .smart-banner{
+        height: 12vh;
+    }
     header .desk-menu .menu-container .menu-foot hr, header .desk-menu .menu-container .menu-foot address {
         display: none;
     }
