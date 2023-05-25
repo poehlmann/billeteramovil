@@ -2049,8 +2049,10 @@ button.close{padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance
     width: 240px;
     height: 270px;
     border-radius: 30px;
-    background: #742384;
-    /* box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #fff; */
+    background: #ffffff;
+    /* color: black; */
+    /* border: solid 1px #cbcbcb; */
+    box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #fff;
     align-content: center;
     justify-content: center;
     align-items: center;
@@ -2063,7 +2065,7 @@ button.close{padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance
 }
 .card_recarga span{
     font-weight: bold;
-    color: white;
+    color: #000000;
 }
 
 @media (max-width: 768px) {
