@@ -4,6 +4,7 @@
       <sourceFilesUrls>
         <item url="file://$PROJECT_DIR$/assets/js/ayuda.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/beneficios_script.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/beneficios_script.min.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/blog.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/blog_script.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/bootstrap.min.js" />
@@ -33,6 +34,7 @@
     <CLASSES>
       <root url="file://$PROJECT_DIR$/assets/js/ayuda.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/beneficios_script.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/beneficios_script.min.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/blog.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/blog_script.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/bootstrap.min.js" />

@@ -1,7 +1,7 @@
 {
   "@context" : "http://schema.org",
   "@type" : "SoftwareApplication",
-  "name" : "SOLI BILLETERA MÓVIL TE PERMITE PAGAR CON TU CELULAR",
+  "name" : "YAPE BILLETERA MÓVIL TE PERMITE PAGAR CON TU CELULAR",
   "image" : "https://www.solipagosbcp.com.bo/assets/img/soli-billetera-movil-app.png",
   "author" : {
     "@type" : "Organization",
@@ -31,7 +31,7 @@
       "@type": "Person",
       "name": "Bruno Poehlmann"
     },
-    "reviewBody": "Bruno buenas noches Agradecemos tu valoración y nos sentimos felices de que la app sea útil para ti. Disfruta de la libertad digital que SOLI te brinda 😎"
+    "reviewBody": "Bruno buenas noches Agradecemos tu valoración y nos sentimos felices de que la app sea útil para ti. Disfruta de la libertad digital que Yape te brinda 😎"
   },
   "aggregateRating": {
     "@type": "AggregateRating",

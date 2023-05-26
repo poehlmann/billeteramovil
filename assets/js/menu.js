@@ -79,7 +79,7 @@
         document.getElementById("menu_ayuda").href = realPath+"/ayuda";
         // document.getElementById("menu_billetera").href = realPath+"/billeteramovil/";
         document.getElementById("menu_seguridad").href = realPath+"/seguridad/";
-        document.getElementById("menu_promociones").href = realPath+"/solipromociones/";
+        document.getElementById("menu_promociones").href = realPath+"/yapepromociones/";
         document.getElementById("menu_blog").href = realPath+"/blog/";
         document.getElementById("menu_negocio").href = realPath+"/YapeNegocios/";
         document.getElementById("menu_beneficios").href = realPath+"/beneficios/";
@@ -92,7 +92,7 @@
         document.getElementById("footer_ayuda").href = realPath+"/ayuda";
         // document.getElementById("footer_billetera").href = realPath+"/billeteramovil/";
         // document.getElementById("footer_seguridad").href = realPath+"/seguridad/";
-        document.getElementById("footer_promociones").href = realPath+"/solipromociones/";
+        document.getElementById("footer_promociones").href = realPath+"/yapepromociones/";
         document.getElementById("footer_blog").href = realPath+"/blog/";
         document.getElementById("footer_negocio").href = realPath+"/YapeNegocios/";
 

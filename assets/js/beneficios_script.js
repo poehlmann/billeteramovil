@@ -106,7 +106,7 @@ $('.entel_detail').click(function() {
         icon: 'info',
         html:
             '<div class="text-align-left"><strong>Beneficio:</strong>\n' +
-            'Para acceder al beneficio, se deberá activar los datos móviles correspondientes a la línea Entel en su teléfono celular (dispositivo móvil), entrar a la aplicación SOLI, una vez que este entre en la aplicación, el consumo de MB que demande la aplicación no será cobrada o debitada de la línea afiliada, dando un uso libre a todas las funcionalidades que tiene la aplicación.' +
+            'Para acceder al beneficio, se deberá activar los datos móviles correspondientes a la línea Entel en su teléfono celular (dispositivo móvil), entrar a la aplicación Yape, una vez que este entre en la aplicación, el consumo de MB que demande la aplicación no será cobrada o debitada de la línea afiliada, dando un uso libre a todas las funcionalidades que tiene la aplicación.' +
             '<br><br><strong>Requisitos de participación:</strong><br><br>' +
             '<ul>' +
             '<li>Ser cliente activo de la empresa de telecomunicación ENTEL, para el servicio de telefonía celular en su modalidad pre-pago o post-pago.</li>\n' +
