@@ -18,9 +18,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="refinacion de toda la web">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/menu.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/menu.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/yape/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/yape_agente.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/yape_agente.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -438,14 +439,7 @@
       <workItem from="1684732861701" duration="600000" />
       <workItem from="1684765369443" duration="43325000" />
       <workItem from="1684933719106" duration="12475000" />
-      <workItem from="1684986769613" duration="9900000" />
-    </task>
-    <task id="LOCAL-00368" summary="soporte">
-      <created>1651591886388</created>
-      <option name="number" value="00368" />
-      <option name="presentableId" value="LOCAL-00368" />
-      <option name="project" value="LOCAL" />
-      <updated>1651591886389</updated>
+      <workItem from="1684986769613" duration="14088000" />
     </task>
     <task id="LOCAL-00369" summary="farmacia chavez">
       <created>1652390350752</created>
@@ -783,7 +777,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685029783338</updated>
     </task>
-    <option name="localTasksCounter" value="417" />
+    <task id="LOCAL-00417" summary="refinacion de toda la web">
+      <created>1685046858550</created>
+      <option name="number" value="00417" />
+      <option name="presentableId" value="LOCAL-00417" />
+      <option name="project" value="LOCAL" />
+      <updated>1685046858550</updated>
+    </task>
+    <option name="localTasksCounter" value="418" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
