@@ -338,25 +338,28 @@ header .desk-menu .menu-container .menu > li.menu-item-has-children > a {
 /*}*/
 header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu {
     /* box-shadow: 1px 2px 4px rgba(46,61,73,.2); */
-    /*-webkit-transition: all .1s ease-in-out;*/
-    /*-moz-transition: all .1s ease-in-out;*/
-    /*-ms-transition: all .1s ease-in-out;*/
-    /*-o-transition: all .1s ease-in-out;*/
-    /*transition: all .1s ease-in-out;*/
+    /* -webkit-transition: all .1s ease-in-out; */
+    /* -moz-transition: all .1s ease-in-out; */
+    /* -ms-transition: all .1s ease-in-out; */
+    /* -o-transition: all .1s ease-in-out; */
+    /* transition: all .1s ease-in-out; */
+    box-shadow: 3px 4px 6px #0000004d;
     -webkit-overflow-scrolling: touch;
-    min-width: 140px;
+    /* min-width: 140px; */
     position: absolute;
     list-style: none;
     background: #fff;
     padding: 0;
     display: table;
     left: 0;
-    width: -webkit-fill-available;
+    width: auto;
     float: left;
     display: none;
     border-radius: 8px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+    overflow-wrap: anywhere;
+    white-space: nowrap;
 }
 header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu li {
     width: 100%;
