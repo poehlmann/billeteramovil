@@ -15,6 +15,6 @@ import './owl.carousel.min'
 import './theme-vendors.min'
 import './theme.min'
 
-if(navigator.serviceWorker){
-    navigator.serviceWorker.register('../sw.js');
-}
+// if(navigator.serviceWorker){
+//     navigator.serviceWorker.register('../sw.js');
+// }
