@@ -85,9 +85,15 @@
     background-color: #742384;
     border-radius: 40px;
     padding: 18px;
+    width: 523px;
+    display: flex;
+    height: 416px;
+    align-items: center;
+    text-align: center;
 }
 .post-thumbnail img{
- border-radius: 32px;
+    border-radius: 32px;
+    width: 80%;
 }
 .hide{
 display: none;
@@ -126,7 +132,19 @@ display: none;
     background-position:100% 65%;
     background-repeat: no-repeat;
     background-origin: content-box;
-    padding-top: 5vh;
+    padding-top: 6vh;
+}
+@media (max-width: 1199px) {
+    .post-thumbnail{
+        width: 100%;
+        display: flex;
+        height: auto;
+        align-items: center;
+        text-align: center;
+    }
+    .post-thumbnail img{
+        width: auto;
+    }
 }
 @media screen and (max-width:992px){
     .section_text_articles{

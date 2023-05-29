@@ -363,11 +363,11 @@ header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu {
 }
 header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu li {
     width: 100%;
-    -webkit-transition: all 0.33s ease;
-    -moz-transition: all 0.33s ease;
-    -ms-transition: all 0.33s ease;
-    -o-transition: all 0.33s ease;
-    transition: all 0.33s ease;
+    /*-webkit-transition: all 0.33s ease;*/
+    /*-moz-transition: all 0.33s ease;*/
+    /*-ms-transition: all 0.33s ease;*/
+    /*-o-transition: all 0.33s ease;*/
+    /*transition: all 0.33s ease;*/
 }
 header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu li > a {
     color: #2C2044;
@@ -407,12 +407,14 @@ header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu li
     display: block;
 }
 header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu li:hover > a {
-    color:#1ee2ca;
+    color: #2C2044;
     /*background-color: #eeeff1;*/
 }
 header .desk-menu .menu-container .menu>li.menu-item-has-children .sub-menu li:hover {
     background-color: #eeeff1;
     border-radius: 8px;
+    border-left-color: #10CBB4;
+    border-left-style: solid;
     /*border-top-right-radius: 0;*/
     /*border-bottom-right-radius: 0;*/
 }
@@ -512,16 +514,16 @@ header li.active a {
     /*padding: 5px 20px;*/
     /*text-decoration: none;*/
     /*transition: all 0.2s ease;*/
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    -ms-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
+    /*-webkit-transition: all .3s;*/
+    /*-moz-transition: all .3s;*/
+    /*-ms-transition: all .3s;*/
+    /*-o-transition: all .3s;*/
+    /*transition: all .3s;*/
     bottom: 0;
     pointer-events: none;
     border-bottom: solid 4px #10cbb4ff;
-    -webkit-transition-timing-function: cubic-bezier(1,.01,0,1.22);
-    transition-timing-function: cubic-bezier(1,.01,0,1.22);
+    /*-webkit-transition-timing-function: cubic-bezier(1,.01,0,1.22);*/
+    /*transition-timing-function: cubic-bezier(1,.01,0,1.22);*/
 }
 .small .desk-menu .menu-header-container .menu > li a{
     line-height: 60px;
