@@ -413,8 +413,8 @@ header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu li
 header .desk-menu .menu-container .menu>li.menu-item-has-children .sub-menu li:hover {
     background-color: #eeeff1;
     border-radius: 8px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
+    /*border-top-right-radius: 0;*/
+    /*border-bottom-right-radius: 0;*/
 }
 header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu li:hover > a::before {
     -webkit-transform: rotate(142deg);
