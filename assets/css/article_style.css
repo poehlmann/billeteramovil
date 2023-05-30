@@ -42,7 +42,7 @@ p {
 
 .post__content a{
     color: #12DEC4!important;
-    font-weight: 100;
+    /*font-weight: 100;*/
 }
 .post__content a:hover{
     text-decoration:underline !important;

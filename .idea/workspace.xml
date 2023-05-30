@@ -433,14 +433,7 @@
       <workItem from="1684732861701" duration="600000" />
       <workItem from="1684765369443" duration="43325000" />
       <workItem from="1684933719106" duration="12475000" />
-      <workItem from="1684986769613" duration="38716000" />
-    </task>
-    <task id="LOCAL-00378" summary="cambio del home de soli a yape, colores, imagen, tipoografia">
-      <created>1681945611641</created>
-      <option name="number" value="00378" />
-      <option name="presentableId" value="LOCAL-00378" />
-      <option name="project" value="LOCAL" />
-      <updated>1681945611641</updated>
+      <workItem from="1684986769613" duration="39049000" />
     </task>
     <task id="LOCAL-00379" summary="cambio del home de soli a yape, colores, imagen, tipoografia">
       <created>1681946594947</created>
@@ -778,7 +771,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685467816284</updated>
     </task>
-    <option name="localTasksCounter" value="427" />
+    <task id="LOCAL-00427" summary="refinacion de toda la web">
+      <created>1685469056489</created>
+      <option name="number" value="00427" />
+      <option name="presentableId" value="LOCAL-00427" />
+      <option name="project" value="LOCAL" />
+      <updated>1685469056489</updated>
+    </task>
+    <option name="localTasksCounter" value="428" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
