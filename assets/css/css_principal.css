@@ -2296,7 +2296,21 @@ section.section--sac {
 .img-principal{
     max-width: 950px!important;
 }
+.fondo_negocio_principal{
+    background-size: 400px;
+    background-position:100% 65%;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    padding-top: 9vh;
+}
 @media (max-width: 991px) {
+    .fondo_negocio_principal{
+        background-size: 218px;
+        background-position: 104% -76%;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        padding-top: 15vh;
+    }
     .fondo_seguridad {
         padding-top: 9vh;
     }
