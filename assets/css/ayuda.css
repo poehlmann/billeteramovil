@@ -657,11 +657,23 @@ border-top: 0;
     border-radius: 50px;
     letter-spacing: 0.25px;
 }
+.fondo_centro_ayuda{
+    background-color: #742384;
+    background-size: inherit;
+    background-position: 100% 20%;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    padding-top: 9vh;
+}
 @media (max-width: 991px){
     .button_contact{
         padding: 4px;
         border-radius: 50px;
         display: block;
+    }
+    .fondo_centro_ayuda{
+        background-color: #742384;
+        padding-top: 10vh;
     }
 }
 @media print{

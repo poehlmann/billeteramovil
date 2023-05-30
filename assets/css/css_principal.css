@@ -1287,6 +1287,7 @@ img{max-width:100%;height:auto;}
     border-bottom-width: 0.5px;
     border-bottom-color: rgb(221 215 235/50%);
     padding-top: 35px;
+    width: -webkit-fill-available;
 }
 
 /*::-webkit-scrollbar{width:10px;}*/
@@ -1330,7 +1331,7 @@ img{max-width:100%;height:auto;}
     padding: 12px 24px;
     border-radius: 8px!important;
     cursor: pointer;
-    transition: all .5s;
+    /*transition: all .5s;*/
     /*transition-timing-function: cubic-bezier(.2,3,.4,1);*/
     user-select: none;
     color: #ffffff !important;
@@ -1927,7 +1928,7 @@ button.close{padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance
     font-size: 14px;
     border-radius: 8px!important;
     cursor: pointer;
-    transition: all .5s;
+    /*transition: all .5s;*/
     /*transition-timing-function: cubic-bezier(.2,3,.4,1);*/
     user-select: none;
     color: #e4e4e4;
@@ -1957,7 +1958,10 @@ button.close{padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance
 .title-black {
     color: black;
 }
-
+.fondo_blog{
+    background: #742384;
+    background: linear-gradient(to bottom,#742384 0%,#2c2044 140%);
+}
 @media all and (max-width: 500px) {
     .card-list {
         /* On small screens, we are no longer using row direction but column */
@@ -2289,6 +2293,9 @@ section.section--sac {
     max-width: 950px!important;
 }
 @media (max-width: 991px) {
+    .d-flex{
+        display: contents !important;
+    }
     .section_2_negocio{
         text-align: left;
     }
