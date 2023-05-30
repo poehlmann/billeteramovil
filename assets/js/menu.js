@@ -27,9 +27,9 @@
             window.location.href = "https://onelink.to/xurcbr";
         }else{
             Swal.fire({
-                width: "30%",
+                width: "80vh",
                 html:
-                    '<div class="row">' +
+                    '<div class="row d-flex">' +
                     '<div class="col-md-6 indent-left-services">' +
                     '<div style="text-align: left"><strong class="mb-20 yape-texto-purpura font-size-26">Escanea el código QR  e inscríbite a Yape:</strong>\n' +
                     '<ol class="font-size-16" style="padding-inline-start: 15px;margin-block-start: revert;">' +
@@ -38,8 +38,8 @@
                     '</ol>' +
                     '</div>' +
                     '</div>' +
-                    '<div class="col-md-6">' +
-                    '<img src="' + realPath + '/assets/img/yape_qr_redirect.svg" alt="QR de yape"> ' +
+                    '<div class="col-md-6 " >' +
+                    '<img style="width: 250px" src="' + realPath + '/assets/img/yape_qr_redirect.svg" alt="QR de yape"> ' +
                     '</div>' +
                     '</div>',
                 showCloseButton: true,
