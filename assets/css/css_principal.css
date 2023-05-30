@@ -1962,6 +1962,10 @@ button.close{padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance
     background: #742384;
     background: linear-gradient(to bottom,#742384 0%,#2c2044 140%);
 }
+.fondo_seguridad{
+    background-color: #742384;
+    padding-top: 7vh;
+}
 @media all and (max-width: 500px) {
     .card-list {
         /* On small screens, we are no longer using row direction but column */
@@ -2293,6 +2297,9 @@ section.section--sac {
     max-width: 950px!important;
 }
 @media (max-width: 991px) {
+    .fondo_seguridad {
+        padding-top: 9vh;
+    }
     .d-flex{
         display: contents !important;
     }
