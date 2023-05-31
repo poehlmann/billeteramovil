@@ -9,7 +9,7 @@
   },
   "publisher" : {
     "@type" : "Organization",
-    "name" : "Soli"
+    "name" : "Yape"
   },
   "downloadUrl" : [ "https://play.google.com/store/apps/details?id=com.bcp.bo.wallet&referrer=utm_source%3Dp%25C3%25A1gina_web%26utm_medium%3Dp%25C3%25A1gina_web%26utm_term%3Dp%25C3%25A1gina_web%26utm_content%3Dp%25C3%25A1gina_web%26utm_campaign%3Dp%25C3%25A1gina_web", "https://apps.apple.com/es/app/soli-pagos-bcp/id1135987447" ],
   "screenshot" : "https://www.solipagosbcp.com.bo/assets/img/datos.png",
@@ -17,7 +17,7 @@
     "@type": "Offer",
     "availability": "https://play.google.com/store/apps/details?id=com.bcp.bo.wallet&referrer=utm_source%3Dp%25C3%25A1gina_web%26utm_medium%3Dp%25C3%25A1gina_web%26utm_term%3Dp%25C3%25A1gina_web%26utm_content%3Dp%25C3%25A1gina_web%26utm_campaign%3Dp%25C3%25A1gina_web",
     "price":"0",
-    "priceCurrency":"USD"
+    "priceCurrency":"BS"
   },
   "applicationCategory":"Finance",
   "operatingSystem": ["Android","iOS"],

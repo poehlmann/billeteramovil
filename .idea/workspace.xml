@@ -18,28 +18,355 @@
   <component name="ChangeListManager">
     <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="refinacion de toda la web">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YapeNegocios/formulario.html" beforeDir="false" afterPath="$PROJECT_DIR$/YapeNegocios/formulario.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Yape/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YapeNegocios/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/YapeNegocios/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/menu.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/menu.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ayuda/comercios.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/comercios.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ayuda/depositar.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/depositar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/billeteramovil/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/negocios-digitales/diferencias-entre-cuentas-de-caja-de-ahorros-cuentas-corrientes-billeteras-moviles.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/negocios-digitales/pago-con-celular-aliados-billetera-movil.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/negocios-digitales/pago-con-celular-aliados-billetera-movil.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/docs/AJ-DRLP-DJ-RAM-74-2018.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/docs/ATMs BCP.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/docs/Resolucion-AJ.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/docs/Terminos-y-Condiciones.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/1descarga.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/1home-soli.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/2bs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/2home-qr-soli.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/2unete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/3qr-soli-copia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/3txn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/4compartir-soli.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/4gana.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/5bs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/5home2-0bs-soli.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/6geo1-soli.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/7geo2-soli.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/8home-soli.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Art1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Art2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Art3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Art4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Art5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Clases-web-fondo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Clases-web-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Clases-web-premios2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Clases-web-recursos1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Clases-web-recursos2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Comercios-soli-pagos-bcp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Comercios-web1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Comercios-web2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Comercios-web4a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Comercios-webop1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Comercios-webop2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Comercios-webop3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Comercios-webop4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Comercios1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Comercios2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Comercios3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Comercios4a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Comercios4b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Comercios4c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/INFOGRAFIA-BLOG-desktop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/INFOGRAFIA-BLOG-mobile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Logo.Yape.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Logo.Yape@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Logo.Yape@3x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/PrimeCinemas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Radiografia-Soli-web-fondo-mobile1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Radiografia-Soli-web-fondo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Radiografia-Soli-web-mobile1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Radiografia-Soli-web-mobile2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Radiografia-Soli-web-mobile3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Radiografia-Soli-web-mobile4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Radiografia-Soli-web-mobile5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Radiografia-Soli-web-mobile6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Radiografia-Soli-web.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Soli-BDP.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-fondo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-fondo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-premios.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-premios2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-premios3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-premios4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-recursos1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-recursos2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-recursos3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web-recursos4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/SoliAguinaldo-web4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Solimegate-1000-mb.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Solimegate.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/animacion1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/animacion2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/animacion3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/available.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/background-m.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/background-soli.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/background2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/banner_queessoli.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/blog_soli.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/btn-carga.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/btn-crea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/btn-datos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/btn-descarga.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/btn-sms.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/btn-transaccion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/cashin_qr_1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/cashin_qr_2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/cashin_qr_3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/cashin_qr_4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/centro-ayuda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/chavez.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/clases-fondo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/clases-web-recursos4 - copia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/clases-web-recursos4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/clases-web-recursos5 - copia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/clases-web-recursos5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/clases.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/cliente1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/cliente2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/cliente3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/cliente4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/cliente5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/cliente6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/cliente7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/comprar-por-internet.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/compras-digitales.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/compras-internet.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/compras_internet.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/contact1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/contact10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/contact2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/contact3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/contact4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/contact5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/contact6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/contact7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/contact8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/contact9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/datos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/descarga.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/empresa_soli.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/entel_solicarga_movil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/entel_solicarga_web.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/escamas-negras.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/fondo-section-cel-soli-der-opt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/fondo-section-cel-soli-der.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/fondo-section-cel-soli-down-mobile.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/fondo-section-cel-soli-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/fondo-section-cel-soli-izq-white-special.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/fondo-section-cel-soli-izq-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/fondo-section-cel-soli-izq.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/fondo-section-cel-soli-up-mobile.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/fondo-solicarga-movil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/fondo-solicarga.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/fondo-solimegate-solisocios-mobile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/fondo-solimegate-solisocios.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/fondo_solimegate.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/fondo_solimegate2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/fraude_billetera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/fraude_soli.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/friendsforever.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/gana-con-soli-web-recursos4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/gift.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/gradient_solipromociones.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/gradiente-background.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/guia-billetera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/guia-soli-portada.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/hero_mini.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/hero_mini.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/ic_social_facebook_b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/ico-email.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/ico-message.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/ico-tel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/imagen_promocion_red_social.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/info1solisocios.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/info2solisocios-mobile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/info2solisocios.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/internet.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/ketal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/left-block.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/llajta.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/location.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logo solisocios.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logo-entel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logo-soli.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logo-viva.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logo_plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/luces.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/misc/browser-bar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/misc/wave.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/navidad-y-año-nuevo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/navidad-y-año-nuevo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/navidad-y-año-nuevo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/navidad-y-año-nuevo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/paga-servicios.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/pago-servicios.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/pasos-recargas-creado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/phone.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/portada_solimpulso.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/promo-clases.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/promo-soliaguinaldo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/promo-solicarga.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/protegete_soli.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/qr-soli.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/qr.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/que-es-soli.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/que-es-soli2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/que-es-soli3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/que-es-soli4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/que-hacer-soli.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/que-hacer-soli2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/recarga-celular.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/recarga-credito.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/referido-reglas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/referido-transparente-completo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/referido-transparente.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/referidos-invitacion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/right-block.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/robo_soli.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sac.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/scroll-down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/scroll_down.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/seccion-solicarga.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/servicio_afp_soli.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/servicio_agua_soli.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/servicio_inspeccion_vehicular_soli.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/servicio_luz_soli.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/slide.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/slide1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/slide2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/slide3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/slide4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sms.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-ad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-bcp-mobile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-bcp-movil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-bcp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-billetera-movil-app.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-billetera-movil.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-billetera-pagos-movil-app.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-billetera-pagos-movil.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-comercios.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-compra-credito-app.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-compra-credito-celular.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-compra-internet-app.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-compra-internet.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-compra-internet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-envia-recibe-dinero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-ferreterias.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-invita.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-meme---problemas-del-dinero-en-efectivo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-meme-olvidaste-dinero-para-trufi-o-minibus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-meme-olvidastebilletera-en-restaurante.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-meme-pago-nfc-bolivia-soli.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-meme-pago-p2pi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-meme-pago-transferencias-bancarias.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-meme-pagoqr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-meme-pagoqrconhelados.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-meme-pagoqrsinefectivo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-memes-blog-pago-nfc-billetera-movil.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-negocios.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-paga-nfc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-pago-qr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-pago-servicios.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-promociones.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-puestos-mercados.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-recarga-credito-mobile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-recarga-credito.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-recargas-creado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-recargas.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-recargas2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-recargas3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-recargas4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-recargas5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-recargas6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-restaurantes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-solimegate-1000-megas-netflix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-solimegate-1000-megas-spotify.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-solimegate-1000-megas-tiktok.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-solimegate-1000-megas-whatspp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-solimegate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-tienda-barrio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-tienda-ropa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli-yapa-web-soli.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli1comercios.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/soli2comercios.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/solicarga-reglas-movil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/solicarga-reglas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/solimegate-1000mb-soli.bcpweb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/solimegate-solipromociones.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/solimegate-solisocios-mobile2v-parte1-phone.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/solimegate-solisocios-mobile2v-parte2-phone.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/solimegate-solisocios-mobile2v.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/solimegate-solisocios2v-parte1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/solimegate-solisocios2v-parte2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/solimegate-solisocios2v.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/solimemes-blog-dinero-en-tu-celular.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/solimemes-blog-verdad-cuentas-corrientes.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/solimemes-blog-verdad-de-cuentas-de-ahorro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/solipuntos-banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/solipuntos-bg-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/solipuntos-bg-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/solisocios-bcp-fondo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/solisocios-solipromociones.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/solisocios.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/solivianos-banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/solivianos.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/spinners/spinner-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/spinners/spinner-2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/spinners/spinner-3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/spinners/spinner-4-light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/spinners/spinner-4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/spinners/spinner-soli.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/store.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/testimonial.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/tia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/tia.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/tienda2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/transaccion1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/transaccion2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/transaccion3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/transferencia-qr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/transferencias-interbancarias.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/transferencias-interbancarias.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/transferir-dinero.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/transfiere.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/wave-top.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/yape-background-promocion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/yape_crea_cuenta_4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/yape_crea_cuenta_4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/yape_crea_cuenta_6.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/yape_crea_cuenta_6.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/yape_yapito_box.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/yape_yapito_box.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/youtube-soli1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/youtube-soli2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/youtube-soli3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/youtube-soli4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/youtube-soli5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/youtube-soli6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/youtube-soli6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/entry.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/entry.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/flowing_stream.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/video/beneficios_soli.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/video/que_es_soli.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/video/seguridad_soli.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/video/solimegate1.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/politica-privacidad.html" beforeDir="false" afterPath="$PROJECT_DIR$/politica-privacidad.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Yape/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yape/recarga_tu_billetera_soli.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yapepromociones/ganaconsoli.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yapepromociones/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/YapePromociones/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yapepromociones/soli_invita_a_tus_amigos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yapepromociones/soliaguinaldo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yapepromociones/solicarga-entel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yapepromociones/solimegate.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yapepromociones/solisocios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yapepromociones/solivianos.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -457,14 +784,7 @@
       <workItem from="1684732861701" duration="600000" />
       <workItem from="1684765369443" duration="43325000" />
       <workItem from="1684933719106" duration="12475000" />
-      <workItem from="1684986769613" duration="44442000" />
-    </task>
-    <task id="LOCAL-00382" summary="cambio del home de soli a yape, colores, imagen, tipoografia">
-      <created>1682359543378</created>
-      <option name="number" value="00382" />
-      <option name="presentableId" value="LOCAL-00382" />
-      <option name="project" value="LOCAL" />
-      <updated>1682359543378</updated>
+      <workItem from="1684986769613" duration="47562000" />
     </task>
     <task id="LOCAL-00383" summary="cambio del home de soli a yape, colores, imagen, tipoografia">
       <created>1682437421999</created>
@@ -802,7 +1122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685470518551</updated>
     </task>
-    <option name="localTasksCounter" value="431" />
+    <task id="LOCAL-00431" summary="refinacion de toda la web">
+      <created>1685548102607</created>
+      <option name="number" value="00431" />
+      <option name="presentableId" value="LOCAL-00431" />
+      <option name="project" value="LOCAL" />
+      <updated>1685548102607</updated>
+    </task>
+    <option name="localTasksCounter" value="432" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

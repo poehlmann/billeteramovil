@@ -4,7 +4,6 @@ import '../css/themes/original.css';
 import '../css/style.min.css';
 import '../css/icons.min.css';
 import '../css/font_bariol.min.css';
-import '../css/theme.min.css'
 import '../css/bootstrap.min.css'
 
 import './html5shiv.min'
