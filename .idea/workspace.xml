@@ -18,8 +18,28 @@
   <component name="ChangeListManager">
     <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="refinacion de toda la web">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YapeNegocios/formulario.html" beforeDir="false" afterPath="$PROJECT_DIR$/YapeNegocios/formulario.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YapeNegocios/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/YapeNegocios/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/menu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/menu.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/menu.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/comercios.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/comercios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/depositar.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/depositar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billeteramovil/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/negocios-digitales/diferencias-entre-cuentas-de-caja-de-ahorros-cuentas-corrientes-billeteras-moviles.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/negocios-digitales/pago-con-celular-aliados-billetera-movil.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/negocios-digitales/pago-con-celular-aliados-billetera-movil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/politica-privacidad.html" beforeDir="false" afterPath="$PROJECT_DIR$/politica-privacidad.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Yape/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yape/recarga_tu_billetera_soli.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yapepromociones/ganaconsoli.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yapepromociones/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/YapePromociones/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yapepromociones/soli_invita_a_tus_amigos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yapepromociones/soliaguinaldo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yapepromociones/solicarga-entel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yapepromociones/solimegate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yapepromociones/solisocios.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yapepromociones/solivianos.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -437,14 +457,7 @@
       <workItem from="1684732861701" duration="600000" />
       <workItem from="1684765369443" duration="43325000" />
       <workItem from="1684933719106" duration="12475000" />
-      <workItem from="1684986769613" duration="40423000" />
-    </task>
-    <task id="LOCAL-00381" summary="cambio del home de soli a yape, colores, imagen, tipoografia">
-      <created>1682106802657</created>
-      <option name="number" value="00381" />
-      <option name="presentableId" value="LOCAL-00381" />
-      <option name="project" value="LOCAL" />
-      <updated>1682106802658</updated>
+      <workItem from="1684986769613" duration="44442000" />
     </task>
     <task id="LOCAL-00382" summary="cambio del home de soli a yape, colores, imagen, tipoografia">
       <created>1682359543378</created>
@@ -782,7 +795,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685469796951</updated>
     </task>
-    <option name="localTasksCounter" value="430" />
+    <task id="LOCAL-00430" summary="refinacion de toda la web">
+      <created>1685470518551</created>
+      <option name="number" value="00430" />
+      <option name="presentableId" value="LOCAL-00430" />
+      <option name="project" value="LOCAL" />
+      <updated>1685470518551</updated>
+    </task>
+    <option name="localTasksCounter" value="431" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
