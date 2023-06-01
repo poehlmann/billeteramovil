@@ -16,10 +16,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="refinacion de toda la web">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yapepromociones/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/yapepromociones/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="refinacion de toda la web" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -436,14 +433,7 @@
       <workItem from="1684732861701" duration="600000" />
       <workItem from="1684765369443" duration="43325000" />
       <workItem from="1684933719106" duration="12475000" />
-      <workItem from="1684986769613" duration="54835000" />
-    </task>
-    <task id="LOCAL-00389" summary="cambio del home de soli a yape, colores, imagen, tipoografia">
-      <created>1682610527543</created>
-      <option name="number" value="00389" />
-      <option name="presentableId" value="LOCAL-00389" />
-      <option name="project" value="LOCAL" />
-      <updated>1682610527544</updated>
+      <workItem from="1684986769613" duration="55136000" />
     </task>
     <task id="LOCAL-00390" summary="cambio del home de soli a yape, colores, imagen, tipoografia">
       <created>1682611500856</created>
@@ -781,7 +771,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685634717752</updated>
     </task>
-    <option name="localTasksCounter" value="438" />
+    <task id="LOCAL-00438" summary="refinacion de toda la web">
+      <created>1685637134558</created>
+      <option name="number" value="00438" />
+      <option name="presentableId" value="LOCAL-00438" />
+      <option name="project" value="LOCAL" />
+      <updated>1685637134558</updated>
+    </task>
+    <option name="localTasksCounter" value="439" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
