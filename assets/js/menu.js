@@ -86,7 +86,8 @@
 
         document.getElementById("submenu_arrow").src = realPath+"/assets/img/yape_arrowmenu.svg";
 
-
+        document.getElementById("terminos_condiciones1").href = realPath+"/contrato-prestacion-servicio.html";
+        document.getElementById("terminos_condiciones2").href = realPath+"/contrato-prestacion-servicio.html";
         document.getElementById("footer_inicio").href = realPath+"/index.html";
         document.getElementById("footer_yape").href = realPath+"/yape/";
         document.getElementById("footer_ayuda").href = realPath+"/ayuda";
