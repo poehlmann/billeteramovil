@@ -1152,7 +1152,7 @@ function _typeof(t) {
 
 /*! jQuery UI - v1.12.1 - 2018-01-16
 * http://jqueryui.com
-* Includes: widget.js, position.js, data.js, disable-selection.js, focusable.js, form-reset-mixin.js, jquery-1-7.js, keycode.js, labels.js, scroll-parent.js, tabbable.js, unique-id.js, widgets/button.js, widgets/checkboxradio.js, widgets/controlgroup.js, widgets/datepicker.js, widgets/menu.js, widgets/mouse.js, widgets/selectmenu.js, widgets/slider.js, widgets/spinner.js
+* Includes: widget.js, position.js, data.js, disable-selection.js, focusable.js, form-reset-mixin.js, jquery-1-7.js, keycode.js, labels.js, scroll-parent.js, tabbable.js, unique-id.js, widgets/button.js, widgets/checkboxradio.js, widgets/controlgroup.js, widgets/datepicker.js, widgets/menu.min.js, widgets/mouse.js, widgets/selectmenu.min.js, widgets/slider.js, widgets/spinner.js
 * Copyright jQuery Foundation and other contributors; Licensed MIT */
 
 (function (t) {
