@@ -22,13 +22,9 @@ $(document).ready(function() {
             width: "70vh",
             html:
                 '<div class="row">' +
-                '<div class="col-md-6">' +
-                '<img src="' + realPath + '/assets/img/yape_yapido_emprendimiento.svg" alt="QR de yape"> ' +
-                '</div>' +
-                '<div class="col-md-6">' +
-                '<div style="text-align: left;margin-top: 25%;" class="indent-left-services"><strong class="mb-20 yape-texto-purpura font-size-26">Con Yape, obtendrás una experiencia mejorada</strong><br>' +
-                '<span class="font-size-16" style="margin-block-start: revert;">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</span>' +
-                '</div>' +
+                    '<div class="col-md-12">' +
+                    '<img src="' + realPath + '/assets/img/soli-yape.svg" alt="QR de yape"> ' +
+                    '</div>' +
                 '</div>',
             showCloseButton: true,
             showConfirmButton: false,
