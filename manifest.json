@@ -2,11 +2,8 @@
   "@context" : "http://schema.org",
   "@type" : "SoftwareApplication",
   "name" : "YAPE BILLETERA MÓVIL TE PERMITE PAGAR CON TU CELULAR",
-  "image" : "https://www.solipagosbcp.com.bo/assets/img/soli-billetera-movil-app.png",
-  "author" : {
-    "@type" : "Organization",
-    "name" : "Banco de Crédito de Bolivia S.A."
-  },
+  "image" : "assets/img/Logo_Bolivia_3.svg",
+  "author" : "Banco de Crédito de Bolivia S.A.",
   "publisher" : {
     "@type" : "Organization",
     "name" : "Yape"
