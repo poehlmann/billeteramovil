@@ -66,7 +66,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/WSOLI_SOLI_EXTRANET_WEB&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/billeteramovil/assets/img&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -79,11 +79,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\billeteramovil\assets\img" />
       <recent name="C:\xampp\htdocs\solipagos\assets\js" />
       <recent name="C:\xampp\htdocs\solipagos\assets\img" />
       <recent name="C:\xampp\htdocs\solipagos\assets\fonts\roboto" />
       <recent name="C:\xampp\htdocs\solipagos\assets\fonts\icons" />
-      <recent name="C:\xampp\htdocs\solipagos\assets\fonts\flexo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\solipagos\assets\css" />
@@ -437,14 +437,8 @@
       <workItem from="1684933719106" duration="12475000" />
       <workItem from="1684986769613" duration="62420000" />
       <workItem from="1686002354834" duration="10104000" />
-      <workItem from="1686169486522" duration="886000" />
-    </task>
-    <task id="LOCAL-00398" summary="cambios en pagina blog con articulos">
-      <created>1683569850041</created>
-      <option name="number" value="00398" />
-      <option name="presentableId" value="LOCAL-00398" />
-      <option name="project" value="LOCAL" />
-      <updated>1683569850041</updated>
+      <workItem from="1686169486522" duration="1263000" />
+      <workItem from="1686265126331" duration="604000" />
     </task>
     <task id="LOCAL-00399" summary="afinacion de la pagina de inicio">
       <created>1683780209973</created>
@@ -782,7 +776,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686097870568</updated>
     </task>
-    <option name="localTasksCounter" value="447" />
+    <task id="LOCAL-00447" summary="refinacion de toda la web">
+      <created>1686179336301</created>
+      <option name="number" value="00447" />
+      <option name="presentableId" value="LOCAL-00447" />
+      <option name="project" value="LOCAL" />
+      <updated>1686179336301</updated>
+    </task>
+    <option name="localTasksCounter" value="448" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
