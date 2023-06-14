@@ -1164,9 +1164,6 @@ h2 {
     .background_secundario .btn_cta{    margin-bottom: 0!important;margin-top: 0!important;display: inline-block;box-shadow: none;appearance: none;border: 0;outline: 0;height: 50px;line-height: 50px;padding: 0 16px;font-size: 25px;border-radius: 30px;cursor: pointer;user-select: none;font-weight: 700;}
 
 }
-body.open-menu {left: -250px;}
-body.open-menu > .over-menu {visibility: visible;opacity: 1;}
-body.open-menu .menu-container {right: 0 !important;}
 
 /*! CSS Used from: ../css/theme.min.css */
 #wrap{position:inherit;}

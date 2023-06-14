@@ -141,6 +141,7 @@
     function windowSize() {
         size = $(document).width();
         if (size >= 991) {
+            $('.button_bottom').css('display','none');
             $('body').removeClass('open-menu');
             $('.hamburger-menu .bar').removeClass('animate');
         }else{
@@ -172,9 +173,14 @@
     $(document).on('click', '.smart-banner .close', function (event) {
         event.preventDefault();
         var $banner = $('.smart-banner');
+        var $header = $('header');
+        var $cd_primary_nav = $('#cd-primary-nav');
         $banner.css('margin-top',0 - $banner.outerHeight())
-        $('header').css('top',0 );
-        $('.wrap_body').css('top',0 );
+        $header.css('margin-top',0 - $banner.outerHeight() );
+        $('.wrap_body').css('top','40px' );
+        $('.wrap-banner').css('padding-top','15vh' );
+        $cd_primary_nav.removeClass('main_nav_principal');
+        $cd_primary_nav.addClass('main_nav');
         //set cookie
     });
 
@@ -203,8 +209,10 @@
         $('.hamburger-menu .bar').toggleClass('animate');
         if($('body').hasClass('open-menu')){
             $('body').removeClass('open-menu');
+            $('.button_bottom').css('display','none');
         }else{
             $('body').toggleClass('open-menu');
+            $('.button_bottom').css('display','block');
         }
     });
 
