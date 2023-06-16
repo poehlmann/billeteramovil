@@ -18,36 +18,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="refinacion de toda la web">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/menu.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/menu.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/menu.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/menu.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ayuda/cambiar-y-recuperar-contrasenas.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/cambiar-y-recuperar-contrasenas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ayuda/comercios.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/comercios.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ayuda/depositar.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/depositar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ayuda/funcionalidades-y-transferencia.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/funcionalidades-y-transferencia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ayuda/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ayuda/retiros-de-dinero.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/retiros-de-dinero.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ayuda/soy-nuevo-en-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/soy-nuevo-en-yape.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beneficios/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/beneficios/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/adios-al-efectivo/5-habitos-para-decirle-adios-al-uso-de-dinero-en-efectivo.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/adios-al-efectivo/5-habitos-para-decirle-adios-al-uso-de-dinero-en-efectivo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/adios-al-efectivo/dinero-electronico-efectivo-y-virtual-cuales-son-sus-diferencias.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/adios-al-efectivo/dinero-electronico-efectivo-y-virtual-cuales-son-sus-diferencias.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/negocios-digitales/los-codigos-qr-una-alternativa-de-pago-que-facilitan-tu-vida.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/negocios-digitales/los-codigos-qr-una-alternativa-de-pago-que-facilitan-tu-vida.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/negocios-digitales/pago-con-celular-aliados-billetera-movil.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/negocios-digitales/pago-con-celular-aliados-billetera-movil.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/politica-privacidad.html" beforeDir="false" afterPath="$PROJECT_DIR$/politica-privacidad.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seguridad/fraudes.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/fraudes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seguridad/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seguridad/proteccion.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/proteccion.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seguridad/robo.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/robo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seguridad/seguridad.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/seguridad.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/yape/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yapenegocios/formulario.html" beforeDir="false" afterPath="$PROJECT_DIR$/yapenegocios/formulario.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yapenegocios/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/yapenegocios/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yapepromociones/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/yapepromociones/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -472,21 +442,7 @@
       <workItem from="1686316338571" duration="3708000" />
       <workItem from="1686576412780" duration="2677000" />
       <workItem from="1686692323561" duration="4602000" />
-      <workItem from="1686747876467" duration="14621000" />
-    </task>
-    <task id="LOCAL-00401" summary="afinacion de la pagina de seguridad">
-      <created>1683828065019</created>
-      <option name="number" value="00401" />
-      <option name="presentableId" value="LOCAL-00401" />
-      <option name="project" value="LOCAL" />
-      <updated>1683828065019</updated>
-    </task>
-    <task id="LOCAL-00402" summary="afinacion de la pagina de que es yape">
-      <created>1683835052452</created>
-      <option name="number" value="00402" />
-      <option name="presentableId" value="LOCAL-00402" />
-      <option name="project" value="LOCAL" />
-      <updated>1683835052452</updated>
+      <workItem from="1686747876467" duration="16086000" />
     </task>
     <task id="LOCAL-00403" summary="afinacion del pie de pagina">
       <created>1683835591871</created>
@@ -817,7 +773,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686579640086</updated>
     </task>
-    <option name="localTasksCounter" value="450" />
+    <task id="LOCAL-00450" summary="refinacion de toda la web">
+      <created>1686773221353</created>
+      <option name="number" value="00450" />
+      <option name="presentableId" value="LOCAL-00450" />
+      <option name="project" value="LOCAL" />
+      <updated>1686773221353</updated>
+    </task>
+    <task id="LOCAL-00451" summary="refinacion de toda la web">
+      <created>1686773399607</created>
+      <option name="number" value="00451" />
+      <option name="presentableId" value="LOCAL-00451" />
+      <option name="project" value="LOCAL" />
+      <updated>1686773399607</updated>
+    </task>
+    <option name="localTasksCounter" value="452" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
