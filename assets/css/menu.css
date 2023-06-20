@@ -374,6 +374,7 @@ header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu li
 }
 header .sub-menu li.active a{
     border-bottom: none !important;
+    display: inline;
 }
 header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu li > a {
     color: #69607b ;

@@ -86,6 +86,7 @@
 
         document.getElementById("submenu_arrow").src = realPath+"/assets/img/yape_arrowmenu.svg";
 
+        document.getElementById("menu_soli_yape").href = realPath+"/soli-ahora-es-yape/";
         document.getElementById("terminos_condiciones1").href = realPath+"/contrato-prestacion-servicio.html";
         document.getElementById("terminos_condiciones2").href = realPath+"/contrato-prestacion-servicio.html";
         document.getElementById("footer_inicio").href = realPath+"/index.html";
