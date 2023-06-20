@@ -139,7 +139,8 @@ header .desk-menu {
 }
 .swal2-html-container{
     overflow-x: hidden !important;
-    padding: 30px 15px !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 .swal2-popup{
     border-radius: 16px !important;

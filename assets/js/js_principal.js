@@ -20,12 +20,7 @@ $(document).ready(function() {
     if(realPath+"/" == curWwwPath || realPath+"/index.html" == curWwwPath) {
         Swal.fire({
             width: "70vh",
-            html:
-                '<div class="row">' +
-                    '<div class="col-md-12">' +
-                    '<img src="' + realPath + '/assets/img/soli-yape.svg" alt="QR de yape"> ' +
-                    '</div>' +
-                '</div>',
+            html: '<img style="width: -webkit-fill-available;" src="' + realPath + '/assets/img/soli-yape.svg" alt="QR de yape"> ',
             showCloseButton: true,
             showConfirmButton: false,
             showCancelButton: false,
