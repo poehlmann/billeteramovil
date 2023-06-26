@@ -444,21 +444,7 @@
       <workItem from="1687264977061" duration="10147000" />
       <workItem from="1687378271118" duration="2920000" />
       <workItem from="1687700384022" duration="2963000" />
-      <workItem from="1687753227290" duration="2151000" />
-    </task>
-    <task id="LOCAL-00411" summary="refinacion de toda la web">
-      <created>1684873096432</created>
-      <option name="number" value="00411" />
-      <option name="presentableId" value="LOCAL-00411" />
-      <option name="project" value="LOCAL" />
-      <updated>1684873096432</updated>
-    </task>
-    <task id="LOCAL-00412" summary="refinacion de toda la web">
-      <created>1684933768825</created>
-      <option name="number" value="00412" />
-      <option name="presentableId" value="LOCAL-00412" />
-      <option name="project" value="LOCAL" />
-      <updated>1684933768826</updated>
+      <workItem from="1687753227290" duration="2609000" />
     </task>
     <task id="LOCAL-00413" summary="refinacion de toda la web">
       <created>1684941677998</created>
@@ -789,7 +775,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687755243981</updated>
     </task>
-    <option name="localTasksCounter" value="460" />
+    <task id="LOCAL-00460" summary="refinacion de toda la web">
+      <created>1687755560123</created>
+      <option name="number" value="00460" />
+      <option name="presentableId" value="LOCAL-00460" />
+      <option name="project" value="LOCAL" />
+      <updated>1687755560123</updated>
+    </task>
+    <task id="LOCAL-00461" summary="refinacion de toda la web">
+      <created>1687755767582</created>
+      <option name="number" value="00461" />
+      <option name="presentableId" value="LOCAL-00461" />
+      <option name="project" value="LOCAL" />
+      <updated>1687755767582</updated>
+    </task>
+    <option name="localTasksCounter" value="462" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
