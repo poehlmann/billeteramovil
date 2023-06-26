@@ -81,7 +81,7 @@
     "sizes": "144x144",
     "type": "image/png",
     "density": "3.0",
-    "purpose": "maskable"
+    "purpose": "any maskable"
   },
   {
     "src": "assets/img/yape-192x192.png",
