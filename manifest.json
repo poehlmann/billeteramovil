@@ -89,6 +89,20 @@
     "type": "image/png",
     "density": "4.0",
     "purpose": "maskable"
+  },
+  {
+    "src": "assets/img/yape-384x384.png",
+    "sizes": "384x384",
+    "type": "image/png",
+    "density": "5.0",
+    "purpose": "maskable"
+  },
+  {
+    "src": "assets/img/yape-512x512.png",
+    "sizes": "512x512",
+    "type": "image/png",
+    "density": "6.0",
+    "purpose": "maskable"
   }
 ]
 }
