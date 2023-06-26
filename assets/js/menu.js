@@ -280,7 +280,7 @@
             // $("#address").html("pais: " + response.country);
             // $("#details").html(JSON.stringify(response, null, 4));
             if(response.country=="PE") {
-                $("#text-flag").html("Estás en el sitio web de Yape Perú. Elige tu país o región para ver el contenido sobre tú ubicación.");
+                $("#text-flag").html("Estás en el sitio web de Yape Bolivia. Elige tu país o región para ver el contenido sobre tú ubicación.");
                 $("#button-flag").html("<a href=\"https://www.yape.com.pe/\"><span class=\"flag-icon flag-icon-pe me-1\"></span> <span>Perú</span></a>");
             }
         }, "jsonp");

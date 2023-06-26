@@ -92,6 +92,7 @@
     text-align: center;
 }
 .post-thumbnail img{
+    max-width: 100%;
     border-radius: 32px;
     width: 80%;
 }
@@ -154,8 +155,14 @@ display: none;
         text-align: center;
     }
     .post-thumbnail img{
+        max-width: 100%;
         width: auto;
     }
+
+}
+.section_3_blog{
+    padding-top: 30px;
+    justify-items: center !important;
 }
 @media screen and (max-width:992px){
     .section_text_articles{
@@ -173,7 +180,7 @@ display: none;
         margin-left: 0!important;
     }
     .section_3_blog{
-        top: 59px;
+        /*top: 59px;*/
     }
     .section_3_1_blog{
         margin-top: 0 !important;

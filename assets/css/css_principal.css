@@ -1144,33 +1144,27 @@ h2 {
 .list-hidden{
     list-style: none;
 }
-.background_principal{background-image:url(../img/que-es-soli2.jpg);background-repeat:no-repeat;background-size:cover;height:100vh;background-position:center center;z-index:1;}
 /*.background_principal img{width:45vh !important; display: initial !important;}*/
 .background_principal .btn_cta{margin-bottom:20px!important;margin-top:30px!important;}
 .background_secundario .font_promocion{font-size:44px;}
-.background_secundario{background-image:url(../img/soli-bcp.jpg);background-repeat:no-repeat;background-size:cover;height:100vh;background-position:center center;z-index:1;}
 .background_secundario .btn_cta{margin-bottom:20px!important;margin-top:30px!important;}
+img{max-width:300px;height:auto;}
 @media screen and (max-width:991px){
+    img{max-width:200px;height:auto; text-align: center}
     #wrap,body{overflow-x:hidden;}
     .font-size-50{font-size:35px!important;}
     .font-size-20 {font-size: 16px!important;}
     .background_secundario .font_promocion{font-size:19px;}
     .banner_title {color: #fff;position: absolute;left: 50%;top: 25%;text-align: center;transform: translate(-50%,-50%);}
     .image-top{top:5vh;}
-    .background_principal{background-image:url(../img/soli-bcp-mobile.jpg);}
     .background_principal .btn_cta{    margin-bottom: 0!important;margin-top: 0!important;display: inline-block;box-shadow: none;appearance: none;border: 0;outline: 0;height: 50px;line-height: 50px;padding: 0 16px;font-size: 25px;border-radius: 30px;cursor: pointer;user-select: none;font-weight: 700;}
     .background_principal .font_promocion{font-size:19px;}
-    .background_secundario{background-image:url(../img/soli-bcp-mobile.jpg);}
     .background_secundario .btn_cta{    margin-bottom: 0!important;margin-top: 0!important;display: inline-block;box-shadow: none;appearance: none;border: 0;outline: 0;height: 50px;line-height: 50px;padding: 0 16px;font-size: 25px;border-radius: 30px;cursor: pointer;user-select: none;font-weight: 700;}
-
 }
 
 /*! CSS Used from: ../css/theme.min.css */
 #wrap{position:inherit;}
 iframe{max-width:100%;border:0;}
-img{max-width:100%;height:auto;}
-
-
 
 .accordion{margin-bottom:2em;}
 .accordion-title{margin:0;position:relative;line-height:1.5em;}
@@ -1213,6 +1207,7 @@ img{max-width:100%;height:auto;}
 
 .pt-10 {padding-top: 10px !important;}
 .pb-10 {padding-bottom: 10px !important;}
+.ml-10 {margin-left: 10px!important;}
 .ml-20 {margin-left: 20px!important;}
 .font-weight-bold{font-weight:bold!important;}
 .font-size-14{font-size: 14px !important;}
@@ -1896,6 +1891,7 @@ button.close{padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance
 }
 .img-card img{
     width: 100%;
+    max-width: 100%;
     border-radius: 8px 8px 0 0;
     height: 200px;
     object-fit:cover;
@@ -2292,10 +2288,10 @@ section.section--sac {
         max-width: 400px!important;
     }
     .img-negocios{
-        max-width: 325px !important;
+        max-width: 230px !important;
     }
     .img-girl{
-        max-width: 325px;
+        max-width: 230px;
     }
     .bg-elipse{
         background-size: cover;
@@ -2316,7 +2312,7 @@ section.section--sac {
         color:#ffffff;
     }
     .btn-banner {
-        height: 90px;
+        /*height: 90px;*/
         width: 100%;
         margin-bottom: 16px;
     }
