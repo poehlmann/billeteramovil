@@ -17,6 +17,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="refinacion de toda la web">
+      <change beforePath="$PROJECT_DIR$/assets/img/yape-144x144.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/yape-144x144.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -446,21 +447,7 @@
       <workItem from="1687264977061" duration="10147000" />
       <workItem from="1687378271118" duration="2920000" />
       <workItem from="1687700384022" duration="2963000" />
-      <workItem from="1687753227290" duration="2934000" />
-    </task>
-    <task id="LOCAL-00414" summary="refinacion de toda la web">
-      <created>1684986883956</created>
-      <option name="number" value="00414" />
-      <option name="presentableId" value="LOCAL-00414" />
-      <option name="project" value="LOCAL" />
-      <updated>1684986883956</updated>
-    </task>
-    <task id="LOCAL-00415" summary="refinacion de toda la web">
-      <created>1684993135853</created>
-      <option name="number" value="00415" />
-      <option name="presentableId" value="LOCAL-00415" />
-      <option name="project" value="LOCAL" />
-      <updated>1684993135853</updated>
+      <workItem from="1687753227290" duration="3389000" />
     </task>
     <task id="LOCAL-00416" summary="refinacion de toda la web">
       <created>1685029783338</created>
@@ -791,7 +778,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687756026455</updated>
     </task>
-    <option name="localTasksCounter" value="463" />
+    <task id="LOCAL-00463" summary="refinacion de toda la web">
+      <created>1687756235120</created>
+      <option name="number" value="00463" />
+      <option name="presentableId" value="LOCAL-00463" />
+      <option name="project" value="LOCAL" />
+      <updated>1687756235120</updated>
+    </task>
+    <task id="LOCAL-00464" summary="refinacion de toda la web">
+      <created>1687756267754</created>
+      <option name="number" value="00464" />
+      <option name="presentableId" value="LOCAL-00464" />
+      <option name="project" value="LOCAL" />
+      <updated>1687756267754</updated>
+    </task>
+    <option name="localTasksCounter" value="465" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
