@@ -1,6 +1,6 @@
 {
   "@context" : "http://schema.org",
-  "start_url": "/",
+  "start_url": "index.html",
   "@type" : "SoftwareApplication",
   "name" : "YAPE BILLETERA MÓVIL TE PERMITE PAGAR CON TU CELULAR",
   "image" : "assets/img/Logo_Bolivia_3.svg",
