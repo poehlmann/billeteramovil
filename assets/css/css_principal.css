@@ -1451,7 +1451,7 @@ text-shadow: rgb(0 0 0 / 30%) 1.1px 2.1px 4px;
 }
 .background_section_soli_yape{
     background-size: 400px;
-    background-position:100% 65%;
+    background-position:75% 65%;
     background-repeat: no-repeat;
     background-origin: content-box;
     padding-top: 6vh;
@@ -1463,6 +1463,13 @@ text-shadow: rgb(0 0 0 / 30%) 1.1px 2.1px 4px;
 }
 
 @media (max-width: 992px) {
+    .background_section_soli_yape {
+        background-size: 218px;
+        background-position: 104% -13%;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        padding-top: 10vh;
+    }
     .section_1_2_inicio{
         margin-top:0 !important;
         margin-bottom: 0 !important;

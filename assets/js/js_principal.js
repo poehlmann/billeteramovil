@@ -17,16 +17,20 @@ $(document).ready(function() {
     let projectName=pathName.substring(0,pathName.substring(1).indexOf('/')+1);
     // obtuve http: // localhost: 8083 / myproj
     let realPath=localhostPaht+projectName;
-    if(realPath+"/" == curWwwPath || realPath+"/index.html" == curWwwPath) {
-        Swal.fire({
-            width: "70vh",
-            html: '<img style="width: -webkit-fill-available;max-width: 100%" src="' + realPath + '/assets/img/soli-yape.svg" alt="QR de yape"> ',
-            showCloseButton: true,
-            showConfirmButton: false,
-            showCancelButton: false,
-            // footer: '<strong class="font-size-14">Disponible en:</strong><img src="' + realPath + '/assets/img/yape_google_play_icon.svg"><img src="' + realPath + '/assets/img/yape_apple_icon.svg"><img src="' + realPath + '/assets/img/yape_huawei_icon.svg">'
-        })
+    if (!sessionStorage.getItem("popup")) {
+        if(realPath+"/" == curWwwPath || realPath+"/index.html" == curWwwPath) {
+            Swal.fire({
+                    width: "70vh",
+                    html: '<img style="width: -webkit-fill-available;max-width: 100%" src="' + realPath + '/assets/img/soli-yape.svg" alt="QR de yape"> ',
+                    showCloseButton: true,
+                    showConfirmButton: false,
+                    showCancelButton: false,
+                    // footer: '<strong class="font-size-14">Disponible en:</strong><img src="' + realPath + '/assets/img/yape_google_play_icon.svg"><img src="' + realPath + '/assets/img/yape_apple_icon.svg"><img src="' + realPath + '/assets/img/yape_huawei_icon.svg">'
+            })
+        }
+        sessionStorage.setItem("popup", 'viewed');
     }
+
 
     // var client_list = $('.app-active');
     // if(client_list.length){
