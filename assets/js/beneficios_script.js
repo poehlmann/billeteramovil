@@ -123,7 +123,7 @@ $('.entel_detail').click(function() {
                     </div>
                 </div>
             `,
-        width: "80vh",
+        width: "51vh",
         showCloseButton: true,
         showCancelButton: false,
         focusConfirm: true,
