@@ -104,17 +104,16 @@ header .desk-menu {
     -ms-box-sizing: border-box;
     -o-box-sizing: border-box;
     box-sizing: border-box;
-    padding: 10px 10px 10px 31px;
+    padding: 0px 10px 0px 31px;
     position: fixed;
     z-index: 11;
-    background: #F6E1F9;
-    width: 100%;
-    /*height: 5vh;*/
-    display: flex;
+    background: #f6e1f9;
     border-bottom: solid 0.1px #dfdfdf;
+    width: 100%;
+    display: flex;
+    align-content: center;
     justify-content: center;
     align-items: center;
-    align-content: center;
     flex-wrap: wrap;
     flex-direction: row;
 }
@@ -126,7 +125,7 @@ header .desk-menu {
     clear: both;
 }
 .smart-banner .close {
-    position: absolute;
+    position: sticky;
     width: 30px;
     padding: 16px 5px;
     left: 0;
@@ -574,6 +573,9 @@ header .desk-menu .menu-container .menu>li .btn_cta{
     display: none;
 }
 @media (max-width: 991px) {
+    .smart-banner .close {
+        position: absolute;
+    }
     header .desk-menu .menu-container .menu>li:hover>a{
         color:#69607b !important;
         filter: invert(39%) sepia(29%) saturate(337%) hue-rotate(218deg) brightness(92%) contrast(88%) !important;
