@@ -102,20 +102,28 @@ $('.prime_detail').click(function() {
 });
 $('.entel_detail').click(function() {
     Swal.fire({
-        title: '<strong> Soli ilimitado con Entel</strong>',
-        icon: 'info',
         html:
-            '<div style="padding: 0 35px 25px 35px;"><div class="text-align-left"><strong>Beneficio:</strong>\n' +
-            'Para acceder al beneficio, se deberá activar los datos móviles correspondientes a la línea Entel en su teléfono celular (dispositivo móvil), entrar a la aplicación Yape, una vez que este entre en la aplicación, el consumo de MB que demande la aplicación no será cobrada o debitada de la línea afiliada, dando un uso libre a todas las funcionalidades que tiene la aplicación.' +
-            '<br><br><strong>Requisitos de participación:</strong><br><br>' +
-            '<ul>' +
-            '<li>Ser cliente activo de la empresa de telecomunicación ENTEL, para el servicio de telefonía celular en su modalidad pre-pago o post-pago.</li>\n' +
-            '<li>Ser afiliado o afiliarse a la billetera móvil “Soli”, la billetera móvil deberá estar necesariamente vinculada al dispositivo móvil registrado para el servicio de telefonía celular prestado por ENTEL.\n</li>' +
-            '</ul>\n' +
-            '<br><strong>Restricciones: </strong>\n' +
-            'En caso de que el servicio de telefonía celular prestado en favor del cliente y que este vinculado con la billetera móvil, se encuentre bloqueado, cancelado o no operativo por cualquier razón el participante quedará automáticamente fuera de la promoción.\n' +
-            'Se aclara que en caso de que la persona y/o línea se desafilien de la billetera móvil Soli Pagos BCP,  el participante quedará automáticamente excluido de la promoción.\n<br>' +
-            '<br><strong>Duración:</strong> Del 24 de marzo del 2022 al 30 de noviembre del 2022</div></div>',
+            `
+                <div class="container">
+                    <div class="row text-center">
+                        <img alt="beneficios yape entel" class="text-center" src="../assets/img/yape-beneficio-entel.png" >
+                    </div>
+                    <div class="row text-left" style="padding: 25px 25px 0 25px;">
+                        <strong class="font-size-26">¡Disfruta de Yape ilimitado con Entel!</strong>
+                        <p class="mt-25">Para obtener este beneficio, simplemente activa los datos móviles de tu línea Entel en tu celular y al usar la aplicación Yape, no se descontarán megabytes de tu línea. Así podrás aprovechar todas las funciones de la aplicación sin preocuparte por el consumo de datos.</p>
+                        <strong>Requisitos para participar</strong>
+                        <ul class="text-list">
+                            <li>Ser cliente activo de Entel en modalidad pre-pago o post-pago.</li>
+                            <li>Tener una cuenta en la billetera móvil "Yape" vinculada a tu dispositivo móvil registrado en Entel.</li>
+                        </ul>
+                        <strong>Restriccionesr</strong>
+                        <p>Si tu servicio de telefonía celular vinculado a la billetera móvil está bloqueado, cancelado o inactivo por cualquier motivo, quedarás automáticamente excluido de la promoción. También debes tener en cuenta que si te desafilia de la billetera móvil Soli Pagos BCP, dejarás de participar en la promoción.</p>
+                        <strong>Duración</strong>
+                        <p>Desde el 03 de abril hasta el 31 de diciembre de 2023.</p>
+                    </div>
+                </div>
+            `,
+        width: "80vh",
         showCloseButton: true,
         showCancelButton: false,
         focusConfirm: true,

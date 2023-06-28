@@ -1201,6 +1201,13 @@ iframe{max-width:100%;border:0;}
     }
     .hide_phone{display:none;}
 }
+.text-list li{
+    color: #2c2044;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
 .hide_phone{margin-top:8px;}
 @media (max-width:767px){
 
