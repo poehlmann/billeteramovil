@@ -110,16 +110,16 @@ $('.entel_detail').click(function() {
                     </div>
                     <div class="row text-left" style="padding: 25px 25px 0 25px;">
                         <strong class="font-size-26">¡Disfruta de Yape ilimitado con Entel!</strong>
-                        <p class="mt-25">Para obtener este beneficio, simplemente activa los datos móviles de tu línea Entel en tu celular y al usar la aplicación Yape, no se descontarán megabytes de tu línea. Así podrás aprovechar todas las funciones de la aplicación sin preocuparte por el consumo de datos.</p>
+                        <p class="mt-25" style="color:#000000">Para obtener este beneficio, simplemente activa los datos móviles de tu línea Entel en tu celular y al usar la aplicación Yape, no se descontarán megabytes de tu línea. Así podrás aprovechar todas las funciones de la aplicación sin preocuparte por el consumo de datos.</p>
                         <strong>Requisitos para participar</strong>
-                        <ul class="text-list">
+                        <ul class="text-list" >
                             <li>Ser cliente activo de Entel en modalidad pre-pago o post-pago.</li>
                             <li>Tener una cuenta en la billetera móvil "Yape" vinculada a tu dispositivo móvil registrado en Entel.</li>
                         </ul>
                         <strong>Restriccionesr</strong>
-                        <p>Si tu servicio de telefonía celular vinculado a la billetera móvil está bloqueado, cancelado o inactivo por cualquier motivo, quedarás automáticamente excluido de la promoción. También debes tener en cuenta que si te desafilia de la billetera móvil Soli Pagos BCP, dejarás de participar en la promoción.</p>
+                        <p style="color:#000000">Si tu servicio de telefonía celular vinculado a la billetera móvil está bloqueado, cancelado o inactivo por cualquier motivo, quedarás automáticamente excluido de la promoción. También debes tener en cuenta que si te desafilia de la billetera móvil Soli Pagos BCP, dejarás de participar en la promoción.</p>
                         <strong>Duración</strong>
-                        <p>Desde el 03 de abril hasta el 31 de diciembre de 2023.</p>
+                        <p style="color:#000000">Desde el 03 de abril hasta el 31 de diciembre de 2023.</p>
                     </div>
                 </div>
             `,
