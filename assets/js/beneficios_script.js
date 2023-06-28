@@ -106,7 +106,7 @@ $('.entel_detail').click(function() {
             `
                 <div class="container">
                     <div class="row text-center">
-                        <img alt="beneficios yape entel" class="text-center" src="../assets/img/yape-beneficio-entel.png" >
+                        <img alt="beneficios yape entel" class="text-center" src="../assets/img/yape-beneficio-entel.svg" >
                     </div>
                     <div class="row text-left" style="padding: 25px 25px 0 25px;">
                         <strong class="font-size-26">¡Disfruta de Yape ilimitado con Entel!</strong>
