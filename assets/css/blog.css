@@ -47,7 +47,11 @@
 .article-block .entry-content > p {
     color: #666;
 }
-
+.section-seguridad{
+    background-color: #f6f5fb;
+    padding: 15px;
+    text-align: center;
+}
 /**
  * Tabs Container
  */
@@ -63,7 +67,9 @@
     align-items: top;
     justify-content: top;
 }
-
+.tabs-blog .seguridad_blog{
+    width: calc(100% - 0px) !important;
+}
 /**
  * Tabs
  */

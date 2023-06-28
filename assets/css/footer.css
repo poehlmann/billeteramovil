@@ -46,7 +46,7 @@
 }
 .footer-logo {
     margin-bottom: 3px;
-    margin-right: 30px;
+    margin-right: 25px;
 }
 .footer-logo img {
     max-width: 200px;
@@ -65,7 +65,7 @@
     color: #fff;
     display: block;
     font-size: 15px;
-    font-weight: 700;
+    /*font-weight: 700;*/
     margin-bottom: 20px;
 }
 .footer-social-icon a {
@@ -151,10 +151,17 @@
     font-size: 22px;
     transform: rotate(-6deg);
 }
+
 .copyright-area{
     background: #3F0D4A;
     padding: 5px 0;
     width: 100%;
+}
+.copyright{
+    /*background: #3F0D4A;*/
+    padding: 5px 0;
+    width: 100%;
+    border-top:1px solid #8B3D99
 }
 .scroll_top{
     background-color: #10cbb4;
@@ -200,6 +207,11 @@
 }
 @media screen and (max-width:992px){
     .footer-content{
-        padding-top: 10px !important;
+        padding-top: 0px !important;
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+    #footer-whatsapp-phone,#descarga_android-phone{
+        margin-bottom: 10px !important;
     }
 }
