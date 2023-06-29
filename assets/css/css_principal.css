@@ -1197,6 +1197,9 @@ iframe{max-width:100%;border:0;}
 .color-black{
     color:#000000
 }
+.dropdown-menu{
+    border-radius: 8px;
+}
 @media screen and (max-width:992px){
     .tutorial-recarga-soli{
         display: none !important;
