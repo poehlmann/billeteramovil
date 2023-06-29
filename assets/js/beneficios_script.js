@@ -104,25 +104,26 @@ $('.entel_detail').click(function() {
     Swal.fire({
         html:
             `
-                <div class="container">
-                    <div class="row text-center mt-25 mb-25">
+                <div class="container color-black">
+                    <div class="row text-center" style="margin-bottom: 32px">
                         <img alt="beneficios yape entel" class="text-center" src="../assets/img/yape-beneficio-entel.svg" >
                     </div>
-                    <div class="row text-left" style="padding: 0 35px 0 40px;">
-                        <strong class="font-size-26" style="color:#000000">¡Disfruta de Yape ilimitado con Entel!</strong>
-                        <p class="mt-25" style="color:#000000">Para obtener este beneficio, simplemente activa los datos móviles de tu línea Entel en tu celular y al usar la aplicación Yape, no se descontarán megabytes de tu línea. Así podrás aprovechar todas las funciones de la aplicación sin preocuparte por el consumo de datos.</p>
-                        <strong style="color:#000000">Requisitos para participar</strong>
+                    <div class="row text-left ">
+                        <strong class="font-size-26 yape-texto-purpura">¡Disfruta de Yape ilimitado con Entel!</strong>
+                        <p class="mt-25 " >Para obtener este beneficio, simplemente activa los datos móviles de tu línea Entel en tu celular y al usar la aplicación Yape, no se descontarán megabytes de tu línea. Así podrás aprovechar todas las funciones de la aplicación sin preocuparte por el consumo de datos.</p>
+                        <strong >Requisitos para participar</strong>
                         <ul class="text-list" >
                             <li>Ser cliente activo de Entel en modalidad pre-pago o post-pago.</li>
                             <li>Tener una cuenta en la billetera móvil "Yape" vinculada a tu dispositivo móvil registrado en Entel.</li>
                         </ul>
-                        <strong style="color:#000000">Restriccionesr</strong>
-                        <p style="color:#000000">Si tu servicio de telefonía celular vinculado a la billetera móvil está bloqueado, cancelado o inactivo por cualquier motivo, quedarás automáticamente excluido de la promoción. También debes tener en cuenta que si te desafilia de la billetera móvil Soli Pagos BCP, dejarás de participar en la promoción.</p>
-                        <strong style="color:#000000">Duración</strong>
-                        <p style="color:#000000">Desde el 03 de abril hasta el 31 de diciembre de 2023.</p>
+                        <strong >Restriccionesr</strong>
+                        <p >Si tu servicio de telefonía celular vinculado a la billetera móvil está bloqueado, cancelado o inactivo por cualquier motivo, quedarás automáticamente excluido de la promoción. También debes tener en cuenta que si te desafilia de la billetera móvil Soli Pagos BCP, dejarás de participar en la promoción.</p>
+                        <strong >Duración</strong>
+                        <p>Desde el 03 de abril hasta el 31 de diciembre de 2023.</p>
                     </div>
                 </div>
             `,
+        padding:"32px",
         width: "51vh",
         showCloseButton: true,
         showCancelButton: false,

@@ -1191,6 +1191,12 @@ iframe{max-width:100%;border:0;}
 .holder{
     display:flex;
 }
+.space-padding{
+    padding: 32px 32px 32px 32px;
+}
+.color-black{
+    color:#000000
+}
 @media screen and (max-width:992px){
     .tutorial-recarga-soli{
         display: none !important;
@@ -1208,6 +1214,7 @@ iframe{max-width:100%;border:0;}
     font-weight: 400;
 }
 .hide_phone{margin-top:8px;}
+
 @media (max-width:767px){
 
 }
