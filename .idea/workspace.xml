@@ -16,13 +16,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="refinacion de toda la web">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/beneficios_script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/beneficios_script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/beneficios_script.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/beneficios_script.min.js" afterDir="false" />
-    </list>
+    <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="refinacion de toda la web" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -453,14 +447,7 @@
       <workItem from="1687753227290" duration="5092000" />
       <workItem from="1687782842570" duration="14358000" />
       <workItem from="1687868559757" duration="11019000" />
-      <workItem from="1687953820639" duration="19835000" />
-    </task>
-    <task id="LOCAL-00434" summary="refinacion de toda la web">
-      <created>1685553061733</created>
-      <option name="number" value="00434" />
-      <option name="presentableId" value="LOCAL-00434" />
-      <option name="project" value="LOCAL" />
-      <updated>1685553061733</updated>
+      <workItem from="1687953820639" duration="20156000" />
     </task>
     <task id="LOCAL-00435" summary="refinacion de toda la web">
       <created>1685633635049</created>
@@ -798,7 +785,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687982538994</updated>
     </task>
-    <option name="localTasksCounter" value="483" />
+    <task id="LOCAL-00483" summary="refinacion de toda la web">
+      <created>1688045001368</created>
+      <option name="number" value="00483" />
+      <option name="presentableId" value="LOCAL-00483" />
+      <option name="project" value="LOCAL" />
+      <updated>1688045001368</updated>
+    </task>
+    <option name="localTasksCounter" value="484" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
