@@ -663,7 +663,7 @@ border-top: 0;
     background-position: 100% 20%;
     background-repeat: no-repeat;
     background-origin: content-box;
-    padding-top: 9vh;
+    padding-top: 7vh;
 }
 @media (max-width: 991px){
     .button_contact{

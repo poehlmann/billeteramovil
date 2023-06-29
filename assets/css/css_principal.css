@@ -1201,6 +1201,9 @@ iframe{max-width:100%;border:0;}
     border-radius: 8px;
 }
 @media screen and (max-width:992px){
+    .yape-girl-phone{
+        max-width: 100%;
+    }
     .mt-30-phone{
         margin-top: 30px;
     }
@@ -1905,8 +1908,12 @@ button.close{padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance
     padding: 0 24px 0 24px;
     text-align: left;
 }
+.space-within-cards{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
 .card .card-content .btn_cta{
-    width: 80%;
+    width: 100%;
     display: inline-block;
     box-shadow: none;
     appearance: none;
@@ -1914,7 +1921,7 @@ button.close{padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance
     outline: 0;
     background-color: #10cbb4;
     line-height: 17px;
-    padding: 12px 24px;
+    padding: 12px 79px;
     font-size: 14px;
     border-radius: 8px!important;
     cursor: pointer;
@@ -1929,7 +1936,7 @@ button.close{padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance
     line-height: 8px;
 }
 .banner-contact-blog p{
-    color: #0b0b0b;
+    color: #2C2044;
 }
 .img-card{
     width: -webkit-fill-available;
@@ -2305,7 +2312,17 @@ section.section--sac {
     background-origin: content-box;
     padding-top: 9vh;
 }
+.space-banner-phone{
+    margin-bottom: 50px;
+}
 @media (max-width: 991px) {
+    .space-banner-phone{
+        margin-bottom: 10px;
+    }
+    .space-within-cards{
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
     .fondo_negocio_principal{
         background-size: 218px;
         background-position: 104% -76%;
