@@ -4,7 +4,7 @@
 }
 body {
     margin: 0;
-    font-family: Flexo-Regular, helvetica, arial, sans-serif;
+    font-family: Roboto;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -27,7 +27,7 @@ html * {
 body {
     padding: 0;
     margin: 0;
-    font-family: Roboto, sans-serif;
+    font-family: Roboto;
     font-size: 16px;
     color: #2c2044;
     color: var(#2c2044);
@@ -48,7 +48,7 @@ body {
     body {
         background-color: #fff;
         color: #212529;
-        font-family: Flexo-Regular, helvetica, arial, sans-serif;
+        font-family: Roboto;
         font-size: 1rem;
         font-weight: 400;
         line-height: 1.5;
@@ -139,7 +139,7 @@ body {
     h1, h2, h3, h4, h5 {
         color: #002a8d;
         color: var(#742384, #002a8d);
-        font-family: Flexo-Bold, helvetica, arial, sans-serif;
+        font-family: Roboto;
         font-weight: 500;
         line-height: 1.2;
         margin-bottom: 0.5rem;
@@ -272,7 +272,7 @@ body {
         border-radius: 16px;
         color: #212529;
         display: inline-block;
-        font-family: Flexo-Demi, helvetica, arial, sans-serif;
+        font-family: Roboto;
         font-size: 0.875rem;
         font-weight: 400;
         line-height: 1;
@@ -748,7 +748,7 @@ text-decoration: none;
     body {
         color: #2c2044;
         color: var(#2c2044);
-        font-family: Roboto, sans-serif;
+        font-family: Roboto;
         font-size: 16px;
         margin: 0;
         overflow-x: hidden;
@@ -768,7 +768,7 @@ text-decoration: none;
     h1, h2, h3, h4, h5 {
         color: #2c2044;
         color: var(#2c2044);
-        font-family: Roboto, sans-serif;
+        font-family: Roboto;
     }
     h1 {
         font-size: 2rem;

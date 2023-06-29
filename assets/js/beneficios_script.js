@@ -116,7 +116,7 @@ $('.entel_detail').click(function() {
                             <li>Ser cliente activo de Entel en modalidad pre-pago o post-pago.</li>
                             <li>Tener una cuenta en la billetera móvil "Yape" vinculada a tu dispositivo móvil registrado en Entel.</li>
                         </ul>
-                        <strong >Restriccionesr</strong>
+                        <strong >Restricciones</strong>
                         <p >Si tu servicio de telefonía celular vinculado a la billetera móvil está bloqueado, cancelado o inactivo por cualquier motivo, quedarás automáticamente excluido de la promoción. También debes tener en cuenta que si te desafilia de la billetera móvil Soli Pagos BCP, dejarás de participar en la promoción.</p>
                         <strong >Duración</strong>
                         <p>Desde el 03 de abril hasta el 31 de diciembre de 2023.</p>

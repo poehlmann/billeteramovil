@@ -18,7 +18,27 @@
   <component name="ChangeListManager">
     <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="refinacion de toda la web">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/menu.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/menu.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/sweetalert2.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/sweetalert2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/sweetalert2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/sweetalert2.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/yape_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/yape_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/yape_style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/yape_style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/roboto/roboto-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/roboto/roboto-400.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/roboto/roboto-500.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/roboto/roboto-500.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/beneficios_script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/beneficios_script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/beneficios_script.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/beneficios_script.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/menu.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/menu.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beneficios/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/beneficios/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seguridad/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seguridad/robo.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/robo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/yape/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -450,14 +470,7 @@
       <workItem from="1687753227290" duration="5092000" />
       <workItem from="1687782842570" duration="14358000" />
       <workItem from="1687868559757" duration="11019000" />
-      <workItem from="1687953820639" duration="20776000" />
-    </task>
-    <task id="LOCAL-00436" summary="refinacion de toda la web">
-      <created>1685634096518</created>
-      <option name="number" value="00436" />
-      <option name="presentableId" value="LOCAL-00436" />
-      <option name="project" value="LOCAL" />
-      <updated>1685634096518</updated>
+      <workItem from="1687953820639" duration="28741000" />
     </task>
     <task id="LOCAL-00437" summary="refinacion de toda la web">
       <created>1685634717752</created>
@@ -795,7 +808,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688054293522</updated>
     </task>
-    <option name="localTasksCounter" value="485" />
+    <task id="LOCAL-00485" summary="refinacion de toda la web">
+      <created>1688054389991</created>
+      <option name="number" value="00485" />
+      <option name="presentableId" value="LOCAL-00485" />
+      <option name="project" value="LOCAL" />
+      <updated>1688054389991</updated>
+    </task>
+    <option name="localTasksCounter" value="486" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

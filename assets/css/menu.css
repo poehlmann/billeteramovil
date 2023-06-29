@@ -64,7 +64,7 @@ header {
 }
 .pagina_principal{
     top:53px;
-    padding-top: 10px;
+    padding-top: 2px;
 }
 header::before {
     /*-webkit-transition: all 0.3s ease;*/
@@ -572,9 +572,12 @@ header .desk-menu .menu-container .menu>li .btn_cta{
 .button_bottom{
     display: none;
 }
+.width-banner{
+    width: 95%;
+}
 @media (max-width: 991px) {
     .smart-banner .close {
-        position: absolute;
+        /*position: absolute;*/
     }
     header .desk-menu .menu-container .menu>li:hover>a{
         color:#69607b !important;
@@ -612,7 +615,7 @@ header .desk-menu .menu-container .menu>li .btn_cta{
         font-weight: 300;
     }
     .smart-banner{
-        height: 7vh;
+        height: 4vh;
         border-bottom: 0;
     }
     header{
@@ -626,7 +629,7 @@ header .desk-menu .menu-container .menu>li .btn_cta{
     }
     .pagina_principal {
         height: 60px;
-        top: 7vh;
+        top: 4vh;
         padding-top: 0;
     }
     header .desk-menu{
@@ -931,12 +934,12 @@ header .desk-menu .menu-container .menu>li .btn_cta{
 }
 @media (max-width: 767px) {
     .smart-banner{
-        height: 9vh;
+        height: 4vh;
         border-bottom: 0;
     }
     .pagina_principal {
         height: 60px;
-        top: 9vh;
+        top: 4vh;
         padding-top: 0;
     }
     header .desk-menu .menu-container .menu li a {
@@ -971,11 +974,14 @@ header .desk-menu .menu-container .menu>li .btn_cta{
     }
 }
 @media (max-width:640px){
+    .width-banner{
+        width: 90%;
+    }
     .pagina_principal {
-        top: 12vh !important;
+        top: 10vh !important;
     }
     .smart-banner{
-        height: 12vh !important;
+        height: 10vh !important;
     }
 }
 @media (max-width: 481px) {
@@ -1004,10 +1010,10 @@ header .desk-menu .menu-container .menu>li .btn_cta{
 }
 @media (max-height: 550px) {
     .pagina_principal {
-        top: 12vh;
+        top: 4vh;
     }
     .smart-banner{
-        height: 12vh;
+        height: 4vh;
     }
     header .desk-menu .menu-container .menu-foot hr, header .desk-menu .menu-container .menu-foot address {
         display: none;

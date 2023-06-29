@@ -420,8 +420,7 @@
     border-radius: 5px;
     background: transparent;
     color: #ccc;
-    font-family: serif;
-    font-family: monospace;
+    font-family: Roboto;
     font-size: 2.5em;
     cursor: pointer;
     justify-self: end;

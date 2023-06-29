@@ -4,6 +4,14 @@
                                 Supervisada por ASFI – Banco de Crédito de Bolivia S.A.</a><br>Banco de Crédito de
                                 Bolivia S.A. Av. Hernando Siles N.º 5555, edificio “Torre Empresarial ESIMSA”, en la zona
                                 de Obrajes de la ciudad de La Paz</p>`;
+
+    if ($("#text-flag").length != 0) {
+        if (window.innerWidth <= 997) {
+            document.getElementById('text-flag').innerHTML = "Estás en el sitio web de Yape Bolivia.";
+        } else {
+            document.getElementById('text-flag').innerHTML = "Estás en el sitio web de Yape Bolivia. Elige tu país o región para ver el contenido sobre tu ubicación."
+        }
+    }
     var size;
     // Obtenga la URL actual, como: http: // localhost: 8083 / myproj / view / my.jsp
     let curWwwPath=window.document.location.href;
@@ -46,7 +54,7 @@
                 showCloseButton: true,
                 showConfirmButton: false,
                 showCancelButton: false,
-                footer: '<strong class="font-size-14">Disponible en:</strong><img src="' + realPath + '/assets/img/yape_google_play_icon.svg"><img src="' + realPath + '/assets/img/yape_apple_icon.svg"><img src="' + realPath + '/assets/img/yape_huawei_icon.svg">'
+                footer: '<strong class="font-size-14">Disponible en:</strong><img alt="descarga yape de play store" src="' + realPath + '/assets/img/yape_google_play_icon.svg"><img alt="descarga yape del apple store" src="' + realPath + '/assets/img/yape_apple_icon.svg"><img alt="descarga yape de huawei store " src="' + realPath + '/assets/img/yape_huawei_icon.svg">'
             })
         }
     });
@@ -69,8 +77,8 @@
         document.getElementById("footer-facebook-phone").src=realPath+"/assets/img/ic_social_facebook_b.svg";
         document.getElementById("footer-instagram-phone").src=realPath+"/assets/img/ic_social_instagram_b.svg";
         document.getElementById("footer-youtube-phone").src=realPath+"/assets/img/ic_social_youtube_b.svg";
-        document.getElementById("footer-whatsapp-phone").src=realPath+"/assets/img/Contactos.svg";
-        document.getElementById("footer-terminos-condiciones-phone").src=realPath+"/assets/img/Conócenos.svg";
+        document.getElementById("footer-whatsapp-phone").src=realPath+"/assets/img/contactos-phone.svg";
+        document.getElementById("footer-terminos-condiciones-phone").src=realPath+"/assets/img/conocenos-phone.svg";
         document.getElementById("footer-tiktok-phone").src=realPath+"/assets/img/ic_social_tiktok_b.svg";
         document.getElementById("footer-logo-phone").src=realPath+"/assets/img/Logo_Bolivia_footer.svg";
 
@@ -289,7 +297,11 @@
             // $("#address").html("pais: " + response.country);
             // $("#details").html(JSON.stringify(response, null, 4));
             if(response.country=="PE") {
-                $("#text-flag").html("Estás en el sitio web de Yape Bolivia. Elige tu país o región para ver el contenido sobre tú ubicación.");
+                if( window.innerWidth <= 997 ){
+                    document.getElementById('text-flag').innerHTML = "Estás en el sitio web de Yape Bolivia.";
+                }else {
+                    document.getElementById('text-flag').innerHTML = "Estás en el sitio web de Yape Bolivia. Elige tu país o región para ver el contenido sobre tu ubicación."
+                }
                 $("#button-flag").html("<a href=\"https://www.yape.com.pe/\"><span class=\"flag-icon flag-icon-pe me-1\"></span> <span>Perú</span></a>");
             }
         }, "jsonp");
