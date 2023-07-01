@@ -81,6 +81,7 @@ p {
 .fondo_blog{
     background: #742384;
     background: linear-gradient(to bottom,#742384 0%,#2c2044 140%);
+    height: 559px;
 }
 @media (max-width: 991px) {
 

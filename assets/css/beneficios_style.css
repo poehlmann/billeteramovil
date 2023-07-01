@@ -305,6 +305,20 @@
     width: 100%;
 }
 @media (max-width: 991px) {
+
+    .card-category-4 .sp-card-1 ul li:nth-child(1) img {
+        /* height: 170px; */
+        /* padding: 15px 0 0; */
+        /* -webkit-transition: all .3s ease-in; */
+        -moz-transition: all .3s ease-in;
+        -o-transition: all .3s ease-in;
+        /* transition: all .3s ease-in; */
+        max-width: 310px;
+    }
+
+    .card-category-4 .sp-card-1 ul li:nth-child(2) img {
+        width: 30px;
+    }
     .section_2_beneficios{
         font-size: 32px!important;
     }

@@ -462,7 +462,7 @@ a:focus, a:hover {
     vertical-align: top;
     display: inline-table;
     background-color: transparent;
-    width: 25%;
+    width: 35%;
     float: left;
     min-height: 1px;
     position: relative;
@@ -522,7 +522,7 @@ a:focus, a:hover {
 }
 @media (min-width: 767px) {
     .cards > .card {
-        width: 33.33333333%;
+        width: 50%;
     }
 }
 @media (max-width: 991px){
@@ -534,7 +534,7 @@ a:focus, a:hover {
 }
 @media (min-width: 991px) {
     .cards > .card {
-        width: 33.33333333%;
+        width: 35%;
     }
 }
 @media (min-width: 1199px) {
@@ -664,6 +664,7 @@ border-top: 0;
     background-repeat: no-repeat;
     background-origin: content-box;
     padding-top: 7vh;
+    height: 249px;
 }
 @media (max-width: 991px){
     .button_contact{

@@ -509,14 +509,7 @@ input:checked ~ .tab-content {
 #tabs-section h2{
     margin-top: auto;
 }
-.fondo_seguridad {
-    background-color: #742384;
-    padding-top: 9vh;
-}
 @media screen and (max-width:992px){
-    .fondo_seguridad {
-        padding-top: 10vh;
-    }
     .tabs-blog section {
         width: 80%;
         padding: 0 0;

@@ -134,10 +134,12 @@ display: none;
 .fondo_blog{
     background: #742384;
     background: linear-gradient(to bottom,#742384 0%,#2c2044 140%);
+    height: 559px;
 }
 .fondo_seguridad{
     background-color: #742384;
     padding-top: 7vh;
+    height: 249px;
 }
 .fondo_blog_principal{
     background-size: 400px;
@@ -145,6 +147,7 @@ display: none;
     background-repeat: no-repeat;
     background-origin: content-box;
     padding-top: 9vh;
+    height: 559px;
 }
 @media (max-width: 1199px) {
     .post-thumbnail{
