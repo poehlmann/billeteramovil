@@ -90,10 +90,10 @@ p {
     }
     .background_section_articles{
         background-size: 218px;
-        background-position: 104% -76%;
+        background-position: 104% -25%;
         background-repeat: no-repeat;
         background-origin: content-box;
-        padding-top: 15vh;
+        padding-top: 8vh;
     }
     .volver_atras{
         padding-top: 0;

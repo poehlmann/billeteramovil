@@ -674,6 +674,7 @@ border-top: 0;
     }
     .fondo_centro_ayuda{
         background-color: #742384;
+        height: 200px;
         padding-top: 10vh;
     }
 }

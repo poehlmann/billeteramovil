@@ -313,9 +313,16 @@
         -moz-transition: all .3s ease-in;
         -o-transition: all .3s ease-in;
         /* transition: all .3s ease-in; */
-        max-width: 310px;
+        max-width: -webkit-fill-available;
     }
-
+    .card-category-4 .sp-card-1 ul li:nth-child(2) .off-label{
+        /*font-weight: bold;*/
+        background: #f0cef5;
+        border-radius: 8px;
+        color: #5e186c;
+        font-size: 16px;
+        padding: 11.25px 18px;
+    }
     .card-category-4 .sp-card-1 ul li:nth-child(2) img {
         width: 30px;
     }
@@ -331,8 +338,14 @@
     .section-4 .container .row{
         text-align: -webkit-center;
     }
-    .card-category-4 .sp-card-1 ul li:nth-child(1) .return-line{
-        justify-content: center;
+
+    .card-category-4 .sp-card-1 ul li:nth-child(2) .return-line {
+        font-size: 13px;
+        padding: 25px 9px 15px 0px;
+        display: flex;
+        color: #fff;
+         justify-content: center;
+        flex-direction: row;
     }
     .entel_detail {
         padding: 0 12px !important;
