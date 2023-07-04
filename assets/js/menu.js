@@ -9,7 +9,7 @@
         if (window.innerWidth <= 997) {
             document.getElementById('text-flag').innerHTML = "Estás en el sitio web de Yape Bolivia.";
         } else {
-            document.getElementById('text-flag').innerHTML = "Estás en el sitio web de Yape Bolivia. Elige tu país o región para ver el contenido sobre tu ubicación."
+            document.getElementById('text-flag').innerHTML = "Estás en el sitio web de Yape Bolivia. Elige tu país o región para ver el contenido sobre tu ubicación.";
         }
     }
     var size;
@@ -62,10 +62,10 @@
         return ( ( window.innerWidth <= 997 )  );
     }
     function changeUrlMenu(){
-        document.getElementById("descarga_android").src = realPath + "/assets/img/soli-05.svg";
-        document.getElementById("descarga_ios").src = realPath + "/assets/img/soli-02.svg";
-        document.getElementById("descarga_android-phone").src = realPath + "/assets/img/soli-05.svg";
-        document.getElementById("descarga_ios-phone").src = realPath + "/assets/img/soli-02.svg";
+        // document.getElementById("descarga_android").src = realPath + "/assets/img/soli-05.svg";
+        $('.descarga_android').attr('src',realPath + "/assets/img/soli-05.svg");
+        $('.descarga_ios').attr('src',realPath + "/assets/img/soli-02.svg");
+
         document.getElementById("footer-facebook").src=realPath+"/assets/img/ic_social_facebook_b.svg";
         document.getElementById("footer-instagram").src=realPath+"/assets/img/ic_social_instagram_b.svg";
         document.getElementById("footer-youtube").src=realPath+"/assets/img/ic_social_youtube_b.svg";
@@ -104,16 +104,8 @@
         document.getElementById("submenu_arrow").src = realPath+"/assets/img/yape_arrowmenu.svg";
 
         document.getElementById("menu_soli_yape").href = realPath+"/soli-ahora-es-yape/";
-        document.getElementById("terminos_condiciones").href = realPath+"/contrato-prestacion-servicio.html";
-        document.getElementById("terminos_condiciones-phone").href = realPath+"/contrato-prestacion-servicio.html";
-        // document.getElementById("footer_inicio").href = realPath+"/index.html";
-        // document.getElementById("footer_yape").href = realPath+"/yape/";
-        // document.getElementById("footer_ayuda").href = realPath+"/ayuda";
-        // document.getElementById("footer_billetera").href = realPath+"/billeteramovil/";
-        // document.getElementById("footer_seguridad").href = realPath+"/seguridad/";
-        // document.getElementById("footer_promociones").href = realPath+"/yapepromociones/";
-        // document.getElementById("footer_blog").href = realPath+"/blog/";
-        // document.getElementById("footer_negocio").href = realPath+"/yapenegocios/";
+        $('.terminos_condiciones').attr('href',realPath+"/contrato-prestacion-servicio.html");
+        $('.numero_wpp_soporte').attr('href', 'https://api.whatsapp.com/send?phone=+59172007654&text=%C2%A1Hola!%20Vengo%20de%20la%20web%20y%20necesito%20ayuda,%20por%20favor.%20%F0%9F%91%A8%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB%F0%9F%91%A9%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB');
 
         // //ahora verificaremos si es movil
         // let e = document.getElementById("phone_expo");
