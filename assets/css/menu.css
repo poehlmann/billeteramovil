@@ -579,6 +579,9 @@ header .desk-menu .menu-container .menu>li .btn_cta{
 /*    content: "Estás en el sitio web de Yape Bolivia. Elige tu país o región para ver el contenido sobre tu ubicación.";*/
 /*}*/
 @media (max-width: 991px) {
+    .menu_sec{
+        padding: 8px 15px !important;
+    }
     /*.text-flag{*/
     /*    visibility: hidden;*/
     /*}*/
