@@ -1962,6 +1962,10 @@ button.close{padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance
     background: linear-gradient(to bottom,#742384 0%,#2c2044 140%);
     height: 559px;
 }
+.background-image{
+    background-image: url(../img/yape_boy_dudas2.svg);
+    background-size: cover;
+}
 .fondo_seguridad{
     background-color: #742384;
     padding-top: 7vh;
@@ -2324,6 +2328,7 @@ section.section--sac {
     }
     .fondo_blog{
         height: 328px;
+        background-position: 69%;
     }
     .font-size-mobile-title-without-image{
         font-size: 28px !important;
