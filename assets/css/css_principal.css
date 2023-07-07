@@ -1274,6 +1274,7 @@ iframe{max-width:100%;border:0;}
 .pt-64{padding-top:64px;}
 .pb-64{padding-bottom:64px;}
 .pt-48{padding-top:48px;}
+.pb-40{padding-bottom:40px !important;}
 .pb-48{padding-bottom:48px !important;}
 .mb-70{margin-bottom:70px!important;}
 .text-right{text-align:right!important;}
@@ -1308,7 +1309,10 @@ iframe{max-width:100%;border:0;}
     padding-top: 35px;
     width: -webkit-fill-available;
 }
-
+.align-middle{
+    display: flex;
+    align-items: center;
+}
 /*::-webkit-scrollbar{width:10px;}*/
 /*::-webkit-scrollbar-track{background-color:#0f3754;border-radius:0;}*/
 /*::-webkit-scrollbar-thumb:hover{background:linear-gradient(transparent,#4078cb);border-radius:5px;}*/
@@ -1470,11 +1474,15 @@ text-shadow: rgb(0 0 0 / 30%) 1.1px 2.1px 4px;
 }
 
 .background_section{
-    background-size: 400px;
-    background-position:70% 65%;
     background-repeat: no-repeat;
-    background-origin: content-box;
-    padding-top: 6vh;
+    background-position: 85% 7vh;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-end;
+    margin-bottom: 48px;
+    background-size: contain;
+    height: 559px;
 }
 .background_section_soli_yape{
     background-size: 400px;
@@ -1498,6 +1506,15 @@ text-shadow: rgb(0 0 0 / 30%) 1.1px 2.1px 4px;
     background-color: #F6E1F9;
 }
 @media (max-width: 992px) {
+    .mb-phone{
+        margin-bottom: 15px;
+    }
+    .align-middle {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
     .background_section_soli_yape {
         background-size: 218px;
         background-position: 104% -13%;
@@ -1526,11 +1543,17 @@ text-shadow: rgb(0 0 0 / 30%) 1.1px 2.1px 4px;
         padding-top: 24px;
     }
     .background_section{
-        background-size: 218px;
-        background-position: 104% -70%;
+        background-position: 80% 9vh;
+        /*display: flex;*/
+        /*flex-direction: row;*/
+        /*justify-content: flex-start;*/
+        /*margin-bottom: 48px;*/
+        /*background-size: 80%;*/
+        /* align-content: center; */
+        /*align-items: flex-end;*/
         background-repeat: no-repeat;
-        background-origin: content-box;
-        padding-top: 15vh;
+        height: 328px;
+        /*padding-top: 15vh;*/
     }
     .tabs-container{
         padding-top: 24px ;
@@ -2355,7 +2378,7 @@ section.section--sac {
     }
     .fondo_seguridad {
         height: 200px;
-        padding-top: 9vh;
+        padding-top: 50px;
     }
     .d-flex{
         display: contents !important;

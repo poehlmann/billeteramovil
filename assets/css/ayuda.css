@@ -675,7 +675,7 @@ border-top: 0;
     .fondo_centro_ayuda{
         background-color: #742384;
         height: 200px;
-        padding-top: 10vh;
+        padding-top: 6vh;
     }
 }
 @media print{
@@ -725,25 +725,25 @@ border-top: 0;
     content: "";
     width: 3px;
     height: 10px;
-    background: #10CBB4;
+    background: #1d2e3b;
     font-size: 15px;
     position: absolute;
     top: 20px;
-    right: 35px;
+    right: 29px;
     transform: rotate(-45deg);
     transition: all 0.3s ease-in-out 0s;
 }
 .accordion .panel-title a:after{
-    right: 29px;
+    right: 35px;
     transform: rotate(45deg);
 }
 .accordion .panel-title a.collapsed:before{
     transform: rotate(45deg);
-    background: #742384;
+    background: #10cbb4;
 }
 .accordion .panel-title a.collapsed:after{
     transform: rotate(-45deg);
-    background: #1d2e3b;
+    background: #10cbb4;
 }
 .accordion .panel-title a.collapsed:hover:before,
 .accordion .panel-title a.collapsed:hover:after{ background: #10CBB4; }

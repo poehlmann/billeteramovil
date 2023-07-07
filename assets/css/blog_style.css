@@ -214,7 +214,7 @@ display: none;
     }
 }
 @media (min-width: 992px){
-    .blog-entry{padding-left:16px;padding-right:16px;}
+    /*.blog-entry{padding-left:16px;padding-right:16px;}*/
 }
 @media (max-width:767px){
     .hide_phone{display:none;}
