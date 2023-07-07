@@ -1,11 +1,18 @@
 $(document).ready(function() {
-    $('.scroll_top').on('click', function(e){
-        e.preventDefault()
 
-        $('html, body').animate({
-            scrollTop : $(this.hash).offset().top
-        }, 1500);
-    });
+    // fetch('http://reqres.in/api/users')
+    //     .then(resp=> resp.json())
+    //     .then(respObj=>{
+    //         console.log(respObj);
+    //     });
+    //
+    // $('.scroll_top').on('click', function(e){
+    //     e.preventDefault()
+    //
+    //     $('html, body').animate({
+    //         scrollTop : $(this.hash).offset().top
+    //     }, 1500);
+    // });
     var size;
     // Obtenga la URL actual, como: http: // localhost: 8083 / myproj / view / my.jsp
     let curWwwPath=window.document.location.href;
