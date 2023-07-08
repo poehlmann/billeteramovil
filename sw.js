@@ -7,7 +7,7 @@ const static_cache = 'static-v1';
 const dynamic_cache = 'dynamic-v1';
 const inmutable_cache = 'inmutable-v1';
 const app_shell = [
-    '/',
+
     './index.html',
     'assets/css/css_principal.min.css',
     "assets/css/footer.min.css",
