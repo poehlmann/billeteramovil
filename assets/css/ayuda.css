@@ -442,8 +442,8 @@ a:focus, a:hover {
     padding-inline-start: 0px;
 }
 .cards {
-    margin-left: -15px;
-    margin-right: -15px;
+    /*margin-left: -15px;*/
+    /*margin-right: -15px;*/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -462,7 +462,7 @@ a:focus, a:hover {
     vertical-align: top;
     display: inline-table;
     background-color: transparent;
-    width: 35%;
+
     float: left;
     min-height: 1px;
     position: relative;
@@ -522,7 +522,7 @@ a:focus, a:hover {
 }
 @media (min-width: 767px) {
     .cards > .card {
-        width: 50%;
+        width: 33.33333333%;
     }
 }
 @media (max-width: 991px){
@@ -539,6 +539,9 @@ a:focus, a:hover {
 }
 @media (min-width: 1199px) {
     /* ...wide desktop */
+    .cards > .card {
+        width: 420px;
+    }
 }
 
 /*--------------------------------------------------*/

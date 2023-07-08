@@ -28,7 +28,7 @@ $(document).ready(function() {
         if(realPath+"/" == curWwwPath || realPath+"/index.html" == curWwwPath) {
             Swal.fire({
                     width: "70vh",
-                    html: '<img style="width: -webkit-fill-available;max-width: 100%" src="' + realPath + '/assets/img/soli-yape.svg" alt="QR de yape"> ',
+                    html: '<img style="width: -webkit-fill-available;max-width: 100%" src="' + realPath + '/assets/img/soli-yape.svg" alt="QR de yape" placeholder="blur"> ',
                     showCloseButton: true,
                     showConfirmButton: false,
                     showCancelButton: false,
@@ -256,11 +256,11 @@ $(document).ready(function() {
         $("#puntos-yape").modal();
     }
 
-    // if ('serviceWorker' in navigator) {
-    //     window.addEventListener('load', function() {
-    //         navigator.serviceWorker.register('./sw.js?'+Math.random()+'')
-    //     });
-    // }
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+            navigator.serviceWorker.register('./sw.js?'+Math.random()+'')
+        });
+    }
 });
 function detectMob() {
     return ( ( window.innerWidth <= 997 )  );
