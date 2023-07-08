@@ -1,8 +1,11 @@
 {
   "@context" : "http://schema.org",
+  "id": "/index.html",
   "start_url": "index.html",
   "@type" : "SoftwareApplication",
   "name" : "YAPE BOLIVIA BILLETERA MÓVIL ",
+  "short_name":"YAPE BO",
+  "description": "Cuenta digital creada para los bolivianos que necesiten más que una cuenta de ahorros. Respaldada por el BCP. Servicio a través de una aplicación (app)",
   "image" : "assets/img/Logo_Bolivia_3.svg",
   "theme_color": "#742384",
   "background_color": "#2c2044",

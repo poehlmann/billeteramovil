@@ -16,20 +16,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="refinacion de toda la web">
-      <change afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/sw-utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/ayuda.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/ayuda.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/ayuda.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/ayuda.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/js_principal.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/js_principal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/js_principal.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/js_principal.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/sw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sw.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/sw.min.js" afterDir="false" />
-    </list>
+    <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="refinacion de toda la web" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,23 +58,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/billeteramovil/assets/img&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/xampp/htdocs/billeteramovil/assets/img",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\billeteramovil\assets\img" />
@@ -462,14 +449,7 @@
       <workItem from="1687868559757" duration="11019000" />
       <workItem from="1687953820639" duration="43491000" />
       <workItem from="1688399475464" duration="7143000" />
-      <workItem from="1688477465068" duration="46642000" />
-    </task>
-    <task id="LOCAL-00452" summary="refinacion de toda la web">
-      <created>1686877290465</created>
-      <option name="number" value="00452" />
-      <option name="presentableId" value="LOCAL-00452" />
-      <option name="project" value="LOCAL" />
-      <updated>1686877290465</updated>
+      <workItem from="1688477465068" duration="47395000" />
     </task>
     <task id="LOCAL-00453" summary="refinacion de toda la web">
       <created>1687287172555</created>
@@ -807,7 +787,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688746062104</updated>
     </task>
-    <option name="localTasksCounter" value="501" />
+    <task id="LOCAL-00501" summary="refinacion de toda la web">
+      <created>1688828617181</created>
+      <option name="number" value="00501" />
+      <option name="presentableId" value="LOCAL-00501" />
+      <option name="project" value="LOCAL" />
+      <updated>1688828617181</updated>
+    </task>
+    <option name="localTasksCounter" value="502" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
