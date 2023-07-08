@@ -49,6 +49,7 @@ const app_shell = [
     "assets/img/Logo_Bolivia_2.svg",
     "assets/img/Logo_Bolivia_3.svg",
     "assets/img/yape_arrowmenu.svg",
+    "assets/img/yape.png",
     "contrato-prestacion-servicio.html",
     "politica-privacidad.html",
     "assets/js/sw-utils.js"
@@ -66,7 +67,7 @@ const app_shell_inmutable = [
 ];
 self.addEventListener('install', event=> {
 // Instalar de inmediato
-    if (self.skipWaiting) { self.skipWaiting(); }
+//     if (self.skipWaiting) { self.skipWaiting(); }
 
     const cacheStatic = caches.open(static_cache).then(cache=> {
         return cache.addAll(app_shell);
@@ -85,30 +86,33 @@ self.addEventListener('activate',e=>{
             if (  key !== static_cache && key.includes('static') ) {
                 return caches.delete(key);
             }
+            if (  key !== dynamic_cache && key.includes('dynamic') ) {
+                return caches.delete(key);
+            }
         });
-
     });
     e.waitUntil( respuesta );
 })
 
 // FETCH: Manejo de peticiones HTTP
-self.addEventListener('fetch', event=> {
+self.addEventListener('fetch', e=> {
     // aplicar estrategias del cache
-    event.respondWith(
-        caches.match(event.request).then(function(response) {
-            return response || fetch(event.request).then( resp=>{ if(resp.ok)  return resp });
-        })
-    );
+    // event.respondWith(
+    //     caches.match(event.request).then(function(response) {
+    //         return response || fetch(event.request).then( resp=>{ if(resp.ok)  return resp });
+    //     })
+    // );
 
-    const respuesta = caches.match((e.request).then(res=>{
-        if(res){
+    const respuesta = caches.match( e.request ).then( res => {
+        if ( res ) {
             return res;
-        }else{
-            return fetch(e.request).then(newRes=>{
-                return actualizaCacheDinamico(dynamic_cache,e.request,newRes);
-            })
+        } else {
+            return fetch( e.request ).then( newRes => {
+                return actualizaCacheDinamico( dynamic_cache, e.request, newRes );
+            });
         }
-    }))
+    });
+    e.respondWith( respuesta );
 });
 
 //SYNC: recuperamos la conexion a internet
@@ -122,21 +126,21 @@ self.addEventListener('push',event=>{
 });
 
 // Elimina archivos de caché viejos
-var cacheWhitelist = [cache_name];
+// var cacheWhitelist = [cache_name];
+//
+// caches.keys().then(cacheNames=> {
+//     return Promise.all(
+//         cacheNames.map(function(cacheName) {
+//             if (cacheWhitelist.indexOf(cacheName) === -1) {
+//                 return caches.delete(cacheName);
+//             }
+//         })
+//     );
+// });
 
-caches.keys().then(cacheNames=> {
-    return Promise.all(
-        cacheNames.map(function(cacheName) {
-            if (cacheWhitelist.indexOf(cacheName) === -1) {
-                return caches.delete(cacheName);
-            }
-        })
-    );
-});
-
-caches.keys().then(function(cacheKeys) {
-    // Muestra en la consola la caché instalada
-    console.log('Versión SW: '+cacheKeys);
-});
+// caches.keys().then(function(cacheKeys) {
+//     // Muestra en la consola la caché instalada
+//     console.log('Versión SW: '+cacheKeys);
+// });
 
 
