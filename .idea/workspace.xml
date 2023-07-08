@@ -17,25 +17,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="refinacion de toda la web">
-      <change afterPath="$PROJECT_DIR$/assets/img/yape.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/centro-ayuda.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/comerciosredsocial.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/guia_redsocial.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/guia_redsocial.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/qr-code.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/qr-code.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/referidos.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/soli-redsocial.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/solibeneficios-social.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/soliredsocial.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/yape-144x144.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/yape-144x144.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/yape-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/yape-192x192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/yape-384x384.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/yape-384x384.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/yape-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/yape-512x512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/yape-72x72.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/yape-72x72.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/yape-96x96.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/yape-96x96.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/sw.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sw.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/sw.min.js" afterDir="false" />
     </list>
@@ -80,23 +62,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/xampp/htdocs/billeteramovil/assets/img",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/billeteramovil/assets/img&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\billeteramovil\assets\img" />
@@ -471,14 +453,8 @@
       <workItem from="1687868559757" duration="11019000" />
       <workItem from="1687953820639" duration="43491000" />
       <workItem from="1688399475464" duration="7143000" />
-      <workItem from="1688477465068" duration="50258000" />
-    </task>
-    <task id="LOCAL-00454" summary="refinacion de toda la web">
-      <created>1687443443587</created>
-      <option name="number" value="00454" />
-      <option name="presentableId" value="LOCAL-00454" />
-      <option name="project" value="LOCAL" />
-      <updated>1687443443587</updated>
+      <workItem from="1688477465068" duration="50590000" />
+      <workItem from="1688832533362" duration="338000" />
     </task>
     <task id="LOCAL-00455" summary="refinacion de toda la web">
       <created>1687444836067</created>
@@ -816,7 +792,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688829159450</updated>
     </task>
-    <option name="localTasksCounter" value="503" />
+    <task id="LOCAL-00503" summary="refinacion de toda la web">
+      <created>1688832247110</created>
+      <option name="number" value="00503" />
+      <option name="presentableId" value="LOCAL-00503" />
+      <option name="project" value="LOCAL" />
+      <updated>1688832247110</updated>
+    </task>
+    <option name="localTasksCounter" value="504" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

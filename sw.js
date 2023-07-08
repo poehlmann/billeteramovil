@@ -52,7 +52,13 @@ const app_shell = [
     "assets/img/yape.png",
     "contrato-prestacion-servicio.html",
     "politica-privacidad.html",
-    "assets/js/sw-utils.js"
+    "assets/js/sw-utils.js",
+    "assets/img/soli-yape.svg",
+    "assets/img/soli-05.svg",
+    "assets/img/soli-02.svg",
+    "assets/img/elipse-bg-three.png",
+    "assets/img/Flag_Bol.svg",
+    "assets/img/yape-144x144.png",
 ];
 const app_shell_inmutable = [
     "assets/css/bootstrap.min.css",
