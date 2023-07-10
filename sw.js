@@ -7,9 +7,9 @@ const static_cache = 'static-v1';
 const dynamic_cache = 'dynamic-v1';
 const inmutable_cache = 'inmutable-v1';
 const app_shell = [
-
-    './index.html',
-    'assets/css/css_principal.min.css',
+    "./",
+    "./index.html",
+    "assets/css/css_principal.min.css",
     "assets/css/footer.min.css",
     "assets/css/menu.min.css",
     "assets/js/menu.min.js",
@@ -70,6 +70,10 @@ const app_shell_inmutable = [
     "assets/js/jquery.min.js",
     "assets/js/bootstrap.min.js",
     "assets/js/youtube.min.js",
+    "assets/fonts/roboto/roboto-500.woff2",
+    "assets/fonts/roboto/roboto-400.woff2",
+    "manifest.json",
+    "assets/img/favicon.ico"
 ];
 self.addEventListener('install', event=> {
 // Instalar de inmediato
