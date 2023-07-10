@@ -77,7 +77,7 @@ const app_shell_inmutable = [
 ];
 self.addEventListener('install', event=> {
 // Instalar de inmediato
-//     if (self.skipWaiting) { self.skipWaiting(); }
+    if (self.skipWaiting) { self.skipWaiting(); }
 
     const cacheStatic = caches.open(static_cache).then(cache=> {
         return cache.addAll(app_shell);
@@ -85,9 +85,7 @@ self.addEventListener('install', event=> {
     const cacheInmutable = caches.open(inmutable_cache).then(cache=> {
         return cache.addAll(app_shell_inmutable);
     })
-    event.waitUntil(Promise.all([cacheStatic,cacheInmutable])).then(function(){
-        return self.skipWaiting();
-    });
+    event.waitUntil(Promise.all([cacheStatic,cacheInmutable]));
 });
 
 //tomar el control de la aplicacion
