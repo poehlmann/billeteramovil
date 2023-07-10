@@ -85,7 +85,9 @@ self.addEventListener('install', event=> {
     const cacheInmutable = caches.open(inmutable_cache).then(cache=> {
         return cache.addAll(app_shell_inmutable);
     })
-    event.waitUntil(Promise.all([cacheStatic,cacheInmutable]));
+    event.waitUntil(Promise.all([cacheStatic,cacheInmutable])).then(function(){
+        return self.skipWaiting();
+    });
 });
 
 //tomar el control de la aplicacion
@@ -132,9 +134,50 @@ self.addEventListener('sync',event=>{
 
 //PUSH: Manejar el push notificacions
 self.addEventListener('push',event=>{
+    event.waitUntil(
+        // Retrieve a list of the clients of this service worker.
+        self.clients.matchAll().then(function(clientList) {
+            // Check if there's at least one focused client.
+            var focused = clientList.some(function(client) {
+                return client.focused;
+            });
 
+            var notificationMessage;
+            if (focused) {
+                notificationMessage = 'Gracias por seguir con nosotros';
+            } else if (clientList.length > 0) {
+                notificationMessage = 'No cerraste aún Yape Bolivia Web' +
+                    'Haz click aquí!';
+            } else {
+                notificationMessage = 'No cerraste Yape Bolivia Web, ' +
+                    'Haz click aquí para re abrirlo!';
+            }
+
+            // Show a notification with title 'ServiceWorker Cookbook' and body depending
+            // on the state of the clients of the service worker (three different bodies:
+            // 1, the page is focused; 2, the page is still open but unfocused; 3, the page
+            // is closed).
+            return self.registration.showNotification('Yape Bolivia', {
+                body: notificationMessage,
+            });
+        })
+    );
 });
+// Register event listener for the 'notificationclick' event.
+self.addEventListener('notificationclick', function(event) {
+    event.waitUntil(
+        // Retrieve a list of the clients of this service worker.
+        self.clients.matchAll().then(function(clientList) {
+            // If there is at least one client, focus it.
+            if (clientList.length > 0) {
+                return clientList[0].focus();
+            }
 
+            // Otherwise, open a new page.
+            return self.clients.openWindow('../push-clients_demo.html');
+        })
+    );
+});
 // Elimina archivos de caché viejos
 // var cacheWhitelist = [cache_name];
 //
