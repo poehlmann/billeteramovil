@@ -107,22 +107,22 @@ self.addEventListener('activate',e=>{
 // FETCH: Manejo de peticiones HTTP
 self.addEventListener('fetch', e=> {
     // aplicar estrategias del cache
-    // event.respondWith(
-    //     caches.match(event.request).then(function(response) {
-    //         return response || fetch(event.request).then( resp=>{ if(resp.ok)  return resp });
-    //     })
-    // );
+    e.respondWith(
+        caches.match(e.request).then(function(response) {
+            return response || fetch(e.request).then( resp=>{ if(resp.ok)  return resp });
+        })
+    );
 
-    const respuesta = caches.match( e.request ).then( res => {
-        if ( res ) {
-            return res;
-        } else {
-            return fetch( e.request ).then( newRes => {
-                return actualizaCacheDinamico( dynamic_cache, e.request, newRes );
-            });
-        }
-    });
-    e.respondWith( respuesta );
+    // const respuesta = caches.match( e.request ).then( res => {
+    //     if ( res ) {
+    //         return res;
+    //     } else {
+    //         return fetch( e.request ).then( newRes => {
+    //             return actualizaCacheDinamico( dynamic_cache, e.request, newRes );
+    //         });
+    //     }
+    // });
+    // e.respondWith( respuesta );
 });
 
 //SYNC: recuperamos la conexion a internet
