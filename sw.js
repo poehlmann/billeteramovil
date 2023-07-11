@@ -2,7 +2,7 @@
 importScripts('assets/js/sw-utils.js');
 
 
-const cache_name = 'YAPE_CACHE_v1.0';
+const cache_name = 'YAPE_CACHE_v1.1';
 const static_cache = 'static-v1';
 const dynamic_cache = 'dynamic-v1';
 const inmutable_cache = 'inmutable-v1';
