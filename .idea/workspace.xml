@@ -18,8 +18,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="refinacion de toda la web">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/sw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sw.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/sw.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/youtube.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/youtube.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/youtube.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/youtube.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/menu.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/menu.min.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -457,14 +459,7 @@
       <workItem from="1688832533362" duration="3567000" />
       <workItem from="1688994447269" duration="22000" />
       <workItem from="1688999187068" duration="1199000" />
-      <workItem from="1689085932293" duration="1874000" />
-    </task>
-    <task id="LOCAL-00463" summary="refinacion de toda la web">
-      <created>1687756235120</created>
-      <option name="number" value="00463" />
-      <option name="presentableId" value="LOCAL-00463" />
-      <option name="project" value="LOCAL" />
-      <updated>1687756235120</updated>
+      <workItem from="1689085932293" duration="3600000" />
     </task>
     <task id="LOCAL-00464" summary="refinacion de toda la web">
       <created>1687756267754</created>
@@ -802,7 +797,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689088894391</updated>
     </task>
-    <option name="localTasksCounter" value="512" />
+    <task id="LOCAL-00512" summary="refinacion de toda la web">
+      <created>1689089549967</created>
+      <option name="number" value="00512" />
+      <option name="presentableId" value="LOCAL-00512" />
+      <option name="project" value="LOCAL" />
+      <updated>1689089549967</updated>
+    </task>
+    <option name="localTasksCounter" value="513" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

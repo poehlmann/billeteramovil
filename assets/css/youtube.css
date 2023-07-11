@@ -23,9 +23,9 @@ a.channel:hover {
 }
 
 .title {
-    color: var(--secondary);
+    color: #69607b;
     font-size: 15px;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 .sub-title {
     color: var(--grey);
