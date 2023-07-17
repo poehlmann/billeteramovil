@@ -1552,7 +1552,7 @@ text-shadow: rgb(0 0 0 / 30%) 1.1px 2.1px 4px;
         padding-top: 24px;
     }
     .fondo_negocios{
-        background-position: 15vh 5vh!important;
+        background-position: 15vh 6vh!important;
         height: 328px !important;
     }
     .tabs-container{
@@ -2353,7 +2353,7 @@ section.section--sac {
 }
 @media (max-width: 991px) {
     .indent-top-mobile{
-        margin-top: 175px;
+        margin-top: 167px;
     }
     .fondo_blog{
         height: 328px;
