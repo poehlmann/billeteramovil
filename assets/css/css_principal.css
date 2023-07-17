@@ -1215,7 +1215,7 @@ iframe{max-width:100%;border:0;}
     }
     .row-bg{filter:brightness(35%);}
     .holder {
-        flex-direction: column-reverse;
+        flex-direction: column-reverse !important;
     }
     .hide_phone{display:none;}
 }
@@ -1473,17 +1473,7 @@ text-shadow: rgb(0 0 0 / 30%) 1.1px 2.1px 4px;
     font-weight: bold;
 }
 
-.background_section{
-    background-repeat: no-repeat;
-    background-position: 85% 7vh;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: flex-end;
-    margin-bottom: 48px;
-    background-size: contain;
-    height: 559px;
-}
+
 .background_section_soli_yape{
     background-size: 400px;
     background-position:75% 65%;
@@ -1505,7 +1495,26 @@ text-shadow: rgb(0 0 0 / 30%) 1.1px 2.1px 4px;
 .btn-default{
     background-color: #F6E1F9;
 }
+.section_1_3_negocio{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:20px;
+    justify-items: center;
+}
+.align-yapenegocios{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 @media (max-width: 992px) {
+    .align-yapenegocios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section_1_3_negocio{
+        grid-template-columns: repeat(1,1fr);
+    }
     .mb-phone{
         margin-bottom: 15px;
     }
@@ -1542,18 +1551,9 @@ text-shadow: rgb(0 0 0 / 30%) 1.1px 2.1px 4px;
     .section_1_yape{
         padding-top: 24px;
     }
-    .background_section{
-        background-position: 80% 9vh;
-        /*display: flex;*/
-        /*flex-direction: row;*/
-        /*justify-content: flex-start;*/
-        /*margin-bottom: 48px;*/
-        /*background-size: 80%;*/
-        /* align-content: center; */
-        /*align-items: flex-end;*/
-        background-repeat: no-repeat;
-        height: 328px;
-        /*padding-top: 15vh;*/
+    .fondo_negocios{
+        background-position: 15vh 5vh!important;
+        height: 328px !important;
     }
     .tabs-container{
         padding-top: 24px ;
@@ -1980,9 +1980,12 @@ button.close{padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance
 .title-black {
     color: black;
 }
-.fondo_blog{
+.fondo_negocios{
     background: #742384;
-    background: linear-gradient(to bottom,#742384 0%,#2c2044 140%);
+    background-image: linear-gradient(to bottom,rgba(116,35,132,0)0,#2c2044 140%),url(../img/yape_girl_kiosco.svg);
+    background-repeat: no-repeat;
+    background-position: 70% 6vh;
+    background-size: contain;
     height: 559px;
 }
 .background-image{
@@ -2345,9 +2348,12 @@ section.section--sac {
 .space-banner-phone{
     margin-bottom: 50px;
 }
+.indent-top-mobile{
+    margin-top: 250px;
+}
 @media (max-width: 991px) {
     .indent-top-mobile{
-        margin-top: 50px;
+        margin-top: 175px;
     }
     .fondo_blog{
         height: 328px;
@@ -2358,6 +2364,7 @@ section.section--sac {
     }
     .font-size-mobile-title-with-image{
         font-size: 20px !important;
+        max-width: 70%;
     }
     .font-size-mobile-subtitle-with-image{
         font-size: 12px;

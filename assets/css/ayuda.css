@@ -532,6 +532,15 @@ a:focus, a:hover {
         margin-top: 15px;
         display: flex;
     }
+    .cards>.card>a{
+        width: 100%;
+    }
+    .list-group{
+        padding-inline-start: 0;.cards
+    }
+    .cards{
+        max-width: 100%;
+    }
 }
 @media (min-width: 991px) {
     .cards > .card {

@@ -256,11 +256,11 @@ $(document).ready(function() {
         $("#puntos-yape").modal();
     }
 
-    if ('serviceWorker' in navigator) {
-        window.addEventListener('load', function() {
-            navigator.serviceWorker.register('./sw.js?'+Math.random()+'')
-        });
-    }
+    // if ('serviceWorker' in navigator) {
+    //     window.addEventListener('load', function() {
+    //         navigator.serviceWorker.register('./sw.js?'+Math.random()+'')
+    //     });
+    // }
 });
 function detectMob() {
     return ( ( window.innerWidth <= 997 )  );
