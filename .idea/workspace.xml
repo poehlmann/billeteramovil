@@ -17,13 +17,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="refinacion de toda la web">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/css_principal.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/css_principal.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/sweetalert2.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/sweetalert2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/sweetalert2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/sweetalert2.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/yape_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/yape_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/yape_style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/yape_style.min.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -470,14 +465,7 @@
       <workItem from="1689252043304" duration="1552000" />
       <workItem from="1689399386386" duration="5389000" />
       <workItem from="1689601392314" duration="22200000" />
-      <workItem from="1689771453614" duration="3026000" />
-    </task>
-    <task id="LOCAL-00483" summary="refinacion de toda la web">
-      <created>1688045001368</created>
-      <option name="number" value="00483" />
-      <option name="presentableId" value="LOCAL-00483" />
-      <option name="project" value="LOCAL" />
-      <updated>1688045001368</updated>
+      <workItem from="1689771453614" duration="3429000" />
     </task>
     <task id="LOCAL-00484" summary="refinacion de toda la web">
       <created>1688054293521</created>
@@ -815,7 +803,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689774336493</updated>
     </task>
-    <option name="localTasksCounter" value="532" />
+    <task id="LOCAL-00532" summary="refinacion de toda la web">
+      <created>1689778645539</created>
+      <option name="number" value="00532" />
+      <option name="presentableId" value="LOCAL-00532" />
+      <option name="project" value="LOCAL" />
+      <updated>1689778645539</updated>
+    </task>
+    <option name="localTasksCounter" value="533" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

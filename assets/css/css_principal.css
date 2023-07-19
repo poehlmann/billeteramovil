@@ -11,11 +11,15 @@
 /*@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:500;src:url(../fonts/roboto/roboto-500.woff2) format("woff2");}*/
 @font-face {
     font-family: Roboto-Regular;
-    src: url("../fonts/roboto/Roboto-Regular.ttf");
+    src: url("../fonts/roboto/Roboto-Regular.ttf") format('truetype'),
+         url("../fonts/roboto/roboto-regular.woff") format('woff'),
+         url("../fonts/roboto/roboto-regular.woff2") format('woff2');
 }
 @font-face {
     font-family: Roboto-bold;
-    src: url("../fonts/roboto/Roboto-Bold.ttf");
+    src: url("../fonts/roboto/Roboto-Bold.ttf") format('truetype'),
+         url("../fonts/roboto/roboto-bold.woff") format('woff'),
+         url("../fonts/roboto/roboto-bold.woff2") format('woff2');
 }
 .loader
 {
