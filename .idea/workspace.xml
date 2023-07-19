@@ -17,8 +17,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="refinacion de toda la web">
+      <change afterPath="$PROJECT_DIR$/assets/fonts/roboto/roboto-bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/roboto/roboto-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/css_principal.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/css_principal.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/GlacialIndifference-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/GlacialIndifference-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/GlacialIndifference-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/GlacialIndifference-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/bariol_bold-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/bariol_bold_italic-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/bariol_light-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/bariol_light_italic-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/bariol_regular-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/bariol_regular_italic-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/bariol_thin-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/bariol_thin_italic-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/basiersquare-regular-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/basiersquare-regular-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/cerebri-sans.rtf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/flexo/242863_C_0.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/flexo/242863_C_0.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/flexo/242863_C_0.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/flexo/242863_E_0.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/flexo/242863_E_0.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/flexo/242863_E_0.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/maicons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/maicons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/maicons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/maicons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/roboto/Roboto-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/roboto/Roboto-Bold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/roboto/Roboto-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/roboto/Roboto-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/roboto/roboto-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/roboto/roboto-500.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/roboto/roboto-bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/roboto/roboto-bold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/roboto/roboto-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/roboto/roboto-regular.woff" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -465,14 +504,7 @@
       <workItem from="1689252043304" duration="1552000" />
       <workItem from="1689399386386" duration="5389000" />
       <workItem from="1689601392314" duration="22200000" />
-      <workItem from="1689771453614" duration="3429000" />
-    </task>
-    <task id="LOCAL-00484" summary="refinacion de toda la web">
-      <created>1688054293521</created>
-      <option name="number" value="00484" />
-      <option name="presentableId" value="LOCAL-00484" />
-      <option name="project" value="LOCAL" />
-      <updated>1688054293522</updated>
+      <workItem from="1689771453614" duration="3749000" />
     </task>
     <task id="LOCAL-00485" summary="refinacion de toda la web">
       <created>1688054389991</created>
@@ -810,7 +842,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689778645539</updated>
     </task>
-    <option name="localTasksCounter" value="533" />
+    <task id="LOCAL-00533" summary="refinacion de toda la web">
+      <created>1689779303572</created>
+      <option name="number" value="00533" />
+      <option name="presentableId" value="LOCAL-00533" />
+      <option name="project" value="LOCAL" />
+      <updated>1689779303572</updated>
+    </task>
+    <option name="localTasksCounter" value="534" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
