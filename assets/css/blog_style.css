@@ -131,23 +131,32 @@ display: none;
 .background_section_articles{
 
 }
-.fondo_blog{
-    background: #742384;
-    background: linear-gradient(to bottom,#742384 0%,#2c2044 140%);
-    height: 559px;
-}
 .fondo_seguridad{
     background-color: #742384;
     padding-top: 7vh;
     height: 249px;
 }
-.fondo_blog_principal{
-    background-size: 400px;
-    background-position:100% 65%;
+.fondo_blog{
+    background: #742384;
     background-repeat: no-repeat;
-    background-origin: content-box;
-    padding-top: 9vh;
+    background-position: 70% 6vh;
+    background-size: contain;
     height: 559px;
+}
+.fondo_blog_principal{
+    background-image: linear-gradient(to bottom,rgba(116,35,132,0)0,#2c2044 140%),url(../img/yape_girl_blog.svg);
+}
+.fondo_blog_5_consejos{
+    background-image: linear-gradient(to bottom,rgba(116,35,132,0)0,#2c2044 140%),url(../img/yape_celular_comercios.svg);
+}
+.fondo_blog_diferencias{
+    background-image: linear-gradient(to bottom,rgba(116,35,132,0)0,#2c2044 140%),url(../img/yape_boy_pago.svg);
+}
+.fondo_blog_codigo_qr{
+    background-image: linear-gradient(to bottom,rgba(116,35,132,0)0,#2c2044 140%),url(../img/yape_qr_pago.svg);
+}
+.fondo_blog_pago_celular{
+    background-image: linear-gradient(to bottom,rgba(116,35,132,0)0,#2c2044 140%),url(../img/yape_transferencia.svg);
 }
 @media (max-width: 1199px) {
     .post-thumbnail{
@@ -168,15 +177,19 @@ display: none;
     justify-items: center !important;
 }
 @media screen and (max-width:992px){
+    .fondo_blog_diferencias{
+        height: 328px !important;
+    }
+    .fondo_blog_5_consejos{
+        /*background-position: 15vh 6vh!important;*/
+        height: 328px !important;
+    }
     .section_text_articles{
         margin-bottom: 10px!important;
     }
     .fondo_blog_principal{
-        background-size: 218px;
-        background-position: 104% -76%;
-        background-repeat: no-repeat;
-        background-origin: content-box;
-        padding-top: 15vh;
+        background-position: 15vh 6vh!important;
+        height: 328px !important;
     }
     .volver_atras{
         padding-top: 0;

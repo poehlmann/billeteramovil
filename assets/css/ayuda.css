@@ -526,7 +526,20 @@ a:focus, a:hover {
         width: 33.33333333%;
     }
 }
+
+.fondo_soli_ahora_es_yape{
+    background: #742384;
+    background-image: linear-gradient(to bottom,rgba(116,35,132,0)0,#2c2044 140%),url(../img/yape_boy_dudas.svg);
+    background-repeat: no-repeat;
+    background-position: 70% 7vh;
+    background-size: contain;
+    height: 559px;
+}
 @media (max-width: 991px){
+    .fondo_soli_ahora_es_yape{
+        /*background-position: 15vh 6vh!important;*/
+        height: 328px !important;
+    }
     .card > a > .card-title {
         font-size: 20px;
         margin-top: 15px;

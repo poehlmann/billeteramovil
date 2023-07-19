@@ -1231,10 +1231,13 @@ iframe{max-width:100%;border:0;}
 
 }
 
+.pl-0{padding-left: 0!important;}
 .pt-10 {padding-top: 10px !important;}
 .pb-10 {padding-bottom: 10px !important;}
 .ml-10 {margin-left: 10px!important;}
 .ml-20 {margin-left: 20px!important;}
+.ml-85{margin-left: 85px;}
+.ml-285{margin-left: 285px;}
 .font-weight-bold{font-weight:bold!important;}
 .font-size-14{font-size: 14px !important;}
 .font-size-16{font-size:16px!important;}
@@ -1262,6 +1265,7 @@ iframe{max-width:100%;border:0;}
 .mt-50{margin-top:50px!important;}
 .mt-70{margin-top:70px!important;}
 .mt-100{margin-top:100px;}
+.mt-110{margin-top: 110px!important}
 .mb-50{margin-bottom:50px;}
 .mb-100{margin-bottom:100px;}
 .mb-200{margin-bottom:200px!important;}
@@ -2345,13 +2349,46 @@ section.section--sac {
     background-origin: content-box;
     padding-top: 9vh;
 }
+.fondo_que_es_yape{
+    background: #742384;
+    background-image: linear-gradient(to bottom,rgba(116,35,132,0)0,#2c2044 140%),url(../img/yape_dinero_compras.svg);
+    background-repeat: no-repeat;
+    background-position: 70% 6vh;
+    background-size: contain;
+    height: 559px;
+}
 .space-banner-phone{
     margin-bottom: 50px;
 }
 .indent-top-mobile{
     margin-top: 250px;
 }
+.indent-top-mobile-blog{
+    margin-top: 225px;
+}
+.indent-top-mobile-without-button{
+    margin-top: 380px;
+}
 @media (max-width: 991px) {
+    .ml-85 {
+        margin-left: 0px;
+    }
+    .mt-110 {
+        margin-top: 69px!important;
+    }
+    .ml-285 {
+        margin-left: 30px;
+    }
+    .indent-top-mobile-blog{
+        margin-top: 70px;
+    }
+    .fondo_que_es_yape{
+        background-position: 15vh 6vh!important;
+        height: 328px !important;
+    }
+    .indent-top-mobile-without-button{
+        margin-top: 215px;
+    }
     .indent-top-mobile{
         margin-top: 167px;
     }
@@ -2363,12 +2400,12 @@ section.section--sac {
         font-size: 28px !important;
     }
     .font-size-mobile-title-with-image{
-        font-size: 20px !important;
-        max-width: 70%;
+        font-size: 24px !important;
+        /*max-width: 70%;*/
         margin-bottom: 0;
     }
     .font-size-mobile-subtitle-with-image{
-        font-size: 12px;
+        font-size: 16px;
         margin-bottom: 5px;
     }
     .space-banner-phone{
