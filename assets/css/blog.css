@@ -463,7 +463,7 @@ input:checked ~ .tab-content {
     }
 }
 .box{
-    background: #fff;
+    /*background: #fff;*/
     border-radius: 20px;
     margin-bottom: 10px;
     height: 100px;
