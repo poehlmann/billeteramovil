@@ -261,6 +261,16 @@ $(document).ready(function() {
     //         navigator.serviceWorker.register('./sw.js?'+Math.random()+'')
     //     });
     // }
+    // if ($("#formulario_negocio").length != 0) {
+    //     const escapeHTMLPolicy = trustedTypes.createPolicy("myEscapePolicy", {
+    //         createHTML: (string) => string.replace(/>/g, "<"),
+    //     });
+    //
+    //     let el = document.getElementById("formulario_negocio");
+    //     const escaped = escapeHTMLPolicy.createHTML('<iframe src="https://forms.office.com/pages/responsepage.aspx?id=zOuTXWn3gEOLfiifyXLaG-mQZqnMoy1KnHWPJOl6AutUNTVXQTEwWkxKN0VSTkw4V0o3WkdCWUlCSCQlQCN0PWcu&amp;embed=true" width="640" height="1780" frameborder="0" marginheight="0" marginwidth="0" style="overflow: hidden; border: none; max-width: 100%; max-height: 100vh; height: 1300px !important;" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" msallowfullscreen="" scrolling="no">Cargando…</iframe>');
+    //     console.log(escaped instanceof TrustedHTML); // true
+    //     el.innerHTML = escaped;
+    // }
 });
 function detectMob() {
     return ( ( window.innerWidth <= 997 )  );
