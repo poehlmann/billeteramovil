@@ -1,15 +1,22 @@
-@font-face{font-display:swap;font-family:Flexo-Bold;font-weight:400;src:url(../fonts/flexo/242863_E_0.eot);src:url(../fonts/flexo/242863_E_0.eot?#iefix) format("embedded-opentype"),url(../fonts/flexo/242863_E_0.woff) format("woff"),url(../fonts/flexo/242863_E_0.ttf) format("truetype");}
-@font-face{font-display:swap;font-family:Flexo-Demi;font-weight:400;src:url(../fonts/flexo/242863_C_0.eot);src:url(../fonts/flexo/242863_C_0.eot?#iefix) format("embedded-opentype"),url(../fonts/flexo/242863_C_0.woff) format("woff"),url(../fonts/flexo/242863_C_0.ttf) format("truetype");}
-@font-face{font-family:Roboto;font-style:normal;font-weight:400;font-display:swap;src:url(../fonts/roboto/roboto-400.woff2) format("woff2");}
-@font-face{font-family:Roboto;font-style:normal;font-weight:500;font-display:swap;src:url(../fonts/roboto/roboto-500.woff2) format("woff2");}
-@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:400;src:url(../fonts/roboto/roboto-400.woff2) format("woff2");}
-@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:500;src:url(../fonts/roboto/roboto-500.woff2) format("woff2");}
-@font-face{font-family:yape-icon;font-style:normal;font-weight:400;src:url(../fonts/icons/Yape_icons.eot?v=1.2.24);src:url(../fonts/icons/Yape_icons.eot?v=1.2.24) format("embedded-opentype"),url(../fonts/icons/Yape_icons.woff?v=1.2.24) format("woff"),url(../fonts/icons/Yape_icons.ttf?v=1.2.24) format("truetype"),url(../fonts/icons/Yape_icons.svg?v=1.2.24) format("svg");}
-@font-face{font-family:Roboto;font-style:normal;font-weight:400;font-display:swap;src:url(../fonts/roboto/roboto-400.woff2) format("woff2");}
-@font-face{font-family:Roboto;font-style:normal;font-weight:500;font-display:swap;src:url(../fonts/roboto/roboto-500.woff2) format("woff2");}
-@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:400;src:url(../fonts/roboto/roboto-400.woff2) format("woff2");}
-@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:500;src:url(../fonts/roboto/roboto-500.woff2) format("woff2");}
-
+/*@font-face{font-display:swap;font-family:Flexo-Bold;font-weight:400;src:url(../fonts/flexo/242863_E_0.eot);src:url(../fonts/flexo/242863_E_0.eot?#iefix) format("embedded-opentype"),url(../fonts/flexo/242863_E_0.woff) format("woff"),url(../fonts/flexo/242863_E_0.ttf) format("truetype");}*/
+/*@font-face{font-display:swap;font-family:Flexo-Demi;font-weight:400;src:url(../fonts/flexo/242863_C_0.eot);src:url(../fonts/flexo/242863_C_0.eot?#iefix) format("embedded-opentype"),url(../fonts/flexo/242863_C_0.woff) format("woff"),url(../fonts/flexo/242863_C_0.ttf) format("truetype");}*/
+/*@font-face{font-family:Roboto;font-style:normal;font-weight:400;font-display:swap;src:url(../fonts/roboto/roboto-400.woff2) format("woff2");}*/
+/*@font-face{font-family:Roboto;font-style:normal;font-weight:500;font-display:swap;src:url(../fonts/roboto/roboto-500.woff2) format("woff2");}*/
+/*@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:400;src:url(../fonts/roboto/roboto-400.woff2) format("woff2");}*/
+/*@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:500;src:url(../fonts/roboto/roboto-500.woff2) format("woff2");}*/
+/*@font-face{font-family:yape-icon;font-style:normal;font-weight:400;src:url(../fonts/icons/Yape_icons.eot?v=1.2.24);src:url(../fonts/icons/Yape_icons.eot?v=1.2.24) format("embedded-opentype"),url(../fonts/icons/Yape_icons.woff?v=1.2.24) format("woff"),url(../fonts/icons/Yape_icons.ttf?v=1.2.24) format("truetype"),url(../fonts/icons/Yape_icons.svg?v=1.2.24) format("svg");}*/
+/*@font-face{font-family:Roboto;font-style:normal;font-weight:400;font-display:swap;src:url(../fonts/roboto/roboto-400.woff2) format("woff2");}*/
+/*@font-face{font-family:Roboto;font-style:normal;font-weight:500;font-display:swap;src:url(../fonts/roboto/roboto-500.woff2) format("woff2");}*/
+/*@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:400;src:url(../fonts/roboto/roboto-400.woff2) format("woff2");}*/
+/*@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:500;src:url(../fonts/roboto/roboto-500.woff2) format("woff2");}*/
+@font-face {
+    font-family: Roboto-Regular;
+    src: url("../fonts/roboto/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: Roboto-bold;
+    src: url("../fonts/roboto/Roboto-Bold.ttf");
+}
 .loader
 {
     position: fixed;
@@ -38,7 +45,7 @@ html * {
 }
 body {
     color: #2c2044;
-    font-family: Roboto;
+    font-family: Roboto-Regular;
     font-size: 16px;
     margin: 0;
     overflow-x: hidden;
@@ -55,7 +62,7 @@ a:active, a:hover {
 }
 h1, h2, h3, h4, h5 {
     color: #2c2044;
-    font-family: Roboto;
+    font-family:  Roboto-bold;
 }
 h1 {
     font-size: 2rem;
@@ -74,7 +81,7 @@ h2 {
     body {
         background-color: #fff;
         color: #212529;
-        font-family: Roboto;
+        font-family: Roboto-Regular;
         font-size: 1rem;
         font-weight: 400;
         line-height: 1.5;
@@ -171,7 +178,7 @@ h2 {
     }
     h1, h2, h3, h4, h5 {
         color: #002a8d;
-        font-family: Roboto;
+        font-family:  Roboto-bold;
         font-weight: 500;
         line-height: 1.2;
         margin-bottom: 0.5rem;
@@ -784,7 +791,7 @@ h2 {
     }
     body {
         color: #2c2044;
-        font-family: Roboto;
+        font-family: Roboto-Regular;
         font-size: 16px;
         margin: 0;
         overflow-x: hidden;
@@ -801,7 +808,7 @@ h2 {
     }
     h1, h2, h3, h4, h5 {
         color: #2c2044;
-        font-family: Roboto;
+        font-family:  Roboto-bold;
     }
     h1 {
         font-size: 2rem;
