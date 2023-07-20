@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+ErrorDocument 401 /pagina-no-encontrada.html
+ErrorDocument 403 /pagina-no-encontrada.html
+ErrorDocument 404 /pagina-no-encontrada.html
+ErrorDocument 500 /pagina-no-encontrada.html
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^yape.com.bo\.com [NC]
+RewriteRule ^(.*)$ https://www.yape.com.bo/$1 [L,R=301,NC]
