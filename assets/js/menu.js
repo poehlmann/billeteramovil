@@ -1,10 +1,11 @@
 (function($) {
-    document.getElementById('copyright').innerHTML = `<p style='padding: 3px;color:rgba(255, 255, 255, 0.7) !important;font-size: 14px !important;'>Yape Bolivia © ${new Date().getFullYear()}. Todos los derechos reservados.</p>`;
-    document.getElementById('copyrightyear').innerHTML =  `<p style="padding: 3px;letter-spacing: 2px;font-size: 12px;"><a href="https://www.asfi.gob.bo/" target="_blank">Esta Entidad es
+    if($(".footer-section").length !=0){
+        document.getElementById('copyright').innerHTML = `<p style='padding: 3px;color:rgba(255, 255, 255, 0.7) !important;font-size: 14px !important;'>Yape Bolivia © ${new Date().getFullYear()}. Todos los derechos reservados.</p>`;
+        document.getElementById('copyrightyear').innerHTML =  `<p style="padding: 3px;letter-spacing: 2px;font-size: 12px;"><a href="https://www.asfi.gob.bo/" target="_blank">Esta Entidad es
                                 Supervisada por ASFI – Banco de Crédito de Bolivia S.A.</a><br>Banco de Crédito de
                                 Bolivia S.A. Av. Hernando Siles N.º 5555, edificio “Torre Empresarial ESIMSA”, en la zona
                                 de Obrajes de la ciudad de La Paz</p>`;
-
+    }
     if ($("#text-flag").length != 0) {
         if (window.innerWidth <= 997) {
             document.getElementById('text-flag').innerHTML = "Estás en el sitio web de Yape Bolivia.";
@@ -67,23 +68,25 @@
         $('.descarga_android').attr('src',realPath + "/assets/img/soli-05.svg");
         $('.descarga_ios').attr('src',realPath + "/assets/img/soli-02.svg");
 
-        document.getElementById("footer-facebook").src=realPath+"/assets/img/ic_social_facebook_b.svg";
-        document.getElementById("footer-instagram").src=realPath+"/assets/img/ic_social_instagram_b.svg";
-        document.getElementById("footer-youtube").src=realPath+"/assets/img/ic_social_youtube_b.svg";
-        document.getElementById("footer-whatsapp").src=realPath+"/assets/img/Contactos.svg";
-        document.getElementById("footer-terminos-condiciones").src=realPath+"/assets/img/Conócenos.svg";
-        document.getElementById("footer-tiktok").src=realPath+"/assets/img/ic_social_tiktok_b.svg";
-        document.getElementById("footer-logo").src=realPath+"/assets/img/Logo_Bolivia_footer.svg";
+        if($(".footer-section").length !=0) {
+            document.getElementById("footer-facebook").src = realPath + "/assets/img/ic_social_facebook_b.svg";
+            document.getElementById("footer-instagram").src = realPath + "/assets/img/ic_social_instagram_b.svg";
+            document.getElementById("footer-youtube").src = realPath + "/assets/img/ic_social_youtube_b.svg";
+            document.getElementById("footer-whatsapp").src = realPath + "/assets/img/Contactos.svg";
+            document.getElementById("footer-terminos-condiciones").src = realPath + "/assets/img/Conócenos.svg";
+            document.getElementById("footer-tiktok").src = realPath + "/assets/img/ic_social_tiktok_b.svg";
+            document.getElementById("footer-logo").src = realPath + "/assets/img/Logo_Bolivia_footer.svg";
 
-        document.getElementById("footer-facebook-phone").src=realPath+"/assets/img/ic_social_facebook_b.svg";
-        document.getElementById("footer-instagram-phone").src=realPath+"/assets/img/ic_social_instagram_b.svg";
-        document.getElementById("footer-youtube-phone").src=realPath+"/assets/img/ic_social_youtube_b.svg";
-        document.getElementById("footer-whatsapp-phone").src=realPath+"/assets/img/contactos-phone.svg";
-        document.getElementById("footer-terminos-condiciones-phone").src=realPath+"/assets/img/conocenos-phone.svg";
-        document.getElementById("footer-tiktok-phone").src=realPath+"/assets/img/ic_social_tiktok_b.svg";
-        document.getElementById("footer-logo-phone").src=realPath+"/assets/img/Logo_Bolivia_footer.svg";
+            document.getElementById("footer-facebook-phone").src = realPath + "/assets/img/ic_social_facebook_b.svg";
+            document.getElementById("footer-instagram-phone").src = realPath + "/assets/img/ic_social_instagram_b.svg";
+            document.getElementById("footer-youtube-phone").src = realPath + "/assets/img/ic_social_youtube_b.svg";
+            document.getElementById("footer-whatsapp-phone").src = realPath + "/assets/img/contactos-phone.svg";
+            document.getElementById("footer-terminos-condiciones-phone").src = realPath + "/assets/img/conocenos-phone.svg";
+            document.getElementById("footer-tiktok-phone").src = realPath + "/assets/img/ic_social_tiktok_b.svg";
+            document.getElementById("footer-logo-phone").src = realPath + "/assets/img/Logo_Bolivia_footer.svg";
 
-        document.getElementById("footer-scrollup").src=realPath+"/assets/img/angle-up-white.svg";
+            document.getElementById("footer-scrollup").src = realPath + "/assets/img/angle-up-white.svg";
+        }
         if($("#header").hasClass("cell") == 0) {
             if ($("#logo-menu-secundary").length == 0) {
                 document.getElementById("logo-menu").src = realPath + "/assets/img/Logo_Bolivia_2.svg";
