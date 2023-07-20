@@ -5,7 +5,7 @@ RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 
 ErrorDocument 401 /pagina-no-encontrada.html
 ErrorDocument 403 /pagina-no-encontrada.html
-ErrorDocument 404 /pagina-no-encontrada.html
+ErrorDocument 404 /404.html
 ErrorDocument 500 /pagina-no-encontrada.html
 
 RewriteEngine on
