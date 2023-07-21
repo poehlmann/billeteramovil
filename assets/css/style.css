@@ -95,13 +95,13 @@
 .text-content p{
     margin-bottom: 0;
 }
-.frontend-side {
-    background-image: url("../img/que-hacer-soli.jpg");
-}
+/*.frontend-side {*/
+/*    background-image: url("../img/que-hacer-soli.jpg");*/
+/*}*/
 
-.uiux-side {
-    background-image: url("../img/que-hacer-soli2.jpg");
-}
+/*.uiux-side {*/
+/*    background-image: url("../img/que-hacer-soli2.jpg");*/
+/*}*/
 @media (max-width: 991px){
     .uiux-side {
         background-image:none;
@@ -220,59 +220,59 @@
 /*    height: 100vh;*/
 /*    position: absolute;*/
 /*}*/
-.image-1 {
-    background-image: url(../img/que-es-soli.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-position-x: 75%;
-    /*background-position-y: 5%;*/
-}
+/*.image-1 {*/
+/*    background-image: url(../img/que-es-soli.jpg);*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    background-position: center center;*/
+/*    background-position-x: 75%;*/
+/*    !*background-position-y: 5%;*!*/
+/*}*/
 
-.image-2 {
-    background-image: url(../img/que-es-soli2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-position-x: 24%;
-    /*background-position-y: 5%;*/
-}
+/*.image-2 {*/
+/*    background-image: url(../img/que-es-soli2.jpg);*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    background-position: center center;*/
+/*    background-position-x: 24%;*/
+/*    !*background-position-y: 5%;*!*/
+/*}*/
 
-.image-3 {
-    background-image: url(../img/que-es-soli3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-position-x: 75%;
-    /*background-position-y: 5%;*/
-}
+/*.image-3 {*/
+/*    background-image: url(../img/que-es-soli3.jpg);*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    background-position: center center;*/
+/*    background-position-x: 75%;*/
+/*    !*background-position-y: 5%;*!*/
+/*}*/
 
-@keyframes bg {
-    0% {
-        background-image: url("../img/comprar-por-internet.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-    }
-    33% {
-        background-image: url("../img/paga-servicios.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-    }
-    66% {
-        background-image: url("../img/recarga-celular.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-    }
-    100% {
-        background-image: url("../img/transferir-dinero.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-    }
-}
+/*@keyframes bg {*/
+/*    0% {*/
+/*        background-image: url("../img/comprar-por-internet.jpg");*/
+/*        background-repeat: no-repeat;*/
+/*        background-size: cover;*/
+/*        background-position: center center;*/
+/*    }*/
+/*    33% {*/
+/*        background-image: url("../img/paga-servicios.jpg");*/
+/*        background-repeat: no-repeat;*/
+/*        background-size: cover;*/
+/*        background-position: center center;*/
+/*    }*/
+/*    66% {*/
+/*        background-image: url("../img/recarga-celular.jpg");*/
+/*        background-repeat: no-repeat;*/
+/*        background-size: cover;*/
+/*        background-position: center center;*/
+/*    }*/
+/*    100% {*/
+/*        background-image: url("../img/transferir-dinero.jpg");*/
+/*        background-repeat: no-repeat;*/
+/*        background-size: cover;*/
+/*        background-position: center center;*/
+/*    }*/
+/*}*/
 
 /*#flip {*/
 /*    height: 95px;*/
@@ -577,23 +577,23 @@ width: 130px;
 /*left:0;*/
 /*}*/
 
-.bg-emprendedor{
-    background-image: url('../img/Comercios-web2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
+/*.bg-emprendedor{*/
+/*    background-image: url('../img/Comercios-web2.jpg');*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    background-position: center center;*/
+/*}*/
 
 .color-dark-blue{
     color: #003557;
 }
 
-.bg-security{
-    background-image: url('../img/Comercios3.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
+/*.bg-security{*/
+/*    background-image: url('../img/Comercios3.jpg');*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    background-position: center center;*/
+/*}*/
 /*ul{*/
 /*    font-size: 30px;*/
 /*}*/
@@ -653,10 +653,10 @@ width: 130px;
     .title-phone{
         font-size: 35px!important;
     }
-    .bg-emprendedor{
-        background-position: 88%;
-        background-image: linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 50%)),url(../img/Comercios-web2.jpg);
-    }
+    /*.bg-emprendedor{*/
+    /*    background-position: 88%;*/
+    /*    background-image: linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 50%)),url(../img/Comercios-web2.jpg);*/
+    /*}*/
     .bg-phone:before{
         content: '';
         display: block;
@@ -681,12 +681,12 @@ width: 130px;
 
 
     }
-    .bg-security{
-        background-position-x: 14%;
-        padding-left: 2rem;
-        padding-right: 2rem;
-        background-image: linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 50%)), url(../img/Comercios3.jpg);
-    }
+    /*.bg-security{*/
+    /*    background-position-x: 14%;*/
+    /*    padding-left: 2rem;*/
+    /*    padding-right: 2rem;*/
+    /*    background-image: linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 50%)), url(../img/Comercios3.jpg);*/
+    /*}*/
     .bg-phone-1{
         background-position-x: 79%;
     }
