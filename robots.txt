@@ -33,4 +33,4 @@ Disallow:
 User-agent: *
 Disallow:
 Crawl-delay: 10
-Sitemap: https://www.solipagosbcp.com.bo/sitemap.xml
+Sitemap: https://www.yape.com.bo/sitemap.xml
