@@ -79,11 +79,11 @@ $(document).ready(function() {
         $("#puntos-yape").modal();
     }
 
-    // if ('serviceWorker' in navigator) {
-    //     window.addEventListener('load', function() {
-    //         navigator.serviceWorker.register('./sw.js?'+Math.random()+'')
-    //     });
-    // }
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+            navigator.serviceWorker.register('./sw.js?'+Math.random()+'')
+        });
+    }
     // if ($("#formulario_negocio").length != 0) {
     //     const escapeHTMLPolicy = trustedTypes.createPolicy("myEscapePolicy", {
     //         createHTML: (string) => string.replace(/>/g, "<"),
