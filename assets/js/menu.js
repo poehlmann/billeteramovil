@@ -73,7 +73,7 @@
             document.getElementById("footer-instagram").src = realPath + "/assets/img/ic_social_instagram_b.svg";
             document.getElementById("footer-youtube").src = realPath + "/assets/img/ic_social_youtube_b.svg";
             document.getElementById("footer-whatsapp").src = realPath + "/assets/img/Contactos.svg";
-            document.getElementById("footer-terminos-condiciones").src = realPath + "/assets/img/Conócenos.svg";
+            document.getElementById("footer-terminos-condiciones").src = realPath + "/assets/img/Conocenos.svg";
             document.getElementById("footer-tiktok").src = realPath + "/assets/img/ic_social_tiktok_b.svg";
             document.getElementById("footer-logo").src = realPath + "/assets/img/Logo_Bolivia_footer.svg";
 

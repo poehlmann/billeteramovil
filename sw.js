@@ -40,7 +40,7 @@ const app_shell = [
     "assets/img/ic_social_instagram_b.svg",
     "assets/img/ic_social_youtube_b.svg",
     "assets/img/Contactos.svg",
-    "assets/img/Conócenos.svg",
+    "assets/img/Conocenos.svg",
     "assets/img/ic_social_tiktok_b.svg",
     "assets/img/contactos-phone.svg",
     "assets/img/conocenos-phone.svg",
