@@ -68,8 +68,6 @@ const app_shell = [
     "assets/js/jquery.min.js",
     "assets/js/bootstrap.min.js",
     "assets/js/youtube.min.js",
-    "assets/fonts/roboto/roboto-500.woff2",
-    "assets/fonts/roboto/roboto-400.woff2",
     "manifest.json",
     "assets/img/favicon.ico"
 ];
@@ -83,8 +81,6 @@ const app_shell_inmutable = [
     "assets/js/jquery.min.js",
     "assets/js/bootstrap.min.js",
     "assets/js/youtube.min.js",
-    "assets/fonts/roboto/roboto-500.woff2",
-    "assets/fonts/roboto/roboto-400.woff2",
     "manifest.json",
     "assets/img/favicon.ico"
 ];
