@@ -81,7 +81,7 @@ $(document).ready(function() {
 
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', function() {
-            navigator.serviceWorker.register('./sw.js?'+Math.random()+'')
+            navigator.serviceWorker.register('../sw.js?'+Math.random()+'')
         });
     }
     // if ($("#formulario_negocio").length != 0) {
