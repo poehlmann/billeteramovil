@@ -23,7 +23,7 @@
     // Obtenga el nombre del proyecto con "/", como: / myproj
     let projectName=pathName.substring(0,pathName.substring(1).indexOf('/')+1);
     // obtuve http: // localhost: 8083 / myproj
-    let realPath=localhostPaht;
+    let realPath=localhostPaht+projectName;
     console.log("path:",realPath);
     document.querySelector('meta[property="og:image"]').setAttribute("content", realPath + '/assets/img/preview_yape.svg');
     $('.descarga_QR').click(function() {
