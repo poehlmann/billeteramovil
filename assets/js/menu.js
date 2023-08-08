@@ -69,13 +69,6 @@
         $('.descarga_android').attr('src',realPath + "/assets/img/soli-05.svg");
         $('.descarga_ios').attr('src',realPath + "/assets/img/soli-02.svg");
 
-        if ($("#vli-videos").length !=0){
-            document.getElementById("youtube1").src =  realPath + "/assets/img/video1.webp";
-            document.getElementById("youtube2").src =  realPath + "/assets/img/video2.webp";
-            document.getElementById("youtube3").src =  realPath + "/assets/img/video3.webp";
-            document.getElementById("youtube4").src =  realPath + "/assets/img/video4.webp";
-            document.getElementById("youtube5").src =  realPath + "/assets/img/video5.webp";
-        }
         if($(".footer-section").length !=0) {
             document.getElementById("footer-facebook").src = realPath + "/assets/img/ic_social_facebook_b.svg";
             document.getElementById("footer-instagram").src = realPath + "/assets/img/ic_social_instagram_b.svg";
