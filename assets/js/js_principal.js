@@ -59,7 +59,7 @@ $(document).ready(function() {
     // Obtenga el nombre del proyecto con "/", como: / myproj
     let projectName=pathName.substring(0,pathName.substring(1).indexOf('/')+1);
     // obtuve http: // localhost: 8083 / myproj
-    let realPath=localhostPaht+projectName;
+    let realPath=localhostPaht;
     console.log("path:",realPath);
     if (!sessionStorage.getItem("popup")) {
         if(realPath+"/" == curWwwPath || realPath+"/index.html" == curWwwPath) {
