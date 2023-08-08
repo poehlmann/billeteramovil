@@ -16,12 +16,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="refinacion de toda la web">
+    <list default="true" id="1f1899cf-08b0-4d44-ae7f-0f157915846d" name="Default Changelist" comment="correcion de server">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/js_principal.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/js_principal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/js_principal.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/js_principal.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/menu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/menu.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/menu.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -479,28 +478,7 @@
       <workItem from="1690918660866" duration="634000" />
       <workItem from="1691177778412" duration="5340000" />
       <workItem from="1691253827033" duration="5023000" />
-      <workItem from="1691524796372" duration="1949000" />
-    </task>
-    <task id="LOCAL-00511" summary="refinacion de toda la web">
-      <created>1689088894391</created>
-      <option name="number" value="00511" />
-      <option name="presentableId" value="LOCAL-00511" />
-      <option name="project" value="LOCAL" />
-      <updated>1689088894391</updated>
-    </task>
-    <task id="LOCAL-00512" summary="refinacion de toda la web">
-      <created>1689089549967</created>
-      <option name="number" value="00512" />
-      <option name="presentableId" value="LOCAL-00512" />
-      <option name="project" value="LOCAL" />
-      <updated>1689089549967</updated>
-    </task>
-    <task id="LOCAL-00513" summary="refinacion de toda la web">
-      <created>1689091886269</created>
-      <option name="number" value="00513" />
-      <option name="presentableId" value="LOCAL-00513" />
-      <option name="project" value="LOCAL" />
-      <updated>1689091886269</updated>
+      <workItem from="1691524796372" duration="3855000" />
     </task>
     <task id="LOCAL-00514" summary="refinacion de toda la web">
       <created>1689094020773</created>
@@ -824,7 +802,28 @@
       <option name="project" value="LOCAL" />
       <updated>1691524901144</updated>
     </task>
-    <option name="localTasksCounter" value="560" />
+    <task id="LOCAL-00560" summary="refinacion de toda la web">
+      <created>1691527622948</created>
+      <option name="number" value="00560" />
+      <option name="presentableId" value="LOCAL-00560" />
+      <option name="project" value="LOCAL" />
+      <updated>1691527622948</updated>
+    </task>
+    <task id="LOCAL-00561" summary="correcion de server">
+      <created>1691527830530</created>
+      <option name="number" value="00561" />
+      <option name="presentableId" value="LOCAL-00561" />
+      <option name="project" value="LOCAL" />
+      <updated>1691527830530</updated>
+    </task>
+    <task id="LOCAL-00562" summary="correcion de server">
+      <created>1691528547711</created>
+      <option name="number" value="00562" />
+      <option name="presentableId" value="LOCAL-00562" />
+      <option name="project" value="LOCAL" />
+      <updated>1691528547711</updated>
+    </task>
+    <option name="localTasksCounter" value="563" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -854,7 +853,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="preguntas frecuentes referenciador" />
     <MESSAGE value="solicarga" />
     <MESSAGE value="seo" />
     <MESSAGE value="preguntas frecuentes solicarga" />
@@ -879,7 +877,8 @@
     <MESSAGE value="afinacion de la pagina de que es yape" />
     <MESSAGE value="afinacion del pie de pagina" />
     <MESSAGE value="refinacion de toda la web" />
-    <option name="LAST_COMMIT_MESSAGE" value="refinacion de toda la web" />
+    <MESSAGE value="correcion de server" />
+    <option name="LAST_COMMIT_MESSAGE" value="correcion de server" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
