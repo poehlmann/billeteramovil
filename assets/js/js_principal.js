@@ -79,7 +79,7 @@ $(document).ready(function() {
     let realPath=localhostPaht+projectName;
 
     if (!sessionStorage.getItem("popup")) {
-        if("https://www.yape.com.bo/" == curWwwPath ) {
+        if("https://www.yape.com.bo/" == curWwwPath || "https://www.yape.com.bo/index.html"== curWwwPath ) {
             Swal.fire({
                     width: "70vh",
                     padding: 0,
