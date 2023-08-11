@@ -33,6 +33,10 @@
 //             }, 0)
 //     }());
 // });
+window.addEventListener('beforeunload', function (e) {
+    sessionStorage.clear()
+    console.log(sessionStorage.getItem("popup"));
+});
 $(document).ready(function() {
 
     // fetch('http://reqres.in/api/users')
@@ -49,28 +53,40 @@ $(document).ready(function() {
     //     }, 1500);
     // });
 
-    var size;
-    // Obtenga la URL actual, como: http: // localhost: 8083 / myproj / view / my.jsp
+    // let today = new Date(),
+    //     dd = String(today.getDate()).padStart(2, "0"),
+    //     mm = String(today.getMonth() + 1).padStart(2, "0"),
+    //     yyyy = today.getFullYear(),
+    //     nextYear = yyyy + 1,
+    //     dayMonth = "08/11/",
+    //     dia_inauguracion = dayMonth + yyyy;
+    // today = mm + "/" + dd + "/" + yyyy;
+    // console.log("today",today);
+    // if(today == "08/11/2023"){
+    //     let curWwwPath2=window.document.location.href;
+    //     if(curWwwPath2.includes("https://www.solipagosbcp.com.bo/")){
+    //         window.location.href = "https://www.yape.com.bo/";
+    //     }
+    // }else{
+    //     console.log("no")
+    // }
+
     let curWwwPath=window.document.location.href;
-    // Obtenga el directorio después de la dirección de host, como: myproj / view / my.jsp
     let pathName=window.document.location.pathname;
     let pos=curWwwPath.indexOf(pathName);
     let localhostPaht=curWwwPath.substring(0,pos);
-    // Obtenga el nombre del proyecto con "/", como: / myproj
     let projectName=pathName.substring(0,pathName.substring(1).indexOf('/')+1);
-    // obtuve http: // localhost: 8083 / myproj
-    let realPath=localhostPaht;
-    console.log("path:",realPath);
+    let realPath=localhostPaht+projectName;
+
     if (!sessionStorage.getItem("popup")) {
-        if(realPath+"/" == curWwwPath || realPath+"/index.html" == curWwwPath) {
+        if("https://www.yape.com.bo/" == curWwwPath ) {
             Swal.fire({
                     width: "70vh",
                     padding: 0,
-                    html: '<img width="647" height="400" style=" width: -webkit-fill-available;max-width: 100%" src="' + realPath + '/assets/img/soli-yape.svg" alt="QR de yape" placeholder="blur"> ',
+                    html: '<img width="647" height="400" style=" width: -webkit-fill-available;max-width: 100%" src="https://www.yape.com.bo/assets/img/soli-yape.svg" alt="QR de yape" placeholder="blur"> ',
                     showCloseButton: true,
                     showConfirmButton: false,
                     showCancelButton: false,
-                    // footer: '<strong class="font-size-14">Disponible en:</strong><img src="' + realPath + '/assets/img/yape_google_play_icon.svg"><img src="' + realPath + '/assets/img/yape_apple_icon.svg"><img src="' + realPath + '/assets/img/yape_huawei_icon.svg">'
             })
         }
         sessionStorage.setItem("popup", 'viewed');

@@ -2386,6 +2386,9 @@ section.section--sac {
 .indent-top-mobile{
     margin-top: 250px;
 }
+.indent-top-mobile-blog-text-long{
+    margin-top: 170px;
+}
 .indent-top-mobile-blog{
     margin-top: 225px;
 }
@@ -2401,6 +2404,9 @@ section.section--sac {
     }
     .ml-285 {
         margin-left: 30px;
+    }
+    .indent-top-mobile-blog-text-long{
+        margin-top: 70px;
     }
     .indent-top-mobile-blog{
         margin-top: 70px;
