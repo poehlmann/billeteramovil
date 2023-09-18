@@ -4,8 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+    <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="correcion web">
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/401.html" beforeDir="false" afterPath="$PROJECT_DIR$/401.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/403.html" beforeDir="false" afterPath="$PROJECT_DIR$/403.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/js_principal.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/js_principal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/menu.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/menu.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/cambiar-y-recuperar-contrasenas.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/cambiar-y-recuperar-contrasenas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/comercios.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/comercios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/depositar.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/depositar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/funcionalidades-y-transferencia.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/funcionalidades-y-transferencia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/retiros-de-dinero.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/retiros-de-dinero.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda/soy-nuevo-en-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayuda/soy-nuevo-en-yape.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beneficios/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/beneficios/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/adios-al-efectivo/5-habitos-para-decirle-adios-al-uso-de-dinero-en-efectivo.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/adios-al-efectivo/5-habitos-para-decirle-adios-al-uso-de-dinero-en-efectivo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/adios-al-efectivo/dinero-electronico-efectivo-y-virtual-cuales-son-sus-diferencias.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/adios-al-efectivo/dinero-electronico-efectivo-y-virtual-cuales-son-sus-diferencias.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/negocios-digitales/los-codigos-qr-una-alternativa-de-pago-que-facilitan-tu-vida.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/negocios-digitales/los-codigos-qr-una-alternativa-de-pago-que-facilitan-tu-vida.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seguridad/fraudes.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/fraudes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seguridad/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seguridad/proteccion.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/proteccion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seguridad/robo.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/robo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seguridad/seguridad.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/seguridad.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soli-ahora-es-yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/soli-ahora-es-yape/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/yape/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yapenegocios/formulario.html" beforeDir="false" afterPath="$PROJECT_DIR$/yapenegocios/formulario.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yapenegocios/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/yapenegocios/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yapepromociones/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/yapepromociones/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +52,79 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6f80b2bc-c657-49d1-b667-14d632ff1ca3" />
+        <option name="url" value="git@github.com:poehlmann/billeteramovil.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2TrZntQNO10BUGchvZ7rNPHAHdE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Downloads/js-liveEdit-232.8453.111/js-liveEdit/lib/js-liveEdit.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="correcion web">
+      <created>1691766223441</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691766223441</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="correcion web" />
+      <created>1691803330130</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691803330130</updated>
+      <workItem from="1691803333133" duration="2057000" />
+      <workItem from="1692023169497" duration="1580000" />
+      <workItem from="1692103788695" duration="3217000" />
+      <workItem from="1692131680584" duration="599000" />
+      <workItem from="1692209862295" duration="57000" />
+      <workItem from="1692368824521" duration="1256000" />
+      <workItem from="1692979333341" duration="621000" />
+      <workItem from="1693917205802" duration="600000" />
+      <workItem from="1694438638962" duration="2005000" />
+      <workItem from="1694466774107" duration="893000" />
+      <workItem from="1694633360957" duration="10585000" />
+      <workItem from="1694702950142" duration="1198000" />
+      <workItem from="1694984390288" duration="9000" />
+      <workItem from="1694989314120" duration="812000" />
+      <workItem from="1695070746962" duration="6272000" />
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="correcion web" />
+    <option name="LAST_COMMIT_MESSAGE" value="correcion web" />
   </component>
 </project>

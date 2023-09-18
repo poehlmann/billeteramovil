@@ -612,6 +612,7 @@ header .desk-menu .menu-container .menu>li .btn_cta{
         display: none;
     }
     .button_bottom{
+        /*display: flex;*/
         bottom: 0;
         left: 0;
         padding-bottom: 0.5rem;

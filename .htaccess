@@ -1,9 +1,9 @@
 RewriteEngine On
 RewriteBase /
 
-RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+#RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
 
-RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+#RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 ErrorDocument 401 https://www.yape.com.bo/pagina-no-encontrada.html
 ErrorDocument 403 https://www.yape.com.bo/pagina-no-encontrada.html

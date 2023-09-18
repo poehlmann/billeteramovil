@@ -108,6 +108,7 @@
 
         document.getElementById("submenu_arrow").src = realPath+"/assets/img/yape_arrowmenu.svg";
 
+        document.getElementById("submenu-whatsapp-phone").src = realPath+"/assets/img/whatsapp.png";
         document.getElementById("menu_soli_yape").href = realPath+"/soli-ahora-es-yape/";
         $('.terminos_condiciones').attr('href',realPath+"/contrato-prestacion-servicio.html");
         $('.numero_wpp_soporte').attr('href', 'https://api.whatsapp.com/send?phone=+59172007654&text=%C2%A1Hola!%20Vengo%20de%20la%20web%20y%20necesito%20ayuda,%20por%20favor.%20%F0%9F%91%A8%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB%F0%9F%91%A9%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB');
@@ -227,7 +228,7 @@
             $('.button_bottom').css('display','none');
         }else{
             $('body').toggleClass('open-menu');
-            $('.button_bottom').css('display','block');
+            $('.button_bottom').css('display','flex');
         }
     });
 

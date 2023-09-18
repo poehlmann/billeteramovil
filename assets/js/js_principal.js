@@ -33,12 +33,21 @@
 //             }, 0)
 //     }());
 // });
+
+
 window.addEventListener('beforeunload', function (e) {
     sessionStorage.clear()
     console.log(sessionStorage.getItem("popup"));
 });
 $(document).ready(function() {
-
+    // var d1=new Date(); //yyyy-mm-dd hh:mm:ss
+    // var d2=new Date("2023-08-15, 10:00:00"); //yyyy-mm-dd hh:mm:ss
+    // if(d1>d2)
+    // {
+    //     console.log("redireccionar");
+    // }else{
+    //     console.log("todavia");
+    // }
     // fetch('http://reqres.in/api/users')
     //     .then(resp=> resp.json())
     //     .then(respObj=>{
