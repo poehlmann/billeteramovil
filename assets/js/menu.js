@@ -260,7 +260,7 @@
     $(document).ready(function(){
         windowSize();
         setNavigation();
-        obtenerPais();
+        cambiarMensajeSegunPantalla();
 
         $('select#country_page').change(function(){
             window.location = $(this).val();
@@ -289,20 +289,20 @@
             }
         });
     }
-    function obtenerPais(){
-        $.get("https://ipinfo.io/?token=719fc6762c190c", function (response) {
+    function cambiarMensajeSegunPantalla(){
+        // $.get("https://ipinfo.io/?token=719fc6762c190c", function (response) {
             // $("#ip").html("IP: " + response.ip);
             // $("#address").html("pais: " + response.country);
             // $("#details").html(JSON.stringify(response, null, 4));
-            if(response.country=="PE") {
+            // if(response.country=="PE") {
                 if( window.innerWidth <= 997 ){
                     document.getElementById('text-flag').innerHTML = "Estás en el sitio web de Yape Bolivia.";
                 }else {
                     document.getElementById('text-flag').innerHTML = "Estás en el sitio web de Yape Bolivia. Elige tu país o región para ver el contenido sobre tu ubicación."
                 }
-                $("#button-flag").html("<a href=\"https://www.yape.com.pe/\"><span class=\"flag-icon flag-icon-pe me-1\"></span> <span>Perú</span></a>");
-            }
-        }, "jsonp");
+                // $("#button-flag").html("<a href=\"https://www.yape.com.pe/\"><span class=\"flag-icon flag-icon-pe me-1\"></span> <span>Perú</span></a>");
+            // }
+        // }, "jsonp");
     }
 
 })(jQuery);

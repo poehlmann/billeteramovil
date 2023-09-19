@@ -94,8 +94,8 @@ header .desk-menu {
     /*top: 10px;*/
 }
 .small .sub-menu{
-    top: 63px;
-    left: -8px ;
+    top: 65px;
+    left: -25px !important;
 }
 .smart-banner {
     zoom: 1;
@@ -352,10 +352,10 @@ header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu {
     position: absolute;
     list-style: none;
     background: #fff;
-    padding: 0;
+    /*padding: 0;*/
     display: table;
     left: 0;
-    width: auto;
+    /*width: auto;*/
     float: left;
     display: none;
     border-radius: 8px;
@@ -363,6 +363,8 @@ header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu {
     /*border-bottom-right-radius: 0;*/
     overflow-wrap: anywhere;
     white-space: nowrap;
+    width: 226px;
+    padding: 5px 0 5px 0;
 }
 header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu li {
     width: 100%;
@@ -379,8 +381,9 @@ header .sub-menu li.active a{
 }
 header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu li > a {
     color: #69607b ;
-    padding: 12px;
+    /*padding: 12px;*/
     line-height: 45px;
+    padding: 8px 16px 8px 32px;
 }
 header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu li .sub-menu {
     display: none;
@@ -420,7 +423,7 @@ header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu li
 }
 header .desk-menu .menu-container .menu>li.menu-item-has-children .sub-menu li:hover {
     background-color: #eeeff1;
-    border-radius: 8px;
+    /*border-radius: 8px;*/
     border-left-color: #10CBB4;
     border-left-style: solid;
     /*border-top-right-radius: 0;*/
