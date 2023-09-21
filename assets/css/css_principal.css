@@ -1252,6 +1252,7 @@ iframe{max-width:100%;border:0;}
 .ml-10 {margin-left: 10px!important;}
 .ml-20 {margin-left: 20px!important;}
 .ml-85{margin-left: 85px;}
+.ml-155{margin-left: 155px;}
 .ml-285{margin-left: 285px;}
 .font-weight-bold{font-weight:bold!important;}
 .font-size-14{font-size: 14px !important;}
@@ -2399,13 +2400,15 @@ section.section--sac {
     background-size: contain;
     height: 559px;
 }
+.fondo_formulario_back{
+    background-image: linear-gradient(to bottom,rgba(116,35,132,0)0,#2c2044 140%),url(../img/fondo1.svg);
+}
 .fondo_formulario{
-    background: #742384;
-    background-image: linear-gradient(to bottom,rgba(116,35,132,0)0,#2c2044 140%),url(../img/yape_yapito_box.svg);
+    background-image: url(../img/yape_qr1.svg);
     background-repeat: no-repeat;
-    background-position: 70% 6vh;
-    background-size: contain;
-    height: 559px;
+    background-position: 100% -12vh;
+    background-size: 70%;
+    height: 451px;
 }
 .space-banner-phone{
     margin-bottom: 50px;
@@ -2422,6 +2425,9 @@ section.section--sac {
 .indent-top-mobile-without-button{
     margin-top: 380px;
 }
+.indent-top-mobile-formulario{
+    margin-top: 225px;
+}
 @media (max-width: 991px) {
     .ml-85 {
         margin-left: 0px;
@@ -2432,14 +2438,22 @@ section.section--sac {
     .ml-285 {
         margin-left: 30px;
     }
+    .ml-155{
+        margin-left: 30px;
+    }
     .indent-top-mobile-blog-text-long{
         margin-top: 70px;
     }
     .indent-top-mobile-blog{
         margin-top: 70px;
     }
+    .indent-top-mobile-formulario{
+        margin-top: 200px;
+    }
     .fondo_formulario{
-        height: 328px !important;
+        height: 328px!important;
+        background-position: 80% 10px;
+        background-size: 100%;
     }
     .fondo_que_es_yape{
         background-position: 15vh 6vh!important;
