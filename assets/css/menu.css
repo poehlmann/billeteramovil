@@ -419,6 +419,7 @@ header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu li
 }
 header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu li:hover > a {
     color: #69607b ;
+    padding: 8px 16px 8px 29px;
     /*background-color: #eeeff1;*/
 }
 header .desk-menu .menu-container .menu>li.menu-item-has-children .sub-menu li:hover {
