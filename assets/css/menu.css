@@ -60,7 +60,7 @@ header {
     float: left;
     position: fixed;
     z-index: 10;
-
+    height: 66px;
 }
 .pagina_principal{
     top:34px;
@@ -435,7 +435,9 @@ header .desk-menu .menu-container .menu>li.menu-item-has-children .sub-menu li:h
     /*border-top-right-radius: 0;*/
     /*border-bottom-right-radius: 0;*/
 }
-
+header li.menu-item-has-children .sub-menu li .active a:hover {
+    margin-left:-4px
+}
 header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu li:hover > a::before {
     -webkit-transform: rotate(142deg);
     -moz-transform: rotate(142deg);
@@ -519,6 +521,10 @@ header.small .desk-menu .box-menu ul li a {
     border-bottom: solid 4px #10CBB4FF;
     /*padding-bottom: 18px;*/
 }
+.header .desk-menu .menu-header-container .menu>.menu-item:hover {
+    border-bottom: solid 4px #10cbb4ff;
+    margin-bottom:-4px
+}
 header .desk-menu .fill_arrow{
     /*filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(208deg) brightness(101%) contrast(101%)*/
 }
@@ -531,10 +537,14 @@ header .desk-menu .menu-container .menu > li:hover .fill_arrow{
     /*filter: invert(78%) sepia(37%) saturate(7314%) hue-rotate(128deg) brightness(100%) contrast(87%);*/
     transform: rotate(180deg);
 }
-header li.active a {
+header li.active {
+    border-bottom: solid 4px #10cbb4ff;
+    margin-bottom: -4px !important;
+}
+header .desk-menu li.menu-item-has-children .sub-menu li.active{
     /*border-bottom: solid 4px #10cbb4ff;*/
     color: #10cbb4 !important;
-    display: block;
+    /*display: block;*/
     /*padding: 5px 20px;*/
     /*text-decoration: none;*/
     /*transition: all 0.2s ease;*/
@@ -545,7 +555,12 @@ header li.active a {
     /*transition: all .3s;*/
     bottom: 0;
     pointer-events: none;
-    border-bottom: solid 4px #10cbb4ff;
+    border-left: solid 4px #10cbb4ff;
+    border-bottom: solid 0 #10cbb4ff;
+    background-color: #eeeff1;
+    height: 40px;
+    /*display: flex;*/
+    /*align-items: center;*/
     /*-webkit-transition-timing-function: cubic-bezier(1,.01,0,1.22);*/
     /*transition-timing-function: cubic-bezier(1,.01,0,1.22);*/
 }
@@ -633,6 +648,10 @@ header .desk-menu .menu-container .menu>li .btn_cta{
     }
     header li.active a{
         color:#10CBB4 !important;
+    }
+    header li.active {
+        border-bottom: solid 0 #10cbb4ff;
+        margin-bottom: 0 !important;
     }
     .small .desk-menu .menu-header-container .menu > li a{
         line-height: 40px;
