@@ -91,7 +91,7 @@
         <a href="#" class="close">&times;</a>
     </div>
     <header class="header pagina_principal" id="header-home">
-        <div class="container">
+<!--        <div class="container">-->
             <div class="desk-menu">
                 <div class="logo">
                     <div class="logo-adn">
@@ -102,12 +102,15 @@
                     <div id="menu-cel" class="menu-container">
                         <div class="menu-header-container">
                             <ul id="cd-primary-nav" class="menu main_nav_principal">
+                                <li class="menu-item " id="inicio">
+                                    <a id="inicio_yape" href="">Inicio</a>
+                                </li>
                                 <li class="menu-item ">
                                     <a id="menu_yape" href="">¿Qué es Yape?</a>
                                 </li>
-                                <li class="menu-item menu-item-has-children">
+                                <li id="submenu" class="menu-item menu-item-has-children">
                                     <a  href="#">Centro de Ayuda <img id="submenu_arrow" class="fill_arrow" src="" alt="centro de ayuda de yape" width="17" height="17"></a>
-                                    <ul class="sub-menu">
+                                    <ul id="sub-menu" class="sub-menu">
                                         <li class="menu-item">
                                             <a id="menu_ayuda" href="" class="menu_sec">Preguntas frecuentes</a>
                                         </li>
@@ -146,7 +149,7 @@
                     </div>
                 </nav>
             </div>
-        </div>
+<!--        </div>-->
     </header>
 
     <div class="wrap_body" >
@@ -154,7 +157,7 @@
         <div class="background-yape bg-image">
             <div class="hero-caption">
                 <div class="h-100">
-                    <div class="row justify-content-center align-items-center text-center wrap-banner" style="padding-top: 20vh;">
+                    <div class="row justify-content-center align-items-center text-center wrap-banner" id="title_principal">
                         <div class="col-lg-12 col-md-12">
                             <h1 class="pl-4 pr-4 font-weight-bold titulo_principal" >Descubre todo lo que puedes <br> hacer con Yape Bolivia</h1>
                             <p class="subtitulo_principal pl-4 pr-4 mt-16" >Un mundo de beneficios en la palma de tu mano</p>

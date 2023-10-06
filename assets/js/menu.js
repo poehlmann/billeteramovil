@@ -91,14 +91,17 @@
         if($("#header").hasClass("cell") == 0) {
             if ($("#logo-menu-secundary").length == 0) {
                 document.getElementById("logo-menu").src = realPath + "/assets/img/Logo_Bolivia_2.svg";
+                document.getElementById("submenu_arrow").src = realPath+"/assets/img/ic_angle_down_r_small-white.svg";
             } else {
+                document.getElementById("submenu_arrow").src = realPath+"/assets/img/ic_angle_down_r_small.svg";
                 document.getElementById("logo-menu-secundary").src = realPath + "/assets/img/Logo_Bolivia_3.svg";
             }
         }
 
         document.getElementById("menu_inicio").href = realPath+"/";
+        document.getElementById("inicio_yape").href = realPath+"/";
         document.getElementById("menu_yape").href = realPath+"/yape/";
-        document.getElementById("menu_ayuda").href = realPath+"/ayuda";
+        document.getElementById("menu_ayuda").href = realPath+"/ayuda/";
         // document.getElementById("menu_billetera").href = realPath+"/billeteramovil/";
         document.getElementById("menu_seguridad").href = realPath+"/seguridad/";
         document.getElementById("menu_promociones").href = realPath+"/yapepromociones/";
@@ -106,7 +109,7 @@
         document.getElementById("menu_negocio").href = realPath+"/yapenegocios/";
         document.getElementById("menu_beneficios").href = realPath+"/beneficios/";
 
-        document.getElementById("submenu_arrow").src = realPath+"/assets/img/yape_arrowmenu.svg";
+
 
         document.getElementById("submenu-whatsapp-phone").src = realPath+"/assets/img/whatsapp.png";
         document.getElementById("menu_soli_yape").href = realPath+"/soli-ahora-es-yape/";
@@ -138,7 +141,9 @@
             }
             if ($("#header-home").length != 0) {
                 $('#header-home').addClass('small');
+                $('#title_principal').addClass('space_smart');
             }
+            document.getElementById("submenu_arrow").src = realPath+"/assets/img/ic_angle_down_r_small.svg";
             document.getElementById("logo-menu").src=realPath+"/assets/img/Logo_Bolivia_3.svg";
         }else {
             // $('#header-sroll').removeClass('small');
@@ -147,7 +152,9 @@
             }
             if ($("#header-home").length != 0) {
                 $('#header-home').removeClass('small');
+                $('#title_principal').addClass('space_smart');
             }
+            document.getElementById("submenu_arrow").src = realPath+"/assets/img/ic_angle_down_r_small-white.svg";
             document.getElementById("logo-menu").src=realPath+"/assets/img/Logo_Bolivia_2.svg";
         }
         windowSize();
@@ -160,16 +167,20 @@
             $('.button_bottom').css('display','none');
             $('body').removeClass('open-menu');
             $('.hamburger-menu .bar').removeClass('animate');
+            $('#inicio').css('display','none');
         }else{
             // document.getElementById("header-sroll").className = "header small cell";
             if ($("#header-sroll").length != 0) {
                 $('#header-sroll').addClass('small');
+                $('header .desk-menu .menu-container').css('top','60px' );
             }
             if ($("#header-home").length != 0) {
                 $('#header-home').addClass('small');
+                $('#title_principal').addClass('space_smart');
             }
             // console.log("no esta agregando la clase",realPath+"/assets/img/Logo_Bolivia_3.svg");
             if($("#logo-menu").length != 0) {
+                document.getElementById("submenu_arrow").src = realPath+"/assets/img/ic_angle_down_r_small.svg";
                 document.getElementById("logo-menu").src = realPath + "/assets/img/Logo_Bolivia_3.svg";
             }
         }
@@ -189,12 +200,12 @@
     $(document).on('click', '.smart-banner .close', function (event) {
         event.preventDefault();
         var $banner = $('.smart-banner');
-        var $header = $('header');
-        var $cd_primary_nav = $('#cd-primary-nav');
         $banner.css('margin-top',0 - $banner.outerHeight())
-        $header.css('margin-top',0 - $banner.outerHeight() );
+        $('header').css('margin-top',0 - $banner.outerHeight() );
+        $('header .desk-menu .menu-container').css('top','60px' );
         $('.wrap_body').css('top','40px' );
         $('.wrap-banner').css('padding-top','15vh' );
+        var $cd_primary_nav = $('#cd-primary-nav');
         $cd_primary_nav.removeClass('main_nav_principal');
         $cd_primary_nav.addClass('main_nav');
         //set cookie
@@ -232,11 +243,11 @@
         }
     });
 
-    $('header .desk-menu .menu-container .menu .menu-item-has-children ul').each(function(index) {
-        if($(".back").length == 0) {
-            $(this).append('<li class="back"><a href="#">Volver</a></li>');
-        }
-    });
+    // $('header .desk-menu .menu-container .menu .menu-item-has-children ul').each(function(index) {
+    //     if($(".back").length == 0) {
+    //         $(this).append('<li class="back"><a href="#">Volver</a></li>');
+    //     }
+    // });
 
     // RESPONSIVE MENU NAVIGATION
     $('header .desk-menu .menu-container .menu .menu-item-has-children > a').on('click', function(e) {
@@ -260,7 +271,7 @@
     $(document).ready(function(){
         windowSize();
         setNavigation();
-        cambiarMensajeSegunPantalla();
+        // cambiarMensajeSegunPantalla();
 
         $('select#country_page').change(function(){
             window.location = $(this).val();
@@ -276,18 +287,49 @@
     $(window).resize(function(){
         windowSize();
     });
+    let div = document.querySelector("#submenu");
 
+    div.addEventListener("click", (e)=>{
+        var event = new Event('touch');
+        e.target.dispatchEvent(event)
+    });
     function setNavigation() {
-        var currenturl  = window.location.href
+        let flag = 0;
+        // var currenturl  = window.location
         var path = window.location.pathname;
-        path = path.replace(/\/$/, "");
+        // path = path.replace(/\/$/, "");
         path = decodeURIComponent(path);
+        path = path.replace(/\//g, '');
         $("nav a").each(function () {
             var href = $(this).attr('href');
-            if (currenturl.substring(0, href.length) == href) {
+            var strArray = href.split("/");
+            var delete_element = strArray.shift();
+            strArray = strArray.filter((a) => a);
+            if ((strArray.indexOf(path) > -1)) {
                 $(this).closest('li').addClass('active');
+            } else {
+                if($(".pagina_principal").length!=0){
+                    $("#inicio").addClass('active');
+                }
+                $(this).closest('li').removeClass('active');
             }
         });
+        // if(flag==0) {
+        //     if (document.getElementById("submenu").getElementsByClassName("active")) {
+                // flag = 1;
+                // div.addEventListener("touch", (e)=>{
+                //
+                //     console.log("touched");
+                // });
+                // $("#submenu").trigger("click");
+                // $("#submenu").focus();
+                // $('#submenu').on('touchstart', function(e) {
+                //     e.preventDefault();
+                //     $(this).toggleClass('hover_effect');
+                // });
+                // $("#sub-menu").addClass('open-menu');
+        //     }
+        // }
     }
     function cambiarMensajeSegunPantalla(){
         // $.get("https://ipinfo.io/?token=719fc6762c190c", function (response) {

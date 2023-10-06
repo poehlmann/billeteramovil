@@ -1,7 +1,6 @@
 filterSelection("all");
 
 function filterSelection(para) {
-    console.log("para",para);
     var card = document.getElementsByClassName("imgDiv");
     if (para == "all") {
         para = "";

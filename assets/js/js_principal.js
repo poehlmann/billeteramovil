@@ -37,7 +37,6 @@
 
 window.addEventListener('beforeunload', function (e) {
     sessionStorage.clear()
-    console.log(sessionStorage.getItem("popup"));
 });
 $(document).ready(function() {
     // var d1=new Date(); //yyyy-mm-dd hh:mm:ss
