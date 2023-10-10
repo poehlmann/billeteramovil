@@ -23,6 +23,12 @@
          url("../fonts/roboto/roboto-bold.woff2") format('woff2');
     font-display: swap;
 }
+@font-face {
+    font-family: Roboto-Medium;
+    src: url("../fonts/roboto/Roboto-Medium.ttf") format('truetype'),
+    url("../fonts/roboto/roboto-medium.woff") format('woff');
+    font-display: swap;
+}
 .loader
 {
     position: fixed;
@@ -1381,7 +1387,51 @@ iframe{max-width:100%;border:0;}
     align-items: center;
     justify-content: center;
 }
-
+.rotate{
+    transform: rotate(180deg);
+}
+.bta_cta_popup{
+    width: -webkit-fill-available !important;
+    margin-top:2.75rem !important;
+    margin-bottom:1rem !important;
+    height: auto !important;
+    display: inline-block !important;
+    box-shadow: none !important;
+    appearance: none !important;
+    border: 0 !important;
+    outline: 0 !important;
+    background-color: #10cbb4 !important;
+    line-height: 30px !important;
+    padding: 12px 24px !important;
+    border-radius: 8px!important;
+    cursor: pointer !important;
+    transition: all .5s;
+    /*transition-timing-function: cubic-bezier(.2,3,.4,1);*/
+    user-select: none !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+}
+.bta_back_white_popup{
+    width: -webkit-fill-available !important;
+    font-family: Roboto-Regular !important;
+    color: #10cbb4 !important;
+    background-image: none !important;
+    border: solid 1px #10cbb4ff !important;
+    background-color: #fff !important;
+    height: auto !important;
+    line-height: 30px !important;
+    padding: 12px 24px !important;
+    cursor: pointer !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    border-radius: 8px!important;
+    display: inline-block !important;
+}
+.swal2-actions{
+    width: -webkit-fill-available !important;
+    margin:0 !important;
+}
 .btn_cta{
     width: fit-content;
     height: auto;
@@ -2643,7 +2693,7 @@ section.section--sac {
     .wrap_body{
         /*padding-left: 16px;*/
         /*padding-right: 16px;*/
-        top: 85px;
+        top: 60px;
         position: inherit;
     }
     .background-yape{

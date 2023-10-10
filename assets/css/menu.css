@@ -63,7 +63,7 @@ header {
     height: 66px;
 }
 .pagina_principal{
-    top:34px;
+    /*top:34px;*/
     padding-top: 2px;
 }
 #title_principal{
@@ -83,7 +83,7 @@ header::before {
     top: 0;
     right: 0;
     height: 0;
-    border-bottom: solid 1px #e2dfe8;
+
 }
 header .desk-menu {
     position: relative;
@@ -306,8 +306,8 @@ header .desk-menu .menu-container .menu > li {
 header .desk-menu .menu-container .menu > li a {
     line-height: 60px;
     font-size: 14px !important;
-    font-weight: bold;
-
+    font-weight: 500;
+    font-family: Roboto-Medium;
     color: #ffffff;
 }
 header .desk-menu .menu-container .menu > li.menu-item-has-children > a {
@@ -385,7 +385,7 @@ header .sub-menu li .active a{
     /*color: #10CBB4 !important;*/
 }
 header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu li > a {
-    color: #69607b ;
+    color: #2c2044 ;
     /*padding: 12px;*/
     line-height: 40px;
     padding: 8px 16px 8px 32px;
@@ -432,6 +432,7 @@ header .desk-menu .menu-container .menu>li.menu-item-has-children .sub-menu li:h
     background-color: #eeeff1;
     /*border-radius: 8px;*/
     border-left: solid 4px #10cbb4ff;
+    margin-left: -1px;
     /*border-top-right-radius: 0;*/
     /*border-bottom-right-radius: 0;*/
 }
@@ -515,21 +516,26 @@ header.small .desk-menu .box-menu {
     padding: 0;
 }
 header.small .desk-menu .box-menu ul li a {
-    color: #69607b;
+    color:#2c2044;
 }
 .small .desk-menu .menu-header-container .menu >.menu-item:hover{
     border-bottom: solid 4px #10CBB4FF;
+    margin-top: 4px !important;
     /*padding-bottom: 18px;*/
 }
-.header .desk-menu .menu-header-container .menu>.menu-item:hover {
-    border-bottom: solid 4px #10cbb4ff;
-    margin-bottom:-4px
+.small .desk-menu .menu-header-container .menu >.menu-item a:hover{
+    color: #2c2044 !important;
+    /*padding-bottom: 18px;*/
+}
+.header .desk-menu .menu-header-container .menu>.menu-item a:hover {
+    color: #10cbb4ff;
+    /*margin-bottom:-4px*/
 }
 header .desk-menu .fill_arrow{
     /*filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(208deg) brightness(101%) contrast(101%)*/
 }
 .small .desk-menu .menu-header-container .menu .fill_arrow{
-    height: 17px;
+    /*height: 17px;*/
 
     /*filter: invert(39%) sepia(29%) saturate(337%) hue-rotate(218deg) brightness(92%) contrast(88%);*/
 }
@@ -539,11 +545,20 @@ header .desk-menu .menu-container .menu > li:hover .fill_arrow{
 }
 header li.active {
     border-bottom: solid 4px #10cbb4ff;
-    margin-bottom: -4px !important;
+    margin-top: 4px !important;
+    /*margin-bottom: -4px !important;*/
+}
+.small .desk-menu li.menu-item-has-children .sub-menu .active a{
+    color: #10cbb4ff !important;
+}
+header .desk-menu li.menu-item-has-children .sub-menu li.active:hover{
+    border-left: solid 4px #10cbb4ff !important;
+    background-color: #eeeff1 !important;
+    color: #10cbb4ff !important;
 }
 header .desk-menu li.menu-item-has-children .sub-menu li.active{
     /*border-bottom: solid 4px #10cbb4ff;*/
-    color: #10cbb4 !important;
+
     /*display: block;*/
     /*padding: 5px 20px;*/
     /*text-decoration: none;*/
@@ -553,20 +568,23 @@ header .desk-menu li.menu-item-has-children .sub-menu li.active{
     /*-ms-transition: all .3s;*/
     /*-o-transition: all .3s;*/
     /*transition: all .3s;*/
-    bottom: 0;
-    pointer-events: none;
-    border-left: solid 4px #10cbb4ff;
-    border-bottom: solid 0 #10cbb4ff;
-    background-color: #eeeff1;
+    /*bottom: 0;*/
+    /*pointer-events: none;*/
+    /*border-left: solid 4px #10cbb4ff;*/
+    border-bottom: solid 0 #fdfdfd;
+    /*background-color: #eeeff1;*/
     height: 40px;
     /*display: flex;*/
     /*align-items: center;*/
     /*-webkit-transition-timing-function: cubic-bezier(1,.01,0,1.22);*/
     /*transition-timing-function: cubic-bezier(1,.01,0,1.22);*/
 }
-
+header .desk-menu li.menu-item-has-children .sub-menu li.active{
+    color: #10cbb4 !important;
+}
 .small .desk-menu .menu-header-container .menu > li a:hover{
     /*border-bottom: solid 4px #10CBB4FF;*/
+    margin-top: 4px;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
     .small .desk-menu .menu-header-container .menu > li a{
@@ -638,6 +656,9 @@ header .desk-menu .menu-container .menu>li .btn_cta{
         /*color:#69607b !important;*/
         /*filter: invert(39%) sepia(29%) saturate(337%) hue-rotate(218deg) brightness(92%) contrast(88%) !important;*/
     }
+    .small{
+        border-bottom: 1px solid rgba(0,0,0,.1);
+    }
     .small .desk-menu .menu-header-container .menu>.menu-item:hover, header li.active a{
         border-bottom: 0 !important;
     }
@@ -696,10 +717,11 @@ header .desk-menu .menu-container .menu>li .btn_cta{
     }
     .pagina_principal {
         height: 60px;
-        top: 35px;
-        padding-top: 0;
-        padding-left: 35px;
-        padding-right: 35px;
+        /*top: 35px;*/
+        /*padding-top: 0;*/
+        /*padding-left: 35px;*/
+        /*padding-right: 35px;*/
+        padding: 0 2rem;
     }
     header .desk-menu{
         position: relative;
@@ -824,7 +846,7 @@ header .desk-menu .menu-container .menu>li .btn_cta{
         position: fixed;
         height: 100vh;
         width: 100%;
-        top: 90px;
+        top: 60px;
         right: 100%;
     }
     header .desk-menu .menu-container .menu-header-container {
@@ -985,7 +1007,7 @@ header .desk-menu .menu-container .menu>li .btn_cta{
         display: block;
     }
     header.small .hamburger-menu span {
-        color: #4e4e4e;
+        color: #514f66;
     }
     header.small .hamburger-menu .bar {
         background: #514f66;
@@ -1004,7 +1026,7 @@ header .desk-menu .menu-container .menu>li .btn_cta{
     }
     .pagina_principal {
         height: 60px;
-        top: 35px;
+        /*top: 35px;*/
         padding-top: 0;
     }
     header .desk-menu .menu-container .menu li a {
@@ -1046,7 +1068,7 @@ header .desk-menu .menu-container .menu>li .btn_cta{
         /*width: 100%;*/
     }
     .pagina_principal {
-        top: 45px !important;
+        /*top: 45px !important;*/
     }
     .smart-banner{
         height: 45px !important;
@@ -1065,7 +1087,7 @@ header .desk-menu .menu-container .menu>li .btn_cta{
         right: 0;
     }
     header .hamburger-menu .bar, header .hamburger-menu .bar::after, header .hamburger-menu .bar::before {
-        width: 23px;
+        width: 20px;
         height: 2px;
     }
     header .hamburger-menu .bar::before {
@@ -1081,7 +1103,7 @@ header .desk-menu .menu-container .menu>li .btn_cta{
 }
 @media (max-height: 550px) {
     .pagina_principal {
-        top: 4vh;
+        /*top: 4vh;*/
     }
     .smart-banner{
         height: 4vh;

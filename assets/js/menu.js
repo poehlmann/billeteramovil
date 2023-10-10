@@ -6,13 +6,13 @@
                                 Bolivia S.A. Av. Hernando Siles N.º 5555, edificio “Torre Empresarial ESIMSA”, en la zona
                                 de Obrajes de la ciudad de La Paz</p>`;
     }
-    if ($("#text-flag").length != 0) {
-        if (window.innerWidth <= 997) {
-            document.getElementById('text-flag').innerHTML = "Estás en el sitio web de Yape Bolivia.";
-        } else {
-            document.getElementById('text-flag').innerHTML = "Estás en el sitio web de Yape Bolivia. Elige tu país o región para ver el contenido sobre tu ubicación.";
-        }
-    }
+    // if ($("#text-flag").length != 0) {
+    //     if (window.innerWidth <= 997) {
+    //         document.getElementById('text-flag').innerHTML = "Estás en el sitio web de Yape Bolivia.";
+    //     } else {
+    //         document.getElementById('text-flag').innerHTML = "Estás en el sitio web de Yape Bolivia. Elige tu país o región para ver el contenido sobre tu ubicación.";
+    //     }
+    // }
     var size;
     // Obtenga la URL actual, como: http: // localhost: 8083 / myproj / view / my.jsp
     let curWwwPath=window.document.location.href;
@@ -242,26 +242,44 @@
             $('.button_bottom').css('display','flex');
         }
     });
-
+    //
     // $('header .desk-menu .menu-container .menu .menu-item-has-children ul').each(function(index) {
     //     if($(".back").length == 0) {
     //         $(this).append('<li class="back"><a href="#">Volver</a></li>');
     //     }
     // });
-
+// CLICK FUNCTION BACK MENU RESPONSIVE
+    let flag_submenu = 0;
     // RESPONSIVE MENU NAVIGATION
-    $('header .desk-menu .menu-container .menu .menu-item-has-children > a').on('click', function(e) {
+    $('header .desk-menu .menu-container .menu .menu-item-has-children .back').on('click', function(e) {
         e.preventDefault();
-        if(size <= 991){
-            $(this).next('ul').addClass('open-sub');
-        }
-    });
+        if(size <= 991) {
+            if (flag_submenu == 1) {
+                document.getElementById('sub-menu').style.display = "none";
+                $("#submenu_arrow").removeClass('fill_arrow');
+                document.getElementById('submenu_arrow').style.transform = "rotate(0deg)";
+                flag_submenu=0;
+            }else{
+                document.getElementById('sub-menu').style.display = "block";
+                $("#submenu_arrow").addClass('fill_arrow');
+                document.getElementById('submenu_arrow').style.transform = "rotate(180deg)";
+                flag_submenu=1;
 
-    // CLICK FUNCTION BACK MENU RESPONSIVE
-    $('header .desk-menu .menu-container .menu .menu-item-has-children ul .back').on('click', function(e) {
-        e.preventDefault();
-        $(this).parent('ul').removeClass('open-sub');
+            }
+        }
+        // console.log("estado",flag_submenu);
+        // $('#sub-menu').removeClass('open-sub');
     });
+    // $('header .desk-menu .menu-container .menu .menu-item-has-children .back').on('click', function(e) {
+    //     e.preventDefault();
+    //     if(size <= 991){
+    //         console.log("mostrar",flag_submenu);
+    //         if(flag_submenu == 0){
+    //             // $(this).next('ul').addClass('open-sub');
+    //
+    //         }
+    //     }
+    // });
 
     $('body .over-menu').on('click', function() {
         $('body').removeClass('open-menu');
@@ -295,9 +313,7 @@
     });
     function setNavigation() {
         let flag = 0;
-        // var currenturl  = window.location
         var path = window.location.pathname;
-        // path = path.replace(/\/$/, "");
         path = decodeURIComponent(path);
         path = path.replace(/\//g, '');
         $("nav a").each(function () {
@@ -314,22 +330,13 @@
                 $(this).closest('li').removeClass('active');
             }
         });
-        // if(flag==0) {
-        //     if (document.getElementById("submenu").getElementsByClassName("active")) {
-                // flag = 1;
-                // div.addEventListener("touch", (e)=>{
-                //
-                //     console.log("touched");
-                // });
-                // $("#submenu").trigger("click");
-                // $("#submenu").focus();
-                // $('#submenu').on('touchstart', function(e) {
-                //     e.preventDefault();
-                //     $(this).toggleClass('hover_effect');
-                // });
-                // $("#sub-menu").addClass('open-menu');
-        //     }
-        // }
+        if (document.getElementById("submenu").getElementsByClassName("active").length) {
+            // console.log("hay un elemento activo dentro del submenu")
+            document.getElementById('sub-menu').style.display = "block";
+            // $("#submenu_arrow").addClass('fill_arrow');
+            document.getElementById('submenu_arrow').style.transform = "rotate(180deg)";
+            flag_submenu=1;
+        }
     }
     function cambiarMensajeSegunPantalla(){
         // $.get("https://ipinfo.io/?token=719fc6762c190c", function (response) {

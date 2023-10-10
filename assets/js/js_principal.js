@@ -85,20 +85,37 @@ $(document).ready(function() {
     let localhostPaht=curWwwPath.substring(0,pos);
     let projectName=pathName.substring(0,pathName.substring(1).indexOf('/')+1);
     let realPath=localhostPaht+projectName;
-
-    if (!sessionStorage.getItem("popup")) {
-        if("https://www.yape.com.bo/" == curWwwPath || "https://www.yape.com.bo/index.html"== curWwwPath ) {
+    // if (!sessionStorage.getItem("popup")) {
+        if("https://www.yape.com.bo/" == curWwwPath || "https://www.yape.com.bo/index.html"== curWwwPath || "http://127.0.0.1:5500/" == curWwwPath) {
             Swal.fire({
-                    width: "70vh",
-                    padding: 0,
-                    html: '<img width="647" height="400" style=" width: -webkit-fill-available;max-width: 100%" src="https://www.yape.com.bo/assets/img/soli-yape.svg" alt="QR de yape" placeholder="blur"> ',
-                    showCloseButton: true,
-                    showConfirmButton: false,
-                    showCancelButton: false,
+                    width: "54vh",
+                    padding: 32,
+                    html: `<img width="80" height="80" style=" width: -webkit-fill-available; max-width: 80px" src="../assets/img/Flag_Bol.png" alt="QR de yape" placeholder="blur"> 
+                            <div class="yape-texto-purpura font-size-24 mt-16" style="font-family: Roboto-Bold">Estás en Yape Bolivia</div>
+                            <div class="font-size-16 mt-16" style="width: -webkit-fill-available;font-family: Roboto-Regular">Hemos detectado que estás accediendo a nuestro sitio web de Bolivia.</div>`,
+                    showCloseButton: false,
+                    confirmButtonColor: "#10CBB4",
+                    showConfirmButton: true,
+                    showCancelButton: true,
+                    backdrop:true,
+                    allowOutsideClick:false,
+                    allowEscapeKey:false,
+                    allowEnterKey:false,
+                    confirmButtonText: 'Ir a Yape Perú',
+                    cancelButtonText:"Seguir en Yape Bolivia",
+                    customClass: {
+                        confirmButton: 'bta_cta_popup',
+                        cancelButton: 'bta_back_white_popup',
+                    }
+            }).then((result) => {
+                /* Read more about isConfirmed, isDenied below */
+                if (result.isConfirmed) {
+                    window.location.replace("https://www.yape.com.pe/");
+                }
             })
         }
-        sessionStorage.setItem("popup", 'viewed');
-    }
+        // sessionStorage.setItem("popup", 'viewed');
+    // }
 
     if(window.location.href.indexOf('#puntos-yape') != -1) {
         $("#puntos-yape").modal();
