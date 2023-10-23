@@ -85,6 +85,7 @@ $(document).ready(function() {
     let localhostPaht=curWwwPath.substring(0,pos);
     let projectName=pathName.substring(0,pathName.substring(1).indexOf('/')+1);
     let realPath=localhostPaht+projectName;
+
     // if (!sessionStorage.getItem("popup")) {
         if("https://www.yape.com.bo/" == curWwwPath || "https://www.yape.com.bo/index.html"== curWwwPath || "http://127.0.0.1:5500/" == curWwwPath) {
             Swal.fire({

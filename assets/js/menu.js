@@ -24,7 +24,10 @@
     let projectName=pathName.substring(0,pathName.substring(1).indexOf('/')+1);
     // obtuve http: // localhost: 8083 / myproj
     let realPath=localhostPaht;
-    console.log("path:",realPath);
+    // console.log("realPath:",window.document.location);
+    // if("https://www.yape.com.bo/index.html"== window.document.location.href || "http://127.0.0.1:5500/index.html" == window.document.location.href){
+    //     window.location.replace("https://www.yape.com.bo/");
+    // }
     document.querySelector('meta[property="og:image"]').setAttribute("content", realPath + '/assets/img/preview_yape.svg');
     $('.descarga_QR').click(function() {
         if( navigator.userAgent.match(/Android/i)
@@ -270,6 +273,7 @@
         // console.log("estado",flag_submenu);
         // $('#sub-menu').removeClass('open-sub');
     });
+
     // $('header .desk-menu .menu-container .menu .menu-item-has-children .back').on('click', function(e) {
     //     e.preventDefault();
     //     if(size <= 991){
@@ -291,9 +295,9 @@
         setNavigation();
         // cambiarMensajeSegunPantalla();
 
-        $('select#country_page').change(function(){
-            window.location = $(this).val();
-        });
+        // $('select#country_page').change(function(){
+        //     window.location = $(this).val();
+        // });
     });
 
     $(window).scroll(function(){
@@ -305,6 +309,7 @@
     $(window).resize(function(){
         windowSize();
     });
+
     let div = document.querySelector("#submenu");
 
     div.addEventListener("click", (e)=>{
@@ -316,6 +321,8 @@
         var path = window.location.pathname;
         path = decodeURIComponent(path);
         path = path.replace(/\//g, '');
+        size = $(document).width();
+
         $("nav a").each(function () {
             var href = $(this).attr('href');
             var strArray = href.split("/");
@@ -330,12 +337,14 @@
                 $(this).closest('li').removeClass('active');
             }
         });
-        if (document.getElementById("submenu").getElementsByClassName("active").length) {
-            // console.log("hay un elemento activo dentro del submenu")
-            document.getElementById('sub-menu').style.display = "block";
-            // $("#submenu_arrow").addClass('fill_arrow');
-            document.getElementById('submenu_arrow').style.transform = "rotate(180deg)";
-            flag_submenu=1;
+        if (size <= 991) {
+            if (document.getElementById("submenu").getElementsByClassName("active").length) {
+                // console.log("hay un elemento activo dentro del submenu")
+                document.getElementById('sub-menu').style.display = "block";
+                // $("#submenu_arrow").addClass('fill_arrow');
+                document.getElementById('submenu_arrow').style.transform = "rotate(180deg)";
+                flag_submenu=1;
+            }
         }
     }
     function cambiarMensajeSegunPantalla(){
