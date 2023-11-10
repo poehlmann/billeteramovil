@@ -10,6 +10,11 @@
 /*@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:400;src:url(../fonts/roboto/roboto-400.woff2) format("woff2");}*/
 /*@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:500;src:url(../fonts/roboto/roboto-500.woff2) format("woff2");}*/
 @font-face {
+    font-family: yape-icon;
+    src: url("../fonts/icons/yape-icon.woff") format('woff');
+    font-display: swap;
+}
+@font-face {
     font-family: Roboto-Regular;
     src: url("../fonts/roboto/Roboto-Regular.ttf") format('truetype'),
          url("../fonts/roboto/roboto-regular.woff") format('woff'),
@@ -28,6 +33,25 @@
     src: url("../fonts/roboto/Roboto-Medium.ttf") format('truetype'),
     url("../fonts/roboto/roboto-medium.woff") format('woff');
     font-display: swap;
+}
+.icon-yape {
+    font-family: "yape-icon",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-size: 23px;
+    color: #a59fb2;
+    margin-right: 8px;
+    margin-left: 16px;
+    float: inline-end;
+}
+.icon-yape:hover {
+    color: #10cbb4;
+}
+.angle-right-r:before {
+    content: "";
+}
+.icon-yape.angle-right-r:before {
+    content: "\f10b";
 }
 .loader
 {
@@ -1596,6 +1620,30 @@ text-shadow: rgb(0 0 0 / 30%) 1.1px 2.1px 4px;
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+.btn-neutral{
+    color: #7d758d!important;
+    border: 0.063rem solid #7d758d;
+    background-color: transparent;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 1rem;
+    border-radius: 8px!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto-Medium";
+    font-weight: 500;
+    transition: all .2s ease-in-out;
+    outline: none;
+    width: -webkit-fill-available;
+    margin-top: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    height: 2.75rem;
+}
+.btn-neutral:hover{
+    box-shadow: 0 0 6px #8c0d0d33, 0 2px 1px -2px #5270941f, 0 2px 1px #52709424;
 }
 @media (max-width: 992px) {
     .align-center-item{

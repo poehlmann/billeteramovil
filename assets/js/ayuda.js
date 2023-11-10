@@ -1,5 +1,49 @@
 $(document).ready(function () {
+
+    var tabnum = location.href.split("#").slice(-1)[0] ;
+    if(window.location.href.indexOf("#") > -1) {
+        $('#'+tabnum).addClass('in');
+        document.getElementById(tabnum).scrollIntoView();
+        var tab_link = document.querySelectorAll("a[href='#"+tabnum+"']");
+        var tab = tab_link[0];
+        console.log("tab",tab);
+        tab.classList.remove("collapsed");
+    }
+
     window.scrollTo(0,0);
+    size = $(document).width();
+    if (size >= 1199) {
+        $(".icon_down") .css('display','none');
+        $('.inner').css('display','block');
+    }else{
+        $(".icon_down") .css('display','block');
+        $('.inner').css('display','none');
+    }
+    $(".nest").on("click", function() {
+        if (size < 1199) {
+            if ($(this).next().hasClass("show")) {
+                $(this).next().removeClass("show");
+                $(this).next().slideUp(300);
+                $(this).find("div .icon_down").css({
+                    "-webkit-transform": "rotate(0deg)",
+                    "-moz-transform": "rotate(0deg)",
+                    "transform": "rotate(0deg)" /* For modern browsers(CSS3)  */
+                });
+            } else {
+                $(this).parent().parent().find("li .inner").removeClass("show");
+                $(this).parent().parent().find("li .inner").slideUp(300);
+                $(this).next().toggleClass("show");
+                $(this).next().slideToggle(300);
+                // $(this).next().find(".icon_down").filter(':after').style.transform = "rotate(180deg)";
+                $(this).find("div .icon_down").css({
+                    "-webkit-transform": "rotate(180deg)",
+                    "-moz-transform": "rotate(180deg)",
+                    "transform": "rotate(180deg)" /* For modern browsers(CSS3)  */
+                });
+            }
+        }
+    });
+
 
     jQuery(function () {
         var url = window.location.href;
