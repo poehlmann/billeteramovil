@@ -1,0 +1,57 @@
+[
+  {
+    "question": "¿Cuáles son los pasos para desvincular mi anterior dispositivo de Yape?",
+    "link": "https://www.yape.com.bo/centro_de_ayuda/temas-urgentes.html#cuales-son-los-pasos-para-desvincular-mi-anterior-dispositivo-yape",
+    "tags": ["celular","robo","robaron","cambiaste","cambie","cambiare"]
+  },
+  {
+    "question": "¿Cuáles son los pasos para desbloquear mi cuenta Yape?",
+    "link": "https://www.yape.com.bo/centro_de_ayuda/retirar-dinero-de-yape.html#como-puedo-retirar-dinero-de-los-cajeros-automaticos",
+    "tags": ["retirar","cajero automatico","sacar dinero"]
+  },
+  {
+    "question": "¿Cómo puedo retirar mi dinero de los cajeros automáticos del BCP?",
+    "link": "https://www.yape.com.bo/centro_de_ayuda/retirar-dinero-de-yape.html#como-puedo-retirar-dinero-de-los-cajeros-automaticos",
+    "tags": ["retirar","cajero automatico","sacar dinero"]
+  },
+  {
+    "question": "¿Cómo puedo retirar mi dinero de los cajeros del banco o agencias del BCP?",
+    "link": "https://www.yape.com.bo/centro_de_ayuda/retirar-dinero-de-yape.html#como-puedo-retirar-dinero-de-los-cajeros-del-banco-o-agencias-del-BCP",
+    "tags": ["retirar","agencias","cajeros del banco"]
+  },
+  {
+    "question": "¿Cómo puedo retirar mi dinero de los agentes BCP?",
+    "link": "https://www.yape.com.bo/centro_de_ayuda/retirar-dinero-de-yape.html#como-puedo-retirar-diner-de-los-agentes-bcp",
+    "tags": ["retirar","agentes BCP"]
+  },
+  {
+    "question": "¿Cuáles son los pasos para recuperar mi contraseña?",
+    "link": "https://www.yape.com.bo/centro_de_ayuda/temas-urgentes.html#cuales-son-los-pasos-para-recuperar-mi-contrasenha",
+    "tags": ["recuperar","contraseña","me olvide mi contrasñe","perdi mi contraseña","cambiar de contraseña","ayuda con mi contraseña"]
+  },
+  {
+    "question": "Realice una transferencia a través de mi Yape y no llego al Banco destino, ¿Dónde puedo reclamar?",
+    "link": "https://www.yape.com.bo/centro_de_ayuda/temas-urgentes.html#realice-una-transferencia-a-traves-de-mi-yape-y-no-llego-al-banco-destino",
+    "tags": ["problema","transferencia","error en transferencia","problema en transferencia","ayuda con transferencia","no llega la transferencia"]
+  },
+  {
+    "question": "¿Dónde puedo realizar consultas cuando existen fallas en la app de Yape?",
+    "link": "https://www.yape.com.bo/centro_de_ayuda/temas-urgentes.html#donde-puedo-realizar-consultas-cuando-existen-fallas-en-la-app-de-yape",
+    "tags": ["consulta sobre fallas","problemas con yape","reclamos","ayuda soporte","ayuda con mi yape"]
+  },
+  {
+    "question": "¿Cuáles son los límites transaccionales?",
+    "link": "https://www.yape.com.bo/centro_de_ayuda/enviar-y-recibir-yapeos.html#cuales-son-los-limites-transaccionales",
+    "tags": ["limite de transaccion","limites transaccionales","cuanto es lo maximo que puedo enviar","cuanto es el limite de envio"]
+  },
+  {
+    "question": "¿Cómo realizo una transferencia por QR?",
+    "link": "https://www.yape.com.bo/centro_de_ayuda/enviar-y-recibir-yapeos.html#como-realizo-una-transferencia-por-QR",
+    "tags": ["transferencia QR","como se envia por QR","como envio por QR","como pago por QR","envio por QR"]
+  },
+  {
+    "question": "¿Cómo puedo ver mi número de cuenta y mi saldo?",
+    "link": "https://www.yape.com.bo/centro_de_ayuda/sobre-tu-cuenta-yape.html#como-puedo-ver-mi-numero-de-cuenta-y-mi-saldo",
+    "tags": ["numero de cuenta","mi saldo","saldo","cuenta","cual es mi numero de cuenta","donde esta mi saldo"]
+  }
+]

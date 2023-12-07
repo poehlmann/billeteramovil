@@ -356,11 +356,11 @@
 }
 
 
-input {
-    position: absolute;
-    opacity: 0;
-    z-index: -1;
-}
+/*input {*/
+/*    position: absolute;*/
+/*    opacity: 0;*/
+/*    z-index: -1;*/
+/*}*/
 /* Accordion styles */
 .tabs-accordion {
     /* border-radius: 8px; */

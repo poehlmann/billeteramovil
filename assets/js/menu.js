@@ -1,4 +1,149 @@
+// Elasticlunr.js
+var config = {
+    expand: true
+};
+
+elasticlunr.synonyms = function (token) {
+    if (token === null || token === undefined) {
+        throw new Error('token should not be undefined');
+    }
+    switch (token) {
+        case 'platinum':
+            return 'spanish';
+        case 'e-tutoring':
+            return 'etutoring';
+        case 'tutoring':
+            return 'etutoring';
+        case 'tutor':
+            return 'etutoring';
+        default:
+            return token;
+    }
+};
+
+elasticlunr.Pipeline.registerFunction(elasticlunr.synonyms, 'synonyms');
+
+var index = elasticlunr(function () {
+    this.addField('question');
+    this.addField('tags');
+    this.setRef('link');
+    this.pipeline.before(elasticlunr.trimmer, elasticlunr.synonyms);
+});
+
+var displayResult = function(result){
+    $('.results').html('');
+    result.map(function(el){
+        // console.log("result",el.doc);
+        var li = $('<li></li>');
+        var a = $('<a href='+el.doc.link+' target="_self"><b>'+el.doc.question+'</b></a><i class="angle-right-r icon-yape"></i>');
+        li.append(a);
+        // li.append('<p>'+el.doc.answer+'</p>');
+        $('.results').append(li);
+    });
+    return result;
+}
+$('#clear').on('click', function(e) {
+    e.preventDefault();
+    // console.log('clear text.');
+    $("#text-search").val('');
+    $('.results').html('');
+    $('#clear').css('display', 'none');
+    $('.title_search').css("display","none");
+    $(".sin_resultados_hide").css("display","none");
+    $('#search_recomendation').css('display', 'block');
+    return false;
+});
+$(".search-js").on('click', function(){
+    var val = $("#text-search").val();
+    // console.log('searched for: '+val);
+    var result = index.search(val, config);
+    // console.log("result:",result);
+    displayResult(result);
+});
+
+$.ajax({
+    url: '../../library.json',
+    success: function(response){
+        // console.log(response);
+        $('button').prop('disabled', false);
+        response.map(function(el, i){
+            el.id = i;
+            index.addDoc(el);
+        });
+    },
+    error: function(jqxhr, status, exception) {
+        // console.log('Exception:', status);
+    },
+    dataType: 'json'
+});
+
+$(".input-search").on("keyup",(e)=>{
+    $('.title_search').css("display","none");
+    $('.result_search').css('display', 'none');
+    $("#searching").css("display","block");
+    var val = $("#text-search").val();
+    // console.log('searched for: '+val);
+    var result = index.search(val, config);
+    if(val!=""){
+        $('.results').html('');
+        $(".sin_resultados_hide").css("display","none");
+        $('.result_search').css('display', 'block');
+        $('#clear').css('display', 'block');
+        $('#search_recomendation').css('display', 'none');
+    }else{
+        $("#searching").css("display","none");
+        $(".sin_resultados_hide").css("display","none");
+        $('.result_search').css('display', 'none');
+        $('#clear').css('display', 'none');
+        $('#search_recomendation').css('display', 'block');
+    }
+    const timeoutSearch = setTimeout(function(){
+        $("#searching").css("display","none");
+        var resultado=displayResult(result);
+        if(resultado.length==0 && val!=""){
+            $('.title_search').css("display","none");
+            $(".sin_resultados_hide").css("display","block");
+            $("#mensaje_sin_resultados").html("No se encontraron<br>resultados para<br>'"+val+"'");
+            // console.log("hubieron resultados");
+        }else{
+            $('.title_search').css("display","block");
+            $(".sin_resultados_hide").css("display","none");
+            // console.log("sin resultados");
+        }
+    },1000);
+})
+// prevent submission on enter
+$(document).ready(function() {
+    // $(window).keydown(function(event){
+    //     if(event.keyCode == 13) {
+    //         event.preventDefault();
+    //         return false;
+    //     }
+    // });
+});
+// End Elasticlunr
+
+window.addEventListener('beforeunload', function (e) {
+    sessionStorage.clear()
+});
+
+$('#button-close').on('click', function() {
+    $('body').css('overflow-y', 'visible');
+    document.getElementById('window-search').style.display = 'none'
+});
+$('#close').on('click', function() {
+    $('body').css('overflow-y', 'visible');
+    document.getElementById('window-search').style.display = 'none'
+});
+function MakeSearch(){
+    document.getElementById('window-search').style.display='block';
+    let search = document.getElementById('text-search');
+    search.focus();
+    search.select();
+    $('body').css('overflow-y', 'hidden');
+}
 (function($) {
+
     if($(".footer-section").length !=0){
         document.getElementById('copyright').innerHTML = `<p style='padding: 3px;color:rgba(255, 255, 255, 0.7) !important;font-size: 14px !important;'>Yape Bolivia © ${new Date().getFullYear()}. Todos los derechos reservados.</p>`;
         document.getElementById('copyrightyear').innerHTML =  `<p style="padding: 3px;letter-spacing: 2px;font-size: 12px;"><a href="https://www.asfi.gob.bo/" target="_blank">Esta Entidad es
@@ -28,7 +173,7 @@
     // if("https://www.yape.com.bo/index.html"== window.document.location.href || "http://127.0.0.1:5500/index.html" == window.document.location.href){
     //     window.location.replace("https://www.yape.com.bo/");
     // }
-    document.querySelector('meta[property="og:image"]').setAttribute("content", realPath + '/assets/img/preview_yape.svg');
+    document.querySelector('meta[property="og:image"]').setAttribute("content", realPath + '/assets/img/preview_yape.png');
     $('.descarga_QR').click(function() {
         if( navigator.userAgent.match(/Android/i)
             || navigator.userAgent.match(/webOS/i)
@@ -67,6 +212,9 @@
     function detectMob() {
         return ( ( window.innerWidth <= 997 )  );
     }
+    function close(){
+        $('.window-search').css('display','none');
+    }
     function changeUrlMenu(){
         // document.getElementById("descarga_android").src = realPath + "/assets/img/soli-05.svg";
         $('.descarga_android').attr('src',realPath + "/assets/img/soli-05.svg");
@@ -104,7 +252,7 @@
         document.getElementById("menu_inicio").href = realPath+"/";
         document.getElementById("inicio_yape").href = realPath+"/";
         document.getElementById("menu_yape").href = realPath+"/yape/";
-        document.getElementById("menu_ayuda").href = realPath+"/ayuda/";
+        document.getElementById("menu_ayuda").href = realPath+"/centro_de_ayuda/";
         // document.getElementById("menu_billetera").href = realPath+"/billeteramovil/";
         document.getElementById("menu_seguridad").href = realPath+"/seguridad/";
         document.getElementById("menu_promociones").href = realPath+"/yapepromociones/";
@@ -330,6 +478,9 @@
             strArray = strArray.filter((a) => a);
             if ((strArray.indexOf(path) > -1)) {
                 $(this).closest('li').addClass('active');
+                if($(this).closest('a').hasClass("question_button")){
+                    $(this).closest('li').removeClass('active');
+                }
             } else {
                 if($(".pagina_principal").length!=0){
                     $("#inicio").addClass('active');
@@ -362,5 +513,7 @@
             // }
         // }, "jsonp");
     }
+
+
 
 })(jQuery);

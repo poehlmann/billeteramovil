@@ -86,6 +86,109 @@ header::before {
     height: 0;
 
 }
+.icon-yape-search{
+    font-family: "yape-icon",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-size: 20px;
+    color: #a59fb2;
+    margin-right: 10px;
+    margin-left: 10px;
+    float: inline-end;
+}
+.icon-yape:focus{
+    border: 2px solid #bd77c7!important;
+}
+.icon-yape.search-b:before {
+    content: "\f181";
+    color: #fff;
+
+}
+.small .icon-yape.search-b:before {
+    content: "\f181";
+    color: #10c9b3;
+}
+.icon-yape-question{
+    font-family: "yape-icon",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-size: 20px;
+    color: #a59fb2;
+    margin-right: 10px;
+    margin-left: 10px;
+    float: inline-end;
+}
+.icon-yape.question-circle-r:before{
+    content: "\f17e";
+    color: #fff;
+}
+.small .icon-yape.question-circle-r:before{
+    content: "\f17e";
+    color: #10c9b3;
+}
+.small .search_button{
+    border: 2px solid rgb(16, 201, 179);
+    color: #10c9b3;
+    background-color: #ffffff;
+}
+.small .search_button:hover{
+    background-color: #e5fffc;
+    border-color: #00ad97;
+    box-shadow: 0 0 6px #52709433, 0 2px 1px -2px #5270941f, 0 2px 1px #52709424;
+    margin-top: 0 !important;
+}
+.search_button{
+    height: 44px;
+    border: 2px solid rgb(255 255 255/30%);
+    border-radius: 8px!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    vertical-align: middle;
+    text-align: center;
+    flex-wrap: nowrap;
+    box-shadow: none;
+    color: #fff;
+    background-color: #8b3d99;
+}
+.search_button:hover{
+    border-color: #fff;
+    background-color: transparent;
+    box-shadow: 0 0 6px #52709433, 0 2px 1px -2px #5270941f, 0 2px 1px #52709424;
+}
+.small .question_button{
+    border: 2px solid rgb(16, 201, 179);
+    background-color: #ffffff;
+    color: #10c9b3 !important;
+}
+.small .question_button:hover{
+    background-color: #e5fffc;
+    border-color: #00ad97;
+    box-shadow: 0 0 6px #52709433, 0 2px 1px -2px #5270941f, 0 2px 1px #52709424;
+    margin-top: 0 !important;
+}
+.question_button{
+    height: 44px;
+    border: 2px solid rgb(255 255 255/30%);
+    border-radius: 8px!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    vertical-align: middle;
+    text-align: center;
+    flex-wrap: nowrap;
+    box-shadow: none;
+    color: #fff;
+    background-color: #8b3d99;
+    padding-right: 10px;
+}
+.question_button:hover{
+    border-color: #fff;
+    background-color: transparent;
+    box-shadow: 0 0 6px #52709433, 0 2px 1px -2px #5270941f, 0 2px 1px #52709424;
+}
 header .desk-menu {
     position: relative;
     width: 100%;
@@ -282,6 +385,9 @@ header .desk-menu .menu-container .menu {
     position: relative;
     display: flex;
     align-items: center;
+    align-items: center;
+    grid-gap: 5px;
+    gap: 15px;
     /*-webkit-transition: all 0.3s ease-in-out;*/
     /*-moz-transition: all 0.3s ease-in-out;*/
     /*-ms-transition: all 0.3s ease-in-out;*/
@@ -302,7 +408,7 @@ header .desk-menu .menu-container .menu > li {
     cursor: pointer;
     position: relative;
     overflow: inherit;
-    margin: 0 15px 0 15px;
+    /*margin: 0 0.5px;*/
 }
 header .desk-menu .menu-container .menu > li a {
     line-height: 60px;
@@ -517,7 +623,10 @@ header.small .desk-menu .box-menu {
     padding: 0;
 }
 header.small .desk-menu .box-menu ul li a {
-    color:#2c2044;
+    color:#69607b;
+    /*padding-top: 1rem;*/
+    /*padding-bottom: 1rem;*/
+    font-size: 16px !important;
 }
 .small .desk-menu .menu-header-container .menu >.menu-item:hover{
     border-bottom: solid 4px #10CBB4FF;
@@ -557,6 +666,12 @@ header .desk-menu li.menu-item-has-children .sub-menu li.active:hover{
     background-color: #eeeff1 !important;
     color: #10cbb4ff !important;
 }
+/*#adBlock{*/
+/*    display: none !important;*/
+/*}*/
+/*.gsc-adBlock{*/
+/*    display: none !important;*/
+/*}*/
 header .desk-menu li.menu-item-has-children .sub-menu li.active{
     /*border-bottom: solid 4px #10cbb4ff;*/
 
@@ -587,7 +702,13 @@ header .desk-menu li.menu-item-has-children .sub-menu li.active{
     /*border-bottom: solid 4px #10CBB4FF;*/
     margin-top: 4px;
 }
+@media (min-width: 992px){
+    .button_descarga_cel{
+        display: none !important;
+    }
+}
 @media (min-width: 992px) and (max-width: 1199px) {
+
     .small .desk-menu .menu-header-container .menu > li a{
         line-height: 63px;
     }
@@ -606,6 +727,9 @@ header .desk-menu li.menu-item-has-children .sub-menu li.active{
 }
 .flag-icon{
     margin-right: 10px;
+}
+.small .btn_cta:hover{
+    margin-top:0;
 }
 header .desk-menu .menu-container .menu>li .btn_cta{
     height: 45px;
@@ -633,10 +757,24 @@ header .desk-menu .menu-container .menu>li .btn_cta{
     align-items: center;
     justify-content: center;
 }
+.button_descarga_cel{
+    margin-top: 20px!important;
+    margin-bottom: 0 !important;
+    position: absolute !important;
+    right: 40px !important;
+    width: 125px !important;
+}
+.button_descarga_cel:hover{
+    margin-top: 20px!important;
+}
+
 /*.text-flag:before {*/
 /*    content: "Estás en el sitio web de Yape Bolivia. Elige tu país o región para ver el contenido sobre tu ubicación.";*/
 /*}*/
 @media (max-width: 991px) {
+    .header-search{
+        display: none;
+    }
     header{
         background-color: #FFFFFF ;
     }
@@ -690,7 +828,7 @@ header .desk-menu .menu-container .menu>li .btn_cta{
         margin-bottom: 0 !important;
     }
     .small .desk-menu .menu-header-container .menu > li a{
-        line-height: 40px;
+        line-height: normal;
     }
     .cell_button{
         display: none;
@@ -928,6 +1066,8 @@ header .desk-menu .menu-container .menu>li .btn_cta{
         float: left;
         margin: 0;
         text-align: left;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
     header .desk-menu .menu-container .menu > li a {
         position:relative;
@@ -1093,6 +1233,9 @@ header .desk-menu .menu-container .menu>li .btn_cta{
     }
 }
 @media (max-width: 481px) {
+    .button_descarga_cel{
+        display: none !important;
+    }
     header .desk-menu .logo-adn a {
         width: 100px;
         height: 30px;

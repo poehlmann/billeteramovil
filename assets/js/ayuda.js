@@ -1,13 +1,16 @@
 $(document).ready(function () {
-
+    console.log("location.href",location.href);
     var tabnum = location.href.split("#").slice(-1)[0] ;
     if(window.location.href.indexOf("#") > -1) {
-        $('#'+tabnum).addClass('in');
-        document.getElementById(tabnum).scrollIntoView();
-        var tab_link = document.querySelectorAll("a[href='#"+tabnum+"']");
-        var tab = tab_link[0];
-        console.log("tab",tab);
-        tab.classList.remove("collapsed");
+        if (tabnum!=""){
+            $('#'+tabnum).addClass('in');
+            document.getElementById(tabnum).scrollIntoView();
+            var tab_link = document.querySelectorAll("a[href='#"+tabnum+"']");
+            var tab = tab_link[0];
+            console.log("tab",tab);
+            tab.classList.remove("collapsed");
+            $('.window-search').css('display','none');
+        }
     }
 
     window.scrollTo(0,0);

@@ -35,9 +35,13 @@
 // });
 
 
-window.addEventListener('beforeunload', function (e) {
-    sessionStorage.clear()
+$('#input-search').on('click', function(){
+
 });
+
+if($("#search_button").length != 0) {
+
+}
 $(document).ready(function() {
     // var d1=new Date(); //yyyy-mm-dd hh:mm:ss
     // var d2=new Date("2023-08-15, 10:00:00"); //yyyy-mm-dd hh:mm:ss
@@ -85,7 +89,18 @@ $(document).ready(function() {
     let localhostPaht=curWwwPath.substring(0,pos);
     let projectName=pathName.substring(0,pathName.substring(1).indexOf('/')+1);
     let realPath=localhostPaht+projectName;
-
+    //
+    // Swal.fire({
+    //     width: "54vh",
+    //     padding: 32,
+    //     html: `<img  style=" width: -webkit-fill-available;" src="https://www.yape.com.bo/assets/img/not-found.svg" alt="QR de yape" placeholder="blur">
+    //                         <div class="yape-texto-purpura font-size-24 mt-16 mb-20" style="font-family: Roboto-Regular">Yaper@, estamos presentando lentitud en nuestra aplicación. Nos encontramos trabajando para solucionarlo</div>
+    //                         `,
+    //     confirmButtonColor: "#10CBB4",
+    //     confirmButtonText: `De acuerdo`,
+    //     showConfirmButton: true,
+    //     backdrop:true,
+    // })
     // if (!sessionStorage.getItem("popup")) {
         if("https://www.yape.com.bo/" == curWwwPath || "https://www.yape.com.bo/index.html"== curWwwPath || "http://127.0.0.1:5500/" == curWwwPath) {
             Swal.fire({

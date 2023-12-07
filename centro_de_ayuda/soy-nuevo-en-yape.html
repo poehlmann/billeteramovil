@@ -18,8 +18,8 @@
         content="¿Nuevo en Yape? Despeja tus dudas puntuales. No olvides usar nuestros canales de atención, facebook y banca por teléfono">
     <meta property="og:url" content="https://www.yape.com.bo/ayuda/soy-nuevo-en-yape.html">
     <meta property="og:site_name" content="Yape">
-    <meta property="og:image" content="https://www.yape.com.bo/assets/img/preview_yape.svg" >
-    <meta property="og:image:secure_url" content="https://www.yape.com.bo/assets/img/preview_yape.svg" >
+    <meta property="og:image" content="https://www.yape.com.bo/assets/img/preview_yape.png" >
+    <meta property="og:image:secure_url" content="https://www.yape.com.bo/assets/img/preview_yape.png" >
     <meta name="theme-color" content="#742384">
     <!-- Marcado JSON-LD generado por el Asistente para el marcado de datos estructurados de Google. -->
 
@@ -70,57 +70,55 @@
                             <a id="menu_inicio" href=""><img id="logo-menu-secundary" class="logo-menu" alt="logo" src=""></a>
                         </div>
                     </div>
+                    <input type="text" class="input-search hide_desktop" id="input-search" placeholder="¿Necesitas ayuda?" onclick="MakeSearch()">
+                    <a href="https://onelink.to/xurcbr" target="_blank" type="button"  class="btn_cta button_descarga_cel">Descargar Yape</a>
+
                     <nav class="box-menu">
                         <div id="menu-cel" class="menu-container">
-                            <!--                                <div class="menu-head">-->
-                            <!--                                    <span>Yape<i class="icon-user"></i></span>-->
-                            <!--                                </div>-->
-                            <!--                        <div class="menu-head">-->
-                            <!--                            <a id="menu_inicio2" href="" class="e1">-->
-                            <!--                                <img loading="lazy" class=" ls-is-cached lazyloaded" id="logo-menu2" src="" alt="Yape" title="Yape">-->
-                            <!--                            </a>-->
-                            <!--                        </div>-->
                             <div class="menu-header-container">
                                 <ul id="cd-primary-nav" class="menu main_nav">
                                     <li class="menu-item " id="inicio">
-                                        <a id="inicio_yape" href="">Inicio</a>
-                                    </li>
-                                    <li class="menu-item ">
-                                        <a id="menu_yape" href="">¿Qué es Yape?</a>
-                                    </li>
-                                    <li id="submenu" class="menu-item menu-item-has-children">
-                                        <a class="back"   href="#">Centro de Ayuda <img id="submenu_arrow" class="fill_arrow" src="" alt="yape"></a>
-                                        <ul id="sub-menu" class="sub-menu">
-                                            <li class="menu-item">
-                                                <a id="menu_ayuda" href="" class="menu_sec">Preguntas frecuentes</a>
-                                            </li>
-                                                                                       <li class="menu-item">
-                                              <a id="menu_soli_yape" href="" class="menu_sec">Ahora Soli es Yape</a>
-                                           </li>
-                                            <li class="menu-item">
-                                                <a id="menu_seguridad" href="" class="menu_sec">Seguridad</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item ">
-                                        <a id="menu_beneficios" href="">Beneficios</a>
-                                    </li>
-                                    <li class="menu-item ">
-                                        <a id="menu_promociones" href="">Promos</a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a id="menu_blog" href="">Blog</a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a id="menu_negocio" href="">Yape Negocios</a>
-                                    </li>
-                                    <li class="cell_button">
-                                        <a href="#" type="button" class="btn_cta descarga_QR">¡Regístrate!</a>
-                                    </li>
-                                    <div class="button_bottom">
+                                    <a id="inicio_yape" href="">Inicio</a>
+                                </li>
+                                <li id="submenu" class="menu-item menu-item-has-children">
+                                    <a class="back" href="#">Yaprendiendo<img id="submenu_arrow" class="fill_arrow" src="" alt="centro de ayuda de yape" width="17" height="17"></a>
+                                    <ul id="sub-menu" class="sub-menu">
+                                        <li class="menu-item">
+                                            <a id="menu_soli_yape" href="" class="menu_sec">Ahora Soli es Yape</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a id="menu_yape"  href="" class="menu_sec">¿Qué es Yape?</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a id="menu_seguridad" href="" class="menu_sec">Seguridad</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item ">
+                                    <a id="menu_beneficios" href="">Beneficios</a>
+                                </li>
+                                <li class="menu-item ">
+                                    <a id="menu_promociones" href="">Promos</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a id="menu_blog" href="">Blog</a>
+                                </li>
+                                <li class="menu-item mr-70">
+                                    <a id="menu_negocio" href="">Yapenegocios</a>
+                                </li>
+                                <li class="cell_button ">
+                                    <button href="#" type="button" id="search_button" class="search_button" onclick="MakeSearch()"><i class="icon-yape search-b"></i></button>
+                                </li>
+                                <li class="cell_button">
+                                    <a href="#" type="button"  class="btn_cta descarga_QR pl-10 pr-10">¡Regístrate!</a>
+                                </li>
+                                <div class="button_bottom">
                                     <a href="#" type="button" class="btn_cta_altern descarga_QR mr-5">¡Regístrate!</a>
                                     <a href="#" type="button" class="btn_cta ml-5 numero_wpp_soporte"><img id="submenu-whatsapp-phone" class="mr-5" width="15" heigth="15" src="" alt="whatsapp Yape Bolivia" >Escríbenos</a>
                                 </div>
+                                <li class="cell_button pr-4">
+                                    <a id="menu_ayuda" href="#" type="button" class="question_button"><i class="icon-yape question-circle-r"></i>Centro de ayuda</a>
+                                </li>
 
                                 </ul>
                             </div>
@@ -699,7 +697,62 @@
             </div>
         </div>
     </footer>
-
+        <div id="window-search" class="window-search">
+            <div class="header-search">
+                <div class="row" style="height: 66px;display: flex;">
+                    <div class="col-md-11 col-lg-10 col-xl-8" style="display: flex;justify-content: space-between;align-items: center;margin: 0.5rem auto;">
+                        <img alt="logo-busqueda-yape" height="50" style="height: 50px!important;" src="../assets/img/Logo_Bolivia_3.svg">
+                        <button id="close" style="display: flex;align-items: center;justify-content: center;" type="button" class="close font-size-14" aria-hidden="true">Cerrar <i class="close-r icon-yape font-size-16"></i></button>
+                    </div>
+                </div>
+            </div>
+            <hr style="margin:0">
+            <div class="container">
+                <form class="buttonIn" style="display:flex">
+                    <i id="button-close" class="arrow-left-r icon-yape onsurface-500 mt-20 hide_desktop ml-0"></i>
+                    <input type="text" id="text-search" class="input-search style-input-search-mobile" placeholder="Ingresa tu consulta...">
+                    <button id="clear" class="close-circle-b clear"></button>
+                </form>
+                <div class="sin_resultados_hide">
+                    <div id="sin_resultados" class="row mt-60 text-center">
+                        <img alt="busqueda yape" src="../assets/img/s-search-empty.svg">
+                        <span id="mensaje_sin_resultados" class="text-center"></span>
+                    </div>
+                </div>
+                <div id="searching" class="row mt-40">
+                    <div class="lds-spinner">
+                        <div class="ngcontent-plq-c38"></div>
+                        <div class="ngcontent-plq-c38"></div>
+                        <div class="ngcontent-plq-c38"></div>
+                        <div class="ngcontent-plq-c38"></div>
+                        <div class="ngcontent-plq-c38"></div>
+                        <div class="ngcontent-plq-c38"></div>
+                        <div class="ngcontent-plq-c38"></div>
+                        <div class="ngcontent-plq-c38"></div>
+                        <div class="ngcontent-plq-c38"></div>
+                        <div class="ngcontent-plq-c38"></div>
+                        <div class="ngcontent-plq-c38"></div>
+                        <div class="ngcontent-plq-c38"></div>
+                    </div>
+                </div>
+                <div class="result_search">
+                    <p class="title_search" >Resultado de la búsqueda:</p>
+                    <ul id="results" class="results"></ul>
+                </div>
+                <div class="align-recomendation" id="search_recomendation">
+                <p class="title_search_recomendation">Lo más buscado:</p>
+                <a href="/centro_de_ayuda/soy-nuevo-en-yape.html#como-funciona-yape" target="_self"><p class="link-faq">¿Cómo funciona Yape?<i class="angle-right-r icon-yape color-gray-white"></i></p></a>
+                <hr class="mb-0 mt-0">
+                <a href="/centro_de_ayuda/soy-nuevo-en-yape.html#necesito-abrir-una-cuenta-de-ahorros-para-tener-yape" target="_self"><p class="link-faq">¿Necesito abrir una cuenta de ahorros para tener Yape?<i class="angle-right-r icon-yape color-gray-white"></i></p></a>
+                <hr class="mb-0 mt-0">
+                <a href="/centro_de_ayuda/crear-tu-cuenta-yape.html#cuanto-tiempo-tengo-para-crear-mi-cuenta" target="_self"><p class="link-faq">¿Cuánto tiempo tengo para crear mi cuenta?<i class="angle-right-r icon-yape color-gray-white"></i></p></a>
+                <hr class="mb-0 mt-0">
+                <a href="/centro_de_ayuda/crear-tu-cuenta-yape.html#como-me-creo-mi-cuenta-en-yape" target="_self"><p class="link-faq">¿Cómo me creo mi cuenta en Yape?<i class="angle-right-r icon-yape color-gray-white"></i></p></a>
+                <hr class="mb-0 mt-0">
+                <a href="/centro_de_ayuda/sobre-tu-cuenta-yape.html#cuanto-dinero-puedo-tener-en-yape" target="_self"><p class="link-faq">¿Cuánto dinero puedo tener en Yape? <i class="angle-right-r icon-yape color-gray-white"></i></p></a>
+            </div>
+            </div>
+        </div>
     </div>
     <script src="../assets/js/jquery.min.js"></script>
 <!--    <script src="../assets/vendors/lazysizes.min.js"></script>-->
@@ -707,6 +760,7 @@
 <!--    <script src="../assets/js/theme-vendors.min.js"></script>-->
 <!--    <script src="../assets/js/theme.min.js"></script>-->
     <script src="../assets/js/theme-vendors.min.js"></script>
+    <script src="../assets/js/elasticlunr.min.js"></script>
     <script src="../assets/js/menu.min.js"></script>
     <script src="../assets/js/ayuda.js"></script>
     <script src="../assets/js/blog.min.js"></script>
