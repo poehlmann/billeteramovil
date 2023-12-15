@@ -1376,7 +1376,8 @@ h2 {
     list-style: none;
 }
 .align-recomendation{
-    margin-top:25px
+    margin-top:25px;
+    height: calc(100vh - 32rem);
 }
 /*.background_principal img{width:45vh !important; display: initial !important;}*/
 .background_principal .btn_cta{margin-bottom:20px!important;margin-top:30px!important;}
@@ -1392,7 +1393,8 @@ img{max-width:300px;height:auto;}
         left: 35px!important;
     }
     .align-recomendation{
-        margin-top:45px
+        margin-top:45px;
+        height: calc(100vh - 20rem);
     }
     .result_search{
         margin-top:90px

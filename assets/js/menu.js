@@ -30,18 +30,25 @@ var index = elasticlunr(function () {
     this.pipeline.before(elasticlunr.trimmer, elasticlunr.synonyms);
 });
 
-var displayResult = function(result){
+var displayResult = function(val,result){
     $('.results').html('');
     result.map(function(el){
         // console.log("result",el.doc);
         var li = $('<li></li>');
-        var a = $('<a href='+el.doc.link+' target="_self"><b>'+el.doc.question+'</b></a><i class="angle-right-r icon-yape"></i>');
+        var a = $('<a href='+el.doc.link+' target="_self">'+ createSearchResultBlurb(val,el.doc.question)+'</a><i class="angle-right-r icon-yape"></i>');
         li.append(a);
         // li.append('<p>'+el.doc.answer+'</p>');
         $('.results').append(li);
     });
     return result;
 }
+
+function createSearchResultBlurb(query, pageContent){
+    const reg = new RegExp(query,"gi");
+    pageContent = pageContent.replace(reg, `<strong class="highlight-search">${query}</strong>`);
+    return pageContent;
+}
+
 $('#clear').on('click', function(e) {
     e.preventDefault();
     // console.log('clear text.');
@@ -58,7 +65,7 @@ $(".search-js").on('click', function(){
     // console.log('searched for: '+val);
     var result = index.search(val, config);
     // console.log("result:",result);
-    displayResult(result);
+    displayResult(val,result);
 });
 
 $.ajax({
@@ -99,7 +106,7 @@ $(".input-search").on("keyup",(e)=>{
     }
     const timeoutSearch = setTimeout(function(){
         $("#searching").css("display","none");
-        var resultado=displayResult(result);
+        var resultado=displayResult(val,result);
         if(resultado.length==0 && val!=""){
             $('.title_search').css("display","none");
             $(".sin_resultados_hide").css("display","block");

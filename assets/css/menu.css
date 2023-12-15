@@ -86,6 +86,14 @@ header::before {
     height: 0;
 
 }
+.align-item-right{
+    display: flex;
+    justify-content: flex-end;
+}
+.highlight-search {
+    background-color: #f5e5f7;
+    color: #742384;
+}
 .icon-yape-search{
     font-family: "yape-icon",sans-serif;
     -webkit-font-smoothing: antialiased;
