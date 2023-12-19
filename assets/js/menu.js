@@ -260,6 +260,7 @@ function MakeSearch(){
         document.getElementById("inicio_yape").href = realPath+"/";
         document.getElementById("menu_yape").href = realPath+"/yape/";
         document.getElementById("menu_ayuda").href = realPath+"/centro_de_ayuda/";
+        document.getElementById("menu_ayuda_movil").href = realPath+"/centro_de_ayuda/";
         // document.getElementById("menu_billetera").href = realPath+"/billeteramovil/";
         document.getElementById("menu_seguridad").href = realPath+"/seguridad/";
         document.getElementById("menu_promociones").href = realPath+"/yapepromociones/";

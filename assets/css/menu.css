@@ -714,6 +714,9 @@ header .desk-menu li.menu-item-has-children .sub-menu li.active{
     .button_descarga_cel{
         display: none !important;
     }
+    .pl-desktop{
+        padding-left: 145px !important;
+    }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
 
@@ -780,6 +783,9 @@ header .desk-menu .menu-container .menu>li .btn_cta{
 /*    content: "Estás en el sitio web de Yape Bolivia. Elige tu país o región para ver el contenido sobre tu ubicación.";*/
 /*}*/
 @media (max-width: 991px) {
+    .pl-desktop{
+        padding-left: 35px !important;
+    }
     .header-search{
         display: none;
     }
