@@ -4,7 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="correcion centro de ayuda en menu movil" />
+    <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="correcion centro de ayuda en menu movil">
+      <change afterPath="$PROJECT_DIR$/assets/css/swiper-bundle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/yape_servicios_pasos.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/gsap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/swiper-bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/solipagos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/solipagos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/ayuda.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/ayuda.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/ayuda.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/ayuda.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/menu.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/menu.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/youtube-soli7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/ayuda.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/ayuda.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/ayuda.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/ayuda.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/js_principal.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/js_principal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/theme-vendors.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/theme-vendors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/theme-vendors.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/theme-vendors.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/crear-tu-cuenta-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/crear-tu-cuenta-yape.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/depositar-dinero-a-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/depositar-dinero-a-yape.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/enviar-y-recibir-yapeos.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/enviar-y-recibir-yapeos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/recargas-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/recargas-yape.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/retirar-dinero-de-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/retirar-dinero-de-yape.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/sobre-tu-cuenta-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/sobre-tu-cuenta-yape.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/soy-nuevo-en-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/soy-nuevo-en-yape.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/yape-para-tu-negocio.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/yape-para-tu-negocio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/yapeo-de-servicios.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/yapeo-de-servicios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library.json" beforeDir="false" afterPath="$PROJECT_DIR$/library.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seguridad/fraudes.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/fraudes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seguridad/proteccion.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/proteccion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seguridad/robo.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/robo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seguridad/seguridad.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/seguridad.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soli-ahora-es-yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/soli-ahora-es-yape/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +89,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/billeteramovil&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/billeteramovil/assets/img&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -61,8 +100,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\billeteramovil" />
       <recent name="C:\xampp\htdocs\billeteramovil\assets\img" />
+      <recent name="C:\xampp\htdocs\billeteramovil" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\billeteramovil\assets\img" />
@@ -155,7 +194,19 @@
       <workItem from="1702562316074" duration="13616000" />
       <workItem from="1702675693377" duration="1000" />
       <workItem from="1702957817254" duration="3529000" />
-      <workItem from="1703011543270" duration="2892000" />
+      <workItem from="1703011543270" duration="3567000" />
+      <workItem from="1703079839038" duration="1379000" />
+      <workItem from="1703168747704" duration="6037000" />
+      <workItem from="1703252922242" duration="613000" />
+      <workItem from="1704201675255" duration="5419000" />
+      <workItem from="1704301768464" duration="7340000" />
+      <workItem from="1704395346647" duration="3790000" />
+      <workItem from="1704462754060" duration="2206000" />
+      <workItem from="1704719752516" duration="7489000" />
+      <workItem from="1704803725966" duration="14166000" />
+      <workItem from="1704897205086" duration="4271000" />
+      <workItem from="1704920116074" duration="5696000" />
+      <workItem from="1704987320097" duration="10238000" />
     </task>
     <task id="LOCAL-00002" summary="correcion web">
       <created>1695079988123</created>
@@ -269,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703014370422</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="correcion centro de ayuda en menu movil">
+      <created>1703052822701</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1703052822701</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -12,12 +12,12 @@
         <item url="file://$PROJECT_DIR$/assets/js/config.min.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/entry.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/ganaconsoli_script.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/gsap.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/jquery.flagstrap.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/jquery.flagstrap.min.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/jquery.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/js_principal.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/lite-youtube.min.js" />
-        <item url="file://$PROJECT_DIR$/assets/js/lunr_functions.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/menu.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/preloader/preloader.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/promociones_script.min.js" />
@@ -26,6 +26,7 @@
         <item url="file://$PROJECT_DIR$/assets/js/soliaguinaldo_script.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/sw-utils.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/sweetalert2.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/swiper-bundle.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/theme-vendors.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/theme.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/video_youtube.min.js" />
@@ -45,12 +46,12 @@
       <root url="file://$PROJECT_DIR$/assets/js/config.min.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/entry.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/ganaconsoli_script.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/gsap.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/jquery.flagstrap.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/jquery.flagstrap.min.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/jquery.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/js_principal.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/lite-youtube.min.js" />
-      <root url="file://$PROJECT_DIR$/assets/js/lunr_functions.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/menu.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/preloader/preloader.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/promociones_script.min.js" />
@@ -59,6 +60,7 @@
       <root url="file://$PROJECT_DIR$/assets/js/soliaguinaldo_script.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/sw-utils.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/sweetalert2.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/swiper-bundle.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/theme-vendors.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/theme.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/video_youtube.min.js" />

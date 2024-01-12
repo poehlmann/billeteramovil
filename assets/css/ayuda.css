@@ -803,7 +803,25 @@ border-top: 0;
     padding-top: 7vh;
     height: 249px;
 }
+.question_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.question_container span{
+    color:#2c2044;
+}
+.panel-body p,.panel-body ol{
+    font-size: 16px;
+    color: #2c2044 !important;
+}
 @media (max-width: 991px){
+    .question_indent{
+        text-align: center;
+    }
+    .question_container{
+        flex-direction: column;
+    }
     .button_contact{
         padding: 4px;
         border-radius: 50px;
@@ -1099,6 +1117,55 @@ border-top: 0;
     align-items: center;
     align-content: center;
 }
+
+.swiper-container {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+}
+
+/* Swiper slides */
+.swiper-slide {
+    position: relative;
+}
+
+.slide-1 {
+    background-color: #e67204;
+}
+.slide-2 {
+    background-color: #3bab24;
+}
+.slide-3 {
+    background-color: #922b1d;
+}
+
+/* Slide captions */
+.slide-captions {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    color: #FFF;
+    z-index: 999;
+    transform: translateY(-50%);
+}
+.slide-captions .current-title {
+    font-size: 48px;
+}
+.slide-captions .current-subtitle {
+    font-size: 28px;
+}
+
+/* Swiper arrows */
+.swiper-pagination-bullet-active {
+    background-color: #fff;
+}
+
+/* Swiper pagination */
+.swiper-button-prev,
+.swiper-button-next {
+    color: #fff;
+}
+
 @media (max-width: 575px){
     .padding_h1{
         padding-top: 10px !important;

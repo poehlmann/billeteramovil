@@ -1,19 +1,44 @@
 $(document).ready(function () {
-    console.log("location.href",location.href);
+
+    // console.log("location.href",location.href);
     var tabnum = location.href.split("#").slice(-1)[0] ;
     if(window.location.href.indexOf("#") > -1) {
         if (tabnum!=""){
             $('#'+tabnum).addClass('in');
-            document.getElementById(tabnum).scrollIntoView();
+            // $(window).scrollTop( $("#"+tabnum).offset().top );
+        // .scrollTop( $("#topofthePage").offset().top );
+            window.scrollTo(0,0);
+            $('html,body').animate({
+                scrollTop: $("#"+tabnum).offset().top - 150
+            }, 0);
             var tab_link = document.querySelectorAll("a[href='#"+tabnum+"']");
             var tab = tab_link[0];
-            console.log("tab",tab);
+            // console.log("tab",tab);
             tab.classList.remove("collapsed");
             $('.window-search').css('display','none');
         }
     }
+    $('.pf_no').click(function () {
+        Swal.fire({
+            position: "center-center",
+            icon: "error",
+            title: "Tu respuesta fue enviada",
+            showConfirmButton: false,
+            timer: 1500
+        });
+    });
+    $('.pf_si').click(function () {
+        Swal.fire({
+            position: "center-center",
+            icon: "success",
+            title: "Tu respuesta fue enviada",
+            showConfirmButton: false,
+            timer: 1500
+        });
+    });
 
-    window.scrollTo(0,0);
+
+    // window.scrollTo(0,0);
     size = $(document).width();
     if (size >= 1199) {
         $(".icon_down") .css('display','none');
@@ -192,7 +217,7 @@ $(document).ready(function () {
         });
     }
 
-    var link_tutorial = 'https://www.youtube.com/embed/A5-9HGZuuwU';
+    var link_tutorial = 'https://www.youtube.com/embed/_iFIy-16-_o';
     var iframe_tutorial = document.createElement('iframe');
     iframe_tutorial.width="100%";
     iframe_tutorial.height="480px";

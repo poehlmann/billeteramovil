@@ -43,6 +43,10 @@ if($("#search_button").length != 0) {
 
 }
 $(document).ready(function() {
+    // https://swiperjs.com/
+// ===================== -->
+
+
     // var d1=new Date(); //yyyy-mm-dd hh:mm:ss
     // var d2=new Date("2023-08-15, 10:00:00"); //yyyy-mm-dd hh:mm:ss
     // if(d1>d2)

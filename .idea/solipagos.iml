@@ -8,5 +8,7 @@
     <orderEntry type="library" name="Swiper" level="application" />
     <orderEntry type="library" name="sweetalert2" level="application" />
     <orderEntry type="library" name="lazy-youtube-embed" level="application" />
+    <orderEntry type="library" name="swiper" level="application" />
+    <orderEntry type="library" name="gsap" level="application" />
   </component>
 </module>
