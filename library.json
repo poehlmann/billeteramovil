@@ -1,18 +1,8 @@
 [
   {
-    "question": "¿Cómo puedo retirar mi dinero de los cajeros automáticos del BCP?",
-    "link": "https://www.yape.com.bo/centro_de_ayuda/retirar-dinero-de-yape.html#como-puedo-retirar-dinero-de-los-cajeros-automaticos",
-    "tags": ["retirar","cajero automatico","sacar dinero"]
-  },
-  {
     "question": "¿Puedo retirar mi dinero de las ventanillas en agencias del BCP?",
     "link": "https://www.yape.com.bo/centro_de_ayuda/retirar-dinero-de-yape.html#como-puedo-retirar-dinero-de-los-cajeros-del-banco-o-agencias-del-BCP",
     "tags": ["retirar","agencias","ventanillas del banco"]
-  },
-  {
-    "question": "¿Cómo puedo retirar mi dinero de los agentes BCP?",
-    "link": "https://www.yape.com.bo/centro_de_ayuda/retirar-dinero-de-yape.html#como-puedo-retirar-diner-de-los-agentes-bcp",
-    "tags": ["retirar","agentes BCP"]
   },
   {
     "question": "¿Cuáles son los límites transaccionales?",
@@ -20,17 +10,12 @@
     "tags": ["limite de transaccion","limites transaccionales","cuanto es lo maximo que puedo enviar","cuanto es el limite de envio"]
   },
   {
-    "question": "¿Cómo realizo una transferencia por QR?",
-    "link": "https://www.yape.com.bo/centro_de_ayuda/enviar-y-recibir-yapeos.html#como-realizo-una-transferencia-por-QR",
-    "tags": ["transferencia QR","como se envia por QR","como envio por QR","como pago por QR","envio por QR"]
-  },
-  {
     "question": "¿Cómo puedo ver mi número de cuenta y mi saldo?",
     "link": "https://www.yape.com.bo/centro_de_ayuda/sobre-tu-cuenta-yape.html#como-puedo-ver-mi-numero-de-cuenta-y-mi-saldo",
     "tags": ["numero de cuenta","mi saldo","saldo","cuenta","cual es mi numero de cuenta","donde esta mi saldo"]
   },
   {
-    "question": "¿Cómo funciona Yape?",
+    "question": "¿Qué es Yape y cómo funciona?",
     "link": "https://www.yape.com.bo/centro_de_ayuda/soy-nuevo-en-yape.html#como-funciona-yape",
     "tags": ["yape","como funciona","que es yape"]
   },
@@ -70,7 +55,7 @@
     "tags": ["puedo manejar dolares en yape"]
   },
   {
-    "question": "¿En qué sistemas operativos puedo usar Yape?",
+    "question": "¿Con qué tipo de celular puedo utilizar Yape?",
     "link": "https://www.yape.com.bo/centro_de_ayuda/soy-nuevo-en-yape.html#en-que-sistemas-operativos-puedo-usar-yape",
     "tags": ["app store","play store"," app gallery"]
   },
@@ -120,7 +105,7 @@
     "tags": ["cual es mi cuenta de yape","a donde tienen que transferirme"]
   },
   {
-    "question": "Cuando pago un servicio, ¿Dónde puedo recoger mis facturas?",
+    "question": "Cuando pago un servicio, ¿dónde puedo recoger mis facturas?",
     "link": "https://www.yape.com.bo/centro_de_ayuda/sobre-tu-cuenta-yape.html#cuando-pago-un-servicio-donde-puedo-recoger-mis-facturas",
     "tags": ["quiero mi factura de luz","quiero mi factura de agua","quiero mis factura del gas"]
   },
@@ -187,7 +172,7 @@
   {
     "question": "¿Qué tipos de transacciones puedes hacer con Yape?",
     "link": "https://www.yape.com.bo/centro_de_ayuda/enviar-y-recibir-yapeos.html#que-tipos-de-transacciones-puedes-hacer-con-yape",
-    "tags": ["que puedo hacer con yape","como transfiero con yaoe","como envio con yape"]
+    "tags": ["que puedo hacer con yape","como transfiero con yape","como envio con yape"]
   },
   {
     "question": "¿Qué significa “yapear entre yaperos o enviar a otro Yape”?",
@@ -202,7 +187,7 @@
   {
     "question": "¿Cómo realizo una transferencia por QR?",
     "link": "https://www.yape.com.bo/centro_de_ayuda/enviar-y-recibir-yapeos.html#como-realizo-una-transferencia-por-QR",
-    "tags": ["enviar con QR","transferir con QR"]
+    "tags": ["transferencia QR","como se envia por QR","como envio por QR","como pago por QR","envio por QR"]
   },
   {
     "question": "¿Qué operadoras están disponibles para recargar crédito?",
@@ -300,14 +285,9 @@
     "tags": ["donde se guarda mi dinero"]
   },
   {
-    "question": "¿Cómo puede ser bloqueada mi cuenta Yape?",
-    "link": "https://www.yape.com.bo/centro_de_ayuda/temas-urgentes.html#como-puede-ser-bloqueada-mi-cuenta-yape",
-    "tags": ["como se bloquea mi yape","se bloqueo mi yape"]
-  },
-  {
     "question": "¿Cuáles son los pasos para desbloquear mi cuenta Yape?",
     "link": "https://www.yape.com.bo/centro_de_ayuda/temas-urgentes.html#cuales-son-los-pasos-para-desbloquear-mi-cuenta-yape",
-    "tags": ["desbloquear","desbloquear mi yape","sacar dinero"]
+    "tags": ["desbloquear","desbloquear mi yape","sacar dinero","bloqueada","se bloqueo mi yape","desbloqueo"]
   },
   {
     "question": "¿Qué hago en caso de pérdida o robo del celular?",
@@ -330,14 +310,9 @@
     "tags": ["recuperar","contraseña","me olvide mi contraseña","perdi mi contraseña","cambiar de contraseña","ayuda con mi contraseña"]
   },
   {
-    "question": "¿Qué pasa si olvidé el Código secreto?",
-    "link": "https://www.yape.com.bo/centro_de_ayuda/temas-urgentes.html#que-pasa-si-olvide-el-codigo-secreto",
-    "tags": ["olvide mi pin"]
-  },
-  {
-    "question": "¿Cuáles son los pasos para desvincular mi anterior dispositivo de Yape?",
-    "url": "https://www.yape.com.bo/centro_de_ayuda/temas-urgentes.html#cuales-son-los-pasos-para-desvincular-mi-anterior-dispositivo-yape",
-    "tags": ["celular","robo","robaron","cambiaste","cambie","cambiare"]
+    "question": "Cambié de celular y no puedo acceder a Yape",
+    "link": "https://www.yape.com.bo/centro_de_ayuda/temas-urgentes.html#cambie-de-celular-y-no-puedo-acceder-a-yape",
+    "tags": ["celular","robo","perdi","robaron","cambiaste","cambie","cambiare","desvincular"]
   },
   {
     "question": "Realice una transferencia a través de mi Yape y no llego al Banco destino, ¿Dónde puedo reclamar?",
@@ -368,15 +343,5 @@
     "question": "¿Puedo pagar la factura de gas domiciliario con Yape?",
     "link": "https://www.yape.com.bo/centro_de_ayuda/yapeo-de-servicios.html#puedo-pagar-el-gas-domiciliario-con-yape",
     "tags": ["gas","servicio"]
-  },
-  {
-    "question": "",
-    "link": "https://www.yape.com.bo/",
-    "tags": [""]
-  },
-  {
-    "question": "",
-    "link": "https://www.yape.com.bo/",
-    "tags": [""]
   }
 ]

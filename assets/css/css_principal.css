@@ -1717,6 +1717,25 @@ iframe{max-width:100%;border:0;}
     display: flex;
     align-items: center;
 }
+.faq-attetion-text{
+    color: #2c2044;
+    display: flex;
+    font-family: "Roboto-Regular";
+    padding-left: 8px;
+    font-size: .875rem;
+    align-items: center;
+
+}
+.fap-attention{
+    margin-top:10px;
+    margin-bottom:10px;
+    display: flex;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 14px 16px;
+    align-items: center;
+    background-color:#f6f4fb;
+}
 .btn_cta_social{
     display: flex;
     border: 0.063rem solid #7d758d;
@@ -2411,7 +2430,7 @@ button.close{padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance
 
 .active_phone{
     /*background-color: #3b60bd !important;*/
-    color: #fff !important;
+    /*color: #fff !important;*/
 }
 
 .map-responsive{

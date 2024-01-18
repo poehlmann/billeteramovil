@@ -189,7 +189,7 @@ if($("#soli_agentes_bcp_atm").length != 0) {
     function getposition()
     {
         if (window.navigator.geolocation) {
-            // console.log(window.navigator.geolocation);
+            console.log(window.navigator.geolocation);
 
             navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
 

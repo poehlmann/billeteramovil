@@ -2,16 +2,19 @@
 var config = {
     expand: true
 };
+// var elasticlunr = require('elasticlunr');
+// require('lunr.stemmer.support.js')(elasticlunr);
+// require('lunr.es.js')(elasticlunr);
 
 elasticlunr.synonyms = function (token) {
     if (token === null || token === undefined) {
         throw new Error('token should not be undefined');
     }
     switch (token) {
-        case 'platinum':
-            return 'spanish';
-        case 'e-tutoring':
-            return 'etutoring';
+        case 'desvincular':
+            return 'Cambié';
+        case 'perdi':
+            return 'Cambié';
         case 'tutoring':
             return 'etutoring';
         case 'tutor':
@@ -24,6 +27,7 @@ elasticlunr.synonyms = function (token) {
 elasticlunr.Pipeline.registerFunction(elasticlunr.synonyms, 'synonyms');
 
 var index = elasticlunr(function () {
+    // this.use(elasticlunr.es);
     this.addField('question');
     this.addField('tags');
     this.setRef('link');
@@ -89,7 +93,8 @@ $(".input-search").on("keyup",(e)=>{
     $('.result_search').css('display', 'none');
     $("#searching").css("display","block");
     var val = $("#text-search").val();
-    // console.log('searched for: '+val);
+    console.log('searched for: '+val);
+    console.log("config",config);
     var result = index.search(val, config);
     if(val!=""){
         $('.results').html('');
@@ -226,6 +231,7 @@ function MakeSearch(){
         // document.getElementById("descarga_android").src = realPath + "/assets/img/soli-05.svg";
         $('.descarga_android').attr('src',realPath + "/assets/img/soli-05.svg");
         $('.descarga_ios').attr('src',realPath + "/assets/img/soli-02.svg");
+        $('.descarga_appgallery').attr('src',realPath + "/assets/img/app-gallery.svg");
 
         if($(".footer-section").length !=0) {
             document.getElementById("footer-facebook").src = realPath + "/assets/img/ic_social_facebook_b.svg";

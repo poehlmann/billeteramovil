@@ -132,7 +132,7 @@ $(document).ready(function () {
             singleItem: true,
             loop: true,
             autoplay: true,
-            autoPlay: 3500
+            autoPlay: 100
         })
 
         owl.on('changed.owl.carousel', function (e) {

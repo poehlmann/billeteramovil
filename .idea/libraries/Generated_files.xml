@@ -18,6 +18,9 @@
         <item url="file://$PROJECT_DIR$/assets/js/jquery.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/js_principal.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/lite-youtube.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/lunr.es.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/lunr.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/lunr.stemmer.support.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/menu.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/preloader/preloader.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/promociones_script.min.js" />
@@ -52,6 +55,9 @@
       <root url="file://$PROJECT_DIR$/assets/js/jquery.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/js_principal.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/lite-youtube.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/lunr.es.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/lunr.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/lunr.stemmer.support.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/menu.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/preloader/preloader.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/promociones_script.min.js" />
