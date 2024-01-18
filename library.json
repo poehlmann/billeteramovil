@@ -343,5 +343,11 @@
     "question": "¿Puedo pagar la factura de gas domiciliario con Yape?",
     "link": "https://www.yape.com.bo/centro_de_ayuda/yapeo-de-servicios.html#puedo-pagar-el-gas-domiciliario-con-yape",
     "tags": ["gas","servicio"]
+  },
+  {
+    "question":"¿Cómo puedo cambiar la contraseña o pin de mi cuenta Yape?",
+    "link":"https://www.yape.com.bo/centro_de_ayuda/sobre-tu-cuenta-yape.html#como-puedo-cambiar-la-contrasena-o-pin-de-mi-cuenta-yape",
+    "tags":["PIN","contraseña"]
   }
+
 ]

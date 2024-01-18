@@ -987,7 +987,7 @@ h2 {
         font-family: Roboto-Medium;
     }
     .yape-texto-purpura {
-        color: #742384;
+        color: #742384 !important;
         color: var(#742384);
     }
     .yape-texto-black {
@@ -1594,6 +1594,7 @@ iframe{max-width:100%;border:0;}
 .font-size-90{font-size:90px!important;}
 .text-white{color:#fff!important;}
 .mr-5{margin-right: 5px;}
+.mr-20{margin-right: 20px!important;}
 .mr-70{margin-right: 70px!important;}
 .ml-5{margin-left: 5px;}
 .mb-10{margin-bottom:10px;}
@@ -2014,7 +2015,7 @@ text-shadow: rgb(0 0 0 / 30%) 1.1px 2.1px 4px;
     border:0 !important;
 }
 .color-dark-purple{
-    color:#3F0D4A;
+    color:#3F0D4A !important;
 }
 .btn-default{
     background-color: #F6E1F9;
