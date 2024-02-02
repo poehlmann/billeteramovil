@@ -80,7 +80,7 @@
     "tags": ["foto","para que la selfie","no quiero sacarme foto"]
   },
   {
-    "question": "¿Cuánto tiempo tengo para crear mi cuenta?",
+    "question": "¿Por qué no puedo crear mi cuenta en Yape?",
     "link": "https://www.yape.com.bo/centro_de_ayuda/crear-tu-cuenta-yape.html#cuanto-tiempo-tengo-para-crear-mi-cuenta",
     "tags": ["se cierra despues de un tiempo al crearme mi cuenta","porque se cierra al tiempo creando cuenta"]
   },
@@ -140,7 +140,7 @@
     "tags": ["sacar dinero de yape","retirar dinero","sacar del cajero"]
   },
   {
-    "question": "¿Cuál es el monto máximo y mínimo que puedo retirar?",
+    "question": "¿Cuál es el monto máximo y mínimo que puedo retirar de un cajero automático?",
     "link": "https://www.yape.com.bo/centro_de_ayuda/retirar-dinero-de-yape.html#cual-es-el-monto-maximo-y-minimo-que-puedo-retirar",
     "tags": ["monto maximo en yape","monto minimo en yape"]
   },
@@ -180,7 +180,7 @@
     "tags": ["enviar entre yapes","enviar a otro yape"]
   },
   {
-    "question": "¿Cuáles son los límites transaccionales?",
+    "question": "¿Cuáles son los límites que puedo enviar y recibir en Yape?",
     "link": "https://www.yape.com.bo/centro_de_ayuda/enviar-y-recibir-yapeos.html#cuales-son-los-limites-transaccionales",
     "tags": ["cuanto maximo puedo enviar","maximo de transferencia"]
   },
@@ -195,7 +195,7 @@
     "tags": ["lineas para recargar","operadoras","viva","tigo","entel"]
   },
   {
-    "question": "¿Cuál es el monto mínimo de recarga?",
+    "question": "¿Cuál es el monto mínimo de recarga de celular?",
     "link": "https://www.yape.com.bo/centro_de_ayuda/recargas-yape.html#cual-es-el-monto-minimo-de-recarga",
     "tags": ["monto minimo para entel","monto minimo para viva","monto minimo para tigo"]
   },
@@ -245,7 +245,7 @@
     "tags": ["mi tienda puede tener yape"]
   },
   {
-    "question": "¿Cómo me inscribo como negocio?",
+    "question": "¿Cómo me registro en Yape con mi negocio?",
     "link": "https://www.yape.com.bo/centro_de_ayuda/yape-para-tu-negocio.html#como-me-inscribo-como-yapenegocio",
     "tags": ["como registro mi negocio"]
   },
@@ -348,6 +348,11 @@
     "question":"¿Cómo puedo cambiar la contraseña o pin de mi cuenta Yape?",
     "link":"https://www.yape.com.bo/centro_de_ayuda/sobre-tu-cuenta-yape.html#como-puedo-cambiar-la-contrasena-o-pin-de-mi-cuenta-yape",
     "tags":["PIN","contraseña"]
-  }
+  },
+  {
+    "question":"¿Puedo crearle una cuenta de Yape a mi hijo o hija menor de edad?",
+    "link":"https://www.yape.com.bo/centro_de_ayuda/crear-tu-cuenta-yape.html#puedo-crearle-una-cuenta-de-yape-a-mi-hijo-o-hija-menor-de-edad",
+    "tags":["hijo","hija"]
+  },
 
 ]

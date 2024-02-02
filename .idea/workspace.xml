@@ -5,20 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="correcion centro de ayuda en menu movil">
-      <change afterPath="$PROJECT_DIR$/assets/img/yape_ACH2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/cliente-bloqueado.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/dispositivo-registrado-para-otro-numero.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/excedio-intentos-de-pin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/ups-tenemos-un-inconveniente.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/ayuda.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/ayuda.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/ayuda.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/ayuda.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/css_principal.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/css_principal.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/seguridad.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/seguridad.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/seguridad.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/seguridad.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/yape_crea_cuenta_2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/yape_crea_cuenta_3.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/ayuda.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/ayuda.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/ayuda.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/ayuda.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/js_principal.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/js_principal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/js_principal.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/js_principal.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/lunr_functions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/menu.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/menu.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/beneficios/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/beneficios/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/adios-al-efectivo/5-habitos-para-decirle-adios-al-uso-de-dinero-en-efectivo.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/adios-al-efectivo/5-habitos-para-decirle-adios-al-uso-de-dinero-en-efectivo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/adios-al-efectivo/dinero-electronico-efectivo-y-virtual-cuales-son-sus-diferencias.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/adios-al-efectivo/dinero-electronico-efectivo-y-virtual-cuales-son-sus-diferencias.html" afterDir="false" />
@@ -62,6 +68,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -91,6 +98,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -216,7 +224,15 @@
       <workItem from="1705150900975" duration="2758000" />
       <workItem from="1705333322710" duration="10473000" />
       <workItem from="1705408419347" duration="19718000" />
-      <workItem from="1705489142329" duration="14175000" />
+      <workItem from="1705489142329" duration="14841000" />
+      <workItem from="1705611932884" duration="1240000" />
+      <workItem from="1705690085573" duration="1169000" />
+      <workItem from="1706017520716" duration="5418000" />
+      <workItem from="1706056273548" duration="15121000" />
+      <workItem from="1706277418174" duration="16749000" />
+      <workItem from="1706536013442" duration="33435000" />
+      <workItem from="1706709140660" duration="23097000" />
+      <workItem from="1706878551114" duration="8673000" />
     </task>
     <task id="LOCAL-00002" summary="correcion web">
       <created>1695079988123</created>
@@ -344,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705029846364</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="correcion centro de ayuda en menu movil">
+      <created>1705553328088</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1705553328088</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

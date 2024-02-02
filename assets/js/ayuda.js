@@ -19,22 +19,21 @@ $(document).ready(function () {
         }
     }
     $('.pf_no').click(function () {
-        Swal.fire({
-            position: "center-center",
-            icon: "error",
-            title: "Tu respuesta fue enviada",
-            showConfirmButton: false,
-            timer: 1500
-        });
+        $(".nps_pf_container").css("display","none");
+        $(".box-response").css("display","flex");
+        setTimeout(function() {
+            $(".box-response").css("display","none");
+            $(".nps_pf_container").css("display","flex");
+        }, 7000);
+
     });
     $('.pf_si').click(function () {
-        Swal.fire({
-            position: "center-center",
-            icon: "success",
-            title: "Tu respuesta fue enviada",
-            showConfirmButton: false,
-            timer: 1500
-        });
+        $(".nps_pf_container").css("display","none");
+        $(".box-response").css("display","flex");
+        setTimeout(function() {
+            $(".box-response").css("display","none");
+            $(".nps_pf_container").css("display","flex");
+        }, 7000);
     });
 
 
@@ -206,15 +205,15 @@ $(document).ready(function () {
             }
             element.classList.add("active_phone");
         });
-        $('.phone7').click(function () {
-            owl.trigger('to.owl.carousel', 7);
-            owl.trigger('stop.owl.autoplay');
-            var element = document.getElementById("phone7");
-            if (document.querySelector('.customNavigation .active_phone') !== null) {
-                document.querySelector('.customNavigation .active_phone').classList.remove('active_phone');
-            }
-            element.classList.add("active_phone");
-        });
+        // $('.phone7').click(function () {
+        //     owl.trigger('to.owl.carousel', 7);
+        //     owl.trigger('stop.owl.autoplay');
+        //     var element = document.getElementById("phone7");
+        //     if (document.querySelector('.customNavigation .active_phone') !== null) {
+        //         document.querySelector('.customNavigation .active_phone').classList.remove('active_phone');
+        //     }
+        //     element.classList.add("active_phone");
+        // });
     }
 
     var link_tutorial = 'https://www.youtube.com/embed/_iFIy-16-_o';

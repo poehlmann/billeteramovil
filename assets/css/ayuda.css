@@ -110,7 +110,7 @@ li div.nest div{
     left: 45px;
      right: 74px;
     /* background-color: #6492c3; */
-    width: 72%;
+    width: 70%;
 /*!* border-radius: 28px;*/
 }
 
@@ -128,35 +128,35 @@ li div.nest div{
 }
 
 .slider__item--1 {
-    background-image: url("../img/yape_crea_cuenta_1.svg");
+    background-image: url("../img/crear_cuenta_1.png");
     background-size: contain;
 }
 .slider__item--2 {
-    background-image: url("../img/yape_crea_cuenta_2.svg");
+    background-image: url("../img/crear_cuenta_2.png");
     background-size: contain;
 }
 .slider__item--3 {
-    background-image: url("../img/yape_crea_cuenta_3.svg");
+    background-image: url("../img/crear_cuenta_3.png");
     background-size: contain;
 }
 .slider__item--4 {
-    background-image: url("../img/yape_crea_cuenta_4.svg");
+    background-image: url("../img/crear_cuenta_4.png");
     background-size: contain;
 }
 .slider__item--5 {
-    background-image: url("../img/yape_crea_cuenta_5.svg");
+    background-image: url("../img/crear_cuenta_5.png");
     background-size: contain;
 }
 .slider__item--6 {
-    background-image: url("../img/yape_crea_cuenta_6.svg");
+    background-image: url("../img/crear_cuenta_6.png");
     background-size: contain;
 }
 .slider__item--7 {
-    background-image: url("../img/yape_crea_cuenta_7.svg");
+    background-image: url("../img/crear_cuenta_7.png");
     background-size: contain;
 }
 .slider__item--8 {
-    background-image: url("../img/yape_crea_cuenta_8.svg");
+    background-image: url("../img/crear_cuenta_8.png");
     background-size: contain;
 }
 .slider__item--9 {

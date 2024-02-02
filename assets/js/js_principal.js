@@ -34,7 +34,51 @@
 //     }());
 // });
 
+//swiper
+const showcaseSlider = new Swiper(".home-showcaseSlider", {
+    speed: 1000,
+    slidesPerView: 1,
+    parallax: false,
+    loop: false,
+    watchSlidesVisibility: true,
+    centeredSlides: true,
+    autoplay: {
+        delay: 30000,
+        disableOnInteraction: false,
+    },
+    pagination: {
+        el: ".showcaseSlider-pagination",
+        clickable: true,
+    },
+    navigation: {
+        nextEl: '.showcaseSlider-next',
+        prevEl: '.showcaseSlider-prev',
+    },
+});
+// fin swiper
+// segundo swiper
 
+var swiper = new Swiper(".mySwiper", {
+    cssMode: true,
+    loop: false,
+    slidesPerView: 1,
+    speed: 1000,
+    autoplay: {
+        delay: 30000,
+        disableOnInteraction: false,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+        el: ".swiper-pagination",
+    },
+    mousewheel: true,
+    keyboard: true,
+});
+
+// fin segundo swiper
 $('#input-search').on('click', function(){
 
 });

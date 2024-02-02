@@ -36,6 +36,7 @@
         <item url="file://$PROJECT_DIR$/assets/js/youtube.min.js" />
         <item url="file://$PROJECT_DIR$/assets/vendors/owlcarousel/dist/owl.carousel.min.js" />
         <item url="file://$PROJECT_DIR$/sw.min.js" />
+        <item url="file://$PROJECT_DIR$/sw.min.min.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
@@ -73,6 +74,7 @@
       <root url="file://$PROJECT_DIR$/assets/js/youtube.min.js" />
       <root url="file://$PROJECT_DIR$/assets/vendors/owlcarousel/dist/owl.carousel.min.js" />
       <root url="file://$PROJECT_DIR$/sw.min.js" />
+      <root url="file://$PROJECT_DIR$/sw.min.min.js" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

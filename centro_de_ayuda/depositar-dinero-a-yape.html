@@ -184,10 +184,11 @@
                                                                <li><strong>Banco:</strong> Banco de Crédito de Bolivia.</li>
                                                            </ul>
                                                         </li>
-                                                        <li><img src="../assets/img/yape_numero_3.svg" class="mr-2">Agrega dinero a través de agentes BCP o cajeros automaticos BCP</li>
-                                                        <li><img src="../assets/img/yape_numero_4.svg" class="mr-2">Agrega/asocia tu tarjeta de BCP a Yape.</li>
+                                                        <li><img src="../assets/img/yape_numero_3.svg" class="mr-2">Agrega dinero a través de agentes BCP o cajeros automaticos BCP. <a href="#soli-ubicacion" onclick="getposition();return false;" type="button" role="button" data-toggle="modal" data-target="#soli-ubicacion"><strong>Conoce donde aquí</strong></a></li>
+
+<!--                                                        <li><img src="../assets/img/yape_numero_4.svg" class="mr-2">Agrega/asocia tu tarjeta de BCP a Yape.</li>-->
                                                     </ol>
-                                                    <p>También puede ver el siguiente video de Youtube</p>
+                                                    <p><strong>Mira este video para que sepas como agregar dinero a tu Yape</strong></p>
                                                         <iframe width="560" height="315" src="https://www.youtube.com/embed/_iFIy-16-_o?si=ilSu_RHXdMrQdTqA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
                                                     <div class="nps_pf_container mt-30" >
@@ -198,6 +199,11 @@
                                                             <div type="button" id="resp_no_como-puedo-depositar-dinero-en-efectivo-a-mi-cuenta-yape" class="pf_no">No</div>
                                                             <div type="button" id="resp_si_como-puedo-depositar-dinero-en-efectivo-a-mi-cuenta-yape" class="pf_si">Si</div>
                                                         </div>
+                                                    </div>
+                                                    <div class="box-response ">
+                                                        <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
+                                                        <img src="../assets/img/yapito_ok.svg">
+                                                        <span class="yape-texto-black">Tu opinión nos ayuda a mejorar la experiencia de millones de yaperos.</span>
                                                     </div>
                                                     <div class="mb-30 mt-30 question_container">
                                                         <span class="mb-20 question_indent"><strong>¿Te quedaste con alguna duda?</strong><br>Contáctanos en nuestro canals oficial:</span>
@@ -218,7 +224,7 @@
                                             <div id="existe-comision-por-retirar-o-depositar-dinero-en-yape" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                                                 <div class="panel-body">
                                                     <!--                                                        <h2 class="yape-texto-purpura mb-30">¿Necesito abrir una cuenta de ahorros para tener Yape?</h2>-->
-                                                    <p>Yape es completamente <strong>GRATIS</strong>, todas las funcionalidades que ofrecemos son sin costo alguno.</p>
+                                                    <p>No, Yape es completamente <strong>GRATIS</strong>, todas las funcionalidades que ofrecemos son sin costo alguno.</p>
                                                     <div class="nps_pf_container mt-30" >
                                                         <div>
                                                             <span class="font-weight-bold">¿Te fue útil esta información?</span>
@@ -227,6 +233,11 @@
                                                             <div type="button" id="resp_no_existe-comision-por-retirar-o-depositar-dinero-en-yape" class="pf_no">No</div>
                                                             <div type="button" id="resp_si_existe-comision-por-retirar-o-depositar-dinero-en-yape" class="pf_si">Si</div>
                                                         </div>
+                                                    </div>
+                                                    <div class="box-response ">
+                                                        <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
+                                                        <img src="../assets/img/yapito_ok.svg">
+                                                        <span class="yape-texto-black">Tu opinión nos ayuda a mejorar la experiencia de millones de yaperos.</span>
                                                     </div>
                                                     <div class="mb-30 mt-30 question_container">
                                                         <span class="mb-20 question_indent"><strong>¿Te quedaste con alguna duda?</strong><br>Contáctanos en nuestro canals oficial:</span>
@@ -257,6 +268,11 @@
                                                             <div type="button" id="resp_si_cual-es-el-monto-maximo-y-minimo-que-puedo-depositar" class="pf_si">Si</div>
                                                         </div>
                                                     </div>
+                                                    <div class="box-response ">
+                                                        <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
+                                                        <img src="../assets/img/yapito_ok.svg">
+                                                        <span class="yape-texto-black">Tu opinión nos ayuda a mejorar la experiencia de millones de yaperos.</span>
+                                                    </div>
                                                     <div class="mb-30 mt-30 question_container">
                                                         <span class="mb-20 question_indent"><strong>¿Te quedaste con alguna duda?</strong><br>Contáctanos en nuestro canals oficial:</span>
                                                         <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&amp;text=Hola,%20vengo%20de%20la%20web%20de%20Yape,%20%C2%BFCu%C3%A1l%20es%20el%20monto%20m%C3%A1ximo%20y%20m%C3%ADnimo%20que%20puedo%20yapear?" type="button" class="btn_cta_social  ml-5 "><img class="mr-5" width="20" heigth="20" src="../assets/img/ic_social_whatsapp_b_gray.svg" alt="whatsapp Yape Bolivia">WhatsApp</a>
@@ -276,7 +292,7 @@
                                             <div id="en-cuanto-tiempo-se-actualiza-mi-deposito" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
                                                 <div class="panel-body">
                                                     <!--                                                        <h2 class="yape-texto-purpura mb-30">¿Puedo sacar una tarjeta de débito o crédito Yape?</h2>-->
-                                                    <p>Las transferencias se actualizan inmediatamente se realizaron. Si ves que tu saldo no ha cambiado, cierra y vuelve a ingresar a la aplicación.<br>
+                                                    <p>Las transferencias se actualizan inmediatamente. Si ves que tu saldo no ha cambiado, cierra y vuelve a ingresar a la aplicación.<br>
                                                         En caso continue el problema, comunícate con nuestros canales de atención.</p>
                                                     <p>Escribe al <strong>Whatsapp oficial de Yape al 72007654 o <a target="_blank"  href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web%2C+Tengo+un+problema+con+mi+depósito">haciendo clíc aquí</a></strong></p>
                                                     <div class="nps_pf_container mt-30" >
@@ -287,6 +303,11 @@
                                                             <div type="button" id="resp_no_en-cuanto-tiempo-se-actualiza-mi-deposito" class="pf_no">No</div>
                                                             <div type="button" id="resp_si_en-cuanto-tiempo-se-actualiza-mi-deposito" class="pf_si">Si</div>
                                                         </div>
+                                                    </div>
+                                                    <div class="box-response ">
+                                                        <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
+                                                        <img src="../assets/img/yapito_ok.svg">
+                                                        <span class="yape-texto-black">Tu opinión nos ayuda a mejorar la experiencia de millones de yaperos.</span>
                                                     </div>
                                                     <div class="mb-30 mt-30 question_container">
                                                         <span class="mb-20 question_indent"><strong>¿Te quedaste con alguna duda?</strong><br>Contáctanos en nuestro canals oficial:</span>
@@ -304,6 +325,35 @@
             </div>
         </div>
     </section>
+
+    <div id="soli-ubicacion" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h2 class="font-weight-bold modal-title">Encuentra tu punto más cercano y empieza a recargar tu Yape o retirar dinero</h2>
+                </div>
+                <div class="row text-center flex-nowrap">
+                    <div class="col-md-4"><img loading="lazy" title="Punto de agencia bcp" class="lazyload img-fluid"
+                                               width="25%" height="auto" src="../assets/img/agencia.svg"
+                                               alt="punto de agencia bcp">
+                        <h3>Agencia BCP</h3></div>
+                    <div class="col-md-4"><img loading="lazy" title="Punto de agente bcp"
+                                               class="lazyload img-fluid" width="25%" height="auto"
+                                               src="../assets/img/agente.svg" alt="punto de agente bcp">
+                        <h3>Agente BCP</h3></div>
+                    <div class="col-md-4"><img loading="lazy" title="Punto de atm bcp" class="lazyload img-fluid"
+                                               width="25%" height="auto" src="../assets/img/atm.svg"
+                                               alt="punto de atm bcp">
+                        <h3>ATM BCP</h3></div>
+                </div>
+                <div class="modal-body map-responsive" id="soli_agentes_bcp_atm"></div>
+                <div class="modal-footer text-center">
+                    <button type="button" class="close btn_cta mb-20 mt-30" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <section class="wrapper pb-64 pt-64 bg-gray">
         <div id="header" class="container">
             <h2 class="mb-50 text-center yape-texto-purpura">¿Cómo te ayudamos?</h2>
@@ -616,7 +666,7 @@
                 <hr class="mb-0 mt-0">
                 <a href="/centro_de_ayuda/soy-nuevo-en-yape.html#necesito-abrir-una-cuenta-de-ahorros-para-tener-yape" target="_self"><p class="link-faq">¿Necesito abrir una cuenta de ahorros para tener Yape?<i class="angle-right-r icon-yape color-gray-white"></i></p></a>
                 <hr class="mb-0 mt-0">
-                <a href="/centro_de_ayuda/crear-tu-cuenta-yape.html#cuanto-tiempo-tengo-para-crear-mi-cuenta" target="_self"><p class="link-faq">¿Cuánto tiempo tengo para crear mi cuenta?<i class="angle-right-r icon-yape color-gray-white"></i></p></a>
+                <a href="/centro_de_ayuda/crear-tu-cuenta-yape.html#cuanto-tiempo-tengo-para-crear-mi-cuenta" target="_self"><p class="link-faq">¿Por qué no puedo crear mi cuenta en Yape?<i class="angle-right-r icon-yape color-gray-white"></i></p></a>
                 <hr class="mb-0 mt-0">
                 <a href="/centro_de_ayuda/crear-tu-cuenta-yape.html#como-me-creo-mi-cuenta-en-yape" target="_self"><p class="link-faq">¿Cómo me creo mi cuenta en Yape?<i class="angle-right-r icon-yape color-gray-white"></i></p></a>
                 <hr class="mb-0 mt-0">
