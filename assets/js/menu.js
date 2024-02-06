@@ -93,8 +93,8 @@ $(".input-search").on("keyup",(e)=>{
     $('.result_search').css('display', 'none');
     $("#searching").css("display","block");
     var val = $("#text-search").val();
-    console.log('searched for: '+val);
-    console.log("config",config);
+    // console.log('searched for: '+val);
+    // console.log("config",config);
     var result = index.search(val, config);
     if(val!=""){
         $('.results').html('');
