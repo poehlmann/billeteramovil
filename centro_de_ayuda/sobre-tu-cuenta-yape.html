@@ -80,32 +80,18 @@
                                     <li class="menu-item " id="inicio">
                                     <a id="inicio_yape" href="">Inicio</a>
                                 </li>
-                                <li id="submenu" class="menu-item menu-item-has-children">
-                                    <a class="back" href="#">Yaprendiendo<img id="submenu_arrow" class="fill_arrow" src="" alt="centro de ayuda de yape" width="17" height="17"></a>
-                                    <ul id="sub-menu" class="sub-menu">
-                                        <li class="menu-item">
-                                            <a id="menu_soli_yape" href="" class="menu_sec">Ahora Soli es Yape</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a id="menu_yape"  href="" class="menu_sec">¿Qué es Yape?</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a id="menu_seguridad" href="" class="menu_sec">Seguridad</a>
-                                        </li>
-                                    </ul>
-                                </li>
                                 <li class="menu-item ">
-                                    <a id="menu_beneficios" href="">Beneficios</a>
-                                </li>
-                                <li class="menu-item ">
-                                    <a id="menu_promociones" href="">Promos</a>
-                                </li>
-                                <li class="menu-item">
-                                    <a id="menu_blog" href="">Blog</a>
-                                </li>
-                                <li class="menu-item mr-70">
-                                    <a id="menu_negocio" href="">Yapenegocios</a>
-                                </li>
+                                        <a id="menu_negocio" href="">Negocios</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a id="menu_seguridad" href="" class="menu_sec">Seguridad</a>
+                                    </li>
+                                    <li class="menu-item ">
+                                        <a id="menu_promociones" href="">Promos</a>
+                                    </li>
+                                    <li class="menu-item mr-70">
+                                        <a id="menu_blog" href="">Blog</a>
+                                    </li>
                                 <li class="menu-item mr-70 hide_desktop">
                                     <a id="menu_ayuda_movil" href="">Centro de ayuda</a>
                                 </li>
@@ -185,6 +171,42 @@
                                                             <div type="button" id="resp_si_cuanto-dinero-puedo-tener-en-yape" class="pf_si">Si</div>
                                                         </div>
                                                     </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_cuanto-dinero-puedo-tener-en-yape" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_cuanto-dinero-puedo-tener-en-yape" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_cuanto-dinero-puedo-tener-en-yape">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" type='text' id="response_no_other_cuanto-dinero-puedo-tener-en-yape" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar2(this)" id="message_resp_no_cuanto-dinero-puedo-tener-en-yape" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_cuanto-dinero-puedo-tener-en-yape" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
+                                                    </div>
                                                     <div class="box-response ">
                                                         <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
                                                         <img src="../assets/img/yapito_ok.svg">
@@ -226,6 +248,42 @@
                                                             <div type="button" id="resp_si_donde-veo-mis-movimientos-en-yape" class="pf_si">Si</div>
                                                         </div>
                                                     </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_donde-veo-mis-movimientos-en-yape" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_donde-veo-mis-movimientos-en-yape" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_donde-veo-mis-movimientos-en-yape">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" type='text' id="response_no_other_donde-veo-mis-movimientos-en-yape" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar2(this)" id="message_resp_no_donde-veo-mis-movimientos-en-yape" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_donde-veo-mis-movimientos-en-yape" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
+                                                    </div>
                                                     <div class="box-response ">
                                                         <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
                                                         <img src="../assets/img/yapito_ok.svg">
@@ -241,13 +299,13 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="headingThree">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#como-puedo-ver-mi-numero-de-cuenta-y-mi-saldo" aria-expanded="false" aria-controls="collapseThree">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#como-puedo-consultar-mi-saldo" aria-expanded="false" aria-controls="collapseThree">
 <!--                                                        <img class="mr-2" width="25" height="25" alt="Yape preguntas" src="../assets/img/yape_numero_3.svg" />-->
                                                         ¿Cómo puedo consultar mi saldo?
                                                     </a>
                                                 </h4>
                                             </div>
-                                            <div id="como-puedo-ver-mi-numero-de-cuenta-y-mi-saldo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                            <div id="como-puedo-consultar-mi-saldo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                                                 <div class="panel-body">
                                                     <p>Sigue los siguientes pasos: </p>
                                                     <ol class="yape-texto-black list-hidden">
@@ -263,6 +321,42 @@
                                                             <div type="button" id="resp_no_como-puedo-ver-mi-numero-de-cuenta-y-mi-saldo" class="pf_no">No</div>
                                                             <div type="button" id="resp_si_como-puedo-ver-mi-numero-de-cuenta-y-mi-saldo" class="pf_si">Si</div>
                                                         </div>
+                                                    </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_como-puedo-ver-mi-numero-de-cuenta-y-mi-saldo" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_como-puedo-ver-mi-numero-de-cuenta-y-mi-saldo" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_como-puedo-ver-mi-numero-de-cuenta-y-mi-saldo">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" type='text' id="response_no_other_como-puedo-ver-mi-numero-de-cuenta-y-mi-saldo" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar2(this)" id="message_resp_no_como-puedo-ver-mi-numero-de-cuenta-y-mi-saldo" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_como-puedo-ver-mi-numero-de-cuenta-y-mi-saldo" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
                                                     </div>
                                                     <div class="box-response ">
                                                         <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
@@ -297,6 +391,42 @@
                                                             <div type="button" id="resp_no_cual-es-mi-numero-de-cuenta-yape" class="pf_no">No</div>
                                                             <div type="button" id="resp_si_cual-es-mi-numero-de-cuenta-yape" class="pf_si">Si</div>
                                                         </div>
+                                                    </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_cual-es-mi-numero-de-cuenta-yape" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_cual-es-mi-numero-de-cuenta-yape" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_cual-es-mi-numero-de-cuenta-yape">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" type='text' id="response_no_other_cual-es-mi-numero-de-cuenta-yape" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar2(this)" id="message_resp_no_cual-es-mi-numero-de-cuenta-yape" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_cual-es-mi-numero-de-cuenta-yape" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
                                                     </div>
                                                     <div class="box-response ">
                                                         <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
@@ -335,6 +465,42 @@
                                                             <div type="button" id="resp_si_cuando-pago-un-servicio-donde-puedo-recoger-mis-facturas" class="pf_si">Si</div>
                                                         </div>
                                                     </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_cuando-pago-un-servicio-donde-puedo-recoger-mis-facturas" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_cuando-pago-un-servicio-donde-puedo-recoger-mis-facturas" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_cuando-pago-un-servicio-donde-puedo-recoger-mis-facturas">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" type='text' id="response_no_other_cuando-pago-un-servicio-donde-puedo-recoger-mis-facturas" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar2(this)" id="message_resp_no_cuando-pago-un-servicio-donde-puedo-recoger-mis-facturas" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_cuando-pago-un-servicio-donde-puedo-recoger-mis-facturas" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
+                                                    </div>
                                                     <div class="box-response ">
                                                         <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
                                                         <img src="../assets/img/yapito_ok.svg">
@@ -350,13 +516,13 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="headingSix">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#que-puedo-hacer-si-tengo-problemas-al-crear-mi-cuenta-yape" aria-expanded="false" aria-controls="collapseSix">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#que-puedo-hacer-si-tengo-alguna-dificultad-al-crear-mi-cuenta-yape" aria-expanded="false" aria-controls="collapseSix">
 <!--                                                        <img class="mr-2" width="25" height="25" alt="Yape preguntas" src="../assets/img/yape_numero_6.svg" />-->
                                                         ¿Qué puedo hacer si tengo alguna dificultad al crear mi cuenta Yape?
                                                     </a>
                                                 </h4>
                                             </div>
-                                            <div id="que-puedo-hacer-si-tengo-problemas-al-crear-mi-cuenta-yape" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+                                            <div id="que-puedo-hacer-si-tengo-alguna-dificultad-al-crear-mi-cuenta-yape" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
                                                 <div class="panel-body">
                                                     <!--                                                        <h2 class="yape-texto-purpura mb-30">¿Puedo tener más de una cuenta Yape a mi nombre?</h2>-->
                                                     <p class="text-justify">Si tienes problemas para crear tu cuenta Yape, te recomendamos:</p>
@@ -382,6 +548,42 @@
                                                             <div type="button" id="resp_no_que-puedo-hacer-si-tengo-problemas-al-crear-mi-cuenta-yape" class="pf_no">No</div>
                                                             <div type="button" id="resp_si_que-puedo-hacer-si-tengo-problemas-al-crear-mi-cuenta-yape" class="pf_si">Si</div>
                                                         </div>
+                                                    </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_que-puedo-hacer-si-tengo-problemas-al-crear-mi-cuenta-yape" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_que-puedo-hacer-si-tengo-problemas-al-crear-mi-cuenta-yape" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_que-puedo-hacer-si-tengo-problemas-al-crear-mi-cuenta-yape">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" type='text' id="response_no_other_que-puedo-hacer-si-tengo-problemas-al-crear-mi-cuenta-yape" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar2(this)" id="message_resp_no_que-puedo-hacer-si-tengo-problemas-al-crear-mi-cuenta-yape" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_que-puedo-hacer-si-tengo-problemas-al-crear-mi-cuenta-yape" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
                                                     </div>
                                                     <div class="box-response ">
                                                         <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
@@ -421,6 +623,42 @@
                                                             <div type="button" id="resp_no_como-puedo-cambiar-la-contrasena-o-pin-de-mi-cuenta-yape" class="pf_no">No</div>
                                                             <div type="button" id="resp_si_como-puedo-cambiar-la-contrasena-o-pin-de-mi-cuenta-yape" class="pf_si">Si</div>
                                                         </div>
+                                                    </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_como-puedo-cambiar-la-contrasena-o-pin-de-mi-cuenta-yape" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_como-puedo-cambiar-la-contrasena-o-pin-de-mi-cuenta-yape" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_como-puedo-cambiar-la-contrasena-o-pin-de-mi-cuenta-yape">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" type='text' id="response_no_other_como-puedo-cambiar-la-contrasena-o-pin-de-mi-cuenta-yape" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar2(this)" id="message_resp_no_como-puedo-cambiar-la-contrasena-o-pin-de-mi-cuenta-yape" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_como-puedo-cambiar-la-contrasena-o-pin-de-mi-cuenta-yape" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
                                                     </div>
                                                     <div class="box-response ">
                                                         <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>

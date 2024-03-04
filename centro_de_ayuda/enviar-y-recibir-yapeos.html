@@ -80,32 +80,18 @@
                                     <li class="menu-item " id="inicio">
                                     <a id="inicio_yape" href="">Inicio</a>
                                 </li>
-                                <li id="submenu" class="menu-item menu-item-has-children">
-                                    <a class="back" href="#">Yaprendiendo<img id="submenu_arrow" class="fill_arrow" src="" alt="centro de ayuda de yape" width="17" height="17"></a>
-                                    <ul id="sub-menu" class="sub-menu">
-                                        <li class="menu-item">
-                                            <a id="menu_soli_yape" href="" class="menu_sec">Ahora Soli es Yape</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a id="menu_yape"  href="" class="menu_sec">¿Qué es Yape?</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a id="menu_seguridad" href="" class="menu_sec">Seguridad</a>
-                                        </li>
-                                    </ul>
-                                </li>
                                 <li class="menu-item ">
-                                    <a id="menu_beneficios" href="">Beneficios</a>
-                                </li>
-                                <li class="menu-item ">
-                                    <a id="menu_promociones" href="">Promos</a>
-                                </li>
-                                <li class="menu-item">
-                                    <a id="menu_blog" href="">Blog</a>
-                                </li>
-                                <li class="menu-item mr-70">
-                                    <a id="menu_negocio" href="">Yapenegocios</a>
-                                </li>
+                                        <a id="menu_negocio" href="">Negocios</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a id="menu_seguridad" href="" class="menu_sec">Seguridad</a>
+                                    </li>
+                                    <li class="menu-item ">
+                                        <a id="menu_promociones" href="">Promos</a>
+                                    </li>
+                                    <li class="menu-item mr-70">
+                                        <a id="menu_blog" href="">Blog</a>
+                                    </li>
                                 <li class="menu-item mr-70 hide_desktop">
                                     <a id="menu_ayuda_movil" href="">Centro de ayuda</a>
                                 </li>
@@ -183,6 +169,42 @@
                                                             <div type="button" id="resp_si_con-yape-puedo-enviar-y-recibir-dinero-de-otros-bancos" class="pf_si">Si</div>
                                                         </div>
                                                     </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_con-yape-puedo-enviar-y-recibir-dinero-de-otros-bancos" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_con-yape-puedo-enviar-y-recibir-dinero-de-otros-bancos" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_con-yape-puedo-enviar-y-recibir-dinero-de-otros-bancos">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" type='text' id="response_no_other_con-yape-puedo-enviar-y-recibir-dinero-de-otros-bancos" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar2(this)" id="message_resp_no_con-yape-puedo-enviar-y-recibir-dinero-de-otros-bancos" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_con-yape-puedo-enviar-y-recibir-dinero-de-otros-bancos" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
+                                                    </div>
                                                     <div class="box-response ">
                                                         <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
                                                         <img src="../assets/img/yapito_ok.svg">
@@ -231,6 +253,42 @@
                                                             <div type="button" id="resp_si_que-tipos-de-transacciones-puedes-hacer-con-yape" class="pf_si">Si</div>
                                                         </div>
                                                     </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_que-tipos-de-transacciones-puedes-hacer-con-yape" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_que-tipos-de-transacciones-puedes-hacer-con-yape" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_que-tipos-de-transacciones-puedes-hacer-con-yape">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" type='text' id="response_no_other_que-tipos-de-transacciones-puedes-hacer-con-yape" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar2(this)" id="message_resp_no_que-tipos-de-transacciones-puedes-hacer-con-yape" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_que-tipos-de-transacciones-puedes-hacer-con-yape" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
+                                                    </div>
                                                     <div class="box-response ">
                                                         <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
                                                         <img src="../assets/img/yapito_ok.svg">
@@ -274,6 +332,42 @@
                                                             <div type="button" id="resp_si_que-significa-yapear-entre-yaperos-o-enviar-a-otro-yape" class="pf_si">Si</div>
                                                         </div>
                                                     </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_que-significa-yapear-entre-yaperos-o-enviar-a-otro-yape" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_que-significa-yapear-entre-yaperos-o-enviar-a-otro-yape" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_que-significa-yapear-entre-yaperos-o-enviar-a-otro-yape">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" type='text' id="response_no_other_que-significa-yapear-entre-yaperos-o-enviar-a-otro-yape" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar2(this)" id="message_resp_no_que-significa-yapear-entre-yaperos-o-enviar-a-otro-yape" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_que-significa-yapear-entre-yaperos-o-enviar-a-otro-yape" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
+                                                    </div>
                                                     <div class="box-response ">
                                                         <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
                                                         <img src="../assets/img/yapito_ok.svg">
@@ -289,13 +383,13 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="headingFour">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#cuales-son-los-limites-transaccionales" aria-expanded="false" aria-controls="collapseFour">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#cuales-son-los-limites-que-puedo-enviar-y-recibir-en-yape" aria-expanded="false" aria-controls="collapseFour">
 <!--                                                        <img class="mr-2" width="25" height="25" alt="Yape preguntas" src="../assets/img/yape_numero_4.svg" />-->
                                                         ¿Cuáles son los límites que puedo enviar y recibir en Yape?
                                                     </a>
                                                 </h4>
                                             </div>
-                                            <div id="cuales-son-los-limites-transaccionales" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                            <div id="cuales-son-los-limites-que-puedo-enviar-y-recibir-en-yape" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
                                                 <div class="panel-body">
                                                     <!--                                                        <h2 class="yape-texto-purpura mb-30">¿Puedo sacar una tarjeta de débito o crédito Yape?</h2>-->
                                                     <p>Los montos límites transaccionales en Yape son:</p>
@@ -314,6 +408,42 @@
                                                             <div type="button" id="resp_no_cuales-son-los-limites-transaccionales" class="pf_no">No</div>
                                                             <div type="button" id="resp_si_cuales-son-los-limites-transaccionales" class="pf_si">Si</div>
                                                         </div>
+                                                    </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_cuales-son-los-limites-transaccionales" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_cuales-son-los-limites-transaccionales" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_cuales-son-los-limites-transaccionales">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" type='text' id="response_no_other_cuales-son-los-limites-transaccionales" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar2(this)" id="message_resp_no_cuales-son-los-limites-transaccionales" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_cuales-son-los-limites-transaccionales" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
                                                     </div>
                                                     <div class="box-response ">
                                                         <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
@@ -360,6 +490,42 @@
                                                             <div type="button" id="resp_no_como-realizo-una-transferencia-por-QR" class="pf_no">No</div>
                                                             <div type="button" id="resp_si_como-realizo-una-transferencia-por-QR" class="pf_si">Si</div>
                                                         </div>
+                                                    </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_como-realizo-una-transferencia-por-QR" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_como-realizo-una-transferencia-por-QR" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_como-realizo-una-transferencia-por-QR">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" type='text' id="response_no_other_como-realizo-una-transferencia-por-QR" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar2(this)" id="message_resp_no_como-realizo-una-transferencia-por-QR" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_como-realizo-una-transferencia-por-QR" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
                                                     </div>
                                                     <div class="box-response ">
                                                         <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>

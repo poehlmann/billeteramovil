@@ -19,22 +19,50 @@ $(document).ready(function () {
         }
     }
     $('.pf_no').click(function () {
-        $(".nps_pf_container").css("display","none");
-        $(".box-response").css("display","flex");
-        setTimeout(function() {
-            $(".box-response").css("display","none");
-            $(".nps_pf_container").css("display","flex");
-        }, 7000);
+        $(this).parent().parent().next().next().addClass("show_response");
+        $(this).parent().parent().addClass("hide_response");
+            // $(".nps_pf_container").css("display","none");
+            // $(".box-response-no").css("display","flex");
+    });
 
-    });
-    $('.pf_si').click(function () {
-        $(".nps_pf_container").css("display","none");
-        $(".box-response").css("display","flex");
+    $('.pf_no_fin').click(function () {
+        $(this).parent().addClass("hide_response").removeClass("show_response");
+        $(this).parent().next().addClass("show_response");
+
+
+        // $(".nps_pf_container").css("display","none");
+        // $(".box-response-no").css("display","none");
+        // $(".box-response").css("display","flex");
+        $('.message-response-no').val("");
+        $(".pf_no_fin").addClass('disabled');
         setTimeout(function() {
             $(".box-response").css("display","none");
             $(".nps_pf_container").css("display","flex");
         }, 7000);
     });
+
+    $('.pf_si').click(function () {
+        // if($(this).attr('id').split("resp_si_").pop() == location.href.split("#").slice(-1)[0]) {
+            $(this).parent().parent().next().addClass("show_response");
+            $(this).parent().parent().addClass("hide_response");
+        // }
+    });
+
+    $('.pf_si_fin').click(function () {
+        $(this).parent().addClass("hide_response").removeClass("show_response");
+        $(this).parent().next().next().addClass("show_response");
+
+        // $(".nps_pf_container").css("display","none");
+        // $(".box-response-si").css("display","none");
+        // $(".box-response").css("display","flex");
+        $('.message-response-si').val("");
+        $(".pf_si_fin").addClass('disabled');
+        setTimeout(function() {
+            $(".box-response").css("display","none");
+            $(".nps_pf_container").css("display","flex");
+        }, 7000);
+    });
+
 
 
     // window.scrollTo(0,0);

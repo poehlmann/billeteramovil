@@ -2,10 +2,6 @@
 var config = {
     expand: true
 };
-// var elasticlunr = require('elasticlunr');
-// require('lunr.stemmer.support.js')(elasticlunr);
-// require('lunr.es.js')(elasticlunr);
-
 elasticlunr.synonyms = function (token) {
     if (token === null || token === undefined) {
         throw new Error('token should not be undefined');
@@ -15,10 +11,6 @@ elasticlunr.synonyms = function (token) {
             return 'Cambié';
         case 'perdi':
             return 'Cambié';
-        case 'tutoring':
-            return 'etutoring';
-        case 'tutor':
-            return 'etutoring';
         default:
             return token;
     }
@@ -163,13 +155,6 @@ function MakeSearch(){
                                 Bolivia S.A. Av. Hernando Siles N.º 5555, edificio “Torre Empresarial ESIMSA”, en la zona
                                 de Obrajes de la ciudad de La Paz</p>`;
     }
-    // if ($("#text-flag").length != 0) {
-    //     if (window.innerWidth <= 997) {
-    //         document.getElementById('text-flag').innerHTML = "Estás en el sitio web de Yape Bolivia.";
-    //     } else {
-    //         document.getElementById('text-flag').innerHTML = "Estás en el sitio web de Yape Bolivia. Elige tu país o región para ver el contenido sobre tu ubicación.";
-    //     }
-    // }
     var size;
     // Obtenga la URL actual, como: http: // localhost: 8083 / myproj / view / my.jsp
     let curWwwPath=window.document.location.href;
@@ -255,16 +240,16 @@ function MakeSearch(){
         if($("#header").hasClass("cell") == 0) {
             if ($("#logo-menu-secundary").length == 0) {
                 document.getElementById("logo-menu").src = realPath + "/assets/img/Logo_Bolivia_2.svg";
-                document.getElementById("submenu_arrow").src = realPath+"/assets/img/ic_angle_down_r_small-white.svg";
+                // document.getElementById("submenu_arrow").src = realPath+"/assets/img/ic_angle_down_r_small-white.svg";
             } else {
-                document.getElementById("submenu_arrow").src = realPath+"/assets/img/ic_angle_down_r_small.svg";
+                // document.getElementById("submenu_arrow").src = realPath+"/assets/img/ic_angle_down_r_small.svg";
                 document.getElementById("logo-menu-secundary").src = realPath + "/assets/img/Logo_Bolivia_3.svg";
             }
         }
 
         document.getElementById("menu_inicio").href = realPath+"/";
         document.getElementById("inicio_yape").href = realPath+"/";
-        document.getElementById("menu_yape").href = realPath+"/yape/";
+        // document.getElementById("menu_yape").href = realPath+"/yape/";
         document.getElementById("menu_ayuda").href = realPath+"/centro_de_ayuda/";
         document.getElementById("menu_ayuda_movil").href = realPath+"/centro_de_ayuda/";
         // document.getElementById("menu_billetera").href = realPath+"/billeteramovil/";
@@ -272,15 +257,62 @@ function MakeSearch(){
         document.getElementById("menu_promociones").href = realPath+"/yapepromociones/";
         document.getElementById("menu_blog").href = realPath+"/blog/";
         document.getElementById("menu_negocio").href = realPath+"/yapenegocios/";
-        document.getElementById("menu_beneficios").href = realPath+"/beneficios/";
+        // document.getElementById("menu_beneficios").href = realPath+"/beneficios/";
 
 
 
         document.getElementById("submenu-whatsapp-phone").src = realPath+"/assets/img/whatsapp.png";
-        document.getElementById("menu_soli_yape").href = realPath+"/soli-ahora-es-yape/";
+        // document.getElementById("menu_soli_yape").href = realPath+"/soli-ahora-es-yape/";
         $('.terminos_condiciones').attr('href',realPath+"/contrato-prestacion-servicio.html");
         $('.numero_wpp_soporte').attr('href', 'https://api.whatsapp.com/send?phone=+59172007654&text=%C2%A1Hola!%20Vengo%20de%20la%20web%20y%20necesito%20ayuda,%20por%20favor.%20%F0%9F%91%A8%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB%F0%9F%91%A9%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB');
 
+        if($('#swiper-home').length != 0){
+            //swiper
+            const showcaseSlider = new Swiper(".home-showcaseSlider", {
+                speed: 1000,
+                slidesPerView: 1,
+                parallax: false,
+                loop: false,
+                watchSlidesVisibility: true,
+                centeredSlides: true,
+                autoplay: {
+                    delay: 30000,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: ".showcaseSlider-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.showcaseSlider-next',
+                    prevEl: '.showcaseSlider-prev',
+                },
+            });
+            // fin swiper
+            // segundo swiper
+
+            var swiper = new Swiper(".mySwiper", {
+                cssMode: true,
+                loop: false,
+                slidesPerView: 1,
+                speed: 1000,
+                autoplay: {
+                    delay: 30000,
+                    disableOnInteraction: false,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                },
+                mousewheel: true,
+                keyboard: true,
+            });
+
+            // fin segundo swiper
+        }
         // //ahora verificaremos si es movil
         // let e = document.getElementById("phone_expo");
         // if( navigator.userAgent.match(/Android/i)
@@ -308,7 +340,7 @@ function MakeSearch(){
                 $('#header-home').addClass('small');
                 $('#title_principal').addClass('space_smart');
             }
-            document.getElementById("submenu_arrow").src = realPath+"/assets/img/ic_angle_down_r_small.svg";
+            // document.getElementById("submenu_arrow").src = realPath+"/assets/img/ic_angle_down_r_small.svg";
             document.getElementById("logo-menu").src=realPath+"/assets/img/Logo_Bolivia_3.svg";
         }else {
             // $('#header-sroll').removeClass('small');
@@ -319,7 +351,7 @@ function MakeSearch(){
                 $('#header-home').removeClass('small');
                 $('#title_principal').addClass('space_smart');
             }
-            document.getElementById("submenu_arrow").src = realPath+"/assets/img/ic_angle_down_r_small-white.svg";
+            // document.getElementById("submenu_arrow").src = realPath+"/assets/img/ic_angle_down_r_small-white.svg";
             document.getElementById("logo-menu").src=realPath+"/assets/img/Logo_Bolivia_2.svg";
         }
         windowSize();
@@ -345,7 +377,7 @@ function MakeSearch(){
             }
             // console.log("no esta agregando la clase",realPath+"/assets/img/Logo_Bolivia_3.svg");
             if($("#logo-menu").length != 0) {
-                document.getElementById("submenu_arrow").src = realPath+"/assets/img/ic_angle_down_r_small.svg";
+                // document.getElementById("submenu_arrow").src = realPath+"/assets/img/ic_angle_down_r_small.svg";
                 document.getElementById("logo-menu").src = realPath + "/assets/img/Logo_Bolivia_3.svg";
             }
         }
@@ -454,7 +486,7 @@ function MakeSearch(){
 
     $(document).ready(function(){
         windowSize();
-        setNavigation();
+        // setNavigation();
         // cambiarMensajeSegunPantalla();
 
         // $('select#country_page').change(function(){
@@ -472,12 +504,12 @@ function MakeSearch(){
         windowSize();
     });
 
-    let div = document.querySelector("#submenu");
-
-    div.addEventListener("click", (e)=>{
-        var event = new Event('touch');
-        e.target.dispatchEvent(event)
-    });
+    // let div = document.querySelector("#submenu");
+    //
+    // div.addEventListener("click", (e)=>{
+    //     var event = new Event('touch');
+    //     e.target.dispatchEvent(event)
+    // });
     function setNavigation() {
         let flag = 0;
         var path = window.location.pathname;

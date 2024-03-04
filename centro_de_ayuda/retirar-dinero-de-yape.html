@@ -80,32 +80,18 @@
                                     <li class="menu-item " id="inicio">
                                     <a id="inicio_yape" href="">Inicio</a>
                                 </li>
-                                <li id="submenu" class="menu-item menu-item-has-children">
-                                    <a class="back" href="#">Yaprendiendo<img id="submenu_arrow" class="fill_arrow" src="" alt="centro de ayuda de yape" width="17" height="17"></a>
-                                    <ul id="sub-menu" class="sub-menu">
-                                        <li class="menu-item">
-                                            <a id="menu_soli_yape" href="" class="menu_sec">Ahora Soli es Yape</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a id="menu_yape"  href="" class="menu_sec">¿Qué es Yape?</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a id="menu_seguridad" href="" class="menu_sec">Seguridad</a>
-                                        </li>
-                                    </ul>
-                                </li>
                                 <li class="menu-item ">
-                                    <a id="menu_beneficios" href="">Beneficios</a>
-                                </li>
-                                <li class="menu-item ">
-                                    <a id="menu_promociones" href="">Promos</a>
-                                </li>
-                                <li class="menu-item">
-                                    <a id="menu_blog" href="">Blog</a>
-                                </li>
-                                <li class="menu-item mr-70">
-                                    <a id="menu_negocio" href="">Yapenegocios</a>
-                                </li>
+                                        <a id="menu_negocio" href="">Negocios</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a id="menu_seguridad" href="" class="menu_sec">Seguridad</a>
+                                    </li>
+                                    <li class="menu-item ">
+                                        <a id="menu_promociones" href="">Promos</a>
+                                    </li>
+                                    <li class="menu-item mr-70">
+                                        <a id="menu_blog" href="">Blog</a>
+                                    </li>
                                 <li class="menu-item mr-70 hide_desktop">
                                     <a id="menu_ayuda_movil" href="">Centro de ayuda</a>
                                 </li>
@@ -163,13 +149,13 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="headingOne">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed"  role="button" data-toggle="collapse" data-parent="#accordion" href="#como-puedo-retirar-dinero-de-los-cajeros-automaticos" aria-expanded="false" aria-controls="collapseOne">
+                                                    <a class="collapsed"  role="button" data-toggle="collapse" data-parent="#accordion" href="#como-puedo-retirar-mi-dinero-de-los-cajeros-automaticos-del-bcp" aria-expanded="false" aria-controls="collapseOne">
 <!--                                                        <img class="mr-2" width="25" height="25" alt="Yape preguntas" src="../assets/img/yape_numero_1.svg" />-->
                                                         ¿Cómo puedo retirar mi dinero de los cajeros automáticos del BCP?
                                                     </a>
                                                 </h4>
                                             </div>
-                                            <div id="como-puedo-retirar-dinero-de-los-cajeros-automaticos" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                                            <div id="como-puedo-retirar-mi-dinero-de-los-cajeros-automaticos-del-bcp" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                                                 <div class="panel-body">
                                                     <!--                                                        <h2 class="yape-texto-purpura mb-30">¿Qué es Yape y cómo funciona?</h2>-->
                                                     <p>Puedes retirar dinero de un cajero BCP de la siguiente manera: </p>
@@ -191,6 +177,7 @@
                                                         <li><img src="../assets/img/yape_numero_8.svg" class="mr-2">Presiona “continuar” en el cajero automático </li>
                                                         <li><img src="../assets/img/yape_numero_9.svg" class="mr-2">¡Y listo! </li>
                                                     </ol>
+                                                    <p>Encuentra tu cajero BCP más cercano. <a href="#cajeros-ubicacion" onclick="mapa_cajeros();return false;" type="button" role="button" data-toggle="modal" data-target="#cajeros-ubicacion"><strong>Conoce donde aquí</strong></a></p>
                                                     <p><strong>Mira este video para que sepas como retirar dinero de tu Yape</strong></p>
                                                         <iframe width="550" height="305" src="https://www.youtube.com/embed/hSSavAkkm78?si=3wKZzqVQ2pZkkpJG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -205,6 +192,42 @@
                                                             <div type="button" id="resp_no_como-puedo-retirar-dinero-de-los-cajeros-automaticos" class="pf_no">No</div>
                                                             <div type="button" id="resp_si_como-puedo-retirar-dinero-de-los-cajeros-automaticos" class="pf_si">Si</div>
                                                         </div>
+                                                    </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_como-puedo-retirar-dinero-de-los-cajeros-automaticos" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_como-puedo-retirar-dinero-de-los-cajeros-automaticos" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_como-puedo-retirar-dinero-de-los-cajeros-automaticos">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" type='text' id="response_no_other_como-puedo-retirar-dinero-de-los-cajeros-automaticos" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar2(this)" id="message_resp_no_como-puedo-retirar-dinero-de-los-cajeros-automaticos" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_como-puedo-retirar-dinero-de-los-cajeros-automaticos" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
                                                     </div>
                                                     <div class="box-response ">
                                                         <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
@@ -221,13 +244,13 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="headingTwo">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#cual-es-el-monto-maximo-y-minimo-que-puedo-retirar" aria-expanded="false" aria-controls="collapseTwo">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#cual-es-el-monto-maximo-y-minimo-que-puedo-retirar-de-un-cajero-automatico-bcp" aria-expanded="false" aria-controls="collapseTwo">
 <!--                                                        <img class="mr-2" width="25" height="25" alt="Yape preguntas" src="../assets/img/yape_numero_2.svg" />-->
-                                                        ¿Cuál es el monto máximo y mínimo que puedo retirar de un cajero automático?
+                                                        ¿Cuál es el monto máximo y mínimo que puedo retirar de un cajero automático BCP?
                                                     </a>
                                                 </h4>
                                             </div>
-                                            <div id="cual-es-el-monto-maximo-y-minimo-que-puedo-retirar" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                            <div id="cual-es-el-monto-maximo-y-minimo-que-puedo-retirar-de-un-cajero-automatico-bcp" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                                                 <div class="panel-body">
                                                     <!--                                                        <h2 class="yape-texto-purpura mb-30">¿Necesito abrir una cuenta de ahorros para tener Yape?</h2>-->
                                                     <p>Puedes retirar desde <strong>Bs. 10</strong> hasta <strong>Bs 5000</strong> por cada retiro, con un máximo de <strong>Bs 20,000 por día.</strong></p>
@@ -239,6 +262,42 @@
                                                             <div type="button" id="resp_no_cual-es-el-monto-maximo-y-minimo-que-puedo-retirar" class="pf_no">No</div>
                                                             <div type="button" id="resp_si_cual-es-el-monto-maximo-y-minimo-que-puedo-retirar" class="pf_si">Si</div>
                                                         </div>
+                                                    </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_cual-es-el-monto-maximo-y-minimo-que-puedo-retirar" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_cual-es-el-monto-maximo-y-minimo-que-puedo-retirar" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_cual-es-el-monto-maximo-y-minimo-que-puedo-retirar">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" type='text' id="response_no_other_cual-es-el-monto-maximo-y-minimo-que-puedo-retirar" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar2(this)" id="message_resp_no_cual-es-el-monto-maximo-y-minimo-que-puedo-retirar" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_cual-es-el-monto-maximo-y-minimo-que-puedo-retirar" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
                                                     </div>
                                                     <div class="box-response ">
                                                         <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
@@ -255,18 +314,18 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="headingThree">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#que-cajeros-automaticos-puedo-usar-para-sacar-mi-dinero-en-efectivo-de-mi-cuenta" aria-expanded="false" aria-controls="collapseThree">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#que-cajeros-automaticos-puedo-usar-para-sacar-mi-dinero-en-efectivo-de-mi-cuenta-yape" aria-expanded="false" aria-controls="collapseThree">
 <!--                                                        <img class="mr-2" width="25" height="25" alt="Yape preguntas" src="../assets/img/yape_numero_3.svg" />-->
                                                         ¿Qué cajeros automáticos puedo usar para sacar mi dinero en efectivo de mi cuenta Yape?
                                                     </a>
                                                 </h4>
                                             </div>
-                                            <div id="que-cajeros-automaticos-puedo-usar-para-sacar-mi-dinero-en-efectivo-de-mi-cuenta" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                            <div id="que-cajeros-automaticos-puedo-usar-para-sacar-mi-dinero-en-efectivo-de-mi-cuenta-yape" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                                                 <div class="panel-body">
                                                     <!--                                                        <h2 class="yape-texto-purpura mb-30">¿Por qué usar Yape?</h2>-->
                                                     <p>Los cajeros autorizados para el retiro de efectivo son los cajeros automáticos de BCP Bolivia.</p>
-                                                    <p>Aquí puedes encontrar las Agencias o Agentes BCP más cercanos para retirar tu cuenta.<br>
-                                                        <a href="#soli-ubicacion" onclick="getposition();return false;" type="button" class="btn_cta mb-30 mt-30 " role="button" data-toggle="modal" data-target="#soli-ubicacion">Ver Mapa</a>
+                                                    <p>Aquí puedes encontrar los Agentes BCP más cercanos para retirar tu cuenta.<br>
+                                                        <a href="#cajeros-ubicacion" onclick="mapa_cajeros();return false;" type="button" class="btn_cta mb-30 mt-30 " role="button" data-toggle="modal" data-target="#cajeros-ubicacion"><strong>Conoce donde aquí</strong></a>
                                                     </p>
                                                     <div class="nps_pf_container mt-30" >
                                                         <div>
@@ -276,6 +335,42 @@
                                                             <div type="button" id="resp_no_que-cajeros-automaticos-puedo-usar-para-sacar-mi-dinero-en-efectivo-de-mi-cuenta" class="pf_no">No</div>
                                                             <div type="button" id="resp_si_que-cajeros-automaticos-puedo-usar-para-sacar-mi-dinero-en-efectivo-de-mi-cuenta" class="pf_si">Si</div>
                                                         </div>
+                                                    </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_que-cajeros-automaticos-puedo-usar-para-sacar-mi-dinero-en-efectivo-de-mi-cuenta" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_que-cajeros-automaticos-puedo-usar-para-sacar-mi-dinero-en-efectivo-de-mi-cuenta" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_que-cajeros-automaticos-puedo-usar-para-sacar-mi-dinero-en-efectivo-de-mi-cuenta">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" type='text' id="response_no_other_que-cajeros-automaticos-puedo-usar-para-sacar-mi-dinero-en-efectivo-de-mi-cuenta" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar2(this)" id="message_resp_no_que-cajeros-automaticos-puedo-usar-para-sacar-mi-dinero-en-efectivo-de-mi-cuenta" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_que-cajeros-automaticos-puedo-usar-para-sacar-mi-dinero-en-efectivo-de-mi-cuenta" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
                                                     </div>
                                                     <div class="box-response ">
                                                         <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
@@ -292,13 +387,13 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="headingFour">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#si-no-tengo-tarjeta-o-cuenta-de-banco-como-puedo-retirar-dinero-por-los-canales-de-atencion-del-bcp" aria-expanded="false" aria-controls="collapseFour">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#si-no-tengo-tarjeta-o-cuenta-de-banco-como-puedo-retirar-dinero-en-yape" aria-expanded="false" aria-controls="collapseFour">
 <!--                                                        <img class="mr-2" width="25" height="25" alt="Yape preguntas" src="../assets/img/yape_numero_4.svg" />-->
                                                         Si no tengo tarjeta o cuenta de banco, ¿Cómo puedo retirar dinero en Yape?
                                                     </a>
                                                 </h4>
                                             </div>
-                                            <div id="si-no-tengo-tarjeta-o-cuenta-de-banco-como-puedo-retirar-dinero-por-los-canales-de-atencion-del-bcp" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                            <div id="si-no-tengo-tarjeta-o-cuenta-de-banco-como-puedo-retirar-dinero-en-yape" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
                                                 <div class="panel-body">
                                                     <!--                                                        <h2 class="yape-texto-purpura mb-30">¿Puedo sacar una tarjeta de débito o crédito Yape?</h2>-->
                                                     <p>Puedes retirar dinero desde los cajeros y agentes BCP sin necesidad de una cuenta bancaria. Sigue estos pasos:</p>
@@ -308,6 +403,7 @@
                                                         <li><img src="../assets/img/yape_numero_3.svg" class="mr-2">Genera tu código secreto para retirar tu dinero a través de cajeros o agentes BCP.</li>
                                                         <li><img src="../assets/img/yape_numero_4.svg" class="mr-2">Ve al cajero o agente BCP, ingresa tu código y ¡Listo!.</li>
                                                     </ol>
+                                                    <p>Retira dinero a través de agentes BCP o cajeros automaticos BCP. <a href="#soli-ubicacion" onclick="mapa_agentes_cajeros();return false;" type="button" role="button" data-toggle="modal" data-target="#soli-ubicacion"><strong>Conoce donde aquí</strong></a></p>
                                                     <p><Strong>Mira este video para que sepas como retirar dinero de tu Yape</Strong></p>
                                                         <iframe width="560" height="315" src="https://www.youtube.com/embed/hSSavAkkm78?si=HkQCM7N1j0cT6eDw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -319,6 +415,42 @@
                                                             <div type="button" id="resp_no_si-no-tengo-tarjeta-o-cuenta-de-banco-como-puedo-retirar-dinero-por-los-canales-de-atencion-del-bcp" class="pf_no">No</div>
                                                             <div type="button" id="resp_si_si-no-tengo-tarjeta-o-cuenta-de-banco-como-puedo-retirar-dinero-por-los-canales-de-atencion-del-bcp" class="pf_si">Si</div>
                                                         </div>
+                                                    </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_si-no-tengo-tarjeta-o-cuenta-de-banco-como-puedo-retirar-dinero-por-los-canales-de-atencion-del-bcp" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_si-no-tengo-tarjeta-o-cuenta-de-banco-como-puedo-retirar-dinero-por-los-canales-de-atencion-del-bcp" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_si-no-tengo-tarjeta-o-cuenta-de-banco-como-puedo-retirar-dinero-por-los-canales-de-atencion-del-bcp">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" type='text' id="response_no_other_si-no-tengo-tarjeta-o-cuenta-de-banco-como-puedo-retirar-dinero-por-los-canales-de-atencion-del-bcp" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar2(this)" id="message_resp_no_si-no-tengo-tarjeta-o-cuenta-de-banco-como-puedo-retirar-dinero-por-los-canales-de-atencion-del-bcp" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_si-no-tengo-tarjeta-o-cuenta-de-banco-como-puedo-retirar-dinero-por-los-canales-de-atencion-del-bcp" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
                                                     </div>
                                                     <div class="box-response ">
                                                         <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
@@ -335,13 +467,13 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="headingFive">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#como-puedo-retirar-dinero-de-los-cajeros-del-banco-o-agencias-del-BCP" aria-expanded="false" aria-controls="collapseFour">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#como-puedo-retirar-dinero-de-las-ventanillas-en-agencias-del-BCP" aria-expanded="false" aria-controls="collapseFour">
                                                         <!--                                                        <img class="mr-2" width="25" height="25" alt="Yape preguntas" src="../assets/img/yape_numero_4.svg" />-->
                                                         ¿Puedo retirar mi dinero de las ventanillas en agencias del BCP?
                                                     </a>
                                                 </h4>
                                             </div>
-                                            <div id="como-puedo-retirar-dinero-de-los-cajeros-del-banco-o-agencias-del-BCP" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                                            <div id="como-puedo-retirar-dinero-de-las-ventanillas-en-agencias-del-BCP" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
                                                 <div class="panel-body">
                                                     <!--                                                        <h2 class="yape-texto-purpura mb-30">¿Puedo sacar una tarjeta de débito o crédito Yape?</h2>-->
                                                     <p>No está disponible el retiro de dinero a través de ventanillas del banco, para ello debes acercarte a un cajero automático o agente BCP.</p>
@@ -356,6 +488,42 @@
                                                             <div type="button" id="resp_no_como-puedo-retirar-dinero-de-los-cajeros-del-banco-o-agencias-del-BCP" class="pf_no">No</div>
                                                             <div type="button" id="resp_si_como-puedo-retirar-dinero-de-los-cajeros-del-banco-o-agencias-del-BCP" class="pf_si">Si</div>
                                                         </div>
+                                                    </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_como-puedo-retirar-dinero-de-los-cajeros-del-banco-o-agencias-del-BCP" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_como-puedo-retirar-dinero-de-los-cajeros-del-banco-o-agencias-del-BCP" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_como-puedo-retirar-dinero-de-los-cajeros-del-banco-o-agencias-del-BCP">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" type='text' id="response_no_other_como-puedo-retirar-dinero-de-los-cajeros-del-banco-o-agencias-del-BCP" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar2(this)" id="message_resp_no_como-puedo-retirar-dinero-de-los-cajeros-del-banco-o-agencias-del-BCP" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_como-puedo-retirar-dinero-de-los-cajeros-del-banco-o-agencias-del-BCP" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
                                                     </div>
                                                     <div class="box-response ">
                                                         <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
@@ -385,16 +553,15 @@
                                                     <ol class="yape-texto-black list-hidden">
                                                         <li><img src="../assets/img/yape_numero_1.svg" class="mr-2">Acércate a un agente BCP.</li>
                                                         <li><img src="../assets/img/yape_numero_2.svg" class="mr-2">Indica que necesitas hacer un “Retiro de dinero de Yape”</li>
-                                                        <li><img src="../assets/img/yape_numero_3.svg" class="mr-2">Indica tu número Yape</li>
-                                                        <li><img src="../assets/img/yape_numero_4.svg" class="mr-2">Indica al agente BCP tu código generado desde tu app Yape
-                                                            <ul class="mt-2">
-                                                                <li>Ingresa a la app Yape</li>
-                                                                <li>Presiona el botón “Retirar dinero” en tu tarjeta Yape</li>
-                                                                <li>Presiona generar</li>
-                                                            </ul>
-                                                        </li>
+                                                        <li><img src="../assets/img/yape_numero_3.svg" class="mr-2">Escanéa el código QR</li>
+                                                        <li><img src="../assets/img/yape_numero_4.svg" class="mr-2">Ingresa el monto a retirar</li>
                                                         <li><img src="../assets/img/yape_numero_5.svg" class="mr-2">¡Y listo!</li>
                                                     </ol>
+                                                    <p>Recarga o retira dinero a través de agentes BCP. <a href="#mapa_agentes_bcp" onclick="mapa_agentes();return false;" type="button" role="button" data-toggle="modal" data-target="#mapa_agentes_bcp"><strong>Conoce donde aquí</strong></a></p>
+                                                    <p><strong>Mira este video para que sepas como retirar dinero de tu Yape desde un agente</strong></p>
+                                                    <div class="">
+                                                        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@yapebolivia/video/7339141578205826310" data-video-id="7339141578205826310" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@yapebolivia" href="https://www.tiktok.com/@yapebolivia?refer=embed">@yapebolivia</a> Agregan y retira dinero a tu Yape con agentes BCP.</section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+                                                    </div>
                                                     <div class="fap-attention"><img src="../assets/img/sp-alert-d.svg"><div class="faq-attetion-text">Recuerda validar que el monto solicitado se haya descontado de tu cuenta Yape y recibir el dinero solicitado desde el Agente</div></div></li>
                                                     <div class="nps_pf_container mt-30" >
                                                         <div>
@@ -404,6 +571,42 @@
                                                             <div type="button" id="resp_no_como-puedo-retirar-diner-de-los-agentes-bcp" class="pf_no">No</div>
                                                             <div type="button" id="resp_si_como-puedo-retirar-diner-de-los-agentes-bcp" class="pf_si">Si</div>
                                                         </div>
+                                                    </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_como-puedo-retirar-diner-de-los-agentes-bcp" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_como-puedo-retirar-diner-de-los-agentes-bcp" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_como-puedo-retirar-diner-de-los-agentes-bcp">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" type='text' id="response_no_other_como-puedo-retirar-diner-de-los-agentes-bcp" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar2(this)" id="message_resp_no_como-puedo-retirar-diner-de-los-agentes-bcp" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_como-puedo-retirar-diner-de-los-agentes-bcp" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
                                                     </div>
                                                     <div class="box-response ">
                                                         <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
@@ -426,33 +629,45 @@
             </div>
         </div>
     </section>
-    <div id="soli-ubicacion" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
+    <div id="cajeros-ubicacion" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header text-center">
-                    <h2 class="font-weight-bold modal-title">Encuentra tu punto más cercano y empieza a recargar tu Yape o retirar dinero</h2>
+                    <h2 class="font-weight-bold modal-title">Encuentra tu punto más cercano para retirar dinero</h2>
                 </div>
                 <div class="row text-center flex-nowrap">
-                    <div class="col-md-4"><img loading="lazy" title="Punto de agencia bcp" class="lazyload img-fluid"
-                                               width="25%" height="auto" src="../assets/img/agencia.svg"
-                                               alt="punto de agencia bcp">
-                        <h3>Agencia BCP</h3></div>
-                    <div class="col-md-4"><img loading="lazy" title="Punto de agente bcp"
-                                               class="lazyload img-fluid" width="25%" height="auto"
-                                               src="../assets/img/agente.svg" alt="punto de agente bcp">
-                        <h3>Agente BCP</h3></div>
-                    <div class="col-md-4"><img loading="lazy" title="Punto de atm bcp" class="lazyload img-fluid"
-                                               width="25%" height="auto" src="../assets/img/atm.svg"
+                    <div class="col-md-12"><img loading="lazy" title="Punto de atm bcp" class="lazyload img-fluid"
+                                               width="8%" height="auto" src="../assets/img/atm.svg"
                                                alt="punto de atm bcp">
-                        <h3>ATM BCP</h3></div>
+                        <h3>Cajero BCP</h3></div>
                 </div>
-                <div class="modal-body map-responsive" id="soli_agentes_bcp_atm"></div>
+                <div class="modal-body map-responsive" id="atm_bcp"></div>
                 <div class="modal-footer text-center">
                     <button type="button" class="close btn_cta mb-20 mt-30" data-dismiss="modal">Cerrar</button>
                 </div>
             </div>
         </div>
     </div>
+    <div id="mapa_agentes_bcp" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h2 class="font-weight-bold modal-title">Encuentra tu punto más cercano y empieza a retirar dinero de tu Yape</h2>
+                </div>
+                <div class="row text-center flex-nowrap">
+                    <div class="col-md-12"><img loading="lazy" title="Punto de agencia bcp" class="lazyload img-fluid"
+                                               width="8%" height="auto" src="../assets/img/agencia.svg"
+                                               alt="punto de agencia bcp">
+                        <h3>Agente BCP</h3></div>
+                </div>
+                <div class="modal-body map-responsive" id="agentes_bcp"></div>
+                <div class="modal-footer text-center">
+                    <button type="button" class="close btn_cta mb-20 mt-30" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <section class="wrapper pb-64 pt-64 bg-gray">
         <div id="header" class="container">
             <h2 class="mb-50 text-center yape-texto-purpura">¿Cómo te ayudamos?</h2>

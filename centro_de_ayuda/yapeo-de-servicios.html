@@ -81,32 +81,18 @@
                                     <li class="menu-item " id="inicio">
                                     <a id="inicio_yape" href="">Inicio</a>
                                 </li>
-                                <li id="submenu" class="menu-item menu-item-has-children">
-                                    <a class="back" href="#">Yaprendiendo<img id="submenu_arrow" class="fill_arrow" src="" alt="centro de ayuda de yape" width="17" height="17"></a>
-                                    <ul id="sub-menu" class="sub-menu">
-                                        <li class="menu-item">
-                                            <a id="menu_soli_yape" href="" class="menu_sec">Ahora Soli es Yape</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a id="menu_yape"  href="" class="menu_sec">¿Qué es Yape?</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a id="menu_seguridad" href="" class="menu_sec">Seguridad</a>
-                                        </li>
-                                    </ul>
-                                </li>
                                 <li class="menu-item ">
-                                    <a id="menu_beneficios" href="">Beneficios</a>
-                                </li>
-                                <li class="menu-item ">
-                                    <a id="menu_promociones" href="">Promos</a>
-                                </li>
-                                <li class="menu-item">
-                                    <a id="menu_blog" href="">Blog</a>
-                                </li>
-                                <li class="menu-item mr-70">
-                                    <a id="menu_negocio" href="">Yapenegocios</a>
-                                </li>
+                                        <a id="menu_negocio" href="">Negocios</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a id="menu_seguridad" href="" class="menu_sec">Seguridad</a>
+                                    </li>
+                                    <li class="menu-item ">
+                                        <a id="menu_promociones" href="">Promos</a>
+                                    </li>
+                                    <li class="menu-item mr-70">
+                                        <a id="menu_blog" href="">Blog</a>
+                                    </li>
                                 <li class="menu-item mr-70 hide_desktop">
                                     <a id="menu_ayuda_movil" href="">Centro de ayuda</a>
                                 </li>
@@ -203,6 +189,42 @@
                                                             <div type="button" id="resp_si_puedo-pagar-la-factura-de-luz-con-yape" class="pf_si">Si</div>
                                                         </div>
                                                     </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_puedo-pagar-la-factura-de-luz-con-yape" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_puedo-pagar-la-factura-de-luz-con-yape" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_puedo-pagar-la-factura-de-luz-con-yape">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" type='text' id="response_no_other_puedo-pagar-la-factura-de-luz-con-yape" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar2(this)" id="message_resp_no_puedo-pagar-la-factura-de-luz-con-yape" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_puedo-pagar-la-factura-de-luz-con-yape" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
+                                                    </div>
                                                     <div class="box-response ">
                                                         <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
                                                         <img src="../assets/img/yapito_ok.svg">
@@ -266,6 +288,42 @@
                                                             <div type="button" id="resp_si_puedo-pagar-el-agua-con-yape" class="pf_si">Si</div>
                                                         </div>
                                                     </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_puedo-pagar-el-agua-con-yape" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_puedo-pagar-el-agua-con-yape" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_puedo-pagar-el-agua-con-yape">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" type='text' id="response_no_other_puedo-pagar-el-agua-con-yape" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar2(this)" id="message_resp_no_puedo-pagar-el-agua-con-yape" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_puedo-pagar-el-agua-con-yape" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
+                                                    </div>
                                                     <div class="box-response ">
                                                         <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
                                                         <img src="../assets/img/yapito_ok.svg">
@@ -313,6 +371,42 @@
                                                             <div type="button" id="resp_si_puedo-pagar-la-factura-de-telefonia-con-yape" class="pf_si">Si</div>
                                                         </div>
                                                     </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_puedo-pagar-la-factura-de-telefonia-con-yape" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_puedo-pagar-la-factura-de-telefonia-con-yape" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_puedo-pagar-la-factura-de-telefonia-con-yape">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" type='text' id="response_no_other_puedo-pagar-la-factura-de-telefonia-con-yape" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar2(this)" id="message_resp_no_puedo-pagar-la-factura-de-telefonia-con-yape" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_puedo-pagar-la-factura-de-telefonia-con-yape" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
+                                                    </div>
                                                     <div class="box-response ">
                                                         <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
                                                         <img src="../assets/img/yapito_ok.svg">
@@ -328,13 +422,13 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="headingFour">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#puedo-pagar-el-gas-domiciliario-con-yape" aria-expanded="false" aria-controls="collapseFour">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#puedo-pagar-la-factura-de-gas-domiciliario-con-yape" aria-expanded="false" aria-controls="collapseFour">
 <!--                                                        <img class="mr-2" width="25" height="25" alt="Yape preguntas" src="../assets/img/yape_numero_4.svg" />-->
                                                         ¿Puedo pagar la factura de gas domiciliario con Yape?
                                                     </a>
                                                 </h4>
                                             </div>
-                                            <div id="puedo-pagar-el-gas-domiciliario-con-yape" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                            <div id="puedo-pagar-la-factura-de-gas-domiciliario-con-yape" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
                                                 <div class="panel-body">
                                                     <div style="display:flex" class="mb-20">
                                                         <img class="style_operadoras" width="225" height="auto" src="../assets/img/ypfb-gas.png" alt="logo gas yape">
@@ -357,6 +451,42 @@
                                                             <div type="button" id="resp_si_puedo-pagar-el-gas-domiciliario-con-yape" class="pf_si">Si</div>
                                                         </div>
                                                     </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_puedo-pagar-el-gas-domiciliario-con-yape" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_puedo-pagar-el-gas-domiciliario-con-yape" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_puedo-pagar-el-gas-domiciliario-con-yape">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" type='text' id="response_no_other_puedo-pagar-el-gas-domiciliario-con-yape" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar2(this)" id="message_resp_no_puedo-pagar-el-gas-domiciliario-con-yape" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_puedo-pagar-el-gas-domiciliario-con-yape" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
+                                                    </div>
                                                     <div class="box-response ">
                                                         <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
                                                         <img src="../assets/img/yapito_ok.svg">
@@ -372,15 +502,15 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="headingFive">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#puedo-pagar-los-impuestos-de-inmueble" aria-expanded="false" aria-controls="collapseFour">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#puedo-pagar-los-impuestos-de-inmueble-con-yape" aria-expanded="false" aria-controls="collapseFour">
                                                         <!--                                                        <img class="mr-2" width="25" height="25" alt="Yape preguntas" src="../assets/img/yape_numero_4.svg" />-->
                                                         ¿Puedo pagar los impuestos de inmueble con Yape?
                                                     </a>
                                                 </h4>
                                             </div>
-                                            <div id="puedo-pagar-los-impuestos-de-inmueble" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                                            <div id="puedo-pagar-los-impuestos-de-inmueble-con-yape" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
                                                 <div class="panel-body">
-                                                    <p>Sí, para pagar el servicio de gas natural a través de Yape, sigue los siguientes pasos:</p>
+                                                    <p>Sí, para pagar impuestos de inmuebles a través de Yape, sigue los siguientes pasos:</p>
                                                     <ol class="secundary_color list-hidden">
                                                         <li><img src="../assets/img/yape_numero_1.svg" class="mr-2">Ingresa a Yape y selecciona “Servicios”</li>
                                                         <li><img src="../assets/img/yape_numero_2.svg" class="mr-2">Escoge el rubro “Impuestos” y elige "Ruat Inmuebles"</li>
@@ -399,6 +529,42 @@
                                                             <div type="button" id="resp_si_puedo-pagar-los-impuestos-de-inmueble" class="pf_si">Si</div>
                                                         </div>
                                                     </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_puedo-pagar-los-impuestos-de-inmueble" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_puedo-pagar-los-impuestos-de-inmueble" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_puedo-pagar-los-impuestos-de-inmueble">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" type='text' id="response_no_other_puedo-pagar-los-impuestos-de-inmueble" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar2(this)" id="message_resp_no_puedo-pagar-los-impuestos-de-inmueble" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_puedo-pagar-los-impuestos-de-inmueble" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
+                                                    </div>
                                                     <div class="box-response ">
                                                         <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
                                                         <img src="../assets/img/yapito_ok.svg">
@@ -414,15 +580,15 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="headingSix">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#puedo-pagar-los-impuestos-de-vehiculos" aria-expanded="false" aria-controls="collapseFour">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#puedo-pagar-los-impuestos-de-vehiculo-con-yape" aria-expanded="false" aria-controls="collapseFour">
                                                         <!--                                                        <img class="mr-2" width="25" height="25" alt="Yape preguntas" src="../assets/img/yape_numero_4.svg" />-->
-                                                        ¿Puedo pagar los impuestos de vehículos con Yape?
+                                                        ¿Puedo pagar los impuestos de vehículo con Yape?
                                                     </a>
                                                 </h4>
                                             </div>
-                                            <div id="puedo-pagar-los-impuestos-de-vehiculos" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+                                            <div id="puedo-pagar-los-impuestos-de-vehiculo-con-yape" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
                                                 <div class="panel-body">
-                                                    <p>Sí, para pagar el servicio de gas natural a través de Yape, sigue los siguientes pasos:</p>
+                                                    <p>Sí, para pagar el impuesto de vehículos a través de Yape, sigue los siguientes pasos:</p>
                                                     <ol class="secundary_color list-hidden">
                                                         <li><img src="../assets/img/yape_numero_1.svg" class="mr-2">Ingresa a Yape y selecciona “Servicios”</li>
                                                         <li><img src="../assets/img/yape_numero_2.svg" class="mr-2">Escoge el rubro “Impuestos” y elige "Ruat Vehículos"</li>
@@ -440,6 +606,42 @@
                                                             <div type="button" id="resp_no_puedo-pagar-los-impuestos-de-vehiculos" class="pf_no">No</div>
                                                             <div type="button" id="resp_si_puedo-pagar-los-impuestos-de-vehiculos" class="pf_si">Si</div>
                                                         </div>
+                                                    </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_puedo-pagar-los-impuestos-de-vehiculos" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_puedo-pagar-los-impuestos-de-vehiculos" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_puedo-pagar-los-impuestos-de-vehiculos">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" type='text' id="response_no_other_puedo-pagar-los-impuestos-de-vehiculos" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar2(this)" id="message_resp_no_puedo-pagar-los-impuestos-de-vehiculos" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_puedo-pagar-los-impuestos-de-vehiculos" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
                                                     </div>
                                                     <div class="box-response ">
                                                         <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>

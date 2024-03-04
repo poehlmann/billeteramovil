@@ -80,32 +80,18 @@
                                     <li class="menu-item " id="inicio">
                                     <a id="inicio_yape" href="">Inicio</a>
                                 </li>
-                                <li id="submenu" class="menu-item menu-item-has-children">
-                                    <a class="back" href="#">Yaprendiendo<img id="submenu_arrow" class="fill_arrow" src="" alt="centro de ayuda de yape" width="17" height="17"></a>
-                                    <ul id="sub-menu" class="sub-menu">
-                                        <li class="menu-item">
-                                            <a id="menu_soli_yape" href="" class="menu_sec">Ahora Soli es Yape</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a id="menu_yape"  href="" class="menu_sec">¿Qué es Yape?</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a id="menu_seguridad" href="" class="menu_sec">Seguridad</a>
-                                        </li>
-                                    </ul>
-                                </li>
                                 <li class="menu-item ">
-                                    <a id="menu_beneficios" href="">Beneficios</a>
-                                </li>
-                                <li class="menu-item ">
-                                    <a id="menu_promociones" href="">Promos</a>
-                                </li>
-                                <li class="menu-item">
-                                    <a id="menu_blog" href="">Blog</a>
-                                </li>
-                                <li class="menu-item mr-70">
-                                    <a id="menu_negocio" href="">Yapenegocios</a>
-                                </li>
+                                        <a id="menu_negocio" href="">Negocios</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a id="menu_seguridad" href="" class="menu_sec">Seguridad</a>
+                                    </li>
+                                    <li class="menu-item ">
+                                        <a id="menu_promociones" href="">Promos</a>
+                                    </li>
+                                    <li class="menu-item mr-70">
+                                        <a id="menu_blog" href="">Blog</a>
+                                    </li>
                                 <li class="menu-item mr-70 hide_desktop">
                                     <a id="menu_ayuda_movil" href="">Centro de ayuda</a>
                                 </li>
@@ -174,7 +160,9 @@
                                             <div id="puedo-usar-yape-en-mi-negocio" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                                                 <div class="panel-body">
                                                     <!--                                                        <h2 class="yape-texto-purpura mb-30">¿Qué es Yape y cómo funciona?</h2>-->
-                                                    <p><strong>Sí</strong>, con Yape tus clientes pueden pagar <strong>escaneando tu código QR o el número de tu contacto</strong>.<br> Recuerda que estos pagos no tienen ningún costo, es completamente <strong>GRATIS.</strong></p>
+                                                    <p><strong>Sí</strong>, con Yape tus clientes pueden pagar <strong>escaneando tu código QR o el número de tu contacto</strong>.<br> Recuerda que estos pagos no tienen ningún costo, es completamente <strong>GRATIS.</strong>
+                                                        <br><br>Escribe al <strong>Whatsapp oficial de YapeNegocio <a target="_blank"  href="https://api.whatsapp.com/send?phone=59177750711&text=Hola%2C+vengo+de+la+web%2C+Yape+necesito+informacion+sobre+Yapenegocio">haciendo clíc aquí.</a></strong>
+                                                    </p>
                                                     <div class="nps_pf_container mt-30" >
                                                         <div>
                                                             <span class="font-weight-bold">¿Te fue útil esta información?</span>
@@ -183,6 +171,42 @@
                                                             <div type="button" id="resp_no_puedo-usar-yape-en-mi-negocio" class="pf_no">No</div>
                                                             <div type="button" id="resp_si_puedo-usar-yape-en-mi-negocio" class="pf_si">Si</div>
                                                         </div>
+                                                    </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_puedo-usar-yape-en-mi-negocio" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_puedo-usar-yape-en-mi-negocio" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_puedo-usar-yape-en-mi-negocio">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" type='text' id="response_no_other_puedo-usar-yape-en-mi-negocio" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar2(this)" id="message_resp_no_puedo-usar-yape-en-mi-negocio" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_puedo-usar-yape-en-mi-negocio" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
                                                     </div>
                                                     <div class="box-response ">
                                                         <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
@@ -208,7 +232,9 @@
                                             <div id="que-tipo-de-negocios-pueden-usar-yape" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                                                 <div class="panel-body">
                                                     <!--                                                        <h2 class="yape-texto-purpura mb-30">¿Necesito abrir una cuenta de ahorros para tener Yape?</h2>-->
-                                                    <p>Todo tipo de negocios. Yape es para <strong>TODOS</strong>, desde tiendas de barrio, ferreterías, micromercados, restaurantes, farmacias y muchos más.</p>
+                                                    <p>Todo tipo de negocios. Yape es para <strong>TODOS</strong>, desde tiendas de barrio, ferreterías, micromercados, restaurantes, farmacias y muchos más.
+                                                        <br><br>Escribe al <strong>Whatsapp oficial de YapeNegocio <a target="_blank"  href="https://api.whatsapp.com/send?phone=59177750711&text=Hola%2C+vengo+de+la+web%2C+Yape+necesito+informacion+sobre+Yapenegocio">haciendo clíc aquí.</a></strong>
+                                                    </p>
 
                                                     <div class="nps_pf_container mt-30" >
                                                         <div>
@@ -218,6 +244,42 @@
                                                             <div type="button" id="resp_no_que-tipo-de-negocios-pueden-usar-yape" class="pf_no">No</div>
                                                             <div type="button" id="resp_si_que-tipo-de-negocios-pueden-usar-yape" class="pf_si">Si</div>
                                                         </div>
+                                                    </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_que-tipo-de-negocios-pueden-usar-yape" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_que-tipo-de-negocios-pueden-usar-yape" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_que-tipo-de-negocios-pueden-usar-yape">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" type='text' id="response_no_other_que-tipo-de-negocios-pueden-usar-yape" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar2(this)" id="message_resp_no_que-tipo-de-negocios-pueden-usar-yape" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_que-tipo-de-negocios-pueden-usar-yape" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
                                                     </div>
                                                     <div class="box-response ">
                                                         <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
@@ -254,6 +316,42 @@
                                                             <div type="button" id="resp_si_como-me-inscribo-como-yapenegocio" class="pf_si">Si</div>
                                                         </div>
                                                     </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_como-me-inscribo-como-yapenegocio" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_como-me-inscribo-como-yapenegocio" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_como-me-inscribo-como-yapenegocio">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" type='text' id="response_no_other_como-me-inscribo-como-yapenegocio" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar2(this)" id="message_resp_no_como-me-inscribo-como-yapenegocio" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_como-me-inscribo-como-yapenegocio" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
+                                                    </div>
                                                     <div class="box-response ">
                                                         <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
                                                         <img src="../assets/img/yapito_ok.svg">
@@ -267,51 +365,18 @@
                                             </div>
                                         </div>
                                         <div class="panel panel-default">
-                                            <div class="panel-heading" role="tab" id="headingFour">
-                                                <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#en-caso-de-algun-problema-tiene-soporte-tecnico-los-YapeNegocios-especializados" aria-expanded="false" aria-controls="collapseFour">
-<!--                                                        <img class="mr-2" width="25" height="25" alt="Yape preguntas" src="../assets/img/yape_numero_4.svg" />-->
-                                                        Si soy Yape negocios ¿Tengo soporte técnico especializado?
-                                                    </a>
-                                                </h4>
-                                            </div>
-                                            <div id="en-caso-de-algun-problema-tiene-soporte-tecnico-los-YapeNegocios-especializados" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                                                <div class="panel-body">
-                                                    <!--                                                        <h2 class="yape-texto-purpura mb-30">¿Puedo sacar una tarjeta de débito o crédito Yape?</h2>-->
-                                                    <p>Sí, una vez que te registras como negocio, se te asignará un ejecutivo Yape para ayudarte con tus dudas y requerimientos.</p>
-
-                                                    <div class="nps_pf_container mt-30" >
-                                                        <div>
-                                                            <span class="font-weight-bold">¿Te fue útil esta información?</span>
-                                                        </div>
-                                                        <div class="nps_pf">
-                                                            <div type="button" id="resp_no_en-caso-de-algun-problema-tiene-soporte-tecnico-los-YapeNegocios-especializados" class="pf_no">No</div>
-                                                            <div type="button" id="resp_si_en-caso-de-algun-problema-tiene-soporte-tecnico-los-YapeNegocios-especializados" class="pf_si">Si</div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="box-response ">
-                                                        <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
-                                                        <img src="../assets/img/yapito_ok.svg">
-                                                        <span class="yape-texto-black">Tu opinión nos ayuda a mejorar la experiencia de millones de yaperos.</span>
-                                                    </div>
-                                                    <div class="mb-30 mt-30 question_container">
-                                                        <span class="mb-20 question_indent"><strong>¿Te quedaste con alguna duda?</strong><br>Contáctanos en nuestro canals oficial:</span>
-                                                        <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola,%20vengo%20de%20la%20web%20de%20Yape,%20Si%20soy%20Yape%20negocios%20%C2%BFTengo%20soporte%20t%C3%A9cnico%20especializado?" type="button" class="btn_cta_social  ml-5 "><img class="mr-5" width="20" heigth="20" src="../assets/img/ic_social_whatsapp_b_gray.svg" alt="whatsapp Yape Bolivia" >WhatsApp</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="headingFive">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#requisitos-para-afiliarme-a-YapeComercios-YapeNegocios" aria-expanded="false" aria-controls="collapseFive">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#requisitos-para-afiliarme-a-comercions-negocios-yape" aria-expanded="false" aria-controls="collapseFive">
                                                         ¿Requisitos para afiliarme a comercios - negocios Yape?
                                                     </a>
                                                 </h4>
                                             </div>
-                                            <div id="requisitos-para-afiliarme-a-YapeComercios-YapeNegocios" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                                            <div id="requisitos-para-afiliarme-a-comercions-negocios-yape" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
                                                 <div class="panel-body">
-                                                    <p>Solo necesitamos que nos proporciones algunos datos de tu negocio como nombre rubro y listo, <a href="../yapenegocios/formulario.html" target="_blank">entra aquí</a> para ser negocio Yape y aprovecha el pago QR <strong>gratuito.</strong></p>
+                                                    <p>Solo necesitamos que nos proporciones algunos datos de tu negocio como nombre rubro y listo, <a href="../yapenegocios/formulario.html" target="_blank">entra aquí</a> para ser negocio Yape y aprovecha el pago QR <strong>gratuito.</strong>
+                                                        <br><br>Escribe al <strong>Whatsapp oficial de YapeNegocio <a target="_blank"  href="https://api.whatsapp.com/send?phone=59177750711&text=Hola%2C+vengo+de+la+web%2C+Yape+necesito+informacion+sobre+Yapenegocio">haciendo clíc aquí.</a></strong>
+                                                    </p>
 
                                                     <div class="nps_pf_container mt-30" >
                                                         <div>
@@ -321,6 +386,42 @@
                                                             <div type="button" id="resp_no_requisitos-para-afiliarme-a-YapeComercios-YapeNegocios" class="pf_no">No</div>
                                                             <div type="button" id="resp_si_requisitos-para-afiliarme-a-YapeComercios-YapeNegocios" class="pf_si">Si</div>
                                                         </div>
+                                                    </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_requisitos-para-afiliarme-a-YapeComercios-YapeNegocios" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_requisitos-para-afiliarme-a-YapeComercios-YapeNegocios" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_requisitos-para-afiliarme-a-YapeComercios-YapeNegocios">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" type='text' id="response_no_other_requisitos-para-afiliarme-a-YapeComercios-YapeNegocios" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar2(this)" id="message_resp_no_requisitos-para-afiliarme-a-YapeComercios-YapeNegocios" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_requisitos-para-afiliarme-a-YapeComercios-YapeNegocios" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
                                                     </div>
                                                     <div class="box-response ">
                                                         <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
@@ -350,9 +451,9 @@
                                                     <ul>
                                                         <li>Cobrar tus clientes a través de Yape, sin comisión</li>
                                                         <li>Pack de QR gratuito</li>
-                                                        <li>Merchandising para incentivar el pago por QR</li>
+                                                        <li>Material publicitario para incentivar el pago por Yape (QR o yapeo por #)</li>
                                                         <li>Soporte técnico ante problemas con tu Yape.</li>
-                                                        <li>Y mucho más</li>
+                                                        <li>Muchas sorpresas y beneficios para los negocios que más usan Yape en su negocio</li>
                                                     </ul>
 
                                                     <div class="nps_pf_container mt-30" >
@@ -363,6 +464,42 @@
                                                             <div type="button" id="resp_no_que-beneficios-tengo-al-ser-yapenegocio" class="pf_no">No</div>
                                                             <div type="button" id="resp_si_que-beneficios-tengo-al-ser-yapenegocio" class="pf_si">Si</div>
                                                         </div>
+                                                    </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_que-beneficios-tengo-al-ser-yapenegocio" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_que-beneficios-tengo-al-ser-yapenegocio" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_que-beneficios-tengo-al-ser-yapenegocio">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" type='text' id="response_no_other_que-beneficios-tengo-al-ser-yapenegocio" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar2(this)" id="message_resp_no_que-beneficios-tengo-al-ser-yapenegocio" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_que-beneficios-tengo-al-ser-yapenegocio" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
                                                     </div>
                                                     <div class="box-response ">
                                                         <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
@@ -388,7 +525,9 @@
                                             <div id="tiene-algun-costo-ser-yapenegocio" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
                                                 <div class="panel-body">
                                                     <!--                                                        <h2 class="yape-texto-purpura mb-30">¿Una persona menor de edad puede abrir cuenta Yape?</h2>-->
-                                                    <p><strong>No</strong>, Yape es completamente <strong>gratis.</strong></p>
+                                                    <p><strong>No</strong>, Yape es completamente <strong>gratis.</strong>
+                                                        <br><br>Escribe al <strong>Whatsapp oficial de YapeNegocio <a target="_blank"  href="https://api.whatsapp.com/send?phone=59177750711&text=Hola%2C+vengo+de+la+web%2C+Yape+necesito+informacion+sobre+Yapenegocio">haciendo clíc aquí.</a></strong>
+                                                    </p>
 
                                                     <div class="nps_pf_container mt-30" >
                                                         <div>
@@ -398,6 +537,42 @@
                                                             <div type="button" id="resp_no_tiene-algun-costo-ser-yapenegocio" class="pf_no">No</div>
                                                             <div type="button" id="resp_si_tiene-algun-costo-ser-yapenegocio" class="pf_si">Si</div>
                                                         </div>
+                                                    </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_tiene-algun-costo-ser-yapenegocio" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_tiene-algun-costo-ser-yapenegocio" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_tiene-algun-costo-ser-yapenegocio">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" type='text' id="response_no_other_tiene-algun-costo-ser-yapenegocio" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar2(this)" id="message_resp_no_tiene-algun-costo-ser-yapenegocio" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_tiene-algun-costo-ser-yapenegocio" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
                                                     </div>
                                                     <div class="box-response ">
                                                         <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
@@ -423,7 +598,9 @@
                                             <div id="me-entregan-material-publicitario-si-soy-yapenegocio" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
                                                 <div class="panel-body">
                                                     <!--                                                        <h2 class="yape-texto-purpura mb-30">¿Puedo manejar Moneda extranjera ($us) en mi cuenta Yape?</h2>-->
-                                                    <p>Si, te brindamos un pack de QR y merchadising para incentivar el pago a través de Yape.</p>
+                                                    <p>Si, te brindamos un pack de QR y merchadising para incentivar el pago a través de Yape.
+                                                        <br><br>Escribe al <strong>Whatsapp oficial de YapeNegocio <a target="_blank"  href="https://api.whatsapp.com/send?phone=59177750711&text=Hola%2C+vengo+de+la+web%2C+Yape+necesito+informacion+sobre+Yapenegocio">haciendo clíc aquí.</a></strong>
+                                                    </p>
 
                                                     <div class="nps_pf_container mt-30" >
                                                         <div>
@@ -433,6 +610,42 @@
                                                             <div type="button" id="resp_no_me-entregan-material-publicitario-si-soy-yapenegocio" class="pf_no">No</div>
                                                             <div type="button" id="resp_si_me-entregan-material-publicitario-si-soy-yapenegocio" class="pf_si">Si</div>
                                                         </div>
+                                                    </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_me-entregan-material-publicitario-si-soy-yapenegocio" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_me-entregan-material-publicitario-si-soy-yapenegocio" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_me-entregan-material-publicitario-si-soy-yapenegocio">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" type='text' id="response_no_other_me-entregan-material-publicitario-si-soy-yapenegocio" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar2(this)" id="message_resp_no_me-entregan-material-publicitario-si-soy-yapenegocio" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_me-entregan-material-publicitario-si-soy-yapenegocio" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
                                                     </div>
                                                     <div class="box-response ">
                                                         <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
@@ -458,7 +671,9 @@
                                             <div id="como-obtengo-el-sticker-de-qr-para-mi-negocio" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
                                                 <div class="panel-body">
                                                     <!--                                                        <h2 class="yape-texto-purpura mb-30">¿En qué sistemas operativos puedo usar Yape?</h2>-->
-                                                    <p>Una vez tu negocio este afiliado a Yape, tu ejecutivo asignado coordinará para entregarte tu pack QR.</p>
+                                                    <p>Una vez tu negocio este afiliado a Yape, tu ejecutivo asignado coordinará para entregarte tu pack QR.
+                                                        <br><br>Escribe al <strong>Whatsapp oficial de YapeNegocio <a target="_blank"  href="https://api.whatsapp.com/send?phone=59177750711&text=Hola%2C+vengo+de+la+web%2C+Yape+necesito+informacion+sobre+Yapenegocio">haciendo clíc aquí.</a></strong>
+                                                    </p>
 
                                                     <div class="nps_pf_container mt-30" >
                                                         <div>
@@ -468,6 +683,42 @@
                                                             <div type="button" id="resp_no_como-obtengo-el-sticker-de-qr-para-mi-negocio" class="pf_no">No</div>
                                                             <div type="button" id="resp_si_como-obtengo-el-sticker-de-qr-para-mi-negocio" class="pf_si">Si</div>
                                                         </div>
+                                                    </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_como-obtengo-el-sticker-de-qr-para-mi-negocio" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_como-obtengo-el-sticker-de-qr-para-mi-negocio" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_como-obtengo-el-sticker-de-qr-para-mi-negocio">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" type='text' id="response_no_other_como-obtengo-el-sticker-de-qr-para-mi-negocio" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar2(this)" id="message_resp_no_como-obtengo-el-sticker-de-qr-para-mi-negocio" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_como-obtengo-el-sticker-de-qr-para-mi-negocio" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
                                                     </div>
                                                     <div class="box-response ">
                                                         <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
@@ -503,6 +754,42 @@
                                                             <div type="button" id="resp_no_a-donde-se-va-el-dinero-que-cobro-con-yape" class="pf_no">No</div>
                                                             <div type="button" id="resp_si_a-donde-se-va-el-dinero-que-cobro-con-yape" class="pf_si">Si</div>
                                                         </div>
+                                                    </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_a-donde-se-va-el-dinero-que-cobro-con-yape" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_a-donde-se-va-el-dinero-que-cobro-con-yape" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_a-donde-se-va-el-dinero-que-cobro-con-yape">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" type='text' id="response_no_other_a-donde-se-va-el-dinero-que-cobro-con-yape" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar2(this)" id="message_resp_no_a-donde-se-va-el-dinero-que-cobro-con-yape" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_a-donde-se-va-el-dinero-que-cobro-con-yape" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
                                                     </div>
                                                     <div class="box-response ">
                                                         <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>

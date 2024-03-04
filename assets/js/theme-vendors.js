@@ -460,7 +460,7 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
                 if (this.$element.trigger(o), !o.isDefaultPrevented()) {
                     n && n.length && (i.call(n, "hide"), e || n.data("bs.collapse", null));
                     var a = this.dimension();
-                    console.log("location",this.$element[0].id);
+                    // console.log("location",this.$element[0].id);
                     window.location.hash = this.$element[0].id;
 
                     // window.scrollTo(0,0);

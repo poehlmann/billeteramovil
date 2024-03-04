@@ -2,10 +2,10 @@
 importScripts('assets/js/sw-utils.js');
 
 
-const cache_name = 'YAPE_CACHE_v1.2';
-const static_cache = 'static-v1';
-const dynamic_cache = 'dynamic-v1';
-const inmutable_cache = 'inmutable-v1';
+const cache_name = 'YAPE_CACHE_v1.5';
+const static_cache = 'static-v2';
+const dynamic_cache = 'dynamic-v2';
+const inmutable_cache = 'inmutable-v2';
 const app_shell = [
     "./index.html",
     "assets/img/favicon.ico",
@@ -60,11 +60,9 @@ const app_shell = [
     "assets/js/sweetalert2.min.js",
     "assets/js/jquery.min.js",
     "assets/js/bootstrap.min.js",
-    "assets/js/youtube.min.js",
     "manifest.json",
 
     "assets/css/sweetalert2.min.css",
-    "assets/css/youtube.min.css",
     "assets/css/css_principal.min.css",
     "assets/css/footer.min.css",
     "assets/css/menu.min.css",
@@ -74,13 +72,11 @@ const app_shell = [
 const app_shell_inmutable = [
     "assets/css/bootstrap.min.css",
     "assets/css/flag-icon.min.css",
-    "assets/css/youtube.min.css",
     "assets/vendors/lazysizes.min.js",
     "assets/js/sweetalert2.min.js",
     "assets/css/sweetalert2.min.css",
     "assets/js/jquery.min.js",
     "assets/js/bootstrap.min.js",
-    "assets/js/youtube.min.js",
     "manifest.json",
     "assets/img/favicon.ico"
 ];
