@@ -173,6 +173,9 @@ li div.nest div{
 .customNavigation{
     margin-top: 75px;
 }
+.collapsing {
+    transition: none !important;
+}
 .ow {
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -639,6 +642,13 @@ a:focus, a:hover {
     height: 559px;
 }
 @media (max-width: 991px){
+    .tabs-blog section{
+        width: 100% !important;
+    }
+    .col-md-12{
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
     .fondo_soli_ahora_es_yape{
         /*background-position: 15vh 6vh!important;*/
         height: 328px !important;
@@ -1182,6 +1192,9 @@ border-top: 0;
 }
 
 @media (max-width: 575px){
+    ol{
+        padding-inline-start: 0 !important;
+    }
     .padding_h1{
         padding-top: 10px !important;
     }
@@ -1201,7 +1214,17 @@ border-top: 0;
         align-items: center;
     }
 }
-
+@media(max-width: 400px){
+    .nps_pf {
+        display: contents !important;
+    }
+    .pf_si{
+        margin-top: 5px !important;
+    }
+    .pf_no{
+        margin-bottom: 5px !important;
+    }
+}
 @media (min-width: 576px) {
     .tabs-blog > ul {
         width: 20%;

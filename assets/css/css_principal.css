@@ -1977,7 +1977,7 @@ iframe{max-width:100%;border:0;}
 
 .disabled{
     color: #d1d1d1 !important;
-    background-color: #f4f4f5;
+    background-color: #f4f4f5 !important;
     border: none;
     pointer-events: none;
 }
@@ -2112,7 +2112,7 @@ input[type='radio']:checked:after {
     /*transition: all .5s;*/
     /*transition-timing-function: cubic-bezier(.2,3,.4,1);*/
     user-select: none;
-    color: #ffffff !important;
+    color: #ffffff ;
     font-weight: 700;
     font-size: 16px;
 }
@@ -3981,6 +3981,19 @@ section.section--sac .sac-channels .sac-channel a {
     text-align: center;
 }
 @media (max-width: 991px) {
+    input[type='radio'] {
+        width: 9px;
+        height: 9px;
+        top: -2px;
+        left: -1px;
+    }
+    input[type='radio']:checked:after {
+        width: 5px;
+        height: 5px;
+        top: -10px;
+        left: 2px;
+    }
+
     .pf_si_fin , .pf_no_fin{
         line-height: 28px!important;
     }

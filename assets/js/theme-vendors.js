@@ -26,7 +26,7 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
     var i = '[data-dismiss="alert"]', s = function (e) {
         t(e).on("click", i, this.close)
     };
-    s.VERSION = "3.3.7", s.TRANSITION_DURATION = 150, s.prototype.close = function (e) {
+    s.VERSION = "3.3.7", s.TRANSITION_DURATION = 0, s.prototype.close = function (e) {
         function i() {
             a.detach().trigger("closed.bs.alert").remove()
         }
@@ -89,7 +89,7 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
     var i = function (e, i) {
         this.$element = t(e), this.$indicators = this.$element.find(".carousel-indicators"), this.options = i, this.paused = null, this.sliding = null, this.interval = null, this.$active = null, this.$items = null, this.options.keyboard && this.$element.on("keydown.bs.carousel", t.proxy(this.keydown, this)), "hover" == this.options.pause && !("ontouchstart" in document.documentElement) && this.$element.on("mouseenter.bs.carousel", t.proxy(this.pause, this)).on("mouseleave.bs.carousel", t.proxy(this.cycle, this))
     };
-    i.VERSION = "3.3.7", i.TRANSITION_DURATION = 600, i.DEFAULTS = {
+    i.VERSION = "3.3.7", i.TRANSITION_DURATION = 0, i.DEFAULTS = {
         interval: 5e3,
         pause: "hover",
         wrap: !0,
@@ -238,7 +238,7 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
             this.$element.trigger("loaded.bs.modal")
         }, this))
     };
-    i.VERSION = "3.3.7", i.TRANSITION_DURATION = 300, i.BACKDROP_TRANSITION_DURATION = 150, i.DEFAULTS = {
+    i.VERSION = "3.3.7", i.TRANSITION_DURATION = 0, i.BACKDROP_TRANSITION_DURATION = 0, i.DEFAULTS = {
         backdrop: !0,
         keyboard: !0,
         show: !0
@@ -345,7 +345,7 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
     var i = function (e) {
         this.element = t(e)
     };
-    i.VERSION = "3.3.7", i.TRANSITION_DURATION = 150, i.prototype.show = function () {
+    i.VERSION = "3.3.7", i.TRANSITION_DURATION = 0, i.prototype.show = function () {
         var e = this.element, i = e.closest("ul:not(.dropdown-menu)"), s = e.data("target");
         if (s || (s = e.attr("href"), s = s && s.replace(/.*(?=#[^\s]*$)/, "")), !e.parent("li").hasClass("active")) {
             var n = i.find(".active:last a"), o = t.Event("hide.bs.tab", {relatedTarget: e[0]}),
@@ -449,7 +449,7 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
     var s = function (e, i) {
         this.$element = t(e), this.options = t.extend({}, s.DEFAULTS, i), this.$trigger = t('[data-toggle="collapse"][href="#' + e.id + '"],[data-toggle="collapse"][data-target="#' + e.id + '"]'), this.transitioning = null, this.options.parent ? this.$parent = this.getParent() : this.addAriaAndCollapsedClass(this.$element, this.$trigger), this.options.toggle && this.toggle()
     };
-    s.VERSION = "3.3.7", s.TRANSITION_DURATION = 350, s.DEFAULTS = {toggle: !0}, s.prototype.dimension = function () {
+    s.VERSION = "3.3.7", s.TRANSITION_DURATION = 0, s.DEFAULTS = {toggle: !0}, s.prototype.dimension = function () {
         var t = this.$element.hasClass("width");
         return t ? "width" : "height"
     }, s.prototype.show = function () {
@@ -474,9 +474,15 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
                     this.$element.one("bsTransitionEnd", t.proxy(r, this)).emulateTransitionEnd(s.TRANSITION_DURATION)[a](this.$element[0][l])
                     // this.$element[0].scrollIntoView();
                     window.scrollTo(0,0);
-                    $('html,body').animate({
-                        scrollTop: $("#"+this.$element[0].id).offset().top - 150
-                    },0);
+                    if( window.innerWidth >= 290 ){
+                        $('html,body').animate({
+                            scrollTop: $("#" + this.$element[0].id).offset().top - 180
+                        }, 0);
+                    }else {
+                        $('html,body').animate({
+                            scrollTop: $("#" + this.$element[0].id).offset().top - 230
+                        }, 0);
+                    }
                 }
             }
         }

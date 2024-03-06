@@ -3566,15 +3566,12 @@ tbody.collapse.in {
     position: relative;
     height: 0;
     overflow: hidden;
-    -webkit-transition-property: height, visibility;
-    -o-transition-property: height, visibility;
-    transition-property: height, visibility;
-    -webkit-transition-duration: 0.35s;
-    -o-transition-duration: 0.35s;
-    transition-duration: 0.35s;
-    -webkit-transition-timing-function: ease;
-    -o-transition-timing-function: ease;
-    transition-timing-function: ease;
+    -webkit-transition: none !important;
+    transition: none !important;
+    display: none !important;
+    /*-webkit-transition-property: height, visibility;*/
+    /*-o-transition-property: height, visibility;*/
+    /*transition-property: height, visibility;*/
 }
 .caret {
     display: inline-block;

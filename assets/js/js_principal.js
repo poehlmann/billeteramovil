@@ -94,6 +94,15 @@ function countChar2(val) {
     }
     $(val).next().html(100-len +" / 100");
 }
+function countChar3(val) {
+    var len = val.value.length;
+    if(len==0){
+        $(".pf_no_fin").addClass('disabled');
+    }else{
+        $(".pf_no_fin").removeClass('disabled');
+    }
+    $(val).next().html(300-len +" / 300");
+}
 function detectMob() {
     return ( ( window.innerWidth <= 997 )  );
 }

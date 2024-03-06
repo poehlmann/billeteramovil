@@ -6,8 +6,34 @@
   <component name="ChangeListManager">
     <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="actualizacion de wordings y paginas, mejoras en preguntas de tasa de resolucion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/ayuda.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/ayuda.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/ayuda.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/ayuda.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/beneficios_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/beneficios_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/beneficios_style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/beneficios_style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/menu.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/menu.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/ayuda.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/ayuda.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/ayuda.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/ayuda.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/js_principal.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/js_principal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/js_principal.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/js_principal.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/theme-vendors.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/theme-vendors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/theme-vendors.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/theme-vendors.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/crear-tu-cuenta-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/crear-tu-cuenta-yape.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/centro_de_ayuda/depositar-dinero-a-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/depositar-dinero-a-yape.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/enviar-y-recibir-yapeos.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/enviar-y-recibir-yapeos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/recargas-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/recargas-yape.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/centro_de_ayuda/retirar-dinero-de-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/retirar-dinero-de-yape.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/sobre-tu-cuenta-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/sobre-tu-cuenta-yape.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/soy-nuevo-en-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/soy-nuevo-en-yape.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/yape-para-tu-negocio.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/yape-para-tu-negocio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/yapeo-de-servicios.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/yapeo-de-servicios.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +234,7 @@
       <workItem from="1709209873269" duration="5017000" />
       <workItem from="1709296852864" duration="4550000" />
       <workItem from="1709552946997" duration="5303000" />
-      <workItem from="1709657308731" duration="1321000" />
+      <workItem from="1709657308731" duration="11209000" />
     </task>
     <task id="LOCAL-00002" summary="correcion web">
       <created>1695079988123</created>
@@ -357,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709568094619</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="actualizacion de wordings y paginas, mejoras en preguntas de tasa de resolucion">
+      <created>1709660442003</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1709660442003</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

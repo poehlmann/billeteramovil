@@ -210,7 +210,7 @@
     font-size: 23px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 991px) {
     .card-category-4 .sp-card-1 .shop-button {
         padding-left: 0px;
     }
@@ -244,7 +244,16 @@
         padding: 0 15px;
     }
 }
-
+@media (max-width:450px){
+    .card-category-4 .sp-card-1 {
+        width: 75%;
+    }
+}
+@media (max-width:290px){
+    .card-category-4 .sp-card-1 {
+        width: 55%;
+    }
+}
 /*CTA - CUPON*/
 .cta_cupon{
     display: inline;
