@@ -1889,7 +1889,7 @@ iframe{max-width:100%;border:0;}
     color: #686871;
     margin-bottom: 1.5rem;
     width: -webkit-fill-available;
-    margin-right: 3rem!important;
+    margin-right: 5rem!important;
     font-weight: 100;
 }
 .box-response-no .counter{
@@ -1982,7 +1982,7 @@ iframe{max-width:100%;border:0;}
     pointer-events: none;
 }
 .other_option_response_no{
-    text-align: center;
+    /*text-align: center;*/
 }
 .other_option_response_no input{
     border-radius: 0;
@@ -3836,13 +3836,13 @@ section.section--sac .sac-channels .sac-channel a {
     color: #69607b !important;
 }
 .swiper-1{
-    background-image:url(../img/background-agente.svg)
+    background-image:url(../img/background-agente.png)
 }
 .swiper-2{
-    background-image:url(../img/background-yape-yape.svg)
+    background-image:url(../img/background-yape-yape.png)
 }
 .swiper-3{
-    background-image:url(../img/background-seguridad.svg)
+    background-image:url(../img/background-seguridad.png)
 }
 .swiper-4{
     background-image:url(../img/background-negocio.svg)

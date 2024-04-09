@@ -156,7 +156,7 @@
   },
   {
     "question": "¿Cómo puedo retirar mi dinero de los agentes BCP?",
-    "link": "https://www.yape.com.bo/centro_de_ayuda/retirar-dinero-de-yape.html#como-puedo-retirar-diner-de-los-agentes-bcp",
+    "link": "https://www.yape.com.bo/centro_de_ayuda/retirar-dinero-de-yape.html#como-puedo-retirar-dinero-de-los-agentes-bcp",
     "tags": ["retirar de un agente","como sacar dinero de un agente"]
   },
   {
@@ -353,5 +353,11 @@
     "question":"¿Puedo crearle una cuenta de Yape a mi hijo o hija menor de edad?",
     "link":"https://www.yape.com.bo/centro_de_ayuda/crear-tu-cuenta-yape.html#puedo-crearle-una-cuenta-de-yape-a-mi-hijo-o-hija-menor-de-edad",
     "tags":["hijo","hija"]
+  },
+  {
+  "question":"¿Puedo pagar la inspección vehicular con Yape?",
+  "link":"https://www.yape.com.bo/centro_de_ayuda/yapeo-de-servicios.html#puedo-pagar-la-inspeccion-vehicular-con-yape",
+  "tags":["inspeccion","vehicular"]
   }
+
 ]

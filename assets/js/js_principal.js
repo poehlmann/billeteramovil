@@ -55,17 +55,25 @@ $(document).ready(function() {
             navigator.serviceWorker.register('../sw.js?'+Math.random()+'')
         });
     }
-    // if ($("#formulario_negocio").length != 0) {
-    //     const escapeHTMLPolicy = trustedTypes.createPolicy("myEscapePolicy", {
-    //         createHTML: (string) => string.replace(/>/g, "<"),
-    //     });
-    //
-    //     let el = document.getElementById("formulario_negocio");
-    //     const escaped = escapeHTMLPolicy.createHTML('<iframe src="https://forms.office.com/pages/responsepage.aspx?id=zOuTXWn3gEOLfiifyXLaG-mQZqnMoy1KnHWPJOl6AutUNTVXQTEwWkxKN0VSTkw4V0o3WkdCWUlCSCQlQCN0PWcu&amp;embed=true" width="640" height="1780" frameborder="0" marginheight="0" marginwidth="0" style="overflow: hidden; border: none; max-width: 100%; max-height: 100vh; height: 1300px !important;" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" msallowfullscreen="" scrolling="no">Cargando…</iframe>');
-    //     console.log(escaped instanceof TrustedHTML); // true
-    //     el.innerHTML = escaped;
-    // }
-
+    // const registerServiceWorker = async () => {
+    //     if ("serviceWorker" in navigator) {
+    //         try {
+    //             const registration = await navigator.serviceWorker.register('../sw.js?'+Math.random(), {
+    //                 scope: "/",
+    //             });
+    //             if (registration.installing) {
+    //                 console.log("Instalando el Service worker");
+    //             } else if (registration.waiting) {
+    //                 console.log("Service worker instalado");
+    //             } else if (registration.active) {
+    //                 console.log("Service worker activo");
+    //             }
+    //         } catch (error) {
+    //             console.error(`Falló el registro con el ${error}`);
+    //         }
+    //     }
+    // };
+    // registerServiceWorker();
 
 });
 $('.checkbox-resp-no input').on('change', function() {

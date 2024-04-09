@@ -352,7 +352,9 @@ function MakeSearch(){
                 $('#title_principal').addClass('space_smart');
             }
             // document.getElementById("submenu_arrow").src = realPath+"/assets/img/ic_angle_down_r_small-white.svg";
-            document.getElementById("logo-menu").src=realPath+"/assets/img/Logo_Bolivia_2.svg";
+            if ($("#logo-menu-secundary").length != 0) {
+                document.getElementById("logo-menu-secundary").src = realPath + "/assets/img/Logo_Bolivia_2.svg";
+            }
         }
         windowSize();
     }

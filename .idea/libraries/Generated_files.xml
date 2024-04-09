@@ -29,6 +29,7 @@
         <item url="file://$PROJECT_DIR$/assets/js/soliaguinaldo_script.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/sw-utils.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/sweetalert2.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/swiper-bundle-new.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/swiper-bundle.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/theme-vendors.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/theme.min.js" />
@@ -36,7 +37,6 @@
         <item url="file://$PROJECT_DIR$/assets/js/youtube.min.js" />
         <item url="file://$PROJECT_DIR$/assets/vendors/owlcarousel/dist/owl.carousel.min.js" />
         <item url="file://$PROJECT_DIR$/sw.min.js" />
-        <item url="file://$PROJECT_DIR$/sw.min.min.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
@@ -67,6 +67,7 @@
       <root url="file://$PROJECT_DIR$/assets/js/soliaguinaldo_script.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/sw-utils.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/sweetalert2.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/swiper-bundle-new.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/swiper-bundle.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/theme-vendors.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/theme.min.js" />
@@ -74,7 +75,6 @@
       <root url="file://$PROJECT_DIR$/assets/js/youtube.min.js" />
       <root url="file://$PROJECT_DIR$/assets/vendors/owlcarousel/dist/owl.carousel.min.js" />
       <root url="file://$PROJECT_DIR$/sw.min.js" />
-      <root url="file://$PROJECT_DIR$/sw.min.min.js" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

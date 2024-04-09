@@ -13,18 +13,28 @@ $(document).ready(function () {
     if(window.location.href.indexOf("#") > -1) {
         if (tabnum!=""){
             $('#'+tabnum).addClass('in');
-            // $(window).scrollTop( $("#"+tabnum).offset().top );
-        // .scrollTop( $("#topofthePage").offset().top );
             window.scrollTo(0,0);
             if( window.innerWidth >= 290 ){
                 $('html,body').animate({
-                    scrollTop: $("#" + this.$element[0].id).offset().top - 180
+                    scrollTop: $(window).scrollTop( $("#"+tabnum).offset().top)
                 }, 0);
             }else {
                 $('html,body').animate({
-                    scrollTop: $("#" + this.$element[0].id).offset().top - 230
+                    scrollTop: $(window).scrollTop( $("#"+tabnum).offset().top - 230)
                 }, 0);
             }
+            // $(window).scrollTop( $("#"+tabnum).offset().top );
+        // .scrollTop( $("#topofthePage").offset().top );
+
+            // if( window.innerWidth >= 290 ){
+            //     $('html,body').animate({
+            //         scrollTop: $("#" + this.$element[0].id).offset().top - 180
+            //     }, 0);
+            // }else {
+            //     $('html,body').animate({
+            //         scrollTop: $("#" + this.$element[0].id).offset().top - 230
+            //     }, 0);
+            // }
             var tab_link = document.querySelectorAll("a[href='#"+tabnum+"']");
             var tab = tab_link[0];
             // console.log("tab",tab);
@@ -32,17 +42,43 @@ $(document).ready(function () {
             $('.window-search').css('display','none');
         }
     }
+    if ($(".swiper-servicios").length != 0) {
+        var swiper = new Swiper(".swiper-servicios", {
+            cssMode: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+                allowTouchMove: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+
+            autoHeight: true,
+            mousewheel: true,
+            keyboard: true,
+            // centeredSlides: true,
+
+        });
+    }
+
     $('.pf_no').click(function () {
         $(this).parent().parent().next().next().addClass("show_response");
         $(this).parent().parent().addClass("hide_response");
+        $(".pf_no_fin").removeClass('disabled');
             // $(".nps_pf_container").css("display","none");
             // $(".box-response-no").css("display","flex");
     });
 
     $("input[name='radio_response_no']").change(function(){
+
         if ($("input[name='radio_response_no']").is(":checked"))
         {
-            $(".pf_no_fin").removeClass('disabled');
+                if($("input[name='radio_response_no']:checked").val()!="Otra razón")
+                    $(".pf_no_fin").removeClass('disabled');
+                else
+                    $(".pf_no_fin").addClass('disabled');
         }
     })
 
@@ -84,8 +120,6 @@ $(document).ready(function () {
         }, 7000);
     });
 
-
-
     // window.scrollTo(0,0);
     size = $(document).width();
     if (size >= 1199) {
@@ -95,6 +129,7 @@ $(document).ready(function () {
         $(".icon_down") .css('display','block');
         $('.inner').css('display','none');
     }
+
     $(".nest").on("click", function() {
         if (size < 1199) {
             if ($(this).next().hasClass("show")) {
@@ -147,6 +182,17 @@ $(document).ready(function () {
     jQuery(function () {
         var link = jQuery("#faq-tabs a");
         link.on("click", function () {
+            var $this = jQuery(this);
+            var href = $this.href;
+            jQuery("a .nav-link").removeClass().addClass(href);
+            link.removeClass("active");
+            if (document.querySelector('#faq-tabs a.active') !== null) {
+                document.querySelector('#faq-tabs a.active').classList.remove('active');
+            }
+            jQuery(this).closest("a").addClass("active");
+        })
+
+        link.on("tap",function(){
             var $this = jQuery(this);
             var href = $this.href;
             jQuery("a .nav-link").removeClass().addClass(href);

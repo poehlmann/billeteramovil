@@ -5,15 +5,16 @@
         <priority>1.00</priority>
     </url>
     <url>
-        <loc>https://www.yape.com.bo/yape/</loc>
-        <lastmod>2023-08-11T04:05:54+00:00</lastmod>
-        <priority>0.90</priority>
+        <loc>https://www.yape.com.bo/yapepromociones/</loc>
+        <lastmod>2023-08-11T01:01:01+00:00</lastmod>
+        <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://www.yape.com.bo/soli-ahora-es-yape/</loc>
-        <lastmod>2023-08-11T04:05:54+00:00</lastmod>
-        <priority>0.90</priority>
+        <loc>https://www.yape.com.bo/beneficios/</loc>
+        <lastmod>2023-08-11T01:01:01+00:00</lastmod>
+        <priority>0.80</priority>
     </url>
+<!--    YAPENEGOCIOS-->
     <url>
         <loc>https://www.yape.com.bo/yapenegocios/</loc>
         <lastmod>2023-08-11T04:05:54+00:00</lastmod>
@@ -24,11 +25,8 @@
         <lastmod>2023-08-11T04:05:54+00:00</lastmod>
         <priority>0.90</priority>
     </url>
-    <url>
-        <loc>https://www.yape.com.bo/centro_de_ayuda/</loc>
-        <lastmod>2023-08-11T04:05:54+00:00</lastmod>
-        <priority>0.90</priority>
-    </url>
+<!--    -->
+<!--BLOG-->
     <url>
         <loc>https://www.yape.com.bo/blog/</loc>
         <lastmod>2023-08-11T01:01:01+00:00</lastmod>
@@ -36,16 +34,6 @@
     </url>
     <url>
         <loc>https://www.yape.com.bo/blog/adios-al-efectivo/5-habitos-para-decirle-adios-al-uso-de-dinero-en-efectivo.html</loc>
-        <lastmod>2023-08-11T01:01:01+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://www.yape.com.bo/yapepromociones/</loc>
-        <lastmod>2023-08-11T01:01:01+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://www.yape.com.bo/beneficios/</loc>
         <lastmod>2023-08-11T01:01:01+00:00</lastmod>
         <priority>0.80</priority>
     </url>
@@ -59,42 +47,425 @@
         <lastmod>2023-08-11T01:01:01+00:00</lastmod>
         <priority>0.80</priority>
     </url>
+<!--   CENTRO DE AYUDA -->
     <url>
-        <loc>https://www.yape.com.bo/blog/negocios-digitales/diferencias-entre-cuentas-de-caja-de-ahorros-cuentas-corrientes-billeteras-moviles.html</loc>
-        <lastmod>2023-08-11T01:01:01+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-<!---->
-    <url>
-        <loc>https://www.yape.com.bo/centro_de_ayuda/cambiar-y-recuperar-contrasenas.html</loc>
+        <loc>https://www.yape.com.bo/centro_de_ayuda/</loc>
         <lastmod>2023-08-11T04:05:54+00:00</lastmod>
-        <priority>0.70</priority>
-    </url>
-    <url>
-        <loc>https://www.yape.com.bo/centro_de_ayuda/comercios.html</loc>
-        <lastmod>2023-08-11T04:05:54+00:00</lastmod>
-        <priority>0.70</priority>
-    </url>
-    <url>
-        <loc>https://www.yape.com.bo/centro_de_ayuda/depositar.html</loc>
-        <lastmod>2023-08-11T04:05:54+00:00</lastmod>
-        <priority>0.70</priority>
-    </url>
-    <url>
-        <loc>https://www.yape.com.bo/centro_de_ayuda/enviar-y-recibir-yapeos.html</loc>
-        <lastmod>2023-08-11T04:05:54+00:00</lastmod>
-        <priority>0.70</priority>
-    </url>
-    <url>
-        <loc>https://www.yape.com.bo/centro_de_ayuda/index.html</loc>
-        <lastmod>2023-08-11T04:05:54+00:00</lastmod>
-        <priority>0.70</priority>
+        <priority>0.90</priority>
     </url>
     <url>
         <loc>https://www.yape.com.bo/centro_de_ayuda/soy-nuevo-en-yape.html</loc>
         <lastmod>2023-08-11T04:05:54+00:00</lastmod>
         <priority>0.70</priority>
     </url>
+    <!--  SECCIONES CENTRO DE AYUDA  -->
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/soy-nuevo-en-yape.html#como-funciona-yape</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/soy-nuevo-en-yape.html#necesito-abrir-una-cuenta-de-ahorros-para-tener-yape</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/soy-nuevo-en-yape.html#porque-usar-yape</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/soy-nuevo-en-yape.html#puedo-sacar-tarjeta-de-debito-o-credito-yape</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/soy-nuevo-en-yape.html#puedo-tener-mas-de-una-cuenta-yape-a-mi-nombre</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/soy-nuevo-en-yape.html#una-persona-menor-de-edad-puede-abrir-cuenta-yape</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/soy-nuevo-en-yape.html#puedo-manejar-moneda-extranjera-en-mi-cuenta-yape</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/soy-nuevo-en-yape.html#con-que-tipo-de-celular-puedo-utilizar-yape</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/soy-nuevo-en-yape.html#soy-extranjero-puedo-crear-una-cuenta-yape</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/soy-nuevo-en-yape.html#yape-cobra-comision-por-el-uso</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+    <!--  FIN SECCIONES   -->
+    <url>
+        <loc>https://www.yape.com.bo/centro_de_ayuda/crear-tu-cuenta-yape.html</loc>
+        <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+        <priority>0.70</priority>
+    </url>
+    <!--    SECCIONES CENTRO DE AYUDA    -->
+    <url>
+        <loc>https://www.yape.com.bo/centro_de_ayuda/crear-tu-cuenta-yape.html#como-me-creo-mi-cuenta-en-yape</loc>
+        <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://www.yape.com.bo/centro_de_ayuda/crear-tu-cuenta-yape.html#porque-me-pide-una-selfie-al-momento-de-crear-mi-cuenta</loc>
+        <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://www.yape.com.bo/centro_de_ayuda/crear-tu-cuenta-yape.html#porque-no-puedo-crear-mi-cuenta-en-yape</loc>
+        <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://www.yape.com.bo/centro_de_ayuda/crear-tu-cuenta-yape.html#puedo-crearle-una-cuenta-de-yape-a-mi-hijo-o-hija-menor-de-edad</loc>
+        <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+        <priority>0.70</priority>
+    </url>
+    <!--   FIN SECCIONES -->
+    <url>
+        <loc>https://www.yape.com.bo/centro_de_ayuda/sobre-tu-cuenta-yape.html</loc>
+        <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+        <priority>0.70</priority>
+    </url>
+    <!--  SECCIONES CENTRO DE AYUDA  -->
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/sobre-tu-cuenta-yape.html#cuanto-dinero-puedo-tener-en-yape</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/sobre-tu-cuenta-yape.html#donde-veo-mis-movimientos-en-yape</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/sobre-tu-cuenta-yape.html#como-puedo-consultar-mi-saldo</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/sobre-tu-cuenta-yape.html#cual-es-mi-numero-de-cuenta-yape</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/sobre-tu-cuenta-yape.html#cuando-pago-un-servicio-donde-puedo-recoger-mis-facturas</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/sobre-tu-cuenta-yape.html#que-puedo-hacer-si-tengo-alguna-dificultad-al-crear-mi-cuenta-yape</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/sobre-tu-cuenta-yape.html#como-puedo-cambiar-la-contrasena-o-pin-de-mi-cuenta-yape</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+    <!--  FIN SECCIONES  -->
+    <url>
+        <loc>https://www.yape.com.bo/centro_de_ayuda/depositar-dinero-a-yape.html</loc>
+        <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+        <priority>0.70</priority>
+    </url>
+    <!--  SECCIONES CENTRO DE AYUDA  -->
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/depositar-dinero-a-yape.html#como-puedo-depositar-dinero-en-efectivo-a-mi-cuenta-yape</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/depositar-dinero-a-yape.html#existe-comision-por-retirar-o-depositar-dinero-en-yape</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/depositar-dinero-a-yape.html#cual-es-el-monto-maximo-y-minimo-que-puedo-depositar</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/depositar-dinero-a-yape.html#en-cuanto-tiempo-se-actualiza-mi-deposito</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+    <!--  FIN SECCIONES  -->
+    <url>
+        <loc>https://www.yape.com.bo/centro_de_ayuda/retirar-dinero-de-yape.html</loc>
+        <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+        <priority>0.70</priority>
+    </url>
+    <!--  SECCIONES CENTRO DE AYUDA  -->
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/retirar-dinero-de-yape.html#como-puedo-retirar-mi-dinero-de-los-cajeros-automaticos-del-bcp</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/retirar-dinero-de-yape.html#cual-es-el-monto-maximo-y-minimo-que-puedo-retirar-de-un-cajero-automatico-bcp</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/retirar-dinero-de-yape.html#que-cajeros-automaticos-puedo-usar-para-sacar-mi-dinero-en-efectivo-de-mi-cuenta-yape</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/retirar-dinero-de-yape.html#si-no-tengo-tarjeta-o-cuenta-de-banco-como-puedo-retirar-dinero-en-yape</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/retirar-dinero-de-yape.html#como-puedo-retirar-dinero-de-las-ventanillas-en-agencias-del-BCP</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/retirar-dinero-de-yape.html#como-puedo-retirar-dinero-de-los-agentes-bcp</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+    <!--  FIN SECCIONES  -->
+    <url>
+        <loc>https://www.yape.com.bo/centro_de_ayuda/enviar-y-recibir-yapeos.html</loc>
+        <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+        <priority>0.70</priority>
+    </url>
+    <!--  SECCIONES CENTRO DE AYUDA  -->
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/enviar-y-recibir-yapeos.html#con-yape-puedo-enviar-y-recibir-dinero-de-otros-bancos</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/enviar-y-recibir-yapeos.html#que-tipos-de-transacciones-puedes-hacer-con-yape</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/enviar-y-recibir-yapeos.html#que-significa-yapear-entre-yaperos-o-enviar-a-otro-yape</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/enviar-y-recibir-yapeos.html#cuales-son-los-limites-que-puedo-enviar-y-recibir-en-yape</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/enviar-y-recibir-yapeos.html#como-realizo-una-transferencia-por-QR</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+    <!--  FIN SECCIONES  -->
+    <url>
+        <loc>https://www.yape.com.bo/centro_de_ayuda/recargas-yape.html</loc>
+        <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+        <priority>0.70</priority>
+    </url>
+    <!--  SECCIONES CENTRO DE AYUDA  -->
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/recargas-yape.html#que-operadoras-estan-disponibles-para-recargar-credito</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/recargas-yape.html#cual-es-el-monto-minimo-de-recarga-de-celular</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/recargas-yape.html#como-recargar-credito-a-mi-celular</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/recargas-yape.html#hay-comisiones-por-recargar-credito</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/recargas-yape.html#mi-recarga-de-credito-aparece-en-movimientos-y-aun-no-la-he-recibido-que-puedo-hacer</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/recargas-yape.html#puedo-recargar-credito-a-otra-persona</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/recargas-yape.html#como-se-que-mi-recarga-de-saldo-de-celular-fue-exitosa</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/recargas-yape.html#donde-puedo-descargar-mi-factura-por-la-recarga-de-credito</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/recargas-yape.html#cuanto-tarda-el-credito-en-recargarse-una-vez-que-hago-el-pago</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+    <!--  FIN SECCIONES  -->
+    <url>
+        <loc>https://www.yape.com.bo/centro_de_ayuda/yape-para-tu-negocio.html</loc>
+        <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+        <priority>0.70</priority>
+    </url>
+    <!--  SECCIONES CENTRO DE AYUDA  -->
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/yape-para-tu-negocio.html#puedo-usar-yape-en-mi-negocio</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/yape-para-tu-negocio.html#que-tipo-de-negocios-pueden-usar-yape</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/yape-para-tu-negocio.html#como-me-inscribo-como-yapenegocio</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/yape-para-tu-negocio.html#requisitos-para-afiliarme-a-comercions-negocios-yape</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/yape-para-tu-negocio.html#que-beneficios-tengo-al-ser-yapenegocio</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/yape-para-tu-negocio.html#tiene-algun-costo-ser-yapenegocio</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/yape-para-tu-negocio.html#me-entregan-material-publicitario-si-soy-yapenegocio</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/yape-para-tu-negocio.html#como-obtengo-el-sticker-de-qr-para-mi-negocio</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/yape-para-tu-negocio.html#a-donde-se-va-el-dinero-que-cobro-con-yape</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+    <!--  FIN SECCIONES  -->
+    <url>
+        <loc>https://www.yape.com.bo/centro_de_ayuda/temas-urgentes.html</loc>
+        <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+        <priority>0.70</priority>
+    </url>
+    <!--  SECCIONES CENTRO DE AYUDA  -->
+    <!--  FIN SECCIONES  -->
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/temas-urgentes.html#cuales-son-los-pasos-para-desbloquear-mi-cuenta-yape</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <!--  SECCIONES CENTRO DE AYUDA  -->
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/temas-urgentes.html#que-hago-en-caso-de-perdida-o-robo-de-celular</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/temas-urgentes.html#puedo-tener-mas-de-una-cuenta-en-yape</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/temas-urgentes.html#cuantos-intentos-para-ingresar-mi-contrasenha-o-pin</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/temas-urgentes.html#cuales-son-los-pasos-para-recuperar-mi-contrasenha</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/temas-urgentes.html#cambie-de-celular-y-no-puedo-acceder-a-yape</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/temas-urgentes.html#realice-una-transferencia-a-traves-de-mi-yape-y-no-llego-al-banco-destino-donde-puedo-reclamar</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/temas-urgentes.html#donde-puedo-realizar-consultas-cuando-existen-fallas-en-la-app-de-yape</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+        <url>
+            <loc>https://www.yape.com.bo/centro_de_ayuda/temas-urgentes.html#que-significa-el-mensaje-de-error-que-sale-al-intentar-ingresar-a-yape</loc>
+            <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+            <priority>0.70</priority>
+        </url>
+    <!--  FIN SECCIONES  -->
+    <url>
+        <loc>https://www.yape.com.bo/centro_de_ayuda/yapeo-de-servicios.html#puedo-pagar-la-factura-de-luz-con-yape</loc>
+        <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+        <priority>0.70</priority>
+    </url>
+    <!--  SECCIONES CENTRO DE AYUDA  -->
+    <url>
+        <loc>https://www.yape.com.bo/centro_de_ayuda/yapeo-de-servicios.html#puedo-pagar-el-agua-con-yape</loc>
+        <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://www.yape.com.bo/centro_de_ayuda/yapeo-de-servicios.html#puedo-pagar-la-factura-de-telefonia-con-yape</loc>
+        <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://www.yape.com.bo/centro_de_ayuda/yapeo-de-servicios.html#puedo-pagar-la-factura-de-gas-domiciliario-con-yape</loc>
+        <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://www.yape.com.bo/centro_de_ayuda/yapeo-de-servicios.html#puedo-pagar-los-impuestos-de-inmueble-con-yape</loc>
+        <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://www.yape.com.bo/centro_de_ayuda/yapeo-de-servicios.html#puedo-pagar-los-impuestos-de-vehiculo-con-yape</loc>
+        <lastmod>2023-08-11T04:05:54+00:00</lastmod>
+        <priority>0.70</priority>
+    </url>
+    <!--  FIN SECCIONES  -->
+<!--SEGURIDAD-->
     <url>
         <loc>https://www.yape.com.bo/seguridad/</loc>
         <lastmod>2023-08-11T04:05:54+00:00</lastmod>
@@ -121,3 +492,4 @@
         <priority>0.70</priority>
     </url>
 </urlset>
+<!---->
