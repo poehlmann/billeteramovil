@@ -5,96 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="correciones de sonarQ">
-      <change afterPath="$PROJECT_DIR$/assets/css/swiper-bundle-new.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/swiper-bundle-new.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/background-agente-mobile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/background-agente.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/background-negocio-mobile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/background-negocio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/background-seguridad-mobile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/background-seguridad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/background-yape-yape-mobile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/background-yape-yape.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/background_phone.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/centro_de_ayuda.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/servicios/luz/1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/servicios/luz/2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/servicios/luz/3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/servicios/luz/4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/servicios/luz/5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/servicios/luz/6.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/servicios/ruat_inmuebles/1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/servicios/ruat_inmuebles/2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/servicios/ruat_inmuebles/3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/servicios/ruat_inmuebles/4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/servicios/ruat_inmuebles/5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/servicios/ruat_inmuebles/6.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/servicios/ruat_inspeccion_vehicular/1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/servicios/ruat_inspeccion_vehicular/2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/servicios/ruat_inspeccion_vehicular/3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/servicios/ruat_inspeccion_vehicular/4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/servicios/ruat_inspeccion_vehicular/5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/servicios/ruat_inspeccion_vehicular/6.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/servicios/ruat_vehiculos/1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/servicios/ruat_vehiculos/2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/servicios/ruat_vehiculos/3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/servicios/ruat_vehiculos/4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/servicios/ruat_vehiculos/5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/servicios/ruat_vehiculos/6.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/swiper-bundle-new.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/swiper-bundle-new.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/401.html" beforeDir="false" afterPath="$PROJECT_DIR$/401.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/403.html" beforeDir="false" afterPath="$PROJECT_DIR$/403.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/500.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/ayuda.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/ayuda.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/ayuda.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/ayuda.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/background-negocio-mobile.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/background-negocio-mobile.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/background-negocio.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/background-negocio.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/background-yape-yape-mobile.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/background-yape-yape-mobile.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/ayuda.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/ayuda.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/ayuda.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/ayuda.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/js_principal.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/js_principal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/menu.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/menu.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beneficios/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/adios-al-efectivo/5-habitos-para-decirle-adios-al-uso-de-dinero-en-efectivo.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/adios-al-efectivo/5-habitos-para-decirle-adios-al-uso-de-dinero-en-efectivo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/adios-al-efectivo/dinero-electronico-efectivo-y-virtual-cuales-son-sus-diferencias.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/adios-al-efectivo/dinero-electronico-efectivo-y-virtual-cuales-son-sus-diferencias.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/negocios-digitales/los-codigos-qr-una-alternativa-de-pago-que-facilitan-tu-vida.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/negocios-digitales/los-codigos-qr-una-alternativa-de-pago-que-facilitan-tu-vida.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/crear-tu-cuenta-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/crear-tu-cuenta-yape.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/depositar-dinero-a-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/depositar-dinero-a-yape.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/enviar-y-recibir-yapeos.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/enviar-y-recibir-yapeos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/recargas-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/recargas-yape.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/retirar-dinero-de-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/retirar-dinero-de-yape.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/sobre-tu-cuenta-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/sobre-tu-cuenta-yape.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/soy-nuevo-en-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/soy-nuevo-en-yape.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/yape-para-tu-negocio.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/yape-para-tu-negocio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/yapeo-de-servicios.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/yapeo-de-servicios.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrato-prestacion-servicio.html" beforeDir="false" afterPath="$PROJECT_DIR$/contrato-prestacion-servicio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library.json" beforeDir="false" afterPath="$PROJECT_DIR$/library.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagina-no-encontrada.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagina-no-encontrada.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/politica-privacidad-datos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/politica-privacidad-datos/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/seguridad/fraudes.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/fraudes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/seguridad/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seguridad/proteccion.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/proteccion.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seguridad/robo.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/robo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seguridad/seguridad.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/seguridad.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soli-ahora-es-yape/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/sw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sw.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/sw.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yape/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yapenegocios/formulario.html" beforeDir="false" afterPath="$PROJECT_DIR$/yapenegocios/formulario.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yapenegocios/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/yapenegocios/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yapepromociones/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/yapepromociones/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -305,7 +218,7 @@
       <workItem from="1710947676965" duration="2370000" />
       <workItem from="1711233512492" duration="1253000" />
       <workItem from="1711552441078" duration="7963000" />
-      <workItem from="1712668745740" duration="13941000" />
+      <workItem from="1712668745740" duration="14977000" />
     </task>
     <task id="LOCAL-00002" summary="correcion web">
       <created>1695079988123</created>
@@ -468,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709720340386</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="correciones de sonarQ">
+      <created>1712698903151</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1712698903151</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
