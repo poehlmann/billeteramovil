@@ -49,14 +49,14 @@ $(document).ready(function() {
     if(window.location.href.indexOf('#puntos-yape') != -1) {
         $("#puntos-yape").modal();
     }
-/*
+
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', function() {
             navigator.serviceWorker.register('../sw.js?'+Math.random()+'')
         });
     }
 
- */
+
     // const registerServiceWorker = async () => {
     //     if ("serviceWorker" in navigator) {
     //         try {
