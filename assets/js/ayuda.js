@@ -43,7 +43,20 @@ $(document).ready(function () {
         }
     }
     if ($(".swiper-servicios").length != 0) {
-        var swiper = new Swiper(".swiper-servicios", {
+        var swiper_title = new Swiper(".swiper-title-servicios", {
+            cssMode: true,
+
+            effect: "slide",
+            autoHeight: true,
+            mousewheel: true,
+            keyboard: true,
+            loop: false, // Not recommended to enable!!!
+            allowTouchMove: false,
+            // centeredSlides: true,
+
+        });
+
+        swiper_title.controller.control = new Swiper(".swiper-servicios", {
             cssMode: true,
             navigation: {
                 nextEl: ".swiper-button-next",
@@ -54,14 +67,20 @@ $(document).ready(function () {
                 el: ".swiper-pagination",
                 clickable: true,
             },
-
+            // effect: "fade",
             autoHeight: true,
+            watchSlidesProgress: true,
+            followFinger: false,
+            grabCursor: true,
             mousewheel: true,
             keyboard: true,
+            loop: false, // Not recommended to enable!!!
             // centeredSlides: true,
 
         });
     }
+
+
 
     $('.pf_no').click(function () {
         $(this).parent().parent().next().next().addClass("show_response");

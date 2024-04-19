@@ -1179,8 +1179,10 @@ border-top: 0;
 }
 .swiper-slide h3{
     display: flex;
+    font-size: 16px;
     align-items: center;
-    justify-content: center;
+    /*justify-content: center;*/
+    font-family: Roboto-Regular !important;
 }
 .swiper-autoheight .swiper-slide{
     text-align: center;
@@ -1225,6 +1227,9 @@ border-top: 0;
 .swiper-slide {
     pointer-events: none;
 }
+.swiper-title-servicios .swiper-slide:before{
+    display: none;
+}
 @media (max-width: 991px){
     .swiper-slide img{
         object-fit: contain;
@@ -1234,7 +1239,14 @@ border-top: 0;
 @media (max-width: 767px){
     .swiper-slide img{
         object-fit: contain;
-        max-width: 150px !important;
+        max-width: 250px !important;
+    }
+    .swiper-slide:before{
+        display: none;
+    }
+    .swiper-slide h3{
+        text-align: left;
+        margin-bottom: 30px;
     }
 }
 @media (max-width: 575px){
