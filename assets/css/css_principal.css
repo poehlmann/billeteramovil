@@ -284,9 +284,13 @@ a {
 a:active, a:hover {
     color: #1ee2ca;
 }
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h5 {
     color: #2c2044;
     font-family:  Roboto-bold;
+}
+h4{
+    font-family: Roboto-Medium !important;
+    font-size: 16px !important;
 }
 h1 {
     font-size: 2rem;
@@ -1769,10 +1773,11 @@ iframe{max-width:100%;border:0;}
     width: 22%;
     height: 40px;
     padding: 0 20px;
-    font-size: 18px;
+    font-size: 14px;
     align-items: center;
     justify-content: center;
 }
+
 .btn_cta_social:hover{
     box-shadow: 0 0 6px #8c0d0d33, 0 2px 1px -2px #5270941f, 0 2px 1px #52709424;
     color: #7d758d !important;
@@ -3860,7 +3865,7 @@ section.section--sac .sac-channels .sac-channel a {
     padding: 0 10%;
 }
 .swiper-pagination-bullet-active{
-    background-color:#ab44a8 !important;
+    background-color:#F0CEF5 !important;
 }
 .bg-purple-light{
     background-color: #f6f4fb;
