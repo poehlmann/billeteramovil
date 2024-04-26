@@ -77,7 +77,7 @@ li div.nest div{
 
 .dm-width {
     width: 400px;
-    margin: 90px auto;
+    margin: 0 auto;
 }
 
 .dm-device {
@@ -171,7 +171,7 @@ li div.nest div{
     height: 100vh;
 }
 .customNavigation{
-    margin-top: 75px;
+    /*margin-top: 75px;*/
 }
 .collapsing {
     transition: none !important;
@@ -214,7 +214,7 @@ li div.nest div{
 }
 .customNavigation img{
     padding: 22px;
-    height: 85px;
+    height: 75px;
     width: 90px;
 }
 .customNavigation label{
@@ -824,6 +824,7 @@ border-top: 0;
 .panel-body p,.panel-body ol{
     font-size: 16px;
     color: #2c2044 !important;
+    text-align: left;
 }
 @media (max-width: 991px){
     .question_indent{
@@ -889,7 +890,7 @@ border-top: 0;
     display: flex;
     padding: 15px 70px 15px 0px;
     background: #fff;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     letter-spacing: 1px;
     color: #742384;
@@ -1239,6 +1240,12 @@ border-top: 0;
     display: none;
 }
 @media (max-width: 991px){
+    .accordion .panel-title a{
+        font-size: 16px;
+    }
+    .accordion .panel-body{
+        text-align: center;
+    }
     .swiper-slide img{
         object-fit: contain;
         max-width: 200px !important;
@@ -1259,7 +1266,7 @@ border-top: 0;
 }
 @media (max-width: 575px){
     ol{
-        padding-inline-start: 0 !important;
+        /*padding-inline-start: 0 !important;*/
     }
     .padding_h1{
         padding-top: 10px !important;

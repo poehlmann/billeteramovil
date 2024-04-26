@@ -53,10 +53,14 @@ $(document).ready(function () {
                 allowTouchMove: false,
             });
         var    galleryTop = new Swiper('.swiper-servicios', {
-                loop: true,
+                loop: false,
                 loopedSlides: 1,
                 cssMode: true,
                 simulateTouch:true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                },
                 navigation: {
                     nextEl: '.swiper-button-next',
                     prevEl: '.swiper-button-prev',
@@ -80,10 +84,14 @@ $(document).ready(function () {
                     watchSlidesProgress: true,
                 });
         var    galleryTopvehiculo = new Swiper('.swiper-servicios-vehiculos', {
-                    loop: true,
+                    loop: false,
                     loopedSlides: 1,
                     cssMode: true,
                     simulateTouch:true,
+                    pagination: {
+                        el: '.swiper-pagination',
+                        type: 'bullets',
+                    },
                     navigation: {
                         nextEl: '.swiper-button-next',
                         prevEl: '.swiper-button-prev',
@@ -107,10 +115,15 @@ $(document).ready(function () {
                 watchSlidesProgress: true,
             });
         var    galleryTopImpuestosvehiculo = new Swiper('.swiper-servicios-impuestos-vehiculos', {
-                loop: true,
+                loop: false,
                 loopedSlides: 1,
+
                 cssMode: true,
                 simulateTouch:true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                },
                 navigation: {
                     nextEl: '.swiper-button-next',
                     prevEl: '.swiper-button-prev',
@@ -138,6 +151,10 @@ $(document).ready(function () {
             loopedSlides: 1,
             cssMode: true,
             simulateTouch:true,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
@@ -162,7 +179,7 @@ $(document).ready(function () {
     $('.pf_no').click(function () {
         $(this).parent().parent().next().next().addClass("show_response");
         $(this).parent().parent().addClass("hide_response");
-        $(".pf_no_fin").removeClass('disabled');
+
             // $(".nps_pf_container").css("display","none");
             // $(".box-response-no").css("display","flex");
     });
