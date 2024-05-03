@@ -1418,7 +1418,7 @@ img{max-width:300px;height:auto;}
     }
     .align-recomendation{
         margin-top:45px;
-        height: calc(100vh - 20rem);
+        height: 480px;
     }
     .result_search{
         margin-top:90px

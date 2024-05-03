@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="correciones QA">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -229,7 +230,7 @@
       <workItem from="1713826512791" duration="5518000" />
       <workItem from="1713878690032" duration="4235000" />
       <workItem from="1714140686298" duration="4885000" />
-      <workItem from="1714707894882" duration="7314000" />
+      <workItem from="1714707894882" duration="9188000" />
     </task>
     <task id="LOCAL-00002" summary="correcion web">
       <created>1695079988123</created>
@@ -490,7 +491,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714739840775</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="correciones QA">
+      <created>1714740327135</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1714740327135</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
