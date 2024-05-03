@@ -7,37 +7,14 @@ $(document).ready(function () {
     //     e.preventDefault();
     //     $($(this).data('target')).toggleClass('in');
     // });
-
-    // console.log("location.href",location.href);
     var tabnum = location.href.split("#").slice(-1)[0] ;
     if(window.location.href.indexOf("#") > -1) {
         if (tabnum!=""){
+            const element = document.getElementById(tabnum);
             $('#'+tabnum).addClass('in');
-            window.scrollTo(0,0);
-            if( window.innerWidth >= 290 ){
-                $('html,body').animate({
-                    scrollTop: $(window).scrollTop( $("#"+tabnum).offset().top)
-                }, 0);
-            }else {
-                $('html,body').animate({
-                    scrollTop: $(window).scrollTop( $("#"+tabnum).offset().top - 230)
-                }, 0);
-            }
-            // $(window).scrollTop( $("#"+tabnum).offset().top );
-        // .scrollTop( $("#topofthePage").offset().top );
-
-            // if( window.innerWidth >= 290 ){
-            //     $('html,body').animate({
-            //         scrollTop: $("#" + this.$element[0].id).offset().top - 180
-            //     }, 0);
-            // }else {
-            //     $('html,body').animate({
-            //         scrollTop: $("#" + this.$element[0].id).offset().top - 230
-            //     }, 0);
-            // }
+            element.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
             var tab_link = document.querySelectorAll("a[href='#"+tabnum+"']");
             var tab = tab_link[0];
-            // console.log("tab",tab);
             tab.classList.remove("collapsed");
             $('.window-search').css('display','none');
         }

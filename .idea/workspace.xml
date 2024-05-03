@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="correciones QA">
-      <change afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/crear-tu-cuenta-yape.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/depositar-dinero-a-yape.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/enviar-y-recibir-yapeos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/recargas-yape.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/retirar-dinero-de-yape.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/sobre-tu-cuenta-yape.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/soy-nuevo-en-yape.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/temas-urgentes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/yape-para-tu-negocio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/yapeo-de-servicios.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/js_principal.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/js_principal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/js_principal.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/js_principal.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/ayuda.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/ayuda.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/ayuda.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/ayuda.min.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,26 +53,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/kairos&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/xampp/htdocs/billeteramovil",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\billeteramovil\assets\img" />
       <recent name="C:\xampp\htdocs\billeteramovil" />
+      <recent name="C:\xampp\htdocs\billeteramovil\assets\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\billeteramovil" />
@@ -242,7 +231,7 @@
       <workItem from="1713826512791" duration="5518000" />
       <workItem from="1713878690032" duration="4235000" />
       <workItem from="1714140686298" duration="4885000" />
-      <workItem from="1714707894882" duration="3167000" />
+      <workItem from="1714707894882" duration="4788000" />
     </task>
     <task id="LOCAL-00002" summary="correcion web">
       <created>1695079988123</created>
@@ -475,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714147593398</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="correciones QA">
+      <created>1714712071987</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1714712071987</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
