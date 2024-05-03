@@ -1,0 +1,363 @@
+[
+  {
+    "question": "¿Cuáles son los límites transaccionales?",
+    "link": "/centro_de_ayuda_webview/enviar-y-recibir-yapeos.html#cuales-son-los-limites-transaccionales",
+    "tags": ["limite de transaccion","limites transaccionales","cuanto es lo maximo que puedo enviar","cuanto es el limite de envio"]
+  },
+  {
+    "question": "¿Cómo puedo consultar mi saldo?",
+    "link": "/centro_de_ayuda_webview/sobre-tu-cuenta-yape.html#como-puedo-consultar-mi-saldo",
+    "tags": ["numero de cuenta","mi saldo","saldo","cuenta","cual es mi numero de cuenta","donde esta mi saldo"]
+  },
+  {
+    "question": "¿Qué es Yape y cómo funciona?",
+    "link": "/centro_de_ayuda_webview/soy-nuevo-en-yape.html#como-funciona-yape",
+    "tags": ["yape","como funciona","que es yape"]
+  },
+  {
+    "question": "¿Necesito abrir una cuenta de ahorros para tener Yape?",
+    "link": "/centro_de_ayuda_webview/soy-nuevo-en-yape.html#necesito-abrir-una-cuenta-de-ahorros-para-tener-yape",
+    "tags": ["cuenta de ahorro","necesito cuenta"]
+  },
+  {
+    "question": "¿Por qué usar Yape?",
+    "link": "/centro_de_ayuda_webview/soy-nuevo-en-yape.html#porque-usar-yape",
+    "tags": ["porque yape","porque usarlo"]
+  },
+  {
+    "question": "¿Puedo sacar tarjeta de débito o crédito Yape?",
+    "link": "/centro_de_ayuda_webview/soy-nuevo-en-yape.html#puedo-sacar-tarjeta-de-debito-o-credito-yape",
+    "tags": ["tarjeta de debito","tarjeta de de credito"]
+  },
+  {
+    "question": "Para usar Yape, ¿debo tener cuenta en el Banco?",
+    "link": "/centro_de_ayuda_webview/soy-nuevo-en-yape.html#para-usar-yape-debo-tener-cuenta-en-el-banco",
+    "tags": ["cuenta del bcp","cuenta en un banco"]
+  },
+  {
+    "question": "¿Puedo tener más de una cuenta Yape a mi nombre?",
+    "link": "/centro_de_ayuda_webview/soy-nuevo-en-yape.html#puedo-tener-mas-de-una-cuenta-yape-a-mi-nombre",
+    "tags": ["varias cuentas","dos cuentas","tres cuentas"]
+  },
+  {
+    "question": "¿Una persona menor de edad puede abrir cuenta Yape?",
+    "link": "/centro_de_ayuda_webview/soy-nuevo-en-yape.html#una-persona-menor-de-edad-puede-abrir-cuenta-yape",
+    "tags": ["puedo crearle una cuenta a mi hijo hija"]
+  },
+  {
+    "question": "¿Puedo manejar Moneda extranjera ($us) en mi cuenta Yape?",
+    "link": "/centro_de_ayuda_webview/soy-nuevo-en-yape.html#puedo-manejar-moneda-extranjera-en-mi-cuenta-yape",
+    "tags": ["puedo manejar dolares en yape"]
+  },
+  {
+    "question": "¿Con qué tipo de celular puedo utilizar Yape?",
+    "link": "/centro_de_ayuda_webview/soy-nuevo-en-yape.html#con-que-tipo-de-celular-puedo-utilizar-yape",
+    "tags": ["app store","play store"," app gallery","android","ios"]
+  },
+  {
+    "question": "Soy extranjero, ¿Puedo crear una cuenta Yape?",
+    "link": "/centro_de_ayuda_webview/soy-nuevo-en-yape.html#soy-extranjero-puedo-crear-una-cuenta-yape",
+    "tags": ["soy de otro pais","soy turista"]
+  },
+  {
+    "question": "¿Yape cobra comisión por el uso?",
+    "link": "/centro_de_ayuda_webview/soy-nuevo-en-yape.html#yape-cobra-comision-por-el-uso",
+    "tags": ["es gratis","se cobran algo","me quitan dinero por transferir"]
+  },
+  {
+    "question": "¿Cómo me creo mi cuenta en Yape?",
+    "link": "/centro_de_ayuda_webview/crear-tu-cuenta-yape.html#como-me-creo-mi-cuenta-en-yape",
+    "tags": ["crear cuenta","quiero yape","como me abro cuenta"]
+  },
+  {
+    "question": " ¿Por qué me pide una selfie al momento de crear mi cuenta?",
+    "link": "/centro_de_ayuda_webview/crear-tu-cuenta-yape.html#porque-yape-me-pide-una-selfie-al-momento-de-crear-mi-cuenta",
+    "tags": ["foto","para que la selfie","no quiero sacarme foto"]
+  },
+  {
+    "question": "¿Por qué no puedo crear mi cuenta en Yape?",
+    "link": "/centro_de_ayuda_webview/crear-tu-cuenta-yape.html#porque-no-puedo-crear-mi-cuenta-en-yape",
+    "tags": ["se cierra despues de un tiempo al crearme mi cuenta","porque se cierra al tiempo creando cuenta"]
+  },
+  {
+    "question": "¿Cuánto dinero puedo tener en Yape?",
+    "link": "/centro_de_ayuda_webview/sobre-tu-cuenta-yape.html#cuanto-dinero-puedo-tener-en-yape",
+    "tags": ["maximo en yape","cuanto dinero en yape"]
+  },
+  {
+    "question": "¿Dónde veo mis movimientos en Yape?",
+    "link": "/centro_de_ayuda_webview/sobre-tu-cuenta-yape.html#donde-veo-mis-movimientos-en-yape",
+    "tags": ["extracto","ultimos movimientos","ultimas transacciones","ultimos pagos"]
+  },
+  {
+    "question": "¿Cómo puedo ver mi número de cuenta y mi saldo?",
+    "link": "/centro_de_ayuda_webview/sobre-tu-cuenta-yape.html#como-puedo-ver-mi-numero-de-cuenta-y-mi-saldo",
+    "tags": ["quiero ver mi saldo","donde veo mi saldo"]
+  },
+  {
+    "question": "¿Cuál es mi número de cuenta Yape?",
+    "link": "/centro_de_ayuda_webview/sobre-tu-cuenta-yape.html#cual-es-mi-numero-de-cuenta-yape",
+    "tags": ["cual es mi cuenta de yape","a donde tienen que transferirme"]
+  },
+  {
+    "question": "Cuando pago un servicio, ¿dónde puedo recoger mis facturas?",
+    "link": "/centro_de_ayuda_webview/sobre-tu-cuenta-yape.html#cuando-pago-un-servicio-donde-puedo-recoger-mis-facturas",
+    "tags": ["quiero mi factura de luz","quiero mi factura de agua","quiero mis factura del gas"]
+  },
+  {
+    "question": "¿Qué puedo hacer si tengo alguna dificultad al crear mi cuenta Yape?",
+    "link": "/centro_de_ayuda_webview/sobre-tu-cuenta-yape.html#que-puedo-hacer-si-tengo-alguna-dificultad-al-crear-mi-cuenta-yape",
+    "tags": ["tengo problemas al crear cuenta","error al crear cuenta"]
+  },
+  {
+    "question": "¿Cómo puedo depositar dinero en efectivo a mi cuenta Yape?",
+    "link": "/centro_de_ayuda_webview/depositar-dinero-a-yape.html#como-puedo-depositar-dinero-en-efectivo-a-mi-cuenta-yape",
+    "tags": ["quiero cargar mi yape","necesito dinero para mi yape","como le pongo dinero a yape"]
+  },
+  {
+    "question": "¿Existe comisión por retirar o depositar dinero en Yape?",
+    "link": "/centro_de_ayuda_webview/depositar-dinero-a-yape.html#existe-comision-por-retirar-o-depositar-dinero-en-yape",
+    "tags": ["cuanto cobran por retirar dinero","me cobran algo por retirar"]
+  },
+  {
+    "question": "¿Cuál es el monto máximo y mínimo que puedo depositar?",
+    "link": "/centro_de_ayuda_webview/depositar-dinero-a-yape.html#cual-es-el-monto-maximo-y-minimo-que-puedo-depositar",
+    "tags": ["cuanto puedo depositar","cuanto puedo retirar"]
+  },
+  {
+    "question": "¿En cuánto tiempo se actualiza mi depósito?",
+    "link": "/centro_de_ayuda_webview/depositar-dinero-a-yape.html#en-cuanto-tiempo-se-actualiza-mi-deposito",
+    "tags": ["cuanto tengo que esperar para ver mi depósito"]
+  },
+  {
+    "question": "¿Cómo puedo retirar mi dinero de los cajeros automáticos del BCP?",
+    "link": "/centro_de_ayuda_webview/retirar-dinero-de-yape.html#como-puedo-retirar-mi-dinero-de-los-cajeros-automaticos-del-bcp",
+    "tags": ["sacar dinero de yape","retirar dinero","sacar del cajero"]
+  },
+  {
+    "question": "¿Cuál es el monto máximo y mínimo que puedo retirar de un cajero automático BCP?",
+    "link": "/centro_de_ayuda_webview/retirar-dinero-de-yape.html#cual-es-el-monto-maximo-y-minimo-que-puedo-retirar-de-un-cajero-automatico-bcp",
+    "tags": ["monto maximo en yape","monto minimo en yape"]
+  },
+  {
+    "question": "¿Qué cajeros automáticos puedo usar para sacar mi dinero en efectivo de mi cuenta Yape?",
+    "link": "/centro_de_ayuda_webview/retirar-dinero-de-yape.html#que-cajeros-automaticos-puedo-usar-para-sacar-mi-dinero-en-efectivo-de-mi-cuenta-yape",
+    "tags": ["de que cajeros puedo sacar dinero","que cajeros del bcp sirven para sacar dinero"]
+  },
+  {
+    "question": "Si no tengo tarjeta o cuenta de banco, ¿Cómo puedo retirar dinero en Yape?",
+    "link": "/centro_de_ayuda_webview/retirar-dinero-de-yape.html#si-no-tengo-tarjeta-o-cuenta-de-banco-como-puedo-retirar-dinero-en-yape",
+    "tags": ["como retiro del cajero","como hago para sacar dinero del cajero","que necesito para sacar dinero del cajero"]
+  },
+  {
+    "question": "¿Puedo retirar mi dinero de las ventanillas en agencias del BCP?",
+    "link": "/centro_de_ayuda_webview/retirar-dinero-de-yape.html#como-puedo-retirar-dinero-de-las-ventanillas-en-agencias-del-BCP",
+    "tags": ["puedo sacar dinero de una agencia","retirar de una agencia"]
+  },
+  {
+    "question": "¿Cómo puedo retirar mi dinero de los agentes BCP?",
+    "link": "/centro_de_ayuda_webview/retirar-dinero-de-yape.html#como-puedo-retirar-dinero-de-los-agentes-bcp",
+    "tags": ["retirar de un agente","como sacar dinero de un agente"]
+  },
+  {
+    "question": "Con Yape Bolivia, ¿puedo enviar y recibir dinero de otros Bancos?",
+    "link": "/centro_de_ayuda_webview/enviar-y-recibir-yapeos.html#con-yape-puedo-enviar-y-recibir-dinero-de-otros-bancos",
+    "tags": ["puedo enviar a otro banco","como enviar a otro banco","es posible transferir a otro banco"]
+  },
+  {
+    "question": "¿Qué tipos de transacciones puedes hacer con Yape?",
+    "link": "/centro_de_ayuda_webview/enviar-y-recibir-yapeos.html#que-tipos-de-transacciones-puedes-hacer-con-yape",
+    "tags": ["que puedo hacer con yape","como transfiero con yape","como envio con yape"]
+  },
+  {
+    "question": "¿Qué significa “yapear entre yaperos o enviar a otro Yape”?",
+    "link": "/centro_de_ayuda_webview/enviar-y-recibir-yapeos.html#que-significa-yapear-entre-yaperos-o-enviar-a-otro-yape",
+    "tags": ["enviar entre yapes","enviar a otro yape"]
+  },
+  {
+    "question": "¿Cuáles son los límites que puedo enviar y recibir en Yape?",
+    "link": "/centro_de_ayuda_webview/enviar-y-recibir-yapeos.html#cuales-son-los-limites-que-puedo-enviar-y-recibir-en-yape",
+    "tags": ["cuanto maximo puedo enviar","maximo de transferencia"]
+  },
+  {
+    "question": "¿Cómo realizo una transferencia por QR?",
+    "link": "/centro_de_ayuda_webview/enviar-y-recibir-yapeos.html#como-realizo-una-transferencia-por-QR",
+    "tags": ["transferencia QR","como se envia por QR","como envio por QR","como pago por QR","envio por QR"]
+  },
+  {
+    "question": "¿Qué operadoras están disponibles para recargar crédito?",
+    "link": "/centro_de_ayuda_webview/recargas-yape.html#que-operadoras-estan-disponibles-para-recargar-credito",
+    "tags": ["lineas para recargar","operadoras","viva","tigo","entel"]
+  },
+  {
+    "question": "¿Cuál es el monto mínimo de recarga de celular?",
+    "link": "/centro_de_ayuda_webview/recargas-yape.html#cual-es-el-monto-minimo-de-recarga-de-celular",
+    "tags": ["monto minimo para entel","monto minimo para viva","monto minimo para tigo"]
+  },
+  {
+    "question": "¿Cómo recargar crédito a mi celular?",
+    "link": "/centro_de_ayuda_webview/recargas-yape.html#como-recargar-credito-a-mi-celular",
+    "tags": ["poner credito a mi celular","recargar mi celular"]
+  },
+  {
+    "question": "¿Hay comisiones por recargar crédito?",
+    "link": "/centro_de_ayuda_webview/recargas-yape.html#hay-comisiones-por-recargar-credito",
+    "tags": ["se me cobra algo por recargar","tengo que pagar por hacer recargas"]
+  },
+  {
+    "question": "Mi recarga de crédito aparece en “Movimientos” y aún no la he recibido, ¿qué puedo hacer?",
+    "link": "/centro_de_ayuda_webview/recargas-yape.html#mi-recarga-de-credito-aparece-en-movimientos-y-aun-no-la-he-recibido-que-puedo-hacer",
+    "tags": ["que pasa con mi recarga","no me llega mi recarga de credito"]
+  },
+  {
+    "question": "¿Puedo recargar crédito a otra persona?",
+    "link": "/centro_de_ayuda_webview/recargas-yape.html#puedo-recargar-credito-a-otra-persona",
+    "tags": ["puedo recargar a mi primo, amigo, familia"]
+  },
+  {
+    "question": "¿Cómo sé que mi recarga de saldo de celular fue exitosa?",
+    "link": "/centro_de_ayuda_webview/recargas-yape.html#como-se-que-mi-recarga-de-saldo-de-celular-fue-exitosa",
+    "tags": ["como verifico que me recargue","donde verifico mi recarga"]
+  },
+  {
+    "question": "¿Dónde puedo descargar mi factura por la recarga de crédito?",
+    "link": "/centro_de_ayuda_webview/recargas-yape.html#donde-puedo-descargar-mi-factura-por-la-recarga-de-credito",
+    "tags": ["necesito mi factura de mi recarga"]
+  },
+  {
+    "question": "¿Cuánto tarda el crédito en recargarse una vez que hago el pago?",
+    "link": "/centro_de_ayuda_webview/recargas-yape.html#cuanto-tarda-el-credito-en-recargarse-una-vez-que-hago-el-pago",
+    "tags": ["cuanto tiempo debo esperar para mi recarga"]
+  },
+  {
+    "question": "¿Puedo usar Yape en mi negocio?",
+    "link": "/centro_de_ayuda_webview/yape-para-tu-negocio.html#puedo-usar-yape-en-mi-negocio",
+    "tags": ["necesito yape para mi negocio"]
+  },
+  {
+    "question": "¿Qué tipo de negocios pueden usar Yape?",
+    "link": "/centro_de_ayuda_webview/yape-para-tu-negocio.html#que-tipo-de-negocios-pueden-usar-yape",
+    "tags": ["mi tienda puede tener yape"]
+  },
+  {
+    "question": "¿Cómo me registro en Yape con mi negocio?",
+    "link": "/centro_de_ayuda_webview/yape-para-tu-negocio.html#como-me-inscribo-como-yapenegocio",
+    "tags": ["como registro mi negocio"]
+  },
+  {
+    "question": "¿Requisitos para afiliarme a comercios - negocios Yape?",
+    "link": "/centro_de_ayuda_webview/yape-para-tu-negocio.html#requisitos-para-afiliarme-a-comercions-negocios-yape",
+    "tags": ["que necesito para ser yapenegocio"]
+  },
+  {
+    "question": "¿Qué beneficios tengo al ser Yapenegocio?",
+    "link": "/centro_de_ayuda_webview/yape-para-tu-negocio.html#que-beneficios-tengo-al-ser-yapenegocio",
+    "tags": ["me dan algo por ser yapenegocio"]
+  },
+  {
+    "question": "¿Tiene algún costo ser Yapenegocio?",
+    "link": "/centro_de_ayuda_webview/yape-para-tu-negocio.html#tiene-algun-costo-ser-yapenegocio",
+    "tags": ["cuanto me cuesta ser yapenegocio"]
+  },
+  {
+    "question": "¿Me entregan material publicitario si soy Yapenegocio?",
+    "link": "/centro_de_ayuda_webview/yape-para-tu-negocio.html#me-entregan-material-publicitario-si-soy-yapenegocio",
+    "tags": ["que me dan por ser yapenegocio"]
+  },
+  {
+    "question": "¿Cómo obtengo el sticker de QR para mi negocio?",
+    "link": "/centro_de_ayuda_webview/yape-para-tu-negocio.html#como-obtengo-el-sticker-de-qr-para-mi-negocio",
+    "tags": ["como me dan mi qr para mi negocio"]
+  },
+  {
+    "question": "¿A dónde se va el dinero que cobro con Yape?",
+    "link": "/centro_de_ayuda_webview/yape-para-tu-negocio.html#a-donde-se-va-el-dinero-que-cobro-con-yape",
+    "tags": ["donde se guarda mi dinero"]
+  },
+  {
+    "question": "¿Cuáles son los pasos para desbloquear mi cuenta Yape?",
+    "link": "/centro_de_ayuda_webview/temas-urgentes.html#cuales-son-los-pasos-para-desbloquear-mi-cuenta-yape",
+    "tags": ["desbloquear","desbloquear mi yape","sacar dinero","bloqueada","se bloqueo mi yape","desbloqueo"]
+  },
+  {
+    "question": "¿Qué hago en caso de pérdida o robo del celular?",
+    "link": "/centro_de_ayuda_webview/temas-urgentes.html#que-hago-en-caso-de-perdida-o-robo-de-celular",
+    "tags": ["perdi mi cel","me robaron mi cel","cambie de cel"]
+  },
+  {
+    "question": "¿Puedo tener más de una cuenta en Yape?",
+    "link": "/centro_de_ayuda_webview/temas-urgentes.html#puedo-tener-mas-de-una-cuenta-en-yape",
+    "tags": ["varias cuentas yape","mi otra cuenta yape"]
+  },
+  {
+    "question": "¿Cuántos intentos tengo para ingresar mi contraseña o PIN?",
+    "link": "/centro_de_ayuda_webview/temas-urgentes.html#cuantos-intentos-para-ingresar-mi-contrasenha-o-pin",
+    "tags": ["falle varias veces","me equivoque"]
+  },
+  {
+    "question": "¿Cuáles son los pasos para recuperar mi contraseña?",
+    "link": "/centro_de_ayuda_webview/temas-urgentes.html#cuales-son-los-pasos-para-recuperar-mi-contrasenha",
+    "tags": ["recuperar","contraseña","me olvide mi contraseña","perdi mi contraseña","cambiar de contraseña","ayuda con mi contraseña"]
+  },
+  {
+    "question": "Cambié de celular y no puedo acceder a Yape",
+    "link": "/centro_de_ayuda_webview/temas-urgentes.html#cambie-de-celular-y-no-puedo-acceder-a-yape",
+    "tags": ["celular","robo","perdi","robaron","cambiaste","cambie","cambiare","desvincular"]
+  },
+  {
+    "question": "Realice una transferencia a través de mi Yape y no llego al Banco destino, ¿Dónde puedo reclamar?",
+    "link": "/centro_de_ayuda_webview/temas-urgentes.html#realice-una-transferencia-a-traves-de-mi-yape-y-no-llego-al-banco-destino-donde-puedo-reclamar",
+    "tags": ["problema","transferencia","error en transferencia","problema en transferencia","ayuda con transferencia","no llega la transferencia"]
+  },
+  {
+    "question": "¿Dónde puedo realizar consultas cuando existen fallas en la app de Yape?",
+    "link": "/centro_de_ayuda_webview/temas-urgentes.html#donde-puedo-realizar-consultas-cuando-existen-fallas-en-la-app-de-yape",
+    "tags": ["consulta sobre fallas","problemas con yape","reclamos","ayuda soporte","ayuda con mi yape"]
+  },
+  {
+    "question": "¿Puedo pagar la factura de luz con Yape?",
+    "link": "/centro_de_ayuda_webview/yapeo-de-servicios.html#puedo-pagar-la-factura-de-luz-con-yape",
+    "tags": ["luz","servicio"]
+  },
+  {
+    "question": "¿Puedo pagar la factura de agua con Yape?",
+    "link": "/centro_de_ayuda_webview/yapeo-de-servicios.html#puedo-pagar-el-agua-con-yape",
+    "tags": ["agua","servicio"]
+  },
+  {
+    "question": "¿Puedo pagar la factura de telefonía con Yape?",
+    "link": "/centro_de_ayuda_webview/yapeo-de-servicios.html#puedo-pagar-la-factura-de-telefonia-con-yape",
+    "tags": ["telefonia","servicio"]
+  },
+  {
+    "question": "¿Puedo pagar la factura de gas domiciliario con Yape?",
+    "link": "/centro_de_ayuda_webview/yapeo-de-servicios.html#puedo-pagar-la-factura-de-gas-domiciliario-con-yape",
+    "tags": ["gas","servicio"]
+  },
+  {
+    "question": "¿Puedo pagar los impuestos de inmueble con Yape?",
+    "link": "/centro_de_ayuda_webview/yapeo-de-servicios.html#puedo-pagar-los-impuestos-de-inmueble-con-yape",
+    "tags": ["gas","servicio"]
+  },
+  {
+    "question": "¿Puedo pagar los impuestos de vehículo con Yape?",
+    "link": "/centro_de_ayuda_webview/yapeo-de-servicios.html#puedo-pagar-los-impuestos-de-vehiculo-con-yape",
+    "tags": ["gas","servicio"]
+  },
+  {
+    "question":"¿Cómo puedo cambiar la contraseña o pin de mi cuenta Yape?",
+    "link":"/centro_de_ayuda_webview/sobre-tu-cuenta-yape.html#como-puedo-cambiar-la-contrasena-o-pin-de-mi-cuenta-yape",
+    "tags":["PIN","contraseña"]
+  },
+  {
+    "question":"¿Puedo crearle una cuenta de Yape a mi hijo o hija menor de edad?",
+    "link":"/centro_de_ayuda_webview/crear-tu-cuenta-yape.html#puedo-crearle-una-cuenta-de-yape-a-mi-hijo-o-hija-menor-de-edad",
+    "tags":["hijo","hija"]
+  },
+  {
+  "question":"¿Puedo pagar la inspección vehicular con Yape?",
+  "link":"/centro_de_ayuda_webview/yapeo-de-servicios.html#puedo-pagar-la-inspeccion-vehicular-con-yape",
+  "tags":["inspeccion","vehicular"]
+  }
+
+]

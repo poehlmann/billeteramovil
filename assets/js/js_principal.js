@@ -50,32 +50,11 @@ $(document).ready(function() {
         $("#puntos-yape").modal();
     }
 
-    if ('serviceWorker' in navigator) {
-        window.addEventListener('load', function() {
-            navigator.serviceWorker.register('../sw.js?'+Math.random()+'')
-        });
-    }
-
-
-    // const registerServiceWorker = async () => {
-    //     if ("serviceWorker" in navigator) {
-    //         try {
-    //             const registration = await navigator.serviceWorker.register('../sw.js?'+Math.random(), {
-    //                 scope: "/",
-    //             });
-    //             if (registration.installing) {
-    //                 console.log("Instalando el Service worker");
-    //             } else if (registration.waiting) {
-    //                 console.log("Service worker instalado");
-    //             } else if (registration.active) {
-    //                 console.log("Service worker activo");
-    //             }
-    //         } catch (error) {
-    //             console.error(`Falló el registro con el ${error}`);
-    //         }
-    //     }
-    // };
-    // registerServiceWorker();
+    // if ('serviceWorker' in navigator) {
+    //     window.addEventListener('load', function() {
+    //         navigator.serviceWorker.register('../sw.js?'+Math.random()+'')
+    //     });
+    // }
 
 });
 $('.checkbox-resp-no input').on('change', function() {
