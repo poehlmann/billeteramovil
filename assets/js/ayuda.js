@@ -281,16 +281,17 @@ $(document).ready(function () {
             }
             jQuery(this).closest("a").addClass("active");
         })
+    });
 
-        link.on("tap",function(){
-            var $this = jQuery(this);
-            var href = $this.href;
-            jQuery("a .nav-link").removeClass().addClass(href);
-            link.removeClass("active");
-            if (document.querySelector('#faq-tabs a.active') !== null) {
-                document.querySelector('#faq-tabs a.active').classList.remove('active');
+    jQuery(function () {
+        var link = jQuery("#generales a");
+        link.on('tap touch touchstart',function (e) {
+            if(history.pushState) {
+                history.pushState(null, null, e.currentTarget.hash);
             }
-            jQuery(this).closest("a").addClass("active");
+            else {
+                location.hash = e.currentTarget.hash;
+            }
         })
     });
 
