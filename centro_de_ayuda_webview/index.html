@@ -24,8 +24,8 @@
     <link rel="stylesheet" href="../assets/css/footer.min.css">
     <link rel="stylesheet" href="../assets/css/css_principal.min.css">
     <link href="../assets/css/sweetalert2.min.css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="../assets/img/logo-correo.png">
-<!--    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">-->
+<!--    <link rel="icon" type="image/png" href="../assets/img/logo-correo.png">-->
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
 <!--    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">-->
 <!--    <link rel="shortcut icon" href="../assets/img/favicon.ico">-->
 <!--    <link rel="icon" type="image/gif" href="../assets/img/logo-correo.png">-->
@@ -436,7 +436,7 @@
         });
 
         $.ajax({
-            url: '../../library_webview.json',
+            url: '/library_webview.json',
             success: function(response){
                 // console.log(response);
                 $('button').prop('disabled', false);
