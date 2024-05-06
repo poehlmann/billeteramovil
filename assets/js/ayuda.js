@@ -36,6 +36,7 @@ $(document).ready(function () {
                 simulateTouch:true,
                 pagination: {
                     el: '.swiper-pagination',
+                    clickable: true,
                     type: 'bullets',
                 },
                 navigation: {
@@ -67,6 +68,7 @@ $(document).ready(function () {
                     simulateTouch:true,
                     pagination: {
                         el: '.swiper-pagination',
+                        clickable: true,
                         type: 'bullets',
                     },
                     navigation: {
@@ -99,6 +101,7 @@ $(document).ready(function () {
                 simulateTouch:true,
                 pagination: {
                     el: '.swiper-pagination',
+                    clickable: true,
                     type: 'bullets',
                 },
                 navigation: {
@@ -130,6 +133,7 @@ $(document).ready(function () {
             simulateTouch:true,
             pagination: {
                 el: '.swiper-pagination',
+                clickable: true,
                 type: 'bullets',
             },
             navigation: {
