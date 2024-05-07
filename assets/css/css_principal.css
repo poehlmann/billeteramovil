@@ -1717,7 +1717,6 @@ iframe{max-width:100%;border:0;}
         background-position: 10px 8px;
         background-size: 16px;
         background-position-y: center;
-        transform: translate(-50%, -50%) !important;
     }
 }
 @media (max-width:768px){
