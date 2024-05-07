@@ -118,7 +118,7 @@ $(document).ready(function () {
                 }
             });
         var    galleryThumbsInspeccion = new Swiper('.swiper-title-servicios-inspeccion', {
-            loop: true,
+            loop: false,
             effect: "fade",
             loopedSlides: 1,
             slideToClickedSlide: true,
@@ -127,7 +127,7 @@ $(document).ready(function () {
             watchSlidesProgress: true,
         });
         var    galleryTopInspeccion = new Swiper('.swiper-servicios-inspeccion', {
-            loop: true,
+            loop: false,
             loopedSlides: 1,
             cssMode: true,
             simulateTouch:true,
