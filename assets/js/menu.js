@@ -165,7 +165,7 @@ function MakeSearch(){
     // Obtenga el nombre del proyecto con "/", como: / myproj
     let projectName=pathName.substring(0,pathName.substring(1).indexOf('/')+1);
     // obtuve http: // localhost: 8083 / myproj
-    let realPath=localhostPaht+'/'+projectName;
+    let realPath=localhostPaht;
     console.log("realPath:",realPath);
     // if("https://www.yape.com.bo/index.html"== window.document.location.href || "http://127.0.0.1:5500/index.html" == window.document.location.href){
     //     window.location.replace("https://www.yape.com.bo/");

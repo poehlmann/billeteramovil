@@ -6,12 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="correciones QA">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/ayuda.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/ayuda.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/ayuda.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/ayuda.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/ayuda.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/ayuda.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/ayuda.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/ayuda.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/menu.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/menu.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/centro_de_ayuda/crear-tu-cuenta-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/crear-tu-cuenta-yape.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/crear-tu-cuenta-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/crear-tu-cuenta-yape.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,7 +238,7 @@
       <workItem from="1714707894882" duration="13874000" />
       <workItem from="1714769282014" duration="601000" />
       <workItem from="1714970812863" duration="104000" />
-      <workItem from="1715021513109" duration="782000" />
+      <workItem from="1715021513109" duration="3137000" />
     </task>
     <task id="LOCAL-00002" summary="correcion web">
       <created>1695079988123</created>
@@ -520,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714751629217</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="correciones QA">
+      <created>1715022431886</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1715022431886</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
