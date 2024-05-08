@@ -476,13 +476,13 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
                     this.$element.one("bsTransitionEnd", t.proxy(r, this)).emulateTransitionEnd(s.TRANSITION_DURATION)[a](this.$element[0][l])
                     // this.$element[0].scrollIntoView();
                     // window.scrollTo(0,0);
-                    if( window.innerWidth >= 290 ){
+                    if( window.innerWidth >= 993 ){
                         $('html,body').animate({
                             scrollTop: $("#" + this.$element[0].id).offset().top - 180
                         }, 0);
                     }else {
                         $('html,body').animate({
-                            scrollTop: $("#" + this.$element[0].id).offset().top - 230
+                            scrollTop: $("#" + this.$element[0].id).offset().top - 180
                         }, 0);
                     }
                 }
