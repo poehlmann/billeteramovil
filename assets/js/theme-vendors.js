@@ -460,9 +460,11 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
                 if (this.$element.trigger(o), !o.isDefaultPrevented()) {
                     n && n.length && (i.call(n, "hide"), e || n.data("bs.collapse", null));
                     var a = this.dimension();
+                    //console.log("in",n.data);
+                    // this.$element.removeClass('in');
+                    $(' .panel-collapse.in').collapse('hide');
                     window.location.hash = this.$element[0].id;
                     // window.scrollTo(0,0);
-                    this.$element.not(this).removeClass('in')
 
                     this.$element.removeClass("collapse").addClass("collapsing")[a](0).attr("aria-expanded", !0), this.$trigger.removeClass("collapsed").attr("aria-expanded", !0), this.transitioning = 1;
                     var r = function () {
@@ -474,13 +476,13 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
                     this.$element.one("bsTransitionEnd", t.proxy(r, this)).emulateTransitionEnd(s.TRANSITION_DURATION)[a](this.$element[0][l])
                     // this.$element[0].scrollIntoView();
                     // window.scrollTo(0,0);
-                    if( window.innerWidth >= 993 ){
+                    if( window.innerWidth >= 290 ){
                         $('html,body').animate({
                             scrollTop: $("#" + this.$element[0].id).offset().top - 180
                         }, 0);
                     }else {
                         $('html,body').animate({
-                            scrollTop: $("#" + this.$element[0].id).offset().top - 250
+                            scrollTop: $("#" + this.$element[0].id).offset().top - 230
                         }, 0);
                     }
                 }
