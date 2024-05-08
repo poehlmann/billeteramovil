@@ -462,23 +462,25 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
                     var a = this.dimension();
                     window.location.hash = this.$element[0].id;
                     // window.scrollTo(0,0);
+                    this.$element.not(this).removeClass('in')
 
                     this.$element.removeClass("collapse").addClass("collapsing")[a](0).attr("aria-expanded", !0), this.$trigger.removeClass("collapsed").attr("aria-expanded", !0), this.transitioning = 1;
                     var r = function () {
                         this.$element.removeClass("collapsing").addClass("collapse in")[a](""), this.transitioning = 0, this.$element.trigger("shown.bs.collapse")
                     };
+
                     if (!t.support.transition) return r.call(this);
                     var l = t.camelCase(["scroll", a].join("-"));
                     this.$element.one("bsTransitionEnd", t.proxy(r, this)).emulateTransitionEnd(s.TRANSITION_DURATION)[a](this.$element[0][l])
                     // this.$element[0].scrollIntoView();
                     // window.scrollTo(0,0);
-                    if( window.innerWidth >= 290 ){
+                    if( window.innerWidth >= 993 ){
                         $('html,body').animate({
                             scrollTop: $("#" + this.$element[0].id).offset().top - 180
                         }, 0);
                     }else {
                         $('html,body').animate({
-                            scrollTop: $("#" + this.$element[0].id).offset().top - 230
+                            scrollTop: $("#" + this.$element[0].id).offset().top - 250
                         }, 0);
                     }
                 }
