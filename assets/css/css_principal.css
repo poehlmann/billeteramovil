@@ -1411,6 +1411,13 @@ h2 {
 .background_secundario .btn_cta{margin-bottom:20px!important;margin-top:30px!important;}
 img{max-width:300px;height:auto;}
 @media screen and (max-width:991px){
+    body {
+        padding-right: 0px !important
+    }
+
+    .modal-open {
+        overflow-y: auto;
+    }
     .clear{
         top: 26px;
         right: 10px;}
