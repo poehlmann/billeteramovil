@@ -462,7 +462,9 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
                     var a = this.dimension();
                     //console.log("in",n.data);
                     // this.$element.removeClass('in');
-                    $(' .panel-collapse.in').collapse('hide');
+                    if(this.$element[0].id != "cliente-bloqueado" && this.$element[0].id != "dispositivo-registrado-para-otro-numero-yape" && this.$element[0].id != "numero-yape-no-permitido-en-este-dispositivo" && this.$element[0].id != "usuario-bloqueado-por-intentos-de-pin" && this.$element[0].id != "ups-tengo-un-inconveniente") {
+                        $(' .panel-collapse.in').collapse('hide');
+                    }
                     window.location.hash = this.$element[0].id;
                     // window.scrollTo(0,0);
 

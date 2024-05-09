@@ -8,8 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/theme-vendors.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/theme-vendors.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/theme-vendors.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/theme-vendors.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/soy-nuevo-en-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/soy-nuevo-en-yape.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/soy-nuevo-en-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/soy-nuevo-en-yape.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,13 +81,6 @@
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task id="LOCAL-00001" summary="correcion web">
-      <created>1691766223441</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1691766223441</updated>
-    </task>
     <task active="true" id="Default" summary="Default task">
       <changelist id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="correcion web" />
       <created>1691803330130</created>
@@ -239,7 +230,7 @@
       <workItem from="1715021513109" duration="4620000" />
       <workItem from="1715085118184" duration="1365000" />
       <workItem from="1715115313249" duration="2754000" />
-      <workItem from="1715178324782" duration="4677000" />
+      <workItem from="1715178324782" duration="6816000" />
     </task>
     <task id="LOCAL-00002" summary="correcion web">
       <created>1695079988123</created>
@@ -570,7 +561,21 @@
       <option name="project" value="LOCAL" />
       <updated>1715198934524</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="correciones QA">
+      <created>1715199899457</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1715199899457</updated>
+    </task>
+    <task id="LOCAL-00050" summary="correciones QA">
+      <created>1715199960265</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1715199960266</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
