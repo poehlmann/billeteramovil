@@ -449,7 +449,7 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
     var s = function (e, i) {
         this.$element = t(e), this.options = t.extend({}, s.DEFAULTS, i), this.$trigger = t('[data-toggle="collapse"][href="#' + e.id + '"],[data-toggle="collapse"][data-target="#' + e.id + '"]'), this.transitioning = null, this.options.parent ? this.$parent = this.getParent() : this.addAriaAndCollapsedClass(this.$element, this.$trigger), this.options.toggle && this.toggle()
     };
-    s.VERSION = "3.3.7", s.TRANSITION_DURATION = 0, s.DEFAULTS = {toggle: !0}, s.prototype.dimension = function () {
+    s.VERSION = "3.3.7", s.TRANSITION_DURATION =0, s.DEFAULTS = {toggle: !0}, s.prototype.dimension = function () {
         var t = this.$element.hasClass("width");
         return t ? "width" : "height"
     }, s.prototype.show = function () {

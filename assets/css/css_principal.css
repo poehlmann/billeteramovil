@@ -1410,7 +1410,13 @@ h2 {
 .background_secundario .font_promocion{font-size:44px;}
 .background_secundario .btn_cta{margin-bottom:20px!important;margin-top:30px!important;}
 img{max-width:300px;height:auto;}
+.collapsing {
+    transition-property: height, visibility;
+    transition-duration: .35s !important;
+}
 @media screen and (max-width:991px){
+
+
     body {
         min-height: 100vh !important;
     }
