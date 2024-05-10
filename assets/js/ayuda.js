@@ -11,8 +11,6 @@ $(document).ready(function () {
     if(window.location.href.indexOf("#") > -1) {
         if (tabnum!=""){
             const element = document.getElementById(tabnum);
-            console.log("tabnum",tabnum);
-            console.log("element",element);
             $('#'+tabnum).addClass('in');
             // element.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
             $('html, body').animate({
@@ -293,8 +291,18 @@ $(document).ready(function () {
     });
 
     jQuery(function () {
-        var link = jQuery("#generales a");
+        var link = $("#generales a");
         link.on('touchstart',function (e) {
+            console.log("on touchstart");
+            if(history.pushState) {
+                history.pushState(null, null, e.currentTarget.hash);
+            }
+            else {
+                location.hash = e.currentTarget.hash;
+            }
+        })
+        link.on('tap',function (e) {
+            console.log("on touchstart");
             if(history.pushState) {
                 history.pushState(null, null, e.currentTarget.hash);
             }
