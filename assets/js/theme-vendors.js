@@ -460,15 +460,12 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
                 if (this.$element.trigger(o), !o.isDefaultPrevented()) {
                     n && n.length && (i.call(n, "hide"), e || n.data("bs.collapse", null));
                     var a = this.dimension();
-                    //console.log("in",n.data);
-                    // this.$element.removeClass('in');
+                    console.log("id",this.$element[0].id);
+                    window.location.hash = this.$element[0].id;
                     if(this.$element[0].id != "cliente-bloqueado" && this.$element[0].id != "dispositivo-registrado-para-otro-numero-yape" && this.$element[0].id != "numero-yape-no-permitido-en-este-dispositivo" && this.$element[0].id != "usuario-bloqueado-por-intentos-de-pin" && this.$element[0].id != "ups-tengo-un-inconveniente") {
                         $(' .panel-collapse.in').collapse('hide');
                         $(".other_option_response_no").css("display","none");
                     }
-                    window.location.hash = this.$element[0].id;
-                    // window.scrollTo(0,0);
-
                     this.$element.removeClass("collapse").addClass("collapsing")[a](0).attr("aria-expanded", !0), this.$trigger.removeClass("collapsed").attr("aria-expanded", !0), this.transitioning = 1;
                     var r = function () {
                         this.$element.removeClass("collapsing").addClass("collapse in")[a](""), this.transitioning = 0, this.$element.trigger("shown.bs.collapse")
@@ -477,8 +474,6 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
                     if (!t.support.transition) return r.call(this);
                     var l = t.camelCase(["scroll", a].join("-"));
                     this.$element.one("bsTransitionEnd", t.proxy(r, this)).emulateTransitionEnd(s.TRANSITION_DURATION)[a](this.$element[0][l])
-                    // this.$element[0].scrollIntoView();
-                    // window.scrollTo(0,0);
                     if( window.innerWidth >= 993 ){
                         $('html,body').animate({
                             scrollTop: $("#" + this.$element[0].id).offset().top - 180

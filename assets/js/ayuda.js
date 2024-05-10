@@ -294,7 +294,7 @@ $(document).ready(function () {
 
     jQuery(function () {
         var link = jQuery("#generales a");
-        link.on('tap touch touchstart',function (e) {
+        link.on('touchstart',function (e) {
             if(history.pushState) {
                 history.pushState(null, null, e.currentTarget.hash);
             }
