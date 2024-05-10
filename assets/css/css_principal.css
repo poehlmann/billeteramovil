@@ -1402,7 +1402,7 @@ h2 {
 }
 .align-recomendation{
     margin-top:25px;
-    height: calc(100vh - 32rem);
+    /*height: calc(100vh - 32rem);*/
     width: -webkit-fill-available;
 }
 /*.background_principal img{width:45vh !important; display: initial !important;}*/
