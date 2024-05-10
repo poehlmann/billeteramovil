@@ -11,8 +11,13 @@ $(document).ready(function () {
     if(window.location.href.indexOf("#") > -1) {
         if (tabnum!=""){
             const element = document.getElementById(tabnum);
+            console.log("tabnum",tabnum);
+            console.log("element",element);
             $('#'+tabnum).addClass('in');
-            element.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+            // element.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+            $('html, body').animate({
+                scrollTop: $("#" + tabnum).offset().top - 100
+            }, 0);
             var tab_link = document.querySelectorAll("a[href='#"+tabnum+"']");
             var tab = tab_link[0];
             tab.classList.remove("collapsed");

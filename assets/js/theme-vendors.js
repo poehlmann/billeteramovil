@@ -464,6 +464,7 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
                     // this.$element.removeClass('in');
                     if(this.$element[0].id != "cliente-bloqueado" && this.$element[0].id != "dispositivo-registrado-para-otro-numero-yape" && this.$element[0].id != "numero-yape-no-permitido-en-este-dispositivo" && this.$element[0].id != "usuario-bloqueado-por-intentos-de-pin" && this.$element[0].id != "ups-tengo-un-inconveniente") {
                         $(' .panel-collapse.in').collapse('hide');
+                        $(".other_option_response_no").css("display","none");
                     }
                     window.location.hash = this.$element[0].id;
                     // window.scrollTo(0,0);
