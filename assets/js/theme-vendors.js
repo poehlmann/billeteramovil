@@ -479,7 +479,7 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
                         }, 0);
                     }else {
                         $('html,body').animate({
-                            scrollTop: $("#" + this.$element[0].id).offset().top - 180
+                            scrollTop: $("#" + this.$element[0].id).offset().top - 230
                         }, 0);
                     }
                 }
