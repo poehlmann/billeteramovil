@@ -5,7 +5,6 @@ function lo_mas_buscado(href) {
         if (tabnum != "") {
             const element = document.getElementById(tabnum);
             $('#' + tabnum).addClass('in');
-            console.log("tabnum", tabnum);
             if (window.innerWidth >= 993) {
                 $('html, body').animate({
                     scrollTop: $("#" + tabnum).offset().top - 150
@@ -29,6 +28,14 @@ function lo_mas_buscado(href) {
     }
 }
 $(document).ready(function () {
+    // $('.collapse').on('show.bs.collapse hide.bs.collapse', function (e) {
+    //     e.preventDefault();
+    // });
+    //
+    // $('[data-toggle="collapse"]').on('click', function (e) {
+    //     e.preventDefault();
+    //     $($(this).data('target')).toggleClass('in');
+    // });
     var tabnum = location.href.split("#").slice(-1)[0];
     if (window.location.href.indexOf("#") > -1) {
         if (tabnum != "") {
@@ -56,14 +63,7 @@ $(document).ready(function () {
             document.getElementById('window-search').style.display = 'none'
         }
     }
-    // $('.collapse').on('show.bs.collapse hide.bs.collapse', function (e) {
-    //     e.preventDefault();
-    // });
-    //
-    // $('[data-toggle="collapse"]').on('click', function (e) {
-    //     e.preventDefault();
-    //     $($(this).data('target')).toggleClass('in');
-    // });
+
 
     if ($(".swiper-servicios").length != 0) {
         var    galleryThumbs = new Swiper('.swiper-title-servicios', {
@@ -329,28 +329,6 @@ $(document).ready(function () {
                 document.querySelector('#faq-tabs a.active').classList.remove('active');
             }
             jQuery(this).closest("a").addClass("active");
-        })
-    });
-
-    jQuery(function () {
-        var link = $("#generales a");
-        link.on('touchstart',function (e) {
-            console.log("on touchstart");
-            if(history.pushState) {
-                history.pushState(null, null, e.currentTarget.hash);
-            }
-            else {
-                location.hash = e.currentTarget.hash;
-            }
-        })
-        link.on('tap',function (e) {
-            console.log("on touchstart");
-            if(history.pushState) {
-                history.pushState(null, null, e.currentTarget.hash);
-            }
-            else {
-                location.hash = e.currentTarget.hash;
-            }
         })
     });
 
