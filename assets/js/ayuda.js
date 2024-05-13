@@ -1,4 +1,61 @@
+function lo_mas_buscado(href) {
+    window.location.href = href;
+    var tabnum = location.href.split("#").slice(-1)[0];
+    if (window.location.href.indexOf("#") > -1) {
+        if (tabnum != "") {
+            const element = document.getElementById(tabnum);
+            $('#' + tabnum).addClass('in');
+            console.log("tabnum", tabnum);
+            if (window.innerWidth >= 993) {
+                $('html, body').animate({
+                    scrollTop: $("#" + tabnum).offset().top - 150
+                }, 0);
+            } else {
+                if (window.location.href.indexOf("centro_de_ayuda_webview") == 0) {
+                    $('html, body').animate({
+                        scrollTop: $("#" + tabnum).offset().top - 100
+                    }, 0);
+                } else {
+                    $('html, body').animate({
+                        scrollTop: $("#" + tabnum).offset().top - 150
+                    }, 0);
+                }
+            }
+            var tab_link = document.querySelectorAll("a[href='#" + tabnum + "']");
+            var tab = tab_link[0];
+            tab.classList.remove("collapsed");
+            document.getElementById('window-search').style.display = 'none'
+        }
+    }
+}
 $(document).ready(function () {
+    var tabnum = location.href.split("#").slice(-1)[0];
+    if (window.location.href.indexOf("#") > -1) {
+        if (tabnum != "") {
+            const element = document.getElementById(tabnum);
+            $('#' + tabnum).addClass('in');
+            console.log("tabnum", tabnum);
+            if (window.innerWidth >= 993) {
+                $('html, body').animate({
+                    scrollTop: $("#" + tabnum).offset().top - 150
+                }, 0);
+            } else {
+                if (window.location.href.indexOf("centro_de_ayuda_webview") == 0) {
+                    $('html, body').animate({
+                        scrollTop: $("#" + tabnum).offset().top - 100
+                    }, 0);
+                } else {
+                    $('html, body').animate({
+                        scrollTop: $("#" + tabnum).offset().top - 150
+                    }, 0);
+                }
+            }
+            var tab_link = document.querySelectorAll("a[href='#" + tabnum + "']");
+            var tab = tab_link[0];
+            tab.classList.remove("collapsed");
+            document.getElementById('window-search').style.display = 'none'
+        }
+    }
     // $('.collapse').on('show.bs.collapse hide.bs.collapse', function (e) {
     //     e.preventDefault();
     // });
@@ -7,33 +64,6 @@ $(document).ready(function () {
     //     e.preventDefault();
     //     $($(this).data('target')).toggleClass('in');
     // });
-    var tabnum = location.href.split("#").slice(-1)[0] ;
-    if(window.location.href.indexOf("#") > -1) {
-        if (tabnum!=""){
-            const element = document.getElementById(tabnum);
-            $('#'+tabnum).addClass('in');
-            // element.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
-            if( window.innerWidth >= 993 ){
-                $('html, body').animate({
-                    scrollTop: $("#" + tabnum).offset().top - 150
-                }, 0);
-            }else {
-                if (window.location.href.indexOf("centro_de_ayuda_webview")==0) {
-                    $('html, body').animate({
-                        scrollTop: $("#" + tabnum).offset().top - 100
-                    }, 0);
-                }else{
-                    $('html, body').animate({
-                        scrollTop: $("#" + tabnum).offset().top - 150
-                    }, 0);
-                }
-            }
-            var tab_link = document.querySelectorAll("a[href='#"+tabnum+"']");
-            var tab = tab_link[0];
-            tab.classList.remove("collapsed");
-            $('.window-search').css('display','none');
-        }
-    }
 
     if ($(".swiper-servicios").length != 0) {
         var    galleryThumbs = new Swiper('.swiper-title-servicios', {
