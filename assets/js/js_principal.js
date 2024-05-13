@@ -73,6 +73,36 @@ $('.checkbox-resp-no input').on('change', function() {
         $(".other_option_response_no").css("display","none");
     }
 });
+function lo_mas_buscado(href) {
+    window.location.href = href;
+    var tabnum = location.href.split("#").slice(-1)[0];
+    if (window.location.href.indexOf("#") > -1) {
+        if (tabnum != "") {
+            const element = document.getElementById(tabnum);
+            $('#' + tabnum).addClass('in');
+            console.log("tabnum", tabnum);
+            if (window.innerWidth >= 993) {
+                $('html, body').animate({
+                    scrollTop: $("#" + tabnum).offset().top - 150
+                }, 0);
+            } else {
+                if (window.location.href.indexOf("centro_de_ayuda_webview") == 0) {
+                    $('html, body').animate({
+                        scrollTop: $("#" + tabnum).offset().top - 100
+                    }, 0);
+                } else {
+                    $('html, body').animate({
+                        scrollTop: $("#" + tabnum).offset().top - 150
+                    }, 0);
+                }
+            }
+            var tab_link = document.querySelectorAll("a[href='#" + tabnum + "']");
+            var tab = tab_link[0];
+            tab.classList.remove("collapsed");
+            document.getElementById('window-search').style.display = 'none'
+        }
+    }
+}
 function countChar(val) {
     var len = val.value.length;
     if(len==0){
