@@ -81,7 +81,7 @@ header::before {
     position: absolute;
     width: 100%;
     content: '';
-    top: 0;
+    top: -1px;
     right: 0;
     height: 0;
 
