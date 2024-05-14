@@ -74,7 +74,8 @@ $('.checkbox-resp-no input').on('change', function() {
     }
 });
 function lo_mas_buscado_principal(href) {
-    window.location.href = href;
+    location.href = href;
+    location.reload();
     var tabnum = location.href.split("#").slice(-1)[0];
     $(' .panel-collapse.in').collapse('hide');
     $('body').css('overflow-y', 'visible');
