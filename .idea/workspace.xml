@@ -10,6 +10,7 @@
       <change beforePath="$PROJECT_DIR$/assets/js/ayuda.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/ayuda.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/js_principal.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/js_principal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/js_principal.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/js_principal.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,14 +237,7 @@
       <workItem from="1715282041806" duration="9004000" />
       <workItem from="1715347315199" duration="8742000" />
       <workItem from="1715572219078" duration="3940000" />
-      <workItem from="1715609548543" duration="7446000" />
-    </task>
-    <task id="LOCAL-00022" summary="actualizacion de wordings y paginas, mejoras en preguntas de tasa de resolucion">
-      <created>1709568094619</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1709568094619</updated>
+      <workItem from="1715609548543" duration="9356000" />
     </task>
     <task id="LOCAL-00023" summary="actualizacion de wordings y paginas, mejoras en preguntas de tasa de resolucion">
       <created>1709660442003</created>
@@ -581,7 +575,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715665967794</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="correciones QA">
+      <created>1715700491532</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1715700491532</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

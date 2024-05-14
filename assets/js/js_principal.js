@@ -73,7 +73,7 @@ $('.checkbox-resp-no input').on('change', function() {
         $(".other_option_response_no").css("display","none");
     }
 });
-function lo_mas_buscado(href) {
+function lo_mas_buscado_principal(href) {
     window.location.href = href;
     var tabnum = location.href.split("#").slice(-1)[0];
     $(' .panel-collapse.in').collapse('hide');

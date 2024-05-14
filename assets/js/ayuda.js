@@ -1,6 +1,6 @@
 function lo_mas_buscado(href) {
     window.location.href = href;
-    $(' .panel-collapse.in').collapse('hide');
+    // $(' .panel-collapse.in').collapse('hide');
     var tabnum = location.href.split("#").slice(-1)[0];
     $('body').css('overflow-y', 'visible');
     if (window.location.href.indexOf("#") > -1) {
