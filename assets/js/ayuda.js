@@ -1,6 +1,7 @@
 function lo_mas_buscado(href) {
     window.location.href = href;
     var tabnum = location.href.split("#").slice(-1)[0];
+    $('body').css('overflow-y', 'visible');
     if (window.location.href.indexOf("#") > -1) {
         if (tabnum != "") {
             const element = document.getElementById(tabnum);
@@ -37,6 +38,7 @@ $(document).ready(function () {
     //     $($(this).data('target')).toggleClass('in');
     // });
     var tabnum = location.href.split("#").slice(-1)[0];
+    $('body').css('overflow-y', 'visible');
     if (window.location.href.indexOf("#") > -1) {
         if (tabnum != "") {
             const element = document.getElementById(tabnum);
