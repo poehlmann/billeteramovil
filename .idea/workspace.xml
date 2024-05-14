@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="correciones QA">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/ayuda.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/ayuda.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/ayuda.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/ayuda.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/js_principal.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/js_principal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/js_principal.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/js_principal.min.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,14 +236,7 @@
       <workItem from="1715282041806" duration="9004000" />
       <workItem from="1715347315199" duration="8742000" />
       <workItem from="1715572219078" duration="3940000" />
-      <workItem from="1715609548543" duration="5556000" />
-    </task>
-    <task id="LOCAL-00021" summary="correcion centro de ayuda en menu movil">
-      <created>1706898545512</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1706898545512</updated>
+      <workItem from="1715609548543" duration="7446000" />
     </task>
     <task id="LOCAL-00022" summary="actualizacion de wordings y paginas, mejoras en preguntas de tasa de resolucion">
       <created>1709568094619</created>
@@ -577,7 +574,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715658128486</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="correciones QA">
+      <created>1715665967794</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1715665967794</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
