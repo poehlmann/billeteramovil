@@ -64,6 +64,8 @@ if(/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream){
             'initial-scale=1.0001, minimum-scale=1.0001, maximum-scale=1.0001, user-scalable=no'
         );
     $('.input-search').css('margin-top', '15px');
+}else{
+    $('.input-search').css('top', '180%');
 }
 $('.checkbox-resp-no input').on('change', function() {
     // alert($('input[name=radio_response_no]:checked', '.checkbox-resp-no').val());

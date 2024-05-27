@@ -34,7 +34,7 @@
     <meta name="theme-color" content="#742384">
 </head>
 
-<body>
+<body style="background-color:#742384">
 
 <noscript><iframe title="Yape Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-MLWMSCNW"
                   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -46,7 +46,7 @@
                 <div class="row text-center">
                     <div class="col-md-12 text-white  ">
                         <h1 class="text-white font-weight-bold font-size-mobile-title-without-image" >¿Cómo te ayudamos?</h1>
-                        <input style="margin-top: 0 !important;top: 180%;left: 50%;transform: translate(-50%, -50%)!important;" type="text" class="input-search" id="input-search" placeholder="¿Necesitas ayuda?" onclick="MakeSearch()">
+                        <input style="margin-top: 0 !important;left: 50%;transform: translate(-50%, -50%)!important;" type="text" class="input-search" id="input-search" placeholder="¿Necesitas ayuda?" onclick="MakeSearch('mobile')">
                     </div>
                 </div>
             </div>
@@ -286,8 +286,8 @@
             </ul>
         </section>
 
-        <section class="section-4">
-            <div class="container mt-30">
+        <section class="section-4" style="background-color:#ffffff">
+            <div class="container pt-32">
                 <div class="row align-center-item ">
                     <div class="col-md-offset-1 col-md-6 indent-element-section" >
                         <h2 class="font-weight-bold yape-texto-purpura mb-30 section_2_beneficios">¿Tienes más dudas sobre Yape?</h2>
@@ -345,15 +345,15 @@
                 </div>
                 <div class="align-recomendation" id="search_recomendation">
                     <p class="title_search_recomendation">Lo más buscado:</p>
-                    <a href="javascript:void(0);" onclick="lo_mas_buscado('/centro_de_ayuda/soy-nuevo-en-yape.html#como-funciona-yape')"><p class="link-faq">¿Qué es Yape y cómo funciona?<em class="angle-right-r icon-yape color-gray-white"></em></p></a>
+                    <a href="javascript:void(0);" onclick="lo_mas_buscado_webview('/centro_de_ayuda_webview/soy-nuevo-en-yape.html#como-funciona-yape')"><p class="link-faq">¿Qué es Yape y cómo funciona?<em class="angle-right-r icon-yape color-gray-white"></em></p></a>
                     <hr class="mb-0 mt-0">
-                    <a href="javascript:void(0);" onclick="lo_mas_buscado('/centro_de_ayuda/soy-nuevo-en-yape.html#necesito-abrir-una-cuenta-de-ahorros-para-tener-yape')"><p class="link-faq">¿Necesito abrir una cuenta de ahorros para tener Yape?<em class="angle-right-r icon-yape color-gray-white"></em></p></a>
+                    <a href="javascript:void(0);" onclick="lo_mas_buscado_webview('/centro_de_ayuda_webview/soy-nuevo-en-yape.html#necesito-abrir-una-cuenta-de-ahorros-para-tener-yape')"><p class="link-faq">¿Necesito abrir una cuenta de ahorros para tener Yape?<em class="angle-right-r icon-yape color-gray-white"></em></p></a>
                     <hr class="mb-0 mt-0">
-                    <a href="javascript:void(0);" onclick="lo_mas_buscado('/centro_de_ayuda/crear-tu-cuenta-yape.html#porque-no-puedo-crear-mi-cuenta-en-yape')"><p class="link-faq">¿Por qué no puedo crear mi cuenta en Yape?<em class="angle-right-r icon-yape color-gray-white"></em></p></a>
+                    <a href="javascript:void(0);" onclick="lo_mas_buscado_webview('/centro_de_ayuda_webview/crear-tu-cuenta-yape.html#porque-no-puedo-crear-mi-cuenta-en-yape')"><p class="link-faq">¿Por qué no puedo crear mi cuenta en Yape?<em class="angle-right-r icon-yape color-gray-white"></em></p></a>
                     <hr class="mb-0 mt-0">
-                    <a href="javascript:void(0);" onclick="lo_mas_buscado('/centro_de_ayuda/crear-tu-cuenta-yape.html#como-me-creo-mi-cuenta-en-yape')"><p class="link-faq">¿Cómo me creo mi cuenta en Yape?<em class="angle-right-r icon-yape color-gray-white"></em></p></a>
+                    <a href="javascript:void(0);" onclick="lo_mas_buscado_webview('/centro_de_ayuda_webview/crear-tu-cuenta-yape.html#como-me-creo-mi-cuenta-en-yape')"><p class="link-faq">¿Cómo me creo mi cuenta en Yape?<em class="angle-right-r icon-yape color-gray-white"></em></p></a>
                     <hr class="mb-0 mt-0">
-                    <a href="javascript:void(0);" onclick="lo_mas_buscado('/centro_de_ayuda/sobre-tu-cuenta-yape.html#cuanto-dinero-puedo-tener-en-yape')"><p class="link-faq">¿Cuánto dinero puedo tener en Yape? <em class="angle-right-r icon-yape color-gray-white"></em></p></a>
+                    <a href="javascript:void(0);" onclick="lo_mas_buscado_webview('/centro_de_ayuda_webview/sobre-tu-cuenta-yape.html#cuanto-dinero-puedo-tener-en-yape')"><p class="link-faq">¿Cuánto dinero puedo tener en Yape? <em class="angle-right-r icon-yape color-gray-white"></em></p></a>
                 </div>
 <!--                <div class="align-item-right">-->
 <!--                    <a href="/centro_de_ayuda/" type="button" class="btn_cta descarga_QR pl-10 pr-10">Ir al centro de ayuda</a>-->
@@ -494,18 +494,32 @@
         $('#button-close').on('click', function() {
             $('body').css('overflow-y', 'visible');
             document.getElementById('window-search').style.display = 'none'
+
+            if(/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream){
+                $('.input-search').css('top', '130%');
+            }else{
+                $('.input-search').css('top', '180%');
+            }
         });
         $('#close').on('click', function() {
             $('body').css('overflow-y', 'visible');
             document.getElementById('window-search').style.display = 'none'
+            if(/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream){
+                $('.input-search').css('top', '130%');
+            }else{
+                $('.input-search').css('top', '180%');
+            }
         });
-        function MakeSearch(){
-        document.getElementById('window-search').style.display='block';
-        let search = document.getElementById('text-search');
-        search.focus();
-        search.select();
-        $('body').css('overflow-y', 'hidden');
-    }</script>
+        function MakeSearch()
+        {
+            document.getElementById('window-search').style.display='block';
+            let search = document.getElementById('text-search');
+            search.focus();
+            search.select();
+            $('body').css('overflow-y', 'hidden');
+            $('.input-search').css('top', '0%');
+        }
+    </script>
 </body>
 
 </html>
