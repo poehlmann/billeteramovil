@@ -1,4 +1,3 @@
-//imports
 importScripts('assets/js/sw-utils.js');
 const cache_name = 'YAPE_CACHE_v1.7';
 const app_shell = [
