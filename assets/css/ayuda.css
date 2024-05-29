@@ -1239,6 +1239,31 @@ border-top: 0;
 .swiper-title-servicios .swiper-slide:before,.swiper-title-servicios-vehiculos .swiper-slide:before,.swiper-title-servicios-impuestos-vehiculos .swiper-slide:before,.swiper-title-servicios-inspeccion .swiper-slide:before{
     display: none;
 }
+.nav-pills{
+    margin-bottom: 30px;
+}
+.nav-pills>li.active>a{
+    background-color: #ffffff !important;
+    color: #742384 !important;
+    border-bottom: 2px solid #742384 !important;
+    font-weight: 500;
+    font-family: Roboto-Medium;
+}
+.nav-pills>li{
+    width: 49%;
+    text-align: center;
+}
+.nav-pills>li>a:hover{
+    color: #742384;
+    cursor: pointer !important;
+    background-color: #eee0 !important;
+}
+.nav-pills>li>a{
+    color: #aba1aa;
+}
+.nav-pills>li>a{
+    border-radius:0;
+}
 @media (max-width: 991px){
     .accordion .panel-title a{
         font-size: 16px;

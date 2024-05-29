@@ -65,7 +65,11 @@ if(/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream){
         );
     $('.input-search').css('margin-top', '15px');
 }else{
-    $('.input-search').css('top', '180%');
+    if(/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream){
+        $('.input-search').css('top', '130%');
+    }if (/android/i.test(userAgent)) {
+        $('.input-search').css('top', '180%');
+    }
 }
 $('.checkbox-resp-no input').on('change', function() {
     // alert($('input[name=radio_response_no]:checked', '.checkbox-resp-no').val());

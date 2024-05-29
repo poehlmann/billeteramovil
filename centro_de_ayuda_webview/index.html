@@ -489,7 +489,8 @@
 
             if(/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream){
                 $('.input-search').css('top', '130%');
-            }else{
+            }
+            if (/android/i.test(userAgent)) {
                 $('.input-search').css('top', '180%');
             }
         });
@@ -498,7 +499,7 @@
             document.getElementById('window-search').style.display = 'none'
             if(/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream){
                 $('.input-search').css('top', '130%');
-            }else{
+            }if (/android/i.test(userAgent)) {
                 $('.input-search').css('top', '180%');
             }
         });
@@ -509,7 +510,12 @@
             search.focus();
             search.select();
             $('body').css('overflow-y', 'hidden');
-            $('.input-search').css('top', '0%');
+            if(/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream){
+                $('.input-search').css('top', '130%');
+            }
+            if (/android/i.test(userAgent)) {
+                $('.input-search').css('top', '180%');
+            }
         }
     </script>
 </body>
