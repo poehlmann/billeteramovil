@@ -9,11 +9,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="webconfig">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/ayuda.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/ayuda.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/ayuda.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/ayuda.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/android-dobleautenticacion.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/ios-dobleautenticacion.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,14 +244,7 @@
       <workItem from="1715802773177" duration="4380000" />
       <workItem from="1715870196674" duration="1451000" />
       <workItem from="1716217431364" duration="6046000" />
-      <workItem from="1716835522537" duration="9423000" />
-    </task>
-    <task id="LOCAL-00030" summary="correciones QA">
-      <created>1713559695662</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1713559695662</updated>
+      <workItem from="1716835522537" duration="9768000" />
     </task>
     <task id="LOCAL-00031" summary="correciones QA">
       <created>1713882129014</created>
@@ -591,7 +582,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716927508950</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="webconfig">
+      <created>1716999323176</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1716999323176</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
