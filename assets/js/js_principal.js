@@ -67,9 +67,10 @@ if(/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream){
 }else{
     if(/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream){
         $('.input-search').css('top', '130%');
-    }if ( navigator.userAgent.match(/(android)|(webOS)/i)) {
+    }if ( !navigator.platform.match(/(MacIntel)|(Win32)|(Linux x86_64")|(Linux armv81)/i)) {
         $('.input-search').css('top', '180%');
     }
+    console.log("navigator.platform",navigator.platform);
 }
 $('.checkbox-resp-no input').on('change', function() {
     // alert($('input[name=radio_response_no]:checked', '.checkbox-resp-no').val());
