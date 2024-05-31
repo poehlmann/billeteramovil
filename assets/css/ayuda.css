@@ -1264,6 +1264,12 @@ border-top: 0;
 .nav-pills>li>a{
     border-radius:0;
 }
+#como_activo_la_seguridad_en_mi_celular div {
+    text-align: center;
+}
+#como_activo_la_seguridad_en_mi_celular ul {
+    text-align: left;
+}
 @media (max-width: 991px){
     .accordion .panel-title a{
         font-size: 16px;
