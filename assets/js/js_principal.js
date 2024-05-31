@@ -67,7 +67,7 @@ if(/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream){
 }else{
     if(/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream){
         $('.input-search').css('top', '130%');
-    }if (/android/i.test(userAgent)) {
+    }if ( window.innerWidth <= 997 ) {
         $('.input-search').css('top', '180%');
     }
 }

@@ -1267,14 +1267,18 @@ border-top: 0;
 #como_activo_la_seguridad_en_mi_celular div {
     text-align: center;
 }
-#como_activo_la_seguridad_en_mi_celular div img{
+#como_activo_la_seguridad_en_mi_celular div .mensaje_dobleautenticacion{
     width: 60%;
-    height: 450px !important;
+    height: 450px;
 }
 #como_activo_la_seguridad_en_mi_celular ul {
     text-align: left;
 }
 @media (max-width: 991px){
+    #como_activo_la_seguridad_en_mi_celular div .mensaje_dobleautenticacion{
+        width: 80%;
+        height: 375px ;
+    }
     .accordion .panel-title a{
         font-size: 16px;
     }
