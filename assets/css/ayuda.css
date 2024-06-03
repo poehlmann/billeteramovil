@@ -1282,7 +1282,7 @@ border-top: 0;
     width: 59%;
     transform: translate(35%, -50%);
     padding: 12px;
-    border: 8px;
+    border-radius: 8px;
     font-family: Roboto-Medium;
     display: flex;
     align-items: center;
@@ -1290,7 +1290,27 @@ border-top: 0;
 .whatsapp-banner span{
     margin-left: 20px;
 }
+.whatsapp-banner-webview{
+    background-color: #E5FFFC;
+    width: 59%;
+    transform: translate(35%, -50%);
+    padding: 12px;
+    border-radius: 8px;
+    font-family: Roboto-Medium;
+    display: flex;
+    align-items: center;
+}
+.whatsapp-banner-webview span{
+    margin-left: 20px;
+}
 @media (max-width: 991px){
+    .whatsapp-banner-webview{
+        width: 83%;
+        transform: translate(10%, -20%);
+    }
+    .whatsapp-banner-webview span{
+        margin-left: 5px;
+    }
     .whatsapp-banner{
         width: 83%;
         transform: translate(10%, -50%);
