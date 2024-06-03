@@ -1277,7 +1277,27 @@ border-top: 0;
 #como_activo_la_seguridad_en_mi_celular ul li,#como_activo_la_seguridad_en_mi_celular ul li {
     margin-bottom:10px;
 }
+.whatsapp-banner{
+    background-color: #E5FFFC;
+    width: 59%;
+    transform: translate(35%, -50%);
+    padding: 12px;
+    border: 8px;
+    font-family: Roboto-Medium;
+    display: flex;
+    align-items: center;
+}
+.whatsapp-banner span{
+    margin-left: 20px;
+}
 @media (max-width: 991px){
+    .whatsapp-banner{
+        width: 83%;
+        transform: translate(10%, -50%);
+    }
+    .whatsapp-banner span{
+        margin-left: 5px;
+    }
     #como_activo_la_seguridad_en_mi_celular div .mensaje_dobleautenticacion{
         width: 80%;
         height: 375px ;
