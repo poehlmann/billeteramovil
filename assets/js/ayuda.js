@@ -1,5 +1,5 @@
 function lo_mas_buscado(href) {
-    console.log("href",href);
+    // console.log("href",href);
     // window.location.replace(href);
     location.href = href;
     location.reload();
@@ -33,7 +33,7 @@ function lo_mas_buscado(href) {
     }
 }
 function lo_mas_buscado_webview(href) {
-    console.log("href",href);
+    // console.log("href",href);
     // window.location.replace(href);
     location.href = href;
     // location.reload();
@@ -82,7 +82,7 @@ $(document).ready(function () {
         if (tabnum != "") {
             const element = document.getElementById(tabnum);
             $('#' + tabnum).addClass('in');
-            console.log("tabnum", tabnum);
+            // console.log("tabnum", tabnum);
             if (window.innerWidth >= 993) {
                 $('html, body').animate({
                     scrollTop: $("#" + tabnum).offset().top - 150

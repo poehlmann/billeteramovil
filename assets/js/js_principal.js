@@ -70,7 +70,7 @@ if(/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream){
     }if ( !navigator.platform.match(/(MacIntel)|(Win32)|(Linux x86_64")|(Linux armv81)/i)) {
         $('.input-search').css('top', '180%');
     }
-    console.log("navigator.platform",navigator.platform);
+    // console.log("navigator.platform",navigator.platform);
 }
 $('.checkbox-resp-no input').on('change', function() {
     // alert($('input[name=radio_response_no]:checked', '.checkbox-resp-no').val());
@@ -81,7 +81,7 @@ $('.checkbox-resp-no input').on('change', function() {
     }
 });
 function lo_mas_buscado_principal(href) {
-    console.log("href",href);
+    // console.log("href",href);
     location.href = href;
     // location.reload();
     var tabnum = location.href.split("#").slice(-1)[0];
@@ -91,7 +91,7 @@ function lo_mas_buscado_principal(href) {
         if (tabnum != "") {
             const element = document.getElementById(tabnum);
             $('#' + tabnum).addClass('in');
-            console.log("tabnum", tabnum);
+            // console.log("tabnum", tabnum);
             if (window.innerWidth >= 993) {
                 $('html, body').animate({
                     scrollTop: $("#" + tabnum).offset().top - 150
