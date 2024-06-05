@@ -170,6 +170,10 @@ li div.nest div{
 #owl-banner{
     height: 100vh;
 }
+#resultados-CDA{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
 .customNavigation{
     /*margin-top: 75px;*/
 }
@@ -1302,6 +1306,9 @@ border-top: 0;
 }
 .whatsapp-banner-webview span{
     margin-left: 20px;
+}
+.input-search :focus{
+    box-shadow: inset 0 0 0 2px #742384;
 }
 @media (max-width: 991px){
     .whatsapp-banner-webview{

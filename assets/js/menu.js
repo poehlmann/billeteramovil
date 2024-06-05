@@ -48,7 +48,11 @@ function createSearchResultBlurb(query, pageContent){
 $('#clear').on('click', function(e) {
     e.preventDefault();
     // console.log('clear text.');
-    $("#text-search").val('');
+    ($("#text-search-CDA").length!="")? $("#text-search-CDA").val('') : $("#text-search").val('');
+    if($("#text-search-CDA").length!=""){
+        $("#searching").css("display","none");
+        $(".not-searching").css("display","block");
+    }
     $('.results').html('');
     $('#clear').css('display', 'none');
     $('.title_search').css("display","none");
@@ -57,7 +61,7 @@ $('#clear').on('click', function(e) {
     return false;
 });
 $(".search-js").on('click', function(){
-    var val = $("#text-search").val();
+    var val = ($("#text-search-CDA").length!="")? $("#text-search-CDA").val() : $("#text-search").val();
     // console.log('searched for: '+val);
     var result = index.search(val, config);
     // console.log("result:",result);
@@ -84,7 +88,12 @@ $(".input-search").on("keyup",(e)=>{
     $('.title_search').css("display","none");
     $('.result_search').css('display', 'none');
     $("#searching").css("display","block");
-    var val = $("#text-search").val();
+    var val = ($("#text-search-CDA").length!="")? $("#text-search-CDA").val() : $("#text-search").val();
+    if($("#text-search-CDA").length!=""){
+        $("#searching").css("display","block");
+        $(".not-searching").css("display","none");
+
+    }
     // console.log('searched for: '+val);
     // console.log("config",config);
     var result = index.search(val, config);
@@ -94,12 +103,14 @@ $(".input-search").on("keyup",(e)=>{
         $('.result_search').css('display', 'block');
         $('#clear').css('display', 'block');
         $('#search_recomendation').css('display', 'none');
+        $('#resultados-CDA').css("padding-top","0");
     }else{
         $("#searching").css("display","none");
         $(".sin_resultados_hide").css("display","none");
         $('.result_search').css('display', 'none');
         $('#clear').css('display', 'none');
         $('#search_recomendation').css('display', 'block');
+        $('#resultados-CDA').css("padding-top","64px");
     }
     const timeoutSearch = setTimeout(function(){
         $("#searching").css("display","none");
@@ -146,8 +157,51 @@ function MakeSearch(){
     search.select();
     $('body').css('overflow-y', 'hidden');
 }
-(function($) {
+$("#text-search").on("keyup",(e)=>{
+    $('.title_search').css("display","none");
+    $('.result_search').css('display', 'none');
+    $("#searching").css("display","block");
+    $(".not-searching").css("display","none");
+    $(".searching").css("display","block");
+    $('body').css('overflow-y', 'hidden');
+    var val = $("#text-search").val();
+    var result = index.search(val, config);
+    if(val!=""){
+        $('.results').html('');
+        $(".sin_resultados_hide").css("display","none");
+        $('.result_search').css('display', 'block');
+        $('#clear').css('display', 'block');
+        $('#search_recomendation').css('display', 'none');
+        $('#resultados-CDA').css("padding-top","0");
+    }else{
+        $("#searching").css("display","none");
+        $(".sin_resultados_hide").css("display","none");
+        $('.result_search').css('display', 'none');
+        $('#clear').css('display', 'none');
+        $('#search_recomendation').css('display', 'block');
+        $(".searching").css("display","none");
+        $(".not-searching").css("display","block");
+        $('#resultados-CDA').css("padding-top","64px");
+        $('body').css('overflow-y', 'auto');
+    }
+    const timeoutSearch = setTimeout(function(){
+        $("#searching").css("display","none");
+        var resultado=displayResult(val,result);
+        if(resultado.length==0 && val!=""){
+            $('.title_search').css("display","none");
+            $(".sin_resultados_hide").css("display","block");
+            $("#mensaje_sin_resultados").html("No se encontraron<br>resultados para<br>'"+val+"'");
+            // console.log("hubieron resultados");
+        }else{
+            $('.title_search').css("display","block");
+            $(".sin_resultados_hide").css("display","none");
+            // console.log("sin resultados");
+        }
+    },1000);
+});
 
+
+(function($) {
     if($(".footer-section").length !=0){
         document.getElementById('copyright').innerHTML = `<p style='padding: 3px;color:rgba(255, 255, 255, 0.7) !important;font-size: 14px !important;'>Yape Bolivia © ${new Date().getFullYear()}. Todos los derechos reservados.</p>`;
         document.getElementById('copyrightyear').innerHTML =  `<p style="padding: 3px;letter-spacing: 2px;font-size: 12px;"><a href="https://www.asfi.gob.bo/" target="_blank">Esta Entidad es

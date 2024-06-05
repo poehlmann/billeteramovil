@@ -1717,6 +1717,13 @@ iframe{max-width:100%;border:0;}
 .accordion-body-bordered .accordion-content{padding-bottom:20px;background:#f8f8f8;color:#333;font-size:17px;}
 .accordion-active-has-fill .active .accordion-title a,.accordion-expander-left.accordion-active-has-fill .accordion-title a{color:#fff;background:#458ebf;background:linear-gradient(270deg,#458ebf 11%,#556eaa 65%);}
 .btn-banner{height:55px;}
+.not-searching{
+    display: block;
+}
+.searching{
+    display: none;
+}
+
 @media (max-width: 998px){
     .input-search{
         margin-top: 20px;
