@@ -894,17 +894,18 @@ border-top: 0;
     display: flex;
     padding: 15px 70px 15px 0px;
     background: #fff;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     letter-spacing: 1px;
     color: #742384;
     border-bottom: 1px solid #e2dfe8;
     position: relative;
     flex-direction: row;
+    font-family: Roboto-Medium;
 }
 
 .accordion .panel-title a.collapsed{ color: #2C2044; }
-.accordion .panel-title a.collapsed:hover{ color: #742384; }
+.accordion .panel-title a.collapsed:hover{ color: #10CBB4; }
 .accordion .panel-title a:before,
 .accordion .panel-title a:after{
     content: "";
@@ -919,7 +920,8 @@ border-top: 0;
     /*transition: all 0.3s ease-in-out 0s;*/
 }
 .accordion .panel-title a:after{
-    right: 35px;
+    right: 29px;
+    top: 15px;
     transform: rotate(45deg);
 }
 .accordion .panel-title a.collapsed:before{
@@ -931,7 +933,7 @@ border-top: 0;
     background: #D6D2E1;
 }
 .accordion .panel-title a.collapsed:hover:before,
-.accordion .panel-title a.collapsed:hover:after{ background: #742384; }
+.accordion .panel-title a.collapsed:hover:after{ background: #10CBB4; }
 .accordion .panel-body{
     padding: 10px 0;
     background: #ffffff;
@@ -1309,6 +1311,21 @@ border-top: 0;
 }
 .input-search :focus{
     box-shadow: inset 0 0 0 2px #742384;
+}
+.sec-menu-active{
+    background-color: #10cbb4 !important;
+    color: #fff !important;
+}
+.sec-menu{
+    border-radius: 7px;
+    background-color: #f6f4fb;
+    margin-bottom: 4px;
+    padding: 1rem;
+    width: 267px;
+    font-weight: 500;
+    cursor: pointer;
+    color:#2c2044;
+    font-family: Roboto-Medium;
 }
 @media (max-width: 991px){
     .whatsapp-banner-webview{
