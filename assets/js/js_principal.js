@@ -67,7 +67,8 @@ if(/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream){
 }else{
     if(/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream){
         $('.input-search').css('top', '130%');
-    }if ( !navigator.platform.match(/(MacIntel)|(Win32)|(Linux x86_64")|(Linux armv81)/i)) {
+    }
+    if (/(MacIntel)|(Win32)|(Linux x86_64")|(Linux armv81)/.test(navigator.userAgent)) {
         $('.input-search').css('top', '180%');
     }
     // console.log("navigator.platform",navigator.platform);
