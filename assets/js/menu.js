@@ -153,6 +153,7 @@ $('#close').on('click', function() {
 function MakeSearch(){
     document.getElementById('window-search').style.display='block';
     let search = document.getElementById('text-search');
+    $('.input-search').css('top', '0');
     search.focus();
     search.select();
     $('body').css('overflow-y', 'hidden');

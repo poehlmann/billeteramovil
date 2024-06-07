@@ -810,12 +810,7 @@ border-top: 0;
 }
 .fondo_centro_ayuda{
     background-color: #742384;
-    background-size: inherit;
-    background-position: 100% 20%;
-    background-repeat: no-repeat;
-    background-origin: content-box;
     padding-top: 7vh;
-    height: 249px;
 }
 .question_container{
     display: flex;
@@ -829,6 +824,12 @@ border-top: 0;
     font-size: 16px;
     color: #2c2044 !important;
     text-align: left;
+}
+h2{
+    line-height: 1.25 !important;
+    letter-spacing: -.13px !important;
+    font-size: 1.625rem !important;
+    color:#742384 !important;
 }
 @media (max-width: 991px){
     .question_indent{
@@ -1326,6 +1327,18 @@ border-top: 0;
     cursor: pointer;
     color:#2c2044;
     font-family: Roboto-Medium;
+}
+.custom-container{
+    max-width: 946px !important;
+}
+.category-header{
+    margin-top: 56px;
+    margin-bottom:32px;
+    display: flex;
+    align-items: center;
+}
+.category-header img{
+    width: 80px;
 }
 @media (max-width: 991px){
     .whatsapp-banner-webview{

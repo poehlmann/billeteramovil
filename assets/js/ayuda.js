@@ -17,7 +17,7 @@ function lo_mas_buscado(href) {
             } else {
                 if (window.location.href.indexOf("centro_de_ayuda_webview") == 0) {
                     $('html, body').animate({
-                        scrollTop: $("#" + tabnum).offset().top - 100
+                        scrollTop: $("#" + tabnum).offset().top - 150
                     }, 0);
                 } else {
                     $('html, body').animate({
