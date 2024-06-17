@@ -8,13 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="webconfig">
-      <change afterPath="$PROJECT_DIR$/assets/img/saltenas.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/legales/RESOLUCION DE AUTORIZACION AJ 0500013324.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/legales/YAPEA TU SALTEÑA CORRECIÓN AJ 04.06.24.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yapepromociones/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/yapepromociones/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="webconfig" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -253,14 +247,7 @@
       <workItem from="1717595132619" duration="8901000" />
       <workItem from="1717686837787" duration="13522000" />
       <workItem from="1718025410050" duration="4188000" />
-      <workItem from="1718650580124" duration="1590000" />
-    </task>
-    <task id="LOCAL-00056" summary="correciones QA">
-      <created>1715285548222</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1715285548222</updated>
+      <workItem from="1718650580124" duration="2139000" />
     </task>
     <task id="LOCAL-00057" summary="correciones QA">
       <created>1715288895152</created>
@@ -598,7 +585,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718031019162</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="webconfig">
+      <created>1718653073095</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1718653073095</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
