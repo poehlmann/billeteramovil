@@ -832,6 +832,10 @@ h2{
     color:#742384 !important;
 }
 @media (max-width: 991px){
+    .section-phone{
+        padding-top: 35px !important;
+        padding-bottom:35px !important;
+    }
     .question_indent{
         text-align: center;
     }
@@ -845,8 +849,12 @@ h2{
     }
     .fondo_centro_ayuda{
         background-color: #742384;
-        height: 200px;
+        height: 225px;
         padding-top: 6vh;
+    }
+    .fondo-phone{
+        height: 115px !important;
+        padding-top: 9vh !important;
     }
 }
 @media print{
@@ -1317,6 +1325,12 @@ h2{
     background-color: #10cbb4 !important;
     color: #fff !important;
 }
+.sec-menu-active a{
+    color: inherit;
+}
+.sec-menu a{
+    color: inherit;
+}
 .sec-menu{
     border-radius: 7px;
     background-color: #f6f4fb;
@@ -1341,6 +1355,9 @@ h2{
     width: 80px;
 }
 @media (max-width: 991px){
+    .category-header {
+        margin-top: 10px;
+    }
     .whatsapp-banner-webview{
         width: 83%;
         transform: translate(10%, -20%);
