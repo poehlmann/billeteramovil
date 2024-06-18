@@ -143,37 +143,44 @@
                                     <div class="col-md-12">
                                         <div class="panel-group accordion" role="tablist" aria-multiselectable="true">
                                             <div class="panel panel-default">
-                                                <div class="panel-heading" role="tab" id="headingTwo">
+                                                <div class="panel-heading" role="tab" id="headingThree">
                                                     <h4 class="panel-title">
-                                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#porque-yape-me-pide-una-selfie-al-momento-de-crear-mi-cuenta" aria-expanded="false" aria-controls="collapseTwo">
-                                                            ¿Por qué Yape me pide una selfie al momento de crear mi cuenta?
+                                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#porque-no-puedo-crear-mi-cuenta-en-yape" aria-expanded="false" aria-controls="collapseThree">
+                                                            ¿Por qué no puedo crear mi cuenta en Yape?
                                                         </a>
                                                     </h4>
                                                 </div>
-                                                <div id="porque-yape-me-pide-una-selfie-al-momento-de-crear-mi-cuenta" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                                <div id="porque-no-puedo-crear-mi-cuenta-en-yape" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                                                     <div class="panel-body">
 
-                                                        <p class="text-justify">En Yape, la seguridad de nuestros usuarios es una prioridad. Por eso, contamos con un proceso de biometría facial que requiere una selfie para validar su identidad.</p>
+                                                        <p>Es posible que no puedas crear tu cuenta Yape por alguno de estos motivos:</p>
+                                                        <ul>
+                                                            <li>Excediste el tiempo límite de 15 min. para crear tu cuenta.</li>
+                                                            <li>Tu carnet de identidad no es de Bolivia.</li>
+                                                            <li>No completaste la validación de identidad(biometría) correctamente.</li>
+                                                            <li>Superaste el número permitido de cuentas por carnet de identidad (puedes tener como máximo 6 cuentas por documento).</li>
+                                                        </ul>
+                                                        <p>Ahora que conoces esta información, identifica tu caso y vuelve a intentarlo.</p>
 
                                                         <div class="nps_pf_container mt-30" >
                                                             <div>
                                                                 <span class="font-weight-bold">¿Te fue útil esta información?</span>
                                                             </div>
                                                             <div class="nps_pf">
-                                                                <div type="button" id="resp_no_porque-me-pide-una-selfie-al-momento-de-crear-mi-cuenta" class="pf_no">No</div>
-                                                                <div type="button" id="resp_si_porque-me-pide-una-selfie-al-momento-de-crear-mi-cuenta" class="pf_si">Sí</div>
+                                                                <div type="button" id="resp_no_cuanto-tiempo-tengo-para-crear-mi-cuenta" class="pf_no">No</div>
+                                                                <div type="button" id="resp_si_cuanto-tiempo-tengo-para-crear-mi-cuenta" class="pf_si">Sí</div>
                                                             </div>
                                                         </div>
                                                         <div class="box-response-si">
                                                             <span>¡Nos alegra poder ayudarte!</span>
-                                                            <textarea onkeyup="countChar(this)" id="message_resp_si_porque-me-pide-una-selfie-al-momento-de-crear-mi-cuenta" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                            <textarea onkeyup="countChar(this)" id="message_resp_si_cuanto-tiempo-tengo-para-crear-mi-cuenta" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
                                                             <p  class="counter">300 / 300</p>
-                                                            <div type="button" id="send_resp_si_porque-me-pide-una-selfie-al-momento-de-crear-mi-cuenta" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                            <div type="button" id="send_resp_si_cuanto-tiempo-tengo-para-crear-mi-cuenta" class="pf_si_fin btn_cta disabled">Enviar</div>
                                                         </div>
                                                         <div class="box-response-no">
                                                             <span>Lo sentimos</span>
                                                             <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
-                                                            <div class="checkbox-resp-no" id="opt_resp_no_porque-me-pide-una-selfie-al-momento-de-crear-mi-cuenta">
+                                                            <div class="checkbox-resp-no" id="opt_resp_no_cuanto-tiempo-tengo-para-crear-mi-cuenta">
                                                                 <label class="radio-inline">
                                                                     <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
                                                                     Hice lo que mencionaron y no se resolvió mi inconveniente.
@@ -191,23 +198,23 @@
                                                                     Otra razón
                                                                 </label>
                                                                 <div class="other_option_response_no">
-                                                                    <input onkeyup="countChar2(this)" maxlength="100" type='text' id="response_no_other_porque-me-pide-una-selfie-al-momento-de-crear-mi-cuenta" name='input_other_option_response_no'>
+                                                                    <input onkeyup="countChar2(this)" maxlength="100" type='text' id="response_no_other_cuanto-tiempo-tengo-para-crear-mi-cuenta" name='input_other_option_response_no'>
                                                                     <p class="counter2">100 / 100</p>
                                                                 </div>
                                                             </div>
-                                                            <textarea onkeyup="countChar3(this)" id="message_resp_no_porque-me-pide-una-selfie-al-momento-de-crear-mi-cuenta" rows="5" maxlength="300" class="message-response-no" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                            <textarea onkeyup="countChar3(this)" id="message_resp_no_cuanto-tiempo-tengo-para-crear-mi-cuenta" rows="5" maxlength="300" class="message-response-no" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
                                                             <p class="counter">300 / 300</p>
-                                                            <div type="button" id="send_resp_no_porque-me-pide-una-selfie-al-momento-de-crear-mi-cuenta" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                            <div type="button" id="send_resp_no_cuanto-tiempo-tengo-para-crear-mi-cuenta" class="pf_no_fin btn_cta disabled">Enviar</div>
                                                             <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
                                                         </div>
                                                         <div class="box-response ">
                                                             <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
-                                                            <img alt="Yapito Bolivia" src="../assets/img/yapito_ok.svg">
+                                                            <img alt="Yapito Bolivia" src="/assets/img/yapito_ok.svg">
                                                             <span class="yape-texto-black">Tu opinión nos ayuda a mejorar la experiencia de millones de yaperos.</span>
                                                         </div>
                                                         <div class="mb-30 mt-30 question_container">
                                                             <span class="mb-20 question_indent"><strong>¿Te quedaste con alguna duda?</strong><br>Contáctanos en nuestro canal oficial:</span>
-                                                            <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web%2C+necesito+ayuda+sobre+la+selfie+al+momento+de+crear+mi+cuenta" type="button" class="btn_cta_social  ml-5 "><img class="mr-5" width="25" heigth="25" src="/assets/img/ic_social_whatsapp_b_gray.svg" alt="whatsapp Yape Bolivia" >WhatsApp</a>
+                                                            <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web%2C+necesito+ayuda+sobre+el+tiempo+para+crear+mi+cuenta+en+Yape" type="button" class="btn_cta_social  ml-5 "><img class="mr-5" width="25" heigth="25" src="/assets/img/ic_social_whatsapp_b_gray.svg" alt="whatsapp Yape Bolivia" >WhatsApp</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -221,120 +228,6 @@
                 </div>
             </div>
         </div>
-    </section>
-
-    <section class="wrapper pb-64 pt-64 bg-gray">
-        <div id="header" class="container">
-            <h2 class="mb-50 text-center yape-texto-purpura">¿Cómo te ayudamos?</h2>
-        </div>
-        <section class="container">
-            <div class="social-box">
-                <div class="container">
-                    <div class="row indent_center_buttons">
-                        <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 text-center mb-20">
-                            <a href="soy-nuevo-en-yape.html">
-                                <div class="box">
-                                    <img src="/assets/img/yape_centro_ayuda_crear_cuenta.svg" width="18%" alt="Soy nuevo en Yape">
-                                    <div class="box-title">
-                                        <h3 class="font-size-16">Soy nuevo en Yape</h3>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 text-center mb-20">
-                            <a href="crear-tu-cuenta-yape.html">
-                                <div class="box">
-                                    <img src="/assets/img/yape_preguntas_registro.svg" width="18%" alt="crear tu cuenta yape">
-                                    <div class="box-title">
-                                        <h3 class="font-size-16">Crear tu cuenta Yape</h3>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 text-center mb-20">
-                            <a href="sobre-tu-cuenta-yape.html">
-                                <div class="box">
-                                    <img src="/assets/img/yape_centro_ayuda_funcionalidades.svg" width="18%" alt="sobre tu cuenta yape">
-                                    <div class="box-title">
-                                        <h3 class="font-size-16">Sobre tu cuenta Yape</h3>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 text-center mb-20">
-                            <a href="depositar-dinero-a-yape.html">
-                                <div class="box">
-                                    <img src="/assets/img/yape_preguntas_depositar.svg" width="18%" alt="Depositar dinero a Yape">
-                                    <div class="box-title">
-                                        <h3 class="font-size-16">Depositar dinero a Yape</h3>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 text-center mb-20">
-                            <a href="retirar-dinero-de-yape.html">
-                                <div class="box">
-                                    <img src="/assets/img/yape_preguntas_retiro_dineo.svg" width="18%" alt="Retirar dinero de Yape">
-                                    <div class="box-title">
-                                        <h3 class="font-size-16">Retirar dinero de Yape</h3>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 text-center mb-20">
-                            <a href="enviar-y-recibir-yapeos.html">
-                                <div class="box">
-                                    <img src="/assets/img/yape_qr.svg" width="18%" alt="enviar y recibir yapeos">
-                                    <div class="box-title">
-                                        <h3 class="font-size-16">Enviar y recibir Yapeos</h3>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 text-center mb-20">
-                            <a href="recargas-yape.html">
-                                <div class="box">
-                                    <img src="/assets/img/yape_centro_ayuda_crear_cuenta.svg" width="18%" alt="Recargas Yape">
-                                    <div class="box-title">
-                                        <h3 class="font-size-16">Recargas Yape</h3>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 text-center mb-20">
-                            <a href="yape-para-tu-negocio.html">
-                                <div class="box">
-                                    <img src="/assets/img/yape_centro_ayuda_comercios.svg" width="18%" alt="Yape para tu negocio">
-                                    <div class="box-title">
-                                        <h3 class="font-size-16">Yape para tu negocio</h3>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 text-center mb-20">
-                            <a href="temas-urgentes.html">
-                                <div class="box">
-                                    <img src="/assets/img/yape_centro_ayuda_cambiar.svg" width="18%" alt="temas urgentes yape">
-                                    <div class="box-title">
-                                        <h3 class="font-size-16">Temas urgentes</h3>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 text-center mb-20">
-                            <a href="yapeo-de-servicios.html">
-                                <div class="box">
-                                    <img src="/assets/img/yape_centro_ayuda_pagos_servicios.svg" width="18%" alt="yapeo de servicios">
-                                    <div class="box-title">
-                                        <h3 class="font-size-16">Yapeo de servicios</h3>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
     </section>
 
     <div id="tutorial-recarga-yape" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
