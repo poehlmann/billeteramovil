@@ -217,9 +217,9 @@ li div.nest div{
     margin-left: 0em;
 }
 .customNavigation img{
-    padding: 0px 22px 0px 22px;
-    height: 50px;
-    width: 75px;
+    padding: 22px;
+    height: 75px;
+    width: 90px;
 }
 .customNavigation label{
     margin-left: 15px;
@@ -824,7 +824,6 @@ border-top: 0;
     font-size: 16px;
     color: #2c2044 !important;
     text-align: left;
-    margin-bottom: 0 ;
 }
 h2{
     line-height: 1.25 !important;
@@ -902,30 +901,47 @@ h2{
 }
 .accordion .panel-title a{
     display: flex;
-    padding: 15px 0 15px 0;
+    padding: 15px 70px 15px 0px;
     background: #fff;
-    font-size: 36px;
+    font-size: 18px;
     font-weight: 500;
-    line-height: normal;
+    letter-spacing: 1px;
     color: #742384;
+    border-bottom: 1px solid #e2dfe8;
     position: relative;
     flex-direction: row;
     font-family: Roboto-Medium;
 }
-
+.accordion .panel-title .title-section{
+    display: flex;
+    padding: 15px 0 15px 0;
+    background: #fff;
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #742384;
+    border-bottom: 0;
+    position: relative;
+    flex-direction: row;
+    font-family: Roboto-Medium;
+}
+.accordion .panel-title .title-section:before,
+.accordion .panel-title .title-section:after{
+    width: 0;
+}
 .accordion .panel-title a.collapsed{ color: #2C2044; }
 .accordion .panel-title a.collapsed:hover{ color: #10CBB4; }
 .accordion .panel-title a:before,
 .accordion .panel-title a:after{
-    /*content: "";*/
-    /*width: 3px;*/
-    /*height: 10px;*/
-    /*background: #742384;*/
-    /*font-size: 15px;*/
-    /*position: absolute;*/
-    /*top: 20px;*/
-    /*right: 29px;*/
-    /*transform: rotate(-45deg);*/
+    content: "";
+    width: 3px;
+    height: 10px;
+    background: #742384;
+    font-size: 15px;
+    position: absolute;
+    top: 20px;
+    right: 29px;
+    transform: rotate(-45deg);
     /*transition: all 0.3s ease-in-out 0s;*/
 }
 .accordion .panel-title a:after{

@@ -12,10 +12,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/ayuda.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/ayuda.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/ayuda.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/ayuda.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/crear-tu-cuenta-yape/como-me-creo-mi-cuenta-en-yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/crear-tu-cuenta-yape/como-me-creo-mi-cuenta-en-yape/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/crear-tu-cuenta-yape/porque-no-puedo-crear-mi-cuenta-en-yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/crear-tu-cuenta-yape/porque-no-puedo-crear-mi-cuenta-en-yape/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/crear-tu-cuenta-yape/porque-yape-me-pide-una-selfie-al-momento-de-crear-mi-cuenta/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/crear-tu-cuenta-yape/porque-yape-me-pide-una-selfie-al-momento-de-crear-mi-cuenta/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/crear-tu-cuenta-yape/puedo-crearle-una-cuenta-de-yape-a-mi-hijo-o-hija-menor-de-edad/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/crear-tu-cuenta-yape/puedo-crearle-una-cuenta-de-yape-a-mi-hijo-o-hija-menor-de-edad/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,14 +255,7 @@
       <workItem from="1718650580124" duration="4488000" />
       <workItem from="1718719514131" duration="12427000" />
       <workItem from="1718804084831" duration="2625000" />
-      <workItem from="1719244365977" duration="2811000" />
-    </task>
-    <task id="LOCAL-00067" summary="correciones QA">
-      <created>1715613575630</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1715613575630</updated>
+      <workItem from="1719244365977" duration="4088000" />
     </task>
     <task id="LOCAL-00068" summary="correciones QA">
       <created>1715617249025</created>
@@ -604,7 +593,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718831533311</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="nuevo centro de ayuda">
+      <created>1719502634850</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1719502634851</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
