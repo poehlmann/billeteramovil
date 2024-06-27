@@ -9,7 +9,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="nuevo centro de ayuda">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/ayuda.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/ayuda.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/ayuda.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/ayuda.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Conocenos.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/Conocenos.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/conocenos-phone.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/conocenos-phone.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/ayuda.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/ayuda.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/ayuda.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/ayuda.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/crear-tu-cuenta-yape/como-me-creo-mi-cuenta-en-yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/crear-tu-cuenta-yape/como-me-creo-mi-cuenta-en-yape/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,21 +260,7 @@
       <workItem from="1718650580124" duration="4488000" />
       <workItem from="1718719514131" duration="12427000" />
       <workItem from="1718804084831" duration="2625000" />
-      <workItem from="1719244365977" duration="4448000" />
-    </task>
-    <task id="LOCAL-00069" summary="correciones QA">
-      <created>1715658128486</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1715658128486</updated>
-    </task>
-    <task id="LOCAL-00070" summary="correciones QA">
-      <created>1715665967794</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1715665967794</updated>
+      <workItem from="1719244365977" duration="6398000" />
     </task>
     <task id="LOCAL-00071" summary="correciones QA">
       <created>1715700491532</created>
@@ -598,7 +591,21 @@
       <option name="project" value="LOCAL" />
       <updated>1719503509212</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="nuevo centro de ayuda">
+      <created>1719503747234</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1719503747234</updated>
+    </task>
+    <task id="LOCAL-00119" summary="nuevo centro de ayuda">
+      <created>1719503913857</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1719503913857</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

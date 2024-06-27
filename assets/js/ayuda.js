@@ -8,26 +8,26 @@ function lo_mas_buscado(href) {
     $('body').css('overflow-y', 'visible');
     if (window.location.href.indexOf("#") > -1) {
         if (tabnum != "") {
-            const element = document.getElementById(tabnum);
-            $('#' + tabnum).addClass('in');
-            if (window.innerWidth >= 993) {
-                $('html, body').animate({
-                    scrollTop: $("#" + tabnum).offset().top - 150
-                }, 0);
-            } else {
-                if (window.location.href.indexOf("centro_de_ayuda_webview") == 0) {
-                    $('html, body').animate({
-                        scrollTop: $("#" + tabnum).offset().top - 150
-                    }, 0);
-                } else {
-                    $('html, body').animate({
-                        scrollTop: $("#" + tabnum).offset().top - 150
-                    }, 0);
-                }
-            }
-            var tab_link = document.querySelectorAll("a[href='#" + tabnum + "']");
-            var tab = tab_link[0];
-            tab.classList.remove("collapsed");
+            // const element = document.getElementById(tabnum);
+            // $('#' + tabnum).addClass('in');
+            // if (window.innerWidth >= 993) {
+            //     $('html, body').animate({
+            //         scrollTop: $("#" + tabnum).offset().top - 250
+            //     }, 0);
+            // } else {
+            //     if (window.location.href.indexOf("centro_de_ayuda_webview") == 0) {
+            //         $('html, body').animate({
+            //             scrollTop: $("#" + tabnum).offset().top - 180
+            //         }, 0);
+            //     } else {
+            //         $('html, body').animate({
+            //             scrollTop: $("#" + tabnum).offset().top - 180
+            //         }, 0);
+            //     }
+            // }
+            // var tab_link = document.querySelectorAll("a[href='#" + tabnum + "']");
+            // var tab = tab_link[0];
+            // tab.classList.remove("collapsed");
             document.getElementById('window-search').style.display = 'none'
         }
     }
@@ -42,26 +42,26 @@ function lo_mas_buscado_webview(href) {
     $('body').css('overflow-y', 'visible');
     if (window.location.href.indexOf("#") > -1) {
         if (tabnum != "") {
-            const element = document.getElementById(tabnum);
-            $('#' + tabnum).addClass('in');
-            if (window.innerWidth >= 993) {
-                $('html, body').animate({
-                    scrollTop: $("#" + tabnum).offset().top - 150
-                }, 0);
-            } else {
-                if (window.location.href.indexOf("centro_de_ayuda_webview") == 0) {
-                    $('html, body').animate({
-                        scrollTop: $("#" + tabnum).offset().top - 100
-                    }, 0);
-                } else {
-                    $('html, body').animate({
-                        scrollTop: $("#" + tabnum).offset().top - 150
-                    }, 0);
-                }
-            }
-            var tab_link = document.querySelectorAll("a[href='#" + tabnum + "']");
-            var tab = tab_link[0];
-            tab.classList.remove("collapsed");
+            // const element = document.getElementById(tabnum);
+            // $('#' + tabnum).addClass('in');
+            // if (window.innerWidth >= 993) {
+            //     $('html, body').animate({
+            //         scrollTop: $("#" + tabnum).offset().top - 150
+            //     }, 0);
+            // } else {
+            //     if (window.location.href.indexOf("centro_de_ayuda_webview") == 0) {
+            //         $('html, body').animate({
+            //             scrollTop: $("#" + tabnum).offset().top - 100
+            //         }, 0);
+            //     } else {
+            //         $('html, body').animate({
+            //             scrollTop: $("#" + tabnum).offset().top - 150
+            //         }, 0);
+            //     }
+            // }
+            // var tab_link = document.querySelectorAll("a[href='#" + tabnum + "']");
+            // var tab = tab_link[0];
+            // tab.classList.remove("collapsed");
             document.getElementById('window-search').style.display = 'none'
         }
     }
@@ -80,21 +80,21 @@ $(document).ready(function () {
     $('body').css('overflow-y', 'visible');
     if (window.location.href.indexOf("#") > -1) {
         if (tabnum != "") {
-            const element = document.getElementById(tabnum);
+            // const element = document.getElementById(tabnum);
             $('#' + tabnum).addClass('in');
-            // console.log("tabnum", tabnum);
+            console.log("tabnum", tabnum);
             if (window.innerWidth >= 993) {
                 $('html, body').animate({
-                    scrollTop: $("#" + tabnum).offset().top - 150
+                    scrollTop: $("#" + tabnum).offset().top - 180
                 }, 0);
             } else {
                 if (window.location.href.indexOf("centro_de_ayuda_webview") == 0) {
                     $('html, body').animate({
-                        scrollTop: $("#" + tabnum).offset().top - 100
+                        scrollTop: $("#" + tabnum).offset().top - 150
                     }, 0);
                 } else {
                     $('html, body').animate({
-                        scrollTop: $("#" + tabnum).offset().top - 150
+                        scrollTop: $("#" + tabnum).offset().top - 180
                     }, 0);
                 }
             }

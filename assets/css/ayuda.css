@@ -219,7 +219,7 @@ li div.nest div{
 .customNavigation img{
     padding: 22px;
     height: 75px;
-    width: 90px;
+    width: 75px;
 }
 .customNavigation label{
     margin-left: 15px;
@@ -824,6 +824,7 @@ border-top: 0;
     font-size: 16px;
     color: #2c2044 !important;
     text-align: left;
+    margin-bottom: 0;
 }
 h2{
     line-height: 1.25 !important;
