@@ -3862,6 +3862,9 @@ section.section--sac .sac-channels .sac-channel a {
 .text-pf-principal a{
     color: #69607b !important;
 }
+.swiper-0{
+    background-image:url(../img/banner-web.jpg)
+}
 .swiper-1{
     background-image:url(../img/background-agente.png)
 }
@@ -4139,6 +4142,9 @@ section.section--sac .sac-channels .sac-channel a {
     .subtitle-banner{
         font-size: 20px;
         color:#FFFFFFB3
+    }
+    .swiper-0{
+        background-image:url(../img/banner-web-mobile.jpg)
     }
     .swiper-1{
         background-image:url(../img/background-agente-mobile.svg)
