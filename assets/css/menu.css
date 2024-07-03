@@ -388,7 +388,7 @@ header .desk-menu .menu-container .menu {
     float: left;
     height: 63px;
     padding: 0;
-    margin: 0 0 0 0;
+    /*margin: 0 0 0 0;*/
     list-style: none;
     position: relative;
     display: flex;
@@ -402,7 +402,16 @@ header .desk-menu .menu-container .menu {
     /*-o-transition: all 0.3s ease-in-out;*/
     /*transition: all 0.3s ease-in-out;*/
 }
-
+header .desk-menu .main_nav_principal{
+    margin-right: 30vh;
+}
+header .desk-menu .main_nav_secundario{
+    /*grid-gap: 0 !important;*/
+    /*gap: 0 !important;*/
+}
+header .desk-menu .menu-container .main_nav_secundario > li {
+    padding: 0 0 0 0 !important;
+}
 header .desk-menu .menu-container .menu li.back {
     display: none;
 }
@@ -416,6 +425,7 @@ header .desk-menu .menu-container .menu > li {
     cursor: pointer;
     position: relative;
     overflow: inherit;
+    padding: 0 16px 0 16px;
     /*margin: 0 0.5px;*/
 }
 header .desk-menu .menu-container .menu > li a {
@@ -710,6 +720,16 @@ header .desk-menu li.menu-item-has-children .sub-menu li.active{
     /*border-bottom: solid 4px #10CBB4FF;*/
     margin-top: 4px;
 }
+@media (min-width: 1200px){
+    header .desk-menu .main_nav_principal{
+        margin-right: 30vw;
+    }
+}
+@media (min-width: 993px){
+    header .desk-menu .main_nav_principal{
+        margin-right: 7vw;
+    }
+}
 @media (min-width: 992px){
     .button_descarga_cel{
         display: none !important;
@@ -723,12 +743,18 @@ header .desk-menu li.menu-item-has-children .sub-menu li.active{
     .small .desk-menu .menu-header-container .menu > li a{
         line-height: 63px;
     }
+    header .desk-menu .menu-container .menu > li {
+        padding: 0;
+    }
     /*header .desk-menu .menu-container .menu > li {*/
     /*    margin: 0 15px 0 0 !important;*/
     /*}*/
     /*header .desk-menu .menu-container .menu > li a {*/
     /*    font-size: 14px !important;*/
     /*}*/
+}
+@media (min-width: 993px) and(max-width: 1250px){
+
 }
 .flag-bo{
     background-image: url(../img/Flag_Bol.svg);
