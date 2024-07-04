@@ -737,6 +737,7 @@ header .desk-menu li.menu-item-has-children .sub-menu li.active{
     .pl-desktop{
         padding-left: 145px !important;
     }
+
 }
 @media (min-width: 992px) and (max-width: 1199px) {
 
