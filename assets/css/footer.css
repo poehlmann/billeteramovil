@@ -151,9 +151,12 @@
     font-size: 22px;
     transform: rotate(-6deg);
 }
-
+.sub-footer{
+    background: #5E186C;
+}
 .copyright-area{
-    background: #3F0D4A;
+    border-top:1px solid #8B3D99;
+    background: #742384;
     padding: 5px 0;
     width: 100%;
 }
@@ -161,7 +164,7 @@
     /*background: #3F0D4A;*/
     padding: 5px 0;
     width: 100%;
-    border-top:1px solid #8B3D99
+    /*border-top:1px solid #8B3D99*/
 }
 .scroll_top{
     background-color: #10cbb4;
@@ -205,7 +208,59 @@
     align-items: center;
     flex-direction: row;
 }
+@media screen and (max-width: 1200px){
+    .mod-mobile-social{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .mod-mobile-social span,#footer-logo{
+        display:none;
+    }
+    .footer_cell_invert{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .footer_cell_invert div{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .mod-mobile{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mod-mobile div{
+        text-align: center;
+        margin-left: 0!important;
+        margin-bottom: 20px;
+    }
+    .hide_phone .footer_cell_invert div{
+        margin-left: 0;
+    }
+}
 @media screen and (max-width:992px){
+    .btn-banner{
+        width: 150px !important;
+    }
+    .mod-mobile div{
+        max-width: 100% !important;
+    }
+    .mod-mobile div p{
+        margin-top: 60px;
+    }
+    .footer_cell_invert{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hide_desktop #descarga_iphone_soliprincipal_banner-phone,#descarga_android_soliprincipal_banner-phone,#footer-logo-phone{
+        display: none;
+    }
     .footer-content{
         padding-top: 0px !important;
         margin-top: 10px !important;

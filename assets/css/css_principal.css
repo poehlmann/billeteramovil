@@ -1376,11 +1376,17 @@ h2 {
     color:#10cbb4;
 }
 @media (min-width: 991px){
+    .text-align-center{
+        align-items: flex-start !important;
+    }
+    .bg_super_yapito{
+        height: 253px;
+    }
     .descarga-yape-marca{
         max-width: none;
         position: relative;
         width: 410px;
-        bottom: 113px;
+        bottom: 120px;
     }
     .yaperos__title{
         font-size:2rem;
@@ -2323,7 +2329,8 @@ text-shadow: rgb(0 0 0 / 30%) 1.1px 2.1px 4px;
 @media (max-width: 992px) {
     .bg_super_yapito{
         width: 50% !important;
-        height: 460px !important;
+        /*height: 460px !important;*/
+        padding: 30px 10px !important;
     }
     .btn_cta_social{
         width: 100%;
@@ -2435,7 +2442,7 @@ text-shadow: rgb(0 0 0 / 30%) 1.1px 2.1px 4px;
     .bg_super_yapito{
         width: 60% !important;
         margin: 0 150px !important;
-        height: 460px !important;
+        /*height: 460px !important;*/
     }
     .mt-secundary{
         margin-top:60px;
@@ -2464,9 +2471,9 @@ text-shadow: rgb(0 0 0 / 30%) 1.1px 2.1px 4px;
 }
 @media (max-width: 560px) {
     .bg_super_yapito{
-        width: 80% !important;
-        margin: 0px 54px !important;
-        height: 460px !important;
+        width: 90% !important;
+        margin: 0 20px !important;
+        /*height: 460px !important;*/
     }
     .mt-secundary {
         margin-top: 5px;
@@ -3105,10 +3112,12 @@ p{
 /*        display:none; }*/
     .descarga-yape-marca {
         max-width: none;
-        width: 326px;
+        /*margin-top: 24px;*/
+        width: 100%;
     }
     .yaperos-banner{
         display: flex;
+        text-align: center;
         flex-direction: column;
     }
 }
@@ -3187,7 +3196,7 @@ section.section--sac {
     padding-top: 70px;
 }
 .image-footer{
-    max-width: -webkit-fill-available;
+    /*max-width: -webkit-fill-available;*/
     width: 242px;
 }
 .align-center{
@@ -3856,7 +3865,10 @@ section.section--sac .sac-channels .sac-channel a {
 }
 .bg_contador_yape{
     background: url(../img/bg-yaperos-millions-lg.png) center top no-repeat;
-    height: 566px;
+    height: 480px;
+}
+.text-sub{
+    color:#bfa3c4
 }
 .bg_super_yapito{
     background: linear-gradient(0deg, #4a1971 41%, #742384 100%);
@@ -3864,7 +3876,7 @@ section.section--sac .sac-channels .sac-channel a {
     width: 70%;
     border-radius: 30px;
     padding: 60px 45px;
-    height: 260px;
+    /*height: 260px;*/
 }
 .yape-descarga{
     max-width: none;
@@ -4053,6 +4065,10 @@ section.section--sac .sac-channels .sac-channel a {
     line-height: 7px;
     font-size: 14px !important;
     text-align: center;
+}
+.text-align-center{
+    display: flex;
+    align-items: center;
 }
 @media (max-width: 991px) {
     input[type='radio'] {
