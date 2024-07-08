@@ -244,8 +244,19 @@
     }
 }
 @media screen and (max-width:992px){
+    .mobile-download{
+        display:flex;
+        flex-direction: column;
+    }
+    .mobile-download a{
+        margin-bottom: 15px;
+    }
+    .footer_cell_invert .row{
+        display:flex;
+        flex-direction: column;
+    }
     .btn-banner{
-        width: 150px !important;
+        width: 100% !important;
     }
     .mod-mobile div{
         max-width: 100% !important;

@@ -1511,6 +1511,7 @@ iframe{max-width:100%;border:0;}
     }
     .image-footer{
         width: 312px !important;
+        max-width: fit-content;
     }
     .tutorial-recarga-soli{
         display: none !important;
