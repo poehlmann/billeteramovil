@@ -10,14 +10,6 @@
   <component name="ChangeListManager">
     <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="actualizacion pagina principal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/footer.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/footer.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/conocenos-phone.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/conocenos-phone.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/contactos-phone.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/contactos-phone.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/menu.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/menu.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -265,14 +257,7 @@
       <workItem from="1719244365977" duration="7247000" />
       <workItem from="1719584570285" duration="1798000" />
       <workItem from="1719844654647" duration="41973000" />
-      <workItem from="1720416465048" duration="1620000" />
-    </task>
-    <task id="LOCAL-00078" summary="webconfig">
-      <created>1716927508950</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1716927508950</updated>
+      <workItem from="1720416465048" duration="2388000" />
     </task>
     <task id="LOCAL-00079" summary="webconfig">
       <created>1716999323176</created>
@@ -610,7 +595,14 @@
       <option name="project" value="LOCAL" />
       <updated>1720210855226</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="actualizacion pagina principal">
+      <created>1720419288593</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1720419288594</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
