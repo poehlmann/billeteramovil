@@ -720,6 +720,34 @@ header .desk-menu li.menu-item-has-children .sub-menu li.active{
     /*border-bottom: solid 4px #10CBB4FF;*/
     margin-top: 4px;
 }
+#boton-flotante {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    bottom: 20px;
+    width: 223px;
+    border-radius: 360px;
+    background-color:#FFFFFF;
+    color: #2c2044;
+    text-align: center;
+    line-height: 60px;
+    z-index: 100;
+    transition: all .3s ease;
+    box-shadow: 0 5px 13px 0 #989898;
+}
+
+#boton-flotante.cerrado {
+    transform: scale(0);
+    opacity: 0;
+}
+
+#icono-descarga {
+    width: 100%;
+    height: 100%;
+    /*background-image: url('../img/descarga.svg'); !* Reemplazar con la URL de tu icono *!*/
+    background-size: contain;
+    background-position: center;
+}
 @media (min-width: 1200px){
     header .desk-menu .main_nav_principal{
         margin-right: 30vw;

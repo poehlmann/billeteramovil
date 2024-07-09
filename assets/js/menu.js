@@ -203,9 +203,56 @@ $("#text-search").on("keyup",(e)=>{
 
 
 (function($) {
+// Función para detectar el dispositivo
+    function detectarDispositivo() {
+        const ua = navigator.userAgent;
+        if (/android/i.test(ua)) {
+            return "android";
+        } else if (/iphone|ipad|ipod/i.test(ua)) {
+            return "ios";
+        } else if (/huawei/i.test(ua)) {
+            return "huawei";
+        } else {
+            return "otro";
+        }
+    }
+
+// Función para obtener la URL de descarga
+    function obtenerURLDescarga() {
+        const dispositivo = detectarDispositivo();
+        switch (dispositivo) {
+            case "android":
+                return "https://play.google.com/store/apps/details?id=com.bcp.bo.wallet&pcampaignid=web_share"; // Reemplazar con la URL de tu app en Play Store
+            case "ios":
+                return "https://apps.apple.com/us/app/yape-bolivia/id1135987447"; // Reemplazar con la URL de tu app en App Store
+            case "huawei":
+                return "https://appgallery.huawei.com/app/C102205251"; // Reemplazar con la URL de tu app en AppGallery
+            default:
+                return "#"; // URL por defecto si no se detecta el dispositivo
+        }
+    }
+// Función para abrir la URL de descarga
+    function abrirDescarga() {
+        const urlDescarga = obtenerURLDescarga();
+        console.log("urlDescarga",urlDescarga);
+        window.location.href = urlDescarga;
+    }
+    if ($("#icono-descarga").length != 0) {
+        const botonFlotante = document.getElementById('boton-flotante');
+        const iconoDescarga = document.getElementById('icono-descarga');
+        // Evento click en el botón flotante
+        iconoDescarga.addEventListener('click', abrirDescarga);
+    }
+// Funciones para mostrar y cerrar el botón (igual que en el ejemplo anterior)
+
+// Almacenar el estado del botón en Local Storage (igual que en el ejemplo anterior)
+
+
     if($(".footer-section").length !=0){
         document.getElementById('copyright').innerHTML = `<p style='padding: 3px;color:rgba(255, 255, 255, 0.7) !important;font-size: 10px !important;'>Yape Bolivia © ${new Date().getFullYear()}. Todos los derechos reservados.</p>`;
-        document.getElementById('copyright-phone').innerHTML = `<p style='padding: 3px;color:rgba(255, 255, 255, 0.7) !important;font-size: 14px !important;'>Yape Bolivia © ${new Date().getFullYear()}. Todos los derechos reservados.</p>`;
+        if($("#copyright-phone").length!=0) {
+            document.getElementById('copyright-phone').innerHTML = `<p style='padding: 3px;color:rgba(255, 255, 255, 0.7) !important;font-size: 14px !important;'>Yape Bolivia © ${new Date().getFullYear()}. Todos los derechos reservados.</p>`;
+        }
         document.getElementById('copyrightyear').innerHTML =  `<p style="padding: 3px;font-size: 12px;"><a href="https://www.asfi.gob.bo/" target="_blank">Esta Entidad es
                                 Supervisada por ASFI – Banco de Crédito de Bolivia S.A.</a><br>Banco de Crédito de
                                 Bolivia S.A. Av. Hernando Siles N.º 5555, edificio “Torre Empresarial ESIMSA”, en la zona
@@ -407,6 +454,7 @@ $("#text-search").on("keyup",(e)=>{
             if ($("#header-home").length != 0) {
                 $('#header-home').removeClass('small');
                 $('#title_principal').addClass('space_smart');
+                document.getElementById("logo-menu").src = realPath + "/assets/img/Logo_Bolivia_2.svg";
             }
             // document.getElementById("submenu_arrow").src = realPath+"/assets/img/ic_angle_down_r_small-white.svg";
             if ($("#logo-menu-secundary").length != 0) {
