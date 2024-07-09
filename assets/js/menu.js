@@ -203,7 +203,7 @@ $("#text-search").on("keyup",(e)=>{
 
 
 (function($) {
-// Función para detectar el dispositivo
+
     function detectarDispositivo() {
         const ua = navigator.userAgent;
         if (/android/i.test(ua)) {
@@ -216,36 +216,52 @@ $("#text-search").on("keyup",(e)=>{
             return "otro";
         }
     }
-
-// Función para obtener la URL de descarga
-    function obtenerURLDescarga() {
-        const dispositivo = detectarDispositivo();
-        switch (dispositivo) {
-            case "android":
-                return "https://play.google.com/store/apps/details?id=com.bcp.bo.wallet&pcampaignid=web_share"; // Reemplazar con la URL de tu app en Play Store
-            case "ios":
-                return "https://apps.apple.com/us/app/yape-bolivia/id1135987447"; // Reemplazar con la URL de tu app en App Store
-            case "huawei":
-                return "https://appgallery.huawei.com/app/C102205251"; // Reemplazar con la URL de tu app en AppGallery
-            default:
-                return "#"; // URL por defecto si no se detecta el dispositivo
-        }
-    }
-// Función para abrir la URL de descarga
     function abrirDescarga() {
         const urlDescarga = obtenerURLDescarga();
         console.log("urlDescarga",urlDescarga);
         window.location.href = urlDescarga;
     }
+
+    function obtenerURLDescarga() {
+        const dispositivo = detectarDispositivo();
+        switch (dispositivo) {
+            case "android":
+                return "https://play.google.com/store/apps/details?id=com.bcp.bo.wallet&pcampaignid=web_share";
+            case "ios":
+                return "https://apps.apple.com/us/app/yape-bolivia/id1135987447";
+            case "huawei":
+                return "https://appgallery.huawei.com/app/C102205251";
+            default:
+                return "#";
+        }
+    }
     if ($("#icono-descarga").length != 0) {
         const botonFlotante = document.getElementById('boton-flotante');
         const iconoDescarga = document.getElementById('icono-descarga');
-        // Evento click en el botón flotante
+        const botonCerrar = document.getElementById('boton-cerrar');
+        function cerrarBoton() {
+            botonFlotante.classList.add('cerrado');
+            localStorage.setItem('estadoBoton', 'cerrado');
+        }
+        function mostrarBoton() {
+            botonFlotante.classList.remove('cerrado');
+        }
+        let estadoBoton = localStorage.getItem('estadoBoton');
+        if (estadoBoton === 'cerrado') {
+            cerrarBoton();
+        }else{
+            mostrarBoton()
+        }
         iconoDescarga.addEventListener('click', abrirDescarga);
+        botonCerrar.addEventListener('click', cerrarBoton);
+        window.addEventListener('load', () => {
+            if (botonFlotante.classList.contains('cerrado')) {
+                localStorage.setItem('estadoBoton', 'cerrado');
+            } else {
+                localStorage.removeItem('estadoBoton');
+            }
+        });
     }
-// Funciones para mostrar y cerrar el botón (igual que en el ejemplo anterior)
-
-// Almacenar el estado del botón en Local Storage (igual que en el ejemplo anterior)
 
 
     if($(".footer-section").length !=0){

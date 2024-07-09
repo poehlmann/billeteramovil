@@ -734,13 +734,26 @@ header .desk-menu li.menu-item-has-children .sub-menu li.active{
     z-index: 100;
     transition: all .3s ease;
     box-shadow: 0 5px 13px 0 #989898;
-}
 
+}
+#boton-cerrar {
+    position: absolute;
+    display: flex;
+    top: 10px;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    transform: translate(85%, -100%);
+    box-shadow: 0 5px 13px 0 #989898;
+    align-items: center;
+    border-style: none;
+    justify-content: center;
+}
 #boton-flotante.cerrado {
-    transform: scale(0);
-    opacity: 0;
+    transform: scale(0); /* Escala el botón a 0 para ocultarlo */
+    opacity: 0; /* Opacidad 0 para mayor transparencia */
 }
-
 #icono-descarga {
     width: 100%;
     height: 100%;
