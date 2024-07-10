@@ -363,5 +363,20 @@
     "question":"¿Cómo activo la seguridad en mi celular?",
     "link":"https://www.yape.com.bo/centro_de_ayuda/temas-urgentes#como_activo_la_seguridad_en_mi_celular",
     "tags":["doble autenticacion","seguridad"]
+  },
+  {
+    "question":"¿Cómo configuro mis límites diarios en Yape?",
+    "link":"https://www.yape.com.bo/centro_de_ayuda/temas-urgentes#como-configuro-mis-limites-diarios-en-yape",
+    "tags":["limites diarios","retirar dinero","yapear servicios","recarga de credito","yapear"]
+  },
+  {
+    "question":"¿Qué hago si tengo problemas al establecer límites diarios en Yape?",
+    "link":"https://www.yape.com.bo/centro_de_ayuda/temas-urgentes#que-hago-si-tengo-problemas-al-establecer-limites-diarios-en-yape",
+    "tags":["problemas en limites diarios","problemas","limites","limites diarios"]
+  },
+  {
+    "question":"¿Cómo accedo a mis movimientos y extractos en Yape?",
+    "link":"https://www.yape.com.bo/centro_de_ayuda/temas-urgentes#como-accedo-a-mis-movimientos-y-extractos-en-yape",
+    "tags":["movimientos","extractos","transacciones","envios","retiros"]
   }
 ]

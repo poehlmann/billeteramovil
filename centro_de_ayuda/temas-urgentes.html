@@ -1039,6 +1039,255 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="headingThirteen">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#como-configuro-mis-limites-diarios-en-yape" aria-expanded="false" aria-controls="collapseTwelve">
+                                                        ¿Cómo configuro mis límites diarios en Yape?
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="como-configuro-mis-limites-diarios-en-yape" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwelve">
+                                                <div class="panel-body">
+                                                    <p>Sigue estos pasos para configurar tus límites diarios en Yape: </p>
+                                                    <div class="container">
+                                                        <ul class="list-unstyled">
+                                                            <li><img alt="pasos como crear cuenta yape" src="../assets/img/yape_numero_1.svg" class="mr-2">Abre tu app y haz clic en "Más opciones"</li>
+                                                            <li><img alt="pasos como crear cuenta yape" src="../assets/img/yape_numero_2.svg" class="mr-2">Selecciona "Montos y límites"</li>
+                                                            <li><img alt="pasos como crear cuenta yape" src="../assets/img/yape_numero_3.svg" class="mr-2">Elige uno de los límites diarios disponibles (Retirar dinero, Yapear servicios, Recargar crédito y Yapear) y presiona "Editar"</li>
+                                                            <li><img alt="pasos como crear cuenta yape" src="../assets/img/yape_numero_4.svg" class="mr-2">Define el monto máximo acumulado que podrás utilizar en un día:
+                                                                <ul>
+                                                                    <li>Retirar dinero: Min 10 Bs hasta 5.410 Bs por día.  </li>
+                                                                    <li>Yapear servicios: Min 10 Bs hasta 5.410 Bs por día </li>
+                                                                    <li>Recarga de crédito: Min 10 Bs Hasta 1.000 Bs por día.  </li>
+                                                                    <li>Yapear: Min 10 Bs hasta 10.000 Bs por día. </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><img alt="pasos como crear cuenta yape" src="../assets/img/yape_numero_5.svg" class="mr-2">Presiona "Guardar cambios"</li>
+                                                            <li><img alt="pasos como crear cuenta yape" src="../assets/img/yape_numero_6.svg" class="mr-2">Recibirás un código de validación por mensaje de texto, ingrésalo y haz clic en "Confirmar cambio"</li>
+                                                        </ul>
+                                                        <p class="mt-25">¡Y listo, yapero! Has configurado tus límites diarios con éxito. </p>
+                                                    </div>
+                                                    <div class="nps_pf_container mt-30">
+                                                        <div>
+                                                            <span class="font-weight-bold">¿Te fue útil esta información?</span>
+                                                        </div>
+                                                        <div class="nps_pf">
+                                                            <div type="button" id="resp_no_como-configuro-mis-limites-diarios-en-yape" class="pf_no">No</div>
+                                                            <div type="button" id="resp_si_como-configuro-mis-limites-diarios-en-yape" class="pf_si">Sí</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_como-configuro-mis-limites-diarios-en-yape" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_como-configuro-mis-limites-diarios-en-yape" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_como-configuro-mis-limites-diarios-en-yape">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" maxlength="100" type='text' id="response_no_other_como-configuro-mis-limites-diarios-en-yape" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar3(this)" id="message_resp_no_como-configuro-mis-limites-diarios-en-yape" rows="5" maxlength="300" class="message-response-no" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_como-configuro-mis-limites-diarios-en-yape" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
+                                                    </div>
+                                                    <div class="box-response ">
+                                                        <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
+                                                        <img alt="Yapito Bolivia" src="../assets/img/yapito_ok.svg">
+                                                        <span class="yape-texto-black">Tu opinión nos ayuda a mejorar la experiencia de millones de yaperos.</span>
+                                                    </div>
+                                                    <div class="mb-30 mt-30 question_container">
+                                                        <span class="mb-20 question_indent"><strong>¿Te quedaste con alguna duda?</strong><br>Contáctanos en nuestro canal oficial:</span>
+                                                        <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web%2C+%C2%BFD%C3%B3nde+puedo+realizar+consultas+cuando+existen+fallas+en+la+app+de+Yape%3F" type="button" class="btn_cta_social  ml-5 "><img class="mr-5" width="25" heigth="25" src="../assets/img/ic_social_whatsapp_b_gray.svg" alt="whatsapp Yape Bolivia" >WhatsApp</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="headingFourteen">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#que-hago-si-tengo-problemas-al-establecer-limites-diarios-en-yape" aria-expanded="false" aria-controls="collapseTwelve">
+                                                        ¿Qué hago si tengo problemas al establecer límites diarios en Yape?
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="que-hago-si-tengo-problemas-al-establecer-limites-diarios-en-yape" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwelve">
+                                                <div class="panel-body">
+                                                    <p>Si tienes algún inconveniente para configurar tus límites diarios en Yape, te damos algunos consejos:   </p>
+                                                    <div class="container">
+                                                        <ul>
+                                                            <li><strong>Intentaste aumentar más de una vez el límite diario:</strong> por favor espera hasta el día siguiente para intentarlo nuevamente.  </li>
+                                                            <li><strong>Tu sesión ha expirado:</strong>  vuelve a iniciar sesión en la aplicación.  </li>
+                                                            <li><strong>Ingresaste un código de validación incorrecto:</strong>  asegúrate de utilizar el último código que te enviamos por mensaje de texto.  </li>
+                                                            <li><strong>Registraste el mismo monto ya configurado:</strong>  para cambiarlo, debes ingresar un monto distinto.  </li>
+                                                            <li><strong>Alcanzaste el límite diario máximo:</strong>  es necesario que aumentes tu límite diario o esperes hasta el día siguiente.   </li>
+                                                            <li><strong>Realizaste 4 reducciones de límites en el día:</strong>  para modificarlos nuevamente, debes esperar hasta el día siguiente.  </li>
+                                                        </ul>
+                                                        <p class="mt-25">Si no pudiste resolver el inconveniente con estos consejos, no dudes en contactar a nuestro equipo de soporte para recibir ayuda. </p>
+                                                    </div>
+                                                    <div class="nps_pf_container mt-30">
+                                                        <div>
+                                                            <span class="font-weight-bold">¿Te fue útil esta información?</span>
+                                                        </div>
+                                                        <div class="nps_pf">
+                                                            <div type="button" id="resp_no_que-hago-si-tengo-problemas-al-establecer-limites-diarios-en-yape" class="pf_no">No</div>
+                                                            <div type="button" id="resp_si_que-hago-si-tengo-problemas-al-establecer-limites-diarios-en-yape" class="pf_si">Sí</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_que-hago-si-tengo-problemas-al-establecer-limites-diarios-en-yape" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_que-hago-si-tengo-problemas-al-establecer-limites-diarios-en-yape" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_que-hago-si-tengo-problemas-al-establecer-limites-diarios-en-yape">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" maxlength="100" type='text' id="response_no_other_que-hago-si-tengo-problemas-al-establecer-limites-diarios-en-yape" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar3(this)" id="message_resp_no_que-hago-si-tengo-problemas-al-establecer-limites-diarios-en-yape" rows="5" maxlength="300" class="message-response-no" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_que-hago-si-tengo-problemas-al-establecer-limites-diarios-en-yape" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
+                                                    </div>
+                                                    <div class="box-response ">
+                                                        <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
+                                                        <img alt="Yapito Bolivia" src="../assets/img/yapito_ok.svg">
+                                                        <span class="yape-texto-black">Tu opinión nos ayuda a mejorar la experiencia de millones de yaperos.</span>
+                                                    </div>
+                                                    <div class="mb-30 mt-30 question_container">
+                                                        <span class="mb-20 question_indent"><strong>¿Te quedaste con alguna duda?</strong><br>Contáctanos en nuestro canal oficial:</span>
+                                                        <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web%2C+%C2%BFD%C3%B3nde+puedo+realizar+consultas+cuando+existen+fallas+en+la+app+de+Yape%3F" type="button" class="btn_cta_social  ml-5 "><img class="mr-5" width="25" heigth="25" src="../assets/img/ic_social_whatsapp_b_gray.svg" alt="whatsapp Yape Bolivia" >WhatsApp</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="headingFifthteen">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#como-accedo-a-mis-movimientos-y-extractos-en-yape" aria-expanded="false" aria-controls="collapseTwelve">
+                                                        ¿Cómo accedo a mis movimientos y extractos en Yape?
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="como-accedo-a-mis-movimientos-y-extractos-en-yape" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwelve">
+                                                <div class="panel-body">
+                                                    <p>Para consultar tus movimientos y extractos en Yape, sigue estos pasos:  </p>
+                                                    <div class="container">
+                                                        <ul class="list-unstyled">
+                                                            <li><img alt="pasos como crear cuenta yape" src="../assets/img/yape_numero_1.svg" class="mr-2">Ingresa a aquí <a href="www.yape.com.bo/YapeMovimientos/Login">(www.yape.com.bo/YapeMovimientos/Login)</a> desde tu navegador web.  </li>
+                                                            <li><img alt="pasos como crear cuenta yape" src="../assets/img/yape_numero_2.svg" class="mr-2">Inicia sesión con tu número de celular afiliado a Yape y el código de 6 dígitos que te enviaremos por mensaje de texto.
+                                                                <ul>
+                                                                    <li>Ver últimos 20 movimientos. </li>
+                                                                    <li>Ver historial de movimientos: Selecciona las fechas específicas para ver tus movimientos anteriores de hasta los últimos 3 meses. </li>
+                                                                    <li>Ver extracto de movimientos: Escoge las fechas y descarga tu extracto de movimientos de hasta los últimos 3 meses. </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                        <p class="mt-25">* En cualquier opción, podrás descargar los documentos en formato PDF.  </p>
+                                                        <p class="mt-25">Esto te ayudará a tener un control detallado de tu dinero y tus transacciones. </p>
+                                                    </div>
+                                                    <div class="nps_pf_container mt-30">
+                                                        <div>
+                                                            <span class="font-weight-bold">¿Te fue útil esta información?</span>
+                                                        </div>
+                                                        <div class="nps_pf">
+                                                            <div type="button" id="resp_no_como-accedo-a-mis-movimientos-y-extractos-en-yape" class="pf_no">No</div>
+                                                            <div type="button" id="resp_si_como-accedo-a-mis-movimientos-y-extractos-en-yape" class="pf_si">Sí</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="box-response-si">
+                                                        <span>¡Nos alegra poder ayudarte!</span>
+                                                        <textarea onkeyup="countChar(this)" id="message_resp_si_como-accedo-a-mis-movimientos-y-extractos-en-yape" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p  class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_si_como-accedo-a-mis-movimientos-y-extractos-en-yape" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                    </div>
+                                                    <div class="box-response-no">
+                                                        <span>Lo sentimos</span>
+                                                        <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
+                                                        <div class="checkbox-resp-no" id="opt_resp_no_como-accedo-a-mis-movimientos-y-extractos-en-yape">
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
+                                                                Hice lo que mencionaron y no se resolvió mi inconveniente.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="La explicación es confusa o difícil de entender." >
+                                                                La explicación es confusa o difícil de entender.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio" name="radio_response_no" value="No encontré lo que buscaba.">
+                                                                No encontré lo que buscaba.
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                                <input type="radio"  name="radio_response_no" value="Otra razón" >
+                                                                Otra razón
+                                                            </label>
+                                                            <div class="other_option_response_no">
+                                                                <input onkeyup="countChar2(this)" maxlength="100" type='text' id="response_no_other_como-accedo-a-mis-movimientos-y-extractos-en-yape" name='input_other_option_response_no'>
+                                                                <p class="counter2">100 / 100</p>
+                                                            </div>
+                                                        </div>
+                                                        <textarea onkeyup="countChar3(this)" id="message_resp_no_como-accedo-a-mis-movimientos-y-extractos-en-yape" rows="5" maxlength="300" class="message-response-no" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                        <p class="counter">300 / 300</p>
+                                                        <div type="button" id="send_resp_no_como-accedo-a-mis-movimientos-y-extractos-en-yape" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                        <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
+                                                    </div>
+                                                    <div class="box-response ">
+                                                        <div class="yape-texto-purpura">¡Gracias por tu respuesta!</div>
+                                                        <img alt="Yapito Bolivia" src="../assets/img/yapito_ok.svg">
+                                                        <span class="yape-texto-black">Tu opinión nos ayuda a mejorar la experiencia de millones de yaperos.</span>
+                                                    </div>
+                                                    <div class="mb-30 mt-30 question_container">
+                                                        <span class="mb-20 question_indent"><strong>¿Te quedaste con alguna duda?</strong><br>Contáctanos en nuestro canal oficial:</span>
+                                                        <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web%2C+%C2%BFD%C3%B3nde+puedo+realizar+consultas+cuando+existen+fallas+en+la+app+de+Yape%3F" type="button" class="btn_cta_social  ml-5 "><img class="mr-5" width="25" heigth="25" src="../assets/img/ic_social_whatsapp_b_gray.svg" alt="whatsapp Yape Bolivia" >WhatsApp</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
