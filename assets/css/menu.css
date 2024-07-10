@@ -272,7 +272,7 @@ header .desk-menu {
 header .desk-menu .logo {
     position: static;
     float: left;
-    margin-right: 30px;
+    margin-right: 10px;
 }
 header .desk-menu .logo-adn {
     /*-webkit-transition: all 0.3s ease-in-out;*/
@@ -720,6 +720,14 @@ header .desk-menu li.menu-item-has-children .sub-menu li.active{
     /*border-bottom: solid 4px #10CBB4FF;*/
     margin-top: 4px;
 }
+.small .desk-menu #logo-menu{
+    width: 40.66px !important;
+    height: 50px !important;
+}
+.pagina_principal .desk-menu #logo-menu{
+    width: 80px;
+    height: 100px;
+}
 #boton-flotante {
     left: 50%;
     transform: translate(-50%, -50%);
@@ -736,6 +744,7 @@ header .desk-menu li.menu-item-has-children .sub-menu li.active{
     box-shadow: 0 5px 13px 0 #989898;
 
 }
+
 #boton-cerrar {
     position: absolute;
     display: flex;
