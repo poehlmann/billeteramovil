@@ -10,7 +10,9 @@
   <component name="ChangeListManager">
     <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="actualizacion pagina principal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/legales/RESOLUCION 05-00137-24 - Yapea Libre.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/cliente-bloqueado.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/cliente-bloqueado.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/temas-urgentes.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/temas-urgentes.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +65,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/xampp/htdocs/billeteramovil/assets/img",
+    "last_opened_file_path": "C:/xampp/htdocs/billeteramovil/legales",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,8 +77,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\billeteramovil\assets\img" />
       <recent name="C:\xampp\htdocs\billeteramovil\legales" />
+      <recent name="C:\xampp\htdocs\billeteramovil\assets\img" />
       <recent name="C:\xampp\htdocs\billeteramovil\centro_de_ayuda" />
       <recent name="C:\xampp\htdocs\billeteramovil" />
     </key>
@@ -257,14 +259,7 @@
       <workItem from="1719244365977" duration="7247000" />
       <workItem from="1719584570285" duration="1798000" />
       <workItem from="1719844654647" duration="41973000" />
-      <workItem from="1720416465048" duration="27005000" />
-    </task>
-    <task id="LOCAL-00089" summary="webconfig">
-      <created>1717183841193</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1717183841193</updated>
+      <workItem from="1720416465048" duration="28361000" />
     </task>
     <task id="LOCAL-00090" summary="webconfig">
       <created>1717192488612</created>
@@ -602,7 +597,14 @@
       <option name="project" value="LOCAL" />
       <updated>1720644581506</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary="actualizacion pagina principal">
+      <created>1720664875554</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1720664875554</updated>
+    </task>
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
