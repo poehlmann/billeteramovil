@@ -10,9 +10,35 @@
   <component name="ChangeListManager">
     <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="actualizacion pagina principal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/cliente-bloqueado.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/cliente-bloqueado.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/401.html" beforeDir="false" afterPath="$PROJECT_DIR$/401.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/403.html" beforeDir="false" afterPath="$PROJECT_DIR$/403.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/crear-tu-cuenta-yape/como-me-creo-mi-cuenta-en-yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/crear-tu-cuenta-yape/como-me-creo-mi-cuenta-en-yape/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/crear-tu-cuenta-yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/crear-tu-cuenta-yape/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/crear-tu-cuenta-yape/porque-no-puedo-crear-mi-cuenta-en-yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/crear-tu-cuenta-yape/porque-no-puedo-crear-mi-cuenta-en-yape/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/crear-tu-cuenta-yape/porque-yape-me-pide-una-selfie-al-momento-de-crear-mi-cuenta/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/crear-tu-cuenta-yape/porque-yape-me-pide-una-selfie-al-momento-de-crear-mi-cuenta/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/crear-tu-cuenta-yape/puedo-crearle-una-cuenta-de-yape-a-mi-hijo-o-hija-menor-de-edad/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/crear-tu-cuenta-yape/puedo-crearle-una-cuenta-de-yape-a-mi-hijo-o-hija-menor-de-edad/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/depositar-dinero-a-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/depositar-dinero-a-yape.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/enviar-y-recibir-yapeos.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/enviar-y-recibir-yapeos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/recargas-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/recargas-yape.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/retirar-dinero-de-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/retirar-dinero-de-yape.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/sobre-tu-cuenta-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/sobre-tu-cuenta-yape.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/soy-nuevo-en-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/soy-nuevo-en-yape.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/temas-urgentes.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/temas-urgentes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/yape-para-tu-negocio.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/yape-para-tu-negocio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/yapeo-de-servicios.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/yapeo-de-servicios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrato-prestacion-servicio.html" beforeDir="false" afterPath="$PROJECT_DIR$/contrato-prestacion-servicio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seguridad/fraudes.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/fraudes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seguridad/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seguridad/proteccion.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/proteccion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seguridad/robo.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/robo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seguridad/seguridad.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguridad/seguridad.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yapenegocios/formulario.html" beforeDir="false" afterPath="$PROJECT_DIR$/yapenegocios/formulario.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yapenegocios/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/yapenegocios/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yapepromociones/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/yapepromociones/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,14 +285,7 @@
       <workItem from="1719244365977" duration="7247000" />
       <workItem from="1719584570285" duration="1798000" />
       <workItem from="1719844654647" duration="41973000" />
-      <workItem from="1720416465048" duration="28361000" />
-    </task>
-    <task id="LOCAL-00090" summary="webconfig">
-      <created>1717192488612</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1717192488612</updated>
+      <workItem from="1720416465048" duration="31191000" />
     </task>
     <task id="LOCAL-00091" summary="webconfig">
       <created>1717389929791</created>
@@ -604,7 +623,14 @@
       <option name="project" value="LOCAL" />
       <updated>1720664875554</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="actualizacion pagina principal">
+      <created>1720708485235</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1720708485235</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
