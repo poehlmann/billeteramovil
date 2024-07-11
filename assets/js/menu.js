@@ -166,6 +166,15 @@ $("input#text-search").bind('keypress', function(event) {
         return false;
     }
 });
+$(document).ready(function(){
+    $("input#text-search").on('paste', function(e){
+        e.preventDefault();
+    })
+
+    $("input#text-search").on('copy', function(e){
+        e.preventDefault();
+    })
+})
 $("#text-search").on("keyup",(e)=>{
     $('.title_search').css("display","none");
     $('.result_search').css('display', 'none');
