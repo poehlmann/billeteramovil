@@ -720,7 +720,7 @@ header .desk-menu li.menu-item-has-children .sub-menu li.active{
     /*border-bottom: solid 4px #10CBB4FF;*/
     margin-top: 4px;
 }
-.small .desk-menu #logo-menu{
+.small .desk-menu .logo-menu{
     width: 40.66px !important;
     height: 50px !important;
 }
@@ -771,12 +771,15 @@ header .desk-menu li.menu-item-has-children .sub-menu li.active{
     background-position: center;
 }
 @media (min-width: 1200px){
-    header .desk-menu .main_nav_principal{
+    header .desk-menu .menu{
         margin-right: 30vw;
+    }
+    header .desk-menu .logo {
+        margin-bottom: 10px;
     }
 }
 @media (min-width: 993px){
-    header .desk-menu .main_nav_principal{
+    header .desk-menu .menu{
         margin-right: 7vw;
     }
 }
