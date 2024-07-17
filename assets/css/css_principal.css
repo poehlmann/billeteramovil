@@ -2892,7 +2892,8 @@ button.close{padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance
 .feature .app-screen img{max-height:400px;padding:50px;transition:transform .2s;width:200px;height:200px;margin:0 auto;}
 .feature .app-screen img:hover{transform:scale(1.5);}
 .pa-10{padding:10px;}
-
+.pa-4{padding:4px;}
+.pa-2{padding:2px;}
 @media (min-width:576px){
     .container{max-width:540px;}
 }
