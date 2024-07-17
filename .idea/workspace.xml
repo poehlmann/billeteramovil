@@ -9,11 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="actualizacion pagina principal">
+      <change afterPath="$PROJECT_DIR$/YapeWeb.rar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yapebolivia.rar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,21 +259,7 @@
       <workItem from="1719844654647" duration="41973000" />
       <workItem from="1720416465048" duration="32751000" />
       <workItem from="1720790696569" duration="3050000" />
-      <workItem from="1721051912591" duration="5829000" />
-    </task>
-    <task id="LOCAL-00095" summary="webconfig">
-      <created>1717617463386</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1717617463386</updated>
-    </task>
-    <task id="LOCAL-00096" summary="webconfig">
-      <created>1717618590480</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1717618590480</updated>
+      <workItem from="1721051912591" duration="9800000" />
     </task>
     <task id="LOCAL-00097" summary="webconfig">
       <created>1717646900564</created>
@@ -607,7 +590,21 @@
       <option name="project" value="LOCAL" />
       <updated>1721101625671</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="actualizacion pagina principal">
+      <created>1721195329029</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1721195329029</updated>
+    </task>
+    <task id="LOCAL-00145" summary="actualizacion pagina principal">
+      <created>1721196137356</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1721196137357</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
