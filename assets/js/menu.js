@@ -69,7 +69,7 @@ $(".search-js").on('click', function(){
 });
 
 $.ajax({
-    url: '../../library.json',
+    url: '/library.json',
     success: function(response){
         // console.log(response);
         $('button').prop('disabled', false);

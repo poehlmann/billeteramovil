@@ -8,8 +8,106 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="actualizacion pagina principal">
+    <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="webconfig">
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/depositar-dinero-a-yape/como-puedo-depositar-dinero-en-efectivo-a-mi-cuenta-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/depositar-dinero-a-yape/cual-es-el-monto-maximo-y-minimo-que-puedo-depositar/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/depositar-dinero-a-yape/en-cuanto-tiempo-se-actualiza-mi-deposito/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/depositar-dinero-a-yape/existe-comision-por-retirar-o-depositar-dinero-en-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/depositar-dinero-a-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/enviar-y-recibir-yapeos/como-realizo-una-transferencia-por-QR/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/enviar-y-recibir-yapeos/con-yape-puedo-enviar-y-recibir-dinero-de-otros-bancos/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/enviar-y-recibir-yapeos/cuales-son-los-limites-que-puedo-enviar-y-recibir-en-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/enviar-y-recibir-yapeos/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/enviar-y-recibir-yapeos/que-significa-yapear-entre-yaperos-o-enviar-a-otro-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/enviar-y-recibir-yapeos/que-tipos-de-transacciones-puedes-hacer-con-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/recargas-yape/como-recargar-credito-a-mi-celular/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/recargas-yape/como-se-que-mi-recarga-de-saldo-de-celular-fue-exitosa/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/recargas-yape/cual-es-el-monto-minimo-de-recarga-de-celular/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/recargas-yape/cuanto-tarda-el-credito-en-recargarse-una-vez-que-hago-el-pago/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/recargas-yape/donde-puedo-descargar-mi-factura-por-la-recarga-de-credito/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/recargas-yape/hay-comisiones-por-recargar-credito/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/recargas-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/recargas-yape/mi-recarga-de-credito-aparece-en-movimientos-y-aun-no-la-he-recibido-que-puedo-hacer/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/recargas-yape/puedo-recargar-credito-a-otra-persona/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/recargas-yape/que-operadoras-estan-disponibles-para-recargar-credito/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/retirar-dinero-de-yape/como-puedo-retirar-dinero-de-las-ventanillas-en-agencias-del-BCP/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/retirar-dinero-de-yape/como-puedo-retirar-dinero-de-los-agentes-bcp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/retirar-dinero-de-yape/como-puedo-retirar-mi-dinero-de-los-cajeros-automaticos-del-bcp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/retirar-dinero-de-yape/cual-es-el-monto-maximo-y-minimo-que-puedo-retirar-de-un-cajero-automatico-bcp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/retirar-dinero-de-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/retirar-dinero-de-yape/que-cajeros-automaticos-puedo-usar-para-sacar-mi-dinero-en-efectivo-de-mi-cuenta-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/retirar-dinero-de-yape/si-no-tengo-tarjeta-o-cuenta-de-banco-como-puedo-retirar-dinero-en-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/sobre-tu-cuenta-yape/como-puedo-cambiar-la-contrasena-o-pin-de-mi-cuenta-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/sobre-tu-cuenta-yape/como-puedo-consultar-mi-saldo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/sobre-tu-cuenta-yape/cual-es-mi-numero-de-cuenta-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/sobre-tu-cuenta-yape/cuando-pago-un-servicio-donde-puedo-recoger-mis-facturas/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/sobre-tu-cuenta-yape/cuanto-dinero-puedo-tener-en-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/sobre-tu-cuenta-yape/donde-veo-mis-movimientos-en-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/sobre-tu-cuenta-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/sobre-tu-cuenta-yape/que-puedo-hacer-si-tengo-alguna-dificultad-al-crear-mi-cuenta-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/soy-nuevo-en-yape/con-que-tipo-de-celular-puedo-utilizar-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/soy-nuevo-en-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/soy-nuevo-en-yape/necesito-abrir-una-cuenta-de-ahorros-para-tener-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/soy-nuevo-en-yape/porque-usar-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/soy-nuevo-en-yape/puedo-manejar-moneda-extranjera-en-mi-cuenta-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/soy-nuevo-en-yape/puedo-sacar-tarjeta-de-debito-o-credito-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/soy-nuevo-en-yape/puedo-tener-mas-de-una-cuenta-yape-a-mi-nombre/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/soy-nuevo-en-yape/que-es-yape-y-como-funciona/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/soy-nuevo-en-yape/soy-extranjero-puedo-crear-una-cuenta-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/soy-nuevo-en-yape/una-persona-menor-de-edad-puede-abrir-cuenta-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/soy-nuevo-en-yape/yape-cobra-comision-por-el-uso/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes/cambie-de-celular-y-no-puedo-acceder-a-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes/como-accedo-a-mis-movimientos-y-extractos-en-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes/como-configuro-mis-limites-diarios-en-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes/como_activo_la_seguridad_en_mi_celular/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes/cuales-son-los-pasos-para-desbloquear-mi-cuenta-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes/cuales-son-los-pasos-para-recuperar-mi-contrasenha/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes/cuantos-intentos-para-ingresar-mi-contrasenha-o-pin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes/donde-puedo-realizar-consultas-cuando-existen-fallas-en-la-app-de-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes/puedo-tener-mas-de-una-cuenta-en-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes/que-hago-en-caso-de-perdida-o-robo-de-celular/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes/que-hago-si-tengo-problemas-al-establecer-limites-diarios-en-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes/que-significa-el-mensaje-de-error-que-sale-al-intentar-ingresar-a-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes/realice-una-transferencia-a-traves-de-mi-yape-y-no-llego-al-banco-destino-donde-puedo-reclamar/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/yape-para-tu-negocio/a-donde-se-va-el-dinero-que-cobro-con-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/yape-para-tu-negocio/como-me-inscribo-como-yapenegocio/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/yape-para-tu-negocio/como-obtengo-el-sticker-de-qr-para-mi-negocio/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/yape-para-tu-negocio/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/yape-para-tu-negocio/me-entregan-material-publicitario-si-soy-yapenegocio/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/yape-para-tu-negocio/puedo-usar-yape-en-mi-negocio/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/yape-para-tu-negocio/que-beneficios-tengo-al-ser-yapenegocio/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/yape-para-tu-negocio/que-tipo-de-negocios-pueden-usar-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/yape-para-tu-negocio/requisitos-para-afiliarme-a-comercions-negocios-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/yape-para-tu-negocio/tiene-algun-costo-ser-yapenegocio/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/yapeo-de-servicios/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/yapeo-de-servicios/puedo-pagar-el-agua-con-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/yapeo-de-servicios/puedo-pagar-la-factura-de-gas-domiciliario-con-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/yapeo-de-servicios/puedo-pagar-la-factura-de-luz-con-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/yapeo-de-servicios/puedo-pagar-la-factura-de-telefonia-con-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/yapeo-de-servicios/puedo-pagar-la-inspeccion-vehicular-con-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/yapeo-de-servicios/puedo-pagar-los-impuestos-de-inmueble-con-yape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centro_de_ayuda/yapeo-de-servicios/puedo-pagar-los-impuestos-de-vehiculo-con-yape/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/ayuda.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/ayuda.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/ayuda.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/ayuda.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/menu.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/menu.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/crear-tu-cuenta-yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/crear-tu-cuenta-yape/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/depositar-dinero-a-yape.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/enviar-y-recibir-yapeos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/recargas-yape.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/retirar-dinero-de-yape.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/sobre-tu-cuenta-yape.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/soy-nuevo-en-yape.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/yape-para-tu-negocio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/yapeo-de-servicios.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/yapeo-de-servicios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/sobre-tu-cuenta-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/sobre-tu-cuenta-yape.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/web.config" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,29 +154,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/billeteramovil/legales&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/xampp/htdocs/billeteramovil/centro_de_ayuda/yapeo-de-servicios/puedo-pagar-los-impuestos-de-vehiculo-con-yape",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\billeteramovil\legales" />
-      <recent name="C:\xampp\htdocs\billeteramovil\assets\img" />
-      <recent name="C:\xampp\htdocs\billeteramovil\centro_de_ayuda" />
-      <recent name="C:\xampp\htdocs\billeteramovil" />
+      <recent name="C:\xampp\htdocs\billeteramovil\centro_de_ayuda\yapeo-de-servicios\puedo-pagar-los-impuestos-de-vehiculo-con-yape" />
+      <recent name="C:\xampp\htdocs\billeteramovil\centro_de_ayuda\yapeo-de-servicios\puedo-pagar-los-impuestos-de-inmueble-con-yape" />
+      <recent name="C:\xampp\htdocs\billeteramovil\centro_de_ayuda\yapeo-de-servicios\puedo-pagar-la-inspeccion-vehicular-con-yape" />
+      <recent name="C:\xampp\htdocs\billeteramovil\centro_de_ayuda\yapeo-de-servicios\puedo-pagar-la-factura-de-telefonia-con-yape" />
+      <recent name="C:\xampp\htdocs\billeteramovil\centro_de_ayuda\yapeo-de-servicios\puedo-pagar-la-factura-de-luz-con-yape" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\billeteramovil\assets\img" />
@@ -260,21 +359,9 @@
       <workItem from="1720416465048" duration="32751000" />
       <workItem from="1720790696569" duration="3050000" />
       <workItem from="1721051912591" duration="17702000" />
-      <workItem from="1721663064398" duration="996000" />
-    </task>
-    <task id="LOCAL-00098" summary="webconfig">
-      <created>1717648096334</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1717648096334</updated>
-    </task>
-    <task id="LOCAL-00099" summary="webconfig">
-      <created>1717698441165</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1717698441165</updated>
+      <workItem from="1721663064398" duration="3555000" />
+      <workItem from="1722081644063" duration="9176000" />
+      <workItem from="1722261313678" duration="22307000" />
     </task>
     <task id="LOCAL-00100" summary="webconfig">
       <created>1717700045440</created>
@@ -605,7 +692,21 @@
       <option name="project" value="LOCAL" />
       <updated>1721229926984</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="webconfig">
+      <created>1721664798730</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1721664798731</updated>
+    </task>
+    <task id="LOCAL-00148" summary="webconfig">
+      <created>1721664855211</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1721664855211</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -641,9 +742,9 @@
     <MESSAGE value="actualizacion de wordings y paginas, mejoras en preguntas de tasa de resolucion" />
     <MESSAGE value="correciones de sonarQ" />
     <MESSAGE value="correciones QA" />
-    <MESSAGE value="webconfig" />
     <MESSAGE value="nuevo centro de ayuda" />
     <MESSAGE value="actualizacion pagina principal" />
-    <option name="LAST_COMMIT_MESSAGE" value="actualizacion pagina principal" />
+    <MESSAGE value="webconfig" />
+    <option name="LAST_COMMIT_MESSAGE" value="webconfig" />
   </component>
 </project>
