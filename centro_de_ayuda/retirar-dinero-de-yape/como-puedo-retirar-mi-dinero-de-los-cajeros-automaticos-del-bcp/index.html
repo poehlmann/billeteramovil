@@ -169,7 +169,7 @@
                                                             <li><img alt="yape como retirar dinero del cajero automatico bcp" src="/assets/img/yape_numero_6.svg" class="mr-2">Selecciona el monto a retirar </li>
                                                             <li><img alt="yape como retirar dinero del cajero automatico bcp" src="/assets/img/yape_numero_7.svg" class="mr-2">
                                                                 Ingresa tu código generado desde tu app Yape:
-                                                                <ul class="yape-texto-black mt-2">
+                                                                <ul class="yape-texto-black mt-2 mb-3">
                                                                     <li>Ingresa a la app Yape </li>
                                                                     <li>Presiona el botón “Retirar dinero” en tu tarjeta Yape </li>
                                                                     <li>Presiona generar </li>
@@ -252,7 +252,25 @@
             </div>
         </div>
     </section>
-
+    <div id="cajeros-ubicacion" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h2 class="font-weight-bold modal-title">Encuentra tu punto más cercano para retirar dinero</h2>
+                </div>
+                <div class="row text-center flex-nowrap">
+                    <div class="col-md-12"><img loading="lazy" title="Punto de atm bcp" class="lazyload img-fluid"
+                                                width="8%" height="auto" src="/assets/img/atm.svg"
+                                                alt="punto de atm bcp">
+                        <h3>Cajero BCP</h3></div>
+                </div>
+                <div class="modal-body map-responsive" id="atm_bcp"></div>
+                <div class="modal-footer text-center">
+                    <button type="button" class="close btn_cta mb-20 mt-30" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <div id="tutorial-recarga-yape" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">

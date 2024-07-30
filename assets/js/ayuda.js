@@ -82,7 +82,7 @@ $(document).ready(function () {
         if (tabnum != "") {
             // const element = document.getElementById(tabnum);
             $('#' + tabnum).addClass('in');
-            console.log("tabnum", tabnum);
+            // console.log("tabnum", tabnum);
             if (window.innerWidth >= 993) {
                 $('html, body').animate({
                     scrollTop: $("#" + tabnum).offset().top - 180
@@ -107,103 +107,112 @@ $(document).ready(function () {
 
 
     if ($(".swiper-servicios").length != 0) {
-        var    galleryThumbs = new Swiper('.swiper-title-servicios', {
-                loop: true,
-                effect: "fade",
-                loopedSlides: 1,
-                slideToClickedSlide: true,
-                slidesPerView: 1,
-                allowTouchMove: false,
-            });
-        var    galleryTop = new Swiper('.swiper-servicios', {
-                loop: false,
-                loopedSlides: 1,
-                cssMode: true,
-                simulateTouch:true,
-                pagination: {
-                    el: '.swiper-pagination',
-                    clickable: true,
-                    type: 'bullets',
-                },
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-                autoHeight: true,
-                centeredSlides: true,
-                watchSlidesProgress: true,
-                grabCursor: "true",
-                // USING THE THUMBS COMPONENT
-                thumbs: {
-                    swiper: galleryThumbs
-                }
-            });
-        var    galleryThumbsvehiculo = new Swiper('.swiper-title-servicios-vehiculos', {
-                    loop: true,
-                    effect: "fade",
-                    loopedSlides: 1,
-                    slideToClickedSlide: true,
-                    slidesPerView: 1,
-                    watchSlidesVisibility: true,
-                    watchSlidesProgress: true,
-                });
-        var    galleryTopvehiculo = new Swiper('.swiper-servicios-vehiculos', {
-                    loop: false,
-                    loopedSlides: 1,
-                    cssMode: true,
-                    simulateTouch:true,
-                    pagination: {
-                        el: '.swiper-pagination',
-                        clickable: true,
-                        type: 'bullets',
-                    },
-                    navigation: {
-                        nextEl: '.swiper-button-next',
-                        prevEl: '.swiper-button-prev',
-                    },
-                    autoHeight: true,
-                    centeredSlides: true,
-                    allowTouchMove: true,
-                    grabCursor: "true",
-                            // USING THE THUMBS COMPONENT
-                    thumbs: {
-                        swiper: galleryThumbsvehiculo
-                    }
-                });
-        var    galleryThumbsImpuestosvehiculo = new Swiper('.swiper-title-servicios-impuestos-vehiculos', {
-                loop: true,
-                effect: "fade",
-                loopedSlides: 1,
-                slideToClickedSlide: true,
-                slidesPerView: 1,
-                watchSlidesVisibility: true,
-                watchSlidesProgress: true,
-            });
-        var    galleryTopImpuestosvehiculo = new Swiper('.swiper-servicios-impuestos-vehiculos', {
-                loop: false,
-                loopedSlides: 1,
+        var galleryThumbs = new Swiper('.swiper-title-servicios', {
+            loop: true,
+            effect: "fade",
+            loopedSlides: 1,
+            slideToClickedSlide: true,
+            slidesPerView: 1,
+            allowTouchMove: false,
+        });
+        var galleryTop = new Swiper('.swiper-servicios', {
+            loop: false,
+            loopedSlides: 1,
+            cssMode: true,
+            simulateTouch: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                type: 'bullets',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            autoHeight: true,
+            centeredSlides: true,
+            watchSlidesProgress: true,
+            grabCursor: "true",
+            // USING THE THUMBS COMPONENT
+            thumbs: {
+                swiper: galleryThumbs
+            }
+        });
+        galleryTop.controller.control = galleryThumbs;
+    }
+    if ($(".swiper-servicios-vehiculos").length != 0) {
+        var galleryThumbsvehiculo = new Swiper('.swiper-title-servicios-vehiculos', {
+            loop: true,
+            effect: "fade",
+            loopedSlides: 1,
+            slideToClickedSlide: true,
+            slidesPerView: 1,
+            watchSlidesVisibility: true,
+            watchSlidesProgress: true,
+        });
+        var galleryTopvehiculo = new Swiper('.swiper-servicios-vehiculos', {
+            loop: false,
+            loopedSlides: 1,
+            cssMode: true,
+            simulateTouch: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                type: 'bullets',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            autoHeight: true,
+            centeredSlides: true,
+            allowTouchMove: true,
+            grabCursor: "true",
+            // USING THE THUMBS COMPONENT
+            thumbs: {
+                swiper: galleryThumbsvehiculo
+            }
+        });
+        galleryTopvehiculo.controller.control = galleryThumbsvehiculo;
+    }
+    if ($(".swiper-servicios-impuestos-vehiculos").length != 0) {
+        var galleryThumbsImpuestosvehiculo = new Swiper('.swiper-title-servicios-impuestos-vehiculos', {
+            loop: true,
+            effect: "fade",
+            loopedSlides: 1,
+            slideToClickedSlide: true,
+            slidesPerView: 1,
+            watchSlidesVisibility: true,
+            watchSlidesProgress: true,
+        });
+        var galleryTopImpuestosvehiculo = new Swiper('.swiper-servicios-impuestos-vehiculos', {
+            loop: false,
+            loopedSlides: 1,
 
-                cssMode: true,
-                simulateTouch:true,
-                pagination: {
-                    el: '.swiper-pagination',
-                    clickable: true,
-                    type: 'bullets',
-                },
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-                autoHeight: true,
-                centeredSlides: true,
-                allowTouchMove: true,
-                grabCursor: "true",
-                // USING THE THUMBS COMPONENT
-                thumbs: {
-                    swiper: galleryThumbsImpuestosvehiculo
-                }
-            });
-        var    galleryThumbsInspeccion = new Swiper('.swiper-title-servicios-inspeccion', {
+            cssMode: true,
+            simulateTouch: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                type: 'bullets',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            autoHeight: true,
+            centeredSlides: true,
+            allowTouchMove: true,
+            grabCursor: "true",
+            // USING THE THUMBS COMPONENT
+            thumbs: {
+                swiper: galleryThumbsImpuestosvehiculo
+            }
+        });
+        galleryTopImpuestosvehiculo.controller.control = galleryThumbsImpuestosvehiculo;
+    }
+    if ($(".swiper-servicios-inspeccion").length != 0) {
+        var galleryThumbsInspeccion = new Swiper('.swiper-title-servicios-inspeccion', {
             loop: false,
             effect: "fade",
             loopedSlides: 1,
@@ -212,11 +221,11 @@ $(document).ready(function () {
             watchSlidesVisibility: true,
             watchSlidesProgress: true,
         });
-        var    galleryTopInspeccion = new Swiper('.swiper-servicios-inspeccion', {
+        var galleryTopInspeccion = new Swiper('.swiper-servicios-inspeccion', {
             loop: false,
             loopedSlides: 1,
             cssMode: true,
-            simulateTouch:true,
+            simulateTouch: true,
             pagination: {
                 el: '.swiper-pagination',
                 clickable: true,
@@ -235,11 +244,12 @@ $(document).ready(function () {
                 swiper: galleryThumbsInspeccion
             }
         });
-        galleryTop.controller.control = galleryThumbs;
-        galleryTopvehiculo.controller.control = galleryThumbsvehiculo;
-        galleryTopImpuestosvehiculo.controller.control = galleryThumbsImpuestosvehiculo;
         galleryTopInspeccion.controller.control = galleryThumbsInspeccion;
     }
+
+
+
+
 
 
 

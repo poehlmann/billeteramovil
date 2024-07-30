@@ -167,7 +167,7 @@
                                                             <li><img alt="retirar dinero de un agente BCP" src="/assets/img/yape_numero_4.svg" class="mr-2">Ingresa el monto a retirar</li>
                                                             <li><img alt="retirar dinero de un agente BCP" src="/assets/img/yape_numero_5.svg" class="mr-2">¡Y listo!</li>
                                                         </ol>
-                                                        <p>Recarga o retira dinero a través de agentes BCP. <a href="#mapa_agentes_bcp" onclick="mapa_agentes();return false;" type="button" role="button" data-toggle="modal" data-target="#mapa_agentes_bcp"><strong>Conoce donde aquí</strong></a></p>
+                                                        <p class="mb-20 mt-20">Recarga o retira dinero a través de agentes BCP. <a href="#mapa_agentes_bcp" onclick="mapa_agentes();return false;" type="button" role="button" data-toggle="modal" data-target="#mapa_agentes_bcp"><strong>Conoce donde aquí</strong></a></p>
                                                         <p><strong>Mira este video para que sepas como retirar dinero de tu Yape desde un agente</strong></p>
                                                         <div class="">
                                                             <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@yapebolivia/video/7339141578205826310" data-video-id="7339141578205826310" style="max-width: 605px;" > <section> <a target="_blank" title="@yapebolivia" href="https://www.tiktok.com/@yapebolivia?refer=embed">@yapebolivia</a> Agregan y retira dinero a tu Yape con agentes BCP.</section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
@@ -240,7 +240,25 @@
             </div>
         </div>
     </section>
-
+    <div id="mapa_agentes_bcp" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h2 class="font-weight-bold modal-title">Encuentra tu punto más cercano y empieza a retirar dinero de tu Yape</h2>
+                </div>
+                <div class="row text-center flex-nowrap">
+                    <div class="col-md-12"><img loading="lazy" title="Punto de agencia bcp" class="lazyload img-fluid"
+                                                width="8%" height="auto" src="/assets/img/agencia.svg"
+                                                alt="punto de agencia bcp">
+                        <h3>Agente BCP</h3></div>
+                </div>
+                <div class="modal-body map-responsive" id="agentes_bcp"></div>
+                <div class="modal-footer text-center">
+                    <button type="button" class="close btn_cta mb-20 mt-30" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <div id="tutorial-recarga-yape" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">

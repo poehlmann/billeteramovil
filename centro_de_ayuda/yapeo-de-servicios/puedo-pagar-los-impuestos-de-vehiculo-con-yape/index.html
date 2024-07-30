@@ -36,7 +36,8 @@
     <link rel="stylesheet" href="/assets/css/footer.min.css" >
     <link rel="stylesheet" href="/assets/css/css_principal.min.css" >
     <link href="/assets/css/sweetalert2.min.css" rel="stylesheet">
-
+    <link href="/assets/css/swiper-bundle.css">
+    <link rel="stylesheet" href="/assets/css/swiper-bundle-new.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
 
     <meta name="msapplication-TileColor" content="#0fa8d5">
@@ -208,7 +209,7 @@
                                                             <div class="swiper-pagination"></div>
                                                         </div>
                                                         <p class="mt-30">Podrás ver tu yapeo por pago de impuestos en tu lista de movimientos. Además, recibirás una constancia de pago al correo electrónico que usaste para registrarte en Yape</p>
-                                                        <p class="mt-25"><strong>¡Mira este video para que conozcas como pagar tus servicios con Yape!</strong>
+                                                        <p class="mb-20 mt-20"><strong>¡Mira este video para que conozcas como pagar tus servicios con Yape!</strong>
                                                             <a type="button" href="#" style="padding: 0 13px" data-toggle="modal" data-target="#pagar_servicio_impuestos_vehiculo" class="btn_cta tutorial-recarga-yape"> Ver video</a>
                                                         </p>
                                                         <div class="nps_pf_container mt-30" >
@@ -293,6 +294,18 @@
         </div>
     </div>
 
+    <div id="pagar_servicio_impuestos_vehiculo" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content" >
+                <div class="modal-header">
+                    <h3 class="modal-title">Pagar impuestos de vehículos con Yape <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times; </button></h3>
+                </div>
+                <div class="modal-body" style="text-align: center">
+                    <iframe width="315" height="560" src="https://www.youtube.com/embed/T3jfhAUhtxQ?si=vcAMvuJn4jVL_nFK" title="YApe impuesto vehiculo"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
     <div id="boton-flotante" class="cerrado hide_desktop">
         <button id="boton-cerrar"><img alt="cerrar boton flotante yape" title="cerrar boton flotante yape" src="/assets/img/icon-close.svg"></button>
         <div id="icono-descarga" class="font-weight-bold">Descargar Yape <img alt="descarga yape" title="descarga yape" class="ml-20" src="/assets/img/descarga.svg"></div>
@@ -504,13 +517,12 @@
 
 <script src="/assets/vendors/owlcarousel/dist/owl.carousel.min.js"></script>
 <script src="/assets/js/theme-vendors.min.js"></script>
-
+<script src="/assets/js/swiper-bundle-new.js"></script>
 <script src="/assets/js/elasticlunr.min.js"></script>
 <script src="/assets/js/menu.min.js"></script>
 <script src="/assets/js/ayuda.min.js"></script>
 <script src="/assets/js/blog.min.js"></script>
 <script src="/assets/js/js_principal.min.js"></script>
-
 <script src="/assets/js/sweetalert2.js"></script>
 </body>
 

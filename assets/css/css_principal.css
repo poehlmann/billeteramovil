@@ -3661,6 +3661,12 @@ section.section--sac .sac-channels .sac-channel a {
     font-family: "yape-icon",sans-serif !important;
     content: "\f110" !important;
 }
+.swiper-button-prev{
+    margin-left: -120px;
+}
+.swiper-button-next{
+    margin-right: -120px;
+}
 .swiper-button-next, .swiper-button-prev{
     background-color: #10cbb4 !important;
     color: #FFFFFF !important;

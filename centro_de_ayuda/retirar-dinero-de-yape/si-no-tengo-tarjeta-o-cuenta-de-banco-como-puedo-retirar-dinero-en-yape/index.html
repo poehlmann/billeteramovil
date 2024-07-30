@@ -166,7 +166,7 @@
                                                             <li><img alt="como retirar dinero de yape" src="/assets/img/yape_numero_3.svg" class="mr-2">Genera tu código secreto para retirar tu dinero a través de cajeros o agentes BCP.</li>
                                                             <li><img alt="como retirar dinero de yape" src="/assets/img/yape_numero_4.svg" class="mr-2">Ve al cajero o agente BCP, ingresa tu código y ¡Listo!.</li>
                                                         </ol>
-                                                        <p>Retira dinero a través de agentes BCP o cajeros automáticos BCP. <a href="#cajeros-ubicacion" onclick="mapa_cajeros();return false;" type="button" role="button" data-toggle="modal" data-target="#cajeros-ubicacion"><strong>Conoce donde aquí</strong></a></p>
+                                                        <p class="mb-20 mt-20">Retira dinero a través de agentes BCP o cajeros automáticos BCP. <a href="#cajeros-ubicacion" onclick="mapa_cajeros();return false;" type="button" role="button" data-toggle="modal" data-target="#cajeros-ubicacion"><strong>Conoce donde aquí</strong></a></p>
                                                         <p><Strong>Mira este video para que sepas como retirar dinero de tu Yape</Strong></p>
                                                         <iframe width="560" height="315" src="https://www.youtube.com/embed/hSSavAkkm78?si=HkQCM7N1j0cT6eDw" title="Yape Si no tengo tarjeta o cuenta de banco, ¿Cómo puedo retirar dinero en Yape?"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -237,7 +237,25 @@
             </div>
         </div>
     </section>
-
+    <div id="cajeros-ubicacion" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h2 class="font-weight-bold modal-title">Encuentra tu punto más cercano para retirar dinero</h2>
+                </div>
+                <div class="row text-center flex-nowrap">
+                    <div class="col-md-12"><img loading="lazy" title="Punto de atm bcp" class="lazyload img-fluid"
+                                                width="8%" height="auto" src="/assets/img/atm.svg"
+                                                alt="punto de atm bcp">
+                        <h3>Cajero BCP</h3></div>
+                </div>
+                <div class="modal-body map-responsive" id="atm_bcp"></div>
+                <div class="modal-footer text-center">
+                    <button type="button" class="close btn_cta mb-20 mt-30" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <div id="tutorial-recarga-yape" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">

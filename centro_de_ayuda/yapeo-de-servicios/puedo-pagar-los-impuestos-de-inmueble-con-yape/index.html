@@ -36,7 +36,8 @@
     <link rel="stylesheet" href="/assets/css/footer.min.css" >
     <link rel="stylesheet" href="/assets/css/css_principal.min.css" >
     <link href="/assets/css/sweetalert2.min.css" rel="stylesheet">
-
+    <link href="/assets/css/swiper-bundle.css">
+    <link rel="stylesheet" href="/assets/css/swiper-bundle-new.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
 
     <meta name="msapplication-TileColor" content="#0fa8d5">
@@ -150,14 +151,14 @@
                                         <div class="panel-group accordion" role="tablist" aria-multiselectable="true">
 
                                             <div class="panel panel-default">
-                                                <div class="panel-heading" role="tab" id="headingFive">
+                                                <div class="panel-heading" role="tab" id="headingOne">
                                                     <h4 class="panel-title">
                                                         <a class="collapsed title-section"  role="button" href="#puedo-pagar-los-impuestos-de-inmueble-con-yape" onclick="return false;">
                                                             ¿Puedo pagar los impuestos de inmueble con Yape?
                                                         </a>
                                                     </h4>
                                                 </div>
-                                                <div id="puedo-pagar-los-impuestos-de-inmueble-con-yape" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                                                <div id="puedo-pagar-los-impuestos-de-inmueble-con-yape" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                                                     <div class="panel-body">
                                                         <p class="mb-30"><strong>Sí, para pagar impuestos de inmuebles a través de Yape, sigue los siguientes pasos:</strong></p>
                                                         <div class="swiper swiper-title-servicios-vehiculos">
@@ -207,28 +208,28 @@
                                                             <div class="swiper-button-prev"></div>
                                                             <div class="swiper-pagination"></div>
                                                         </div>
-                                                        <p class="mt-25"><strong>¡Mira este video para que conozcas como pagar tus servicios con Yape!</strong>
-                                                            <a type="button" href="#" style="padding: 0 13px" data-toggle="modal" data-target="#pagar_servicio_impuestos_inmueble" class="btn_cta tutorial-recarga-yape"> Ver video</a>
+                                                        <p class="mb-20 mt-20"><strong>¡Mira este video para que conozcas como pagar tus servicios con Yape!</strong>
+                                                            <a type="button" href="#" style="padding: 0 13px" data-toggle="modal" data-target="#pagar_servicio_luz" class="btn_cta tutorial-recarga-yape"> Ver video</a>
                                                         </p>
                                                         <div class="nps_pf_container mt-30" >
                                                             <div>
                                                                 <span class="font-weight-bold">¿Te fue útil esta información?</span>
                                                             </div>
                                                             <div class="nps_pf">
-                                                                <div type="button" id="resp_no_puedo-pagar-los-impuestos-de-inmueble" class="pf_no">No</div>
-                                                                <div type="button" id="resp_si_puedo-pagar-los-impuestos-de-inmueble" class="pf_si">Sí</div>
+                                                                <div type="button" id="resp_no_puedo-pagar-la-factura-de-luz-con-yape" class="pf_no">No</div>
+                                                                <div type="button" id="resp_si_puedo-pagar-la-factura-de-luz-con-yape" class="pf_si">Sí</div>
                                                             </div>
                                                         </div>
                                                         <div class="box-response-si">
                                                             <span>¡Nos alegra poder ayudarte!</span>
-                                                            <textarea onkeyup="countChar(this)" id="message_resp_si_puedo-pagar-los-impuestos-de-inmueble" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                            <textarea onkeyup="countChar(this)" id="message_resp_si_puedo-pagar-la-factura-de-luz-con-yape" rows="5" maxlength="300" class="message-response-si" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
                                                             <p  class="counter">300 / 300</p>
-                                                            <div type="button" id="send_resp_si_puedo-pagar-los-impuestos-de-inmueble" class="pf_si_fin btn_cta disabled">Enviar</div>
+                                                            <div type="button" id="send_resp_si_puedo-pagar-la-factura-de-luz-con-yape" class="pf_si_fin btn_cta disabled">Enviar</div>
                                                         </div>
                                                         <div class="box-response-no">
                                                             <span>Lo sentimos</span>
                                                             <p class="sub-response-no">Cuéntanos, ¿por qué no fue útil esta información?</p>
-                                                            <div class="checkbox-resp-no" id="opt_resp_no_puedo-pagar-los-impuestos-de-inmueble">
+                                                            <div class="checkbox-resp-no" id="opt_resp_no_puedo-pagar-la-factura-de-luz-con-yape">
                                                                 <label class="radio-inline">
                                                                     <input type="radio" name="radio_response_no" value="Hice lo que mencionaron y no se resolvió mi inconveniente." >
                                                                     Hice lo que mencionaron y no se resolvió mi inconveniente.
@@ -246,13 +247,13 @@
                                                                     Otra razón
                                                                 </label>
                                                                 <div class="other_option_response_no">
-                                                                    <input onkeyup="countChar2(this)" maxlength="100" type='text' id="response_no_other_puedo-pagar-los-impuestos-de-inmueble" name='input_other_option_response_no'>
+                                                                    <input onkeyup="countChar2(this)" maxlength="100" type='text' id="response_no_other_puedo-pagar-la-factura-de-luz-con-yape" name='input_other_option_response_no'>
                                                                     <p class="counter2">100 / 100</p>
                                                                 </div>
                                                             </div>
-                                                            <textarea onkeyup="countChar3(this)" id="message_resp_no_puedo-pagar-los-impuestos-de-inmueble" rows="5" maxlength="300" class="message-response-no" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
+                                                            <textarea onkeyup="countChar3(this)" id="message_resp_no_puedo-pagar-la-factura-de-luz-con-yape" rows="5" maxlength="300" class="message-response-no" placeholder="Cuéntanos, ¿cómo podriamos mejorar?"></textarea>
                                                             <p class="counter">300 / 300</p>
-                                                            <div type="button" id="send_resp_no_puedo-pagar-los-impuestos-de-inmueble" class="pf_no_fin btn_cta disabled">Enviar</div>
+                                                            <div type="button" id="send_resp_no_puedo-pagar-la-factura-de-luz-con-yape" class="pf_no_fin btn_cta disabled">Enviar</div>
                                                             <p class="subnote-response-no">Te recomendamos escribirnos por <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web">WhatsApp</a> para poder resolver tu consulta.</p>
                                                         </div>
                                                         <div class="box-response ">
@@ -262,7 +263,7 @@
                                                         </div>
                                                         <div class="mb-30 mt-30 question_container">
                                                             <span class="mb-20 question_indent"><strong>¿Te quedaste con alguna duda?</strong><br>Contáctanos en nuestro canal oficial:</span>
-                                                            <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola,%20vengo%20de%20la%20web%20de%20Yape,%20%C2%BFPuedo%20pagar%20los%20impuestos%20de%20inmueble%20con%20Yape?" type="button" class="btn_cta_social ml-5 "><img class="mr-5" width="25" heigth="25" src="/assets/img/ic_social_whatsapp_b_gray.svg" alt="whatsapp Yape Bolivia" >WhatsApp</a>
+                                                            <a target="_blank" href="https://api.whatsapp.com/send?phone=59172007654&text=Hola,%20vengo%20de%20la%20web%20de%20Yape,%20%C2%BFPuedo%20pagar%20la%20factura%20de%20luz%20con%20Yape?" type="button" class="btn_cta_social ml-5 "><img class="mr-5" width="25" heigth="25" src="/assets/img/ic_social_whatsapp_b_gray.svg" alt="whatsapp Yape Bolivia" >WhatsApp</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -291,7 +292,18 @@
             </div>
         </div>
     </div>
-
+    <div id="pagar_servicio_luz" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content" >
+                <div class="modal-header">
+                    <h3 class="modal-title">Pagar servicios de luz con Yape <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times; </button></h3>
+                </div>
+                <div class="modal-body" style="text-align: center">
+                    <iframe width="315" height="560" src="https://www.youtube.com/embed/T3jfhAUhtxQ?si=vcAMvuJn4jVL_nFK" title="Yape servicio de luz"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
     <div id="boton-flotante" class="cerrado hide_desktop">
         <button id="boton-cerrar"><img alt="cerrar boton flotante yape" title="cerrar boton flotante yape" src="/assets/img/icon-close.svg"></button>
         <div id="icono-descarga" class="font-weight-bold">Descargar Yape <img alt="descarga yape" title="descarga yape" class="ml-20" src="/assets/img/descarga.svg"></div>
@@ -503,7 +515,7 @@
 
 <script src="/assets/vendors/owlcarousel/dist/owl.carousel.min.js"></script>
 <script src="/assets/js/theme-vendors.min.js"></script>
-
+<script src="/assets/js/swiper-bundle-new.js"></script>
 <script src="/assets/js/elasticlunr.min.js"></script>
 <script src="/assets/js/menu.min.js"></script>
 <script src="/assets/js/ayuda.min.js"></script>
