@@ -9,12 +9,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="actualizacion de centro de ayuda">
-      <change afterPath="$PROJECT_DIR$/assets/img/yape_ACH2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/sobre-tu-cuenta-yape/como-puedo-consultar-mi-saldo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/sobre-tu-cuenta-yape/como-puedo-consultar-mi-saldo/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/soy-nuevo-en-yape/puedo-tener-mas-de-una-cuenta-yape-a-mi-nombre/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/soy-nuevo-en-yape/puedo-tener-mas-de-una-cuenta-yape-a-mi-nombre/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/adios-al-efectivo/5-habitos-para-decirle-adios-al-uso-de-dinero-en-efectivo.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/adios-al-efectivo/5-habitos-para-decirle-adios-al-uso-de-dinero-en-efectivo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/adios-al-efectivo/dinero-electronico-efectivo-y-virtual-cuales-son-sus-diferencias.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/adios-al-efectivo/dinero-electronico-efectivo-y-virtual-cuales-son-sus-diferencias.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/depositar-dinero-a-yape/como-puedo-depositar-dinero-en-efectivo-a-mi-cuenta-yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/depositar-dinero-a-yape/como-puedo-depositar-dinero-en-efectivo-a-mi-cuenta-yape/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/depositar-dinero-a-yape/cual-es-el-monto-maximo-y-minimo-que-puedo-depositar/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/depositar-dinero-a-yape/cual-es-el-monto-maximo-y-minimo-que-puedo-depositar/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/enviar-y-recibir-yapeos/cuales-son-los-limites-que-puedo-enviar-y-recibir-en-yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/enviar-y-recibir-yapeos/cuales-son-los-limites-que-puedo-enviar-y-recibir-en-yape/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/retirar-dinero-de-yape/como-puedo-retirar-mi-dinero-de-los-cajeros-automaticos-del-bcp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/retirar-dinero-de-yape/como-puedo-retirar-mi-dinero-de-los-cajeros-automaticos-del-bcp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/retirar-dinero-de-yape/cual-es-el-monto-maximo-y-minimo-que-puedo-retirar-de-un-cajero-automatico-bcp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/retirar-dinero-de-yape/cual-es-el-monto-maximo-y-minimo-que-puedo-retirar-de-un-cajero-automatico-bcp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/sobre-tu-cuenta-yape/como-puedo-cambiar-la-contrasena-o-pin-de-mi-cuenta-yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/sobre-tu-cuenta-yape/como-puedo-cambiar-la-contrasena-o-pin-de-mi-cuenta-yape/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/sobre-tu-cuenta-yape/cuanto-dinero-puedo-tener-en-yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/sobre-tu-cuenta-yape/cuanto-dinero-puedo-tener-en-yape/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes/como-configuro-mis-limites-diarios-en-yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes/como-configuro-mis-limites-diarios-en-yape/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/depositar-dinero-a-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/depositar-dinero-a-yape.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/enviar-y-recibir-yapeos.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/enviar-y-recibir-yapeos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/recargas-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/recargas-yape.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/retirar-dinero-de-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/retirar-dinero-de-yape.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/sobre-tu-cuenta-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/sobre-tu-cuenta-yape.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/soy-nuevo-en-yape.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/soy-nuevo-en-yape.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/temas-urgentes.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/temas-urgentes.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,14 +278,7 @@
       <workItem from="1721051912591" duration="17702000" />
       <workItem from="1721663064398" duration="3555000" />
       <workItem from="1722081644063" duration="9176000" />
-      <workItem from="1722261313678" duration="36170000" />
-    </task>
-    <task id="LOCAL-00103" summary="webconfig">
-      <created>1718029951903</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1718029951903</updated>
+      <workItem from="1722261313678" duration="37480000" />
     </task>
     <task id="LOCAL-00104" summary="webconfig">
       <created>1718031019162</created>
@@ -612,7 +616,14 @@
       <option name="project" value="LOCAL" />
       <updated>1722525681493</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="actualizacion de centro de ayuda">
+      <created>1722530270912</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1722530270912</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
