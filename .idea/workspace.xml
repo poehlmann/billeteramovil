@@ -8,7 +8,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="actualizacion de centro de ayuda" />
+    <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="actualizacion de centro de ayuda">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YapeWeb.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/ayuda.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/ayuda.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/ayuda.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/ayuda.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes/como_activo_la_seguridad_en_mi_celular/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes/como_activo_la_seguridad_en_mi_celular/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/web.config" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +52,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
   <component name="ProjectId" id="2TrZntQNO10BUGchvZ7rNPHAHdE" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -60,11 +70,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/xampp/htdocs/billeteramovil/centro_de_ayuda/yapeo-de-servicios/puedo-pagar-los-impuestos-de-vehiculo-con-yape",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "watcher.settings",
     "vue.rearranger.settings.migration": "true"
@@ -82,6 +94,13 @@
       <recent name="C:\xampp\htdocs\billeteramovil\assets\img" />
       <recent name="C:\xampp\htdocs\billeteramovil" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-WS-241.15989.105" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -261,6 +280,7 @@
       <workItem from="1721663064398" duration="3555000" />
       <workItem from="1722081644063" duration="9176000" />
       <workItem from="1722261313678" duration="38908000" />
+      <workItem from="1722576333041" duration="905000" />
     </task>
     <task id="LOCAL-00106" summary="webconfig">
       <created>1718656468036</created>

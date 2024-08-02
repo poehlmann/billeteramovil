@@ -1305,7 +1305,6 @@ h2{
 }
 #como_activo_la_seguridad_en_mi_celular div .mensaje_dobleautenticacion{
     width: 60%;
-    height: 340px;
 }
 #como_activo_la_seguridad_en_mi_celular ul {
     text-align: left;
@@ -1313,6 +1312,7 @@ h2{
 }
 #como_activo_la_seguridad_en_mi_celular ul li,#como_activo_la_seguridad_en_mi_celular ul li {
     margin-bottom:10px;
+    display:flex;
 }
 .whatsapp-banner{
     background-color: #E5FFFC;
@@ -1399,7 +1399,6 @@ h2{
     }
     #como_activo_la_seguridad_en_mi_celular div .mensaje_dobleautenticacion{
         width: 80%;
-        height: 375px ;
     }
     .accordion .panel-title a{
         font-size: 16px;
