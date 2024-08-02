@@ -3927,7 +3927,7 @@ section.section--sac .sac-channels .sac-channel a {
     color: #69607b !important;
 }
 .swiper-0{
-    background-image:url(../img/banner-web.jpg)
+    background-image:url(../img/banner-desktop.jpg)
 }
 .swiper-1{
     background-image:url(../img/background-agente.png)
@@ -4212,7 +4212,7 @@ section.section--sac .sac-channels .sac-channel a {
         color:#FFFFFFB3
     }
     .swiper-0{
-        background-image:url(../img/banner-web-mobile.jpg)
+        background-image:url(../img/banner-mobile.jpg)
     }
     .swiper-1{
         background-image:url(../img/background-agente-mobile.svg)
