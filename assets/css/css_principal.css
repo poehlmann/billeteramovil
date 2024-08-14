@@ -3744,7 +3744,7 @@ section.section--sac .sac-channels .sac-channel a {
     /*transform: translate(-140%, 0);*/
     /*transition: transform 1.15s cubic-bezier(0.58, 0, 0.28, 0.99) 0.4s;*/
     color: #fff;
-    margin: 0 0 2.5rem;
+    margin: 0 0 1rem;
     text-shadow: #212121 21 0px 0px 5px;
 }
 .home-showcase .home-showcaseSlider .swiper-wrapper .swiper-slide .swiper-image .text-container .container-arrow-button {

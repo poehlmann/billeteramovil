@@ -10,11 +10,10 @@
   <component name="ChangeListManager">
     <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="actualizacion de centro de ayuda">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes/cuantos-intentos-para-ingresar-mi-contrasenha-o-pin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes/cuantos-intentos-para-ingresar-mi-contrasenha-o-pin/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes/que-significa-el-mensaje-de-error-que-sale-al-intentar-ingresar-a-yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda/temas-urgentes/que-significa-el-mensaje-de-error-que-sale-al-intentar-ingresar-a-yape/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/temas-urgentes.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/temas-urgentes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/yape-para-tu-negocio.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/yape-para-tu-negocio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library.json" beforeDir="false" afterPath="$PROJECT_DIR$/library.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css_principal.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yapepromociones/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/yapepromociones/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -281,14 +280,7 @@
       <workItem from="1722081644063" duration="9176000" />
       <workItem from="1722261313678" duration="38908000" />
       <workItem from="1722576333041" duration="1274000" />
-      <workItem from="1723039485617" duration="3190000" />
-    </task>
-    <task id="LOCAL-00109" summary="webconfig">
-      <created>1718722294208</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1718722294208</updated>
+      <workItem from="1723039485617" duration="5911000" />
     </task>
     <task id="LOCAL-00110" summary="nuevo centro de ayuda">
       <created>1718723674986</created>
@@ -626,7 +618,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723040145465</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="actualizacion de centro de ayuda">
+      <created>1723043580233</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1723043580233</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
