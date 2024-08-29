@@ -48,7 +48,7 @@
   cursor: pointer;
   transition: .4s;
   background-color: #fff;
-  width: 450px;
+  /*width: 450px;*/
   -webkit-box-shadow: 0 5px 5px 0 rgba(0,0,0,.3);
   -moz-box-shadow: 0 5px 5px 0 rgba(0,0,0,.3);
   -o-box-shadow: 0 5px 5px 0 rgba(0,0,0,.3);

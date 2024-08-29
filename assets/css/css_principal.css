@@ -2910,7 +2910,7 @@ button.close{padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance
     .container{max-width:1140px;}
 }
 .col-lg-3,.col-md-4{position:relative;width:100%;padding-right:15px;padding-left:15px;}
-@media (min-width:768px){
+@media (min-width:992px){
     .col-md-4{-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%;}
 }
 @media (min-width:992px){
@@ -3926,6 +3926,9 @@ section.section--sac .sac-channels .sac-channel a {
 .text-pf-principal a{
     color: #69607b !important;
 }
+.swiper-00{
+    background-image:url(https://lh3.google.com/u/0/d/1Qjt9crRQfob7ZXFMize-tyyjRGNJRn92=w1920-h911-iv1)
+}
 .swiper-0{
     background-image:url(../img/banner-desktop.jpg)
 }
@@ -4210,6 +4213,9 @@ section.section--sac .sac-channels .sac-channel a {
     .subtitle-banner{
         font-size: 20px;
         color:#FFFFFFB3
+    }
+    .swiper-00{
+        background-image:url(https://lh3.google.com/u/0/d/1_TTEjbrQlapwbor_icCfA5kVGsCUSH38=w1920-h911-iv1)
     }
     .swiper-0{
         background-image:url(../img/banner-mobile.jpg)

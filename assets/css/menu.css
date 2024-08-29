@@ -394,8 +394,8 @@ header .desk-menu .menu-container .menu {
     display: flex;
     align-items: center;
     align-items: center;
-    grid-gap: 5px;
-    gap: 15px;
+    grid-gap: inherit;
+    gap: inherit;
     /*-webkit-transition: all 0.3s ease-in-out;*/
     /*-moz-transition: all 0.3s ease-in-out;*/
     /*-ms-transition: all 0.3s ease-in-out;*/
@@ -792,13 +792,18 @@ header .desk-menu li.menu-item-has-children .sub-menu li.active{
     }
 
 }
+@media (min-width: 1122px) and (max-width: 1199px) {
+    header .desk-menu .menu-container .menu{
+        gap: 5px;
+    }
+}
 @media (min-width: 992px) and (max-width: 1199px) {
 
     .small .desk-menu .menu-header-container .menu > li a{
         line-height: 63px;
     }
     header .desk-menu .menu-container .menu > li {
-        padding: 0;
+        padding: 5px;
     }
     /*header .desk-menu .menu-container .menu > li {*/
     /*    margin: 0 15px 0 0 !important;*/
