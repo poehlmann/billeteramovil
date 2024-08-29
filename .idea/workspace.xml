@@ -9,23 +9,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="cambios en wording y quitar yape promo saltenha">
-      <change afterPath="$PROJECT_DIR$/assets/img/Liberate-con-Yape-bolivia-web-bcp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/YapeayGana-PiezaWeb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/legales/Notificacion ASFI Autorizacion Prom Empresarial Liberate con Yape.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/legales/Notificacion ASFI Autorizacion Prom Empresarial Yapea y Gana.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/legales/Resolución AJ Autorizacion Prom Empresarial Liberate con Yape.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/legales/Resolución AJ Autorizacion Prom Empresarial Yapea y Gana.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/legales/Términos y Condiciones Liberate con Yape.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/legales/Términos y Condiciones Yapea y Gana.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Liberate-con-Yape-bolivia-web-yape.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/css_principal.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/css_principal.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/footer.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/footer.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/menu.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/menu.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/menu.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/promociones_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/promociones_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/promociones_style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/promociones_style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yapepromociones/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/yapepromociones/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -295,14 +285,7 @@
       <workItem from="1722576333041" duration="1274000" />
       <workItem from="1723039485617" duration="7749000" />
       <workItem from="1723920322685" duration="1583000" />
-      <workItem from="1724181478331" duration="17400000" />
-    </task>
-    <task id="LOCAL-00111" summary="nuevo centro de ayuda">
-      <created>1718725435357</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1718725435357</updated>
+      <workItem from="1724181478331" duration="21120000" />
     </task>
     <task id="LOCAL-00112" summary="nuevo centro de ayuda">
       <created>1718737444378</created>
@@ -640,7 +623,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723648477886</updated>
     </task>
-    <option name="localTasksCounter" value="161" />
+    <task id="LOCAL-00161" summary="cambios en wording y quitar yape promo saltenha">
+      <created>1724945686440</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1724945686440</updated>
+    </task>
+    <option name="localTasksCounter" value="162" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
