@@ -1634,6 +1634,7 @@ iframe{max-width:100%;border:0;}
 .ml-155{margin-left: 155px;}
 .ml-285{margin-left: 285px;}
 .font-weight-bold{font-weight:bold!important;}
+.font-size-12{font-size: 12px !important;}
 .font-size-14{font-size: 14px !important;}
 .font-size-16{font-size:16px!important;}
 .font-size-18{font-size:18px!important;}
@@ -1716,6 +1717,9 @@ iframe{max-width:100%;border:0;}
     border-bottom-color: rgb(221 215 235/50%);
     padding-top: 35px;
     width: -webkit-fill-available;
+}
+.color-purple-light{
+    background-color:#F6F4FB;
 }
 .align-middle{
     display: flex;

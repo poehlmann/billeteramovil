@@ -73,14 +73,14 @@ $(document).ready(function(){
             $('#scroll').fadeOut();
         }
     });
-    $("#tabs-section ul a").on("click", function (e) {
-        // 1
-        e.preventDefault();
-        // 2
-        const href = $(this).attr("href");
-        // 3
-        $("html, body").animate({ scrollTop: $(href).offset().top -100}, 800);
-    });
+    // $("#tabs-section ul a").on("click", function (e) {
+    //     // 1
+    //     e.preventDefault();
+    //     // 2
+    //     const href = $(this).attr("href");
+    //     // 3
+    //     $("html, body").animate({ scrollTop: $(href).offset().top -100}, 800);
+    // });
     // $('#scroll').click(function(){
     //     let e = document.getElementById("blog_head");
     //     e.scrollIntoView({

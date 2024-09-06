@@ -310,16 +310,6 @@ $(document).ready(function () {
         }, 7000);
     });
 
-    // window.scrollTo(0,0);
-    size = $(document).width();
-    if (size >= 1199) {
-        $(".icon_down") .css('display','none');
-        $('.inner').css('display','block');
-    }else{
-        $(".icon_down") .css('display','block');
-        $('.inner').css('display','none');
-    }
-
     $(".nest").on("click", function() {
         if (size < 1199) {
             if ($(this).next().hasClass("show")) {

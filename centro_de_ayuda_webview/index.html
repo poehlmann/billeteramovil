@@ -37,268 +37,103 @@
 
     <div id="wrap">
 
-        <section class="fondo_centro_ayuda indent-element-section" style="height: 150px!important; padding-top: 0!important;">
+        <section class="fondo_centro_ayuda" style="height: 190px!important; padding-top: 20px !important;">
             <div class="container">
                 <div class="row text-center">
-                    <div class="col-md-12 text-white  ">
-                        <h1 class="text-white font-weight-bold font-size-mobile-title-without-image" >¿Cómo te ayudamos?</h1>
-                        <input style="left: 50%;transform: translate(-50%, -50%)!important;" type="text" class="input-search" id="input-search" placeholder="¿Necesitas ayuda?" onclick="MakeSearch('mobile')">
+                    <div class="col-md-12 text-white webview">
+                        <input type="text" class="webview-search" id="input-search" placeholder="Ingresa tu consulta" onclick="MakeSearch('mobile')">
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-12 align-menu-sec-webview">
+                        <div class="align-text-webview">
+                            <a href="https://www.yape.com.bo/YapeMovimientos/Login">
+                                <img src="/assets/img/movimientos-yape.png" width="44" height="44" class="img-phone" alt="Yape" title="Yape"/>
+                                <p class="font-size-12 text-white roboto-medium">Mis <br> movimientos</p>
+                            </a>
+                        </div>
+                        <div class="align-text-webview">
+                            <a href="/centro_de_ayuda_webview/temas-urgentes/cambie-de-celular-y-no-puedo-acceder-a-yape/#cambie-de-celular-y-no-puedo-acceder-a-yape">
+                                <img src="/assets/img/cambiar_numero_webview_cda.png" width="44" height="44" class="img-phone" alt="Yape" title="Yape"/>
+                                <p class="font-size-12 text-white roboto-medium">Cambié de<br> teléfono</p>
+                            </a>
+                        </div>
+                        <div class="align-text-webview">
+                            <a href="/centro_de_ayuda_webview/categorias/">
+                                <img src="/assets/img/alerta-yape.png" width="44" height="44" class="img-phone" alt="Yape" title="Yape"/>
+                                <p class="font-size-12 text-white roboto-medium">Tengo otro <br> problema</p>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="wrapper bg-gray pt-32 pb-32">
-            <div class="whatsapp-banner-webview">
-                <img alt="yape whatsapp" src="../assets/img/ic_social_whatsapp_r_yape.png">
-                <span>También puedes resolver tus dudas por WhatsApp. Toca <a style="color:#10CBB4" target="_blank" href="https://api.whatsapp.com/send?phone=+59172007654&text=%C2%A1Hola!%20Vengo%20de%20la%20web%20y%20necesito%20ayuda,%20por%20favor.">aquí</a></span>
-            </div>
-            <ul class="list-group cards accordion">
-                <li class="card-pf">
+        <section class="wrapper color-purple-light pt-10">
+            <ul class="list-group list-unstyled">
+                <li class="card-pf-webview">
                     <div class="nest">
-                        <div class="nest-principal">
-                            <img src="../assets/img/yape_centro_ayuda_crear_cuenta.svg" alt="Soy nuevo en Yape">
-                            <h2 class="card-title ml-20">Soy nuevo en Yape</h2>
-                            <img alt="yape menu" class="icon_down" src="../assets/img/yape_arrowmenu.svg">
+                        <div class="">
+                            <h3 class="font-size-20 yape-texto-purpura roboto-bold">Lo más buscado</h3>
                         </div>
-                        <p class="subtitulo">
-                            Todo lo que necesitas saber para empezar a usar Yape.
-                        </p>
-
                     </div>
-                    <ul class="inner">
-                        <li><a class="text-pf" href="soy-nuevo-en-yape.html#como-funciona-yape">¿Qué es Yape y cómo funciona?<em class="angle-right-r icon-yape"></em> </a></li>
+                    <hr>
+                    <ul class="list-unstyled" >
+                        <li><a class="subtitle-menu-webview" href="/centro_de_ayuda_webview/temas-urgentes/que-hago-en-caso-de-perdida-o-robo-de-celular/#que-hago-en-caso-de-perdida-o-robo-de-celular"><img src="/assets/img/cel-yape.png"><div>Celular vinculado a otro Yape</div><em class="angle-right-r icon-yape"></em></a></li>
                         <hr>
-                        <li><a class="text-pf" href="soy-nuevo-en-yape.html#necesito-abrir-una-cuenta-de-ahorros-para-tener-yape"><div>¿Necesito abrir una cuenta de ahorros para tener Yape?</div><em class="angle-right-r icon-yape"></em></a></li>
+                        <li><a class="subtitle-menu-webview" href="/centro_de_ayuda_webview/temas-urgentes/cuales-son-los-pasos-para-recuperar-mi-contrasenha/#cuales-son-los-pasos-para-recuperar-mi-contrasenha"><img src="/assets/img/contrasenha-yape.png"><div>Olvidé mi contraseña</div><em class="angle-right-r icon-yape"></em></a></li>
                         <hr>
-                        <li><a class="text-pf" href="soy-nuevo-en-yape.html#porque-usar-yape">¿Por qué usar Yape?<em class="angle-right-r icon-yape"></em></a></li>
-                        <a href="soy-nuevo-en-yape.html" class="btn-neutral">Ver más</a>
-                    </ul>
-
-                </li>
-
-                <li class="card-pf">
-                    <div class="nest">
-                        <div class="nest-principal">
-                            <img src="../assets/img/yape_preguntas_registro.svg" alt="Crear tu cuenta Yape">
-                            <h2 class="card-title ml-20">Crear tu cuenta Yape</h2>
-                            <img alt="yape menu" class="icon_down" src="../assets/img/yape_arrowmenu.svg">
-                        </div>
-                        <p class="subtitulo">
-                            Todo lo que necesitas saber para crear una cuenta en Yape y empezar a yapear.
-                        </p>
-
-                    </div>
-                    <ul class="inner">
-                        <li><a class="text-pf" href="crear-tu-cuenta-yape.html#como-me-creo-mi-cuenta-en-yape">¿Cómo me creo mi cuenta en Yape? <em class="angle-right-r icon-yape"></em> </a></li>
-                        <hr>
-                        <li><a class="text-pf" href="crear-tu-cuenta-yape.html#porque-yape-me-pide-una-selfie-al-momento-de-crear-mi-cuenta">¿Por qué Yape me pide una selfie al momento de crear mi cuenta?<em class="angle-right-r icon-yape"></em></a></li>
-                        <hr>
-                        <li><a class="text-pf" href="crear-tu-cuenta-yape.html#cuanto-tiempo-tengo-para-crear-mi-cuenta">¿Por qué no puedo crear mi cuenta en Yape?<em class="angle-right-r icon-yape"></em></a></li>
-                        <a class="btn-neutral" href="crear-tu-cuenta-yape.html">Ver más</a>
-                    </ul>
-
-                </li>
-
-                <li class="card-pf">
-                    <div class="nest">
-                        <div class="nest-principal">
-                            <img src="../assets/img/yape_centro_ayuda_funcionalidades.svg" alt="Sobre tu cuenta Yape">
-                            <h2 class="card-title ml-20">Sobre tu cuenta Yape</h2>
-                            <img alt="yape menu" class="icon_down" src="../assets/img/yape_arrowmenu.svg">
-                        </div>
-                        <p class="subtitulo">
-                           Conoce cómo administrar tu cuenta, configurar y actualizar tus datos
-                        </p>
-
-                    </div>
-                    <ul class="inner">
-                        <li><a class="text-pf" href="sobre-tu-cuenta-yape.html#cuanto-dinero-puedo-tener-en-yape">¿Cuánto dinero puedo tener en Yape?<em class="angle-right-r icon-yape"></em> </a></li>
-                        <hr>
-                        <li><a class="text-pf" href="sobre-tu-cuenta-yape.html#donde-veo-mis-movimientos-en-yape">¿Dónde veo mis movimientos en Yape?<em class="angle-right-r icon-yape"></em></a></li>
-                        <hr>
-                        <li><a class="text-pf" href="sobre-tu-cuenta-yape.html#como-puedo-ver-mi-numero-de-cuenta-y-mi-saldo">¿Dónde veo mi saldo?<em class="angle-right-r icon-yape"></em></a></li>
-                        <a class="btn-neutral" href="sobre-tu-cuenta-yape.html">Ver más</a>
-                    </ul>
-
-                </li>
-
-                <li class="card-pf">
-                    <div class="nest">
-                        <div class="nest-principal">
-                            <img src="../assets/img/yape_preguntas_depositar.svg" alt="Depositar dinero a Yape">
-                            <h2 class="card-title ml-20">Depositar dinero a Yape</h2>
-                            <img alt="yape menu" class="icon_down" src="../assets/img/yape_arrowmenu.svg">
-                        </div>
-                        <p class="subtitulo">
-                            Aprende a depositar dinero a tu Yape y empieza a disfrutar de los beneficios que te ofrece.
-                        </p>
-
-                    </div>
-                    <ul class="inner">
-                        <li><a class="text-pf" href="depositar-dinero-a-yape.html#como-puedo-depositar-dinero-en-efectivo-a-mi-cuenta-yape">¿Cómo puedo depositar dinero en efectivo a mi cuenta Yape?<em class="angle-right-r icon-yape"></em> </a></li>
-                        <hr>
-                        <li><a class="text-pf" href="depositar-dinero-a-yape.html#existe-comision-por-retirar-o-depositar-dinero-en-yape">¿Existe comisión por retirar o depositar dinero en Yape?<em class="angle-right-r icon-yape"></em></a></li>
-                        <hr>
-                        <li><a class="text-pf" href="depositar-dinero-a-yape.html#cual-es-el-monto-maximo-y-minimo-que-puedo-depositar">¿Cuál es el monto máximo y mínimo que puedo depositar?<em class="angle-right-r icon-yape"></em></a></li>
-                        <a class="btn-neutral" href="depositar-dinero-a-yape.html">Ver más</a>
+                        <li><a class="subtitle-menu-webview" href="/centro_de_ayuda_webview/temas-urgentes/cuales-son-los-pasos-para-desbloquear-mi-cuenta-yape/#cuales-son-los-pasos-para-desbloquear-mi-cuenta-yape"><img src="/assets/img/candado-yape.png"><div>Tengo mi cuenta bloqueada</div><em class="angle-right-r icon-yape"></em></a></li>
                     </ul>
                 </li>
-
-                <li class="card-pf">
+                <div class="separator"></div>
+                <li class="card-pf-webview">
                     <div class="nest">
-                        <div class="nest-principal">
-                            <img src="../assets/img/yape_preguntas_retiro_dineo.svg" alt="Retirar dinero de Yape">
-                            <h2 class="card-title ml-20">Retirar dinero de Yape</h2>
-                            <img alt="yape menu" class="icon_down" src="../assets/img/yape_arrowmenu.svg">
+                        <div class="">
+                            <h3 class="font-size-20 yape-texto-purpura roboto-bold">Retirar o depositar dinero</h3>
                         </div>
-                        <p class="subtitulo">
-                            Aprende a retirar dinero de tu Yape desde las distintas opciones que te ofrece.
-                        </p>
-
                     </div>
-                    <ul class="inner">
-                        <li><a class="text-pf" href="retirar-dinero-de-yape.html#como-puedo-retirar-mi-dinero-de-los-cajeros-automaticos-del-bcp">¿Cómo hacer un retiro o sacar dinero en efectivo de Yape?<em class="angle-right-r icon-yape"></em> </a></li>
+                    <hr>
+                    <ul class="list-unstyled" >
+                        <li><a class="subtitle-menu-webview" href="/centro_de_ayuda_webview/retirar-dinero-de-yape/si-no-tengo-tarjeta-o-cuenta-de-banco-como-puedo-retirar-dinero-en-yape/#si-no-tengo-tarjeta-o-cuenta-de-banco-como-puedo-retirar-dinero-en-yape"><img src="/assets/img/retirar-yape.png"><div>Retirar dinero</div><em class="angle-right-r icon-yape"></em></a></li>
                         <hr>
-                        <li><a class="text-pf" href="retirar-dinero-de-yape.html#cual-es-el-monto-maximo-y-minimo-que-puedo-retirar-de-un-cajero-automatico-bcp">¿Cuál es el monto máximo y mínimo que puedo retirar?<em class="angle-right-r icon-yape"></em></a></li>
+                        <li><a class="subtitle-menu-webview" href="/centro_de_ayuda_webview/depositar-dinero-a-yape/como-puedo-depositar-dinero-en-efectivo-a-mi-cuenta-yape/#como-puedo-depositar-dinero-en-efectivo-a-mi-cuenta-yape"><img src="/assets/img/depositar-yape.png"><div>Depositar dinero</div><em class="angle-right-r icon-yape"></em></a></li>
                         <hr>
-                        <li><a class="text-pf" href="retirar-dinero-de-yape.html#que-cajeros-automaticos-puedo-usar-para-sacar-mi-dinero-en-efectivo-de-mi-cuenta-yape">¿Qué cajeros automáticos puedo usar para sacar mi dinero en efectivo de mi cuenta Yape?<em class="angle-right-r icon-yape"></em></a></li>
-                        <a class="btn-neutral" href="retirar-dinero-de-yape.html">Ver más</a>
+                        <li><a class="subtitle-menu-webview" href="/centro_de_ayuda_webview/retirar-dinero-de-yape/como-puedo-retirar-mi-dinero-de-los-cajeros-automaticos-del-bcp/#como-puedo-retirar-mi-dinero-de-los-cajeros-automaticos-del-bcp"><img src="/assets/img/info-yape.png"><div>Cómo usar cajeros</div><em class="angle-right-r icon-yape"></em></a></li>
                     </ul>
-
                 </li>
-
-                <li class="card-pf">
+                <div class="separator"></div>
+                <li class="card-pf-webview">
                     <div class="nest">
-                        <div class="nest-principal">
-                            <img src="../assets/img/yape_qr.svg" alt="Enviar y recibir Yapeos">
-                            <h2 class="card-title ml-20">Enviar y recibir yapeos</h2>
-                            <img alt="yape menu" class="icon_down" src="../assets/img/yape_arrowmenu.svg">
+                        <div class="">
+                            <h3 class="font-size-20 yape-texto-purpura roboto-bold">Ayuda con un movimiento</h3>
                         </div>
-                        <p class="subtitulo">
-                            Aprende a usar el código QR para enviar y recibir dinero de manera instantánea
-                        </p>
-
                     </div>
-                    <ul class="inner">
-                        <li><a class="text-pf" href="enviar-y-recibir-yapeos.html#con-yape-puedo-enviar-y-recibir-dinero-de-otros-bancos">Con Yape Bolivia, ¿puedo enviar y recibir dinero de otros Bancos?<em class="angle-right-r icon-yape"></em> </a></li>
+                    <hr>
+                    <ul class="list-unstyled" >
+                        <li><a class="subtitle-menu-webview" href="/centro_de_ayuda_webview/enviar-y-recibir-yapeos/como-realizo-una-transferencia-por-QR/#como-realizo-una-transferencia-por-QR"><img src="/assets/img/transferencias-yape.png"><div>Transferencias</div><em class="angle-right-r icon-yape"></em></a></li>
                         <hr>
-                        <li><a class="text-pf" href="enviar-y-recibir-yapeos.html#que-tipos-de-transacciones-puedes-hacer-con-yape">¿Qué tipos de transacciones puedes hacer con Yape?<em class="angle-right-r icon-yape"></em></a></li>
-                        <hr>
-                        <li><a class="text-pf" href="enviar-y-recibir-yapeos.html#que-significa-yapear-entre-yaperos-o-enviar-a-otro-yape">¿Qué significa “yapear entre yaperos o enviar a otro Yape”?<em class="angle-right-r icon-yape"></em></a></li>
-                        <a class="btn-neutral" href="enviar-y-recibir-yapeos.html">Ver más</a>
-                    </ul>
-
-                </li>
-
-                <li class="card-pf">
-                    <div class="nest">
-                        <div class="nest-principal">
-                            <img src="../assets/img/yape_centro_ayuda_crear_cuenta.svg" alt="Recargas Yape">
-                            <h2 class="card-title ml-20">Recargas Yape</h2>
-                            <img alt="yape menu" class="icon_down" src="../assets/img/yape_arrowmenu.svg">
-                        </div>
-                        <p class="subtitulo">
-                           ¿Te quedaste sin megas? entérate de cómo recargar tu celular y más aquí
-                        </p>
-
-                    </div>
-                    <ul class="inner">
-                        <li><a class="text-pf" href="recargas-yape.html#que-operadoras-estan-disponibles-para-recargar-credito">¿Qué operadoras están disponibles para recargar crédito?<em class="angle-right-r icon-yape"></em> </a></li>
-                        <hr>
-                        <li><a class="text-pf" href="recargas-yape.html#cual-es-el-monto-minimo-de-recarga">¿Cuál es el monto mínimo de recarga?<em class="angle-right-r icon-yape"></em></a></li>
-                        <hr>
-                        <li><a class="text-pf" href="recargas-yape.html#como-recargar-credito-a-mi-linea-telefonica">¿Cómo recargar crédito de mi celular?<em class="angle-right-r icon-yape"></em></a></li>
-                        <a class="btn-neutral" href="recargas-yape.html">Ver más</a>
-                    </ul>
-
-                </li>
-
-                <li class="card-pf">
-                    <div class="nest">
-                        <div class="nest-principal">
-                            <img src="../assets/img/yape_centro_ayuda_comercios.svg" alt="Soy nuevo en Yape">
-                            <h2 class="card-title ml-20">Yape para tu negocio</h2>
-                            <img alt="yape menu" class="icon_down" src="../assets/img/yape_arrowmenu.svg">
-                        </div>
-                        <p class="subtitulo">
-                            Aprende a usar las funciones que te ayudarán a hacer crecer tu negocio.
-                        </p>
-
-                    </div>
-                    <ul class="inner">
-                        <li><a class="text-pf" href="yape-para-tu-negocio.html#puedo-usar-yape-en-mi-negocio">¿Puedo usar Yape en mi negocio?<em class="angle-right-r icon-yape"></em> </a></li>
-                        <hr>
-                        <li><a class="text-pf" href="yape-para-tu-negocio.html#que-tipo-de-negocios-pueden-usar-yape">¿Qué tipo de negocios pueden usar Yape?<em class="angle-right-r icon-yape"></em></a></li>
-                        <hr>
-                        <li><a class="text-pf" href="yape-para-tu-negocio.html#como-me-inscribo-como-yapenegocio">¿Cómo me inscribo como negocio?<em class="angle-right-r icon-yape"></em></a></li>
-                        <a class="btn-neutral" href="yape-para-tu-negocio.html">Ver más</a>
-                    </ul>
-
-                </li>
-
-                <li class="card-pf">
-                    <div class="nest">
-                        <div class="nest-principal">
-                            <img src="../assets/img/yape_centro_ayuda_cambiar.svg" alt="Soy nuevo en Yape">
-                            <h2 class="card-title ml-20">Temas urgentes</h2>
-                            <img alt="yape menu" class="icon_down" src="../assets/img/yape_arrowmenu.svg">
-                        </div>
-                        <p class="subtitulo">
-                            Encuentra cómo resolver tus problemas de seguridad más comunes.
-                        </p>
-
-                    </div>
-                    <ul class="inner">
-                        <li><a class="text-pf" href="temas-urgentes.html#cuales-son-los-pasos-para-desbloquear-mi-cuenta-yape">¿Cómo puede ser bloqueada mi cuenta Yape?<em class="angle-right-r icon-yape"></em> </a></li>
-                        <hr>
-                        <li><a class="text-pf" href="temas-urgentes.html#puedo-tener-mas-de-una-cuenta-en-yape">¿Puedo tener más de una cuenta en Yape?<em class="angle-right-r icon-yape"></em></a></li>
-                        <hr>
-                        <li><a class="text-pf" href="temas-urgentes.html#que-hago-en-caso-de-perdida-o-robo-de-celular">¿Qué hago en caso de pérdida o robo del celular?<em class="angle-right-r icon-yape"></em></a></li>
-                        <a class="btn-neutral" href="temas-urgentes.html">Ver más</a>
-                    </ul>
-
-                </li>
-
-                <li class="card-pf">
-                    <div class="nest">
-                        <div class="nest-principal">
-                            <img src="../assets/img/yape_preguntas_servicios.svg" alt="Yapeo de servicios">
-                            <h2 class="card-title ml-20">Yapeo de servicios</h2>
-                            <img alt="yape menu" class="icon_down" src="../assets/img/yape_arrowmenu.svg">
-                        </div>
-                        <p class="subtitulo">
-                            Conoce cómo pagar tus servicios de luz, agua, gas, teléfono y ¡más! con Yape.
-                        </p>
-
-                    </div>
-                    <ul class="inner">
-                        <li><a class="text-pf" href="yapeo-de-servicios.html#puedo-pagar-la-factura-de-luz-con-yape">¿Puedo pagar la factura de luz con Yape?<em class="angle-right-r icon-yape"></em> </a></li>
-                        <hr>
-                        <li><a class="text-pf" href="yapeo-de-servicios.html#puedo-pagar-el-agua-con-yape">¿Puedo pagar la factura de agua con Yape?<em class="angle-right-r icon-yape"></em></a></li>
-                        <hr>
-                        <li><a class="text-pf" href="yapeo-de-servicios.html#puedo-pagar-la-factura-de-telefonia-con-yape">¿Puedo pagar la factura de telefonía con Yape?<em class="angle-right-r icon-yape"></em></a></li>
-                        <a class="btn-neutral" href="yapeo-de-servicios.html">Ver más</a>
+                        <li><a class="subtitle-menu-webview" href="/centro_de_ayuda_webview/yapeo-de-servicios/"><img src="/assets/img/recibos-yape.png"><div>Pago de servicios</div><em class="angle-right-r icon-yape"></em></a></li>
                     </ul>
 
                 </li>
             </ul>
         </section>
 
-        <section class="section-4" style="background-color:#ffffff">
-            <div class="container pt-32">
-                <div class="row align-center-item ">
-                    <div class="col-md-offset-1 col-md-6 indent-element-section" >
-                        <h2 class="font-weight-bold yape-texto-purpura mb-30 section_2_beneficios">¿Tienes más dudas sobre Yape?</h2>
-                        <span class="mb-30 section_2_1_beneficios">Comunícate con nuestro canal oficial de WhatsApp y aclara todas tus dudas.</span>
-                        <a href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web%2C+tengo+una+duda+sobre+Yape" target="_blank" type="button" class="btn_cta mb-20"><img src="../assets/img/whatsapp.png" class="mr-5" alt="whatsapp yape soporte">WhatsApp</a>
-                    </div>
-                    <div class=" col-md-4 text-center">
-                        <img src="../assets/img/yape-bolivia-ayuda.svg" alt="Yape ayuda" title="Yape"/>
-                    </div>
-                </div>
-            </div>
-        </section>
+<!--        <section class="section-4" style="background-color:#ffffff">-->
+<!--            <div class="container pt-32">-->
+<!--                <div class="row align-center-item ">-->
+<!--                    <div class="col-md-offset-1 col-md-6 indent-element-section" >-->
+<!--                        <h2 class="font-weight-bold yape-texto-purpura mb-30 section_2_beneficios">¿Tienes más dudas sobre Yape?</h2>-->
+<!--                        <span class="mb-30 section_2_1_beneficios">Comunícate con nuestro canal oficial de WhatsApp y aclara todas tus dudas.</span>-->
+<!--                        <a href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+web%2C+tengo+una+duda+sobre+Yape" target="_blank" type="button" class="btn_cta mb-20"><img src="../assets/img/whatsapp.png" class="mr-5" alt="whatsapp yape soporte">WhatsApp</a>-->
+<!--                    </div>-->
+<!--                    <div class=" col-md-4 text-center">-->
+<!--                        <img src="../assets/img/yape-bolivia-ayuda.svg" alt="Yape ayuda" title="Yape"/>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
 
         <div id="window-search" class="window-search">
             <div class="header-search">

@@ -44,6 +44,79 @@ ul.accordion .inner {
     justify-content: space-between;
     align-items: center;
 }
+.webview-search{
+    background-color:#8B3D99 !important;
+    border:0!important;
+    background-image: url(../img/icon-search.svg) !important;
+    background-size: 25px !important;
+    position: relative !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%)!important;
+    opacity: 1;
+    box-sizing: border-box;
+    color: rgb(44 32 68);
+    box-shadow: none;
+    outline: 0;
+    caret-color: rgb(44 32 68);
+    display: flex;
+    align-items: center;
+    transition: all .2s ease-in-out;
+    background-repeat: no-repeat;
+    padding: 12px 18px 12px 55px;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-family: "Roboto-Medium", serif;
+    font-size: 18px;
+    line-height: 1rem;
+    width: calc(100% - 50px);
+    height: 50px;
+    background-position: 16px 8px;
+    background-size: 16px;
+    background-position-y: center;
+}
+.separator{
+    height: 10px;
+    background-color: #ece6fb;
+}
+.subtitle-menu-webview{
+    font-family: Roboto-Medium;
+    color: #2c2044;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-pf-webview ul li{
+    padding: 4px 0;
+}
+.card-pf-webview{
+    padding: 1rem 1.5rem 0;
+}
+.subtitle-menu-webview  div {
+    margin-right: auto;
+}
+.subtitle-menu-webview img{
+    margin-right: 20px;
+}
+.subtitle-menu-webview em{
+    float: inline-end;
+}
+.align-menu-sec-webview{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.align-text-webview p{
+    line-height: inherit !important;
+    margin-top: 7px;
+}
+.align-menu-sec-webview img{
+    max-width: 44px !important;
+    margin: 0 !important;
+}
+.webview input::-webkit-input-placeholder{
+    color:#F0CEF5 !important;
+}
 .inner li {
     padding: 5px 0;
 }
@@ -239,8 +312,21 @@ li div.nest div{
     align-items: center;
     flex-wrap: nowrap;
 }
-
+@media (min-width: 992px){
+    .icon_down{
+        display:none;
+    }
+    ul.accordion .inner {
+        display:block;
+    }
+}
 @media (max-width: 991px){
+    .icon_down{
+        display:block;
+    }
+    ul.accordion .inner {
+        display:none;
+    }
     .card-pf{
         width: 52%;
     }
@@ -836,6 +922,12 @@ h2{
     color:#742384 !important;
 }
 @media (max-width: 991px){
+    .fondo_centro_ayuda_webview img{
+        width: 50px !important;
+    }
+    .fondo_centro_ayuda_webview .category-header{
+
+    }
     .section-phone{
         padding-top: 35px !important;
         padding-bottom:35px !important;
@@ -851,8 +943,14 @@ h2{
         border-radius: 50px;
         display: block;
     }
+    .fondo_centro_ayuda_webview{
+        background: rgb(74,25,113);
+        background: linear-gradient(0deg, rgba(74,25,113,1) 30%, rgba(116,35,132,1) 100%);
+        height: 100px;
+    }
     .fondo_centro_ayuda{
-        background-color: #742384;
+        background: rgb(74,25,113);
+        background: linear-gradient(0deg, rgba(74,25,113,1) 30%, rgba(116,35,132,1) 100%);
         height: 225px;
         padding-top: 6vh;
     }
