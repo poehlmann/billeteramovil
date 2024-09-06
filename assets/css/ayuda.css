@@ -923,10 +923,16 @@ h2{
 }
 @media (max-width: 991px){
     .fondo_centro_ayuda_webview img{
-        width: 50px !important;
+        width: 25px !important;
     }
     .fondo_centro_ayuda_webview .category-header{
-
+        align-items: center;
+    }
+    .fondo_centro_ayuda_webview .category-header h1{
+        margin: 0 !important;
+        position: relative;
+        left: 50%;
+        transform: translate(-70%,0%)!important;
     }
     .section-phone{
         padding-top: 35px !important;
@@ -946,7 +952,7 @@ h2{
     .fondo_centro_ayuda_webview{
         background: rgb(74,25,113);
         background: linear-gradient(0deg, rgba(74,25,113,1) 30%, rgba(116,35,132,1) 100%);
-        height: 100px;
+        height: 60px;
     }
     .fondo_centro_ayuda{
         background: rgb(74,25,113);
