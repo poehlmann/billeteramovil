@@ -302,7 +302,7 @@ $("#text-search").on("keyup",(e)=>{
     let projectName=pathName.substring(0,pathName.substring(1).indexOf('/')+1);
     // obtuve http: // localhost: 8083 / myproj
     let realPath=localhostPaht;
-    // console.log("realPath:",realPath);
+    console.log("realPath:",curWwwPath.indexOf('centro_de_ayuda_webview'));
     // if("https://www.yape.com.bo/index.html"== window.document.location.href || "http://127.0.0.1:5500/index.html" == window.document.location.href){
     //     window.location.replace("https://www.yape.com.bo/");
     // }
@@ -373,32 +373,30 @@ $("#text-search").on("keyup",(e)=>{
 
             document.getElementById("footer-scrollup").src = realPath + "/assets/img/angle-up-white.svg";
         }
-        if($("#header").hasClass("cell") == 0) {
-            if ($("#logo-menu-secundary").length == 0) {
-                document.getElementById("logo-menu").src = realPath + "/assets/img/Logo_Bolivia_2.svg";
-                // document.getElementById("submenu_arrow").src = realPath+"/assets/img/ic_angle_down_r_small-white.svg";
-            } else {
-                // document.getElementById("submenu_arrow").src = realPath+"/assets/img/ic_angle_down_r_small.svg";
-                document.getElementById("logo-menu-secundary").src = realPath + "/assets/img/Logo_Bolivia_3.svg";
+        if(curWwwPath.indexOf('centro_de_ayuda_webview')==-1) {
+            if ($("#header").hasClass("cell") == 0) {
+                if ($("#logo-menu-secundary").length == 0) {
+                    document.getElementById("logo-menu").src = realPath + "/assets/img/Logo_Bolivia_2.svg";
+                    // document.getElementById("submenu_arrow").src = realPath+"/assets/img/ic_angle_down_r_small-white.svg";
+                } else {
+                    // document.getElementById("submenu_arrow").src = realPath+"/assets/img/ic_angle_down_r_small.svg";
+                    document.getElementById("logo-menu-secundary").src = realPath + "/assets/img/Logo_Bolivia_3.svg";
+                }
             }
+            document.getElementById("menu_inicio").href = realPath+"/";
+            document.getElementById("inicio_yape").href = realPath+"/";
+            // document.getElementById("menu_yape").href = realPath+"/yape/";
+            document.getElementById("menu_ayuda").href = realPath+"/centro_de_ayuda/";
+            document.getElementById("menu_ayuda_movil").href = realPath+"/centro_de_ayuda/";
+            // document.getElementById("menu_billetera").href = realPath+"/billeteramovil/";
+            document.getElementById("menu_seguridad").href = realPath+"/seguridad/";
+            document.getElementById("menu_movimientos").href = "https://www.yape.com.bo/YapeMovimientos/";
+            document.getElementById("menu_promociones").href = realPath+"/yapepromociones/";
+            document.getElementById("menu_blog").href = realPath+"/blog/";
+            document.getElementById("menu_negocio").href = realPath+"/yapenegocios/";
+            // document.getElementById("menu_beneficios").href = realPath+"/beneficios/";
+            document.getElementById("submenu-whatsapp-phone").src = realPath+"/assets/img/whatsapp.png";
         }
-
-        document.getElementById("menu_inicio").href = realPath+"/";
-        document.getElementById("inicio_yape").href = realPath+"/";
-        // document.getElementById("menu_yape").href = realPath+"/yape/";
-        document.getElementById("menu_ayuda").href = realPath+"/centro_de_ayuda/";
-        document.getElementById("menu_ayuda_movil").href = realPath+"/centro_de_ayuda/";
-        // document.getElementById("menu_billetera").href = realPath+"/billeteramovil/";
-        document.getElementById("menu_seguridad").href = realPath+"/seguridad/";
-        document.getElementById("menu_movimientos").href = "https://www.yape.com.bo/YapeMovimientos/";
-        document.getElementById("menu_promociones").href = realPath+"/yapepromociones/";
-        document.getElementById("menu_blog").href = realPath+"/blog/";
-        document.getElementById("menu_negocio").href = realPath+"/yapenegocios/";
-        // document.getElementById("menu_beneficios").href = realPath+"/beneficios/";
-
-
-
-        document.getElementById("submenu-whatsapp-phone").src = realPath+"/assets/img/whatsapp.png";
         // document.getElementById("menu_soli_yape").href = realPath+"/soli-ahora-es-yape/";
         $('.terminos_condiciones').attr('href',realPath+"/legales/YAPE_BCP_CONTRACT.pdf");
         $('.numero_wpp_soporte').attr('href', 'https://api.whatsapp.com/send?phone=+59172007654&text=%C2%A1Hola!%20Vengo%20de%20la%20web%20y%20necesito%20ayuda,%20por%20favor.%20%F0%9F%91%A8%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB%F0%9F%91%A9%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB');
