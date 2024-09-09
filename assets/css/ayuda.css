@@ -922,6 +922,18 @@ h2{
     color:#742384 !important;
 }
 @media (max-width: 991px){
+
+    .fondo_category_webview{
+        height: 110px !important;
+        padding-top: 0vh !important;
+    }
+    .color-purple-subtitle{
+        color:#F0CEF5;
+        font-family: Roboto-Regular !important;
+    }
+    .without-bottom{
+        margin-bottom:0 !important;
+    }
     .fondo_centro_ayuda_webview img{
         width: 25px !important;
     }
@@ -937,6 +949,10 @@ h2{
     .section-phone{
         padding-top: 35px !important;
         padding-bottom:35px !important;
+    }
+    .section-phone-webview{
+        padding-top:5px!important;
+        padding-bottom:5px!important;
     }
     .question_indent{
         text-align: center;
