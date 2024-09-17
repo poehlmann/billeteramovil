@@ -9,24 +9,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="nuevo webview">
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/crear-tu-cuenta-yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/crear-tu-cuenta-yape/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/depositar-dinero-a-yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/depositar-dinero-a-yape/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/enviar-y-recibir-yapeos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/enviar-y-recibir-yapeos/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/recargas-yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/recargas-yape/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/retirar-dinero-de-yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/retirar-dinero-de-yape/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/sobre-tu-cuenta-yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/sobre-tu-cuenta-yape/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/soy-nuevo-en-yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/soy-nuevo-en-yape/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/temas-urgentes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/temas-urgentes/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/yape-para-tu-negocio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/yape-para-tu-negocio/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/yapeo-de-servicios/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/yapeo-de-servicios/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/celular-vinculado-a-otro-yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/celular-vinculado-a-otro-yape/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/como-usar-cajeros/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/como-usar-cajeros/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/depositar-dinero/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/depositar-dinero/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/olvide-mi-contrasena/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/olvide-mi-contrasena/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/pago-de-servicios/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/pago-de-servicios/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/retirar-dinero/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/retirar-dinero/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/tengo-mi-cuenta-bloqueada/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/tengo-mi-cuenta-bloqueada/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/transferencias/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/transferencias/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Yapito-con-la-verde-web-bcp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/legales/AutorizacionASFIPromocionEmpresarialYapitoconlaVerde.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/legales/PDDE-YAPITOCONLAVERDE.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yapepromociones/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/yapepromociones/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +70,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/T08428/Desktop/web Yape/billeteramovil/centro_de_ayuda_webview",
+    "last_opened_file_path": "C:/Users/T08428/Desktop/web Yape/billeteramovil/legales",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -96,11 +83,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\T08428\Desktop\web Yape\billeteramovil\legales" />
       <recent name="C:\xampp\htdocs\billeteramovil\centro_de_ayuda_webview\categorias" />
       <recent name="C:\xampp\htdocs\billeteramovil\centro_de_ayuda_webview\categorias\transferencias" />
       <recent name="C:\xampp\htdocs\billeteramovil\centro_de_ayuda_webview\categorias\tengo-mi-cuenta-bloqueada" />
       <recent name="C:\xampp\htdocs\billeteramovil\centro_de_ayuda_webview\categorias\retirar-dinero" />
-      <recent name="C:\xampp\htdocs\billeteramovil\centro_de_ayuda_webview\categorias\pago-de-servicios" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\billeteramovil\centro_de_ayuda_webview\categorias" />
@@ -303,7 +290,7 @@
       <workItem from="1725287484595" duration="43542000" />
       <workItem from="1726225089432" duration="10164000" />
       <workItem from="1726322155077" duration="2462000" />
-      <workItem from="1726588845323" duration="319000" />
+      <workItem from="1726588845323" duration="4951000" />
     </task>
     <task id="LOCAL-00125" summary="actualizacion pagina principal">
       <created>1720121115461</created>
