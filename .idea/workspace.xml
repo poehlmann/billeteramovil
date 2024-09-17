@@ -9,7 +9,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="nuevo webview">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/crear-tu-cuenta-yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/crear-tu-cuenta-yape/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/depositar-dinero-a-yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/depositar-dinero-a-yape/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/enviar-y-recibir-yapeos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/enviar-y-recibir-yapeos/index.html" afterDir="false" />
@@ -19,12 +18,10 @@
       <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/soy-nuevo-en-yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/soy-nuevo-en-yape/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/temas-urgentes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/temas-urgentes/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/yape-para-tu-negocio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/yape-para-tu-negocio/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/yapeo-de-servicios/au.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/yapeo-de-servicios/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/yapeo-de-servicios/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/celular-vinculado-a-otro-yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/celular-vinculado-a-otro-yape/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/como-usar-cajeros/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/como-usar-cajeros/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/depositar-dinero/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/depositar-dinero/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/olvide-mi-contrasena/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/olvide-mi-contrasena/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/pago-de-servicios/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/pago-de-servicios/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/retirar-dinero/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/retirar-dinero/index.html" afterDir="false" />
@@ -78,25 +75,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/billeteramovil/centro_de_ayuda_webview/categorias&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/T08428/Desktop/web Yape/billeteramovil/centro_de_ayuda_webview",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\billeteramovil\centro_de_ayuda_webview\categorias" />
@@ -306,6 +303,7 @@
       <workItem from="1725287484595" duration="43542000" />
       <workItem from="1726225089432" duration="10164000" />
       <workItem from="1726322155077" duration="2462000" />
+      <workItem from="1726588845323" duration="319000" />
     </task>
     <task id="LOCAL-00125" summary="actualizacion pagina principal">
       <created>1720121115461</created>
