@@ -8,15 +8,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/ayuda.min.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/legales/ResolucionAJ-YapitoconlaVerde.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/legales/T&amp;CYapitoconlaVerde.pdf" afterDir="false" />
+    <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="nuevo webview">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/ayuda.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/ayuda.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/legales/PDDE-YAPITOCONLAVERDE.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library_webview.json" beforeDir="false" afterPath="$PROJECT_DIR$/library_webview.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yapepromociones/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/yapepromociones/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,13 +287,6 @@
       <workItem from="1726225089432" duration="10164000" />
       <workItem from="1726322155077" duration="2462000" />
       <workItem from="1726588845323" duration="4951000" />
-    </task>
-    <task id="LOCAL-00125" summary="actualizacion pagina principal">
-      <created>1720121115461</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1720121115462</updated>
     </task>
     <task id="LOCAL-00126" summary="actualizacion pagina principal">
       <created>1720210855226</created>
@@ -638,7 +624,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726260539931</updated>
     </task>
-    <option name="localTasksCounter" value="175" />
+    <task id="LOCAL-00175" summary="nuevo webview">
+      <created>1726672615684</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1726672615684</updated>
+    </task>
+    <option name="localTasksCounter" value="176" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
