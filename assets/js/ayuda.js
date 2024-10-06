@@ -311,7 +311,7 @@ $(document).ready(function () {
     });
 
     $(".nest").on("click", function() {
-        if (size < 1199) {
+        if (window.innerWidth < 1199) {
             if ($(this).next().hasClass("show")) {
                 $(this).next().removeClass("show");
                 $(this).next().slideUp(300);

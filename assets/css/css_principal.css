@@ -338,7 +338,10 @@ h2 {
         font-size: 16px;
     }
     .color-altern{
-        color: #69607B
+        color: #69607B;
+    }
+    .color-green{
+        color: #10CBB4 !important;
     }
     ul {
         margin-bottom: 1rem;
@@ -1648,7 +1651,7 @@ iframe{max-width:100%;border:0;}
 .font-size-50{font-size:50px!important;}
 .font-size-90{font-size:90px!important;}
 .text-white{color:#fff!important;}
-.mr-5{margin-right: 5px;}
+.mr-5{margin-right: 5px !important;}
 .mr-20{margin-right: 20px!important;}
 .mr-70{margin-right: 70px!important;}
 .ml-5{margin-left: 5px;}

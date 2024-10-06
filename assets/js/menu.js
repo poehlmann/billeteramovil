@@ -574,7 +574,7 @@ $("#text-search").on("keyup",(e)=>{
             $('.button_bottom').css('display','none');
         }else{
             $('body').toggleClass('open-menu');
-            // $('.button_bottom').css('display','flex');
+            $('.button_bottom').css('display','flex');
         }
     });
     //
