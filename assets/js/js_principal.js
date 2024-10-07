@@ -81,6 +81,35 @@ $('.checkbox-resp-no input').on('change', function() {
         $(".other_option_response_no").css("display","none");
     }
 });
+function saliendo_de_la_app(){
+    Swal.fire({
+        width: "54vh",
+        padding: "0 32px",
+        html: ` 
+              <div class="yape-texto-purpura font-size-24 mt-16" style="font-family: Roboto-Bold">Estás saliendo de nuestra app</div>
+              <div class="font-size-16 mt-16" style="width: -webkit-fill-available;font-family: Roboto-Regular">Estás saliendo hacia una app externa ¿Deseas continuar?</div>
+              `,
+        showCloseButton: false,
+        confirmButtonColor: "#10CBB4",
+        showConfirmButton: true,
+        showCancelButton: true,
+        backdrop:true,
+        allowOutsideClick:false,
+        allowEscapeKey:false,
+        allowEnterKey:false,
+        confirmButtonText: 'CONTINUAR',
+        cancelButtonText:"VOLVER",
+        customClass: {
+            confirmButton: 'bta_cta_wpp_popup',
+            cancelButton: 'bta_back_white_wpp_popup',
+        }
+    }).then((result) => {
+        /* Read more about isConfirmed, isDenied below */
+        if (result.isConfirmed) {
+            window.location.replace("https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+app%2C+Cambie+de+telefono+no+puedo+acceder+a+Yape");
+        }
+    })
+}
 function lo_mas_buscado_principal(href) {
     // console.log("href",href);
     location.href = href;
