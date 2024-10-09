@@ -9,12 +9,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="nuevo webview">
+      <change afterPath="$PROJECT_DIR$/assets/img/a_traves_de_otro_yape.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/bg_movil_retira_deposita_yape.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/bg_web_retira_deposita_yape.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/desde_agente_bcp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/desde_cajero_bcp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/retira_deposita_video1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/retira_deposita_video2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/retira_deposita_video3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retira_deposita/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/css_principal.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/css_principal.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/js_principal.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/js_principal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/js_principal.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/js_principal.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/menu.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/menu.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/web.config" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,32 +72,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/T08428/Desktop/web Yape/billeteramovil/legales&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/xampp/htdocs/billeteramovil/retira_deposita",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\billeteramovil\retira_deposita" />
       <recent name="C:\Users\T08428\Desktop\web Yape\billeteramovil\legales" />
       <recent name="C:\xampp\htdocs\billeteramovil\centro_de_ayuda_webview\categorias" />
       <recent name="C:\xampp\htdocs\billeteramovil\centro_de_ayuda_webview\categorias\transferencias" />
       <recent name="C:\xampp\htdocs\billeteramovil\centro_de_ayuda_webview\categorias\tengo-mi-cuenta-bloqueada" />
-      <recent name="C:\xampp\htdocs\billeteramovil\centro_de_ayuda_webview\categorias\retirar-dinero" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\billeteramovil\legales" />
@@ -297,14 +306,7 @@
       <workItem from="1727625179108" duration="4121000" />
       <workItem from="1728044150069" duration="2527000" />
       <workItem from="1728133854927" duration="6429000" />
-      <workItem from="1728308500897" duration="5617000" />
-    </task>
-    <task id="LOCAL-00128" summary="actualizacion pagina principal">
-      <created>1720420114360</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1720420114360</updated>
+      <workItem from="1728308500897" duration="20659000" />
     </task>
     <task id="LOCAL-00129" summary="actualizacion pagina principal">
       <created>1720504380056</created>
@@ -642,7 +644,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728224885816</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <task id="LOCAL-00178" summary="nuevo webview">
+      <created>1728317773435</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1728317773436</updated>
+    </task>
+    <option name="localTasksCounter" value="179" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
