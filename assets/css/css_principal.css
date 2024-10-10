@@ -2404,7 +2404,26 @@ text-shadow: rgb(0 0 0 / 30%) 1.1px 2.1px 4px;
 .gap-30{
     gap:30px !important;
 }
+.replace_retira_deposita:before{
+    /*visibility: hidden;*/
+    /*position: relative;*/
+    content: 'Aprende como agregar y retirar dinero \A a tu cuenta Yape';
+    white-space: pre; /* or pre-wrap */
+}
 @media (max-width: 992px) {
+    .replace_retira_deposita{
+        margin-top: 30px;
+    }
+    .replace_retira_deposita:before {
+        /*visibility: visible;*/
+        /*position: absolute;*/
+        /*left: 0;*/
+        /*top: 30px;*/
+        content: "En caso de emergencia";
+    }
+    .mt-295{
+        margin-top: 295px;
+    }
     .bg_super_yapito{
         width: 50% !important;
         /*height: 460px !important;*/
@@ -2482,7 +2501,11 @@ text-shadow: rgb(0 0 0 / 30%) 1.1px 2.1px 4px;
     .fondo_retira_deposita{
         background-image: linear-gradient(to bottom,rgba(116,35,132,0)0,#2c2044 140%),url(../img/bg_mobile_retira_deposita_yape.png) !important;
         /*background-position: 15vh 6vh!important;*/
-        height: 428px !important;
+        height: 480px !important;
+    }
+    .btn_cta_altern_retira_deposita{
+        width: auto !important;
+        margin:0 !important;
     }
     .tabs-container{
         padding-top: 24px ;

@@ -9,21 +9,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="nuevo webview">
-      <change afterPath="$PROJECT_DIR$/assets/img/a_traves_de_otro_yape.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bg_movil_retira_deposita_yape.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bg_web_retira_deposita_yape.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/desde_agente_bcp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/desde_cajero_bcp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/retira_deposita_video1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/retira_deposita_video2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/retira_deposita_video3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retira_deposita/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/css_principal.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/css_principal.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_principal.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/menu.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/menu.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/retira_deposita/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/retira_deposita/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -306,14 +295,7 @@
       <workItem from="1727625179108" duration="4121000" />
       <workItem from="1728044150069" duration="2527000" />
       <workItem from="1728133854927" duration="6429000" />
-      <workItem from="1728308500897" duration="20659000" />
-    </task>
-    <task id="LOCAL-00129" summary="actualizacion pagina principal">
-      <created>1720504380056</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1720504380056</updated>
+      <workItem from="1728308500897" duration="23144000" />
     </task>
     <task id="LOCAL-00130" summary="actualizacion pagina principal">
       <created>1720507673174</created>
@@ -651,7 +633,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728317773436</updated>
     </task>
-    <option name="localTasksCounter" value="179" />
+    <task id="LOCAL-00179" summary="nuevo webview">
+      <created>1728476675639</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1728476675639</updated>
+    </task>
+    <option name="localTasksCounter" value="180" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
