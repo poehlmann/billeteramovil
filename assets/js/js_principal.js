@@ -55,7 +55,6 @@ $(document).ready(function() {
     //         navigator.serviceWorker.register('../sw.js?'+Math.random()+'')
     //     });
     // }
-
 });
 if(/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream){
     document.querySelector('meta[name=viewport]')

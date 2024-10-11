@@ -2405,20 +2405,54 @@ text-shadow: rgb(0 0 0 / 30%) 1.1px 2.1px 4px;
     gap:30px !important;
 }
 .replace_retira_deposita:before{
-    /*visibility: hidden;*/
-    /*position: relative;*/
     content: 'Aprende como agregar y retirar dinero \A a tu cuenta Yape';
-    white-space: pre; /* or pre-wrap */
+    white-space: pre;
 }
+
 @media (max-width: 992px) {
-    .replace_retira_deposita{
+    .text-align-left-phone{
+        text-align: left !important;
+    }
+    .carousel_retira_deposita {
+        width: 100%;
+        height: 380px;
+    }
+    .card_container_retira_deposita {
+        display: flex;
+        overflow-x: auto;
+        overflow-y: hidden;
+        scroll-snap-type: x mandatory;
+        gap: 8px;
+        width: calc(100%);
+        margin: 8px;
+        flex: 0 0 calc(100%);
+    }
+    .card_container_retira_deposita::-webkit-scrollbar {
+        display: none;
+    }
+    .card_retira_deposita {
+        min-width: 270px;
+        height: 380px;
+        scroll-snap-align: start;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+    }
+    .card_retira_deposita2 {
+        min-width: 320px;
+        height: 380px;
+        scroll-snap-align: start;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+    }
+
+    .mt_retira_deposita{
         margin-top: 30px;
     }
     .replace_retira_deposita:before {
-        /*visibility: visible;*/
-        /*position: absolute;*/
-        /*left: 0;*/
-        /*top: 30px;*/
         content: "En caso de emergencia";
     }
     .mt-295{
@@ -2778,6 +2812,10 @@ button.close{padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance
     width: 50px;
     height: 50px;
     overflow: scroll;
+}
+.modal-dialog_retira_deposita {
+    margin: auto;
+    top: 15%;
 }
 @media (min-width: 768px) {
     .modal-dialog {
@@ -4259,7 +4297,7 @@ section.section--sac .sac-channels .sac-channel a {
         margin-bottom:30px;
     }
     .text-pf-principal{
-        width: 33rem;
+        /*width: 33rem;*/
     }
     .yaperos-banner .font-size-48,.yaperos-banner p span{
         font-size: 34px!important;
