@@ -291,21 +291,7 @@
       <workItem from="1728044150069" duration="2527000" />
       <workItem from="1728133854927" duration="6429000" />
       <workItem from="1728308500897" duration="34116000" />
-      <workItem from="1728650095917" duration="8920000" />
-    </task>
-    <task id="LOCAL-00133" summary="actualizacion pagina principal">
-      <created>1720536775130</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1720536775130</updated>
-    </task>
-    <task id="LOCAL-00134" summary="actualizacion pagina principal">
-      <created>1720586695560</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1720586695560</updated>
+      <workItem from="1728650095917" duration="9412000" />
     </task>
     <task id="LOCAL-00135" summary="actualizacion pagina principal">
       <created>1720621887426</created>
@@ -636,7 +622,21 @@
       <option name="project" value="LOCAL" />
       <updated>1728660346394</updated>
     </task>
-    <option name="localTasksCounter" value="183" />
+    <task id="LOCAL-00183" summary="nuevo webview">
+      <created>1728680616773</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1728680616773</updated>
+    </task>
+    <task id="LOCAL-00184" summary="nuevo webview">
+      <created>1728680934399</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1728680934399</updated>
+    </task>
+    <option name="localTasksCounter" value="185" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
