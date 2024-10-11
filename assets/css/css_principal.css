@@ -189,7 +189,7 @@
 
 .input-search{
     opacity: 1;
-    margin-top: 40px;
+    margin-top: 1.5vh;
     box-sizing: border-box;
     color: rgb(44 32 68);
     border: 1px solid rgb(145 145 157);
@@ -1379,6 +1379,9 @@ h2 {
     color:#10cbb4;
 }
 @media (min-width: 991px){
+    .title_centro_ayuda_categoria{
+        margin-bottom:30px !important;
+    }
     .text-align-center{
         align-items: flex-start !important;
     }
@@ -1420,7 +1423,7 @@ h2 {
     list-style: none;
 }
 .align-recomendation{
-    margin-top:25px;
+    padding-top:25px;
     height: -webkit-fill-available;
     width: -webkit-fill-available;
 }
@@ -1434,6 +1437,9 @@ img{max-width:300px;height:auto;}
     transition-duration: .35s !important;
 }
 @media screen and (max-width:991px){
+    .mod-mobile{
+        margin-bottom: 15px;
+    }
      body {
         min-height: 100vh !important;
     }
@@ -1539,13 +1545,12 @@ iframe{max-width:100%;border:0;}
 .window-search{
     display: none;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     top: 0;
     background-color: #fff;
     z-index: 9999;
-    /*overflow: hidden;*/
+    overflow: hidden;
     width: 100%;
-    /*overflow-y: scroll;*/
 }
 .result_search{
     margin-top: 45px;
@@ -1749,7 +1754,7 @@ iframe{max-width:100%;border:0;}
 
 @media (max-width: 998px){
     .input-search{
-        margin-top: 20px;
+        margin-top: 1.5vh;
         background-color: #f4f4f5;
         font-family: "Roboto-Medium";
         font-size: 14px;
@@ -2816,6 +2821,9 @@ button.close{padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance
 .modal-dialog_retira_deposita {
     margin: auto;
     top: 15%;
+}
+.main_nav_secundario{
+    gap:10px !important;
 }
 @media (min-width: 768px) {
     .modal-dialog {

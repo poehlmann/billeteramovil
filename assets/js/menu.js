@@ -143,20 +143,26 @@ window.addEventListener('beforeunload', function (e) {
 });
 
 $('#button-close').on('click', function() {
+    $('section ').css('display','block');
+    $('footer ,.sub-footer ').css('display','flex');
     $('body').css('overflow-y', 'visible');
     document.getElementById('window-search').style.display = 'none'
 });
 $('#close').on('click', function() {
+    $('section ').css('display','block');
+    $('footer ,.sub-footer ').css('display','flex');
     $('body').css('overflow-y', 'visible');
     document.getElementById('window-search').style.display = 'none'
 });
 function MakeSearch(){
+    $('section ').css('display','block');
+    $('footer ,.sub-footer ').css('display','none');
     document.getElementById('window-search').style.display='block';
     let search = document.getElementById('text-search');
     $('.input-search').css('top', '0');
     search.focus();
     search.select();
-    $('body').css('overflow-y', 'hidden');
+    $('body').css('overflow', 'hidden');
 }
 $("input#text-search").bind('keypress', function(event) {
     var regex = new RegExp("^[a-zA-Z0-9_ ]*$");

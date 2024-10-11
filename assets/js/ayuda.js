@@ -2,12 +2,12 @@ function lo_mas_buscado(href) {
     // console.log("href",href);
     // window.location.replace(href);
     location.href = href;
-    location.reload();
+    // location.reload();
     // $(' .panel-collapse.in').collapse('hide');
-    var tabnum = location.href.split("#").slice(-1)[0];
+    // var tabnum = location.href.split("#").slice(-1)[0];
     $('body').css('overflow-y', 'visible');
     if (window.location.href.indexOf("#") > -1) {
-        if (tabnum != "") {
+        // if (tabnum != "") {
             // const element = document.getElementById(tabnum);
             // $('#' + tabnum).addClass('in');
             // if (window.innerWidth >= 993) {
@@ -29,7 +29,7 @@ function lo_mas_buscado(href) {
             // var tab = tab_link[0];
             // tab.classList.remove("collapsed");
             document.getElementById('window-search').style.display = 'none'
-        }
+        // }
     }
 }
 function lo_mas_buscado_webview(href) {
@@ -38,10 +38,10 @@ function lo_mas_buscado_webview(href) {
     location.href = href;
     // location.reload();
     // $(' .panel-collapse.in').collapse('hide');
-    var tabnum = location.href.split("#").slice(-1)[0];
+    // var tabnum = location.href.split("#").slice(-1)[0];
     $('body').css('overflow-y', 'visible');
     if (window.location.href.indexOf("#") > -1) {
-        if (tabnum != "") {
+        // if (tabnum != "") {
             // const element = document.getElementById(tabnum);
             // $('#' + tabnum).addClass('in');
             // if (window.innerWidth >= 993) {
@@ -63,7 +63,7 @@ function lo_mas_buscado_webview(href) {
             // var tab = tab_link[0];
             // tab.classList.remove("collapsed");
             document.getElementById('window-search').style.display = 'none'
-        }
+        // }
     }
 }
 $(document).ready(function () {
