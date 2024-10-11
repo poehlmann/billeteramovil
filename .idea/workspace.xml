@@ -291,21 +291,7 @@
       <workItem from="1728044150069" duration="2527000" />
       <workItem from="1728133854927" duration="6429000" />
       <workItem from="1728308500897" duration="34116000" />
-      <workItem from="1728650095917" duration="10071000" />
-    </task>
-    <task id="LOCAL-00136" summary="actualizacion pagina principal">
-      <created>1720622152580</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1720622152580</updated>
-    </task>
-    <task id="LOCAL-00137" summary="actualizacion pagina principal">
-      <created>1720644581506</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1720644581506</updated>
+      <workItem from="1728650095917" duration="10475000" />
     </task>
     <task id="LOCAL-00138" summary="actualizacion pagina principal">
       <created>1720664875554</created>
@@ -636,13 +622,32 @@
       <option name="project" value="LOCAL" />
       <updated>1728681829201</updated>
     </task>
-    <option name="localTasksCounter" value="186" />
+    <task id="LOCAL-00186" summary="nuevo webview">
+      <created>1728681921406</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1728681921406</updated>
+    </task>
+    <task id="LOCAL-00187" summary="nuevo webview">
+      <created>1728682237943</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1728682237943</updated>
+    </task>
+    <option name="localTasksCounter" value="188" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_WIDTH">
+      <map>
+        <entry key="Table.Default.Date.ColumnIdWidth" value="105" />
+      </map>
+    </option>
     <option name="COLUMN_ID_ORDER">
       <list>
         <option value="Default.Root" />
