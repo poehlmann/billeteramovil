@@ -1,362 +1,338 @@
 <!DOCTYPE html>
 <html lang="es">
+    <head>
+        <title>Centro de ayuda</title>
+        <meta name="description" content="Despeja tus dudas sobre Yape, habilitamos un espacio para todo tipo de duda para mantenerte informado">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=.80, maximum-scale=.80, minimum-scale=.80">
+        <meta charset='utf-8'>
+        <meta content="text/html;X-Content-Type-Options=nosniff" http-equiv="Content-Type">
+        <meta name="robots" content="noindex, nofollow">
+        <meta name="googlebot" content="noindex, nofollow">
+        <meta name="theme-color" content="#742384">
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MLWMSCNW');</script>
 
-<head>
-    <title>Centro de ayuda</title>
-    <meta name="description" content="Despeja tus dudas sobre Yape, habilitamos un espacio para todo tipo de duda para mantenerte informado">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="initial-scale=.80, maximum-scale=.80, minimum-scale=.80">
-    <meta charset='utf-8'>
-<meta content="text/html;X-Content-Type-Options=nosniff" http-equiv="Content-Type">
-    <meta name="robots" content="noindex, nofollow">
-    <meta name="googlebot" content="noindex, nofollow">
+        <link rel="stylesheet" href="../assets/css/ayuda.min.css">
+        <link rel="stylesheet" href="../assets/css/menu.min.css">
+        <link rel="stylesheet" href="../assets/css/footer.min.css">
+        <link rel="stylesheet" href="../assets/css/css_principal.min.css">
+        <link href="../assets/css/sweetalert2.min.css" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
+        <meta name="msapplication-TileColor" content="#0fa8d5">
+        <meta name="msapplication-TileImage" content="../assets/img/ms-icon-144x144.png">
+        <meta name="theme-color" content="#742384">
+    </head>
 
-    <meta name="theme-color" content="#742384">
-
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-MLWMSCNW');</script>
-
-    <link rel="stylesheet" href="../assets/css/ayuda.min.css">
-    <link rel="stylesheet" href="../assets/css/menu.min.css">
-    <link rel="stylesheet" href="../assets/css/footer.min.css">
-    <link rel="stylesheet" href="../assets/css/css_principal.min.css">
-    <link href="../assets/css/sweetalert2.min.css" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
-    <meta name="msapplication-TileColor" content="#0fa8d5">
-    <meta name="msapplication-TileImage" content="../assets/img/ms-icon-144x144.png">
-    <meta name="theme-color" content="#742384">
-</head>
-
-<body >
-
-<noscript><iframe title="Yape Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-MLWMSCNW"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-
-    <div id="wrap">
-
-        <section class="fondo_centro_ayuda" style="height: 190px!important; padding-top: 20px !important;">
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col-md-12 text-white webview">
-                        <input type="text" class="webview-search" id="input-search" placeholder="Ingresa tu consulta" onclick="MakeSearch('mobile')">
+    <body >
+        <noscript><iframe title="Yape Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-MLWMSCNW" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <div id="wrap">
+            <section class="fondo_centro_ayuda" style="height: 190px!important; padding-top: 20px !important;">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-md-12 text-white webview">
+                            <input type="text" class="webview-search" id="input-search" placeholder="Ingresa tu consulta" onclick="MakeSearch('mobile')">
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-md-12 align-menu-sec-webview">
+                            <div class="align-text-webview">
+                                <a id="redireccion_pag_movimientos" href="" onClick='window.open("https://www.yape.com.bo/YapeMovimientos/Login", "_system")'>
+                                    <img src="/assets/img/movimientos-yape.png" width="44" height="44" class="img-phone" alt="Yape" title="Yape"/>
+                                    <p class="font-size-12 text-white roboto-medium">Mis <br> movimientos</p>
+                                </a>
+                            </div>
+                            <div class="align-text-webview">
+                                <a  href="javascript:saliendo_de_la_app()">
+                                    <img src="/assets/img/cambiar_numero_webview_cda.png" width="44" height="44" class="img-phone" alt="Yape" title="Yape"/>
+                                    <p class="font-size-12 text-white roboto-medium">Cambié de<br> teléfono</p>
+                                </a>
+                            </div>
+                            <div class="align-text-webview">
+                                <a href="/centro_de_ayuda_webview/categorias/">
+                                    <img src="/assets/img/alerta-yape.png" width="44" height="44" class="img-phone" alt="Yape" title="Yape"/>
+                                    <p class="font-size-12 text-white roboto-medium">Tengo otro <br> problema</p>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="row text-center">
-                    <div class="col-md-12 align-menu-sec-webview">
-                        <div class="align-text-webview">
-                            <a id="redireccion_pag_movimientos" href="" onClick='window.open("https://www.yape.com.bo/YapeMovimientos/Login", "_system")'>
-                                <img src="/assets/img/movimientos-yape.png" width="44" height="44" class="img-phone" alt="Yape" title="Yape"/>
-                                <p class="font-size-12 text-white roboto-medium">Mis <br> movimientos</p>
-                            </a>
+            </section>
+            <section class="wrapper pt-10">
+                <ul class="list-group list-unstyled">
+                    <li class="card-pf-webview">
+                        <div class="nest">
+                            <div class="">
+                                <h3 class="font-size-20 yape-texto-purpura roboto-bold">Lo más buscado</h3>
+                            </div>
                         </div>
-                        <div class="align-text-webview">
-                            <a  href="javascript:saliendo_de_la_app()">
-                                <img src="/assets/img/cambiar_numero_webview_cda.png" width="44" height="44" class="img-phone" alt="Yape" title="Yape"/>
-                                <p class="font-size-12 text-white roboto-medium">Cambié de<br> teléfono</p>
-                            </a>
+                        <hr>
+                        <ul class="list-unstyled" >
+                            <li><a class="subtitle-menu-webview" href="/centro_de_ayuda_webview/celular-vinculado-a-otro-yape"><img src="/assets/img/cel-yape.png"><div>Celular vinculado a otro Yape</div><em class="angle-right-r icon-yape"></em></a></li>
+                            <hr>
+                            <li><a class="subtitle-menu-webview" href="/centro_de_ayuda_webview/olvide-mi-contrasena"><img src="/assets/img/contrasenha-yape.png"><div>Olvidé mi contraseña</div><em class="angle-right-r icon-yape"></em></a></li>
+                            <hr>
+                            <li><a class="subtitle-menu-webview" href="/centro_de_ayuda_webview/tengo-mi-cuenta-bloqueada"><img src="/assets/img/candado-yape.png"><div>Tengo mi cuenta bloqueada</div><em class="angle-right-r icon-yape"></em></a></li>
+                        </ul>
+                    </li>
+                    <div class="separator"></div>
+                    <li class="card-pf-webview">
+                        <div class="nest">
+                            <div class="">
+                                <h3 class="font-size-20 yape-texto-purpura roboto-bold">Retirar o depositar dinero</h3>
+                            </div>
                         </div>
-                        <div class="align-text-webview">
-                            <a href="/centro_de_ayuda_webview/categorias/">
-                                <img src="/assets/img/alerta-yape.png" width="44" height="44" class="img-phone" alt="Yape" title="Yape"/>
-                                <p class="font-size-12 text-white roboto-medium">Tengo otro <br> problema</p>
-                            </a>
+                        <hr>
+                        <ul class="list-unstyled" >
+                            <li><a class="subtitle-menu-webview" href="/centro_de_ayuda_webview/retirar-dinero"><img src="/assets/img/retirar-yape.png"><div>Retirar dinero</div><em class="angle-right-r icon-yape"></em></a></li>
+                            <hr>
+                            <li><a class="subtitle-menu-webview" href="/centro_de_ayuda_webview/depositar-dinero"><img src="/assets/img/depositar-yape.png"><div>Depositar dinero</div><em class="angle-right-r icon-yape"></em></a></li>
+                            <hr>
+                            <li><a class="subtitle-menu-webview" href="/centro_de_ayuda_webview/como-usar-cajeros"><img src="/assets/img/info-yape.png"><div>Cómo usar cajeros</div><em class="angle-right-r icon-yape"></em></a></li>
+                        </ul>
+                    </li>
+                    <div class="separator"></div>
+                    <li class="card-pf-webview">
+                        <div class="nest">
+                            <div class="">
+                                <h3 class="font-size-20 yape-texto-purpura roboto-bold">Ayuda con un movimiento</h3>
+                            </div>
+                        </div>
+                        <hr>
+                        <ul class="list-unstyled" >
+                            <li><a class="subtitle-menu-webview" href="/centro_de_ayuda_webview/transferencias"><img src="/assets/img/transferencias-yape.png"><div>Transferencias</div><em class="angle-right-r icon-yape"></em></a></li>
+                            <hr>
+                            <li><a class="subtitle-menu-webview" href="/centro_de_ayuda_webview/pago-de-servicios"><img src="/assets/img/recibos-yape.png"><div>Pago de servicios</div><em class="angle-right-r icon-yape"></em></a></li>
+                        </ul>
+
+                    </li>
+                </ul>
+            </section>
+            <div id="window-search" class="window-search">
+                <div class="header-search">
+                    <div class="row" style="height: 66px;display: flex;">
+                        <div class="col-md-11 col-lg-10 col-xl-8" style="display: flex;justify-content: space-between;align-items: center;margin: 0.5rem auto;">
+                            <img alt="logo-busqueda-yape" height="50" style="height: 50px!important;" src="../assets/img/Logo_Bolivia_3.svg">
+                            <button id="close" style="display: flex;align-items: center;justify-content: center;" type="button" class="close font-size-14" aria-hidden="true">Cerrar <em class="close-r icon-yape font-size-16"></em></button>
                         </div>
                     </div>
+                </div>
+                <hr style="margin:0">
+                <div class="container">
+                    <form class="buttonIn" style="display:flex">
+                        <em id="button-close" class="arrow-left-r icon-yape onsurface-500 mt-15 hide_desktop ml-0"></em>
+                        <label for="text-search"></label><input type="text" id="text-search" class="input-search style-input-search-mobile" placeholder="Ingresa tu consulta..."  autocomplete="off">
+                        <button id="clear" class="close-circle-b clear"></button>
+                    </form>
+                    <div class="sin_resultados_hide">
+                        <div id="sin_resultados" class="row mt-60 text-center">
+                            <img alt="busqueda yape" src="../assets/img/s-search-empty.svg">
+                            <span id="mensaje_sin_resultados" class="text-center"></span>
+                        </div>
+                    </div>
+                    <div id="searching" class="row mt-40">
+                        <div class="lds-spinner">
+                            <div class="ngcontent-plq-c38"></div>
+                            <div class="ngcontent-plq-c38"></div>
+                            <div class="ngcontent-plq-c38"></div>
+                            <div class="ngcontent-plq-c38"></div>
+                            <div class="ngcontent-plq-c38"></div>
+                            <div class="ngcontent-plq-c38"></div>
+                            <div class="ngcontent-plq-c38"></div>
+                            <div class="ngcontent-plq-c38"></div>
+                            <div class="ngcontent-plq-c38"></div>
+                            <div class="ngcontent-plq-c38"></div>
+                            <div class="ngcontent-plq-c38"></div>
+                            <div class="ngcontent-plq-c38"></div>
+                        </div>
+                    </div>
+                    <div class="result_search">
+                        <p class="title_search" >Resultado de la búsqueda:</p>
+                        <ul id="results" class="results"></ul>
+                    </div>
+                    <div class="align-recomendation" id="search_recomendation">
+                        <p class="title_search_recomendation">Lo más buscado:</p>
+                        <a href="javascript:void(0);" onclick="lo_mas_buscado_webview('/centro_de_ayuda_webview/soy-nuevo-en-yape.html#como-funciona-yape')"><p class="link-faq">¿Qué es Yape y cómo funciona?<em class="angle-right-r icon-yape color-gray-white"></em></p></a>
+                        <hr class="mb-0 mt-0">
+                        <a href="javascript:void(0);" onclick="lo_mas_buscado_webview('/centro_de_ayuda_webview/soy-nuevo-en-yape.html#necesito-abrir-una-cuenta-de-ahorros-para-tener-yape')"><p class="link-faq">¿Necesito abrir una cuenta de ahorros para tener Yape?<em class="angle-right-r icon-yape color-gray-white"></em></p></a>
+                        <hr class="mb-0 mt-0">
+                        <a href="javascript:void(0);" onclick="lo_mas_buscado_webview('/centro_de_ayuda_webview/crear-tu-cuenta-yape.html#porque-no-puedo-crear-mi-cuenta-en-yape')"><p class="link-faq">¿Por qué no puedo crear mi cuenta en Yape?<em class="angle-right-r icon-yape color-gray-white"></em></p></a>
+                        <hr class="mb-0 mt-0">
+                        <a href="javascript:void(0);" onclick="lo_mas_buscado_webview('/centro_de_ayuda_webview/crear-tu-cuenta-yape.html#como-me-creo-mi-cuenta-en-yape')"><p class="link-faq">¿Cómo me creo mi cuenta en Yape?<em class="angle-right-r icon-yape color-gray-white"></em></p></a>
+                        <hr class="mb-0 mt-0">
+                        <a href="javascript:void(0);" onclick="lo_mas_buscado_webview('/centro_de_ayuda_webview/sobre-tu-cuenta-yape.html#cuanto-dinero-puedo-tener-en-yape')"><p class="link-faq">¿Cuánto dinero puedo tener en Yape? <em class="angle-right-r icon-yape color-gray-white"></em></p></a>
                 </div>
             </div>
-        </section>
 
-        <section class="wrapper pt-10">
-            <ul class="list-group list-unstyled">
-                <li class="card-pf-webview">
-                    <div class="nest">
-                        <div class="">
-                            <h3 class="font-size-20 yape-texto-purpura roboto-bold">Lo más buscado</h3>
-                        </div>
-                    </div>
-                    <hr>
-                    <ul class="list-unstyled" >
-                        <li><a class="subtitle-menu-webview" href="/centro_de_ayuda_webview/celular-vinculado-a-otro-yape"><img src="/assets/img/cel-yape.png"><div>Celular vinculado a otro Yape</div><em class="angle-right-r icon-yape"></em></a></li>
-                        <hr>
-                        <li><a class="subtitle-menu-webview" href="/centro_de_ayuda_webview/olvide-mi-contrasena"><img src="/assets/img/contrasenha-yape.png"><div>Olvidé mi contraseña</div><em class="angle-right-r icon-yape"></em></a></li>
-                        <hr>
-                        <li><a class="subtitle-menu-webview" href="/centro_de_ayuda_webview/tengo-mi-cuenta-bloqueada"><img src="/assets/img/candado-yape.png"><div>Tengo mi cuenta bloqueada</div><em class="angle-right-r icon-yape"></em></a></li>
-                    </ul>
-                </li>
-                <div class="separator"></div>
-                <li class="card-pf-webview">
-                    <div class="nest">
-                        <div class="">
-                            <h3 class="font-size-20 yape-texto-purpura roboto-bold">Retirar o depositar dinero</h3>
-                        </div>
-                    </div>
-                    <hr>
-                    <ul class="list-unstyled" >
-                        <li><a class="subtitle-menu-webview" href="/centro_de_ayuda_webview/retirar-dinero"><img src="/assets/img/retirar-yape.png"><div>Retirar dinero</div><em class="angle-right-r icon-yape"></em></a></li>
-                        <hr>
-                        <li><a class="subtitle-menu-webview" href="/centro_de_ayuda_webview/depositar-dinero"><img src="/assets/img/depositar-yape.png"><div>Depositar dinero</div><em class="angle-right-r icon-yape"></em></a></li>
-                        <hr>
-                        <li><a class="subtitle-menu-webview" href="/centro_de_ayuda_webview/como-usar-cajeros"><img src="/assets/img/info-yape.png"><div>Cómo usar cajeros</div><em class="angle-right-r icon-yape"></em></a></li>
-                    </ul>
-                </li>
-                <div class="separator"></div>
-                <li class="card-pf-webview">
-                    <div class="nest">
-                        <div class="">
-                            <h3 class="font-size-20 yape-texto-purpura roboto-bold">Ayuda con un movimiento</h3>
-                        </div>
-                    </div>
-                    <hr>
-                    <ul class="list-unstyled" >
-                        <li><a class="subtitle-menu-webview" href="/centro_de_ayuda_webview/transferencias"><img src="/assets/img/transferencias-yape.png"><div>Transferencias</div><em class="angle-right-r icon-yape"></em></a></li>
-                        <hr>
-                        <li><a class="subtitle-menu-webview" href="/centro_de_ayuda_webview/pago-de-servicios"><img src="/assets/img/recibos-yape.png"><div>Pago de servicios</div><em class="angle-right-r icon-yape"></em></a></li>
-                    </ul>
-
-                </li>
-            </ul>
-        </section>
-
-<!--        <section class="section-4" style="background-color:#ffffff">-->
-<!--            <div class="container pt-32">-->
-<!--                <div class="row align-center-item ">-->
-<!--                    <div class="col-md-offset-1 col-md-6 indent-element-section" >-->
-<!--                        <h2 class="font-weight-bold yape-texto-purpura mb-30 section_2_beneficios">¿Tienes más dudas sobre Yape?</h2>-->
-<!--                        <span class="mb-30 section_2_1_beneficios">Comunícate con nuestro canal oficial de WhatsApp y aclara todas tus dudas.</span>-->
-<!--                        <a href="https://api.whatsapp.com/send?phone=59172007654&text=Hola%2C+vengo+de+la+app%2C+tengo+una+duda+sobre+Yape" target="_blank" type="button" class="btn_cta mb-20"><img src="../assets/img/whatsapp.png" class="mr-5" alt="whatsapp yape soporte">WhatsApp</a>-->
-<!--                    </div>-->
-<!--                    <div class=" col-md-4 text-center">-->
-<!--                        <img src="../assets/img/yape-bolivia-ayuda.svg" alt="Yape ayuda" title="Yape"/>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </section>-->
-
-        <div id="window-search" class="window-search">
-            <div class="header-search">
-                <div class="row" style="height: 66px;display: flex;">
-                    <div class="col-md-11 col-lg-10 col-xl-8" style="display: flex;justify-content: space-between;align-items: center;margin: 0.5rem auto;">
-                        <img alt="logo-busqueda-yape" height="50" style="height: 50px!important;" src="../assets/img/Logo_Bolivia_3.svg">
-                        <button id="close" style="display: flex;align-items: center;justify-content: center;" type="button" class="close font-size-14" aria-hidden="true">Cerrar <em class="close-r icon-yape font-size-16"></em></button>
-                    </div>
-                </div>
-            </div>
-            <hr style="margin:0">
-            <div class="container">
-                <form class="buttonIn" style="display:flex">
-                    <em id="button-close" class="arrow-left-r icon-yape onsurface-500 mt-15 hide_desktop ml-0"></em>
-                    <label for="text-search"></label><input type="text" id="text-search" class="input-search style-input-search-mobile" placeholder="Ingresa tu consulta..."  autocomplete="off">
-                    <button id="clear" class="close-circle-b clear"></button>
-                </form>
-                <div class="sin_resultados_hide">
-                    <div id="sin_resultados" class="row mt-60 text-center">
-                        <img alt="busqueda yape" src="../assets/img/s-search-empty.svg">
-                        <span id="mensaje_sin_resultados" class="text-center"></span>
-                    </div>
-                </div>
-                <div id="searching" class="row mt-40">
-                    <div class="lds-spinner">
-                        <div class="ngcontent-plq-c38"></div>
-                        <div class="ngcontent-plq-c38"></div>
-                        <div class="ngcontent-plq-c38"></div>
-                        <div class="ngcontent-plq-c38"></div>
-                        <div class="ngcontent-plq-c38"></div>
-                        <div class="ngcontent-plq-c38"></div>
-                        <div class="ngcontent-plq-c38"></div>
-                        <div class="ngcontent-plq-c38"></div>
-                        <div class="ngcontent-plq-c38"></div>
-                        <div class="ngcontent-plq-c38"></div>
-                        <div class="ngcontent-plq-c38"></div>
-                        <div class="ngcontent-plq-c38"></div>
-                    </div>
-                </div>
-                <div class="result_search">
-                    <p class="title_search" >Resultado de la búsqueda:</p>
-                    <ul id="results" class="results"></ul>
-                </div>
-                <div class="align-recomendation" id="search_recomendation">
-                    <p class="title_search_recomendation">Lo más buscado:</p>
-                    <a href="javascript:void(0);" onclick="lo_mas_buscado_webview('/centro_de_ayuda_webview/soy-nuevo-en-yape.html#como-funciona-yape')"><p class="link-faq">¿Qué es Yape y cómo funciona?<em class="angle-right-r icon-yape color-gray-white"></em></p></a>
-                    <hr class="mb-0 mt-0">
-                    <a href="javascript:void(0);" onclick="lo_mas_buscado_webview('/centro_de_ayuda_webview/soy-nuevo-en-yape.html#necesito-abrir-una-cuenta-de-ahorros-para-tener-yape')"><p class="link-faq">¿Necesito abrir una cuenta de ahorros para tener Yape?<em class="angle-right-r icon-yape color-gray-white"></em></p></a>
-                    <hr class="mb-0 mt-0">
-                    <a href="javascript:void(0);" onclick="lo_mas_buscado_webview('/centro_de_ayuda_webview/crear-tu-cuenta-yape.html#porque-no-puedo-crear-mi-cuenta-en-yape')"><p class="link-faq">¿Por qué no puedo crear mi cuenta en Yape?<em class="angle-right-r icon-yape color-gray-white"></em></p></a>
-                    <hr class="mb-0 mt-0">
-                    <a href="javascript:void(0);" onclick="lo_mas_buscado_webview('/centro_de_ayuda_webview/crear-tu-cuenta-yape.html#como-me-creo-mi-cuenta-en-yape')"><p class="link-faq">¿Cómo me creo mi cuenta en Yape?<em class="angle-right-r icon-yape color-gray-white"></em></p></a>
-                    <hr class="mb-0 mt-0">
-                    <a href="javascript:void(0);" onclick="lo_mas_buscado_webview('/centro_de_ayuda_webview/sobre-tu-cuenta-yape.html#cuanto-dinero-puedo-tener-en-yape')"><p class="link-faq">¿Cuánto dinero puedo tener en Yape? <em class="angle-right-r icon-yape color-gray-white"></em></p></a>
-            </div>
         </div>
-
-    </div>
-
-    <script src="../assets/js/jquery.min.js"></script>
-    <script src="../assets/js/elasticlunr.min.js"></script>
-    <script src="../assets/js/js_principal.min.js"></script>
-    <script src="../assets/js/sweetalert2.js"></script>
-    <script src="../assets/js/ayuda.min.js"></script>
-    <script>
-        // Elasticlunr.js
-        var config = {
-            expand: true
-        };
-        elasticlunr.synonyms = function (token) {
-            if (token === null || token === undefined) {
-                throw new Error('token should not be undefined');
-            }
-            switch (token) {
-                case 'desvincular':
-                    return 'Cambié';
-                case 'perdi':
-                    return 'Cambié';
-                default:
-                    return token;
-            }
-        };
-
-        elasticlunr.Pipeline.registerFunction(elasticlunr.synonyms, 'synonyms');
-
-        var index = elasticlunr(function () {
-            // this.use(elasticlunr.es);
-            this.addField('question');
-            this.addField('tags');
-            this.setRef('link');
-            this.pipeline.before(elasticlunr.trimmer, elasticlunr.synonyms);
-        });
-
-        var displayResult = function(val,result){
-            $('.results').html('');
-            result.map(function(el){
-                // console.log("result",el.doc);
-                var li = $('<li></li>');
-                var a = $('<a href='+el.doc.link+' target="_self">'+ createSearchResultBlurb(val,el.doc.question)+'</a><i class="angle-right-r icon-yape"></i>');
-                li.append(a);
-                // li.append('<p>'+el.doc.answer+'</p>');
-                $('.results').append(li);
-            });
-            return result;
-        }
-
-        function createSearchResultBlurb(query, pageContent){
-            const reg = new RegExp(query,"gi");
-            pageContent = pageContent.replace(reg, `<strong class="highlight-search">${query}</strong>`);
-            return pageContent;
-        }
-
-        $('#clear').on('click', function(e) {
-            e.preventDefault();
-            // console.log('clear text.');
-            $("#text-search").val('');
-            $('.results').html('');
-            $('#clear').css('display', 'none');
-            $('.title_search').css("display","none");
-            $(".sin_resultados_hide").css("display","none");
-            $('#search_recomendation').css('display', 'block');
-            return false;
-        });
-        $(".search-js").on('click', function(){
-            var val = $("#text-search").val();
-            // console.log('searched for: '+val);
-            var result = index.search(val, config);
-            // console.log("result:",result);
-            displayResult(val,result);
-        });
-
-        $.ajax({
-            url: '../library_webview.json',
-            success: function(response){
-                // console.log(response);
-                $('button').prop('disabled', false);
-                response.map(function(el, i){
-                    el.id = i;
-                    index.addDoc(el);
-                });
-            },
-            error: function(jqxhr, status, exception) {
-                // console.log('Exception:', status);
-            },
-            dataType: 'json'
-        });
-
-        $(".input-search").on("keyup",(e)=>{
-            $('.title_search').css("display","none");
-            $('.result_search').css('display', 'none');
-            $("#searching").css("display","block");
-            var val = $("#text-search").val();
-            // console.log('searched for: '+val);
-            // console.log("config",config);
-            var result = index.search(val, config);
-            if(val!=""){
-                $('.results').html('');
-                $(".sin_resultados_hide").css("display","none");
-                $('.result_search').css('display', 'block');
-                $('#clear').css('display', 'block');
-                $('#search_recomendation').css('display', 'none');
-            }else{
-                $("#searching").css("display","none");
-                $(".sin_resultados_hide").css("display","none");
-                $('.result_search').css('display', 'none');
-                $('#clear').css('display', 'none');
-                $('#search_recomendation').css('display', 'block');
-            }
-            const timeoutSearch = setTimeout(function(){
-                $("#searching").css("display","none");
-                var resultado=displayResult(val,result);
-                if(resultado.length==0 && val!=""){
-                    $('.title_search').css("display","none");
-                    $(".sin_resultados_hide").css("display","block");
-                    $("#mensaje_sin_resultados").html("No se encontraron<br>resultados para<br>'"+val+"'");
-                    // console.log("hubieron resultados");
-                }else{
-                    $('.title_search').css("display","block");
-                    $(".sin_resultados_hide").css("display","none");
-                    // console.log("sin resultados");
+        </div>
+        <script src="../assets/js/jquery.min.js"></script>
+        <script src="../assets/js/elasticlunr.min.js"></script>
+        <script src="../assets/js/js_principal.min.js"></script>
+        <script src="../assets/js/sweetalert2.js"></script>
+        <script src="../assets/js/ayuda.min.js"></script>
+        <script>
+            // Elasticlunr.js
+            var config = {
+                expand: true
+            };
+            elasticlunr.synonyms = function (token) {
+                if (token === null || token === undefined) {
+                    throw new Error('token should not be undefined');
                 }
-            },1000);
-        })
-        window.addEventListener('beforeunload', function (e) {
-            sessionStorage.clear()
-        });
+                switch (token) {
+                    case 'desvincular':
+                        return 'Cambié';
+                    case 'perdi':
+                        return 'Cambié';
+                    default:
+                        return token;
+                }
+            };
 
-        $('#button-close').on('click', function() {
-            $('body').css('overflow-y', 'visible');
-            document.getElementById('window-search').style.display = 'none'
+            elasticlunr.Pipeline.registerFunction(elasticlunr.synonyms, 'synonyms');
 
-            if(/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream){
-                $('.input-search').css('top', '130%');
+            var index = elasticlunr(function () {
+                // this.use(elasticlunr.es);
+                this.addField('question');
+                this.addField('tags');
+                this.setRef('link');
+                this.pipeline.before(elasticlunr.trimmer, elasticlunr.synonyms);
+            });
+
+            var displayResult = function(val,result){
+                $('.results').html('');
+                result.map(function(el){
+                    // console.log("result",el.doc);
+                    var li = $('<li></li>');
+                    var a = $('<a href='+el.doc.link+' target="_self">'+ createSearchResultBlurb(val,el.doc.question)+'</a><i class="angle-right-r icon-yape"></i>');
+                    li.append(a);
+                    // li.append('<p>'+el.doc.answer+'</p>');
+                    $('.results').append(li);
+                });
+                return result;
             }
-            if (/android/i.test(userAgent)) {
-                $('.input-search').css('top', '180%');
+
+            function createSearchResultBlurb(query, pageContent){
+                const reg = new RegExp(query,"gi");
+                pageContent = pageContent.replace(reg, `<strong class="highlight-search">${query}</strong>`);
+                return pageContent;
             }
-        });
-        $('#close').on('click', function() {
-            $('body').css('overflow-y', 'visible');
-            document.getElementById('window-search').style.display = 'none'
-            if(/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream){
-                $('.input-search').css('top', '130%');
-            }if (/android/i.test(userAgent)) {
-                $('.input-search').css('top', '180%');
+
+            $('#clear').on('click', function(e) {
+                e.preventDefault();
+                // console.log('clear text.');
+                $("#text-search").val('');
+                $('.results').html('');
+                $('#clear').css('display', 'none');
+                $('.title_search').css("display","none");
+                $(".sin_resultados_hide").css("display","none");
+                $('#search_recomendation').css('display', 'block');
+                return false;
+            });
+            $(".search-js").on('click', function(){
+                var val = $("#text-search").val();
+                // console.log('searched for: '+val);
+                var result = index.search(val, config);
+                // console.log("result:",result);
+                displayResult(val,result);
+            });
+
+            $.ajax({
+                url: '../library_webview.json',
+                success: function(response){
+                    // console.log(response);
+                    $('button').prop('disabled', false);
+                    response.map(function(el, i){
+                        el.id = i;
+                        index.addDoc(el);
+                    });
+                },
+                error: function(jqxhr, status, exception) {
+                    // console.log('Exception:', status);
+                },
+                dataType: 'json'
+            });
+
+            $(".input-search").on("keyup",(e)=>{
+                $('.title_search').css("display","none");
+                $('.result_search').css('display', 'none');
+                $("#searching").css("display","block");
+                var val = $("#text-search").val();
+                // console.log('searched for: '+val);
+                // console.log("config",config);
+                var result = index.search(val, config);
+                if(val!=""){
+                    $('.results').html('');
+                    $(".sin_resultados_hide").css("display","none");
+                    $('.result_search').css('display', 'block');
+                    $('#clear').css('display', 'block');
+                    $('#search_recomendation').css('display', 'none');
+                }else{
+                    $("#searching").css("display","none");
+                    $(".sin_resultados_hide").css("display","none");
+                    $('.result_search').css('display', 'none');
+                    $('#clear').css('display', 'none');
+                    $('#search_recomendation').css('display', 'block');
+                }
+                const timeoutSearch = setTimeout(function(){
+                    $("#searching").css("display","none");
+                    var resultado=displayResult(val,result);
+                    if(resultado.length==0 && val!=""){
+                        $('.title_search').css("display","none");
+                        $(".sin_resultados_hide").css("display","block");
+                        $("#mensaje_sin_resultados").html("No se encontraron<br>resultados para<br>'"+val+"'");
+                        // console.log("hubieron resultados");
+                    }else{
+                        $('.title_search').css("display","block");
+                        $(".sin_resultados_hide").css("display","none");
+                        // console.log("sin resultados");
+                    }
+                },1000);
+            })
+            window.addEventListener('beforeunload', function (e) {
+                sessionStorage.clear()
+            });
+
+            $('#button-close').on('click', function() {
+                $('body').css('overflow-y', 'visible');
+                document.getElementById('window-search').style.display = 'none'
+
+                if(/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream){
+                    $('.input-search').css('top', '130%');
+                }
+                if (/android/i.test(userAgent)) {
+                    $('.input-search').css('top', '180%');
+                }
+            });
+            $('#close').on('click', function() {
+                $('body').css('overflow-y', 'visible');
+                document.getElementById('window-search').style.display = 'none'
+                if(/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream){
+                    $('.input-search').css('top', '130%');
+                }if (/android/i.test(userAgent)) {
+                    $('.input-search').css('top', '180%');
+                }
+            });
+            function MakeSearch()
+            {
+                document.getElementById('window-search').style.display='block';
+                let search = document.getElementById('text-search');
+                search.focus();
+                search.select();
+                $('body').css('overflow-y', 'hidden');
+                if(/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream){
+                    $('.input-search').css('top', '0%');
+                }
+                if (/android/i.test(userAgent)) {
+                    $('.input-search').css('top', '180%');
+                }
             }
-        });
-        function MakeSearch()
-        {
-            document.getElementById('window-search').style.display='block';
-            let search = document.getElementById('text-search');
-            search.focus();
-            search.select();
-            $('body').css('overflow-y', 'hidden');
-            if(/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream){
-                $('.input-search').css('top', '0%');
-            }
-            if (/android/i.test(userAgent)) {
-                $('.input-search').css('top', '180%');
-            }
-        }
-    </script>
-</body>
+        </script>
+    </body>
 
 </html>
