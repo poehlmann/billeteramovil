@@ -10,6 +10,7 @@
   <component name="ChangeListManager">
     <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="nuevo webview">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/web.config" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -293,14 +294,7 @@
       <workItem from="1728044150069" duration="2527000" />
       <workItem from="1728133854927" duration="6429000" />
       <workItem from="1728308500897" duration="34116000" />
-      <workItem from="1728650095917" duration="16652000" />
-    </task>
-    <task id="LOCAL-00147" summary="webconfig">
-      <created>1721664798730</created>
-      <option name="number" value="00147" />
-      <option name="presentableId" value="LOCAL-00147" />
-      <option name="project" value="LOCAL" />
-      <updated>1721664798731</updated>
+      <workItem from="1728650095917" duration="18289000" />
     </task>
     <task id="LOCAL-00148" summary="webconfig">
       <created>1721664855211</created>
@@ -638,7 +632,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728738520624</updated>
     </task>
-    <option name="localTasksCounter" value="197" />
+    <task id="LOCAL-00197" summary="nuevo webview">
+      <created>1728740063067</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1728740063067</updated>
+    </task>
+    <option name="localTasksCounter" value="198" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
