@@ -8,9 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="nuevo webview">
-      <change beforePath="$PROJECT_DIR$/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/web.config" afterDir="false" />
-    </list>
+    <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="nuevo webview" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -293,21 +291,7 @@
       <workItem from="1728044150069" duration="2527000" />
       <workItem from="1728133854927" duration="6429000" />
       <workItem from="1728308500897" duration="34116000" />
-      <workItem from="1728650095917" duration="14087000" />
-    </task>
-    <task id="LOCAL-00142" summary="actualizacion pagina principal">
-      <created>1721075625197</created>
-      <option name="number" value="00142" />
-      <option name="presentableId" value="LOCAL-00142" />
-      <option name="project" value="LOCAL" />
-      <updated>1721075625197</updated>
-    </task>
-    <task id="LOCAL-00143" summary="actualizacion pagina principal">
-      <created>1721101625671</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
-      <option name="project" value="LOCAL" />
-      <updated>1721101625671</updated>
+      <workItem from="1728650095917" duration="14893000" />
     </task>
     <task id="LOCAL-00144" summary="actualizacion pagina principal">
       <created>1721195329029</created>
@@ -638,7 +622,21 @@
       <option name="project" value="LOCAL" />
       <updated>1728733813347</updated>
     </task>
-    <option name="localTasksCounter" value="192" />
+    <task id="LOCAL-00192" summary="nuevo webview">
+      <created>1728737246160</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1728737246160</updated>
+    </task>
+    <task id="LOCAL-00193" summary="nuevo webview">
+      <created>1728737354351</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1728737354351</updated>
+    </task>
+    <option name="localTasksCounter" value="194" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
