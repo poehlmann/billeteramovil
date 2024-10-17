@@ -10,19 +10,8 @@
   <component name="ChangeListManager">
     <list default="true" id="389691ed-1153-4ac8-8e46-151b2a0a08e2" name="Changes" comment="nuevo webview">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/crear-tu-cuenta-yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/crear-tu-cuenta-yape/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/depositar-dinero-a-yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/depositar-dinero-a-yape/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/enviar-y-recibir-yapeos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/enviar-y-recibir-yapeos/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/recargas-yape/como-recargar-credito-a-mi-celular/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/recargas-yape/como-recargar-credito-a-mi-celular/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/recargas-yape/hay-comisiones-por-recargar-credito/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/recargas-yape/hay-comisiones-por-recargar-credito/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/recargas-yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/recargas-yape/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/recargas-yape/puedo-recargar-credito-a-otra-persona/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/recargas-yape/puedo-recargar-credito-a-otra-persona/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/retirar-dinero-de-yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/retirar-dinero-de-yape/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/sobre-tu-cuenta-yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/sobre-tu-cuenta-yape/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/soy-nuevo-en-yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/soy-nuevo-en-yape/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/temas-urgentes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/temas-urgentes/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/yape-para-tu-negocio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/yape-para-tu-negocio/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/yapeo-de-servicios/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/yapeo-de-servicios/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/soy-nuevo-en-yape/necesito-abrir-una-cuenta-de-ahorros-para-tener-yape/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/soy-nuevo-en-yape/necesito-abrir-una-cuenta-de-ahorros-para-tener-yape/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/soy-nuevo-en-yape/que-es-yape-y-como-funciona/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/categorias/soy-nuevo-en-yape/que-es-yape-y-como-funciona/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/centro_de_ayuda_webview/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/centro_de_ayuda_webview/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -310,7 +299,7 @@
       <workItem from="1728650095917" duration="18289000" />
       <workItem from="1729095933898" duration="2896000" />
       <workItem from="1729099405334" duration="210000" />
-      <workItem from="1729099628886" duration="17140000" />
+      <workItem from="1729099628886" duration="19305000" />
     </task>
     <task id="LOCAL-00148" summary="webconfig">
       <created>1721664855211</created>
