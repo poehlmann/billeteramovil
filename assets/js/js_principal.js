@@ -230,3 +230,27 @@ function mapa_cajeros() {
     }
 }
 
+//videos para web y movil
+function video_web_mobile(videoweb,videomobile,id){
+    var iframe_agentes = document.createElement('iframe');
+    iframe_agentes.width = "100%";
+    if( window.innerWidth <= 997 ) {
+        iframe_agentes.height = "900px";
+        iframe_agentes.setAttribute("src", videomobile);
+    }
+    else {
+        iframe_agentes.height = "615px";
+        iframe_agentes.setAttribute("src", videoweb);
+    }
+    document.getElementById(id).appendChild(iframe_agentes);
+}
+
+function video_deposita_desde_agentes(){
+    video_web_mobile("https://www.youtube.com/embed/RblAlClazEc?si=fepxsSIRaoLioIJG","https://www.youtube.com/embed/SQOugA_rbKA?si=mOdA6xWUk0m-CteU","video_depositaagente")
+}
+function video_deposita_desde_cajeros(){
+    video_web_mobile("https://www.youtube.com/embed/RblAlClazEc?si=fepxsSIRaoLioIJG","https://www.youtube.com/embed/9lsrGsjBJx4?si=nyvL8AZKsY7tpuRp","video_depositacajero")
+}
+function video_deposita_desde_otro_yape(){
+    video_web_mobile("https://www.youtube.com/embed/c7-wSQr8PcA?si=KVXgo6tTTHVPI7LY","https://www.youtube.com/embed/S_RFR55Mtyg?si=nyvL8AZKsY7tpuRp","video_depositaotroyape")
+}

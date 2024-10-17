@@ -2874,7 +2874,8 @@ button.close{padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance
 
 .map-responsive{
     overflow:hidden;
-    padding-bottom:56.25%;
+    /*padding-bottom:56.25%;*/
+    padding-bottom: 75vh;
     position:relative;
     height:0;
 }
@@ -3266,7 +3267,52 @@ p{
 /*    display:block;*/
 /*}*/
 
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+.stroke-dotted {
+    opacity: 0;
+    stroke-dasharray: 4, 5;
+    stroke-width: 1px;
+    transform-origin: 50% 50%;
+    animation: spin 4s infinite linear;
+    transition: opacity 1s ease, stroke-width 1s ease;
+}
+.stroke-solid {
+    stroke-dashoffset: 0;
+    stroke-dashArray: 300;
+    stroke-width: 4px;
+    transition: stroke-dashoffset 1s ease, opacity 1s ease;
+}
+.icon {
+    transform-origin: 50% 50%;
+    transition: transform 200ms ease-out;
+}
+#play:hover .stroke-dotted {
+    stroke-width: 4px;
+    opacity: 1;
+}
+#play:hover .stroke-solid {
+    opacity: 0;
+    stroke-dashoffset: 300;
+}
+#play:hover .icon {
+    transform: scale(1.05);
+}
+#play {
+    cursor: pointer;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
 @media screen and (max-width: 991px) {
+    .map-responsive{
+        padding-bottom: 45vh;
+    }
 /*    .mobileshow {*/
 /*        display:block; }*/
 /*    .desktopshow {*/
@@ -4132,7 +4178,16 @@ section.section--sac .sac-channels .sac-channel a {
 .indent-mas-beneficios{
     display: flex;align-items: baseline;justify-content: center;
 }
-
+.img-card-zoom{
+    height: 200px;
+    overflow: hidden;
+}
+.img-card-zoom img{
+    transition: transform .8s ease;
+}
+.img-card-zoom:hover img{
+    transform: scale(1.2);
+}
 @media (min-width: 1024px) {
 
     .home-showcase {
